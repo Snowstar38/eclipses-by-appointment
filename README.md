@@ -1,0 +1,46 @@
+# Eclipses by Appointment
+
+![104 eclipsing star pairs across the sky](overview.png)
+
+**104 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
+satellite and ESA's Gaia mission.**
+
+Some stars come in pairs that orbit each other. When the orbit is seen nearly edge-on, each star passes in front of
+the other once per orbit, and from Earth the pair's light dips on a regular schedule. Gaia measured the orbits of
+hundreds of thousands of such pairs from the tiny shifts in the colour of their light as the stars swing towards and
+away from us. This work used those orbits to predict *when* an
+eclipse should happen, looked in TESS's brightness measurements at exactly those times, and found eclipses that
+nobody had catalogued.
+
+## The paper
+
+- [`paper.pdf`](paper.pdf): the paper, shortened version of 2026 October 14 (17 pages; the catalogue of all 104
+  systems with their ephemerides and next eclipses is its Appendix A)
+- [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
+- [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
+
+*Eclipses by Appointment: 104 Uncatalogued Eclipsing Systems, Catalogue Corrections and a Measured Null Planet Search
+from Public TESS and Gaia DR3 Data.* Submitted to the Journal of the AAVSO on 2026 October 14; under review; not yet
+refereed. The first outside reader said, rightly, that 57 pages was not a reviewable paper and that it read like a
+working notebook. The shortened version above is the same results written as a journal paper: about 5,000 words of
+text, the systems in one table, a literature review, and the per-object detail left to the supplement. It also adds
+one result found after submission: ASAS-SN photometry from 2014 to 2018 shows the eclipses of 20 of the 55 systems it
+could test, at the predicted times, with the depths matching the predictions in the 11 examined.
+
+In short: 104 eclipsing systems (93 confirmed, 11 probable) that are in no vetted variable-star or eclipsing-binary
+catalogue; twelve Gaia orbit solutions the eclipses contradict; six new heartbeat stars; eleven corrections to existing
+catalogue entries; old Harvard photographic plates (1890-1990) that show the eclipses of 17 systems at the predicted
+times; a transit search of about 3,100 nearby red dwarfs that found no new planet, with the reason measured; and the
+predicted time of the next eclipse for every system, so that anyone with a telescope can check them.
+
+## How it was done
+
+The searches, measurements, checks and writing were carried out by AI agents (Claude models from Anthropic and GPT
+models from OpenAI) running on one home computer, with a human author who posed the question, directed the work and is
+responsible for what is claimed. Every candidate from the main searches was re-analysed independently with separately written code before
+being counted. Section 6 of the paper sets out who did what.
+
+## Data and code
+
+Everything behind the paper (code, per-system analysis reports, ephemerides, figures and tables) is in a public data
+deposit, available from the author.
