@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version of 2026 October 14 (17 pages; the catalogue of all 104
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 14 afternoon (18 pages; the catalogue of all 104
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
@@ -23,9 +23,12 @@ nobody had catalogued.
 from Public TESS and Gaia DR3 Data.* Submitted to the Journal of the AAVSO on 2026 October 14; under review; not yet
 refereed. The first outside reader said, rightly, that 57 pages was not a reviewable paper and that it read like a
 working notebook. The shortened version above is the same results written as a journal paper: about 5,000 words of
-text, the systems in one table, a literature review, and the per-object detail left to the supplement. It also adds
-one result found after submission: ASAS-SN photometry from 2014 to 2018 shows the eclipses of 20 of the 55 systems it
-could test, at the predicted times, with the depths matching the predictions in the 11 examined.
+text, the systems in one table, a literature review, and the per-object detail left to the supplement. It also carries
+results found after submission: ASAS-SN photometry from 2014 to 2018 shows the eclipses of 20 of the 55 systems it
+could test, at the predicted times, with the depths matching the predictions in the 11 examined; ASAS-3 photometry
+from 2000 to 2009 shows them for 10 of 34; and one more system (A108) is seen on the Harvard plates. One sentence of
+the submitted version is corrected: on the plates A63 is consistent with its TESS eclipse depth, not absent, once the
+eclipse shape is used.
 
 In short: 104 eclipsing systems (93 confirmed, 11 probable) that are in no vetted variable-star or eclipsing-binary
 catalogue; twelve Gaia orbit solutions the eclipses contradict; six new heartbeat stars; eleven corrections to existing
