@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 14 afternoon (18 pages; the catalogue of all 104
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 15 (17 pages; the catalogue of all 104
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
@@ -30,6 +30,17 @@ from 2000 to 2009 shows them for 10 of 34; and one more system (A108) is seen on
 the submitted version is corrected: on the plates A63 is consistent with its TESS eclipse depth, not absent, once the
 eclipse shape is used.
 
+**Prior work (added 2026 October 15).** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo
+on 2026 September 27, two weeks before this work began
+([10.5281/zenodo.22998328](https://doi.org/10.5281/zenodo.22998328): 9,389 Gaia spectroscopic orbits, 93 eclipsing
+systems at 13 to 119 days, object list embargoed until his paper is accepted), and on October 13 an open record of the
+same test on near-edge-on Gaia astrometric orbits ([10.5281/zenodo.23342415](https://doi.org/10.5281/zenodo.23342415)).
+Both versions of our paper say we were not aware of a previous search of this kind; that was true when written and is
+now false, because our literature search did not include Zenodo. The current `paper.pdf` cites both records and drops the
+claim. Matched by Gaia source identifier, the open October record shares one detection with us (HD 170829, our A20) and
+lists three more of our objects among its unclaimed candidates. The overlap with the embargoed September list is not yet
+known. A reader of this work pointed us to the records.
+
 In short: 104 eclipsing systems (93 confirmed, 11 probable) that are in no vetted variable-star or eclipsing-binary
 catalogue; twelve Gaia orbit solutions the eclipses contradict; six new heartbeat stars; eleven corrections to existing
 catalogue entries; old Harvard photographic plates (1890-1990) that show the eclipses of 17 systems at the predicted
@@ -42,6 +53,16 @@ The searches, measurements, checks and writing were carried out by AI agents (Cl
 models from OpenAI) running on one home computer, with a human author who posed the question, directed the work and is
 responsible for what is claimed. Every candidate from the main searches was re-analysed independently with separately written code before
 being counted. Section 6 of the paper sets out who did what.
+
+## Check it yourself
+
+[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (140 rows: the 104 systems, the heartbeat stars, the
+corrections and the rest), with identifiers, coordinates, magnitude, the ephemeris as published, the eclipse depth and
+duration, the **next predicted primary eclipse in UTC** (computed 2026 October 15; for the shortest periods, step
+forward by whole periods), and the one-line `lightkurve` call that downloads the raw TESS light curve. Two cautions:
+`sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
+uncertainty; and the UTC times are for an observer on Earth (light-travel time to the barycentre removed). Rows without
+a period or an epoch are kept, with the reason in `note`.
 
 ## Data and code
 
