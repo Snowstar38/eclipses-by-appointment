@@ -1,8 +1,8 @@
 # Eclipses by Appointment
 
-![104 eclipsing star pairs across the sky](overview.png)
+![105 eclipsing star pairs across the sky](overview.png)
 
-**104 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
+**105 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
 satellite and ESA's Gaia mission.**
 
 Some stars come in pairs that orbit each other. When the orbit is seen nearly edge-on, each star passes in front of
@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 17 (18 pages; the catalogue of all 104
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 17 (19 pages; the catalogue of all 105
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
@@ -41,7 +41,7 @@ claim. Matched by Gaia source identifier, the open October record shares one det
 lists three more of our objects among its unclaimed candidates. The overlap with the embargoed September list is not yet
 known. A reader of this work pointed us to the records.
 
-In short: 104 eclipsing systems (93 confirmed, 11 probable) that are in no vetted variable-star or eclipsing-binary
+In short: 105 eclipsing systems (94 confirmed, 11 probable) that are in no vetted variable-star or eclipsing-binary
 catalogue; twelve Gaia orbit solutions the eclipses contradict; six new heartbeat stars; eleven corrections to existing
 catalogue entries; old Harvard photographic plates (1890-1990) that show the eclipses of 17 systems at the predicted
 times; a transit search of about 3,100 nearby red dwarfs that found no new planet, with the reason measured; and the
@@ -56,7 +56,7 @@ being counted. Section 6 of the paper sets out who did what.
 
 ## Check it yourself
 
-[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (140 rows: the 104 systems, the heartbeat stars, the
+[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (140 rows: the first 104 systems, before A110 was added, the heartbeat stars, the
 corrections and the rest), with identifiers, coordinates, magnitude, the ephemeris as published, the eclipse depth and
 duration, the **next predicted primary eclipse in UTC** (computed 2026 October 15; for the shortest periods, step
 forward by whole periods), and the one-line `lightkurve` call that downloads the raw TESS light curve. Two cautions:
