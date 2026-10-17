@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 15 (17 pages; the catalogue of all 104
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 17 (18 pages; the catalogue of all 104
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
@@ -63,6 +63,8 @@ forward by whole periods), and the one-line `lightkurve` call that downloads the
 `sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
 uncertainty; and the UTC times are for an observer on Earth (light-travel time to the barycentre removed). Rows without
 a period or an epoch are kept, with the reason in `note`.
+
+[`batch-candidates.csv`](batch-candidates.csv) (added 2026 October 17) is one row per candidate from the period folds of Gaia orbits shorter than 20 d at G 10-11.5: 266 rows that passed the same tests run in bulk (conjunction attribution on Gaia's orbit, per-sector depth consistency, difference imaging), with the status each row holds after an adversarial review that queried ExoFOP, VSX and SIMBAD and re-folded 60 at random from fresh TESS data. 242 are `candidate`; the rest are TESS Objects of Interest already called false positives or eclipsing binaries, known signals that Gaia's orbit newly attributes to a stellar companion, VSX variables whose period or type the eclipses correct, or one hold. None is counted among the 104, because none has had the per-object re-analysis the paper requires; they are published so that anyone can check them.
 
 ## Data and code
 
