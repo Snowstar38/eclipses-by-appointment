@@ -56,9 +56,9 @@ being counted. Section 6 of the paper sets out who did what.
 
 ## Check it yourself
 
-[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (140 rows: the first 104 systems, before A110 was added, the heartbeat stars, the
-corrections and the rest), with identifiers, coordinates, magnitude, the ephemeris as published, the eclipse depth and
-duration, the **next predicted primary eclipse in UTC** (computed 2026 October 15; for the shortest periods, step
+[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (141 rows: the 105 systems, the heartbeat stars,
+the corrections and the rest), with identifiers, coordinates, magnitude, the ephemeris as published, the eclipse
+depth and duration, the **next predicted primary eclipse in UTC** (computed 2026 October 19 01:20 UT; for the shortest periods, step
 forward by whole periods), and the one-line `lightkurve` call that downloads the raw TESS light curve. Two cautions:
 `sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
 uncertainty; and the UTC times are for an observer on Earth (light-travel time to the barycentre removed). Rows without
