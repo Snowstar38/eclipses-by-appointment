@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 19 (19 pages; the catalogue of all 146
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 19 (23 pages; the catalogue of all 146
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
