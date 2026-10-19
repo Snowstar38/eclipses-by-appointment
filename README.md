@@ -56,13 +56,19 @@ being counted. Section 6 of the paper sets out who did what.
 
 ## Check it yourself
 
-[`CHECKCARD.csv`](CHECKCARD.csv) is one row per catalogued object (141 rows: the first 105 systems, before A111&ndash;A118 were added, the heartbeat stars,
-the corrections and the rest), with identifiers, coordinates, magnitude, the ephemeris as published, the eclipse
-depth and duration, the **next predicted primary eclipse in UTC** (computed 2026 October 19 01:20 UT; for the shortest periods, step
-forward by whole periods), and the one-line `lightkurve` call that downloads the raw TESS light curve. Two cautions:
-`sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
-uncertainty; and the UTC times are for an observer on Earth (light-travel time to the barycentre removed). Rows without
-a period or an epoch are kept, with the reason in `note`.
+[`CHECKCARD.csv`](CHECKCARD.csv) is one row per row of the paper's object table &mdash; 190 of them: the numbered
+systems, the catalogue corrections, the planet candidates and the heartbeat stars. Each carries identifiers,
+coordinates, magnitude, the ephemeris as published, the eclipse depth and duration, the **next predicted primary
+eclipse in UTC** (for the shortest periods, step forward by whole periods), and the one-line `lightkurve` call that
+downloads the raw TESS light curve. Every row also carries a `computed_UTC` column holding the second at which the
+card was generated, so a copy of this file never loses its own age; this one was generated on 2026 October 19. Three
+cautions. `sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
+uncertainty. The UTC times are for an observer on Earth: light-travel time to the solar-system barycentre is removed,
+by code checked against a separately written implementation over all 168 predicted objects, the two agreeing to 2.6 s
+&mdash; and that whole disagreement is the Sun's own displacement from the barycentre, which the checking
+implementation deliberately omits (0.3 to 3.7 light-seconds over the coming decade; subtract it and 0.06 s is left).
+And the unique key is `(label, TIC)` rather than either column alone: twelve unnumbered rows share the label `D`, and
+two TICs carry two planet candidates each. Rows without a period or an epoch are kept, with the reason in `note`.
 
 [`batch-candidates.csv`](batch-candidates.csv) (added 2026 October 17) is one row per candidate from the period folds of Gaia orbits shorter than 20 d at G 10-11.5: 266 rows that passed the same tests run in bulk (conjunction attribution on Gaia's orbit, per-sector depth consistency, difference imaging), with the status each row holds after an adversarial review that queried ExoFOP, VSX and SIMBAD and re-folded 60 at random from fresh TESS data. After the per-object re-analysis of the 35 shallowest and of the eight the difference imaging had flagged (2026 October 18-19), 41 are `confirmed, counted as A119`-`A159` and two are `heartbeat` stars; 199 are `candidate`; the rest are TESS Objects of Interest already called false positives or eclipsing binaries, known signals that Gaia's orbit newly attributes to a stellar companion, VSX variables whose period or type the eclipses correct, or one hold. The 199 are not counted, because they have not had the per-object re-analysis the paper requires; they are published so that anyone can check them.
 
