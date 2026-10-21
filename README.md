@@ -1,8 +1,8 @@
 # Eclipses by Appointment
 
-![154 eclipsing star pairs across the sky](overview.png)
+![174 eclipsing star pairs across the sky](overview.png)
 
-**154 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
+**174 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
 satellite and ESA's Gaia mission.**
 
 Some stars come in pairs that orbit each other. When the orbit is seen nearly edge-on, each star passes in front of
@@ -14,7 +14,7 @@ nobody had catalogued.
 
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 19 (26 pages; the catalogue of all 154
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 21 (30 pages; the catalogue of all 174
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
@@ -41,8 +41,8 @@ claim. Matched by Gaia source identifier, the open October record shares one det
 lists three more of our objects among its unclaimed candidates. The overlap with the embargoed September list is not yet
 known. A reader of this work pointed us to the records.
 
-In short: 154 eclipsing systems (142 confirmed, 12 probable) that are in no vetted variable-star or eclipsing-binary
-catalogue; eighteen Gaia orbit solutions the eclipses contradict; nine new heartbeat stars; eleven corrections to existing
+In short: 174 eclipsing systems (162 confirmed, 12 probable) that are in no vetted variable-star or eclipsing-binary
+catalogue; nineteen Gaia orbit solutions the eclipses contradict; nine new heartbeat stars; eleven corrections to existing
 catalogue entries; old Harvard photographic plates (1890-1990) that show the eclipses of 17 systems at the predicted
 times; a transit search of about 3,100 nearby red dwarfs that found no new planet, with the reason measured; and the
 predicted time of the next eclipse for every system, so that anyone with a telescope can check them.
@@ -70,7 +70,7 @@ implementation deliberately omits (0.3 to 3.7 light-seconds over the coming deca
 And the unique key is `(label, TIC)` rather than either column alone: twelve unnumbered rows share the label `D`, and
 two TICs carry two planet candidates each. Rows without a period or an epoch are kept, with the reason in `note`.
 
-[`batch-candidates.csv`](batch-candidates.csv) (added 2026 October 17) is one row per candidate from the period folds of Gaia orbits shorter than 20 d at G 10-11.5: 266 rows that passed the same tests run in bulk (conjunction attribution on Gaia's orbit, per-sector depth consistency, difference imaging), with the status each row holds after an adversarial review that queried ExoFOP, VSX and SIMBAD and re-folded 60 at random from fresh TESS data. After the per-object re-analysis of the 35 shallowest and of the eight the difference imaging had flagged (2026 October 18-19), 41 are `confirmed, counted as A119`-`A159` and two are `heartbeat` stars; 199 are `candidate`; the rest are TESS Objects of Interest already called false positives or eclipsing binaries, known signals that Gaia's orbit newly attributes to a stellar companion, VSX variables whose period or type the eclipses correct, or one hold. The 199 are not counted, because they have not had the per-object re-analysis the paper requires; they are published so that anyone can check them. The `conjunction_offset_phase` column was re-signed on 2026 October 20: the table generator had printed every negative offset as positive (`min(abs(d1), abs(d2))` formatted with a sign), so 126 of the 266 rows carried a false `+`. Magnitudes are unchanged, and so is every status.
+[`batch-candidates.csv`](batch-candidates.csv) (added 2026 October 17) is one row per candidate from the period folds of Gaia orbits shorter than 20 d at G 10-11.5: 266 rows that passed the same tests run in bulk (conjunction attribution on Gaia's orbit, per-sector depth consistency, difference imaging), with the status each row holds after an adversarial review that queried ExoFOP, VSX and SIMBAD and re-folded 60 at random from fresh TESS data. After the per-object re-analysis of the eight the difference imaging had flagged and of the 55 shallowest of the others (2026 October 18-21), 61 are `confirmed, counted as A119`-`A179` and two are `heartbeat` stars; 179 are `candidate`; the rest are TESS Objects of Interest already called false positives or eclipsing binaries, known signals that Gaia's orbit newly attributes to a stellar companion, VSX variables whose period or type the eclipses correct, or one hold. The 179 are not counted, because they have not had the per-object re-analysis the paper requires; they are published so that anyone can check them. The `conjunction_offset_phase` column was re-signed on 2026 October 20: the table generator had printed every negative offset as positive (`min(abs(d1), abs(d2))` formatted with a sign), so 126 of the 266 rows carried a false `+`. Magnitudes are unchanged, and so is every status.
 
 ## Data and code
 
