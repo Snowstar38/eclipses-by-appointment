@@ -1,0 +1,2 @@
+import csv,json,pathlib,hashlib
+R=pathlib.Path(__file__).parent;ids=set(json.load(open(R.parent/'targets-selected.json')));p=pathlib.Path('[local working path omitted]');rows=[x for x in csv.DictReader(p.open()) if x['tic'] in ids];json.dump(dict(origin=str(p),source_sha256=hashlib.sha256(p.read_bytes()).hexdigest(),query='VizieR I/355 90 arcsec; -out.max=200, sorted angular distance',target_counts={t:sum(x['tic']==t for x in rows) for t in ids},rows=rows),open(R/'gaia-dr3-reused.json','w'),indent=2)

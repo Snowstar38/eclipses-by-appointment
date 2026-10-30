@@ -1,0 +1,102 @@
+{
+  "4646090": {
+    "verdict": "CONFIRMED",
+    "assessment": "Three narrow, locally flat-baseline eclipses in sectors 4 and 31 give 10.7303766 d. Raw depths 1.95?2.26% and durations 2.75?3.46 h recur; the distinct custom extraction recovers all three at 0.59?0.64% aperture depth. Dilution differs between reductions. Source and independent gates pass; Gaia period and phase are feasible at the precision available.",
+    "source": "Signed deficits in both sectors prefer the target. Free-Gaussian offsets are 0.46 and 2.28 arcsec, versus a capable TIC 4646088 neighbour 6.96 arcsec away (7.53 and 9.32 arcsec from fitted deficits). Fixed-neighbour / target SSE is 5.34 and 5.65 in sector stacks; per-event ratios 5.34,3.57,4.27 also favor target. These descriptive comparisons, repeated across sectors/events, support attribution; no calibrated PRF confidence is asserted.",
+    "geometry": "Gaia orbit P=10.72678235 d. Representative photometric period 10.73037662 d; difference / Gaia quoted period error 1.05. Closest edge-on conjunction A: offset 0.612 d, covariance-linear error 0.457 d. Observed duration median 3.22 h; approximate central duration 8.06 h. These are feasibility diagnostics, not significance vetoes or a fitted geometry. ",
+    "limitations": "Gaia phase offset is 1.34 covariance-linear error units; grazing geometry can shorten the approximate central duration. No detailed physical fit or calibrated astrometric uncertainty.",
+    "next_check": "Characterize dilution and grazing geometry if needed.",
+    "signal_class": "target eclipsing binary",
+    "gaia_association": "consistent within approximate orbit/geometry checks"
+  },
+  "443106429": {
+    "verdict": "PROBABLE",
+    "assessment": "Four narrow raw eclipses in sectors 11 and 65 give 12.7955335 d, consistent with Gaia. Raw depths 1.82?2.84%, duration about 10.2 h; custom extraction recovers four at 1.84?3.33%. Eclipses are real and repeat, but the close host remains unresolved.",
+    "source": "Sector 11 deficit lies 0.59 arcsec from target, with capable TIC 443106423 only 3.88 arcsec away; fixed-neighbour/target SSE 1.83 favors target. Extra fresh sector 65 was obtained; noisy one-event signed deficit has 13.4 arcsec fitted offset and close-neighbour/target SSE 0.99, failing independent separation. Source testing was attempted and remains scientifically ambiguous.",
+    "geometry": "Gaia orbit P=12.79551859 d. Representative photometric period 12.79553346 d; difference / Gaia quoted period error 0.00. Closest edge-on conjunction A: offset -0.230 d, covariance-linear error 0.565 d. Observed duration median 10.23 h; approximate central duration 22.45 h. These are feasibility diagnostics, not significance vetoes or a fitted geometry. ",
+    "limitations": "Host not robustly separated from 3.88 arcsec capable neighbour; this is the one unresolved protocol gate.",
+    "next_check": "Resolve target versusTIC 443106423 with higher spatial resolution eclipse photometry.",
+    "signal_class": "repeating eclipsing signal; likely target",
+    "gaia_association": "period/conjunction feasible, host unresolved"
+  },
+  "60443793": {
+    "verdict": "REFUTED",
+    "assessment": "The original 6.510555 d search alias is wrong for the prominent eclipse train. Forty-eight raw minima give 1.29738064 d spacing; alternating depths imply a candidate 2.5947613 d binary period. Fresh imaging places these real EB photons off target, so the target-EB association is refuted. This is neither a confirmed target nor a target by-catch EB.",
+    "source": "S 13/S 93 signed deficits are off target. Free-Gaussian offsets about 58 arcsec align with capable TIC 60443695 at 59.38 arcsec separation. Fixed-coordinate neighbour/target SSE 0.0032 and 0.0229 strongly favor that neighbour in two sectors; positive-clipped centroids alone give 44.7/50.2 arcsec. Scores are descriptive, with PRF/systematic caveats. Candidate neighbour identity is an inference, not a full adjudication of that star.",
+    "geometry": "Gaia orbit P=6.51870479 d. Representative photometric period 2.59476129 d; difference / Gaia quoted period error -1927.55. Closest edge-on conjunction A: offset -1.217 d, covariance-linear error 0.569 d. Observed duration median 4.67 h; approximate central duration 243.51 h. These are feasibility diagnostics, not significance vetoes or a fitted geometry. ",
+    "limitations": "Neighbour EB period remains a candidate and has not undergone independent alias/geometry review as its own target. The target giant-radius estimate is also incompatible with interpreting this short period as its simple detached binary orbit.",
+    "next_check": "Review TIC 60443695 separately if desired.",
+    "signal_class": "off-target eclipsing binary contamination",
+    "gaia_association": "photometric train does not trace target Gaia orbit"
+  },
+  "428769301": {
+    "verdict": "REFUTED",
+    "assessment": "QLP sectors and fresh custom extraction show a smooth double wave, without distinct narrow repeated eclipses. Trapezoid fits absorb smooth curvature and frequently hit duration/center bounds. The narrow-eclipse interpretation is refuted; binarity or ellipsoidal variability is not excluded.",
+    "source": "Fresh first/last-sector cutouts were independently extracted. A meaningful narrow-event difference image cannot be defined from this smooth morphology; source gate was attempted and found no supported discrete eclipse to localize.",
+    "geometry": "Gaia orbit P=3.73288066 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Physical variability mechanism remains unclassified. Smooth modulation alone does not establish eclipses.",
+    "next_check": "No further eclipse follow-up required unless new discrete events appear.",
+    "signal_class": "smooth variable; no narrow eclipses",
+    "gaia_association": "no eclipse geometry validated"
+  },
+  "436947190": {
+    "verdict": "REFUTED",
+    "assessment": "QLP sectors and fresh custom extraction show a broad smooth repeating wave, without distinct narrow repeated eclipses. Trapezoid fits absorb smooth curvature and frequently hit duration/center bounds. The narrow-eclipse interpretation is refuted; binarity or ellipsoidal variability is not excluded.",
+    "source": "Fresh first/last-sector cutouts were independently extracted. A meaningful narrow-event difference image cannot be defined from this smooth morphology; source gate was attempted and found no supported discrete eclipse to localize.",
+    "geometry": "Gaia orbit P=3.10818466 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Physical variability mechanism remains unclassified. Smooth modulation alone does not establish eclipses.",
+    "next_check": "No further eclipse follow-up required unless new discrete events appear.",
+    "signal_class": "smooth variable; no narrow eclipses",
+    "gaia_association": "no eclipse geometry validated"
+  },
+  "311206604": {
+    "verdict": "REFUTED",
+    "assessment": "QLP sectors and fresh custom extraction show a broad, fairly flat-bottomed double wave, without distinct narrow repeated eclipses. Trapezoid fits absorb smooth curvature and frequently hit duration/center bounds. The narrow-eclipse interpretation is refuted; binarity or ellipsoidal variability is not excluded.",
+    "source": "Fresh first/last-sector cutouts were independently extracted. A meaningful narrow-event difference image cannot be defined from this smooth morphology; source gate was attempted and found no supported discrete eclipse to localize.",
+    "geometry": "Gaia orbit P=4.40200229 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Physical variability mechanism remains unclassified. Smooth modulation alone does not establish eclipses.",
+    "next_check": "No further eclipse follow-up required unless new discrete events appear.",
+    "signal_class": "smooth variable; no narrow eclipses",
+    "gaia_association": "no eclipse geometry validated"
+  },
+  "94300366": {
+    "verdict": "PLAUSIBLE",
+    "assessment": "Two sector 54 depressions recur near the search phase and survive custom extraction at 4.24/4.76%, but are asymmetric and mixed with stronger irregular variability and other minima. Sector 81 does not establish a stable narrow eclipse sequence. Eclipse morphology and period remain untested.",
+    "source": "S 54 one-event deficit favors target with 4.59 arcsec free-Gaussian offset, but morphology and the noisy later-sector events prevent a repeated source validation. Fresh independent extraction does not turn the irregular dips into a secure EB.",
+    "geometry": "Gaia orbit P=3.90447017 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Irregular/spot-like variability versus eclipses unresolved; no secure eclipse period.",
+    "next_check": "Obtain detrending resistant multiseason photometry to establish stable discrete repeats.",
+    "signal_class": "uncertain variability",
+    "gaia_association": "not established"
+  },
+  "71866523": {
+    "verdict": "PLAUSIBLE",
+    "assessment": "Sectors 6/33 are nearly flat with a weak sector 33 depression; sector 87 is dominated by a large positive transient/systematic. No secure repeating eclipse sequence or eclipse-derived period is established.",
+    "source": "Fresh sectors 6/87 custom extraction attempted the independent gate; no sufficient isolated eclipse exists for a meaningful signed source image.",
+    "geometry": "Gaia orbit P=15.39210899 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Weak single feature and transient/baseline ambiguity; available work was attempted.",
+    "next_check": "Require a clean repeated negative event before EB classification.",
+    "signal_class": "uncertain variability",
+    "gaia_association": "not established"
+  },
+  "92452368": {
+    "verdict": "PLAUSIBLE",
+    "assessment": "Sector 1 contains a complex cluster of deep negative points around BTJD 1342.7?1344.1, rather than a clean repeating narrow eclipse. Sectors 68/95 do not establish repetition. A single episode with instrumental ambiguity remains.",
+    "source": "Fresh sectors 1/95 independently extracted. The irregular clustered episode does not provide defensible in/out windows for a repeat source image; the source gate was attempted but insufficient.",
+    "geometry": "Gaia orbit P=18.58152247 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Single complex episode, untested eclipse period and instrumental ambiguity.",
+    "next_check": "Verify a clean recurrent event in independently reduced data.",
+    "signal_class": "uncertain variability",
+    "gaia_association": "not established"
+  },
+  "402940895": {
+    "verdict": "PLAUSIBLE",
+    "assessment": "Small sharp depressions lie on strong discontinuous sector 12/93 trends, while sector 103 flux is severely corrupted. Custom sector 12 fixed-shape depths 0.53/0.76% show features in the same photons, but their morphology is baseline sensitive and a stable eclipse sequence is unestablished.",
+    "source": "Sector 12 signed diagnostic has 2.79 arcsec Gaussian target offset, but strong baseline structure and lack of a clean independent later-sector event prevent secure source validation. Fresh sectors 12/103 were extracted.",
+    "geometry": "Gaia orbit P=16.44813821 d. No secure eclipse period exists for a meaningful conjunction/duration validation. ",
+    "limitations": "Baseline/discontinuity sensitivity, corrupted sector 103, no secure eclipse period or repeated source validation.",
+    "next_check": "Re-extract clean sectors with robust background/pointing treatment before asserting eclipses.",
+    "signal_class": "uncertain variability",
+    "gaia_association": "not established"
+  }
+}

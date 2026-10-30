@@ -1,0 +1,95 @@
+[
+  {
+    "tic": "23112764",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "373062090",
+    "error": "No suitable independent same-sector event"
+  },
+  {
+    "tic": "10790605",
+    "error": "No suitable independent same-sector event"
+  },
+  {
+    "tic": "276514049",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "465073693",
+    "error": "No suitable independent same-sector event"
+  },
+  {
+    "tic": "465263741",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "280075497",
+    "error": "No suitable independent same-sector event"
+  },
+  {
+    "tic": "441741446",
+    "sector": 14,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0014/target/0000/0004/4174/1446/hlsp_tess-spoc_tess_phot_0000000441741446-s0014_tess_v1_lc.fits",
+    "sha256": "966bd27603f94bbb47558c6205c629ce409adda50bca08b0da7b543c7c2958ac",
+    "measurements": [
+      {
+        "tc": 1686.721068164021,
+        "depth": 0.00999391622821662,
+        "formal_error": 0.0005404460670645415,
+        "n_in": 5,
+        "column": "SAP_FLUX"
+      },
+      {
+        "tc": 1705.552212139636,
+        "depth": 0.009696667846330997,
+        "formal_error": 0.00075803821510199,
+        "n_in": 3,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 441741446,
+      "header_OBJECT": "TIC 441741446",
+      "header_SECTOR": 14,
+      "header_RA_OBJ": 259.843979304861,
+      "header_DEC_OBJ": 75.9353602793099,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "316405449",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "300903537",
+    "error": "MAST product inventory timed out"
+  }
+]

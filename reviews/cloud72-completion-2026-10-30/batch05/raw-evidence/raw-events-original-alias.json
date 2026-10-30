@@ -1,0 +1,539 @@
+{
+  "350661747": {
+    "search_period": 13.147545583037699,
+    "search_epoch": 1639.3118,
+    "events": [
+      {
+        "sector": 12,
+        "cycle": 1,
+        "tc": 1652.6088676037052,
+        "nominal_tc": 1652.4593455830377,
+        "depth": 0.3254060674600572,
+        "duration_d": 0.30540793084772144,
+        "ingress_fraction": 0.33297525402784345,
+        "residual_rms": 0.13475800274861613,
+        "n_points": 70,
+        "n_in": 14,
+        "edge": false
+      },
+      {
+        "sector": 39,
+        "cycle": 55,
+        "tc": 2362.354836693484,
+        "nominal_tc": 2362.4268070670732,
+        "depth": 0.37049736131030797,
+        "duration_d": 0.47522369466757713,
+        "ingress_fraction": 0.3430701570448197,
+        "residual_rms": 0.16135267118197855,
+        "n_points": 206,
+        "n_in": 68,
+        "edge": false
+      },
+      {
+        "sector": 103,
+        "cycle": 192,
+        "tc": 4163.605305600315,
+        "nominal_tc": 4163.640551943238,
+        "depth": 0.20174527155682126,
+        "duration_d": 0.46253768907235465,
+        "ingress_fraction": 0.3333199605924276,
+        "residual_rms": 0.05663730290126368,
+        "n_points": 676,
+        "n_in": 198,
+        "edge": false
+      },
+      {
+        "sector": 103,
+        "cycle": 193,
+        "error": "Initial guess is outside of provided bounds"
+      }
+    ],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  },
+  "166781582": {
+    "search_period": 19.84534371851322,
+    "search_epoch": 1721.2783,
+    "events": [
+      {
+        "sector": 75,
+        "cycle": 82,
+        "tc": 3348.717601173484,
+        "nominal_tc": 3348.596484918084,
+        "depth": 0.00022630953614563565,
+        "duration_d": 0.09171052487770129,
+        "ingress_fraction": 0.4968004892381289,
+        "residual_rms": 0.007316191580002158,
+        "n_points": 902,
+        "n_in": 39,
+        "edge": false
+      },
+      {
+        "sector": 83,
+        "cycle": 93,
+        "tc": 3566.848800327106,
+        "nominal_tc": 3566.8952658217295,
+        "depth": 0.0008498637028318146,
+        "duration_d": 0.23325959323047166,
+        "ingress_fraction": 0.14950763588925547,
+        "residual_rms": 0.007668342462385292,
+        "n_points": 900,
+        "n_in": 101,
+        "edge": false
+      }
+    ],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  },
+  "431762229": {
+    "search_period": 1.9421490731740505,
+    "search_epoch": 1794.0537610589136,
+    "events": [
+      {
+        "sector": 18,
+        "tc": 1794.0537610589136,
+        "depth": 0.0469177343855644,
+        "duration_d": 0.19238121631474167,
+        "ingress_fraction": 0.41838451442310004,
+        "residual_rms": 0.0014285300656184552,
+        "edge": false,
+        "n_points": 57,
+        "cycle": 0
+      },
+      {
+        "sector": 18,
+        "tc": 1795.9959101320876,
+        "depth": 0.04665577381607858,
+        "duration_d": 0.1812508559819666,
+        "ingress_fraction": 0.3585975194482633,
+        "residual_rms": 0.0012718420167025183,
+        "edge": false,
+        "n_points": 57,
+        "cycle": 1
+      },
+      {
+        "sector": 18,
+        "tc": 1797.9334994020599,
+        "depth": 0.044914846645968745,
+        "duration_d": 0.1854171171110452,
+        "ingress_fraction": 0.36538266342064496,
+        "residual_rms": 0.001202709074250228,
+        "edge": false,
+        "n_points": 57,
+        "cycle": 2
+      },
+      {
+        "sector": 58,
+        "tc": 2884.4118837275914,
+        "depth": 0.046339310160638594,
+        "duration_d": 0.18938421597174107,
+        "ingress_fraction": 0.40951379916511604,
+        "residual_rms": 0.00425528623509768,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 561
+      },
+      {
+        "sector": 58,
+        "tc": 2886.350465653609,
+        "depth": 0.04948328651406391,
+        "duration_d": 0.18200808703642696,
+        "ingress_fraction": 0.42483429420957103,
+        "residual_rms": 0.00422480573983863,
+        "edge": false,
+        "n_points": 518,
+        "cycle": 562
+      }
+    ],
+    "representative_ephemeris": {
+      "period_d": 1.9421490731740505,
+      "epoch_btjd": 1794.0537610589136,
+      "n_events": 5,
+      "note": "Representative local event timing regression for939/183; direct consecutive event interval for431/222; no formal period error."
+    },
+    "method": "Manual raw minima seed, local linear baseline + trapezoid on QUALITY=0 QLP SAP; representative consecutive events; supersedes original search alias"
+  },
+  "462845564": {
+    "search_period": 13.108258457237746,
+    "search_epoch": 2023.7573,
+    "events": [],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  },
+  "9396327": {
+    "search_period": 2.4408778441133925,
+    "search_epoch": 3481.3252851034526,
+    "events": [
+      {
+        "sector": 80,
+        "tc": 3481.323636157607,
+        "depth": 0.28420131298250056,
+        "duration_d": 0.13406369149885997,
+        "ingress_fraction": 0.3540239651639954,
+        "residual_rms": 0.012155047692972612,
+        "edge": false,
+        "n_points": 517,
+        "cycle": 0
+      },
+      {
+        "sector": 80,
+        "tc": 3483.7643666168096,
+        "depth": 0.2883310030553778,
+        "duration_d": 0.13934346534258632,
+        "ingress_fraction": 0.35414071040251316,
+        "residual_rms": 0.009947821623346951,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 1
+      },
+      {
+        "sector": 80,
+        "tc": 3495.9727604242707,
+        "depth": 0.2882585527080121,
+        "duration_d": 0.13941595437124518,
+        "ingress_fraction": 0.3526956252225945,
+        "residual_rms": 0.008971962493992389,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 6
+      },
+      {
+        "sector": 80,
+        "tc": 3498.4150669656806,
+        "depth": 0.28617070118118176,
+        "duration_d": 0.1422442512820803,
+        "ingress_fraction": 0.36315371152553355,
+        "residual_rms": 0.008677686898336322,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 7
+      },
+      {
+        "sector": 80,
+        "tc": 3500.856001103531,
+        "depth": 0.2879069502033062,
+        "duration_d": 0.14331393223936886,
+        "ingress_fraction": 0.3692578062889713,
+        "residual_rms": 0.009958225508168744,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 8
+      },
+      {
+        "sector": 80,
+        "tc": 3503.298711756517,
+        "depth": 0.28214056210063676,
+        "duration_d": 0.14093323177085357,
+        "ingress_fraction": 0.36372962582456636,
+        "residual_rms": 0.009964507706264907,
+        "edge": false,
+        "n_points": 426,
+        "cycle": 9
+      },
+      {
+        "sector": 80,
+        "tc": 3505.7224443083983,
+        "depth": 0.2788089963805527,
+        "duration_d": 0.17778479898662922,
+        "ingress_fraction": 0.28928941647790285,
+        "residual_rms": 0.007403706343524768,
+        "edge": false,
+        "n_points": 241,
+        "cycle": 10
+      }
+    ],
+    "representative_ephemeris": {
+      "period_d": 2.4408778441133925,
+      "epoch_btjd": 3481.3252851034526,
+      "n_events": 7,
+      "note": "Representative local event timing regression for939/183; direct consecutive event interval for431/222; no formal period error."
+    },
+    "method": "Manual raw minima seed, local linear baseline + trapezoid on QUALITY=0 QLP SAP; representative consecutive events; supersedes original search alias"
+  },
+  "90542579": {
+    "search_period": 17.329171566248974,
+    "search_epoch": 1520.467,
+    "events": [
+      {
+        "sector": 8,
+        "cycle": 0,
+        "tc": 1520.4987699342896,
+        "nominal_tc": 1520.467,
+        "depth": 0.0005271734533367237,
+        "duration_d": 0.21992885973545317,
+        "ingress_fraction": 0.18666663020688556,
+        "residual_rms": 0.0016705737119732098,
+        "n_points": 89,
+        "n_in": 5,
+        "edge": false
+      },
+      {
+        "sector": 8,
+        "cycle": 1,
+        "tc": 1537.7735344692342,
+        "nominal_tc": 1537.796171566249,
+        "depth": 0.0015327191886856067,
+        "duration_d": 0.26682216150626065,
+        "ingress_fraction": 0.06099730671320755,
+        "residual_rms": 0.0017479916646228261,
+        "n_points": 88,
+        "n_in": 11,
+        "edge": false
+      },
+      {
+        "sector": 63,
+        "cycle": 87,
+        "tc": 3028.0978836267423,
+        "nominal_tc": 3028.1049262636607,
+        "depth": 0.0013138758063179485,
+        "duration_d": 0.2864632165414337,
+        "ingress_fraction": 0.08637924441112022,
+        "residual_rms": 0.0046199451839264985,
+        "n_points": 745,
+        "n_in": 123,
+        "edge": false
+      },
+      {
+        "sector": 90,
+        "cycle": 129,
+        "tc": 3755.944313380933,
+        "nominal_tc": 3755.9301320461177,
+        "depth": 3.484291453184957e-21,
+        "duration_d": 0.3006488342861068,
+        "ingress_fraction": 0.30783512300212157,
+        "residual_rms": 0.005259179203923696,
+        "n_points": 902,
+        "n_in": 130,
+        "edge": false
+      },
+      {
+        "sector": 90,
+        "cycle": 130,
+        "error": "Initial guess is outside of provided bounds"
+      }
+    ],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  },
+  "222498305": {
+    "search_period": 15.539572043242288,
+    "search_epoch": 1634.9555806220856,
+    "events": [
+      {
+        "sector": 12,
+        "tc": 1634.9555806220856,
+        "depth": 0.15172243114065256,
+        "duration_d": 0.38356543105793006,
+        "ingress_fraction": 0.42644590509556113,
+        "residual_rms": 0.002510558826230071,
+        "edge": false,
+        "n_points": 50,
+        "cycle": 0
+      },
+      {
+        "sector": 12,
+        "tc": 1650.4951526653279,
+        "depth": 0.1515727581421436,
+        "duration_d": 0.36532055659176255,
+        "ingress_fraction": 0.41295451010292245,
+        "residual_rms": 0.004018268233342427,
+        "edge": false,
+        "n_points": 57,
+        "cycle": 1
+      },
+      {
+        "sector": 39,
+        "tc": 2365.1940301910467,
+        "depth": 0.1508732138451229,
+        "duration_d": 0.37652020551982446,
+        "ingress_fraction": 0.4180993227097819,
+        "residual_rms": 0.004274355825323983,
+        "edge": false,
+        "n_points": 173,
+        "cycle": 47
+      },
+      {
+        "sector": 39,
+        "tc": 2380.7318962576155,
+        "depth": 0.15502818842714777,
+        "duration_d": 0.3757142744389736,
+        "ingress_fraction": 0.42597139571699233,
+        "residual_rms": 0.00394847159170838,
+        "edge": false,
+        "n_points": 163,
+        "cycle": 48
+      }
+    ],
+    "representative_ephemeris": {
+      "period_d": 15.539572043242288,
+      "epoch_btjd": 1634.9555806220856,
+      "n_events": 4,
+      "note": "Representative local event timing regression for939/183; direct consecutive event interval for431/222; no formal period error."
+    },
+    "method": "Manual raw minima seed, local linear baseline + trapezoid on QUALITY=0 QLP SAP; representative consecutive events; supersedes original search alias"
+  },
+  "230270717": {
+    "search_period": 17.95251022330178,
+    "search_epoch": 2020.2455,
+    "events": [
+      {
+        "sector": 26,
+        "cycle": 0,
+        "tc": 2020.284214200814,
+        "nominal_tc": 2020.2455,
+        "depth": 0.00044873468102514026,
+        "duration_d": 0.1697508429997618,
+        "ingress_fraction": 0.34458360635434937,
+        "residual_rms": 0.0013499125280016086,
+        "n_points": 77,
+        "n_in": 8,
+        "edge": false
+      },
+      {
+        "sector": 80,
+        "cycle": 82,
+        "tc": 3492.5021400910746,
+        "nominal_tc": 3492.3513383107456,
+        "depth": 0.03357826042889499,
+        "duration_d": 0.7829999999999999,
+        "ingress_fraction": 0.14864887111849007,
+        "residual_rms": 0.010771834714496874,
+        "n_points": 867,
+        "n_in": 337,
+        "edge": true
+      }
+    ],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  },
+  "183994341": {
+    "search_period": 14.665514216226159,
+    "search_epoch": 3781.92483432609,
+    "events": [
+      {
+        "sector": 91,
+        "tc": 3781.924758087458,
+        "depth": 0.27811754249345844,
+        "duration_d": 0.6709603998224439,
+        "ingress_fraction": 0.4102676391311878,
+        "residual_rms": 0.008400452725881942,
+        "edge": false,
+        "n_points": 393,
+        "cycle": 0
+      },
+      {
+        "sector": 91,
+        "tc": 3796.5904251899988,
+        "depth": 0.28747538323348454,
+        "duration_d": 0.7030939389529461,
+        "ingress_fraction": 0.4222486811501103,
+        "residual_rms": 0.008485133785920739,
+        "edge": false,
+        "n_points": 366,
+        "cycle": 1
+      },
+      {
+        "sector": 92,
+        "tc": 3811.255938179075,
+        "depth": 0.24829805939567123,
+        "duration_d": 0.6719697358685144,
+        "ingress_fraction": 0.4078376270792781,
+        "residual_rms": 0.00781992030528953,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 2
+      },
+      {
+        "sector": 92,
+        "tc": 3825.9213011451875,
+        "depth": 0.25572653021110614,
+        "duration_d": 0.6766583893637675,
+        "ingress_fraction": 0.4180416685853718,
+        "residual_rms": 0.007580250708817091,
+        "edge": false,
+        "n_points": 519,
+        "cycle": 3
+      }
+    ],
+    "representative_ephemeris": {
+      "period_d": 14.665514216226159,
+      "epoch_btjd": 3781.92483432609,
+      "n_events": 4,
+      "note": "Representative local event timing regression for939/183; direct consecutive event interval for431/222; no formal period error."
+    },
+    "method": "Manual raw minima seed, local linear baseline + trapezoid on QUALITY=0 QLP SAP; representative consecutive events; supersedes original search alias"
+  },
+  "424565669": {
+    "search_period": 16.919410556081065,
+    "search_epoch": 1797.0071,
+    "events": [
+      {
+        "sector": 18,
+        "cycle": 0,
+        "tc": 1796.8698014021822,
+        "nominal_tc": 1797.0071,
+        "depth": 0.0006153205175304824,
+        "duration_d": 0.37275036954050184,
+        "ingress_fraction": 0.3301866366115012,
+        "residual_rms": 0.0013666067623790688,
+        "n_points": 100,
+        "n_in": 17,
+        "edge": false
+      },
+      {
+        "sector": 18,
+        "cycle": 1,
+        "tc": 1814.187078703464,
+        "nominal_tc": 1813.9265105560812,
+        "depth": 0.13068672550031413,
+        "duration_d": 0.7821055361003763,
+        "ingress_fraction": 0.054127960428237955,
+        "residual_rms": 0.08284537539065437,
+        "n_points": 94,
+        "n_in": 36,
+        "edge": true
+      },
+      {
+        "sector": 59,
+        "cycle": 66,
+        "tc": 2913.674802886718,
+        "nominal_tc": 2913.6881967013505,
+        "depth": 0.0009237635144443,
+        "duration_d": 0.251483115384767,
+        "ingress_fraction": 0.14761390615969525,
+        "residual_rms": 0.00443201598833699,
+        "n_points": 902,
+        "n_in": 109,
+        "edge": false
+      },
+      {
+        "sector": 59,
+        "cycle": 67,
+        "tc": 2930.613635060978,
+        "nominal_tc": 2930.6076072574315,
+        "depth": 0.0017071807475775205,
+        "duration_d": 0.14348394963597008,
+        "ingress_fraction": 0.42164426750628614,
+        "residual_rms": 0.0041915039987231685,
+        "n_points": 808,
+        "n_in": 61,
+        "edge": false
+      },
+      {
+        "sector": 86,
+        "cycle": 109,
+        "tc": 3641.1765218981163,
+        "nominal_tc": 3641.222850612836,
+        "depth": 0.003025720815699853,
+        "duration_d": 0.3091231106452033,
+        "ingress_fraction": 0.20917245694422487,
+        "residual_rms": 0.008383855339440433,
+        "n_points": 531,
+        "n_in": 112,
+        "edge": false
+      }
+    ],
+    "representative_ephemeris": null,
+    "method": "QLP SAP_FLUX, QUALITY=0; quadratic local baseline plus trapezoid, max two events per selected sector; native cadence, no exposure integration; unweighted errors not estimated"
+  }
+}

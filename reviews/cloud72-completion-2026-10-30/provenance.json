@@ -1,0 +1,79 @@
+{
+  "scope": "Inventory only; no scientific reanalysis, publication, paper edits or network queries.",
+  "counts": {
+    "original_unique": 72,
+    "retained": 17,
+    "confirmed": 12,
+    "ellipsoidal": 3,
+    "neighbour_signal": 1,
+    "plausible": 1,
+    "remaining": 55,
+    "screened_unvetted": 7,
+    "unstarted": 48,
+    "original70_overlap": 0,
+    "next70_overlap": 0,
+    "batch_candidates_overlap": 0
+  },
+  "sources": [
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\cloud-batches\\chunk9-screen-01\\ROSTER.csv",
+      "sha256": "d849997e041d778fedeb093f022403f99f343b0ba7592f83f28f4607a989ea36"
+    },
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\cloud-batches\\chunk9-screen-02\\ROSTER.csv",
+      "sha256": "cf806ef9a4f731888b474a4c1af99d94f578f27d79e0f24e77ea8b153767b225"
+    },
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\cloud-batches\\chunk9-screen-03\\ROSTER.csv",
+      "sha256": "f5ed44996cd3edb780b45e21c676edf27c45d03842b18714fbb6d6a0e059c284"
+    },
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\FULL-RESULTS.csv",
+      "sha256": "231d3467b474d3c6bd6562f31444280ef55d3a5d0e1eca037525391913098a01"
+    },
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-next70-2026-10-30\\FULL-RESULTS.csv",
+      "sha256": "9b536a477661645bc2e7e1dda2ff3bd3978b4d0882f4abc6489b2cdc647fea54"
+    },
+    {
+      "path": "C:\\Home\\Fable 5.1\\made\\paper\\tables\\returned_review_2026-10-30.csv",
+      "sha256": "a66afa896945dcd9dd0644aa35a064556b48f04466690b41b77b6b461eb81879"
+    },
+    {
+      "path": "C:\\Home\\Fable 5.1\\made\\paper\\tables\\batch_candidates.csv",
+      "sha256": "e0d5301f4a36d66bfda9d13d502fbc89c65097d1ec46518c69351af354e93473"
+    },
+    {
+      "path": "C:\\Home\\Fable 5.1\\made\\paper\\tables\\objects.csv",
+      "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
+    },
+    {
+      "path": "C:\\Home\\tmp\\c9a-return-20261030\\work\\c9a-vets\\README.md",
+      "sha256": "de10d79bb282baa72beda1c21f33458b1d91bc6b4a00eefba670b7348a57a478"
+    },
+    {
+      "path": "C:\\Home\\tmp\\c9a-return-20261030\\work\\c9a-vets\\VERDICTS.md",
+      "sha256": "2fe1104d7917aec3b2718ee97ff86eb42dfc4138aa65a615116278808cdaf6bd"
+    },
+    {
+      "path": "C:\\Home\\tmp\\c9a-return-20261030\\work\\c9a-vets\\SCREEN_RESULTS.csv",
+      "sha256": "34c91b6f52da62f717bf1ef3a69340c47461e0a1a0508c2c0fcff72e72bdb2c9"
+    }
+  ],
+  "exclusion_policy": "Exclude completed adjudications across all physical tiers; PLAUSIBLE and negative outcomes are completed scientific outcomes, not missing execution. Characterization caveats alone do not reopen review.",
+  "pervet_check": "No original72 TIC directory/name found in Fable5 pervet; Fable5.1 pervet absent.",
+  "privacy": "Anonymous exports; no private coordinator name.",
+  "execution_batches": {
+    "batch01": 10,
+    "batch02": 10,
+    "batch03": 10,
+    "batch04": 10,
+    "batch05": 10,
+    "batch06": 5
+  },
+  "inventory_outputs": {
+    "INVENTORY.md": "3b51bc74e7f976b99bcb3d0e444a16273d2ff64329f3627481071b938cb7f1d4",
+    "inventory.csv": "ba4f323bff3a0c1290944d300cf6dfb2a6f0a7083aa486cdbaa0de634cca9c67",
+    "queue.csv": "e80a3f65231220f1b960527356b81722b4e81e4559972281f55f64f4ba68555d"
+  }
+}

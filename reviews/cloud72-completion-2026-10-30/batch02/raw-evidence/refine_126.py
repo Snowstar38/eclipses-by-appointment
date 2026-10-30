@@ -1,0 +1,3 @@
+from pathlib import Path
+import json,numpy as np
+R=Path(__file__).parent;r=json.load(open(R/'raw-events.json'));x=r['126363604'];ev=[e for e in x['events'] if not e.get('edge',True)];n=np.array([e['cycle'] for e in ev]);t=np.array([e['tc'] for e in ev]);p=np.polyfit(n,t,1);x['representative_ephemeris']=dict(period_d=float(p[0]),epoch_btjd=float(p[1]),n_events=len(ev),residual_rms_min=float(np.std(t-np.polyval(p,n))*1440),note='Four visible sharp events; no per-point depth/RMS gate because stellar baseline variation inflates RMS. Unweighted cycle counts conditional on original search.');json.dump(r,open(R/'raw-events.json','w'),indent=2)

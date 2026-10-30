@@ -1,0 +1,9 @@
+# Batch03 lead review
+
+All ten assigned targets received deciding representative reviews. The lead inspected the raw-event panels and the ambiguous folded morphology image, checked all two-sector Gaussian positions and capable-neighbour fixed-position SSE ratios, and independently computed the Gaia period/conjunction/duration receipt from the central NSS table. The lead concurs with the fresh helper's five on-target EB assessments, three smooth-wave refutations, and off-target attribution of TIC411647453's eclipse signal. The approximately0.9151763 d contaminating period is a search result only, not a precision ephemeris.
+
+TIC201317466 remains PROBABLE because its real, deep, on-target repeating eclipses have physically material Gaia conjunction tension: offset1.208 d versus covariance linear error0.228 d and conservative sum bound0.694 d. This is an unresolved host-orbit association, not a sigma-only classification rule. Gaia has15 RV epochs and weak eccentricity; an updated RV solution or nonlinear posterior is the next deciding check.
+
+TIC135230723's close5.2 arcsec capable neighbour was explicitly tested in two sectors. Deficit centers2.76/0.54 arcsec from target and neighbour/target residual ratios2.49/4.69 support the target. Uncalibrated pixel-model systematics remain characterization/localization limitations; no new mandatory calibrated-PRF gate was imposed.
+
+All targets have central seven-scope coverage complete with no identified prior EB. Source-neighbour cones were fresh, separate from those novelty scopes. Independent custom TESScut extraction uses the same photons, a distinct reduction from QLP. MAST alternative pipeline inventory was not attempted because the custom reduction supplies this representative comparison. No source-paper edits, publication or commits were performed.

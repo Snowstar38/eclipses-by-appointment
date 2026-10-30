@@ -1,0 +1,1 @@
+GPT6.1Sol led this batch with a fresh GPT6.1Terra helper, supervised by Astra. The helper independently repaired an eclipse-period alias, extracted fresh cutouts and tested capable neighbours; the lead reviewed the deciding evidence and assigned the reported tiers. No project coordinator measurements are implied.

@@ -1,0 +1,45 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-30T22:20:47 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-30T22:20:48	  Query execution date
+#INFO	request=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=B%2Fvsx%2Fvsx&-c=296.024481626489+21.3160469808844&-c.rs=60&-out=Name%2CType%2CPeriod%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=100&-sort=_r	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=296.024482+21.316047,rs=60.	
+#Constraint -sort=_r
+
+#RESOURCE=yCat_102027
+#Name: B/vsx
+#Title: AAVSO International Variable Star Index VSX (Watson+, 2006-)
+#INFO	ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	creator=Watson C.	    First author or institution
+#INFO	cites=bibcode:2006SASS...25...47W	    Article or Data origin sources
+#INFO	journal=SASS	    Journal name
+#INFO	original_date=2006	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/B/vsx	    Dataset landing page
+#INFO	publication_date=2026-10-19	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	B_vsx_vsx:
+#Name: B/vsx/vsx
+#Title: Variable Star indeX, Version 2026-10-18 (\originalcolumnnames)
+#Column	_r	(F5.2)	Distance from center (296.02448 21.31605)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	Name	(A30)	Variable star identifier	[ucd=meta.id;meta.main]
+#Column	Type	(A30)	? Variability type, ariability type, as in GCVS catalog Variability type (see details of VSX type list)	[ucd=src.class]
+#Column	Period	(F19.12)	[0.0/27400.0]? Period of the variable in days	[ucd=time.period]
+#Column	RAJ2000	(F9.5)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+_r	Name	Type	Period	RAJ2000	DEJ2000
+arcsec	 	 	d	deg	deg
+-----	------------------------------	------------------------------	-------------------	---------	---------
+23.40	Gaia DR3 1825927658528823040  	L                             	                   	296.03055	 21.31926
+28.50	ZTF J194407.90+211859.6       	BY                            	     3.340398400000	296.03296	 21.31658
+40.79	Gaia DR3 1825926902621662976  	L                             	                   	296.03641	 21.31827
+43.76	Gaia DR3 1825927628493817856  	L                             	                   	296.01144	 21.31651
+

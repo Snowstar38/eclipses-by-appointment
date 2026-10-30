@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+    "table": "vari_summary",
+    "query": "SELECT * FROM gaiadr3.vari_summary WHERE source_id IN (1107063657751778560,2202301453777953024,2287291537931000064,2964506347485091072,4521537098738097152,519027491846682624,53541096672533120,5866907704116761728,6342991943947141376,6363985915889785856)",
+    "queried_at_utc": "2026-10-30T22:29:57.169112+00:00",
+    "status": "success",
+    "file": "gaia-vari_summary.csv",
+    "rows": 2,
+    "sha256": "4a080d67a32be9d7fce638bbcc894874656126d17a1572430e3966c574ad9805",
+    "queried_sources": 10
+  },
+  {
+    "url": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+    "table": "vari_eclipsing_binary",
+    "query": "SELECT * FROM gaiadr3.vari_eclipsing_binary WHERE source_id IN (1107063657751778560,2202301453777953024,2287291537931000064,2964506347485091072,4521537098738097152,519027491846682624,53541096672533120,5866907704116761728,6342991943947141376,6363985915889785856)",
+    "queried_at_utc": "2026-10-30T22:29:57.169666+00:00",
+    "status": "success",
+    "file": "gaia-vari_eclipsing_binary.csv",
+    "rows": 0,
+    "sha256": "932a90fda674128d3814dfddb176671109df0307594f6929593a8a43d0863bc4",
+    "queried_sources": 10
+  }
+]

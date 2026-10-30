@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-30",
+  "scope": "Existing reports and measurements only; no new fits, images, or queries. Tier describes evidence for an eclipse in the blend, not proof that the named target is its host.",
+  "conventions": "Confirmed: five available gates pass; probable: real eclipses repeat but a check is missing or failed; plausible: one event or two with period untested. Two ambiguous cases do not fit that short plausible description exactly.",
+  "cases": [
+    {
+      "tic": "298645930",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "117 primary fits; P=2.518978031 d; 116 secondary windows, 98 >3 sigma, conditional on template.",
+      "unresolved_check_and_reason": "Repeated sharp deficits and a narrow eclipse component favored over tidal harmonics; host localization and secondary/heartbeat interpretation remain uncertain.",
+      "evidence": "../2026-10-30/reports/298645930.md"
+    },
+    {
+      "tic": "279166593",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "26 primary fits and 23 individually >3 sigma secondary events; P=7.1665201901 d.",
+      "unresolved_check_and_reason": "Secure recurring two-kind eclipses; localization reverses between target and 11.2 arcsec neighbour under competing calibrations.",
+      "evidence": "../2026-10-30/reports/279166593.md"
+    },
+    {
+      "tic": "236531158",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "27 primary fits and 28 individually >3 sigma secondaries; P=2.020569926 d.",
+      "unresolved_check_and_reason": "Secure eclipses; target versus 12 arcsec neighbour attribution reverses with model assumptions.",
+      "evidence": "../2026-10-30/reports/236531158.md"
+    },
+    {
+      "tic": "1989681813",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PLAUSIBLE",
+      "repetition_and_period": "9 accepted primary fits; ephemeris uses 7, P=9.08472540075311 d; 0 individually >3 sigma secondaries.",
+      "unresolved_check_and_reason": "Recurring deficits have tested period, but broad/nonstationary waveform and complex image prevent secure eclipse interpretation as well as source assignment. Retain with explicit exception to simplified single-event wording.",
+      "evidence": "../2026-10-30/reports/1989681813.md"
+    },
+    {
+      "tic": "250742811",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "7 accepted primary fits; P=8.250042373895647 d; 8 individually >3 sigma secondaries.",
+      "unresolved_check_and_reason": "Secure two-kind eclipses; target versus 3.70 arcsec companion localization reverses with calibration.",
+      "evidence": "../2026-10-30/reports/250742811.md"
+    },
+    {
+      "tic": "351541670",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "8 accepted primary fits; P=4.155085803937364 d; 8 individually >3 sigma secondaries.",
+      "unresolved_check_and_reason": "Secure two-kind eclipses; localization depends on calibration, with 21.77 arcsec neighbour and 1.23 arcsec companion unresolved.",
+      "evidence": "../2026-10-30/reports/351541670.md"
+    },
+    {
+      "tic": "186100980",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "6 representative primary events across 3 sectors; P=3.946189659 d, conditional on cycle counts.",
+      "unresolved_check_and_reason": "Repeated eclipses established in blend; flux-capable 4.35 arcsec neighbour prevents secure target attribution.",
+      "evidence": "../2026-10-30-next70/batch03/TIC-186100980.md"
+    },
+    {
+      "tic": "39069184",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "6 representative primary events across 3 sectors; P=3.350034558 d, conditional on cycle counts.",
+      "unresolved_check_and_reason": "Strong repeated eclipses; 2.21 arcsec neighbour prevents secure target attribution.",
+      "evidence": "../2026-10-30-next70/batch04/TIC-39069184.md"
+    },
+    {
+      "tic": "101779765",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PROBABLE",
+      "repetition_and_period": "5 representative primary events across 3 sectors; P=3.587659343 d, conditional on cycle counts.",
+      "unresolved_check_and_reason": "Repeated eclipses; 3.63 arcsec neighbour remains unresolved.",
+      "evidence": "../2026-10-30-next70/batch07/TIC-101779765.md"
+    },
+    {
+      "tic": "319185391",
+      "previous_tier": "PLAUSIBLE",
+      "recommended_tier": "PLAUSIBLE",
+      "repetition_and_period": "No individually detected eclipse events (individual events about 1 sigma); fold dip positive in 6/6 sectors; P_phot=2.678053 d tested.",
+      "unresolved_check_and_reason": "Fold-only dip is not pixel-tested; no second pipeline. Report calls it probable-level, but repetition of real individual eclipses is not established; retain batch adjudication, with explicit exception to simplified single-event wording.",
+      "evidence": "../c9a-return/reports/vet11.md"
+    }
+  ]
+}
