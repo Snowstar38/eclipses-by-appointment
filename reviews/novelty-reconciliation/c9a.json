@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-30",
+  "definition_source": "short/sec_methods.html#m-cats, Status words",
+  "scope": "10 count_addition=true C rows; original core-catalogue definition only",
+  "query_attempts": [
+    {
+      "tic": "468181994",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "468181994",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "468181994",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "470235665",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "470235665",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "470235665",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "379251709",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "379251709",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=29.7546213215801+67.5461688632913&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:50 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:50\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=29.7546213215801+67.5461688632913&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=029.754621+67.546169,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table3:\n#Name: J/ApJS/279/50/table3\n#Title: Parameters of the 7936 new eclipsing binary stars (EBs)\n#Column\t_r\t(F6.3)\tDistance from center (029.75462132+67.54616886)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[8636/1976115514] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tTmag\t(F6.3)\t[6.63/15] TESS magnitude\t[ucd=phot.mag;em.opt]\n#Column\tPer\t(F9.6)\t[0.64/39.8] Period\t[ucd=time.period]\n#Column\tT0-pri\t(F9.4)\t[1325.4/3687.9] T0, Minimum brightness, Primary, BJD-2457000\t[ucd=time.epoch]\n#Column\tDepth-pri\t(I3)\t[1/848]? Eclipse median depth, primary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-pri\t(F4.1)\t[1/15.2]? Eclipse median duration, primary\t[ucd=time.duration;stat.median]\n#Column\tT0-sec\t(F9.4)\t[1325.39/3687.9]? T0, Minimum brightness, Secondary, BJD-2457000\t[ucd=time.epoch]\n#Column\tPhase\t(F5.2)\t[0.1/0.9]? Secondary Phase\t[ucd=time.phase]\n#Column\tDepth-sec\t(F6.2)\t[0/799]? Eclipse median depth, secondary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-sec\t(F4.1)\t[1/34]? Eclipse median duration, secondary\t[ucd=time.duration;stat.median]\n#Column\tSect\t(I2)\t[1/44] TESS Sectors available at time of writing\t[ucd=meta.id;obs]\n#Column\tRUWE\t(F5.2)\t[0.7/59.7]? Gaia DR3 renormalized unit weight error\t[ucd=stat.error]\n#Column\tAEN\t(F8.4)\t[0.0016/162.3]? Gaia DR3 astrometric excess noise\t[ucd=stat.fit.param]\n#Column\tAENS\t(F13.4)\t[0.0016/13555642]? Gaia DR3 astrometric excess noise sig\t[ucd=stat.fit.param]\n#Column\tTeff\t(I5)\t[3326/24162]? Surface effective temperature\t[ucd=phys.temperature.effective]\n#Column\tComm\t(a112)\tComments (1)\t[ucd=meta.note]\n#Column\tSimbad\t(a6)\tSimbad column added by the CDS\t[ucd=meta.ref.url]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "379251709",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "331293467",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "331293467",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "331293467",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "331293467",
+      "catalogue": "II/366/catalog",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=212.403511923353+-60.1143106920448&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:51 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:52\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=212.403511923353+-60.1143106920448&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\tError=Table 'catalog' does not exist in catalog: II/366\t\n",
+      "interpretation": "invalid table request; not negative evidence"
+    },
+    {
+      "tic": "283532878",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:53 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:53\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=327.869175+57.984918,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_36910242\n#Name: J/A+A/691/A242\n#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)\n#INFO\tivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tcreator=IJspeert L.W.\t    First author or institution\n#INFO\tcites=bibcode:2024A&A...691A.242I\t    Article or Data origin sources\n#INFO\tjournal=A&A\t    Journal name\n#INFO\toriginal_date=2024\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier.36910242\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2025-02-18\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_A_A_691_A242_tessobaf:\n#Name: J/A+A/691/A242/tessobaf\n#Title: TESS OBAF catalogue\n#Column\t_r\t(F6.3)\tDistance from center (327.86917518983+57.98491843743)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(D24.17)\t? TIC parallax (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F19.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F20.17)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F19.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F19.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F19.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\t? Score value between 0 and 1 by ECLIPSR (see documentation) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\t? Boolean flag (0 or 1) indicating likely (purely) sinusoidal signal (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\t? Boolean flag (0 or 1) indicating likely wide eclipses (in phase space) (wide)\t[ucd=meta.code]\n#Table\tJ_A_A_691_A242_obaf-eb1:\n#Name: J/A+A/691/A242/obaf-eb1\n#Title: TESS_OBAF_EB_catalogue (partial)\n#Column\t_r\t(F6.3)\tDistance from center (327.86917518983+57.98491843743)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(F26.19)\t? TIC parallax (mas) (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F22.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F22.16)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F22.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F22.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F22.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\tSum of score values across all datasets (SPOC and QLP years 1-4) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\tSum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\tSum of wide values across all datasets (SPOC and QLP years 1-4) (wide)\t[ucd=meta.code]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "283532878",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:56 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:56\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=327.869175+57.984918,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table3:\n#Name: J/ApJS/279/50/table3\n#Title: Parameters of the 7936 new eclipsing binary stars (EBs)\n#Column\t_r\t(F6.3)\tDistance from center (327.86917519+57.98491844)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[8636/1976115514] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tTmag\t(F6.3)\t[6.63/15] TESS magnitude\t[ucd=phot.mag;em.opt]\n#Column\tPer\t(F9.6)\t[0.64/39.8] Period\t[ucd=time.period]\n#Column\tT0-pri\t(F9.4)\t[1325.4/3687.9] T0, Minimum brightness, Primary, BJD-2457000\t[ucd=time.epoch]\n#Column\tDepth-pri\t(I3)\t[1/848]? Eclipse median depth, primary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-pri\t(F4.1)\t[1/15.2]? Eclipse median duration, primary\t[ucd=time.duration;stat.median]\n#Column\tT0-sec\t(F9.4)\t[1325.39/3687.9]? T0, Minimum brightness, Secondary, BJD-2457000\t[ucd=time.epoch]\n#Column\tPhase\t(F5.2)\t[0.1/0.9]? Secondary Phase\t[ucd=time.phase]\n#Column\tDepth-sec\t(F6.2)\t[0/799]? Eclipse median depth, secondary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-sec\t(F4.1)\t[1/34]? Eclipse median duration, secondary\t[ucd=time.duration;stat.median]\n#Column\tSect\t(I2)\t[1/44] TESS Sectors available at time of writing\t[ucd=meta.id;obs]\n#Column\tRUWE\t(F5.2)\t[0.7/59.7]? Gaia DR3 renormalized unit weight error\t[ucd=stat.error]\n#Column\tAEN\t(F8.4)\t[0.0016/162.3]? Gaia DR3 astrometric excess noise\t[ucd=stat.fit.param]\n#Column\tAENS\t(F13.4)\t[0.0016/13555642]? Gaia DR3 astrometric excess noise sig\t[ucd=stat.fit.param]\n#Column\tTeff\t(I5)\t[3326/24162]? Surface effective temperature\t[ucd=phys.temperature.effective]\n#Column\tComm\t(a112)\tComments (1)\t[ucd=meta.note]\n#Column\tSimbad\t(a6)\tSimbad column added by the CDS\t[ucd=meta.ref.url]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "283532878",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable4&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:57 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:58\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable4&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=327.869175+57.984918,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table4:\n#Name: J/ApJS/279/50/table4\n#Title: Comparison between the correct period measured from TESS and literature periods for 2065 known EBs\n#Column\t_r\t(F6.3)\tDistance from center (327.86917519+57.98491844)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[10507/1421145304] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tPer-TESS\t(F9.6)\t[0.56/19.6] TESS Period\t[ucd=time.period]\n#Column\tT0-TESS\t(F11.6)\t[1325.47/3687.22] TESS T0, BJD-2,457,000\t[ucd=time.epoch]\n#Column\tPer-Gaia\t(F10.6)\t[0.2/406.1]? Gaia DR3 period\t[ucd=time.period]\n#Column\tRatio1\t(F5.2)\t[0/6.7]? Gaia vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ASAS\t(F9.6)\t[0.23/50.61]? ASAS-SN (Rowan+ 2022, J/MNRAS/517/2190) period\t[ucd=time.period]\n#Column\tRatio2\t(F5.2)\t[0/6]? ASAS-SN vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ATLAS\t(F10.6)\t[0.42/144.81]? ATLAS (Heinze+ 2018, J/AJ/156/241) period\t[ucd=time.period]\n#Column\tRatio3\t(F5.2)\t[0/6]? ATLAS vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-VSX\t(F9.6)\t[0.25/38]? VSX period\t[ucd=time.period]\n#Column\tRatio4\t(F5.2)\t[0/6]? VSX vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-WISE\t(F9.6)\t[0.28/4.6]? WISE (Petrosky+ 2021, J/MNRAS/503/3975) period\t[ucd=time.period]\n#Column\tRatio5\t(F4.1)\t[1/6]? WISE vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ZTF\t(F9.6)\t[0.63/7.66]? ZTF period\t[ucd=time.period]\n#Column\tRatio6\t(F5.2)\t[1/2.33]? ZTF vs TESS period ratio\t[ucd=time.period;arith.ratio]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "283532878",
+      "catalogue": "II/366/catalog",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T20:59:59 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T20:59:59\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=327.869175189832+57.9849184374285&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\tError=Table 'catalog' does not exist in catalog: II/366\t\n",
+      "interpretation": "invalid table request; not negative evidence"
+    },
+    {
+      "tic": "407877153",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:01 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:01\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=275.783436-79.352572,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_36910242\n#Name: J/A+A/691/A242\n#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)\n#INFO\tivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tcreator=IJspeert L.W.\t    First author or institution\n#INFO\tcites=bibcode:2024A&A...691A.242I\t    Article or Data origin sources\n#INFO\tjournal=A&A\t    Journal name\n#INFO\toriginal_date=2024\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier.36910242\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2025-02-18\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_A_A_691_A242_tessobaf:\n#Name: J/A+A/691/A242/tessobaf\n#Title: TESS OBAF catalogue\n#Column\t_r\t(F6.3)\tDistance from center (275.78343638075-79.35257213663)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(D24.17)\t? TIC parallax (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F19.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F20.17)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F19.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F19.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F19.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\t? Score value between 0 and 1 by ECLIPSR (see documentation) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\t? Boolean flag (0 or 1) indicating likely (purely) sinusoidal signal (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\t? Boolean flag (0 or 1) indicating likely wide eclipses (in phase space) (wide)\t[ucd=meta.code]\n#Table\tJ_A_A_691_A242_obaf-eb1:\n#Name: J/A+A/691/A242/obaf-eb1\n#Title: TESS_OBAF_EB_catalogue (partial)\n#Column\t_r\t(F6.3)\tDistance from center (275.78343638075-79.35257213663)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(F26.19)\t? TIC parallax (mas) (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F22.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F22.16)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F22.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F22.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F22.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\tSum of score values across all datasets (SPOC and QLP years 1-4) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\tSum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\tSum of wide values across all datasets (SPOC and QLP years 1-4) (wide)\t[ucd=meta.code]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "407877153",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:03 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:03\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=275.783436-79.352572,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table3:\n#Name: J/ApJS/279/50/table3\n#Title: Parameters of the 7936 new eclipsing binary stars (EBs)\n#Column\t_r\t(F6.3)\tDistance from center (275.78343638-79.35257214)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[8636/1976115514] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tTmag\t(F6.3)\t[6.63/15] TESS magnitude\t[ucd=phot.mag;em.opt]\n#Column\tPer\t(F9.6)\t[0.64/39.8] Period\t[ucd=time.period]\n#Column\tT0-pri\t(F9.4)\t[1325.4/3687.9] T0, Minimum brightness, Primary, BJD-2457000\t[ucd=time.epoch]\n#Column\tDepth-pri\t(I3)\t[1/848]? Eclipse median depth, primary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-pri\t(F4.1)\t[1/15.2]? Eclipse median duration, primary\t[ucd=time.duration;stat.median]\n#Column\tT0-sec\t(F9.4)\t[1325.39/3687.9]? T0, Minimum brightness, Secondary, BJD-2457000\t[ucd=time.epoch]\n#Column\tPhase\t(F5.2)\t[0.1/0.9]? Secondary Phase\t[ucd=time.phase]\n#Column\tDepth-sec\t(F6.2)\t[0/799]? Eclipse median depth, secondary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-sec\t(F4.1)\t[1/34]? Eclipse median duration, secondary\t[ucd=time.duration;stat.median]\n#Column\tSect\t(I2)\t[1/44] TESS Sectors available at time of writing\t[ucd=meta.id;obs]\n#Column\tRUWE\t(F5.2)\t[0.7/59.7]? Gaia DR3 renormalized unit weight error\t[ucd=stat.error]\n#Column\tAEN\t(F8.4)\t[0.0016/162.3]? Gaia DR3 astrometric excess noise\t[ucd=stat.fit.param]\n#Column\tAENS\t(F13.4)\t[0.0016/13555642]? Gaia DR3 astrometric excess noise sig\t[ucd=stat.fit.param]\n#Column\tTeff\t(I5)\t[3326/24162]? Surface effective temperature\t[ucd=phys.temperature.effective]\n#Column\tComm\t(a112)\tComments (1)\t[ucd=meta.note]\n#Column\tSimbad\t(a6)\tSimbad column added by the CDS\t[ucd=meta.ref.url]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "407877153",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable4&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:03 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:03\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable4&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=275.783436-79.352572,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table4:\n#Name: J/ApJS/279/50/table4\n#Title: Comparison between the correct period measured from TESS and literature periods for 2065 known EBs\n#Column\t_r\t(F6.3)\tDistance from center (275.78343638-79.35257214)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[10507/1421145304] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tPer-TESS\t(F9.6)\t[0.56/19.6] TESS Period\t[ucd=time.period]\n#Column\tT0-TESS\t(F11.6)\t[1325.47/3687.22] TESS T0, BJD-2,457,000\t[ucd=time.epoch]\n#Column\tPer-Gaia\t(F10.6)\t[0.2/406.1]? Gaia DR3 period\t[ucd=time.period]\n#Column\tRatio1\t(F5.2)\t[0/6.7]? Gaia vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ASAS\t(F9.6)\t[0.23/50.61]? ASAS-SN (Rowan+ 2022, J/MNRAS/517/2190) period\t[ucd=time.period]\n#Column\tRatio2\t(F5.2)\t[0/6]? ASAS-SN vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ATLAS\t(F10.6)\t[0.42/144.81]? ATLAS (Heinze+ 2018, J/AJ/156/241) period\t[ucd=time.period]\n#Column\tRatio3\t(F5.2)\t[0/6]? ATLAS vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-VSX\t(F9.6)\t[0.25/38]? VSX period\t[ucd=time.period]\n#Column\tRatio4\t(F5.2)\t[0/6]? VSX vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-WISE\t(F9.6)\t[0.28/4.6]? WISE (Petrosky+ 2021, J/MNRAS/503/3975) period\t[ucd=time.period]\n#Column\tRatio5\t(F4.1)\t[1/6]? WISE vs TESS period ratio\t[ucd=time.period;arith.ratio]\n#Column\tPer-ZTF\t(F9.6)\t[0.63/7.66]? ZTF period\t[ucd=time.period]\n#Column\tRatio6\t(F5.2)\t[1/2.33]? ZTF vs TESS period ratio\t[ucd=time.period;arith.ratio]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "407877153",
+      "catalogue": "II/366/catalog",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:03 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:03\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=II%2F366%2Fcatalog&-c=275.783436380745+-79.3525721366319&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\tError=Table 'catalog' does not exist in catalog: II/366\t\n",
+      "interpretation": "invalid table request; not negative evidence"
+    },
+    {
+      "tic": "15855794",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=61.9846420339577+22.7526773515837&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:03 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:03\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=61.9846420339577+22.7526773515837&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=061.984642+22.752677,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_36910242\n#Name: J/A+A/691/A242\n#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)\n#INFO\tivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tcreator=IJspeert L.W.\t    First author or institution\n#INFO\tcites=bibcode:2024A&A...691A.242I\t    Article or Data origin sources\n#INFO\tjournal=A&A\t    Journal name\n#INFO\toriginal_date=2024\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier.36910242\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2025-02-18\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_A_A_691_A242_tessobaf:\n#Name: J/A+A/691/A242/tessobaf\n#Title: TESS OBAF catalogue\n#Column\t_r\t(F6.3)\tDistance from center ( 61.98464203396+22.75267735158)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(D24.17)\t? TIC parallax (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F19.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F20.17)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F19.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F19.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F19.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\t? Score value between 0 and 1 by ECLIPSR (see documentation) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\t? Boolean flag (0 or 1) indicating likely (purely) sinusoidal signal (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\t? Boolean flag (0 or 1) indicating likely wide eclipses (in phase space) (wide)\t[ucd=meta.code]\n#Table\tJ_A_A_691_A242_obaf-eb1:\n#Name: J/A+A/691/A242/obaf-eb1\n#Title: TESS_OBAF_EB_catalogue (partial)\n#Column\t_r\t(F6.3)\tDistance from center ( 61.98464203396+22.75267735158)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(F26.19)\t? TIC parallax (mas) (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F22.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F22.16)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F22.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F22.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F22.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\tSum of score values across all datasets (SPOC and QLP years 1-4) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\tSum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\tSum of wide values across all datasets (SPOC and QLP years 1-4) (wide)\t[ucd=meta.code]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "15855794",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "15855794",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "15855794",
+      "catalogue": "II/366/catalog",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "92881948",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=83.2374971727493+-22.990836995752&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:03 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:03\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=83.2374971727493+-22.990836995752&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=083.237497-22.990837,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_36910242\n#Name: J/A+A/691/A242\n#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)\n#INFO\tivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tcreator=IJspeert L.W.\t    First author or institution\n#INFO\tcites=bibcode:2024A&A...691A.242I\t    Article or Data origin sources\n#INFO\tjournal=A&A\t    Journal name\n#INFO\toriginal_date=2024\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier.36910242\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2025-02-18\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_A_A_691_A242_tessobaf:\n#Name: J/A+A/691/A242/tessobaf\n#Title: TESS OBAF catalogue\n#Column\t_r\t(F6.3)\tDistance from center ( 83.23749717275-22.99083699575)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(D24.17)\t? TIC parallax (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F19.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F20.17)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F19.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F19.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F19.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\t? Score value between 0 and 1 by ECLIPSR (see documentation) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\t? Boolean flag (0 or 1) indicating likely (purely) sinusoidal signal (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\t? Boolean flag (0 or 1) indicating likely wide eclipses (in phase space) (wide)\t[ucd=meta.code]\n#Table\tJ_A_A_691_A242_obaf-eb1:\n#Name: J/A+A/691/A242/obaf-eb1\n#Title: TESS_OBAF_EB_catalogue (partial)\n#Column\t_r\t(F6.3)\tDistance from center ( 83.23749717275-22.99083699575)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(F26.19)\t? TIC parallax (mas) (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F22.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F22.16)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F22.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F22.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F22.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\tSum of score values across all datasets (SPOC and QLP years 1-4) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\tSum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\tSum of wide values across all datasets (SPOC and QLP years 1-4) (wide)\t[ucd=meta.code]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "92881948",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "92881948",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "92881948",
+      "catalogue": "II/366/catalog",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "468827621",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "468827621",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=91.9386505142516+69.034466660429&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:04 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:04\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable3&-c=91.9386505142516+69.034466660429&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=091.938651+69.034467,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_22790050\n#Name: J/ApJS/279/50\n#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)\n#INFO\tivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/apjs/279/50\t    IVOID of underlying data collection\n#INFO\tcreator=Kostov V.B.\t    First author or institution\n#INFO\tcites=bibcode:2025ApJS..279...50K\t    Article or Data origin sources\n#INFO\tjournal=ApJS\t    Journal name\n#INFO\toriginal_date=2025\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier/bb-8q-1j\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2026-09-14\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_ApJS_279_50_table3:\n#Name: J/ApJS/279/50/table3\n#Title: Parameters of the 7936 new eclipsing binary stars (EBs)\n#Column\t_r\t(F6.3)\tDistance from center (091.93865051+69.03446666)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I10)\t[8636/1976115514] TESS Input catalog\t[ucd=meta.id;meta.main]\n#Column\tRAJ2000\t(F12.8)\tRight Ascension, decimal degrees (J2000)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F12.8)\t[-89/89] Declination, decimal degrees (J2000)\t[ucd=pos.eq.dec;meta.main]\n#Column\tTmag\t(F6.3)\t[6.63/15] TESS magnitude\t[ucd=phot.mag;em.opt]\n#Column\tPer\t(F9.6)\t[0.64/39.8] Period\t[ucd=time.period]\n#Column\tT0-pri\t(F9.4)\t[1325.4/3687.9] T0, Minimum brightness, Primary, BJD-2457000\t[ucd=time.epoch]\n#Column\tDepth-pri\t(I3)\t[1/848]? Eclipse median depth, primary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-pri\t(F4.1)\t[1/15.2]? Eclipse median duration, primary\t[ucd=time.duration;stat.median]\n#Column\tT0-sec\t(F9.4)\t[1325.39/3687.9]? T0, Minimum brightness, Secondary, BJD-2457000\t[ucd=time.epoch]\n#Column\tPhase\t(F5.2)\t[0.1/0.9]? Secondary Phase\t[ucd=time.phase]\n#Column\tDepth-sec\t(F6.2)\t[0/799]? Eclipse median depth, secondary, parts-per-thousand\t[ucd=phot.mag;stat.min]\n#Column\tDur-sec\t(F4.1)\t[1/34]? Eclipse median duration, secondary\t[ucd=time.duration;stat.median]\n#Column\tSect\t(I2)\t[1/44] TESS Sectors available at time of writing\t[ucd=meta.id;obs]\n#Column\tRUWE\t(F5.2)\t[0.7/59.7]? Gaia DR3 renormalized unit weight error\t[ucd=stat.error]\n#Column\tAEN\t(F8.4)\t[0.0016/162.3]? Gaia DR3 astrometric excess noise\t[ucd=stat.fit.param]\n#Column\tAENS\t(F13.4)\t[0.0016/13555642]? Gaia DR3 astrometric excess noise sig\t[ucd=stat.fit.param]\n#Column\tTeff\t(I5)\t[3326/24162]? Surface effective temperature\t[ucd=phys.temperature.effective]\n#Column\tComm\t(a112)\tComments (1)\t[ucd=meta.note]\n#Column\tSimbad\t(a6)\tSimbad column added by the CDS\t[ucd=meta.ref.url]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "468827621",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "416285595",
+      "catalogue": "J/A+A/691/A242",
+      "radius_arcsec": 60,
+      "http_status": 200,
+      "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=287.318165074913+24.0684959972507&-c.rs=60&-out.all=&-out.add=_r&-out.max=50",
+      "response": "#\n#   VizieR Astronomical Server vizier.idia.ac.za\n#    Date: 2026-10-30T21:00:04 [V7.6.1]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-10-30T21:00:05\t  Query execution date\n#INFO\trequest=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FA%2BA%2F691%2FA242&-c=287.318165074913+24.0684959972507&-c.rs=60&-out.all=&-out.add=_r&-out.max=50\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.6.1\t  Software version\n#INFO\tpublisher=CDS\t  Data centre that produced the VOTable\n#INFO\t-c=287.318165+24.068496,rs=60.\t\n#Constraint -out.max=50\n\n#RESOURCE=yCat_36910242\n#Name: J/A+A/691/A242\n#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)\n#INFO\tivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tdata_ivoid=ivo://cds.vizier/j/a+a/691/a242\t    IVOID of underlying data collection\n#INFO\tcreator=IJspeert L.W.\t    First author or institution\n#INFO\tcites=bibcode:2024A&A...691A.242I\t    Article or Data origin sources\n#INFO\tjournal=A&A\t    Journal name\n#INFO\toriginal_date=2024\t    Year of the article publication\n#INFO\treference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242\t    Dataset landing page\n#INFO\tcitation=doi:10.26093/cds/vizier.36910242\t    Dataset identifier that can be used for citation\n#INFO\tpublication_date=2025-02-18\t    Date of first publication in the data centre\n#INFO\trights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html\t    Licence URI\n#Table\tJ_A_A_691_A242_tessobaf:\n#Name: J/A+A/691/A242/tessobaf\n#Title: TESS OBAF catalogue\n#Column\t_r\t(F6.3)\tDistance from center (287.31816507491+24.06849599725)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(D24.17)\t? TIC parallax (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F19.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F20.17)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F19.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F19.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F19.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\t? Score value between 0 and 1 by ECLIPSR (see documentation) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\t? Boolean flag (0 or 1) indicating likely (purely) sinusoidal signal (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\t? Boolean flag (0 or 1) indicating likely wide eclipses (in phase space) (wide)\t[ucd=meta.code]\n#Table\tJ_A_A_691_A242_obaf-eb1:\n#Name: J/A+A/691/A242/obaf-eb1\n#Title: TESS_OBAF_EB_catalogue (partial)\n#Column\t_r\t(F6.3)\tDistance from center (287.31816507491+24.06849599725)[FK5/J2000]\t[ucd=pos.angDistance]\n#Column\tTIC\t(I9)\tIdentification number in the TESS Input Catalog (TIC)\t[ucd=meta.id;meta.main]\n#Column\t2MASS\t(A17)\tIdentification number from 2MASS (TWOMASS)\t[ucd=meta.id]\n#Column\tRAJ2000\t(F15.11)\tRight ascension (J2000) (ra)\t[ucd=pos.eq.ra;meta.main]\n#Column\tDEJ2000\t(F15.11)\tDeclination (J2000) (dec)\t[ucd=pos.eq.dec;meta.main]\n#Column\tplx\t(F26.19)\t? TIC parallax (mas) (plx)\t[ucd=pos.parallax.trig]\n#Column\tJmag\t(F22.16)\tJ band magnitude (Jmag)\t[ucd=phot.mag;em.IR.J]\n#Column\tHmag\t(F22.16)\tH band magnitude (Hmag)\t[ucd=phot.mag;em.IR.H]\n#Column\tKmag\t(F22.16)\tK band magnitude (Kmag)\t[ucd=phot.mag;em.IR.K]\n#Column\tTmag\t(F22.16)\tTESS (T) magnitude (Tmag)\t[ucd=phot.mag;em.opt]\n#Column\twdflag\t(F4.1)\t? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)\t[ucd=meta.code]\n#Column\tGaiaDR3\t(I19)\t? Identification number from GAIA DR3 (GAIA_DR3)\t[ucd=meta.id]\n#Column\tGmag\t(F22.16)\t? Gaia G-band mean magnitude (phot_g_mean_mag)\t[ucd=phot.mag;em.opt]\n#Column\tscore\t(F4.1)\tSum of score values across all datasets (SPOC and QLP years 1-4) (score)\t[ucd=stat.fit.param]\n#Column\tslike\t(F4.1)\tSum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)\t[ucd=meta.code]\n#Column\twide\t(F4.1)\tSum of wide values across all datasets (SPOC and QLP years 1-4) (wide)\t[ucd=meta.code]\n",
+      "interpretation": "metadata-only response without validated positive control; unresolved"
+    },
+    {
+      "tic": "416285595",
+      "catalogue": "J/ApJS/279/50/table3",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    },
+    {
+      "tic": "416285595",
+      "catalogue": "J/ApJS/279/50/table4",
+      "radius_arcsec": 60,
+      "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out.",
+      "interpretation": "failed request; no negative evidence"
+    }
+  ],
+  "stars": [
+    {
+      "review_id": "C02",
+      "tic": "468181994",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "no entry reported"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet01.md",
+      "source_evidence": [
+        "evidence/80e6ff13be-s2_archives.out",
+        "evidence/a9b8b3a181-s2b_archives.out"
+      ]
+    },
+    {
+      "review_id": "C03",
+      "tic": "470235665",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "no entry reported"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet02.md",
+      "source_evidence": [
+        "evidence/ac40b45105-s1_archives.out",
+        "evidence/532cf6f01b-s1c_archives.out"
+      ]
+    },
+    {
+      "review_id": "C04",
+      "tic": "379251709",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "no entry reported"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet02.md",
+      "source_evidence": [
+        "evidence/ac40b45105-s1_archives.out",
+        "evidence/532cf6f01b-s1c_archives.out"
+      ]
+    },
+    {
+      "review_id": "C06",
+      "tic": "331293467",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "predecessor empty cone only; later positive-control rerun timed out",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "unresolved: no explicit successful core-table check located"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks",
+        "ASAS-SN explicit successful check not established",
+        "Gaia EB query validation remains weak; reuse predecessor only with this limitation"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet03.md",
+      "source_evidence": [
+        "evidence/4588eb4bba-s2_archives.out",
+        "evidence/8745386760-REPORT.md"
+      ]
+    },
+    {
+      "review_id": "C07",
+      "tic": "283532878",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "known EB at 29.57 arcsec belongs to different source",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "known EB at 29.67 arcsec belongs to different source",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "unresolved: no explicit successful core-table check located"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks",
+        "ASAS-SN explicit successful check not established"
+      ],
+      "note": "Nearby Gaia DR3 2202301140233408128, P=1.79747 d, excluded as source in returned physical review; not target prior EB.",
+      "public_report": "reviews/c9a-return/reports/vet04.md",
+      "source_evidence": [
+        "evidence/01a402aece-s12d_recheck.out",
+        "evidence/7d2464ecb0-s12b_archives.out",
+        "evidence/f28435a7fe-s12e_neighbour_eb.out"
+      ]
+    },
+    {
+      "review_id": "C08",
+      "tic": "407877153",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "unresolved: no explicit successful core-table check located"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks",
+        "ASAS-SN explicit successful check not established"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet04.md",
+      "source_evidence": [
+        "evidence/01a402aece-s12d_recheck.out",
+        "evidence/7d2464ecb0-s12b_archives.out",
+        "evidence/f28435a7fe-s12e_neighbour_eb.out"
+      ]
+    },
+    {
+      "review_id": "C09",
+      "tic": "15855794",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "unresolved: no explicit successful core-table check located"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks",
+        "ASAS-SN explicit successful check not established"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet05.md",
+      "source_evidence": [
+        "evidence/5adf6d943a-s10b_archives_redo.out",
+        "evidence/957d742820-s10c_vizier_check.out",
+        "evidence/c294cf22c0-s10d_controls_gaiavar.out"
+      ]
+    },
+    {
+      "review_id": "C10",
+      "tic": "92881948",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "ROT at 1.35 arcsec; allowed non-eclipsing prior type",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "unresolved: no explicit successful core-table check located"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks",
+        "ASAS-SN explicit successful check not established"
+      ],
+      "note": "Gaia SOLAR_LIKE classifier is likewise not a prior EB classification.",
+      "public_report": "reviews/c9a-return/reports/vet05.md",
+      "source_evidence": [
+        "evidence/5adf6d943a-s10b_archives_redo.out",
+        "evidence/957d742820-s10c_vizier_check.out",
+        "evidence/c294cf22c0-s10d_controls_gaiavar.out"
+      ]
+    },
+    {
+      "review_id": "C11",
+      "tic": "468827621",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "no entry reported"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet06.md",
+      "source_evidence": [
+        "evidence/215f005025-s1_archives.out",
+        "evidence/8b69c3c2a1-s1b_archives.out"
+      ]
+    },
+    {
+      "review_id": "C12",
+      "tic": "416285595",
+      "status": "unresolved",
+      "physical_verdict": "CONFIRMED",
+      "evidence_matrix": {
+        "VSX": "no target EB entry (60 arcsec)",
+        "SIMBAD variability": "SB*, not EB*",
+        "GaiaDR3EB": "no target entry reported (60 arcsec)",
+        "Prsa2022": "no target entry reported (60 arcsec)",
+        "IJspeert2024": "unresolved: returned evidence queries 2021 catalogue instead",
+        "Kostov2025 vetted t3/t4": "unresolved: no validated complete check",
+        "ASAS-SN": "no entry reported"
+      },
+      "gaps": [
+        "IJspeert2024 table (not 2021) requires successful validated target check",
+        "Kostov2025 vetted tables 3 and 4 require successful validated target checks"
+      ],
+      "note": "",
+      "public_report": "reviews/c9a-return/reports/vet06.md",
+      "source_evidence": [
+        "evidence/215f005025-s1_archives.out",
+        "evidence/8b69c3c2a1-s1b_archives.out"
+      ]
+    }
+  ],
+  "summary": {
+    "uncatalogued": 0,
+    "known": 0,
+    "unresolved": 10,
+    "meaning": "Unresolved is incomplete core-catalogue evidence, not rejection of confirmed eclipses."
+  },
+  "researcher_systems": "Kostov2025 vetted tables 3/4 are core exclusions; unvetted machine-learning table2 alone does not disqualify. Returned checks do not establish full vetted-table coverage for these ten. No verified table2 target flags established here.",
+  "query_attempt_notes": [
+    "CDS discovery probes for IJspeert2024 and Kostov t3/t4 timed out; IDIA discovery probes also timed out.",
+    "35 bounded missing target-table attempts: some HTTP200 metadata-only responses, no established positive control, not accepted as validated negatives.",
+    "II/366/catalog was an invalid table name: HTTP200 explicitly says table does not exist. These five failed attempts are not absence evidence. Correct source is II/366 (or its verified named table).",
+    "Earlier c3-c8 ebcats output caches in Fable 5/made/sb1-scale searched for exact TIC row starts; none of these ten found. C9 montage/survivors prove selection, not table coverage.",
+    "I/357/varisum is incorrect for Gaia variability; not used as negative evidence. GaiaDR3EB I/358/veb is separate and retained where successful."
+  ],
+  "bounded_bulk_pass": {
+    "table_downloads": [
+      {
+        "catalogue": "J/A+A/691/A242/obaf-eb1",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "catalogue": "J/ApJS/279/50/table3",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "catalogue": "J/ApJS/279/50/table4",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      }
+    ],
+    "correct_asas_requests": [
+      {
+        "tic": "331293467",
+        "catalogue": "II/366",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "tic": "283532878",
+        "catalogue": "II/366",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "tic": "407877153",
+        "catalogue": "II/366",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "tic": "15855794",
+        "catalogue": "II/366",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      },
+      {
+        "tic": "92881948",
+        "catalogue": "II/366",
+        "error": "HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Read timed out."
+      }
+    ],
+    "result": "all eight requests read timed out; no tables or hashes obtainable; all ten novelty statuses remain unresolved",
+    "control_rule": "A successful complete table with actual rows provides its own service/table validation; no per-target control additionally required. None downloaded in this pass."
+  }
+}

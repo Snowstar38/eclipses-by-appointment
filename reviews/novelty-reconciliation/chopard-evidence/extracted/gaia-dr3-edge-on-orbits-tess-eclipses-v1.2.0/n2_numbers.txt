@@ -1,0 +1,82 @@
+Numbers of the Research Note N2, recomputed from the deposit
+
+== 2. The search
+orbits selected (G < 14, best-fitting inclination within 1 deg of 90): 1726   [track3_detail.csv]
+median sigma_i: 3.9 deg; median sigma_t of conjunction 1 at BTJD 3100 (2023): 43 d   [track3_detail.csv]
+sum of the eclipse probabilities: 125 (7.3 per cent of the sample)   [track3_detail.csv]
+stars searched: 1689, with TESS light curves: 1666   [pilot_results/summary.txt]
+search windows: 769 on 209 stars; flagged dips: 157 on 67 stars   [pilot_results/windows.csv]
+false-alarm rate, QLP      : 3 of 322 clean shifted windows -> 0.93 per cent (95 per cent upper 2.39)   [pilot_results/false_alarms_extended.csv]
+false-alarm rate, SPOC     : 0 of 330 clean shifted windows -> 0.00 per cent (95 per cent upper 0.90)   [pilot_results/false_alarms_extended.csv]
+false-alarm rate, TESS-SPOC: 0 of 424 clean shifted windows -> 0.00 per cent (95 per cent upper 0.70)   [pilot_results/false_alarms_extended.csv]
+clean shifted windows in total: 1076; SPOC and TESS-SPOC together: 754, with 0 false flags   [pilot_results/false_alarms_extended.csv]
+expected false flags over the 769 windows (upper rates): 10, against 157 flags
+injected events falling on data: 40 per cent   [injection/results.csv]
+recovery of injected eclipses deeper than 0.5 per cent, windows with data: 82 to 96 per cent   [injection/results.csv]
+flags: 157; distinct dips (flags of one star within 0.05 d merged; a dip can fall in two overlapping windows): 152
+artefact vetting of the 152 distinct flagged dips: on target 123, check pixels 9, instrumental 14, not reproduced 6, no data 0   [pilot_results/artefact_vetting.csv]
+calibration on 256 known eclipses: 237 of the 240 re-measured pass (98.8 per cent)   [calib_vetting.csv]
+
+== 3. Results
+separation test HD 284424 : offsets -2.58 / -2.54 d, difference 0.038 d (55 min); chance 1.4 per cent   [pilot_results/windows.csv]
+separation test Wolf 1392 : offsets -0.22 / +0.02 d, difference 0.242 d (348 min); chance 2.6 per cent   [pilot_results/windows.csv]
+separation test HD 194593 : offsets +0.21 / +0.40 d, difference 0.188 d (271 min); chance 16.8 per cent   [pilot_results/windows.csv]
+separation test BD+85 212 : offsets -1.20 / -0.01 d, difference 1.185 d (1707 min); chance 9.5 per cent   [pilot_results/windows.csv]
+chance that all flags are false, HD 284424      : 4 of 5 windows {'TESS-SPOC': 4} -> 1.5e-08
+chance that all flags are false, Wolf 1392      : 6 of 11 windows {'TESS-SPOC': 6} -> 6.3e-11
+chance that all flags are false, HD 194593      : 2 of 4 windows {'SPOC': 1, 'QLP': 1} -> 2.3e-03
+chance that all flags are false, BD+85 212      : 2 of 8 windows {'SPOC': 1, 'QLP': 1} -> 2.8e-03
+chance that all flags are false, CD-81 705      : 4 of 7 windows {'TESS-SPOC': 3, 'QLP': 1} -> 4.5e-07
+chance that all flags are false, HD 145453      : 3 of 3 windows {'TESS-SPOC': 2, 'SPOC': 1} -> 4.5e-07
+chance that all flags are false, HD 170829      : 3 of 11 windows {'SPOC': 3} -> 1.2e-04
+chance that all flags are false, TYC 3908-665-1 : 7 of 18 windows {'SPOC': 5, 'TESS-SPOC': 2} -> 6.9e-11
+chance that all flags are false, TOI-1656       : 2 of 3 windows {'TESS-SPOC': 1, 'SPOC': 1} -> 2.1e-04
+expected number of stars with >= 2 false flags over the whole search (upper rates): 0.4
+calibration: 14 conjunctions; std of offset/sigma 1.10, expected within the windows if exact 0.87 +/- 0.15; scale factor 1.77 (68 per cent: 1.11-4.00)   [pilot_results/windows.csv]
+difference images: on target in 18 of the 20 sectors that can be tested   [diff_images/results.csv]
+
+== 3b. Face-on control (orbits over 30 deg from edge-on, searched identically)
+control windows: 387 on 128 stars; dip flags 39; bump flags 36   [control/control_results/windows.csv]
+control false-alarm rate, QLP      : 39 of 171 windows -> 22.8 per cent (95 per cent upper 28.7)
+control false-alarm rate, SPOC     : 0 of 57 windows -> 0.0 per cent (95 per cent upper 5.1)
+control false-alarm rate, TESS-SPOC: 0 of 159 windows -> 0.0 per cent (95 per cent upper 1.9)
+real search, SPOC     : 50 of 167 windows flagged (29.9 per cent)
+real search, TESS-SPOC: 34 of 342 windows flagged (9.9 per cent)
+real search, QLP      : 73 of 260 windows flagged (28.1 per cent)
+combined SPOC and TESS-SPOC (control + shifted windows): 0 of 970 -> upper 0.31 per cent
+  control only HD 284424      : 4 of 5 -> 1.4e-06
+  control only Wolf 1392      : 6 of 11 -> 3.5e-08
+  control only HD 194593      : 2 of 4 -> 2.2e-01
+  control only BD+85 212      : 2 of 8 -> 9.7e-02
+  control only CD-81 705      : 4 of 7 -> 3.0e-04
+  control only HD 145453      : 3 of 3 -> 1.8e-05
+  control only HD 170829      : 3 of 11 -> 1.6e-02
+  control only TYC 3908-665-1 : 7 of 18 -> 1.6e-06
+  control only TOI-1656       : 2 of 3 -> 4.4e-03
+  control only expected false flags (upper rates) 90 of 157; stars with >= 2 false flags expected 17.5
+  combined     HD 284424      : 4 of 5 -> 4.5e-10
+  combined     Wolf 1392      : 6 of 11 -> 3.9e-13
+  combined     HD 194593      : 2 of 4 -> 2.0e-01
+  combined     BD+85 212      : 2 of 8 -> 6.3e-03
+  combined     CD-81 705      : 4 of 7 -> 7.9e-06
+  combined     HD 145453      : 3 of 3 -> 2.9e-08
+  combined     HD 170829      : 3 of 11 -> 4.7e-06
+  combined     TYC 3908-665-1 : 7 of 18 -> 8.2e-14
+  combined     TOI-1656       : 2 of 3 -> 2.8e-05
+  combined     expected false flags (upper rates) 76 of 157; stars with >= 2 false flags expected 14.7
+  CD-81 705 on SPOC and TESS-SPOC alone: 3 of 5 -> 2.9e-07 (combined rate)
+expected false flags at the control's mean rates: 59 of 157
+
+== 4. Discussion
+self-lensing, white dwarf 0.6 Msun  : expected detections if every star had one 11.3 -> fraction below 27 per cent (95 per cent)   [injection/results.csv]
+self-lensing, neutron star 1.4 Msun : expected detections if every star had one 18.8 -> fraction below 16 per cent (95 per cent)   [injection/results.csv]
+self-lensing, black hole 10 Msun    : expected detections if every star had one 21.8 -> fraction below 14 per cent (95 per cent)   [injection/results.csv]
+next eclipses predicted to better than two hours for 5 of the 8 systems   [predictions/eclipse_predictions.csv]
+   HD 75767             8.6 min
+   TYC 3908-665-1      29.6 min
+   CD-81 705           52.8 min
+   HD 284424           67.9 min
+   Wolf 1392           86.3 min
+   HD 145453          124.2 min
+   HD 170829          414.6 min
+   TOI-1656          3592.4 min

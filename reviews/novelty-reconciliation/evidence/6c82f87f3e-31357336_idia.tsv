@@ -1,0 +1,317 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-30T19:28:33 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-30T19:28:33	  Query execution date
+#INFO	request=https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=B%2Fvsx%2Fvsx%2CII%2F366%2CB%2Fsb9%2Fmain%2CB%2Fwds%2Fwds%2CJ%2FApJS%2F279%2F50%2Ftable2%2CJ%2FApJS%2F279%2F50%2Ftable3%2CJ%2FApJS%2F279%2F50%2Ftable4%2CJ%2FA%2BA%2F691%2FA242%2Fobaf-eb1%2CJ%2FApJS%2F258%2F16%2Ftess-ebs&-c=83.1775480038442+-26.9033549250608&-c.rs=60&-out.max=100&-out.all=&-out.add=_r&-sort=_r	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	CatalogsExamined=9	
+#  9 catalogues with potential matches were examined.
+#
+#INFO	-c=083.177548-26.903355,rs=60.	
+#Constraint -sort=_r
+
+#RESOURCE=yCat_102027
+#Name: B/vsx
+#Title: AAVSO International Variable Star Index VSX (Watson+, 2006-)
+#INFO	ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	creator=Watson C.	    First author or institution
+#INFO	cites=bibcode:2006SASS...25...47W	    Article or Data origin sources
+#INFO	journal=SASS	    Journal name
+#INFO	original_date=2006	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/B/vsx	    Dataset landing page
+#INFO	publication_date=2026-10-19	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	B_vsx_vsx:
+#Name: B/vsx/vsx
+#Title: Variable Star indeX, Version 2026-10-18 (\originalcolumnnames)
+#Column	_r	(F5.2)	Distance from center ( 83.17755-26.90335)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	OID	(I8)	Internal identifier, can be used to link out to the VSX database (1)	[ucd=meta.id]
+#Column	Name	(A30)	Variable star identifier	[ucd=meta.id;meta.main]
+#Column	V	(I1)	Variability flag (2) (VarFlag)	[ucd=src.var]
+#Column	RAJ2000	(F9.5)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Type	(A30)	? Variability type, ariability type, as in GCVS catalog Variability type (see details of VSX type list)	[ucd=src.class]
+#Column	l_max	(A1)	? Limit flag on max (LimitFlagOnMax)	[ucd=meta.code.error;src.var.amplitude]
+#Column	max	(F7.3)	[-6.0/25.2]? Magnitude at maximum, or amplitude (MagMax)	[ucd=src.var.amplitude]
+#Column	u_max	(A1)	? Uncertainty flag on max (MaxUncertaintyFlag)	[ucd=meta.code.error;src.var.amplitude]
+#Column	n_max	(A10)	? Passband on max magnitude (4) (MaxPassband)	[ucd=meta.note;src.var.amplitude]
+#Column	f_min	(A1)	? Flag to indicate an amplitude (MinIsAmplitude)	[ucd=meta.code;src.var.amplitude]
+#Column	l_min	(A1)	? Limit flag on min (LimitFlagOnMin)	[ucd=meta.code.error;src.var.amplitude]
+#Column	min	(F7.3)	[-0.02/28.0]? Magnitude at minimum, or amplitude (MagMin)	[ucd=src.var.amplitude]
+#Column	u_min	(A1)	? Uncertainty flag on min (MinUncertaintyFlag)	[ucd=meta.code.error;src.var.amplitude]
+#Column	n_min	(A8)	? Passband on min magnitude (MinPassband)	[ucd=meta.note;src.var.amplitude]
+#Column	l_Period	(A1)	? Limit flag on period (3) (LimitFlagOnPeriod)	[ucd=time.period]
+#Column	Period	(F19.12)	[0.0/27400.0]? Period of the variable in days	[ucd=time.period]
+#Column	u_Period	(A1)	? Uncertainty flag on Period (3) (PeriodUncertaintyFlag)	[ucd=meta.code.error]
+#Column	Sp	(A29)	? Spectral type (SpectralType)	[ucd=src.spType]
+_r	OID	Name	V	RAJ2000	DEJ2000	Type	l_max	max	u_max	n_max	f_min	l_min	min	u_min	n_min	l_Period	Period	u_Period	Sp
+arcsec	 	 	 	deg	deg	 	 	mag	 	 	 	 	mag	 	 	 	d	 	
+-----	--------	------------------------------	-	---------	---------	------------------------------	-	-------	-	----------	-	-	-------	-	--------	-	-------------------	-	-----------------------------
+48.63	 4298042	Gaia DR3 2908634664118846592  	0	 83.19265	-26.90232	DSCT|GDOR|SXPHE               	 	 14.690	 	G         	 	 	 14.730	 	G       	 	                   	 	F
+
+
+#RESOURCE=yCat_2366
+#Name: II/366
+#Title: ASAS-SN catalog of variable stars (Jayasinghe+, 2018-2020)
+#INFO	ivoid=ivo://cds.vizier/ii/366	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/ii/366	    IVOID of underlying data collection
+#INFO	creator=Jayasinghe T.	    First author or institution
+#INFO	cites=bibcode:2018MNRAS.477.3145J	    Article or Data origin sources
+#INFO	journal=MNRA	    Journal name
+#INFO	original_date=2018	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/II/366	    Dataset landing page
+#INFO	publication_date=2024-09-11	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	II_366_catv2021:
+#Name: II/366/catv2021
+#Title: ASAS-SN catalog of variable stars (from the ASAS-SN Variable Stars Database (AVSD); http://asas-sn.osu.edu/variables on 10-Sep-2024) (08-Oct-2021 version)
+#Column	_r	(F5.2)	Distance from center (083.17755-26.90335)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	ASASSN-V	(A19)	ASAS-SN identifier (JHHMMSS.ss+DDMMSS.s) (asassn_name)	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F9.5)	Right ascension in decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination in decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Vmag	(F5.2)	[1.64/18.89] Mean Johnson V-band magnitude (mean_vmag)	[ucd=phot.mag;em.opt.V]
+#Column	Amp	(F5.2)	[0/11.31] Amplitude (amplitude)	[ucd=phot.mag]
+#Column	Per	(E11.4)	[0.03/1923]? Period (period)	[ucd=time.period]
+#Column	Type	(a8)	Variability type (variable_type) (1)	[ucd=meta.note]
+#Column	Prob	(F6.3)	[0.19/1]? Classification probability (class_probability)	[ucd=meta.code.class;stat.probability]
+#Column	HJD	(F13.5)	Heliocentric Julian Date (epoch_hjd)	[ucd=time.epoch]
+#Column	Plx	(F8.4)	[-84.9/317]? Gaia DR2 parallax (parallax)	[ucd=pos.parallax]
+#Column	e_Plx	(F7.4)	[0.007/4.4]? Parallax uncertainty (parallax_error)	[ucd=stat.error;pos.parallax]
+#Column	pmRA	(F9.3)	[-3259/4003]? Gaia proper motion in right ascension direction (pmRA*cosDE) (pmra)	[ucd=pos.pm;pos.eq.ra]
+#Column	e_pmRA	(F6.3)	[0.005/5]? Error on pmRA (pmra_error)	[ucd=stat.error;pos.pm;pos.eq.ra]
+#Column	pmDE	(F9.3)	[-5818/1793]? Gaia proper motion in declination direction (pmdec)	[ucd=pos.pm;pos.eq.dec]
+#Column	e_pmDE	(F6.3)	[0.007/4.5]? Error on pmDE (pmdec_error)	[ucd=stat.error;pos.pm;pos.eq.dec]
+#Column	Vt	(F12.5)	[0.003/418426]? Microturbulent velocity (vt)	[ucd=phys.veloc]
+#Column	Dist	(F11.5)	[1.3/62100]? Distance (dist)	[ucd=pos.distance;pos.heliocentric]
+#Column	WISEA	(A19)	AllWISE identifier (JHHMMSS.ss+DDMMSS.s) (allwise_id)	[ucd=meta.id.cross]
+#Column	J-K	(F6.3)	[-9.6/9.7]? J-K color index (j_k)	[ucd=phot.color;em.IR.J;em.IR.K]
+#Column	W1-W2	(F6.3)	[-6.9/8]? W1-W2 color index (w1_w2)	[ucd=phot.color;em.IR;em.IR]
+#Column	APASS	(I8)	[542/61176398]? APASS identifier (apass_dr9_id)	[ucd=meta.id.cross]
+#Column	B-V	(F6.3)	[-3.4/9.81]? B-V color index (b_v)	[ucd=phot.color;em.opt.B;em.opt.V]
+#Column	E(B-V)	(F7.3)	[0.003/143.6] Reddening E(B-V) (e_b_v)	[ucd=phot.color.excess]
+#Column	Ref	(A3)	Reference (reference) (2)	[ucd=meta.ref;pos.frame]
+#Column	GaiaDR3	(I19)	? Gaia EDR3 source ID (edr3_source_id)	[ucd=meta.id.cross]
+#Column	GALEX	(A16)	GALEX identifier (JHHMMSS.s+DDMMSS) (galex_id)	[ucd=meta.id.cross]
+#Column	TIC	(I11)	? TIC identifier (tic_id)	[ucd=meta.id.cross]
+#Column	pm	(F8.3)	[0.006/7062]? Gaia EDR3 total proper motion (pm)	[ucd=pos.pm]
+#Column	URL	(A3)	Display the ASASSN online data (https://asas-sn.osu.edu/variables) for this object	[ucd=meta.ref.url]
+#Column	2M	(A2)	Display the 2MASS data (Cutri+ 2003, II/246) within 2"	[ucd=meta.ref.url]
+
+#RESOURCE=yCat_102020
+#Name: B/sb9
+#Title: SB9: 9th Catalogue of Spectroscopic Binary Orbits (Pourbaix+ 2004-2014)
+#INFO	ivoid=ivo://cds.vizier/b/sb9	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/b/sb9	    IVOID of underlying data collection
+#INFO	creator=Pourbaix D.	    First author or institution
+#INFO	cites=bibcode:2004A&A...424..727P	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2004	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/B/sb9	    Dataset landing page
+#INFO	publication_date=2024-07-01	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	B_sb9_main:
+#Name: B/sb9/main
+#Title: Position, magnitudes and spectral types
+#Column	_r	(F5.2)	Distance from center (05 32 42.61-26 54 12.1)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	Seq	(I4)	System Number (SB8 number when Seq<=1469)	[ucd=meta.id;meta.main]
+#Column	N	(A1)	VizieR added column, not part of original data	[ucd=phot.mag;em.IR.8-15um]
+#Column	RAJ2000	(A11)	Right Ascension J2000	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A11)	Declination J2000	[ucd=pos.eq.dec;meta.main]
+#Column	Comp	(a7)	? Component	[ucd=meta.code.multip]
+#Column	mag1	(F6.3)	? Magnitude of component 1	[ucd=phot.mag]
+#Column	n_mag1	(A1)	[GJPBVRyrIK] Filter in which mag1 is given	[ucd=meta.note]
+#Column	mag2	(F6.3)	? Magnitude of component 2	[ucd=phot.mag]
+#Column	n_mag2	(A1)	[PBVRyrIK] Filter in which mag2 is given	[ucd=meta.note]
+#Column	Sp1	(a32)	MK Spectral type component 1	[ucd=src.spType]
+#Column	Sp2	(a10)	MK Spectral type component 2	[ucd=src.spType]
+#Column	Name	(a29)	Name of the source (HIP when existing)	[ucd=meta.id]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+
+#RESOURCE=yCat_102026
+#Name: B/wds
+#Title: The Washington Visual Double Star Catalog (Mason+ 2001-) Supersedes {\bf I/237}
+#INFO	ivoid=ivo://cds.vizier/b/wds	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/b/wds	    IVOID of underlying data collection
+#INFO	creator=Mason B.D.	    First author or institution
+#INFO	cites=bibcode:2001AJ....122.3466M	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=2001	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/B/wds	    Dataset landing page
+#INFO	publication_date=2026-10-19	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	J2000_2000.000:	eq_FK5 J2000
+#Table	B_wds_wds:
+#Name: B/wds/wds
+#Title: The Washington Double Star Catalog (main part)
+#Column	_r	(F5.2)	Distance from center (05 32 42.61-26 54 12.1)[FK5/J2000], at Epoch=J2000.0	[ucd=pos.angDistance]
+#Column	WDS	(A10)	WDS name (based on J2000 position)	[ucd=meta.id;meta.main]
+#Column	Disc	(A7)	Discoverer Code (1 to 4 letters) and Number (5)	[ucd=meta.id]
+#Column	Comp	(A5)	Components when more than 2 (1)	[ucd=meta.code.multip]
+#Column	Obs1	(I4)	? Date of first satisfactory observation	[ucd=time]
+#Column	pa1	(I3)	? Position Angle at date Obs1 (2)	[ucd=pos.posAng]
+#Column	pa2	(I3)	? Position Angle at date Obs2 (2)	[ucd=pos.posAng]
+#Column	sep1	(F5.1)	? Separation at date Obs1	[ucd=pos.angDistance;src.orbital]
+#Column	sep2	(F6.2)	? Separation at date Obs12	[ucd=pos.angDistance;src.orbital]
+#Column	mag1	(F6.3)	? Magnitude of First Component	[ucd=phot.mag;em.opt]
+#Column	mag2	(F5.2)	? Magnitude of Second Component	[ucd=phot.mag;em.opt]
+#Column	DM	(A9)	Durchmusterung Number (3)	[ucd=meta.id]
+#Column	Notes	(A4)	[B-Z ] Notes about the binary (4)	[ucd=meta.note]
+#Column	n_RAh	(A1)	[!P] indicates a position derived from WDS name	[ucd=meta.note]
+#Column	RAJ2000	(A11)	? Right Ascension J2000 (Ep=J2000, hours)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A11)	Declination J2000 (Ep=J2000, sign)	[ucd=pos.eq.dec;meta.main]
+
+#RESOURCE=yCat_22790050
+#Name: J/ApJS/279/50
+#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)
+#INFO	ivoid=ivo://cds.vizier/j/apjs/279/50	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/apjs/279/50	    IVOID of underlying data collection
+#INFO	creator=Kostov V.B.	    First author or institution
+#INFO	cites=bibcode:2025ApJS..279...50K	    Article or Data origin sources
+#INFO	journal=ApJS	    Journal name
+#INFO	original_date=2025	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier/bb-8q-1j	    Dataset identifier that can be used for citation
+#INFO	publication_date=2026-09-14	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_ApJS_279_50_table2:
+#Name: J/ApJS/279/50/table2
+#Title: Identifying information for ~900,000 unvetted and unvalidated targets
+#Column	_r	(F6.3)	Distance from center (083.177548-26.903355)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I10)	[1051/2056031989] TESS Input catalog	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F10.6)	Right Ascension, decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F10.6)	Declination, decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Tmag	(F5.2)	[-1.2/20.63] TESS magnitude	[ucd=phot.mag;em.opt]
+_r	TIC	RAJ2000	DEJ2000	Tmag
+arcsec	 	deg	deg	mag
+------	----------	----------	----------	-----
+48.631	  31357334	083.192651	-26.902315	14.39
+
+#Table	J_ApJS_279_50_table3:
+#Name: J/ApJS/279/50/table3
+#Title: Parameters of the 7936 new eclipsing binary stars (EBs)
+#Column	_r	(F6.3)	Distance from center (083.17754800-26.90335493)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I10)	[8636/1976115514] TESS Input catalog	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F12.8)	Right Ascension, decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F12.8)	[-89/89] Declination, decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Tmag	(F6.3)	[6.63/15] TESS magnitude	[ucd=phot.mag;em.opt]
+#Column	Per	(F9.6)	[0.64/39.8] Period	[ucd=time.period]
+#Column	T0-pri	(F9.4)	[1325.4/3687.9] T0, Minimum brightness, Primary, BJD-2457000	[ucd=time.epoch]
+#Column	Depth-pri	(I3)	[1/848]? Eclipse median depth, primary, parts-per-thousand	[ucd=phot.mag;stat.min]
+#Column	Dur-pri	(F4.1)	[1/15.2]? Eclipse median duration, primary	[ucd=time.duration;stat.median]
+#Column	T0-sec	(F9.4)	[1325.39/3687.9]? T0, Minimum brightness, Secondary, BJD-2457000	[ucd=time.epoch]
+#Column	Phase	(F5.2)	[0.1/0.9]? Secondary Phase	[ucd=time.phase]
+#Column	Depth-sec	(F6.2)	[0/799]? Eclipse median depth, secondary, parts-per-thousand	[ucd=phot.mag;stat.min]
+#Column	Dur-sec	(F4.1)	[1/34]? Eclipse median duration, secondary	[ucd=time.duration;stat.median]
+#Column	Sect	(I2)	[1/44] TESS Sectors available at time of writing	[ucd=meta.id;obs]
+#Column	RUWE	(F5.2)	[0.7/59.7]? Gaia DR3 renormalized unit weight error	[ucd=stat.error]
+#Column	AEN	(F8.4)	[0.0016/162.3]? Gaia DR3 astrometric excess noise	[ucd=stat.fit.param]
+#Column	AENS	(F13.4)	[0.0016/13555642]? Gaia DR3 astrometric excess noise sig	[ucd=stat.fit.param]
+#Column	Teff	(I5)	[3326/24162]? Surface effective temperature	[ucd=phys.temperature.effective]
+#Column	Comm	(a112)	Comments (1)	[ucd=meta.note]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Table	J_ApJS_279_50_table4:
+#Name: J/ApJS/279/50/table4
+#Title: Comparison between the correct period measured from TESS and literature periods for 2065 known EBs
+#Column	_r	(F6.3)	Distance from center (083.17754800-26.90335493)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I10)	[10507/1421145304] TESS Input catalog	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F12.8)	Right Ascension, decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F12.8)	[-89/89] Declination, decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Per-TESS	(F9.6)	[0.56/19.6] TESS Period	[ucd=time.period]
+#Column	T0-TESS	(F11.6)	[1325.47/3687.22] TESS T0, BJD-2,457,000	[ucd=time.epoch]
+#Column	Per-Gaia	(F10.6)	[0.2/406.1]? Gaia DR3 period	[ucd=time.period]
+#Column	Ratio1	(F5.2)	[0/6.7]? Gaia vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ASAS	(F9.6)	[0.23/50.61]? ASAS-SN (Rowan+ 2022, J/MNRAS/517/2190) period	[ucd=time.period]
+#Column	Ratio2	(F5.2)	[0/6]? ASAS-SN vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ATLAS	(F10.6)	[0.42/144.81]? ATLAS (Heinze+ 2018, J/AJ/156/241) period	[ucd=time.period]
+#Column	Ratio3	(F5.2)	[0/6]? ATLAS vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-VSX	(F9.6)	[0.25/38]? VSX period	[ucd=time.period]
+#Column	Ratio4	(F5.2)	[0/6]? VSX vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-WISE	(F9.6)	[0.28/4.6]? WISE (Petrosky+ 2021, J/MNRAS/503/3975) period	[ucd=time.period]
+#Column	Ratio5	(F4.1)	[1/6]? WISE vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ZTF	(F9.6)	[0.63/7.66]? ZTF period	[ucd=time.period]
+#Column	Ratio6	(F5.2)	[1/2.33]? ZTF vs TESS period ratio	[ucd=time.period;arith.ratio]
+
+#RESOURCE=yCat_36910242
+#Name: J/A+A/691/A242
+#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/691/a242	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/a+a/691/a242	    IVOID of underlying data collection
+#INFO	creator=IJspeert L.W.	    First author or institution
+#INFO	cites=bibcode:2024A&A...691A.242I	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2024	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/691/A242	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.36910242	    Dataset identifier that can be used for citation
+#INFO	publication_date=2025-02-18	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_A_A_691_A242_obaf-eb1:
+#Name: J/A+A/691/A242/obaf-eb1
+#Title: TESS_OBAF_EB_catalogue (partial)
+#Column	_r	(F6.3)	Distance from center ( 83.17754800384-26.90335492506)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I9)	Identification number in the TESS Input Catalog (TIC)	[ucd=meta.id;meta.main]
+#Column	2MASS	(A17)	Identification number from 2MASS (TWOMASS)	[ucd=meta.id]
+#Column	RAJ2000	(F15.11)	Right ascension (J2000) (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F15.11)	Declination (J2000) (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	plx	(F26.19)	? TIC parallax (mas) (plx)	[ucd=pos.parallax.trig]
+#Column	Jmag	(F22.16)	J band magnitude (Jmag)	[ucd=phot.mag;em.IR.J]
+#Column	Hmag	(F22.16)	H band magnitude (Hmag)	[ucd=phot.mag;em.IR.H]
+#Column	Kmag	(F22.16)	K band magnitude (Kmag)	[ucd=phot.mag;em.IR.K]
+#Column	Tmag	(F22.16)	TESS (T) magnitude (Tmag)	[ucd=phot.mag;em.opt]
+#Column	wdflag	(F4.1)	? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)	[ucd=meta.code]
+#Column	GaiaDR3	(I19)	? Identification number from GAIA DR3 (GAIA_DR3)	[ucd=meta.id]
+#Column	Gmag	(F22.16)	? Gaia G-band mean magnitude (phot_g_mean_mag)	[ucd=phot.mag;em.opt]
+#Column	score	(F4.1)	Sum of score values across all datasets (SPOC and QLP years 1-4) (score)	[ucd=stat.fit.param]
+#Column	slike	(F4.1)	Sum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)	[ucd=meta.code]
+#Column	wide	(F4.1)	Sum of wide values across all datasets (SPOC and QLP years 1-4) (wide)	[ucd=meta.code]
+
+#RESOURCE=yCat_22580016
+#Name: J/ApJS/258/16
+#Title: TESS Eclipsing Binary stars. I. Sectors 1-26 (Prsa+, 2022)
+#INFO	ivoid=ivo://cds.vizier/j/apjs/258/16	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/apjs/258/16	    IVOID of underlying data collection
+#INFO	creator=Prsa A.	    First author or institution
+#INFO	cites=bibcode:2022ApJS..258...16P	    Article or Data origin sources
+#INFO	journal=ApJS	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/258/16	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.22580016	    Dataset identifier that can be used for citation
+#INFO	publication_date=2022-12-16	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_ApJS_258_16_tess-ebs:
+#Name: J/ApJS/258/16/tess-ebs
+#Title: The Eclipsing Binary stars (TESS-EBs) catalog
+#Column	_r	(F6.3)	Distance from center (083.1775480038-26.9033549251)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(A10)	[91961/2046417955] TESS input catalog (TIC) identification number (tess_id)	[ucd=meta.id;meta.main]
+#Column	m_TIC	(I1)	[1/2] Enumerates distinct ephemerides associated with a single TIC (signal_id) (1)	[ucd=meta.code.multip]
+#Column	RAJ2000	(F14.10)	Right ascension (J2000) (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F14.10)	[-87.67/87.56] Declination (J2000) (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	pmRA	(F9.3)	[-1114/419]? Proper motion in right ascension from TIC	[ucd=pos.pm;pos.eq.ra]
+#Column	pmDE	(F8.3)	[-991/1200]? Proper motion in declination from TIC (pmdec)	[ucd=pos.pm;pos.eq.dec]
+#Column	Tmag	(F6.3)	[2.28/17.66] TESS magnitude from TIC	[ucd=phot.mag;em.opt]
+#Column	BJD0	(F11.6)	[1322/2142]? Barycentric Julian Date of the first primary eclipse; BJD0-2457000	[ucd=time.epoch]
+#Column	e_BJD0	(D13.6)	[0/12.73]? BJD0 uncertainty (bjd0_uncert)	[ucd=stat.error]
+#Column	Per	(F11.7)	[0.048/314.7]? Binary star orbital period (period)	[ucd=meta.id]
+#Column	e_Per	(D14.7)	[0/7.22]? Per uncertainty (period_uncert)	[ucd=stat.error]
+#Column	Morph	(F6.3)	[-1/1.08] Morphology coefficient (morph_coeff) (3)	[ucd=src.morph.param]
+#Column	Wp-pf	(F6.3)	[0.0005/0.41]? Primary eclipse width estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Dp-pf	(F9.3)	[0.00013/27772]? Primary eclipse depth estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phip-pf	(E10.3)	[-0.5/1.5]? Phase estimate of the primary eclipse from the polychain fit to the phased lightcurve	[ucd=time.phase]
+#Column	Ws-pf	(F6.3)	[0.0019/0.41]? Secondary eclipse width estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Ds-pf	(F6.3)	[0.00028/16.95]? Secondary eclipse depth estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phis-pf	(F6.3)	[-0.171/1.39]? Phase estimate of the secondary eclipse from the polychain fit to the phased lightcurve	[ucd=time.phase]
+#Column	Wp-2g	(E10.3)	[2.5e-5/0.41]? Primary eclipse width estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Dp-2g	(F6.3)	[0.00034/34.45]? Primary eclipse depth estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phip-2g	(E10.3)	[1e-7/1]? Phase estimate of the primary eclipse from the 2-gaussian fit to the phased lightcurve	[ucd=time.phase]
+#Column	Ws-2g	(F6.3)	[0.00014/0.41]? Secondary eclipse width estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Ds-2g	(F6.3)	[0.00035/17.91]? Secondary eclipse depth estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phis-2g	(E10.3)	[6.3e-7/1]? Phase estimate of the secondary eclipse from the 2-gaussian fit to the phased lightcurve	[ucd=time.phase]
+#Column	TESSebs	(a7)	Display data from the TESS EB live database (http://tessebs.villanova.edu/)	[ucd=meta.ref.url]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]

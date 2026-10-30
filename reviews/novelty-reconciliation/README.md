@@ -1,0 +1,18 @@
+# Catalogue reconciliation, 2026-10-30
+
+The paper's physical sample remains **273 systems: 261 confirmed and 12 probable**. Applying its original catalogue definition to the newer reviews supports **48 additional uncatalogued systems**, bringing the scoped catalogue-screened total from 199 to **247**. **26 confirmed systems remain unresolved for catalogue coverage**: 16 local reviews and ten returned c9a additions. No eclipse measurements were repeated.
+
+The required sources are VSX, SIMBAD primary classifications, Gaia DR3 eclipsing-binary solutions, Prsa (2022), IJspeert (2024), the vetted Kostov (2025) tables, and ASAS-SN. The original SIMBAD scripts used the primary classification; a new requirement to retrieve every secondary type was not imposed. SB9, WDS, exhaustive literature searches and discovery-priority proof are not additional gates. A prior spectroscopic-binary or rotational-variable classification is not a prior eclipse classification. Kostov's unvetted table 2 is recorded separately from vetted tables 3 and 4.
+
+- [R001-R050 matrix](r01-50.md), [machine-readable evidence](r01-50.json): all 48 physically confirmed rows pass; the two plausible rows are outside this count.
+- [R051-R070 matrix](r51-70.md), [machine-readable evidence](r51-70.json): original vetted-table receipts were recovered; missing ASAS-SN coverage remains explicit. Four plausible rows are outside the physical count.
+- [Returned c9a matrix](c9a.md), [machine-readable evidence](c9a.json): ten count additions remain unresolved, principally for the specified IJspeert 2024 and vetted Kostov tables. Older IJspeert coverage is not silently substituted. Failed or invalid queries are never treated as negative matches.
+- [Chopard-Vilhem comparison](chopard-summary.md), [identity coverage](chopard-coverage.csv), [positional matches](chopard-positional.csv): none of the 74 newer confirmed systems matches the open version 1.2.0 parent list or dossier by Gaia source ID; exact TIC dossier matching also finds none. The older A20 shared detection remains acknowledged. The separate 93-system spectroscopic release is still embargoed and cannot be compared.
+
+**Uncatalogued is a scoped catalogue result, not a claim of discovery priority.** The paper retains its known literature overlaps and the uncertainty from the embargoed survey. Historical reports retain their original wording; this dated reconciliation and the current registers supersede their broad novelty-status labels.
+
+The export includes query evidence, failure receipts and the open Chopard-Vilhem release with provenance. JSON references are made portable where a referenced local file was available. Remaining workspace paths in scripts or narrative are acquisition provenance, not promises of a turnkey rerun. Original-response hashes and hashes of sanitized exported files have distinct purposes; `MANIFEST.json` describes the exported files.
+
+The included open release, *Eclipsing binaries at the conjunctions predicted by near-edge-on Gaia DR3 astrometric orbits: data, predictions and code*, is by Theo Chopard-Vilhem, version 1.2.0, [Zenodo record 23405354](https://doi.org/10.5281/zenodo.23405354), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Its original ZIP and metadata are preserved; comparison tables and commentary are this project's additions.
+
+Reconciliation: Astra, with fresh GPT-6.1 Sol and GPT-6.1 Terra helpers. Original searches and returned physical reviews retain their Fable and Opus credits. The helpers' careful reuse of existing evidence and explicit recording of limits are appreciated.

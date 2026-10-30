@@ -1,0 +1,59 @@
+Face-on control: the track-3 search on orbits that cannot eclipse
+
+control: 387 windows on 128 stars (sample of 2000 orbits far from edge-on; 0 windows of stars with p_eclipse > 1e-3 dropped); real search: 769 windows on 209 stars
+dip flags: control 39 (10.1 per cent of windows), real 157 (20.4 per cent)
+bump flags: control 36 (9.3 per cent), real 44 (5.7 per cent)
+
+false-alarm rate per window from the control, by pipeline (95 per cent interval):
+  QLP      :  39 of  171 -> 22.81 per cent (16.75-29.83)
+  SPOC     :   0 of   57 ->  0.00 per cent (0.00-6.27)
+  TESS-SPOC:   0 of  159 ->  0.00 per cent (0.00-2.29)
+by window half-width (all pipelines):
+  1-3 d :   0 of    1 ->  0.00 per cent (0.00-97.50)
+  3-6 d :   0 of   33 ->  0.00 per cent (0.00-10.58)
+  >6 d  :  39 of  353 -> 11.05 per cent (7.98-14.79)
+
+stars with >= 1 false dip flag: 30 of 128; with >= 2: 5; with >= 3: 3
+among the 73 control stars with >= 2 windows, 5 have >= 2 false flags (real search: 133 stars with >= 2 windows)
+the 10 per cent noisiest control stars give 56 per cent of the false flags
+
+expected false dip flags in the real search: 59.3 (at the upper rates 95.9), against 157 flags: excess 98
+
+significance of the real systems with the control's rates (Poisson-binomial over their windows): mean rate, upper rate
+  HD 284424      : 4 of 5 windows -> 0.0e+00, 3.2e-06
+  Wolf 1392      : 6 of 11 windows -> 0.0e+00, 1.2e-07
+  HD 194593      : 2 of 4 windows -> 1.3e-01, 2.4e-01
+  BD+85 212      : 2 of 8 windows -> 0.0e+00, 1.2e-01
+  CD-81 705      : 4 of 7 windows -> 0.0e+00, 5.0e-04
+  HD 145453      : 3 of 3 windows -> 0.0e+00, 3.3e-05
+  HD 170829      : 3 of 11 windows -> 0.0e+00, 2.8e-02
+  TYC 3908-665-1 : 7 of 18 windows -> 0.0e+00, 6.2e-06
+  TOI-1656       : 2 of 3 windows -> 0.0e+00, 6.6e-03
+expected number of real-search stars with >= 2 false flags (control rates): 19.0
+
+(for comparison, the clean shifted windows of N2 gave 0 of 754 for SPOC and TESS-SPOC, 3 of 322 for QLP)
+
+false dips in the control: median depth 1.31 per cent, 90th percentile 9.80 per cent; real flagged dips: median 2.02 per cent
+
+sample-size check: control windows needed per pipeline to support a claim, versus windows available
+  available: {'SPOC': 57, 'TESS-SPOC': 159, 'QLP': 171}  (the rule applies to pipelines with no false flag; where the rate is measured, the significance above uses it)
+  claim 'chance below 1e-03':
+    HD 284424      : 4 of 5 flags (TESS-SPOC) -> rate must be < 11.89 per cent -> 26 zero-flag windows per pipeline: supported
+    Wolf 1392      : 6 of 11 flags (TESS-SPOC) -> rate must be < 11.37 per cent -> 27 zero-flag windows per pipeline: supported
+    HD 194593      : 2 of 4 flags (QLP, SPOC) -> rate must be < 1.29 per cent -> 233 zero-flag windows per pipeline: NOT supported
+    BD+85 212      : 2 of 8 flags (QLP, SPOC) -> rate must be < 0.60 per cent -> 502 zero-flag windows per pipeline: NOT supported
+    CD-81 705      : 4 of 7 flags (QLP, TESS-SPOC) -> rate must be < 7.31 per cent -> 42 zero-flag windows per pipeline: NOT supported
+    HD 145453      : 3 of 3 flags (SPOC, TESS-SPOC) -> rate must be < 10.00 per cent -> 30 zero-flag windows per pipeline: supported
+    HD 170829      : 3 of 11 flags (SPOC) -> rate must be < 1.82 per cent -> 165 zero-flag windows per pipeline: NOT supported
+    TYC 3908-665-1 : 7 of 18 flags (SPOC, TESS-SPOC) -> rate must be < 8.48 per cent -> 36 zero-flag windows per pipeline: supported
+    TOI-1656       : 2 of 3 flags (SPOC, TESS-SPOC) -> rate must be < 1.83 per cent -> 165 zero-flag windows per pipeline: NOT supported
+  claim 'chance below 1e-05':
+    HD 284424      : 4 of 5 flags (TESS-SPOC) -> rate must be < 3.76 per cent -> 80 zero-flag windows per pipeline: supported
+    Wolf 1392      : 6 of 11 flags (TESS-SPOC) -> rate must be < 5.28 per cent -> 57 zero-flag windows per pipeline: supported
+    HD 194593      : 2 of 4 flags (QLP, SPOC) -> rate must be < 0.13 per cent -> 2324 zero-flag windows per pipeline: NOT supported
+    BD+85 212      : 2 of 8 flags (QLP, SPOC) -> rate must be < 0.06 per cent -> 5020 zero-flag windows per pipeline: NOT supported
+    CD-81 705      : 4 of 7 flags (QLP, TESS-SPOC) -> rate must be < 2.31 per cent -> 130 zero-flag windows per pipeline: NOT supported
+    HD 145453      : 3 of 3 flags (SPOC, TESS-SPOC) -> rate must be < 2.15 per cent -> 140 zero-flag windows per pipeline: NOT supported
+    HD 170829      : 3 of 11 flags (SPOC) -> rate must be < 0.39 per cent -> 764 zero-flag windows per pipeline: NOT supported
+    TYC 3908-665-1 : 7 of 18 flags (SPOC, TESS-SPOC) -> rate must be < 4.39 per cent -> 69 zero-flag windows per pipeline: NOT supported
+    TOI-1656       : 2 of 3 flags (SPOC, TESS-SPOC) -> rate must be < 0.18 per cent -> 1644 zero-flag windows per pipeline: NOT supported
