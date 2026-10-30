@@ -1,0 +1,89 @@
+{
+  "predicted_gaia_phase": 0.503647901392166,
+  "profile_phase": 0.503647901392166,
+  "statistic": {
+    "n": 2,
+    "depth": 0.002677492537051593,
+    "error": 0.0001555745455290709,
+    "snr": 17.210351011768005,
+    "scatter": 0.00010030531886152548,
+    "chi2": 0.412334707070914,
+    "dof": 1,
+    "empirical_error": 0.0001555745455290709,
+    "n_individual_gt3sigma": 2
+  },
+  "events": [
+    {
+      "status": "fit",
+      "sec": 47,
+      "tc_nom": 2586.91595381616,
+      "tc": 2586.9147732644356,
+      "tc_error": 0.0029513793103448267,
+      "depth": 0.0027868111223818505,
+      "depth_error": 0.00023062109763300387,
+      "T14": 0.19675862068965516,
+      "T12": 0.04918965517241379,
+      "T23": 0.09837931034482758,
+      "beta": 1.0109323557977405,
+      "n_in": 25,
+      "flagged_core": 3,
+      "flag_bits_core": 2048,
+      "background_fake_depth": -1.4902348380594743e-06,
+      "depth_with_background": 0.002788371975051551,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.0004103768729199961,
+      "x_err_pix": 0.00019594826725015429,
+      "y_template_shift_pix": 0.000673474046752631,
+      "y_err_pix": 0.0003069871388484154,
+      "cycle": 0
+    },
+    {
+      "status": "insufficient",
+      "tc_nom": 2594.158788616247,
+      "sec": 47,
+      "n_in": 0,
+      "cycle": 1
+    },
+    {
+      "status": "fit",
+      "sec": 47,
+      "tc_nom": 2601.401623416334,
+      "tc": 2601.40044286461,
+      "tc_error": 0.004131931034482759,
+      "depth": 0.0025862004846587995,
+      "depth_error": 0.00021075045395322343,
+      "T14": 0.19675862068965516,
+      "T12": 0.04918965517241379,
+      "T23": 0.09837931034482758,
+      "beta": 1.0276824674433076,
+      "n_in": 25,
+      "flagged_core": 3,
+      "flag_bits_core": 18596,
+      "background_fake_depth": 4.6071691549808486e-05,
+      "depth_with_background": 0.002543209594366982,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.0009939767267913282,
+      "x_err_pix": 0.00022037267295867797,
+      "y_template_shift_pix": 5.467660602810209e-05,
+      "y_err_pix": 0.00026842751256045486,
+      "cycle": 2
+    }
+  ],
+  "ephemeris": null,
+  "shape": {
+    "T14": 0.19675862068965516,
+    "fr": 0.25,
+    "shift": 0,
+    "T14_range": [
+      0.18046551724137933,
+      0.24563793103448273
+    ],
+    "fr_range": [
+      0.21,
+      0.38999999999999996
+    ],
+    "n_local_windows": 2,
+    "error_note": "profile likelihood plus half-grid resolution; conditional shape model"
+  },
+  "profile_scan_note": "Conditional fitted secondary shape when secondary-shape.json exists, otherwise primary shape; phase optimized over +/- one T14. Weak/modulated secondary shape remains model dependent."
+}

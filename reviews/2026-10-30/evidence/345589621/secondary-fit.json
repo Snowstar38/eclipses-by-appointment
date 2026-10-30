@@ -1,0 +1,49 @@
+{
+  "predicted_gaia_phase": 0.479113476458235,
+  "profile_phase": 0.4854318127169003,
+  "statistic": {
+    "n": 0,
+    "empirical_error": 0.0,
+    "n_individual_gt3sigma": 0
+  },
+  "events": [
+    {
+      "status": "insufficient",
+      "tc_nom": 1964.2216462914143,
+      "sec": 24,
+      "n_in": 7,
+      "cycle": -1
+    },
+    {
+      "status": "insufficient",
+      "tc_nom": 2704.234967612763,
+      "sec": 51,
+      "n_in": 24,
+      "cycle": 36
+    },
+    {
+      "status": "insufficient",
+      "tc_nom": 3444.2482889341118,
+      "sec": 78,
+      "n_in": 0,
+      "cycle": 73
+    }
+  ],
+  "ephemeris": null,
+  "shape": {
+    "T14": 0.33254999999999996,
+    "fr": 0.25,
+    "shift": 0,
+    "T14_range": [
+      0.32467499999999994,
+      0.340425
+    ],
+    "fr_range": [
+      0.21,
+      0.29
+    ],
+    "n_local_windows": 2,
+    "error_note": "profile likelihood plus half-grid resolution; conditional shape model"
+  },
+  "profile_scan_note": "Conditional fitted secondary shape when secondary-shape.json exists, otherwise primary shape; phase optimized over +/- one T14. Weak/modulated secondary shape remains model dependent."
+}

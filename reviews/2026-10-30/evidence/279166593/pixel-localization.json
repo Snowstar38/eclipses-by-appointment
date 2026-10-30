@@ -1,0 +1,213 @@
+{
+  "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet279166593\\tesscut_s055.fits",
+  "sha256": "603c09377864969f91d3e0112f5ade1a1d002a69ee3ca0425763601ef39f26e8",
+  "sector": 55,
+  "gaia_target": {
+    "source_id": "2163072940491937792",
+    "ra": "313.8313582965986",
+    "dec": "44.91148336555034",
+    "phot_g_mean_mag": "11.470272",
+    "bp_rp": "0.6258211",
+    "sep": "0.0"
+  },
+  "target_wcs_pixel": [
+    7.470463178768204,
+    7.179422344663415
+  ],
+  "gaia_positions": [
+    [
+      7.470463178768204,
+      7.179422344663415
+    ],
+    [
+      6.924723785274376,
+      7.139925288304754
+    ],
+    [
+      5.826834735962937,
+      7.6612647095497355
+    ],
+    [
+      8.887196051617517,
+      9.083481118904023
+    ],
+    [
+      4.880433571959673,
+      6.073013051150143
+    ]
+  ],
+  "events": [
+    2799.274944762691,
+    2806.4414649527416,
+    2813.607985142793,
+    2820.7745053328435
+  ],
+  "calibration": {
+    "sigma_pixels": 1.4500000000000004,
+    "dx_pixels": 0.4999999999999998,
+    "dy_pixels": 0.09999999999999987
+  },
+  "fixed_fits": [
+    {
+      "source_id": "2163072940491937792",
+      "sep_arcsec": 0.0,
+      "G": 11.470272,
+      "chi2": 17290.577704470474,
+      "amplitude": 29.589091442031137,
+      "fractional_residual": 0.6150631788465282
+    },
+    {
+      "source_id": "2163072940491938176",
+      "sep_arcsec": 11.197147531403,
+      "G": 14.208706,
+      "chi2": 12195.189192626838,
+      "amplitude": 32.612329496325735,
+      "fractional_residual": 0.5241304467269742
+    },
+    {
+      "source_id": "2163073009211419776",
+      "sep_arcsec": 34.68574596346209,
+      "G": 14.790378,
+      "chi2": 22422.385355720147,
+      "amplitude": 25.41326050642874,
+      "fractional_residual": 0.7215460203243347
+    },
+    {
+      "source_id": "2163072974851680128",
+      "sep_arcsec": 49.152025079070285,
+      "G": 12.565834,
+      "chi2": 41073.592878132054,
+      "amplitude": 5.699031178940802,
+      "fractional_residual": 0.9755215870504474
+    },
+    {
+      "source_id": "2163072837412723584",
+      "sep_arcsec": 58.134682377958214,
+      "G": 14.521498,
+      "chi2": 37192.53037803923,
+      "amplitude": 12.187453761797753,
+      "fractional_residual": 0.927223574670205
+    }
+  ],
+  "free_best": {
+    "chi2": 11924.476239654063,
+    "pixel_x": 6.7704631787682,
+    "pixel_y": 7.179422344663408,
+    "distance_from_target_arcsec": 14.700000000000097,
+    "fractional_residual": 0.521522088001696
+  },
+  "event_source_comparisons": [
+    {
+      "tc": 2799.274944762691,
+      "best_source": "2163072940491938176",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -1131.751606902103,
+        900.453846773255,
+        4923.6643956288535,
+        3987.0275225391465
+      ]
+    },
+    {
+      "tc": 2806.4414649527416,
+      "best_source": "2163072940491938176",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -1215.4808283054986,
+        943.1390360211285,
+        5278.25996604411,
+        4355.240114688557
+      ]
+    },
+    {
+      "tc": 2813.607985142793,
+      "best_source": "2163072940491938176",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -1947.652034893632,
+        2154.1217997677777,
+        9201.77700287487,
+        7889.2226800468125
+      ]
+    },
+    {
+      "tc": 2820.7745053328435,
+      "best_source": "2163072940491938176",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -745.2103984853338,
+        1000.9307299345601,
+        4010.504881921477,
+        3346.538925469129
+      ]
+    }
+  ],
+  "aperture_photometry": [
+    {
+      "tc": 2799.274944762691,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.053103872117732556,
+          "formal_error": 0.0005011949964176491
+        },
+        {
+          "degree": 2,
+          "depth": 0.05306240170094524,
+          "formal_error": 0.0005573009081970059
+        }
+      ],
+      "n_core": 22
+    },
+    {
+      "tc": 2806.4414649527416,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.051384593246223374,
+          "formal_error": 0.0004353531088717869
+        },
+        {
+          "degree": 2,
+          "depth": 0.05161477453440027,
+          "formal_error": 0.00048182461795587885
+        }
+      ],
+      "n_core": 22
+    },
+    {
+      "tc": 2813.607985142793,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.05247580031616525,
+          "formal_error": 0.000448027260306512
+        },
+        {
+          "degree": 2,
+          "depth": 0.052244560357687354,
+          "formal_error": 0.0004959647100370103
+        }
+      ],
+      "n_core": 22
+    },
+    {
+      "tc": 2820.7745053328435,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.05272347921954272,
+          "formal_error": 0.0005329779653441169
+        },
+        {
+          "degree": 2,
+          "depth": 0.05264883351991878,
+          "formal_error": 0.0005925077805958055
+        }
+      ],
+      "n_core": 22
+    }
+  ],
+  "calibration_note": "Approximate Gaussian PSFs at own Gaia cone positions; no extra empirical source.",
+  "caution": "Same TESS pixels as QLP, independent aperture reduction. Approximate circular Gaussian PSF calibrated to multi-star out-of-eclipse image; formal chi2 excludes PSF mismatch, correlated pixels/time and sector-level systematics. No formal significance from delta-chi2; compare event repeatability and residuals. Aperture depth errors are white-noise conditional only; degree comparison probes baseline sensitivity."
+}

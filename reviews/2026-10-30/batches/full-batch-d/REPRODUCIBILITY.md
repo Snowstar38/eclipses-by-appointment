@@ -1,0 +1,17 @@
+# Full batch D reproducibility and review notes
+
+Ten original candidate/no-vet checks passed before work; exact IDs and resolved CSV periods are in source-audit.json. No original catalog/vet files changed, no commits. Output RESULTS.csv has exactly one row per assigned target. Physical verdicts were explicitly adjudicated in make_reports.py after numeric review, not selected by an automatic threshold.
+
+Fresh Terra helper independently measured nine exact-target alternate-pipeline products and constructed TESScut photometry for240360239, validated identities/sectors and preserved hashes. Terra additionally performed event-wise pixel localization for56534111,240360239,341735257 and349273287. the project coordinator's thanks were passed to the helper. Helper's signed closing: “Independent photometry and localization checks are complete. — Terra”.
+
+QLP86/86product hashes/URLs in full-vet/qlp-manifest.json. Primary fits use only SAP_FLUX with QUALITY==0, no gap trimming; flagged cadences retained for audit. Search P beats P2 for all ten and agrees with resolved CSV periods. All ten NSS rows verified as SB1/bit127/corr_vec15. This batch does not generalize to SB2 layouts. Archive metadata from shared-full-review is exact-source/current2026-10-30 cached provenance, and fresh IDIA multi-catalog cones retain raw response/header timestamps and hashes. ExoFOP349273287 retry succeeded.
+
+Run numeric order: fit_batch.py; orbit_gates.py; secondary_fit.py; shape_secondary.py; secondary_fit.py again; geometry.py; null_secondary.py; tide306553279.py/tide455214882.py; archive_audit.py; review_diagnostics.py; timing_covariance.py; offphase349.py; make_reports.py. The first six are adapted tested Batch A primitives. Geometry and secondary outputs require interpretation, not automatic decisions.
+
+All ten are physically CONFIRMED after these gates. Eight show repeat individual secondary detections.306553279 and455214882 have covered null secondary windows over five tested widths and±2sigma covariance phases, plus eccentric geometries capable of missing the other eclipse; narrow components are required beyond a smooth tide+five-harmonic model. Their stellar dimensions/component light are unresolved characterization issues.
+
+Main limitations: same TESS pixels in alternate reductions; absolute depth is baseline/dilution sensitive for240360239/342454977 and56534111; coarse geometry is not a posterior and is visibly imperfect for342454977/190972398. Gaia low-e31357336 differs from nearly circular eclipse timing at2.87sigma.349273287 pixel localization requires a bright source outside the60arcsec cone; nuisance-position variations keep target favored but do not calibrate a centroid uncertainty. Its extra broad flagged ramps were inspected in one selective figure, not counted as additional eclipses. Only this one new context figure was inspected by the lead.
+
+Name searches for the ten exact SIMBAD names returned no reliable target-specific prior EB result. This weak negative result plus catalog cones is limited prior-art coverage, not exhaustive novelty clearance. All SIMBAD objects are known SB*, and neighboring IJspeert/VSX entries were explicitly separated by TIC/Gaia IDs.
+
+Fresh lead should copy primitives, not verdicts or star-specific pixel positions. Do not turn geometry-boundary or radius mismatch into an EB veto; do not turn a poor PSF into a precise source confirmation without calibrated comparisons.

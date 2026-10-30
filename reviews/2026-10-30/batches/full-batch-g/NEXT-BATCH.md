@@ -1,0 +1,11 @@
+# Batch G review and reproducibility
+
+Ten assigned objects: nine physical CONFIRMED, TIC236531158 PLAUSIBLE because source attribution remains model dependent. All physical reviews adjudicated; current nine-catalog archive coverage is unavailable after bounded IDIA and Harvard timeouts. Novelty is LIMITED_PRIOR_ART_COVERAGE for all ten. RESULTS.csv separates these claims.
+
+Run setup.py only after confirming original candidate state; its assert checks status and absence of original vet folders. download_qlp.py records36 FITS with hashes. fit_batch.py -> orbit_gates.py -> secondary_fit.py -> shape_secondary.py -> secondary_fit.py -> geometry.py -> covariance_geometry.py. Helper scripts are scoped to this batch and all search P values match resolved source CSV; Gaia bit127/15 correlations asserted. Independent fetch/measure scripts retain exact products and time coverage. For345589621 use alternative sector24 summary; sector78 failed clean coverage.
+
+Known numeric trap:345589621 orbit-gates.json secondary upper limit with n=0 is invalid. Report overrides it explicitly. Null-secondary scans are pointwise width/phase/coverage tests, not global bounds. Fixed-TIC geometry intervals are feasibility grids, not posteriors; elevated chi-square335862015,236531158,345050437 prohibits precise parameter inference. Only3 primary and2 secondary timings for335862015,2 primaries for345589621.
+
+Pixel calibration caution:236531158 free OOT component amplitudes place13 event deficits at12arcsec neighbor; imposing Gaia G flux ratios flips13 events to target. Circular, elliptical, nonnegative-amplitude and fixed-G-ratio tests are retained; without empirical PRF/color calibration, target attribution remains plausible. Other crowded sources150696021 and335862015 localize consistently to target;345050437 and415751695 old large PSF residuals were specifically rechecked.
+
+No original source or paper files edited; no commits. Bulk data and FITS are ignored. Reports contain event tables and detailed JSON references. Fresh Sol lead G inspected numerical summaries and exceptional localization models; fresh GPT-6.1 Terra helper produced bulk fits, independent photometry and conditional geometry checks.

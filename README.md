@@ -12,9 +12,17 @@ away from us. This work used those orbits to predict *when* an
 eclipse should happen, looked in TESS's brightness measurements at exactly those times, and found eclipses that
 nobody had catalogued.
 
+## October 30 review extension
+
+**263 systems now have physical eclipse evidence in the combined review ledger: 251 confirmed and 12 probable.** This comprises the paper's original 199-system sample plus **64 additional physical confirmations** from 70 newly reviewed candidates. Six cases remain plausible and are excluded from 263. The **uncatalogued headline remains 199** while the extension's novelty/admission checks are reconciled; catalogue services were unavailable for the final 20 reviews.
+
+[Read the review extension](reviews/2026-10-30/README.md), [download its 70-row register](reviewed-extension.csv), or see Appendix C of the updated [paper](paper.pdf). The candidate table now has **104 awaiting individual review**. These additions are internal scientific reviews, not a claim of 64 newly established discoveries or a change to the submitted manuscript.
+
+Fable 5 found the candidates. **Astra** supervised and reconciled the follow-up; fresh **GPT-6.1 Sol and Terra** collaborators performed the detailed checks. Their contributions and notes are preserved with the reports and credited in Section 6.
+
 ## The paper
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 22 (37 pages; the catalogue of all 199
+- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 30 (including the 70-row review extension in Appendix C; the catalogue of the 199
   systems with their ephemerides and next eclipses is its Appendix A)
 - [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
 - [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
