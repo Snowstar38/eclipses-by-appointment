@@ -1,0 +1,34 @@
+TESS QLP SAP, 19779 10-min bins, sectors [15, 16, 55, 56, 76, 82, 83]; f_orb(Gaia)=1.065998 c/d
+  f1 = 6.390610 +- 0.000005 c/d (P=0.156480 d), semi-amp 3.086 ppt; f/f_orb = 5.9950 +- 0.0000; nearest integer 6 -> (-0.0050) = -1103 sigma(f)
+  f2 = 0.114733 +- 0.000008 c/d (P=8.715888 d), semi-amp 1.761 ppt; f/f_orb = 0.1076 +- 0.0000; nearest integer 0 -> (+0.1076) = +13839 sigma(f)
+  f3 = 0.145385 +- 0.000011 c/d (P=6.878289 d), semi-amp 1.337 ppt; f/f_orb = 0.1364 +- 0.0000; nearest integer 0 -> (+0.1364) = +13567 sigma(f)
+  f4 = 0.074018 +- 0.000010 c/d (P=13.510227 d), semi-amp 1.360 ppt; f/f_orb = 0.0694 +- 0.0000; nearest integer 0 -> (+0.0694) = +7164 sigma(f)
+  f5 = 5.806788 +- 0.000011 c/d (P=0.172212 d), semi-amp 1.258 ppt; f/f_orb = 5.4473 +- 0.0000; nearest integer 5 -> (+0.4473) = +43448 sigma(f)
+  f6 = 0.234005 +- 0.000012 c/d (P=4.273413 d), semi-amp 1.165 ppt; f/f_orb = 0.2195 +- 0.0000; nearest integer 0 -> (+0.2195) = +20068 sigma(f)
+  f1-f2=0.58382, f1+f2=12.19740, 2f1=12.78122; f2/f1=0.90864
+per-sector semi-amplitudes (ppt) at f1, f2; QLP cadence:
+  s15: A(f1)=2.688 A(f2)=1.170 +- 0.190; phase(f1)=-169 deg
+  s16: A(f1)=3.072 A(f2)=1.182 +- 0.148; phase(f1)=-157 deg
+  s55: A(f1)=2.964 A(f2)=1.242 +- 0.102; phase(f1)=-156 deg
+  s56: A(f1)=3.303 A(f2)=1.267 +- 0.108; phase(f1)=-154 deg
+  s76: A(f1)=3.053 A(f2)=1.383 +- 0.124; phase(f1)=-159 deg
+  s82: A(f1)=3.051 A(f2)=1.168 +- 0.115; phase(f1)=-160 deg
+  s83: A(f1)=3.165 A(f2)=1.242 +- 0.149; phase(f1)=-157 deg
+Gaia-P harmonics after prewhitening 6 frequencies: A1=0.033, A2=0.058 +- 0.046 ppt (2-sigma upper limit on A2 ~ 0.150 ppt)
+ZTF (IRSA, r=5"; catflags==0; per-field/filter median-subtracted): source, G, sep | band n | LS semi-amp (mmag) at f1, f2 | top LS peak 1-30 c/d (freq, amp) | FAP-ish: amp at f1 / median amp over 1-30 c/d
+  target G=12.86 sep=0.0 | zg n=935 rms 10.5 mmag | A(f1)=0.16 A(f2)=0.83 mmag | top 2.00300 c/d A=2.88 | noise amp median 0.59, 99th pct 1.45 mmag
+  target G=12.86 sep=0.0 | zr n=1486 rms 9.5 mmag | A(f1)=0.70 A(f2)=1.35 mmag | top 2.60220 c/d A=2.70 | noise amp median 0.60, 99th pct 1.72 mmag
+  2165710462722853888 G=13.60 sep=24.2 | zg n=938 rms 14.3 mmag | A(f1)=0.14 A(f2)=0.98 mmag | top 2.00360 c/d A=5.39 | noise amp median 0.80, 99th pct 2.13 mmag
+  2165710462722853888 G=13.60 sep=24.2 | zr n=1691 rms 10.6 mmag | A(f1)=1.94 A(f2)=0.15 mmag | top 1.00240 c/d A=4.72 | noise amp median 0.64, 99th pct 2.29 mmag
+  2165710565802070400 G=15.52 sep=35.6 | zg n=1855 rms 17.6 mmag | A(f1)=0.90 A(f2)=1.04 mmag | top 3.01100 c/d A=3.70 | noise amp median 0.85, 99th pct 2.31 mmag
+  2165710565802070400 G=15.52 sep=35.6 | zr n=3355 rms 12.4 mmag | A(f1)=1.36 A(f2)=0.54 mmag | top 1.00260 c/d A=5.42 | noise amp median 0.50, 99th pct 1.94 mmag
+  2165710634521539584 G=14.05 sep=41.9 | zg n=936 rms 11.5 mmag | A(f1)=1.24 A(f2)=0.84 mmag | top 3.01100 c/d A=3.01 | noise amp median 0.63, 99th pct 1.63 mmag
+  2165710634521539584 G=14.05 sep=41.9 | zr n=1751 rms 14.3 mmag | A(f1)=1.80 A(f2)=2.03 mmag | top 2.00540 c/d A=8.51 | noise amp median 1.23, 99th pct 5.68 mmag
+  2165710561492056320 G=12.25 sep=42.2 | zg n=938 rms 21.2 mmag | A(f1)=1.97 A(f2)=1.45 mmag | top 1.00220 c/d A=9.52 | noise amp median 1.23, 99th pct 3.12 mmag
+  2165710561492056320 G=12.25 sep=42.2 | zr n=0 (too few)
+  2165710355333626240 G=13.38 sep=44.3 | zg n=937 rms 16.3 mmag | A(f1)=9.58 A(f2)=4.24 mmag | top 6.39060 c/d A=9.55 | noise amp median 0.97, 99th pct 2.25 mmag
+  2165710355333626240 G=13.38 sep=44.3 | zr n=1690 rms 13.0 mmag | A(f1)=8.86 A(f2)=5.09 mmag | top 6.39060 c/d A=8.87 | noise amp median 0.93, 99th pct 4.64 mmag
+  2165710664573981312 G=15.31 sep=54.4 | zg n=938 rms 14.3 mmag | A(f1)=1.08 A(f2)=1.04 mmag | top 5.00940 c/d A=3.66 | noise amp median 0.86, 99th pct 1.92 mmag
+  2165710664573981312 G=15.31 sep=54.4 | zr n=1694 rms 10.9 mmag | A(f1)=1.00 A(f2)=0.28 mmag | top 2.18340 c/d A=3.16 | noise amp median 0.68, 99th pct 2.01 mmag
+  2165710531442326784 G=15.05 sep=58.0 | zg n=2470 rms 45.5 mmag | A(f1)=0.70 A(f2)=2.35 mmag | top 18.86920 c/d A=7.37 | noise amp median 1.69, 99th pct 4.71 mmag
+  2165710531442326784 G=15.05 sep=58.0 | zr n=3780 rms 24.5 mmag | A(f1)=2.48 A(f2)=1.81 mmag | top 1.96620 c/d A=6.35 | noise amp median 1.11, 99th pct 4.16 mmag

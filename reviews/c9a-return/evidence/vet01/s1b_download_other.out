@@ -1,0 +1,20 @@
+/usr/local/lib/python3.13/dist-packages/lightkurve/prf/__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
+  warnings.warn(
+SearchResult containing 2 data products.
+
+ #     mission     year author exptime target_name distance
+                                  s                 arcsec 
+--- -------------- ---- ------ ------- ----------- --------
+  0 TESS Sector 15 2019  TASOC    1800   195865529      0.0
+  1 TESS Sector 15 2019  TASOC    1800   195865529      0.0
+195865529 TASOC 0 15 <TableColumns names=('time','flux','flux_err','timecorr','cadenceno','centroid_col','centroid_row','flux_raw','flux_raw_err','flux_bkg','flux_corr','flux_corr_err','quality','pixel_quality','mom_centr1','mom_centr2','pos_corr1','pos_corr2')> 1197 mast:HLSP/tasoc/s0015/c1800/0000/0001/9586/5529/hlsp_tasoc_tess_ffi_tic00195865529-s0015-cam1-ccd2-c1800_tess_v06_cbv-lc.fits
+195865529 TASOC 1 15 <TableColumns names=('time','flux','flux_err','timecorr','cadenceno','centroid_col','centroid_row','flux_raw','flux_raw_err','flux_bkg','flux_corr','flux_corr_err','quality','pixel_quality','mom_centr1','mom_centr2','pos_corr1','pos_corr2')> 1197 mast:HLSP/tasoc/s0015/c1800/0000/0001/9586/5529/hlsp_tasoc_tess_ffi_tic00195865529-s0015-cam1-ccd2-c1800_tess_v06_cbv-lc.fits
+SearchResult containing 2 data products.
+
+ #     mission     year       author      exptime target_name distance
+                                             s                 arcsec 
+--- -------------- ---- ----------------- ------- ----------- --------
+  0 TESS Sector 12 2019 GSFC-ELEANOR-LITE    1800   468181994      0.0
+  1 TESS Sector 13 2019 GSFC-ELEANOR-LITE    1800   468181994      0.0
+468181994 GSFC-ELEANOR-LITE 0 12 <TableColumns names=('time','flux','flux_err','barycorr','raw_flux','cadenceno','centroid_col','centroid_row','corr_flux','quality','x_centroid','y_centroid','x_com','y_com','flux_bkg','ffiindex','pca_flux','raw_flux_err')> 1086 mast:HLSP/gsfc-eleanor-lite/s0012/0000/0004/6818/1994/hlsp_gsfc-eleanor-lite_tess_ffi_s0012-0000000468181994_tess_v1.0_lc.fits
+468181994 GSFC-ELEANOR-LITE 1 13 <TableColumns names=('time','flux','flux_err','barycorr','raw_flux','cadenceno','centroid_col','centroid_row','corr_flux','quality','x_centroid','y_centroid','x_com','y_com','flux_bkg','ffiindex','pca_flux','raw_flux_err')> 1177 mast:HLSP/gsfc-eleanor-lite/s0013/0000/0004/6818/1994/hlsp_gsfc-eleanor-lite_tess_ffi_s0013-0000000468181994_tess_v1.0_lc.fits

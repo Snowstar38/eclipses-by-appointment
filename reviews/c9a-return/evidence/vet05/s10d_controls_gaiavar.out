@@ -1,0 +1,31 @@
+CONTROL J/ApJS/258/16 cone 60" at 009.33534 +22.34583 (row seen in a wide cone): 1 rows ['0242843658\t009.335342386589\t+22.345825642462\t  4.9812382']
+CONTROL I/358/veb cone 60" at 62.1651152711243 +22.8452379516562: 1 rows
+CONTROL J/A+A/652/A120 cone 60" at 61.4877817995335 +23.2417621836410: 1 rows
+15855794 I/358/varisum 60": 0 rows []
+15855794 I/358/veb 60": 0 rows []
+15855794 J/ApJS/258/16 60": 0 rows []
+92881948 I/358/varisum 60": 1 rows [' 0.000\t2964506347485091072']
+92881948 I/358/veb 60": 0 rows []
+92881948 J/ApJS/258/16 60": 0 rows []
+GAIA gaiadr3.vari_eclipsing_binary HTTP 200
+source_id,frequency,global_ranking
+GAIA gaiadr3.vari_classifier_result HTTP 200
+source_id,best_class_name,best_class_score
+2964506347485091072,"SOLAR_LIKE",0.6272158
+GAIA gaiadr3.vari_summary HTTP 200
+source_id,in_vari_eclipsing_binary,in_vari_rotation_modulation,in_vari_classification_result,num_selected_g_fov,range_mag_g_fov,std_dev_mag_g_fov
+2964506347485091072,0,0,1,71,0.042043626,0.009770371
+GAIA gaiadr3.vari_rotation_modulation HTTP 400
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/votable-1.4.xsd">
+<RESOURCE type="results">
+<INFO name="QUERY_STATUS" value="ERROR">Incorrect ADQL query: 1 unresolved identifiers: max_activity_index [l.1 c.41 - l.1 c.59]!
+  - Unknown column "max_activity_index" !</INFO>
+<INFO name="PROVIDER" value="ARI (Astronomisches Rechen Institut - Heidelberg, Germany)">ARI's TAP access to the Gaia Archive.</INFO>
+<INFO  name="REQ_ID" value="S1793391876490"/>
+<INFO  name="ERROR_TYPE" value="fatal"/>
+<INFO  name="USER" value="3108c67dc38f14167e4b2867926cfa64 (ANONYMOUS)"/>
+<INFO  name="ACTION" value="sync"/>
+</RESOURCE>
+</VOTABLE>
+GAIA control TOP 1 vari_eclipsing_binary: source_id,frequency | 46626164993792,4.255310016540123

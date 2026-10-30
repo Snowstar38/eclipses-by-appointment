@@ -1,0 +1,22 @@
+--- TIC 372683900 : P=1.4765 d K1=89.3 km/s e=0.297 f(m)=0.0949 Msun; M1=1.61 R1=2.91 Teff=7189 beta=0.25 u=0.5; observed A2 14.8 QLP (20.2 if x(1+0.37)); TESScut-PSF 13.7 ppt
+  i(deg)  M2   q     a(Rsun) R1/a  RL/a(Egg) fill(R1/RL)  A1    A2    A3   (ppt, model, no eclipse)  min@A-min@B(ppt)  eclipse?(cos i<(Rpol+R2)/a)
+     90  0.83  0.51    7.34 0.396  0.438   0.91                   8.84  62.87  6.94   -31.06  YES
+     75  0.86  0.54    7.38 0.394  0.434   0.91                   7.55  60.39  6.43   -27.54  YES
+     60  1.00  0.62    7.51 0.387  0.421   0.92                   4.17  53.19  5.04   -18.19  YES
+     50  1.18  0.73    7.68 0.379  0.406   0.93                   1.43  45.96  3.78   -10.33  no
+     40  1.52  0.94    7.98 0.365  0.384   0.95                   0.98  36.93  2.44    -2.91  no
+     30  2.24  1.39    8.55 0.340  0.351   0.97                   2.28  26.30  1.24     2.07  no
+     20  4.42  2.74    9.93 0.293  0.296   0.99                   1.74  14.87  0.40     2.69  no
+     10 21.01 13.05   15.43 0.189  0.191   0.99                   0.40   4.51  0.04     0.73  no
+Traceback (most recent call last):
+  File "[local path omitted]", line 71, in <module>
+    run('372683900',1.61,2.91,7189,0.25,obsA2='14.8 QLP (20.2 if x(1+0.37)); TESScut-PSF 13.7')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[local path omitted]", line 56, in run
+    i=np.radians(ideg); M2=m2_of_i(fm,M1,i); q=M2/M1
+                           ~~~~~~~^^^^^^^^^
+  File "[local path omitted]", line 49, in m2_of_i
+    return brentq(lambda M2:(M2*np.sin(i))**3/(M1+M2)**2-fm,1e-4,100)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_zeros_py.py", line 858, in brentq
+    r = _zeros._brentq(f, a, b, xtol, rtol, maxiter, args, full_output, disp)
+ValueError: f(a) and f(b) must have different signs

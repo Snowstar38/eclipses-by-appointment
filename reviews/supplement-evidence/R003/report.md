@@ -1,0 +1,35 @@
+# TIC 298645930: full adversarial review, 2026-10-30
+
+**Physical verdict: PLAUSIBLE.** The target aperture contains repeated sharp primary deficits on strong variable modulation. Secondary amplitude changes materially with template; timing and blind census are contaminated. A real 24.78 arcsec neighbor and inadequate calibrated PSF fit leave target attribution/model unresolved.
+
+**Review completion:** all required gates were attempted and adjudicated below; unavailable services and inconclusive models are explicit limitations. This is not automatic confirmation of novelty. No catalogue/paper edits or commits.
+
+## Deciding measurements
+
+- Raw QLP SAP, QUALITY=0, no gap trimming: 117 primary fits. Median trapezoid depth 30.05 ppt (event range 27.23 to 32.95; median formal/red-noise error 0.77 ppt). Sector medians: {14: 29.09, 25: 29.52, 26: 30.43, 40: 30.34, 41: 29.09, 52: 29.57, 54: 30.05, 58: 30.11, 74: 30.0, 79: 30.16, 80: 31.14, 81: 31.37, 85: 30.08}.
+- Primary T14 3.50 h, conditional profile/grid range 3.41 to 3.58 h; T12 1.22 h; T23 1.05 h. These are trapezoid shape summaries, not a claim of true totality in grazing events.
+- P = 2.518978031 +/- 0.000001199 d; Tref = 2820.951170 +/- 0.000214 BTJD at cycle 451. T0 = 1684.892078 BTJD. Chi2/dof 1543.62/115; O-C rms 4.66 min. Per-event timing/errors/O-C are in fit-results.json.
+- Conditional secondary: 116 fitted windows, 98 individual >3-sigma fits; depth 6.64 +/- 0.20 ppt after between-event scatter; phase 0.500532 +/- 0.000685. T14 5.41 h (range 4.63 to 5.84), T12 2.43 h, T23 0.54 h. Weak/modulated shape uncertainty can exceed these conditional errors.
+- Gaia SB1 P offset -0.37 sigma. At BTJD389, primary minus conjunction A = +0.68 h versus Gaia sigma 1.00 h. Full per-event conjunction comparison uses this source's covariance. Bit index127 and 15 correlations asserted against [ESA's SB1 ordering](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_non--single_stars_tables/ssec_dm_nss_two_body_orbit.html); omega-Tp correlation +0.995618.
+- First-order e cos(omega) = +0.0008 +/- 0.0011; for eccentric systems compare exact Gaia conjunction separation rather than treating this expansion as exact. Gaia e=0.0830 +/- 0.0564, omega=50.26 +/- 34.46 degrees.
+
+## Gate adjudication
+
+| Gate | Status | Evidence and limits |
+|---|---|---|
+| Own archives/prior art | completed; no target prior EB match | ExoFOP HTTP200, TOI=0/CTOI=0; SIMBAD CFA exact Gaia ID is SB*. Shared ARI Gaia variability cache has no EB rows among70 sources. CDS and Harvard timed out, then IDIA succeeded: fresh 60arcsec cones in VSX, ASAS-SN, SB9, WDS, Kostov table2/3/4, IJspeert and Prsa. All nine table sections returned; no target EB prior-art match. Neighbor ROT/unvetted table2 matches are distinct sources. Raw responses and hashes in *_idia.tsv/idia-receipts.json. Identifier web searches have no pertinent hit, not proof of novelty. |
+| Individual events/ephemerides | measured | fit-results.json, secondary-fit.json: integrated-exposure trapezoids, local quadratic baselines, fixed shared shape per kind, profile timing error with cadence/grid floors; primary residual bin-beta range 1.00 to 2.08; ephemeris errors inflated when chi2/dof>1. Secondary ephemeris stored when >=3 strong events; two-event cases use primary P. |
+| Flags/background/centroids | tested; conditional | Each fit records flagged core counts, OR bits, template centroids/errors, background regression and refitted depth. Maximum predicted fake-background primary depth 6.10 ppt. Native background units never treated as flux. Sparse flags/gaps remain exclusions, not clean nulls. |
+| Blind census | measured; coverage limited | 333 candidate dip groups at max(4 robust per-cadence sigma,3ppt), including 92 away from measured eclipses. Thresholded rolling median can detect intrinsic modulation/gap edges. For straightforward objects the lone off-phase group lacks sufficient clean baseline for event fitting (offphase-checks.json); no claim it is an eclipse. |
+| Other eclipse/controls | measured; conditional | Gaia-fixed-phase tests and off-phase controls in orbit-gates.json; optimized secondary timing/shape separately in secondary-fit.json. Any quoted null upper limit is primary-shape/Gaia-phase conditional, not general exclusion. |
+| Independent pipeline | passed for aperture events | TESS-SPOC SAP/PDCSAP retrieval and QUALITY=0 core estimates in indep_measure.txt; different reduction of same TESS data, not a separate observatory. Amplitude differences include dilution/sampling. |
+| Neighbors/localization | inconclusive | Fresh ARI G<15 cone within60arcsec; required fractional dip estimates in neighbors_summary.csv are G-band proxies without aperture throughput. Historical difference-image deficit-target offset 2.68arcsec, peak on target. See star-specific verdict and limitations. |
+| Physics/e sin(omega) | modeled; conditional | RV mass function 0.01252 Msun; minimum m2 0.393 to 0.393 Msun for listed M1 hypotheses. Predicted central primary T14 4.65 to 4.65 h versus observed 3.50 h, compatible with a noncentral chord. Numerical limb-darkened two-disk fits in geometry.json explore both shapes with fixed TIC dimensions, free depth scales and physical scale<=1; degeneracies prevent a robust independent e sin(omega) measurement. Do not interpret the coarse-grid profile interval as a calibrated orbital confidence interval. |
+
+Next predictions (BTJD, from 2026-10-30 noon): primary [np.float64(4344.93288), np.float64(4347.45186)]; secondary [np.float64(4346.19371), np.float64(4348.71268)]. Timing extrapolations inherit ephemeris and secondary-shape systematics; no precise future uncertainty for the modulated system.
+
+**Next deciding check:** Calibrate a realistic PRF/multi-source pixel model and separate periodic modulation before assessing secondary/heartbeat alternatives; do not classify neighbor ROT as target prior art.
+
+Provenance: ../downloads.json and ../receipts.json; shared-full-review Gaia receipts; independent CAOM responses and indep_sha256.txt. Scripts fit_batch.py/orbit_gates.py/secondary_fit.py/geometry.py reproduce numeric results. Optional Terra personal note was not supplied; its scientific contribution is preserved verbatim in INDEPENDENT-NOTE.md. Lead: Sol batch A.
+
+Specific caution: source2123135139098776320 is a real G13.62 neighbor24.78arcsec away; its ROT classification is not the target2123135139098776448. Pixel298.py reused a hashed existing s41 cube: target beats neighbor by delta chi2 about22825, but free centroid~10arcsec and WCS shift at grid boundary make precise localization unreliable. Baseline sensitivity, broad secondary shape and large off-phase census preclude confirmation. Tide298.py compares equilibrium-tide plus five orbital harmonics per sector against the same plus a narrow primary: delta BIC17274 favors the eclipse component, with primary depths28.4 to30.8ppt. Correlations prohibit formal FAP; secondary and calibrated localization remain unresolved.

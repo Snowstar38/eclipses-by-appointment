@@ -1,0 +1,34 @@
+TIC 13106408: P_phot=2.637721+-0.000002 d (s3), P_Gaia=2.637505+-0.000401; ratio P_phot/P_Gaia=1.000082; reference T(min I)=3405.3138 BTJD (near median epoch 3406.3)
+K=2: sigma 2.91 ppt, chi2=22579; A_k (ppt, err; cos-coefficient c_k, + = brighter at min I): A1=2.103+-0.030 (c=-2.070); A2=21.760+-0.030 (c=-21.760)
+    shape: ph1=0.9998, ph2=0.5010, phmax1=0.2540, phmax2=0.7465, max1=22.1586, max2=21.4105, min1=-23.8300, min2=-19.6915, depth1=45.6145, depth2=41.4761, fwhm1=0.2532, fwhm2=0.2472
+K=4: sigma 2.56 ppt, chi2=23421; A_k (ppt, err; cos-coefficient c_k, + = brighter at min I): A1=2.063+-0.027 (c=-2.031); A2=21.769+-0.026 (c=-21.769); A3=1.400+-0.026 (c=-1.400); A4=0.720+-0.026 (c=+0.720)
+    shape: ph1=0.9998, ph2=0.5010, phmax1=0.2467, phmax2=0.7538, max1=22.8978, max2=22.1285, min1=-24.4800, min2=-17.6202, depth1=46.9931, depth2=40.1334, fwhm1=0.2515, fwhm2=0.2722
+K=6: sigma 2.56 ppt, chi2=23450; A_k (ppt, err; cos-coefficient c_k, + = brighter at min I): A1=2.063+-0.027 (c=-2.031); A2=21.766+-0.026 (c=-21.766); A3=1.402+-0.026 (c=-1.402); A4=0.719+-0.026 (c=+0.719); A5=0.102+-0.026 (c=+0.100); A6=0.025+-0.026 (c=-0.024)
+    shape: ph1=0.0000, ph2=0.5008, phmax1=0.2462, phmax2=0.7548, max1=22.9131, max2=22.1763, min1=-24.4046, min2=-17.7390, depth1=46.9492, depth2=40.2837, fwhm1=0.2522, fwhm2=0.2715
+K=8: sigma 2.56 ppt, chi2=23506; A_k (ppt, err; cos-coefficient c_k, + = brighter at min I): A1=2.063+-0.026 (c=-2.031); A2=21.765+-0.026 (c=-21.765); A3=1.403+-0.026 (c=-1.403); A4=0.718+-0.026 (c=+0.718); A5=0.103+-0.026 (c=+0.101); A6=0.025+-0.026 (c=-0.024); A7=0.035+-0.026 (c=-0.025); A8=0.023+-0.026 (c=-0.023)
+    shape: ph1=0.9998, ph2=0.5012, phmax1=0.2457, phmax2=0.7550, max1=22.8698, max2=22.1808, min1=-24.4515, min2=-17.7393, depth1=46.9768, depth2=40.2646, fwhm1=0.2525, fwhm2=0.2712
+    (pure cos 2phi has FWHM 0.2500 per minimum; narrower = sharpened, wider = flattened)
+PER-SECTOR at P_phot, K=6: sector n | depth1 depth2 (ppt, from mean max) | ph1 ph2 | max1-max2 | fwhm1 fwhm2 | A1 A2 A3 A4
+  s24 1178 | 47.588 41.024 | +0.0008 0.5030 | +1.010 | 0.2527 0.2747 | 1.905 22.163 1.576 0.850
+  s57 3420 | 47.330 40.687 | -0.0010 0.5010 | +0.670 | 0.2517 0.2715 | 2.031 21.898 1.460 0.696
+  s58 3875 | 46.504 40.769 | -0.0040 0.5012 | +1.607 | 0.2490 0.2717 | 1.732 21.580 1.510 0.577
+  s77 2540 | 47.231 41.305 | +0.0010 0.5005 | +0.265 | 0.2517 0.2717 | 1.662 22.157 1.450 0.719
+  s78 2106 | 45.346 41.087 | +0.0012 0.4953 | -0.122 | 0.2517 0.2745 | 0.820 21.589 1.337 0.833
+  s84 3345 | 47.737 40.292 | -0.0010 0.5022 | +0.572 | 0.2530 0.2700 | 2.493 21.916 1.412 0.696
+  s85 3510 | 46.209 39.250 | +0.0000 0.5032 | +1.547 | 0.2542 0.2715 | 2.367 21.313 1.309 0.776
+  MEAN+-SEM over 7 sectors: depth1=46.8493+-0.3273; depth2=40.6306+-0.2610; ph1=-0.0004+-0.0007; ph2=0.5009+-0.0010; dmax=0.7927+-0.2420; fwhm1=0.2520+-0.0006; fwhm2=0.2722+-0.0007; A1=1.8586+-0.2085; A2=21.8022+-0.1207; A3=1.4361+-0.0353; A4=0.7352+-0.0354
+  depth1-depth2 = 6.219+-0.394 ppt (15.8 sigma); min-min separation ph2-ph1 = 0.5014+-0.0014
+GAUSSIAN-DIP fits to K=2 residuals (depth ppt +- white err; + = extra dip): centre phase / sigma width
+  minI     c=0.000: w=0.010: +0.919+-0.158; w=0.020: +0.919+-0.113; w=0.040: +0.912+-0.083; w=0.080: +0.650+-0.064
+  minII    c=0.501: w=0.010: -2.667+-0.156; w=0.020: -2.649+-0.112; w=0.040: -2.250+-0.081; w=0.080: -1.009+-0.064
+  ctrl0.25 c=0.250: w=0.010: -0.940+-0.158; w=0.020: -0.917+-0.114; w=0.040: -0.709+-0.083; w=0.080: -0.205+-0.065
+  ctrl0.75 c=0.750: w=0.010: -1.091+-0.164; w=0.020: -1.034+-0.117; w=0.040: -0.717+-0.086; w=0.080: -0.162+-0.066
+  per-sector w=0.02 dip at minI: [1.037, 1.21, 0.087, 0.797, 1.179, 1.893, 0.459] -> 0.952+-0.220 ppt
+  per-sector w=0.02 dip at minII: [-2.105, -2.366, -1.802, -1.914, -3.666, -2.988, -3.602] -> -2.635+-0.296 ppt
+BOX on K=2 residuals (P_phot fold): binned rms 1.078 ppt vs median bin err 0.294; chi2/dof 13.23; strongest dip 1.677 ppt at phase 0.355 width 0.060 (19.6 sigma white); per-sector depth there [1.791, 1.899, 1.663, 1.893, 1.556, 1.309, 1.604]
+BOX on K=6 residuals (P_phot fold): binned rms 0.211 ppt vs median bin err 0.283; chi2/dof 0.55; strongest dip 0.235 ppt at phase 0.690 width 0.040 (2.2 sigma white); per-sector depth there [0.047, 0.24, 0.454, -0.005, 0.11, 0.144, 0.43]
+min I (T=3405.3138) minus predicted conj A: +0.0902 +- 0.3969 phase  (+0.2 sigma); [min-time phase error from sector scatter: 0.0007]
+min I (T=3405.3138) minus predicted conj B: -0.4236 +- 0.4526 phase  (-0.9 sigma); [min-time phase error from sector scatter: 0.0007]
+min II (T=3406.6351) minus predicted conj A: -0.4088 +- 0.3969 phase  (-1.0 sigma); [min-time phase error from sector scatter: 0.0010]
+min II (T=3406.6351) minus predicted conj B: +0.0774 +- 0.4527 phase  (+0.2 sigma); [min-time phase error from sector scatter: 0.0010]
+Gaia-predicted conj B - conj A phase: 0.5000+-0.0587; observed min II - min I: 0.5014; e cos w (Gaia) = +0.005; implied by photometry (approx (pi/2)(dphi-0.5)): +0.0021

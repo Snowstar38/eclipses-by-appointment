@@ -1,6 +1,6 @@
 # Eclipses by Appointment
 
-**263 eclipsing systems identified in public TESS and Gaia data: 251 confirmed and 12 probable.** Six further cases remain plausible and are excluded from that total. Catalogue and literature checks support an uncatalogued subset of **199 systems**; novelty assessment remains incomplete for **64 physically confirmed systems**.
+**273 eclipsing systems identified in public TESS and Gaia data: 261 confirmed and 12 probable.** Seven further cases remain plausible and are excluded from that total. Catalogue and literature checks support an uncatalogued subset of **199 systems**; novelty assessment remains incomplete for **74 physically confirmed systems**.
 
 This is one evolving **working draft, v1.0**. It has **not been formally submitted** to a journal and is not under formal review.
 
@@ -9,15 +9,16 @@ Gaia measures the orbits of binary stars. We use those orbits to predict when ec
 ## Paper and evidence
 
 - [Current paper](paper.pdf): the unified working manuscript, including the catalogue-screened systems in Appendix A and physical-review evidence in Appendix C.
-- [Supplement](supplement.pdf): detailed entries and light curves for the A-labelled sample; the R-labelled systems have individual reports below.
+- [Supplement](supplement.pdf): catalogue entries, light curves and individual review evidence, including the 70 R-labelled reviews and the returned Fable reports.
 - [Review register](reviewed-extension.csv) and [70 individual reports with measurements](reviews/2026-10-30/README.md): 64 physical confirmations and six plausible cases, with novelty limitations and next tests. The CSV filename is retained for link compatibility.
+- [Returned review register](returned-review.csv) and [Fable review reports and evidence](reviews/c9a-return/README.md): 12 returned confirmations, including ten additions, one existing A4 control and one known catalogue recovery. Seven further candidates await individual vetting.
 - [Earlier working draft](historical-draft-2026-10-14.pdf): an archived draft, not a formally submitted version.
 
 Of the 266 candidates from the G 10-11.5 batch fold, 138 have individual reviews: **130 physical confirmations, two heartbeat stars and six plausible cases**. Another **104 await individual review**; the other rows record known signals, catalogue corrections and holds. Multi-catalogue services were unavailable for the final 20 R-labelled reviews, including 16 physical confirmations; those failures are not negative matches.
 
 ![Sky distribution of the 199 catalogue-screened systems](overview.png)
 
-The overview graphic shows the catalogue-screened subset, not all 263 systems.
+The overview graphic shows the catalogue-screened subset, not all 273 systems.
 
 **Related work.** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo
 on 2026 September 27, two weeks before this work began
@@ -30,16 +31,16 @@ known. A reader of this work pointed us to the records.
 
 ## Contributions
 
-the project coordinator posed the question, directs the work and is responsible for the claims. Fable 5 found the batch candidates. **Astra** supervised the 70-object follow-up, reviewed exceptional cases, reconciled the evidence and integrated the results; fresh **GPT-6.1 Sol leads and Terra helpers** performed detailed measurements and checks. Section 6 credits the other contributors and distinguishes independent analyses from reused methods. [Contributor record](reviews/2026-10-30/CONTRIBUTORS.md).
+The project coordinator posed the question, directs the work and is responsible for the claims. Fable 5 found the batch candidates. **Astra** supervised the 70-object follow-up, reviewed exceptional cases, reconciled the evidence and integrated the results; fresh **GPT-6.1 Sol leads and Terra helpers** performed detailed measurements and checks. **Fable 5.1 and Opus 5.5 helpers** performed the returned c9a reviews; Astra reconciled those results and incorporated their evidence into the paper and supplement. Section 6 credits the other contributors and distinguishes independent analyses from reused methods. [Contributor record](reviews/2026-10-30/CONTRIBUTORS.md).
 
 ## Check it yourself
 
-[`CHECKCARD.csv`](CHECKCARD.csv) is one row per row of the paper's object table &mdash; 190 of them: the numbered
+[`CHECKCARD.csv`](CHECKCARD.csv) is an earlier 190-row observing card: the numbered
 systems, the catalogue corrections, the planet candidates and the heartbeat stars. Each carries identifiers,
 coordinates, magnitude, the ephemeris as published, the eclipse depth and duration, the **next predicted primary
 eclipse in UTC** (for the shortest periods, step forward by whole periods), and the one-line `lightkurve` call that
 downloads the raw TESS light curve. Every row also carries a `computed_UTC` column holding the second at which the
-card was generated, so a copy of this file never loses its own age; this one was generated on 2026 October 19. Three
+card was generated, so a copy of this file never loses its own age; this one was generated on 2026 October 19 and does not cover the full current sample. Three
 cautions. `sigma_from_eP_min` is cycles times the period error and nothing else, so it is a lower bound on the timing
 uncertainty. The UTC times are for an observer on Earth: light-travel time to the solar-system barycentre is removed,
 by code checked against a separately written implementation over all 168 predicted objects, the two agreeing to 2.6 s

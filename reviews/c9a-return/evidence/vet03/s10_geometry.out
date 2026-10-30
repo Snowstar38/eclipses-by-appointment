@@ -1,0 +1,30 @@
+=== TIC 70665829 (Gaia 3890379452571731456); observed from s4_period_70665829.out SPOC
+  Gaia: P=3.465888+-0.000285 e=0.0769+-0.0397 w=175.4+-22.2 Tp(BTJD)=390.5724+-0.2071 K1=60.97
+  corr(w,Tp)=0.9984 corr(P,Tp)=0.163 corr(e,w)=0.321 corr(e,Tp)=0.285; corr-matrix min eigenvalue 0.0008
+  e cos w (Gaia, MC) and e sin w:
+  [independent  ; 630 cycles from Gaia Tp] observed deep eclipse minus conj A = -0.0215 +- 0.0999 P (-0.22 sig, -1.8 h); minus conj B = -0.4743 +- 0.1006 P (-4.71 sig)
+      predicted (tB-tA)/P = 0.4552 (+0.0234/-0.0247); e cos w = -0.0703 +- 0.0366; e sin w = +0.0041 +- 0.0309
+      observed phi2=0.46049: if deep=A need 0.4605 -> +0.22 sig; if deep=B need 0.5395 -> +3.50 sig; fraction of draws with (tB-tA)/P<0.5: 1.000
+  [correlated   ; 630 cycles from Gaia Tp] observed deep eclipse minus conj A = -0.0204 +- 0.0585 P (-0.35 sig, -1.7 h); minus conj B = -0.4748 +- 0.0404 P (-11.74 sig)
+      predicted (tB-tA)/P = 0.4547 (+0.0239/-0.0238); e cos w = -0.0711 +- 0.0362; e sin w = +0.0032 +- 0.0310
+      observed phi2=0.46049: if deep=A need 0.4605 -> +0.24 sig; if deep=B need 0.5395 -> +3.55 sig; fraction of draws with (tB-tA)/P<0.5: 1.000
+  [conditioning] P_TESS-P_Gaia = -0.43 sigma_Gaia; conditional shifts: Tp -0.0145 d, w -1.91 deg, e -0.0143
+  [corr|P=P_TESS; 630 cycles from Gaia Tp] observed deep eclipse minus conj A = +0.0051 +- 0.0064 P (+0.80 sig, +0.4 h); minus conj B = -0.4578 +- 0.0082 P (-55.93 sig)
+      predicted (tB-tA)/P = 0.4630 (+0.0136/-0.0135); e cos w = -0.0581 +- 0.0213; e sin w = +0.0055 +- 0.0228
+      observed phi2=0.46049: if deep=A need 0.4605 -> -0.19 sig; if deep=B need 0.5395 -> +5.64 sig; fraction of draws with (tB-tA)/P<0.5: 1.000
+  exact e cos w implied by observed phi2 if deep=A (e sin w fixed at Gaia +0.0061): -0.06210; first-order pi/2(phi2-0.5) = -0.06206
+=== TIC 331293467 (Gaia 5866907704116761728); observed from s4_period_331293467.out QLP + s5 secondary
+  Gaia: P=5.256547+-0.000536 e=0.0215+-0.0250 w=287.0+-69.8 Tp(BTJD)=389.8053+-1.0004 K1=48.73
+  corr(w,Tp)=0.9997 corr(P,Tp)=0.573 corr(e,w)=-0.350 corr(e,Tp)=-0.345; corr-matrix min eigenvalue 0.0002
+  e cos w (Gaia, MC) and e sin w:
+  [independent  ; 699 cycles from Gaia Tp] observed deep eclipse minus conj A = +0.0354 +- 0.2512 P (+0.14 sig, +4.5 h); minus conj B = -0.4705 +- 0.2470 P (-1.90 sig)
+      predicted (tB-tA)/P = 0.5016 (+0.0139/-0.0114); e cos w = +0.0025 +- 0.0225; e sin w = -0.0096 +- 0.0205
+      observed phi2=0.50020: if deep=A need 0.5002 -> -0.11 sig; if deep=B need 0.4998 -> -0.14 sig; fraction of draws with (tB-tA)/P<0.5: 0.410
+  [correlated   ; 699 cycles from Gaia Tp] observed deep eclipse minus conj A = +0.0321 +- 0.0649 P (+0.49 sig, +4.1 h); minus conj B = -0.4693 +- 0.0705 P (-6.66 sig)
+      predicted (tB-tA)/P = 0.5015 (+0.0115/-0.0140); e cos w = +0.0024 +- 0.0227; e sin w = -0.0098 +- 0.0204
+      observed phi2=0.50020: if deep=A need 0.5002 -> -0.10 sig; if deep=B need 0.4998 -> -0.13 sig; fraction of draws with (tB-tA)/P<0.5: 0.408
+  [conditioning] P_TESS-P_Gaia = +0.51 sigma_Gaia; conditional shifts: Tp +0.2908 d, w +20.67 deg, e -0.0045
+  [corr|P=P_TESS; 699 cycles from Gaia Tp] observed deep eclipse minus conj A = +0.0009 +- 0.0077 P (+0.12 sig, +0.1 h); minus conj B = +0.4962 +- 0.0061 P (+80.97 sig)
+      predicted (tB-tA)/P = 0.5038 (+0.0110/-0.0071); e cos w = +0.0060 +- 0.0182; e sin w = -0.0091 +- 0.0175
+      observed phi2=0.50020: if deep=A need 0.5002 -> -0.40 sig; if deep=B need 0.4998 -> -0.45 sig; fraction of draws with (tB-tA)/P<0.5: 0.261
+  exact e cos w implied by observed phi2 if deep=A (e sin w fixed at Gaia -0.0206): +0.00031; first-order pi/2(phi2-0.5) = +0.00031

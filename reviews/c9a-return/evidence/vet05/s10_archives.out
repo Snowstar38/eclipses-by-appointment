@@ -1,0 +1,97 @@
+===== 15855794 61.98479061937 22.75262439668
+  B/vsx/vsx r<60": HTTP 200, 0 rows
+  J/ApJS/258/16 r<60": HTTP 200, 0 rows
+  J/A+A/652/A120 r<60": HTTP 200, 0 rows
+  I/358/veb r<60": HTTP 200, 0 rows
+  I/357/varisum r<60": HTTP 200, 0 rows
+  B/sb9/main r<60": HTTP 200, 0 rows
+  ALL-CAT r<5": HTTP 200 31 tables: I/57 I/61B I/96 I/122 I/146 I/154 I/171 I/176 I/197A I/199A I/200 I/209A I/239 I/243 I/246 I/250 I/252 I/254 I/256 I/259 I/261 I/267 I/274 I/275 I/276 I/280B I/284 I/291 I/297 I/305 I/306A
+===== 92881948 83.23743198367 -22.99121122673
+  B/vsx/vsx r<60": HTTP 200, 1 rows
+      _r	OID	Name	V	RAJ2000	DEJ2000	Type	l_max	max	u_max	n_max	f_min	l_min	min	u_min	n_min	l_Period	Period	u_Period	Sp
+       1.35	 4298850	Gaia DR3 2964506347485091072  	0	 83.23750	-22.99084	ROT                           	 	 12.760	 	G         	 	 	 12.800	 	G       	 	                   	 	K
+  J/ApJS/258/16 r<60": HTTP 200, 0 rows
+  J/A+A/652/A120 r<60": HTTP 200, 0 rows
+  I/358/veb r<60": HTTP 200, 0 rows
+  I/357/varisum r<60": HTTP 200, 0 rows
+  B/sb9/main r<60": HTTP 200, 0 rows
+  ALL-CAT r<5": HTTP 200 27 tables: I/108 I/114 I/119 I/131A I/141 I/171 I/193 I/195 I/197A I/199A I/208 I/239 I/243 I/246 I/250 I/252 I/254 I/259 I/265 I/267 I/275 I/277 I/280B I/284 I/297 I/305 I/312
+===== CONTROL_Algol 47.04221857 40.95564667
+  B/vsx/vsx r<60": HTTP 200, 0 rows
+  J/ApJS/258/16 r<60": HTTP 200, 0 rows
+  J/A+A/652/A120 r<60": HTTP 200, 0 rows
+  I/358/veb r<60": HTTP 200, 0 rows
+  I/357/varisum r<60": HTTP 200, 0 rows
+   B/sb9/main ERR HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Max retries exceeded with url: /viz-bin/asu-tsv?-source=B%2Fsb9%2Fmain&-c=47.04221857+40.95564667&-c.rs=60&-out.all=&-out.add=_r&-sort=_r (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+  ALL ERR HTTPSConnectionPool(host='vizier.idia.ac.za', port=443): Max retries exceeded with url: /viz-bin/asu-tsv?-c=47.04221857+40.95564667&-c.rs=5&-out.add=_r (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=36437): Failed to establish a new connection: [Errno 111] Connection refused")))
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/root/.local/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/.local/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connectionpool.py", line 779, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1074, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connection.py", line 254, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=36437): Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=36437): Failed to establish a new connection: [Errno 111] Connection refused"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/root/.local/lib/python3.13/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/root/.local/lib/python3.13/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='simbad.harvard.edu', port=443): Max retries exceeded with url: /simbad/sim-coo?Coord=61.98479061937+22.75262439668&Radius=10&Radius.unit=arcsec&output.format=ASCII (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=36437): Failed to establish a new connection: [Errno 111] Connection refused")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "[local path omitted]", line 26, in <module>
+    r=requests.get('https://simbad.harvard.edu/simbad/sim-coo',params={'Coord':f'{ra} {dec}','Radius':10,'Radius.unit':'arcsec','output.format':'ASCII'},timeout=60)
+  File "/root/.local/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/root/.local/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.local/lib/python3.13/site-packages/requests/adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='simbad.harvard.edu', port=443): Max retries exceeded with url: /simbad/sim-coo?Coord=61.98479061937+22.75262439668&Radius=10&Radius.unit=arcsec&output.format=ASCII (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=36437): Failed to establish a new connection: [Errno 111] Connection refused")))

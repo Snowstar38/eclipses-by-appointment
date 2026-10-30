@@ -1,0 +1,160 @@
+```json
+{
+  "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet250742811\\tesscut_s018.fits",
+  "sha256": "b48016a61a7d96f609a2f1c816fb951c766ba970fb752057aca03da3f4fddea0",
+  "sector": 18,
+  "gaia_target": {
+    "source_id": "358654375087124736",
+    "ra": "33.4256379929076",
+    "dec": "50.423900851805286",
+    "phot_g_mean_mag": "11.252031",
+    "bp_rp": "0.83483505",
+    "sep": "0.0"
+  },
+  "target_wcs_pixel": [
+    7.631437718112814,
+    7.817740656132482
+  ],
+  "gaia_positions": [
+    [
+      7.631437718112814,
+      7.817740656132482
+    ],
+    [
+      7.5118560822548694,
+      7.949263068207227
+    ],
+    [
+      9.774876495431474,
+      6.324901063093867
+    ]
+  ],
+  "events": [
+    1798.1826688914998,
+    1806.4327112653955,
+    1814.6827536392911
+  ],
+  "calibration": {
+    "sigma_pixels": [
+      0.7,
+      0.7
+    ],
+    "dx_pixels": 0.19999999999999973,
+    "dy_pixels": -2.220446049250313e-16
+  },
+  "fixed_fits": [
+    {
+      "source_id": "358654375087124736",
+      "sep_arcsec": 0.0,
+      "G": 11.252031,
+      "chi2": 4977.796648432669,
+      "amplitude": 132.25250732931812,
+      "fractional_residual": 0.19514422571392834
+    },
+    {
+      "source_id": "358654370790026496",
+      "sep_arcsec": 3.698370894837177,
+      "G": 11.393224,
+      "chi2": 4654.031306347369,
+      "amplitude": 136.3621722883437,
+      "fractional_residual": 0.1549730011118878
+    },
+    {
+      "source_id": "358654198991334784",
+      "sep_arcsec": 54.51572619155012,
+      "G": 11.251107,
+      "chi2": 27460.674845258647,
+      "amplitude": 10.398709309465941,
+      "fractional_residual": 0.9944001138394531
+    }
+  ],
+  "free_best": {
+    "chi2": 4490.013597146476,
+    "pixel_x": 7.531437718112807,
+    "pixel_y": 7.917740656132475,
+    "distance_from_target_arcsec": 2.9698484809834893,
+    "fractional_residual": 0.14454088761339412
+  },
+  "event_source_comparisons": [
+    {
+      "tc": 1798.1826688914998,
+      "best_source": "358654370790026496",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -353.23524398569907,
+        12211.945006508538
+      ]
+    },
+    {
+      "tc": 1806.4327112653955,
+      "best_source": "358654375087124736",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        74.44808459519982,
+        10245.067528853406
+      ]
+    },
+    {
+      "tc": 1814.6827536392911,
+      "best_source": "358654370790026496",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        -0.10263971268621075,
+        28.083344247038973
+      ]
+    }
+  ],
+  "aperture_photometry": [
+    {
+      "tc": 1798.1826688914998,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.03429884005978926,
+          "formal_error": 0.0002768379327809019
+        },
+        {
+          "degree": 2,
+          "depth": 0.034401864545287,
+          "formal_error": 0.00030998891425196366
+        }
+      ],
+      "n_core": 13
+    },
+    {
+      "tc": 1806.4327112653955,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.03393540629793565,
+          "formal_error": 0.0003227497087879623
+        },
+        {
+          "degree": 2,
+          "depth": 0.03431930440797193,
+          "formal_error": 0.00034877739629569996
+        }
+      ],
+      "n_core": 13
+    },
+    {
+      "tc": 1814.6827536392911,
+      "fits": [
+        {
+          "degree": 1,
+          "depth": 0.03417577787449405,
+          "formal_error": 0.00046076265862423493
+        },
+        {
+          "degree": 2,
+          "depth": 0.03463212220339091,
+          "formal_error": 0.00042318223713580587
+        }
+      ],
+      "n_core": 13
+    }
+  ],
+  "calibration_note": "Approximate Gaussian PSFs at own Gaia cone positions; no extra empirical source.",
+  "caution": "Same TESS pixels as QLP, independent aperture reduction. Approximate axis-aligned elliptical Gaussian PSF calibrated to multi-star out-of-eclipse image; formal chi2 excludes PSF mismatch, correlated pixels/time and sector-level systematics. No formal significance from delta-chi2; compare event repeatability and residuals. Aperture depth errors are white-noise conditional only; degree comparison probes baseline sensitivity."
+}
+```

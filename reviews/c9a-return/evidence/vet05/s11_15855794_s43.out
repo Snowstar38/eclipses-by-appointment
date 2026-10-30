@@ -1,0 +1,13 @@
+  return _methods._mean(a, axis=axis, dtype=dtype,
+  ret = um.true_divide(
+  ret = ret.dtype.type(ret / rcount)
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "[local path omitted]", line 62, in <module>
+    n0=int(np.floor((t.min()-T0)/P-off))-1; n1=int(np.ceil((t.max()-T0)/P-off))+1
+                     ~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+ValueError: zero-size array to reduction operation minimum which has no identity

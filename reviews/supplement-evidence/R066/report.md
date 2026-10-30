@@ -1,0 +1,1624 @@
+# TIC 157000246: CONFIRMED
+
+Eight primary and nine secondary events, independent SPOC and target-localized deficit establish an EB. The real secondary atphase0.3408 is recovered repeatedly despite the Gaia-median fixed-phase test missing it.
+
+Full review: COMPLETE (adjudicated). Novelty: LIMITED; successful checks found no target EB classification, but several catalogues were unavailable.
+
+Raw untrimmed QUALITY=0 SAP: 8 accepted primary fits; median depth65.721ppt; T14=6.8472h. Primary and secondary individual timing/depth errors, duration/ingress/flat coordinates, O-C and rejected windows are tabulated below. Errors are conditional on shape/local baseline with grid and red-noise inflation. Trapezoid flat time is not measured totality.
+
+```json
+{
+  "primary_shape": {
+    "T14": 0.2853,
+    "fr": 0.25,
+    "shift": 0,
+    "T14_range": [
+      0.277425,
+      0.293175
+    ],
+    "fr_range": [
+      0.21,
+      0.29
+    ],
+    "n_local_windows": 8,
+    "error_note": "profile likelihood plus half-grid resolution; conditional shape model"
+  },
+  "primary_ephemeris": {
+    "P": 17.62959674675156,
+    "P_error": 8.18200237767225e-06,
+    "Tref": 2782.6049918106373,
+    "Tref_error": 0.00039852595434988785,
+    "reference_cycle": 74,
+    "T0": 1478.014832551022,
+    "chi2": 7.675972054082575,
+    "dof": 6,
+    "n": 8,
+    "oc_rms_minutes": 1.6061591656185847
+  },
+  "primary_events": [
+    {
+      "status": "insufficient",
+      "tc_nom": 1478.0185,
+      "sec": 6,
+      "n_in": 0,
+      "cycle": 0
+    },
+    {
+      "status": "fit",
+      "sec": 7,
+      "tc_nom": 1495.6480719874476,
+      "tc": 1495.6463601874475,
+      "tc_error": 0.0016073191420829522,
+      "depth": 0.06672472481662536,
+      "depth_error": 0.000555096110508546,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 1.1749286767675637,
+      "n_in": 14,
+      "flagged_core": 0,
+      "flag_bits_core": 0,
+      "background_fake_depth": -6.329948571647765e-05,
+      "depth_with_background": 0.06675631314153636,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.004467004107064875,
+      "x_err_pix": 0.00018246367174802974,
+      "y_template_shift_pix": 0.0021145337910877726,
+      "y_err_pix": 0.0002080715524986653,
+      "cycle": 1,
+      "oc_days": 0.0019308896739858028
+    },
+    {
+      "status": "fit",
+      "sec": 7,
+      "tc_nom": 1513.2776439748952,
+      "tc": 1513.2759321748952,
+      "tc_error": 0.0016073191420829522,
+      "depth": 0.06679941600068284,
+      "depth_error": 0.0005522645869049912,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 1.2036135914364787,
+      "n_in": 14,
+      "flagged_core": 0,
+      "flag_bits_core": 0,
+      "background_fake_depth": -1.4800786538934605e-05,
+      "depth_with_background": 0.06656965840793612,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.004593533181419789,
+      "x_err_pix": 0.0001663648158574506,
+      "y_template_shift_pix": 0.0018151192155822244,
+      "y_err_pix": 0.00021656443523864055,
+      "cycle": 2,
+      "oc_days": 0.0019061303701164434
+    },
+    {
+      "status": "fit",
+      "sec": 33,
+      "tc_nom": 2218.460523472802,
+      "tc": 2218.457099872802,
+      "tc_error": 0.0008559,
+      "depth": 0.06492576724485093,
+      "depth_error": 0.000470847080184261,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 1.6411430533827496,
+      "n_in": 41,
+      "flagged_core": 0,
+      "flag_bits_core": 0,
+      "background_fake_depth": -0.0001182785694822672,
+      "depth_with_background": 0.06498146479675009,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.0028455600301807923,
+      "x_err_pix": 0.00025979951736292974,
+      "y_template_shift_pix": 0.0002608469236295503,
+      "y_err_pix": 0.00030470673144302916,
+      "cycle": 42,
+      "oc_days": -0.0007960417856338609
+    },
+    {
+      "status": "fit",
+      "sec": 34,
+      "tc_nom": 2236.09009546025,
+      "tc": 2236.0866718602497,
+      "tc_error": 0.0008559,
+      "depth": 0.06609502121482029,
+      "depth_error": 0.0005461825792593466,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 1.8960339638360404,
+      "n_in": 40,
+      "flagged_core": 1,
+      "flag_bits_core": 128,
+      "background_fake_depth": -0.00019093906264416413,
+      "depth_with_background": 0.06621271654022573,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.0027009884939710586,
+      "x_err_pix": 0.00025353182584809,
+      "y_template_shift_pix": 0.002016522636224168,
+      "y_err_pix": 0.00025641597641761356,
+      "cycle": 43,
+      "oc_days": -0.0008208010890484729
+    },
+    {
+      "status": "insufficient",
+      "tc_nom": 2253.7196674476972,
+      "sec": 34,
+      "n_in": 0,
+      "cycle": 44
+    },
+    {
+      "status": "insufficient",
+      "tc_nom": 2976.5321189330516,
+      "sec": 61,
+      "n_in": 0,
+      "cycle": 85
+    },
+    {
+      "status": "fit",
+      "sec": 87,
+      "tc_nom": 3664.085426443511,
+      "tc": 3664.085426443511,
+      "tc_error": 0.0008559,
+      "depth": 0.0644018450744616,
+      "depth_error": 0.0007032502130909352,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 2.946400214369453,
+      "n_in": 122,
+      "flagged_core": 1,
+      "flag_bits_core": 1073741824,
+      "background_fake_depth": -2.887947824732415e-06,
+      "depth_with_background": 0.0644045089690951,
+      "scan_edge": false,
+      "x_template_shift_pix": -0.0014118454730239394,
+      "x_err_pix": 0.0013387419501339679,
+      "y_template_shift_pix": -0.003677577986844814,
+      "y_err_pix": 0.001103258049248295,
+      "cycle": 124,
+      "oc_days": 0.0005972952958472888
+    },
+    {
+      "status": "fit",
+      "sec": 87,
+      "tc_nom": 3681.714998430958,
+      "tc": 3681.713286630958,
+      "tc_error": 0.0008559,
+      "depth": 0.0645868815423057,
+      "depth_error": 0.0005401792983761765,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 2.953505611766545,
+      "n_in": 122,
+      "flagged_core": 1,
+      "flag_bits_core": 1073741824,
+      "background_fake_depth": -9.468705328173246e-05,
+      "depth_with_background": 0.06464459301548901,
+      "scan_edge": false,
+      "x_template_shift_pix": 0.0005203048087822013,
+      "x_err_pix": 0.0005965806229820914,
+      "y_template_shift_pix": -0.0035643100491749907,
+      "y_err_pix": 0.00120805620942223,
+      "cycle": 125,
+      "oc_days": -0.0011392640089979977
+    },
+    {
+      "status": "fit",
+      "sec": 88,
+      "tc_nom": 3699.344570418406,
+      "tc": 3699.344570418406,
+      "tc_error": 0.0008559,
+      "depth": 0.06565714621390895,
+      "depth_error": 0.0005373818521131017,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 2.893960946355247,
+      "n_in": 123,
+      "flagged_core": 0,
+      "flag_bits_core": 0,
+      "background_fake_depth": -8.467783803982296e-05,
+      "depth_with_background": 0.06573086224970748,
+      "scan_edge": false,
+      "x_template_shift_pix": -0.0006255949026981686,
+      "x_err_pix": 0.0004330940783733961,
+      "y_template_shift_pix": -0.0013773169495022227,
+      "y_err_pix": 0.0003599635312520994,
+      "cycle": 126,
+      "oc_days": 0.0005477766876538226
+    },
+    {
+      "status": "fit",
+      "sec": 88,
+      "tc_nom": 3716.974142405854,
+      "tc": 3716.974142405854,
+      "tc_error": 0.0008559,
+      "depth": 0.06578569567523855,
+      "depth_error": 0.0004815265689888805,
+      "T14": 0.2853,
+      "T12": 0.071325,
+      "T23": 0.14265,
+      "beta": 2.226909644199078,
+      "n_in": 86,
+      "flagged_core": 37,
+      "flag_bits_core": 1073741824,
+      "background_fake_depth": -7.25213001458934e-05,
+      "depth_with_background": 0.06584540990312801,
+      "scan_edge": false,
+      "x_template_shift_pix": -0.0007407646707769286,
+      "x_err_pix": 0.0007406164081886282,
+      "y_template_shift_pix": -0.0031521348215102396,
+      "y_err_pix": 0.001621229751866038,
+      "cycle": 127,
+      "oc_days": 0.0005230173837844632
+    }
+  ],
+  "secondary": {
+    "predicted_gaia_phase": 0.33205762864083177,
+    "profile_phase": 0.3407964558649081,
+    "statistic": {
+      "n": 9,
+      "depth": 0.007906007159353126,
+      "error": 5.449208680603177e-05,
+      "snr": 145.08541740188969,
+      "scatter": 0.0001744702039933133,
+      "chi2": 10.94906983316882,
+      "dof": 8,
+      "empirical_error": 5.815673466443776e-05,
+      "n_individual_gt3sigma": 9
+    },
+    "events": [
+      {
+        "status": "fit",
+        "sec": 6,
+        "tc_nom": 1484.0229366406425,
+        "tc": 1484.0297838406425,
+        "tc_error": 0.0016073521097168654,
+        "depth": 0.00755589299779898,
+        "depth_error": 0.00015121655097920364,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.045894976856998,
+        "n_in": 14,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -7.302019758494995e-05,
+        "depth_with_background": 0.007648539164427892,
+        "scan_edge": false,
+        "x_template_shift_pix": 0.0016650302860616768,
+        "x_err_pix": 0.00012016090543361262,
+        "y_template_shift_pix": -0.00011659888268038673,
+        "y_err_pix": 0.0001795238645307249,
+        "cycle": 0,
+        "oc_days": 0.0023222758395604615
+      },
+      {
+        "status": "fit",
+        "sec": 7,
+        "tc_nom": 1501.652533387394,
+        "tc": 1501.659380587394,
+        "tc_error": 0.0016073191420829522,
+        "depth": 0.008188186347926174,
+        "depth_error": 0.00016096848378278813,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.0990709873633415,
+        "n_in": 14,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -2.416961042911229e-05,
+        "depth_with_background": 0.008217359692422713,
+        "scan_edge": false,
+        "x_template_shift_pix": -8.359446866423962e-05,
+        "x_err_pix": 0.0001562834983757494,
+        "y_template_shift_pix": 0.0008395701296778523,
+        "y_err_pix": 0.0001617372451222348,
+        "cycle": 1,
+        "oc_days": 0.0023936651170970435
+      },
+      {
+        "status": "fit",
+        "sec": 33,
+        "tc_nom": 2206.8364032574564,
+        "tc": 2206.8364032574564,
+        "tc_error": 0.0008559,
+        "depth": 0.007985534183936206,
+        "depth_error": 0.0001698567429357775,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.3799979322798217,
+        "n_in": 41,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -1.4563655358977922e-05,
+        "depth_with_background": 0.007999926327250422,
+        "scan_edge": false,
+        "x_template_shift_pix": 0.0011658629605378233,
+        "x_err_pix": 0.0002149239916729096,
+        "y_template_shift_pix": 0.00032830809338630973,
+        "y_err_pix": 0.00022827991804426828,
+        "cycle": 41,
+        "oc_days": -0.0015979637869349972
+      },
+      {
+        "status": "fit",
+        "sec": 33,
+        "tc_nom": 2224.466000004208,
+        "tc": 2224.466000004208,
+        "tc_error": 0.0008559,
+        "depth": 0.007770689980520871,
+        "depth_error": 0.0001519637487062987,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.2933549900347614,
+        "n_in": 41,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -2.013455491017777e-05,
+        "depth_with_background": 0.007793359901546006,
+        "scan_edge": false,
+        "x_template_shift_pix": 0.0010647706118000672,
+        "x_err_pix": 0.00019953901656821012,
+        "y_template_shift_pix": 0.0003234142003840477,
+        "y_err_pix": 0.0002634444000847422,
+        "cycle": 42,
+        "oc_days": -0.0015265745096257888
+      },
+      {
+        "status": "insufficient",
+        "tc_nom": 2242.0955967509594,
+        "sec": 34,
+        "n_in": 0,
+        "cycle": 43
+      },
+      {
+        "status": "fit",
+        "sec": 61,
+        "tc_nom": 2964.9090633677733,
+        "tc": 2964.9090633677733,
+        "tc_error": 0.0008559,
+        "depth": 0.00786207138503944,
+        "depth_error": 0.00015918923209285466,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.4853940466311677,
+        "n_in": 123,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": 4.545995732704637e-05,
+        "depth_with_background": 0.007811758378978884,
+        "scan_edge": false,
+        "x_template_shift_pix": -0.001915055525308088,
+        "x_err_pix": 0.00029682165445806875,
+        "y_template_shift_pix": 0.0011295835598796973,
+        "y_err_pix": 0.00019139412400214032,
+        "cycle": 84,
+        "oc_days": 0.0014717751409989432
+      },
+      {
+        "status": "fit",
+        "sec": 61,
+        "tc_nom": 2982.538660114525,
+        "tc": 2982.540371914525,
+        "tc_error": 0.0017117999999999994,
+        "depth": 0.007821455960859317,
+        "depth_error": 0.00021454808677070133,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.704426732401395,
+        "n_in": 117,
+        "flagged_core": 3,
+        "flag_bits_core": 1073741864,
+        "background_fake_depth": 1.0559621898808055e-05,
+        "depth_with_background": 0.007811093852286544,
+        "scan_edge": false,
+        "x_template_shift_pix": -0.008110835562080875,
+        "x_err_pix": 0.0007184032544039255,
+        "y_template_shift_pix": -0.006699701891746622,
+        "y_err_pix": 0.0008422813489437442,
+        "cycle": 85,
+        "oc_days": 0.003254964418374584
+      },
+      {
+        "status": "fit",
+        "sec": 87,
+        "tc_nom": 3670.092933237836,
+        "tc": 3670.089509637836,
+        "tc_error": 0.0008559,
+        "depth": 0.008030893996819272,
+        "depth_error": 0.0001639394178012477,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.527022326976572,
+        "n_in": 123,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -4.0474864434728e-06,
+        "depth_with_background": 0.008035494442365976,
+        "scan_edge": false,
+        "x_template_shift_pix": -0.0014852743704503982,
+        "x_err_pix": 0.000469951965868464,
+        "y_template_shift_pix": -0.01256403913258968,
+        "y_err_pix": 0.0018966148502722918,
+        "cycle": 124,
+        "oc_days": 0.0009037462368723936
+      },
+      {
+        "status": "fit",
+        "sec": 87,
+        "tc_nom": 3687.7225299845873,
+        "tc": 3687.717394584587,
+        "tc_error": 0.0008559,
+        "depth": 0.007955005685062523,
+        "depth_error": 0.0001410588304725602,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.2325683775344642,
+        "n_in": 123,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -4.067229743271717e-05,
+        "depth_with_background": 0.007993644190923832,
+        "scan_edge": false,
+        "x_template_shift_pix": 0.00085579187437099,
+        "x_err_pix": 0.00030336990880650943,
+        "y_template_shift_pix": 2.6309005937587185e-05,
+        "y_err_pix": 0.0003737721612701968,
+        "cycle": 125,
+        "oc_days": -0.0007366644858848304
+      },
+      {
+        "status": "fit",
+        "sec": 88,
+        "tc_nom": 3705.3521267313386,
+        "tc": 3705.3469913313384,
+        "tc_error": 0.0008559,
+        "depth": 0.008049217829041973,
+        "depth_error": 0.00018956188748995488,
+        "T14": 0.2853,
+        "T12": 0.071325,
+        "T23": 0.14265,
+        "beta": 1.6802372286092404,
+        "n_in": 123,
+        "flagged_core": 0,
+        "flag_bits_core": 0,
+        "background_fake_depth": -0.00034110025872037867,
+        "depth_with_background": 0.008312049841101747,
+        "scan_edge": false,
+        "x_template_shift_pix": -0.0009041350368286973,
+        "x_err_pix": 0.0002894507668388859,
+        "y_template_shift_pix": 0.0006270905461184553,
+        "y_err_pix": 0.00021945542169437074,
+        "cycle": 126,
+        "oc_days": -0.0006652752090303693
+      }
+    ],
+    "ephemeris": {
+      "P": 17.62952535747416,
+      "P_error": 1.2889876732759147e-05,
+      "Tref": 2718.094236587994,
+      "Tref_error": 0.0005777079570247655,
+      "reference_cycle": 70,
+      "T0": 1484.027461564803,
+      "chi2": 20.004509308897948,
+      "dof": 7,
+      "n": 9,
+      "oc_rms_minutes": 2.4851728428187436
+    },
+    "shape": {
+      "T14": 0.2853,
+      "fr": 0.25,
+      "shift": 0,
+      "T14_range": [
+        0.277425,
+        0.293175
+      ],
+      "fr_range": [
+        0.21,
+        0.29
+      ],
+      "n_local_windows": 8,
+      "error_note": "profile likelihood plus half-grid resolution; conditional shape model"
+    },
+    "profile_scan_note": "Conditional fitted secondary shape when secondary-shape.json exists, otherwise primary shape; phase optimized over +/- one T14. Weak/modulated secondary shape remains model dependent."
+  }
+}
+```
+
+## Raw-event controls and coverage
+
+Background regressions use standardized native background units, not normalized flux ratios. Event records retain flagged-core counts, background-regressed depth and centroid template shifts. Centroid shifts are diagnostics, not source attribution. The blind rolling-median census below is diagnostic and uncalibrated; off-phase triggers, known common-mode sector times and shallow systematics must not be promoted to extra eclipses. Missing/flagged windows are not nulls.
+
+```json
+{
+  "blind_census": [
+    {
+      "sec": 6,
+      "tc": 1484.0268984708055,
+      "depth": 0.007811835514769605,
+      "n": 12,
+      "phase": 0.3410211819445767,
+      "threshold": 0.003,
+      "duration": 0.2500031911995393
+    },
+    {
+      "sec": 7,
+      "tc": 1495.6465574745728,
+      "depth": 0.07001155913909607,
+      "n": 14,
+      "phase": 0.00012071613604125453,
+      "threshold": 0.003,
+      "duration": 0.29166750420279186
+    },
+    {
+      "sec": 7,
+      "tc": 1501.6552606523737,
+      "depth": 0.00847709936836305,
+      "n": 12,
+      "phase": 0.34095115395692455,
+      "threshold": 0.003,
+      "duration": 0.24999851878271784
+    },
+    {
+      "sec": 7,
+      "tc": 1513.2756754465686,
+      "depth": 0.07032996743616526,
+      "n": 14,
+      "phase": 9.355869377936088e-05,
+      "threshold": 0.003,
+      "duration": 0.2916627766211377
+    },
+    {
+      "sec": 33,
+      "tc": 2206.838260838796,
+      "depth": 0.008668005466461182,
+      "n": 35,
+      "phase": 0.34090182307020456,
+      "threshold": 0.003,
+      "duration": 0.24305988684659496
+    },
+    {
+      "sec": 33,
+      "tc": 2218.4564117732666,
+      "depth": 0.06874173879623413,
+      "n": 42,
+      "phase": 0.9999158153562888,
+      "threshold": 0.003,
+      "duration": 0.2916695841583987
+    },
+    {
+      "sec": 33,
+      "tc": 2224.4636591484573,
+      "depth": 0.008360207080841064,
+      "n": 36,
+      "phase": 0.3406636759843309,
+      "threshold": 0.003,
+      "duration": 0.25000046972650125
+    },
+    {
+      "sec": 34,
+      "tc": 2236.084839560883,
+      "depth": 0.07004493829656455,
+      "n": 42,
+      "phase": 0.9998495087270598,
+      "threshold": 0.003,
+      "duration": 0.29860895449178315
+    },
+    {
+      "sec": 61,
+      "tc": 2964.908064702142,
+      "depth": 0.008910172273821182,
+      "n": 107,
+      "phase": 0.3407398087591389,
+      "threshold": 0.003147672814001672,
+      "duration": 0.2708327893110436
+    },
+    {
+      "sec": 61,
+      "tc": 2982.5392682847,
+      "depth": 0.008890502229867647,
+      "n": 102,
+      "phase": 0.34083095297700083,
+      "threshold": 0.003147672814001672,
+      "duration": 0.2499950970759528
+    },
+    {
+      "sec": 87,
+      "tc": 3664.0855649467912,
+      "depth": 0.06960221752654672,
+      "n": 126,
+      "phase": 4.1736551708027037e-05,
+      "threshold": 0.0032329968068965944,
+      "duration": 0.29398758524666846
+    },
+    {
+      "sec": 87,
+      "tc": 3670.0900450188606,
+      "depth": 0.009421960646127547,
+      "n": 103,
+      "phase": 0.3406326280124006,
+      "threshold": 0.0032329968068965944,
+      "duration": 0.24305958289687624
+    },
+    {
+      "sec": 87,
+      "tc": 3681.713900615481,
+      "depth": 0.06907890109748638,
+      "n": 129,
+      "phase": 0.9999702046794852,
+      "threshold": 0.0032329968068965944,
+      "duration": 0.3009283077649343
+    },
+    {
+      "sec": 87,
+      "tc": 3687.717839376652,
+      "depth": 0.010180471452075457,
+      "n": 103,
+      "phase": 0.3405303914731377,
+      "threshold": 0.0032329968068965944,
+      "duration": 0.2523147497931859
+    },
+    {
+      "sec": 88,
+      "tc": 3699.3439307134418,
+      "depth": 0.06982527513804426,
+      "n": 130,
+      "phase": 0.9999947855712037,
+      "threshold": 0.0032061345637859713,
+      "duration": 0.30092349107371774
+    },
+    {
+      "sec": 88,
+      "tc": 3703.8123002080747,
+      "depth": 0.0033503941987336194,
+      "n": 2,
+      "phase": 0.2534531918422829,
+      "threshold": 0.0032061345637859713,
+      "duration": 0.0254625838388165
+    },
+    {
+      "sec": 88,
+      "tc": 3705.345280514367,
+      "depth": 0.009299494837693434,
+      "n": 105,
+      "phase": 0.34040811930394455,
+      "threshold": 0.0032061345637859713,
+      "duration": 0.26157048009963546
+    },
+    {
+      "sec": 88,
+      "tc": 3716.9689393463836,
+      "depth": 0.07009471212114171,
+      "n": 90,
+      "phase": 0.9997345349327134,
+      "threshold": 0.0032061345637859713,
+      "duration": 0.2986037533128183
+    }
+  ]
+}
+```
+
+## Own Gaia covariance and physical feasibility
+
+Source identity, solution layout and bit order were asserted before covariance sampling. No borrowed correlations. Per-event conjunction predictions and residuals, period tension, mass function, companion minimum mass, orbital scale and central duration estimates follow. TIC properties and assumed companion radii are feasibility inputs, not measured dimensions. Two-disk limb-darkened models account for partial overlap; poor fits/grid edges prevent calibrated e sin omega or component posterior claims.
+
+```json
+{
+  "orbit": {
+    "gaia_source": "shared-full-review/gaia-nss-ari.csv",
+    "gaia_bit_index": 127,
+    "w_tp_corr": 0.96360296,
+    "gaia_comparison": [
+      {
+        "kind": "A",
+        "epoch389_offset": -0.10232238896008994,
+        "epoch389_gaia_error": 0.05694810380133802,
+        "events": [
+          {
+            "sec": 7,
+            "tc": 1495.6463601874475,
+            "gaia_conjunction": 1495.6425705687898,
+            "gaia_error": 0.11196485023914247,
+            "offset_days": 0.003789618657719984,
+            "z": 0.03384301611787621
+          },
+          {
+            "sec": 7,
+            "tc": 1513.2759321748952,
+            "gaia_conjunction": 1513.2705684981984,
+            "gaia_error": 0.11318190963171113,
+            "offset_days": 0.005363676696788389,
+            "z": 0.04738509836606357
+          },
+          {
+            "sec": 33,
+            "tc": 2218.457099872802,
+            "gaia_conjunction": 2218.3876689057142,
+            "gaia_error": 0.16435510727200847,
+            "offset_days": 0.06943096708755547,
+            "z": 0.42243911246183424
+          },
+          {
+            "sec": 34,
+            "tc": 2236.0866718602497,
+            "gaia_conjunction": 2236.0156286831498,
+            "gaia_error": 0.16567651353922153,
+            "offset_days": 0.07104317709990937,
+            "z": 0.42880084559580095
+          },
+          {
+            "sec": 87,
+            "tc": 3664.085426443511,
+            "gaia_conjunction": 3663.877811325203,
+            "gaia_error": 0.27550404697271824,
+            "offset_days": 0.2076151183082402,
+            "z": 0.7535791895220354
+          },
+          {
+            "sec": 87,
+            "tc": 3681.713286630958,
+            "gaia_conjunction": 3681.505829641729,
+            "gaia_error": 0.2768804137115647,
+            "offset_days": 0.20745698922883093,
+            "z": 0.749262092102267
+          },
+          {
+            "sec": 88,
+            "tc": 3699.344570418406,
+            "gaia_conjunction": 3699.133703001762,
+            "gaia_error": 0.2782570762496138,
+            "offset_days": 0.21086741664385045,
+            "z": 0.7578115243163945
+          },
+          {
+            "sec": 88,
+            "tc": 3716.974142405854,
+            "gaia_conjunction": 3716.7616195355417,
+            "gaia_error": 0.27963403021812755,
+            "offset_days": 0.2125228703121138,
+            "z": 0.760000042385275
+          }
+        ]
+      },
+      {
+        "kind": "B",
+        "epoch389_offset": -5.956577789641187,
+        "epoch389_gaia_error": 0.07528079497783706,
+        "events": [
+          {
+            "sec": 7,
+            "tc": 1495.6463601874475,
+            "gaia_conjunction": 1501.4967483182259,
+            "gaia_error": 0.08700072423457272,
+            "offset_days": -5.850388130778356,
+            "z": -67.23380774079449
+          },
+          {
+            "sec": 7,
+            "tc": 1513.2759321748952,
+            "gaia_conjunction": 1519.1246956068694,
+            "gaia_error": 0.08789666511538771,
+            "offset_days": -5.848763431974248,
+            "z": -66.53023492548786
+          },
+          {
+            "sec": 33,
+            "tc": 2218.457099872802,
+            "gaia_conjunction": 2224.242499596658,
+            "gaia_error": 0.13128408146951254,
+            "offset_days": -5.785399723856244,
+            "z": -44.06685649880308
+          },
+          {
+            "sec": 34,
+            "tc": 2236.0866718602497,
+            "gaia_conjunction": 2241.870428468239,
+            "gaia_error": 0.13249262863145037,
+            "offset_days": -5.7837566079892895,
+            "z": -43.65251100736514
+          },
+          {
+            "sec": 87,
+            "tc": 3664.085426443511,
+            "gaia_conjunction": 3669.7320910327244,
+            "gaia_error": 0.23770824454468337,
+            "offset_days": -5.646664589213287,
+            "z": -23.754447377887548
+          },
+          {
+            "sec": 87,
+            "tc": 3681.713286630958,
+            "gaia_conjunction": 3687.35989991193,
+            "gaia_error": 0.2390568423315173,
+            "offset_days": -5.646613280971906,
+            "z": -23.620227871965795
+          },
+          {
+            "sec": 88,
+            "tc": 3699.344570418406,
+            "gaia_conjunction": 3704.987834777086,
+            "gaia_error": 0.24040609724728307,
+            "offset_days": -5.643264358679971,
+            "z": -23.473733232482875
+          },
+          {
+            "sec": 88,
+            "tc": 3716.974142405854,
+            "gaia_conjunction": 3722.6158164122526,
+            "gaia_error": 0.24175599828955346,
+            "offset_days": -5.641674006398716,
+            "z": -23.33608551649161
+          }
+        ]
+      }
+    ],
+    "primary_conjunction": "A",
+    "predicted_secondary_phase": 0.33205762864083177,
+    "secondary": {
+      "n": 8,
+      "depth": 0.0004107009878649379,
+      "error": 0.00043790303710567147,
+      "snr": 0.9378811130872121,
+      "scatter": 0.0003205138660604883,
+      "chi2": 0.4865497720679722,
+      "dof": 7,
+      "phase": 0.33205762864083177,
+      "control_scatter": 0.0014282963048924526,
+      "upper_3sigma": 0.004695589902542296
+    },
+    "secondary_windows": {
+      "gaia_other_windows": [
+        {
+          "status": "fit",
+          "sec": 6,
+          "tc_nom": 1483.8688746406424,
+          "tc": 1483.8688746406424,
+          "tc_error": 0.0016680281141459683,
+          "depth": 0.00020638270614835373,
+          "depth_error": 0.0012263376067164022,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 1.3935811233106974,
+          "n_in": 13,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": -1.925419163367145e-06,
+          "depth_with_background": 0.00020483529783719753,
+          "scan_edge": false,
+          "x_template_shift_pix": 0.0002584463640480346,
+          "x_err_pix": 0.00030203948275424683,
+          "y_template_shift_pix": -0.0005662577812099325,
+          "y_err_pix": 0.00022403882176523949,
+          "cycle": 0
+        },
+        {
+          "status": "fit",
+          "sec": 7,
+          "tc_nom": 1501.498471387394,
+          "tc": 1501.498471387394,
+          "tc_error": 0.0016073191420829522,
+          "depth": 3.995853028981594e-05,
+          "depth_error": 0.0013676876903622977,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 1.3951180647160983,
+          "n_in": 14,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": 0.00012722139108868895,
+          "depth_with_background": -0.0001689273561365913,
+          "scan_edge": false,
+          "x_template_shift_pix": -0.00028305519930464315,
+          "x_err_pix": 0.00023168218641022846,
+          "y_template_shift_pix": 9.690462874539588e-05,
+          "y_err_pix": 0.00022908008357505315,
+          "cycle": 1
+        },
+        {
+          "status": "fit",
+          "sec": 33,
+          "tc_nom": 2206.6823412574563,
+          "tc": 2206.6823412574563,
+          "tc_error": 0.0008559,
+          "depth": 0.0005780049116078822,
+          "depth_error": 0.0011566444111228867,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 2.1834366481456944,
+          "n_in": 41,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": -6.375425481528329e-07,
+          "depth_with_background": 0.0005773272615069923,
+          "scan_edge": false,
+          "x_template_shift_pix": 0.0006355487889845948,
+          "x_err_pix": 0.00034739737957947234,
+          "y_template_shift_pix": 2.669683947074526e-05,
+          "y_err_pix": 0.0003865189645164404,
+          "cycle": 41
+        },
+        {
+          "status": "fit",
+          "sec": 33,
+          "tc_nom": 2224.311938004208,
+          "tc": 2224.311938004208,
+          "tc_error": 0.0008559,
+          "depth": 0.0005443648249059627,
+          "depth_error": 0.001125314842387178,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 2.1781510630418386,
+          "n_in": 41,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": -3.812961260805748e-05,
+          "depth_with_background": 0.000559377998203356,
+          "scan_edge": false,
+          "x_template_shift_pix": 0.00021272959660295705,
+          "x_err_pix": 0.0003688440681996726,
+          "y_template_shift_pix": -0.00012151086543115204,
+          "y_err_pix": 0.0004437756551148961,
+          "cycle": 42
+        },
+        {
+          "status": "insufficient",
+          "tc_nom": 2241.9415347509594,
+          "sec": 34,
+          "n_in": 0,
+          "cycle": 43
+        },
+        {
+          "status": "fit",
+          "sec": 61,
+          "tc_nom": 2964.7550013677733,
+          "tc": 2964.7550013677733,
+          "tc_error": 0.0008559,
+          "depth": 0.0005317105387839214,
+          "depth_error": 0.001263223518211496,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 3.98792442215154,
+          "n_in": 124,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": 0.0004217883561308731,
+          "depth_with_background": 3.952330526563988e-05,
+          "scan_edge": false,
+          "x_template_shift_pix": -0.0015287795174986866,
+          "x_err_pix": 0.0007861366548814038,
+          "y_template_shift_pix": 0.0004395543867891489,
+          "y_err_pix": 0.0005199998284411414,
+          "cycle": 84
+        },
+        {
+          "status": "insufficient",
+          "tc_nom": 2982.384598114525,
+          "sec": 61,
+          "n_in": 51,
+          "cycle": 85
+        },
+        {
+          "status": "fit",
+          "sec": 87,
+          "tc_nom": 3669.938871237836,
+          "tc": 3669.938871237836,
+          "tc_error": 0.0008559,
+          "depth": -0.00023100257707182518,
+          "depth_error": 0.0013448305342702537,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 3.897461575357449,
+          "n_in": 123,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": -2.9463506254960447e-06,
+          "depth_with_background": -0.00022219605431741477,
+          "scan_edge": false,
+          "x_template_shift_pix": -0.0033697499290912575,
+          "x_err_pix": 0.0011067814321064314,
+          "y_template_shift_pix": -0.020457482242384594,
+          "y_err_pix": 0.003942984267040072,
+          "cycle": 124
+        },
+        {
+          "status": "fit",
+          "sec": 87,
+          "tc_nom": 3687.568467984587,
+          "tc": 3687.568467984587,
+          "tc_error": 0.0008559,
+          "depth": 0.0006811795288972126,
+          "depth_error": 0.0012225622773686343,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 3.8412289577723953,
+          "n_in": 123,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": -7.868538677832307e-06,
+          "depth_with_background": 0.0006703241853924187,
+          "scan_edge": false,
+          "x_template_shift_pix": 0.000493622448742121,
+          "x_err_pix": 0.0009292578058768802,
+          "y_template_shift_pix": 0.0001187215757096567,
+          "y_err_pix": 0.0010622086599258917,
+          "cycle": 125
+        },
+        {
+          "status": "fit",
+          "sec": 88,
+          "tc_nom": 3705.1980647313385,
+          "tc": 3705.1980647313385,
+          "tc_error": 0.0008559,
+          "depth": 0.0007307196213304954,
+          "depth_error": 0.0012603432144867902,
+          "T14": 0.2853,
+          "T12": 0.071325,
+          "T23": 0.14265,
+          "beta": 3.951179210369318,
+          "n_in": 123,
+          "flagged_core": 0,
+          "flag_bits_core": 0,
+          "background_fake_depth": 0.0006337055415288897,
+          "depth_with_background": 5.382788903657223e-06,
+          "scan_edge": false,
+          "x_template_shift_pix": -0.0002381720470494221,
+          "x_err_pix": 0.0007213213877619344,
+          "y_template_shift_pix": 0.0004094624860412505,
+          "y_err_pix": 0.0005217137624636434,
+          "cycle": 126
+        }
+      ]
+    },
+    "controls": [
+      {
+        "n": 9,
+        "depth": -1.4980768269639796e-05,
+        "error": 3.748415705584202e-05,
+        "snr": -0.39965599992877515,
+        "scatter": 7.34802354314581e-05,
+        "chi2": 3.8719300337862093,
+        "dof": 8,
+        "phase": 0.1
+      },
+      {
+        "n": 9,
+        "depth": 7.984243700163541e-05,
+        "error": 3.674711203230143e-05,
+        "snr": 2.172754063814657,
+        "scatter": 0.00013978153645213945,
+        "chi2": 14.038181177601414,
+        "dof": 8,
+        "phase": 0.15000000000000002
+      },
+      {
+        "n": 9,
+        "depth": -1.5802724880594554e-06,
+        "error": 3.7015268711908475e-05,
+        "snr": -0.04269244944184489,
+        "scatter": 0.0001396182647559126,
+        "chi2": 13.85098720016903,
+        "dof": 8,
+        "phase": 0.20000000000000004
+      },
+      {
+        "n": 9,
+        "depth": 5.563645563299166e-05,
+        "error": 4.0119297562440704e-05,
+        "snr": 1.386775417650332,
+        "scatter": 0.0002724112344620988,
+        "chi2": 22.100355260982283,
+        "dof": 8,
+        "phase": 0.25000000000000006
+      },
+      {
+        "n": 9,
+        "depth": 0.0007176437900464158,
+        "error": 0.00025987103889102696,
+        "snr": 2.76153815796053,
+        "scatter": 0.00024396892737515655,
+        "chi2": 0.8149057866104997,
+        "dof": 8,
+        "phase": 0.30000000000000004
+      },
+      {
+        "n": 9,
+        "depth": -3.895637432570688e-05,
+        "error": 0.00041748593546102737,
+        "snr": -0.09331182446346983,
+        "scatter": 0.0002826619291282165,
+        "chi2": 0.4111965197252246,
+        "dof": 8,
+        "phase": 0.3500000000000001
+      },
+      {
+        "n": 9,
+        "depth": -4.245198515236952e-06,
+        "error": 3.7229403897868105e-05,
+        "snr": -0.11402810871973289,
+        "scatter": 0.0001520624087775637,
+        "chi2": 16.766568012178467,
+        "dof": 8,
+        "phase": 0.40000000000000013
+      },
+      {
+        "n": 8,
+        "depth": -4.609891890360724e-06,
+        "error": 3.8705945554892986e-05,
+        "snr": -0.1191003558826111,
+        "scatter": 0.00011079729434775922,
+        "chi2": 8.18995181633761,
+        "dof": 7,
+        "phase": 0.45000000000000007
+      },
+      {
+        "n": 10,
+        "depth": -2.0734335422248955e-06,
+        "error": 3.5027153737494254e-05,
+        "snr": -0.0591950335949056,
+        "scatter": 0.00011475965006259367,
+        "chi2": 9.136886237117361,
+        "dof": 9,
+        "phase": 0.5000000000000001
+      },
+      {
+        "n": 10,
+        "depth": 1.7679538876231636e-05,
+        "error": 3.501673300064773e-05,
+        "snr": 0.504888302284071,
+        "scatter": 0.00012396878020204172,
+        "chi2": 12.265938709427772,
+        "dof": 9,
+        "phase": 0.5500000000000002
+      },
+      {
+        "n": 9,
+        "depth": 8.367995762813724e-05,
+        "error": 3.6952364819943286e-05,
+        "snr": 2.264535924449819,
+        "scatter": 0.00011655221354149757,
+        "chi2": 11.097635413060168,
+        "dof": 8,
+        "phase": 0.6000000000000002
+      },
+      {
+        "n": 8,
+        "depth": -2.1346535231748376e-05,
+        "error": 4.082326257850549e-05,
+        "snr": -0.5229012549082219,
+        "scatter": 0.000127268740861476,
+        "chi2": 9.313052593348276,
+        "dof": 7,
+        "phase": 0.6500000000000001
+      },
+      {
+        "n": 8,
+        "depth": 3.77774524082237e-06,
+        "error": 4.1128585758046997e-05,
+        "snr": 0.09185205791043366,
+        "scatter": 0.00012375511058994752,
+        "chi2": 8.267185595726254,
+        "dof": 7,
+        "phase": 0.7000000000000002
+      },
+      {
+        "n": 7,
+        "depth": -3.28690455276879e-05,
+        "error": 4.053078392628583e-05,
+        "snr": -0.8109649590658673,
+        "scatter": 0.00012514062187439227,
+        "chi2": 9.391201829373795,
+        "dof": 6,
+        "phase": 0.7500000000000002
+      },
+      {
+        "n": 8,
+        "depth": 2.0767710632563516e-05,
+        "error": 4.054610381108647e-05,
+        "snr": 0.5121999077722734,
+        "scatter": 0.0001218738754772462,
+        "chi2": 10.038840897118707,
+        "dof": 7,
+        "phase": 0.8000000000000002
+      },
+      {
+        "n": 9,
+        "depth": 1.235100391968215e-05,
+        "error": 3.903628525752979e-05,
+        "snr": 0.3163980342442994,
+        "scatter": 0.00015226489685510656,
+        "chi2": 13.772174927234802,
+        "dof": 8,
+        "phase": 0.8500000000000002
+      },
+      {
+        "n": 10,
+        "depth": 5.144524792696479e-05,
+        "error": 3.671240517229502e-05,
+        "snr": 1.401304209994607,
+        "scatter": 0.00013031153751494952,
+        "chi2": 12.757040855115774,
+        "dof": 9,
+        "phase": 0.9000000000000002
+      },
+      {
+        "n": 6,
+        "depth": 0.005559166863540009,
+        "error": 0.0020503072440588694,
+        "snr": 2.7113823450844676,
+        "scatter": 0.0004315167267888415,
+        "chi2": 0.04049846401010547,
+        "dof": 5,
+        "phase": 0.9500000000000003
+      },
+      {
+        "n": 8,
+        "depth": 0.0004107009878649379,
+        "error": 0.00043790303710567147,
+        "snr": 0.9378811130872121,
+        "scatter": 0.0003205138660604883,
+        "chi2": 0.4865497720679722,
+        "dof": 7,
+        "phase": 0.33205762864083177,
+        "control_scatter": 0.0014282963048924526,
+        "upper_3sigma": 0.004695589902542296
+      }
+    ],
+    "physics": [
+      {
+        "m1": 1.07,
+        "m2_min": 0.475326290742766,
+        "f_mass": 0.04497126684847786,
+        "a_rsun": 32.95428449580059,
+        "r1_rsun": 1.94354,
+        "r2_approx_rsun": 0.5515608966677581,
+        "central_T14_hours": {
+          "A": 9.549124896127164,
+          "B": 10.11094392273546
+        },
+        "observed_T14_hours": 6.8472
+      }
+    ],
+    "period_delta_sigma": 1.1989298743720345
+  },
+  "covariance_geometry": {
+    "bit_index": 127,
+    "gaia_primary": "A",
+    "gaia_relative_phase_nominal": 0.33205762864083177,
+    "gaia_relative_phase_quantiles_16_50_84": [
+      0.3249437479490199,
+      0.33212643936112757,
+      0.339322926130405
+    ],
+    "gaia_relative_phase_sigma": 0.007246976551713908,
+    "gaia_e_cos_omega_quantiles": [
+      -0.27849484627635074,
+      -0.2667873731200684,
+      -0.255083182374841
+    ],
+    "gaia_e_sin_omega_quantiles": [
+      0.021944359398055963,
+      0.0285400652342715,
+      0.03509842703868115
+    ],
+    "photometric_phase": 0.3407964558649081,
+    "photometric_e_cos_omega_first_order": -0.2500763423401316,
+    "photometric_note": "First-order small-e approximation; fitted profile phase is optimized and conditional on eclipse shape, with no calibrated uncertainty. Omitted without three individual secondary detections.",
+    "geometry_status": "conditional shape feasibility",
+    "geometry_e_sin_omega_conditional_range": [
+      0.09999999999999992,
+      0.09999999999999992
+    ],
+    "geometry_note": "Coarse conditional feasibility range, fixed TIC properties and simplified limb-darkened shape; not a calibrated posterior. Check chi2 and grid boundaries in geometry.json."
+  },
+  "conditional_two_disk_geometry": {
+    "status": "conditional shape feasibility",
+    "best": {
+      "chi2": 488.48472181407635,
+      "dof": 121,
+      "k": 0.27499999999999997,
+      "b_A": 0.6200000000000001,
+      "e_sin_omega": 0.09999999999999992,
+      "primary_scale": 0.8784127261752975,
+      "secondary_scale": 0.008676094350368278
+    },
+    "profile_interval_approx_95": {
+      "k": [
+        0.27499999999999997,
+        0.27499999999999997
+      ],
+      "b_A": [
+        0.6200000000000001,
+        0.6200000000000001
+      ],
+      "e_sin_omega": [
+        0.09999999999999992,
+        0.09999999999999992
+      ]
+    },
+    "error_inflation": 4.037063816645259,
+    "assumptions": "Circular projected chord with eccentric speed factors; fixed TIC R1/M1, u1=.4 u2=.6, free depth scales per kind, event-scatter bin errors and 0.15ppt floor. Contact shape and dilution degeneracies persist. No claim of precise e sin omega.",
+    "primary_profile_n": 64,
+    "secondary_profile_n": 64
+  }
+}
+```
+
+## Independent reduction and source attribution
+
+Exact target and sector FITS identities were validated. This is a different pipeline using the same TESS pixels, not another observatory. Linear/quadratic baseline and background-sensitive depths are retained; aperture/PDCSAP depth differences reflect dilution and processing. TARS has no quality column.
+
+```json
+{
+  "sector": 88,
+  "provenance": "SPOC",
+  "fits_identity_validated": true,
+  "quality_column_present": true,
+  "events": [
+    {
+      "tc": 3699.344570418406,
+      "qlp": {
+        "1": {
+          "depth": 0.06602472368722585,
+          "error": 0.0004947726054110267,
+          "red_noise_beta": 2.939863731738532,
+          "n_core": 123,
+          "baseline_degree": 1,
+          "background_regressed_depth": 0.06610225814635534,
+          "background_template_native_sigma": 0.6447700247351487
+        },
+        "2": {
+          "depth": 0.0656726703742319,
+          "error": 0.0005441862975585034,
+          "red_noise_beta": 2.9299121502197014,
+          "n_core": 123,
+          "baseline_degree": 2,
+          "background_regressed_depth": 0.06574640383965737,
+          "background_template_native_sigma": 0.5483130456567044
+        }
+      },
+      "independent": {
+        "SAP_FLUX": {
+          "1": {
+            "depth": 0.06246945750130707,
+            "error": 0.0004733126664691815,
+            "red_noise_beta": 3.4897235941210636,
+            "n_core": 206,
+            "baseline_degree": 1,
+            "background_regressed_depth": 0.06274036271293895,
+            "background_template_native_sigma": 1.0340873001244768
+          },
+          "2": {
+            "depth": 0.06211345893147122,
+            "error": 0.0005190866155004582,
+            "red_noise_beta": 3.466580391999185,
+            "n_core": 206,
+            "baseline_degree": 2,
+            "background_regressed_depth": 0.06238328465928897,
+            "background_template_native_sigma": 1.0222134153430602
+          }
+        },
+        "PDCSAP_FLUX": {
+          "1": {
+            "depth": 0.06347373652999652,
+            "error": 0.00048711466813372914,
+            "red_noise_beta": 3.5418535938885913,
+            "n_core": 206,
+            "baseline_degree": 1,
+            "background_regressed_depth": 0.06374710687575565,
+            "background_template_native_sigma": 1.0340873001244768
+          },
+          "2": {
+            "depth": 0.06318329861548223,
+            "error": 0.0005389208292826162,
+            "red_noise_beta": 3.534812164697177,
+            "n_core": 206,
+            "baseline_degree": 2,
+            "background_regressed_depth": 0.06345519051011243,
+            "background_template_native_sigma": 1.0222134153430602
+          }
+        }
+      }
+    },
+    {
+      "tc": 3716.974142405854,
+      "qlp": {
+        "1": {
+          "depth": 0.06614190363987416,
+          "error": 0.00045315123344046856,
+          "red_noise_beta": 2.2977381905005814,
+          "n_core": 86,
+          "baseline_degree": 1,
+          "background_regressed_depth": 0.06612850153134903,
+          "background_template_native_sigma": -0.04049738422192566
+        },
+        "2": {
+          "depth": 0.06587570477286955,
+          "error": 0.0004899008580858381,
+          "red_noise_beta": 2.2625424610498555,
+          "n_core": 86,
+          "baseline_degree": 2,
+          "background_regressed_depth": 0.06593550070277202,
+          "background_template_native_sigma": 0.22873211421544642
+        }
+      },
+      "independent": {
+        "SAP_FLUX": {
+          "1": {
+            "depth": 0.06295594314371955,
+            "error": 0.00046565137274294884,
+            "red_noise_beta": 2.8133077024144844,
+            "n_core": 177,
+            "baseline_degree": 1,
+            "background_regressed_depth": 0.06291405173274218,
+            "background_template_native_sigma": -0.11095636092199324
+          },
+          "2": {
+            "depth": 0.06266777213739456,
+            "error": 0.0005047030688333707,
+            "red_noise_beta": 2.7704038520236756,
+            "n_core": 177,
+            "baseline_degree": 2,
+            "background_regressed_depth": 0.06270956665159283,
+            "background_template_native_sigma": 0.22813770390858626
+          }
+        },
+        "PDCSAP_FLUX": {
+          "1": {
+            "depth": 0.0626359087182327,
+            "error": 0.0005190105174042961,
+            "red_noise_beta": 3.451581618093015,
+            "n_core": 177,
+            "baseline_degree": 1,
+            "background_regressed_depth": 0.06264777564269482,
+            "background_template_native_sigma": -0.11095636092199324
+          },
+          "2": {
+            "depth": 0.06273652282610147,
+            "error": 0.0005722044324590341,
+            "red_noise_beta": 3.4399444482196238,
+            "n_core": 177,
+            "baseline_degree": 2,
+            "background_regressed_depth": 0.06272993862257673,
+            "background_template_native_sigma": 0.22813770390858626
+          }
+        }
+      }
+    }
+  ],
+  "note": "Same TESS pixels; independent reduction only. Fixed QLP eclipse template and timing; uncertainties conditional and beta-inflated. TARS has no quality flags; its FLUX background provenance unspecified."
+}
+```
+
+Gaia G<15 neighbors within60arcsec and required intrinsic fractional dips (G approximate passband; not calibrated TESS dilution):
+
+```json
+[
+  {
+    "source_id": "5564099590459295744",
+    "ra": "104.37601604838547",
+    "dec": "-39.562843739485814",
+    "phot_g_mean_mag": "14.366881",
+    "bp_rp": "0.8590479",
+    "sep": "41.78957198455989",
+    "required_fraction_G_approx": 2.652230986085243,
+    "capable": false
+  },
+  {
+    "source_id": "5564099590459295616",
+    "ra": "104.37530631567265",
+    "dec": "-39.55917340625633",
+    "phot_g_mean_mag": "13.891327",
+    "bp_rp": "0.7629719",
+    "sep": "47.89826746462356",
+    "required_fraction_G_approx": 1.7115506061108694,
+    "capable": false
+  }
+]
+```
+
+Original batch difference-image receipts; old/new schema duplicates are the same events:
+
+```json
+[
+  {
+    "tic": "157000246",
+    "sector": 7,
+    "n_events": 2,
+    "deficit_minus_light_arcsec": 1.47,
+    "peak_on_target": true,
+    "depth_ap3": 0.06381,
+    "psf_frac_resid": 0.093,
+    "n_neighbours_60": 17,
+    "n_possible": 0,
+    "brightest_nb": {
+      "G": 13.891327,
+      "sep": 47.9
+    }
+  },
+  {
+    "tic": "157000246",
+    "sector": 7,
+    "n_events": 2,
+    "deficit_minus_target_arcsec": 2.06,
+    "deficit_minus_light_arcsec": 1.47,
+    "peak_on_target": true,
+    "depth_ap3": 0.06381,
+    "psf_frac_resid": 0.093,
+    "n_neighbours_60": 17,
+    "n_possible": 0,
+    "brightest_nb": {
+      "G": 13.891327,
+      "sep": 47.9
+    }
+  }
+]
+```
+
+## Archives and novelty
+
+Successful current shared60arcsec VSX, Gaia vari_summary/vari_eclipsing_binary, SIMBAD exact Gaia-ID and ExoFOP TOI/CTOI responses were rechecked. Exact paths/hashes below and shared receipts preserve timestamps. No Gaia EB/vari_summary entries and no TOI/CTOI entries for these targets. SIMBAD lists known spectroscopic binaries, not prior eclipse classifications.
+
+```json
+{
+  "simbad": [
+    {
+      "id": "Gaia DR3 5564099620520383360",
+      "main_id": "TYC 7632-2311-1",
+      "otype": "SB*",
+      "ra": "104.39080983295",
+      "dec": "-39.56517217139"
+    }
+  ],
+  "gaia_vari_summary": [],
+  "gaia_eb": [],
+  "exofop": {
+    "toi_count": 0,
+    "ctoi_count": 0
+  },
+  "shared_receipts": [
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\shared-full-review\\vsx\\157000246.tsv",
+      "sha256": "227b8e76cc9b36fe080db52a4aa9d954dbb011a02bb11d823565fcee4216ce3a"
+    },
+    {
+      "path": "C:\\Home\\Astra\\made\\binary-handoff-2026-10-30\\shared-full-review\\exofop\\157000246.json",
+      "sha256": "507af03bc9c1c9308575f9d1d42e37d19633c8729c6b106d5c08829e4cd9876a"
+    }
+  ]
+}
+```
+
+One bounded Harvard multi-catalogue mirror probe timed out after batchG reported all IDIA9 requests timing out. ASAS-SN, SB9, WDS, Prsa, IJspeert and Kostov tables therefore remain unchecked in this fresh pass; failed service is not a negative match. VSX raw table sections were inspected; no target EB rows found. General web searches on the ten exact SIMBAD names plus eclipsing/binary found only unrelated results, not exact-target prior publications. This does not establish novelty or a complete bibliography.
+
+## Predictions and deciding next check
+
+AtBTJD4344.32880: next primary~4351.63910; other conjunction~4357.64009. Photometric extrapolations are scheduling estimates, conditional on stationary orbit. For null secondary use Gaia phase uncertainty, not the single date.
+
+Joint diluted light-curve/RV modelling to refine radii, flux ratio and small-e geometry.
+
+Final adjudication: **CONFIRMED**. Eight primary and nine secondary events, independent SPOC and target-localized deficit establish an EB. The real secondary atphase0.3408 is recovered repeatedly despite the Gaia-median fixed-phase test missing it.
+
+Reproducibility: scripts and manifests retained in this batch. Original source audit completed before work; no source/paper edits or commits.
+
+Lead control audit: {"median_primary_ppt": 65.72142094457375, "offphase_census_triggers": 1, "max_offphase_census_ppt": 3.3503941987336194, "minimum_bg_regressed_depth_ratio": 0.9965604850086657}. Census trigger centers/durations can merge broad eclipse wings, especially253923749; they are not a calibrated blind-search catalog.
+VSX neighbor Gaia DR3 5564099590459295616 at48.12arcsec is DSCT|GDOR|SXPHE; it is not target prior EB classification.

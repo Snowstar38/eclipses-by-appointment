@@ -1,0 +1,8 @@
+B/vsx/vsx        around 70665829: 0 rows (max 3); nearest _r(arcsec): []
+B/vsx/vsx        around 331293467: 0 rows (max 3); nearest _r(arcsec): []
+J/ApJS/258/16    around 70665829: 0 rows (max 3); nearest _r(arcsec): []
+J/ApJS/258/16    around 331293467: 3 rows (max 3); nearest _r(arcsec): ['1621.381', '3423.104', '7827.176']
+J/A+A/652/A120   around 70665829: 3 rows (max 3); nearest _r(arcsec): ['2860.506', '3774.440', '4840.117']
+J/A+A/652/A120   around 331293467: 0 rows (max 3); nearest _r(arcsec): []
+I/358/veb        around 70665829: 0 rows (max 3); nearest _r(arcsec): []
+NOTE (resume agent, 2026-10-30): run stopped by hand after the mirror began timing out (curl exit 124 on the Algol VSX 60" cone that worked in s2). Lines above that returned rows show the mirror serves J/ApJS/258/16 (nearest Prsa EB 1621" from 331293467) and J/A+A/652/A120 (nearest 2860" from 70665829). Zero-row lines are not informative (3-deg cones may exceed the mirror's limits, or the mirror was failing). I/358/veb, I/357/varisum and B/sb9/main were not sanity-checked.

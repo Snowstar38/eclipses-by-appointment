@@ -1,0 +1,78 @@
+# TIC 148618714 — CONFIRMED target eclipsing binary
+
+Full-review completion: COMPLETE. Physical verdict and novelty are separate. Twenty-six primary and29 secondary events, independent reduction, prior on-target difference imaging and a sole capable neighbour51arcsec away establish the target EB. Kostov table2 is an existing unvetted flag; the Gaia eccentric orbit and detailed component geometry need revision.
+
+## Raw photometry and timing
+
+All available QLP products in qlp-manifest.json were examined from SAP_FLUX with QUALITY==0, no gap trimming; flagged core counts remain in every event row. Exposure-integrated trapezoids with local polynomial baselines, red-noise inflation and grid-error floors were fitted. 26 accepted primary events in 5 sectors; median depth 40.759ppt (range37.608–42.679). T14=5.2436h, profile range5.1132–5.3739h; ingress T12=1.8353h, nominal trapezoid T23=1.5731h. Trapezoid flat duration is not physical totality for grazing events.
+
+Primary linear ephemeris: P=3.4810873424±0.0000015148d, Tref=2754.3623775±0.0001896BTJD (reference cycle261); T0=1845.7985811. Chi2/dof=28.92/24; O-C RMS=1.411min. Errors are conditional on this baseline/shape and include fit red-noise/chi2 scaling, not all model systematics. The original resolved CSV and P/P2 were checked; all use the resolved full orbital period. Individual event values and exclusions are retained in fit-results.json.
+
+The blind rolling-median dip census found77 threshold groups; there are zero groups deeper than half the median primary depth outside ±1.5T14 around either fitted eclipse phase. It is a detection census, not an astrophysical classification of small fluctuations. No isolated sector-wide systematic is used as deciding evidence. Maximum fitted background-correlated fake depth is 0.8216ppt; including native-unit background regression changes an individual depth by at most1.76%. Background units were not divided into normalized flux. Maximum flagged core count among accepted windows=6; rejected/partial windows are not treated as nulls.
+
+|Sector|Mid BTJD|Timing error d|Depth ppt|Error ppt|O-C min|Core flagged|
+|---|---:|---:|---:|---:|---:|---:|
+|20|1845.7991436|0.0019018|42.365|0.420|0.810|0|
+|20|1849.2802551|0.0019018|42.679|0.451|0.845|0|
+|20|1852.7600556|0.0019018|42.618|0.745|-1.008|0|
+|20|1859.7222786|0.0021263|40.955|0.453|-0.939|2|
+|20|1863.2047010|0.0018133|40.742|0.359|0.984|0|
+|20|1866.6871233|0.0018133|41.164|0.373|2.906|0|
+|47|2583.7882215|0.0006554|42.064|0.930|-1.262|1|
+|47|2587.2693330|0.0006554|41.321|0.705|-1.227|4|
+|47|2590.7517553|0.0006554|40.952|0.602|0.695|2|
+|47|2597.7139783|0.0006554|40.704|0.383|0.765|3|
+|47|2601.1950898|0.0006554|41.830|0.408|0.800|3|
+|47|2604.6762012|0.0006554|40.657|0.284|0.834|3|
+|60|2942.3400815|0.0006554|40.553|0.898|-1.458|2|
+|60|2945.8225039|0.0006554|40.776|0.570|0.464|0|
+|60|2949.3023044|0.0006554|40.175|0.324|-1.389|0|
+|60|2959.7443280|0.0013109|40.455|1.058|-3.172|0|
+|73|3290.4499180|0.0006554|39.570|0.296|0.129|0|
+|73|3293.9310294|0.0006554|40.329|0.580|0.164|0|
+|73|3297.4121409|0.0006554|39.623|0.519|0.199|0|
+|73|3307.8554753|0.0006554|37.608|0.624|0.303|0|
+|73|3311.3365868|0.0006554|38.056|0.815|0.338|0|
+|74|3318.3001206|0.0013109|40.529|1.288|2.295|6|
+|74|3321.7812321|0.0013109|40.943|1.086|2.330|0|
+|74|3325.2623436|0.0006554|41.431|0.726|2.364|0|
+|74|3335.7030562|0.0006554|40.918|0.655|-1.307|0|
+|74|3339.1841677|0.0006554|39.987|0.280|-1.272|0|
+
+## Gaia orbit and secondary gate
+
+Exact source1087362780203935872, solutionSB1, bit_index127, own correlation vector used. SB1 covariance order P,gamma,K1,e,omega,Tp (15 lower-triangle correlations); SB2 order P,gamma,K1,K2,e,omega,Tp (21). Gaia P=3.4810325585±0.0000584772d; photometric difference=0.937sigma. Primary association is conjunctionA; extrapolated Gaia-epoch offset=0.062686d with Gaia-only sigma0.022793d. Individual epochs, covariance-propagated conjunction errors and timing residuals are in orbit-gates.json; the Gaia-only sigma does not include extrapolated photometric uncertainty.
+
+Gaia e=0.045542±0.014508, omega=350.5302deg. Gaia relative other-conjunction phase=0.5285888; measured optimized phase=0.4997888. Status: supported repeat secondary. Optimized depth=12.0918±0.1237ppt; 29 individual >3sigma events among29 fitted windows. Phase was optimized, so the formal S/N is conditional and is not a blind false-alarm probability. Fixed Gaia-phase tests, every covered/partial/flagged other-conjunction window and off-phase controls are retained in orbit-gates.json; optimized individual measurements, T14/ingress/flat durations and uncertainty are in secondary-fit.json/secondary-shape.json. The fixed-primary-shape upper limit applies only at its tested phase and shape; it is not a null across the Gaia uncertainty envelope.
+
+Secondary ephemeris P=3.4810870188±0.0000022446d, Tref=2724.7733307±0.0003246, O-C RMS2.092min, chi2/dof57.43/27.
+
+First-order timing proxy e cos(omega)˜-0.00033 versus Gaia0.04492; this small-e proxy is approximate and uncalibrated, especially when secondary is weak. Gaia and photometric phase disagreements are retained, not converted into a false precise e claim. Numerical limb-darkened two-disk geometry was tested instead of identifying grazing trapezoid T23 with totality. Coarse best e sin(omega)=0.0250, k=0.225, impact proxy=0.795; chi2/dof=138.12/121. Fixed TIC dimensions and freely fitted flux scales make this a feasibility diagnostic, not a posterior, measured radius, or a guarantee of a unique stellar solution.
+
+## Independent reduction and attribution
+
+MAST product SPOC, sector47; header target=148618714, sector=47 checked. SHA256=c9ef3a370b27831388390290627ad4b3aabf5ea88ce86038dfcffc04dc1160d1. At actual fitted QLP times, the independent product gives depth range40.309–43.390ppt. All per-event depths/errors, columns, URLs and target metadata are retained in independent-manifest-results.json. This is an independent reduction of TESS pixels, not an independent observatory.
+
+Fresh ARI Gaia60arcsec cone to G<15 has1 resolved neighbours, 1 capable of this depth under a G-band flux-ratio approximation. Fainter sources cannot fully explain a ~35–40ppt dip individually. Required fractional dips are indicative because G and TESS bandpasses/aperture throughput differ.
+
+|Gaia source|Separation arcsec|G|Required fractional dip|
+|---|---:|---:|---:|
+|1087362715779956992|51.07|13.403|0.761|
+
+Prior difference image sector20, 6 events: peak on target=True; deficit/target separation2.13arcsec; deficit/light separation1.05arcsec. Duplicate old/new-schema rows are one measurement, not independent repetitions. Exact records are in parent diffrun JSONL receipts.
+
+## Physical interpretation, archives and next check
+
+RV mass function f(M)=0.059058Msun; assumed TIC M1=1.073Msun gives edge-on minimum M2=0.5344Msun, a=11.323Rsun. A main-sequence-radius approximation gives central T14(A/B)=7.621/7.508h compared with measured5.244h; inclination/grazing/dilution and stellar evolution remain degenerate. These approximations do not veto an attributed EB. In Gaia primary-omega convention, conjunctionA puts the spectroscopic primary behind its companion, while B puts the primary in front (positive RV is receding); flux labels alone do not uniquely assign components in a blended/grazing system.
+
+SIMBAD exact Gaia-ID name: TYC 4111-343-1, typeSB*. Fresh IDIA nine-catalogue cones found no target vetted EB classification; shared current Gaia vari_eclipsing_binary and ExoFOP TOI/CTOI checks are negative. Catalogue details, nearby variables, query limitations and weak web-name search are in CATALOGUE-NOTE.md. Novelty status: No vetted target EB found in queried catalogues; bibliography limited; existing unvetted Kostov table2 flag. This is not a complete publication-discovery claim.
+
+Next nominal primary after2026-10-30: 4345.219293BTJD, subsequent 4348.700380. Other-kind nominal prediction: 4346.959881BTJD, subsequent4350.440968. These extrapolations are conditional. Refine component radii, dilution and eccentric orbit with joint RV/eclipse modeling.
+
+Review gates are completed with their stated limitations: archives/current prior-art pass; raw primary and secondary/coverage analysis; individual timing/error and O-C; own-source Gaia covariance; independent reduction; neighbours and localization; physical feasibility; supported physical verdict. No unavailable measurement has been silently counted as a detection. Source catalogues were not edited.
+
+## Final adversarial review details
+
+The largest positive off-phase fixed-template control depth was 1.60ppt. Controls calibrate low-frequency/modulated residuals; they are not an exact multiple-trial probability for the optimized secondary. The repeat secondary signal is stronger than the off-phase controls and recurs in multiple sectors. 
+
+Fixed Gaia-phase other-conjunction coverage: 39 predicted windows, status counts {'fit': 28, 'insufficient': 11}; conditional depth 1.5778ppt, control-inflated 3sigma upper value 13.2808ppt. Optimized secondary windows status counts{'fit': 29, 'insufficient': 10}; fitted secondary T14=5.2436h, T12=1.8353h, trapezoid T23=1.5731h. Uncovered windows are not counted as nulls. Full event tables and all exclusions are in the cited JSON files.

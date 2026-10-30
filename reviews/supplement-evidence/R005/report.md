@@ -1,0 +1,33 @@
+# TIC 399501645: full adversarial review, 2026-10-30
+
+**Physical verdict: CONFIRMED.** Three primaries and two repeated eccentric-phase secondary events, Gaia timing, an independent reduction and target-centered historical deficit support an eclipsing target. The sole capable resolved neighbor is 51.87 arcsec away; existing image has peak on target and 3.62 arcsec deficit-target offset.
+
+**Review completion:** all required gates were attempted and adjudicated below; unavailable services and inconclusive models are explicit limitations. This is not automatic confirmation of novelty. No catalogue/paper edits or commits.
+
+## Deciding measurements
+
+- Raw QLP SAP, QUALITY=0, no gap trimming: 3 primary fits. Median trapezoid depth 28.89 ppt (event range 28.61 to 28.94; median formal/red-noise error 0.28 ppt). Sector medians: {54: 28.78, 81: 28.89}.
+- Primary T14 4.54 h, conditional profile/grid range 4.45 to 4.63 h; T12 1.13 h; T23 2.27 h. These are trapezoid shape summaries, not a claim of true totality in grazing events.
+- P = 11.985795081 +/- 0.000014084 d; Tref = 3024.962624 +/- 0.000415 BTJD at cycle 21. T0 = 2773.260927 BTJD. Chi2/dof 1.61/1; O-C rms 0.60 min. Per-event timing/errors/O-C are in fit-results.json.
+- Conditional secondary: 2 fitted windows, 2 individual >3-sigma fits; depth 1.50 +/- 0.18 ppt after between-event scatter; phase 0.430268 +/- 0.000344. T14 3.67 h (range 3.06 to 4.80), T12 0.55 h, T23 2.57 h. Weak/modulated shape uncertainty can exceed these conditional errors.
+- Gaia SB1 P offset +0.08 sigma. At BTJD389, primary minus conjunction A = -0.91 h versus Gaia sigma 3.77 h. Full per-event conjunction comparison uses this source's covariance. Bit index127 and 15 correlations asserted against [ESA's SB1 ordering](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_non--single_stars_tables/ssec_dm_nss_two_body_orbit.html); omega-Tp correlation +0.985543.
+- First-order e cos(omega) = -0.1095 +/- 0.0005; for eccentric systems compare exact Gaia conjunction separation rather than treating this expansion as exact. Gaia e=0.2151 +/- 0.0284, omega=242.11 +/- 9.69 degrees.
+
+## Gate adjudication
+
+| Gate | Status | Evidence and limits |
+|---|---|---|
+| Own archives/prior art | completed; no target prior EB match | ExoFOP HTTP200, TOI=0/CTOI=0; SIMBAD CFA exact Gaia ID is SB*. Shared ARI Gaia variability cache has no EB rows among70 sources. CDS and Harvard timed out, then IDIA succeeded: fresh 60arcsec cones in VSX, ASAS-SN, SB9, WDS, Kostov table2/3/4, IJspeert and Prsa. All nine table sections returned; no target EB prior-art match. Neighbor ROT/unvetted table2 matches are distinct sources. Raw responses and hashes in *_idia.tsv/idia-receipts.json. Identifier web searches have no pertinent hit, not proof of novelty. |
+| Individual events/ephemerides | measured | fit-results.json, secondary-fit.json: integrated-exposure trapezoids, local quadratic baselines, fixed shared shape per kind, profile timing error with cadence/grid floors; primary residual bin-beta range 1.02 to 1.46; ephemeris errors inflated when chi2/dof>1. Secondary ephemeris stored when >=3 strong events; two-event cases use primary P. |
+| Flags/background/centroids | tested; conditional | Each fit records flagged core counts, OR bits, template centroids/errors, background regression and refitted depth. Maximum predicted fake-background primary depth 0.19 ppt. Native background units never treated as flux. Sparse flags/gaps remain exclusions, not clean nulls. |
+| Blind census | measured; coverage limited | 4 candidate dip groups at max(4 robust per-cadence sigma,3ppt), including 1 away from measured eclipses. Thresholded rolling median can detect intrinsic modulation/gap edges. For straightforward objects the lone off-phase group lacks sufficient clean baseline for event fitting (offphase-checks.json); no claim it is an eclipse. |
+| Other eclipse/controls | measured; conditional | Gaia-fixed-phase tests and off-phase controls in orbit-gates.json; optimized secondary timing/shape separately in secondary-fit.json. Any quoted null upper limit is primary-shape/Gaia-phase conditional, not general exclusion. |
+| Independent pipeline | passed for aperture events | TESS-SPOC SAP/PDCSAP retrieval and QUALITY=0 core estimates in indep_measure.txt; different reduction of same TESS data, not a separate observatory. Amplitude differences include dilution/sampling. |
+| Neighbors/localization | supports target | Fresh ARI G<15 cone within60arcsec; required fractional dip estimates in neighbors_summary.csv are G-band proxies without aperture throughput. Historical difference-image deficit-target offset 3.62arcsec, peak on target. See star-specific verdict and limitations. |
+| Physics/e sin(omega) | modeled; conditional | RV mass function 0.00459 Msun; minimum m2 0.211 to 0.211 Msun for listed M1 hypotheses. Predicted central primary T14 6.62 to 6.62 h versus observed 4.54 h, compatible with a noncentral chord. Numerical limb-darkened two-disk fits in geometry.json explore both shapes with fixed TIC dimensions, free depth scales and physical scale<=1; degeneracies prevent a robust independent e sin(omega) measurement. Do not interpret the coarse-grid profile interval as a calibrated orbital confidence interval. |
+
+Next predictions (BTJD, from 2026-10-30 noon): primary [np.float64(4355.38588), np.float64(4367.37167)]; secondary [np.float64(4348.55719), np.float64(4360.54299)]. Timing extrapolations inherit ephemeris and secondary-shape systematics; no precise future uncertainty for the modulated system.
+
+**Next deciding check:** Improve weak secondary shape and stellar-radius/dilution characterization.
+
+Provenance: ../downloads.json and ../receipts.json; shared-full-review Gaia receipts; independent CAOM responses and indep_sha256.txt. Scripts fit_batch.py/orbit_gates.py/secondary_fit.py/geometry.py reproduce numeric results. Optional Terra personal note was not supplied; its scientific contribution is preserved verbatim in INDEPENDENT-NOTE.md. Lead: Sol batch A.

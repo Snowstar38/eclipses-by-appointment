@@ -1,0 +1,66 @@
+cube tess-s0079-4-2_345.747717_81.699764_11x11_astrocut.fits size 28.5 MB
+TIC 470235665 sector 79 camera 4 ccd 2
+frames q==0: 11440 cadence 3.3 min span 3452.54-3479.67; FLUX_BKG column present: True
+target pixel (x,y)=(5.40,5.08); residual sky median 198.9 e/s/pix
+usable events: pri E161 3458.257, pri E162 3468.584, pri E163 3478.910, sec E160 3453.329, sec E161 3463.656, sec E162 3473.982
+[pri] N_events=3  deficit Gaussian centre (x,y)=(5.336,5.106) sigma=0.66px; per-event scatter -> err of mean (0.006,0.008) px
+      out-of-eclipse image centre (x,y)=(5.335,5.121) sigma=0.60px
+      offset deficit - target(WCS) = 1.43" ; deficit - OOT centroid = 0.33" (err ~0.22"); peak deficit pixel (x,y)=(5,5)
+      fractional depth at target pixel (5,5) = 120.8 ppt; max over pixels with OOT flux >5% of peak (20 px) = 122.5 ppt at (x,y)=(6,6)
+      neighbour G=16.39 sep=5.5" pix=(5.63,4.97) frac depth at its pixel = 122.0 ppt; distance from deficit centre 6.8"
+      neighbour G=17.03 sep=36.8" pix=(4.09,3.88) frac depth at its pixel = 68.5 ppt; distance from deficit centre 36.7"
+      neighbour G=17.50 sep=42.5" pix=(6.43,3.29) frac depth at its pixel = 83.8 ppt; distance from deficit centre 44.4"
+      neighbour G=17.26 sep=44.8" pix=(4.31,6.96) frac depth at its pixel = 60.1 ppt; distance from deficit centre 44.4"
+      neighbour G=17.54 sep=46.1" pix=(3.41,6.08) frac depth at its pixel = 47.9 ppt; distance from deficit centre 45.2"
+      neighbour G=16.19 sep=57.3" pix=(8.01,4.24) frac depth at its pixel = 21.7 ppt; distance from deficit centre 59.0"
+      neighbour G=17.37 sep=62.9" pix=(4.88,2.07) frac depth at its pixel = 8.6 ppt; distance from deficit centre 64.4"
+      neighbour G=15.51 sep=69.0" pix=(4.95,1.76) frac depth at its pixel = 8.6 ppt; distance from deficit centre 70.7"
+      neighbour G=16.58 sep=80.9" pix=(2.43,7.63) frac depth at its pixel = 4.1 ppt; distance from deficit centre 80.8"
+      neighbour G=17.62 sep=89.4" pix=(9.17,7.06) frac depth at its pixel = 4.3 ppt; distance from deficit centre 90.3"
+[sec] N_events=3  deficit Gaussian centre (x,y)=(5.327,5.102) sigma=0.65px; per-event scatter -> err of mean (0.008,0.009) px
+      out-of-eclipse image centre (x,y)=(5.344,5.133) sigma=0.60px
+      offset deficit - target(WCS) = 1.58" ; deficit - OOT centroid = 0.74" (err ~0.26"); peak deficit pixel (x,y)=(5,5)
+      fractional depth at target pixel (5,5) = 77.7 ppt; max over pixels with OOT flux >5% of peak (20 px) = 77.7 ppt at (x,y)=(5,5)
+      neighbour G=16.39 sep=5.5" pix=(5.63,4.97) frac depth at its pixel = 74.7 ppt; distance from deficit centre 7.0"
+      neighbour G=17.03 sep=36.8" pix=(4.09,3.88) frac depth at its pixel = 48.3 ppt; distance from deficit centre 36.5"
+      neighbour G=17.50 sep=42.5" pix=(6.43,3.29) frac depth at its pixel = 54.8 ppt; distance from deficit centre 44.5"
+      neighbour G=17.26 sep=44.8" pix=(4.31,6.96) frac depth at its pixel = 35.5 ppt; distance from deficit centre 44.4"
+      neighbour G=17.54 sep=46.1" pix=(3.41,6.08) frac depth at its pixel = 25.0 ppt; distance from deficit centre 45.1"
+      neighbour G=16.19 sep=57.3" pix=(8.01,4.24) frac depth at its pixel = 21.1 ppt; distance from deficit centre 59.2"
+      neighbour G=17.37 sep=62.9" pix=(4.88,2.07) frac depth at its pixel = 2.8 ppt; distance from deficit centre 64.3"
+      neighbour G=15.51 sep=69.0" pix=(4.95,1.76) frac depth at its pixel = 2.8 ppt; distance from deficit centre 70.6"
+      neighbour G=16.58 sep=80.9" pix=(2.43,7.63) frac depth at its pixel = -4.6 ppt; distance from deficit centre 80.7"
+      neighbour G=17.62 sep=89.4" pix=(9.17,7.06) frac depth at its pixel = 3.8 ppt; distance from deficit centre 90.5"
+aperture: r<=1.5 px around target, 7 pixels
+per-event aperture depths (ppt), shape fixed, tc free, quadratic baseline over +-(0.5*T14+0.4 d):
+  pri E161 tc=3458.25613+-0.00028 (pred 3458.25749, O-C -2.0 min) depth=121.51+-0.54 rms=3.44
+  pri E162 tc=3468.58360+-0.00025 (pred 3468.58367, O-C -0.1 min) depth=124.75+-0.49 rms=3.19
+  pri E163 tc=3478.90961+-0.00025 (pred 3478.90985, O-C -0.3 min) depth=123.74+-0.48 rms=3.14
+  sec E160 tc=3453.32822+-0.00044 (pred 3453.32932, O-C -1.6 min) depth=79.74+-0.43 rms=2.86
+  sec E161 tc=3463.65421+-0.00046 (pred 3463.65550, O-C -1.9 min) depth=80.66+-0.46 rms=3.02
+  sec E162 tc=3473.97954+-0.00052 (pred 3473.98168, O-C -3.1 min) depth=82.27+-0.52 rms=3.43
+dilution arithmetic (aperture r<=1.5 px, Gaussian PRF sigma=0.60 px, fluxes from Gaia G):
+  [pri] mean aperture depth 123.33 ppt; target share of aperture flux 0.9538
+     (target fraction of its own flux inside aperture, Gaussian PRF: 0.930; worst case below puts 100% of the neighbour flux in the aperture)
+     G=16.39 sep=  5.5": PRF share=3.46e-02 -> required 356%; worst-case share=0.039 -> required 320% EXCLUDED
+     G=17.03 sep= 36.8": PRF share=5.70e-03 -> required 2163%; worst-case share=0.022 -> required 565% EXCLUDED
+     G=17.50 sep= 42.5": PRF share=2.75e-03 -> required 4489%; worst-case share=0.014 -> required 866% EXCLUDED
+     G=17.26 sep= 44.8": PRF share=1.48e-03 -> required 8305%; worst-case share=0.018 -> required 700% EXCLUDED
+     G=17.54 sep= 46.1": PRF share=1.22e-03 -> required 10085%; worst-case share=0.014 -> required 899% EXCLUDED
+     G=16.19 sep= 57.3": PRF share=2.29e-04 -> required 53798%; worst-case share=0.046 -> required 269% EXCLUDED
+     G=17.37 sep= 62.9": PRF share=9.47e-05 -> required 100000%; worst-case share=0.016 -> required 768% EXCLUDED
+     G=15.51 sep= 69.0": PRF share=1.17e-04 -> required 100000%; worst-case share=0.083 -> required 149% EXCLUDED
+     G=16.58 sep= 80.9": PRF share=4.47e-07 -> required 100000%; worst-case share=0.033 -> required 379% EXCLUDED
+     G=17.62 sep= 89.4": PRF share=7.98e-09 -> required 100000%; worst-case share=0.013 -> required 965% EXCLUDED
+  [sec] mean aperture depth 80.89 ppt; target share of aperture flux 0.9538
+     (target fraction of its own flux inside aperture, Gaussian PRF: 0.930; worst case below puts 100% of the neighbour flux in the aperture)
+     G=16.39 sep=  5.5": PRF share=3.46e-02 -> required 234%; worst-case share=0.039 -> required 210% EXCLUDED
+     G=17.03 sep= 36.8": PRF share=5.70e-03 -> required 1419%; worst-case share=0.022 -> required 370% EXCLUDED
+     G=17.50 sep= 42.5": PRF share=2.75e-03 -> required 2944%; worst-case share=0.014 -> required 568% EXCLUDED
+     G=17.26 sep= 44.8": PRF share=1.48e-03 -> required 5447%; worst-case share=0.018 -> required 459% EXCLUDED
+     G=17.54 sep= 46.1": PRF share=1.22e-03 -> required 6615%; worst-case share=0.014 -> required 589% EXCLUDED
+     G=16.19 sep= 57.3": PRF share=2.29e-04 -> required 35285%; worst-case share=0.046 -> required 176% EXCLUDED
+     G=17.37 sep= 62.9": PRF share=9.47e-05 -> required 85413%; worst-case share=0.016 -> required 504% EXCLUDED
+     G=15.51 sep= 69.0": PRF share=1.17e-04 -> required 69137%; worst-case share=0.083 -> required 98% NOT excluded
+     G=16.58 sep= 80.9": PRF share=4.47e-07 -> required 100000%; worst-case share=0.033 -> required 249% EXCLUDED
+     G=17.62 sep= 89.4": PRF share=7.98e-09 -> required 100000%; worst-case share=0.013 -> required 633% EXCLUDED

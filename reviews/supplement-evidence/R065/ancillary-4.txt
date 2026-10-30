@@ -1,0 +1,146 @@
+```json
+{
+  "sector": 58,
+  "provenance": "TARS",
+  "fits_identity_validated": true,
+  "quality_column_present": false,
+  "events": [
+    {
+      "tc": 2887.187917697278,
+      "qlp": {
+        "1": {
+          "depth": 0.06512902314016335,
+          "error": 0.00060369056916105,
+          "red_noise_beta": 1.9370194233890679,
+          "n_core": 117,
+          "baseline_degree": 1,
+          "background_regressed_depth": 0.06517617445542219,
+          "background_template_native_sigma": 0.15028751801579593
+        },
+        "2": {
+          "depth": 0.06487414443067517,
+          "error": 0.0006691565822854387,
+          "red_noise_beta": 1.9257403248127594,
+          "n_core": 117,
+          "baseline_degree": 2,
+          "background_regressed_depth": 0.06490112644744016,
+          "background_template_native_sigma": 0.08406070936066994
+        }
+      },
+      "independent": {
+        "FLUX": {
+          "1": {
+            "depth": 0.0341978244070854,
+            "error": 0.000339027519089657,
+            "red_noise_beta": 1.6784321043470738,
+            "n_core": 118,
+            "baseline_degree": 1,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          },
+          "2": {
+            "depth": 0.03408763446189231,
+            "error": 0.00037707368603088077,
+            "red_noise_beta": 1.6725118693110865,
+            "n_core": 118,
+            "baseline_degree": 2,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          }
+        }
+      }
+    },
+    {
+      "tc": 2895.4379801531873,
+      "qlp": {
+        "1": {
+          "depth": 0.06543887878565166,
+          "error": 0.0005412210935256819,
+          "red_noise_beta": 1.7992288980328592,
+          "n_core": 118,
+          "baseline_degree": 1,
+          "background_regressed_depth": 0.06551652470571234,
+          "background_template_native_sigma": 0.3379849119088528
+        },
+        "2": {
+          "depth": 0.06552575477963204,
+          "error": 0.0006034679783615166,
+          "red_noise_beta": 1.797483878532499,
+          "n_core": 118,
+          "baseline_degree": 2,
+          "background_regressed_depth": 0.06551240060627835,
+          "background_template_native_sigma": -0.05782152976832072
+        }
+      },
+      "independent": {
+        "FLUX": {
+          "1": {
+            "depth": 0.036454008560811095,
+            "error": 0.00036683580259939583,
+            "red_noise_beta": 1.8395826565902857,
+            "n_core": 118,
+            "baseline_degree": 1,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          },
+          "2": {
+            "depth": 0.03644040379043338,
+            "error": 0.0004115471402197393,
+            "red_noise_beta": 1.8393749936492814,
+            "n_core": 118,
+            "baseline_degree": 2,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          }
+        }
+      }
+    },
+    {
+      "tc": 2903.689679367718,
+      "qlp": {
+        "1": {
+          "depth": 0.06413342076541811,
+          "error": 0.00044538776236467654,
+          "red_noise_beta": 1.558316043164275,
+          "n_core": 97,
+          "baseline_degree": 1,
+          "background_regressed_depth": 0.06419608675825966,
+          "background_template_native_sigma": 0.17369136380779254
+        },
+        "2": {
+          "depth": 0.06412341276515901,
+          "error": 0.000516053395163022,
+          "red_noise_beta": 1.5585620849841204,
+          "n_core": 97,
+          "baseline_degree": 2,
+          "background_regressed_depth": 0.06414170785504436,
+          "background_template_native_sigma": 0.050417370416782875
+        }
+      },
+      "independent": {
+        "FLUX": {
+          "1": {
+            "depth": 0.03607560264954888,
+            "error": 0.00027862334429782227,
+            "red_noise_beta": 1.4533082496128218,
+            "n_core": 98,
+            "baseline_degree": 1,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          },
+          "2": {
+            "depth": 0.03582666743288522,
+            "error": 0.000314776476109704,
+            "red_noise_beta": 1.421300675704658,
+            "n_core": 98,
+            "baseline_degree": 2,
+            "background_regressed_depth": null,
+            "background_template_native_sigma": null
+          }
+        }
+      }
+    }
+  ],
+  "note": "Same TESS pixels; independent reduction only. Fixed QLP eclipse template and timing; uncertainties conditional and beta-inflated. TARS has no quality flags; its FLUX background provenance unspecified."
+}
+```

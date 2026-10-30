@@ -1,0 +1,45 @@
+470235665 ExoFOP CTOI contexts:
+   ...  end header --> TOIs 0 CTOIs 0 Planet Params 0 Stellar Params <span c
+   ... e grid // var eGridDiv = document.querySelector('#myGrid1'); new agGrid.Grid(eGridDiv, gridOptions); Community Planet Candidates 0 <but
+   ... .eGui; }; // // Draw the grid // var eGridDiv2 = document.querySelector('#myGrid2'); new agGrid.Grid(eGridDiv2, gridOptions2); Planet Parameters <span class="
+   TOI table rows "TOI " count: 0
+470235665 all-catalogue 5" tables (47): I/122 I/122/bd I/197A I/197A/tic I/239 I/239/hip_main I/239/h_dm_com I/239/solar_ha I/239/solar_t I/239/tyc_main I/243 I/243/out I/246 I/246/act I/250 I/250/catalog I/252 I/252/out I/254 I/254/out I/259 I/259/tyc2 I/259/suppl_1 I/259/suppl_2 I/261 I/261/fonac I/267 I/267/out I/275 I/275/ac2002 I/280B I/280B/ascc I/283A I/283A/npm2 I/284 I/284/out I/294A I/294A/ucac2bss I/297 I/297/out I/298 I/298/lspm_n I/298/table3 I/305 I/305/out I/306A I/306A/stars
+   variability/journal tables: []
+379251709 ExoFOP CTOI contexts:
+   ...  end header --> TOIs 0 CTOIs 0 Planet Params 0 Stellar Params <span c
+   ... e grid // var eGridDiv = document.querySelector('#myGrid1'); new agGrid.Grid(eGridDiv, gridOptions); Community Planet Candidates 0 <but
+   ... .eGui; }; // // Draw the grid // var eGridDiv2 = document.querySelector('#myGrid2'); new agGrid.Grid(eGridDiv2, gridOptions2); Planet Parameters <span class="
+   TOI table rows "TOI " count: 0
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.13/site-packages/requests/models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/root/.local/lib/python3.13/site-packages/urllib3/response.py", line 1284, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "/root/.local/lib/python3.13/site-packages/urllib3/response.py", line 1459, in read_chunked
+    self._update_chunk_length()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/lib/python3.13/site-packages/urllib3/response.py", line 1383, in _update_chunk_length
+    raise ProtocolError("Response ended prematurely") from None
+urllib3.exceptions.ProtocolError: Response ended prematurely
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "[local path omitted]", line 9, in <module>
+    t=requests.get(f"https://vizier.idia.ac.za/viz-bin/asu-tsv?-c={ra}%20{dec}&-c.rs=5&-out.max=1&-meta.max=1000",timeout=180).text
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/root/.local/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/lib/python3.13/site-packages/requests/sessions.py", line 827, in send
+    r.content
+  File "/root/.local/lib/python3.13/site-packages/requests/models.py", line 1042, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.13/site-packages/requests/models.py", line 939, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: Response ended prematurely

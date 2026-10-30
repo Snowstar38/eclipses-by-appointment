@@ -1,0 +1,22 @@
+Downloading URL https://mast.stsci.edu/tesscut/api/v0.1/astrocut?x=11&y=11&units=px&sector=80&ra=287.318165074913&dec=24.0684959972507 to /tmp/claude-0/-home-user-eclipses-paper-review/55c92ff4-798a-544f-be03-9888c6804905/scratchpad/data/vet06/416285595/tesscut_s80/tesscut_20261030203120.zip ... [Done]
+TIC 416285595 s80 cam2 ccd1: 9225 good frames
+target pixel (x,y)=(5.23,5.43)
+events used: 3482.900 3492.131 3496.746 3501.361 3505.977
+deficit centre (x,y)=(5.205,5.430) +-(0.016,0.016); OOT centre (-0.276,5.914)
+offset deficit-target WCS = 0.58"; deficit-OOT centroid = 115.56" (+-0.48")
+fractional depth on target pixel = 48.3 ppt; max frac depth pixel (np.int64(6), np.int64(6)) = 49.0 ppt
+TESScut aperture (r<=1.5px, 7 px) central depth per event (ppt): 88.6 90.5 90.5 88.6 88.9; mean 89.4
+aperture flux share of target 0.854
+neighbour: G sep" | PRF aperture share | required depth PRF / worst-case | frac depth at its pixel (ppt) | verdict
+  G15.32 37.6" | 0.0170 | 524% / 91% | 33.9 | arithmetically possible
+  G14.75 37.9" | 0.0326 | 274% / 54% | 29.0 | arithmetically possible
+  G15.41 55.0" | 0.0052 | 1733% / 99% | 27.1 | arithmetically possible
+  G14.00 61.8" | 0.0113 | 793% / 27% | 19.7 | arithmetically possible
+  G14.58 63.7" | 0.0049 | 1815% / 46% | 25.8 | arithmetically possible
+  G15.30 70.8" | 0.0002 | 53698% / 90% | 31.5 | arithmetically possible
+  G14.23 79.4" | 0.0003 | 33125% / 33% | 22.5 | arithmetically possible
+  G14.87 82.3" | 0.0001 | 132472% / 61% | 24.5 | arithmetically possible
+  G15.08 86.6" | 0.0000 | 248844% / 73% | 25.5 | arithmetically possible
+  G14.85 86.8" | 0.0000 | 4284485% / 59% | 27.9 | arithmetically possible
+33 other neighbours need >100% even in the worst case (excluded)
+cube deleted

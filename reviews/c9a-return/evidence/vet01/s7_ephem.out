@@ -1,0 +1,46 @@
+==================== 195865529
+primaries used 48 ; excluded as partial (bad covariance): [('75', '426'), ('76', '437'), ('82', '478')]
+Primary ephemeris: T0(E=426) = 3346.226971 +- 0.000140 BTJD, P = 3.8310456 +- 0.0000009 d, red.chi2 9.43, O-C rms 1.31 min
+   (T0 at E=0: 1714.201538 +- 0.000333)
+   Gaia P = 3.831104 +- 0.000382; P_ecl - P_Gaia = -0.000058 d = -0.15 sigma
+   s15: n=4 mean O-C -3.38 min, depth wmean 182.15+-0.61 ppt (scatter chi2r 0.22)
+   s41: n=6 mean O-C +1.77 min, depth wmean 186.30+-0.47 ppt (scatter chi2r 0.91)
+   s55: n=6 mean O-C +0.67 min, depth wmean 182.38+-0.43 ppt (scatter chi2r 0.73)
+   s56: n=7 mean O-C +0.92 min, depth wmean 181.82+-0.38 ppt (scatter chi2r 1.16)
+   s75: n=6 mean O-C -0.34 min, depth wmean 183.99+-0.52 ppt (scatter chi2r 3.43)
+   s76: n=6 mean O-C -0.41 min, depth wmean 183.24+-0.48 ppt (scatter chi2r 1.89)
+   s82: n=6 mean O-C -0.55 min, depth wmean 182.36+-0.41 ppt (scatter chi2r 0.51)
+   s83: n=7 mean O-C -0.41 min, depth wmean 181.87+-0.38 ppt (scatter chi2r 1.03)
+   odd/even primaries (sector-normalised): odd 0.9985+-0.0011 (n=27), even 1.0021+-0.0013 (n=21), diff -2.04 sigma
+   raw depths odd 182.72+-0.21 even 183.04+-0.24 ppt
+Secondary ephemeris: T0s = 3346.226924 +- 0.000212, P = 3.8310460 +- 0.0000013, red.chi2 2.20; n=49
+   P_sec - P_prim = +0.0000004 +- 0.0000015 d
+   secondary phase = 0.49999 +- 0.00007  -> e cos w ~ (pi/2)(phi-0.5) = -0.00002 +- 0.00010 (first order, sin i~1)
+   odd/even secondaries 47.81+-0.19 / 47.60+-0.18 ppt
+   secondary depth wmean 47.70+-0.13 ppt; per-event chi2r 3.58
+   secondary T14 median 5.25 h, T23 median 2.50 h
+   primary T14 median 5.22 h, T23 median 2.16 h
+==================== 468181994
+primaries used 37 ; excluded as partial (bad covariance): [('67', '380')]
+Primary ephemeris: T0(E=189) = 2384.303949 +- 0.000146 BTJD, P = 3.9969190 +- 0.0000006 d, red.chi2 0.75, O-C rms 1.07 min
+   (T0 at E=1: 1632.883179 +- 0.000219)
+   Gaia P = 3.999219 +- 0.000996; P_ecl - P_Gaia = -0.002300 d = -2.31 sigma
+   s12: n=4 mean O-C -0.61 min, depth wmean 21.04+-0.35 ppt (scatter chi2r 0.55)
+   s13: n=5 mean O-C +0.52 min, depth wmean 22.07+-0.29 ppt (scatter chi2r 5.59)
+   s27: n=5 mean O-C -0.13 min, depth wmean 23.89+-0.34 ppt (scatter chi2r 3.18)
+   s39: n=6 mean O-C +0.16 min, depth wmean 23.15+-0.31 ppt (scatter chi2r 5.16)
+   s67: n=5 mean O-C -0.68 min, depth wmean 23.31+-0.33 ppt (scatter chi2r 1.70)
+   s93: n=6 mean O-C -0.01 min, depth wmean 23.03+-0.33 ppt (scatter chi2r 1.38)
+   s94: n=6 mean O-C -0.32 min, depth wmean 20.96+-0.25 ppt (scatter chi2r 3.12)
+   odd/even primaries (sector-normalised): odd 0.9962+-0.0071 (n=20), even 1.0148+-0.0075 (n=17), diff -1.79 sigma
+   raw depths odd 22.18+-0.16 even 22.55+-0.17 ppt
+   primary T14 median 3.67 h (16-84%: 3.60-3.89), T23 median 2.41 h
+[local path omitted] RuntimeWarning: invalid value encountered in scalar divide
+  w=1/e**2; m=np.sum(w*x)/np.sum(w); return m,1/np.sqrt(np.sum(w)), np.sum((x-m)**2*w)/(len(x)-1)
+[local path omitted] RuntimeWarning: divide by zero encountered in scalar divide
+  w=1/e**2; m=np.sum(w*x)/np.sum(w); return m,1/np.sqrt(np.sum(w)), np.sum((x-m)**2*w)/(len(x)-1)
+   secondary individual depths: wmean nan+-inf ppt, n=0, chi2r -0.00; n with depth>2sigma: 0; n<0: 0
+   FOLD fit of secondary (primary shape fixed T14=3.67 h, T23/T14=0.65; local quadratic per event, |dt|>0.17 d): phase 0.4953+-0.0006, depth 1.41+-0.09 ppt, N=8256
+   FOLD fit free shape: phase 0.4952+-0.0005, depth 1.39+-0.09 ppt, T14 3.57+-0.21 h
+   null box at phase 0.25: depth -0.25+-0.09 ppt
+   null box at phase 0.75: depth -0.01+-0.09 ppt

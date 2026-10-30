@@ -1,0 +1,32 @@
+TIC 372683900: Gaia P=1.4765021045999038+-8.1240774e-05 Tp(BTJD)=388.8925+-0.047364723 e=0.2974802816033862+-0.07037765 w=133.995430902845+-11.842341; N(10-min bins)=34446; sectors=[16, 17, 24, 55, 56, 57, 75, 76, 77, 82, 83, 84]; span 1739.3-3610.3
+Gaia conj A ref epoch tA0=390.2691 (BTJD, Gaia epoch); conj B - A phase = 0.3711 +- 0.0421 (circular would be 0.5)
+Predicted conj A phase at TESS median epoch 3363.8: -0.0013 +- 0.1172; conj B at +0.3698
+LS SAP: top peaks (P d, power, P/P_Gaia): 0.73825 0.277 0.5000; 14.54581 0.133 9.8515; 21.13274 0.076 14.3127; 11.10160 0.018 7.5189; 6.57018 0.016 4.4498; 0.72735 0.007 0.4926
+LS DET(KSPSAP/DET_FLUX): top peaks (P d, power, P/P_Gaia): 0.73825 0.038 0.5000; 0.53131 0.034 0.3598; 0.57810 0.023 0.3915; 0.52351 0.021 0.3546; 0.51505 0.014 0.3488; 0.54854 0.011 0.3715
+chi2 scan (K=6 harmonics, per-segment cubic) near Gaia P: P_phot=1.476507 +- 0.000001 d (formal, chi2 scaled to robust sigma); (P_phot-P_Gaia)/sqrt(err^2) = +0.05 sigma; best alias 1.477894 d at dchi2=62200.9
+GLOBAL fold at Gaia P, K=2: robust sigma 5.84 ppt; harmonic amplitudes (ppt, err, phase deg): A1=2.354+-0.047 (-15); A2=14.791+-0.046 (149)
+   extrema: min1_ph=0.4565, min1=32.0255, min2_ph=0.9563, min2=27.3180, dmin=4.7074, max1_ph=0.2000, max2_ph=0.7127, dmax=0.0873, ptp=32.0255, frac_below=0.2810, frac_above=0.3475, nmin=2
+GLOBAL fold at Gaia P, K=6: robust sigma 5.81 ppt; harmonic amplitudes (ppt, err, phase deg): A1=2.349+-0.046 (-14); A2=14.794+-0.046 (149); A3=0.670+-0.046 (130); A4=0.271+-0.046 (-66); A5=0.024+-0.046 (145); A6=0.056+-0.046 (52)
+   extrema: min1_ph=0.4562, min1=31.5136, min2_ph=0.9557, min2=28.1912, dmin=3.3223, max1_ph=0.1953, max2_ph=0.7160, dmax=0.0611, ptp=31.5136, frac_below=0.3093, frac_above=0.3310, nmin=2
+GLOBAL fold at P_phot, K=6: A1=2.354+-0.046; A2=14.794+-0.046; A3=0.672+-0.046; A4=0.274+-0.046
+   extrema: min1_ph=0.4507, min1=31.5027, min2_ph=0.9503, min2=28.1766, dmin=3.3262, max1_ph=0.1898, max2_ph=0.7105, dmax=0.0533, ptp=31.5027, frac_below=0.3093, frac_above=0.3312, nmin=2
+PER-SECTOR (P=Gaia, K=6, t0=Gaia conj A): sector, mid, n, min1(ppt) ph1, min2(ppt) ph2, dmin(ppt), dmax(ppt), dmin/ptp, predA(ph+-), A1,A2,A3,A4 ppt
+  s16 1753.9 880 32.183 0.4437 28.720 0.9570 3.463 2.016 0.1076 pred -0.001+-0.064 | 2.741 14.467 0.948 0.262
+  s17 1776.0 860 32.255 0.4547 29.708 0.9565 2.547 0.631 0.0790 pred -0.001+-0.065 | 1.872 14.978 0.585 0.276
+  s24 1969.6 1201 31.787 0.4477 28.671 0.9560 3.116 0.423 0.0980 pred -0.001+-0.071 | 2.106 14.832 0.617 0.429
+  s55 2811.4 3616 32.540 0.4582 28.796 0.9530 3.743 0.874 0.1150 pred -0.001+-0.098 | 2.393 14.818 0.567 0.375
+  s56 2839.4 3887 28.718 0.9620 28.673 0.4557 0.045 0.290 0.0016 pred -0.001+-0.099 | 0.616 14.006 1.041 0.931
+  s57 2870.0 3422 32.053 0.4592 28.172 0.9590 3.881 0.039 0.1211 pred -0.001+-0.100 | 2.498 14.873 0.704 0.286
+  s75 3353.5 3878 32.047 0.4572 28.789 0.9567 3.258 0.307 0.1017 pred -0.001+-0.117 | 2.430 15.001 0.781 0.604
+  s76 3381.1 3762 30.805 0.4530 28.166 0.9570 2.639 0.398 0.0857 pred -0.001+-0.118 | 1.949 14.544 0.669 0.181
+  s77 3404.5 2535 30.941 0.4617 27.529 0.9557 3.412 0.597 0.1103 pred -0.001+-0.119 | 2.177 14.440 0.546 0.298
+  s82 3546.3 3573 31.237 0.4610 27.198 0.9597 4.039 0.628 0.1293 pred -0.001+-0.124 | 2.860 14.393 0.511 0.069
+  s83 3572.0 3482 30.658 0.4615 29.515 0.9560 1.143 2.010 0.0373 pred -0.001+-0.124 | 2.706 14.974 0.966 0.461
+  s84 3598.5 3350 32.562 0.4607 29.148 0.9557 3.414 1.615 0.1048 pred -0.001+-0.125 | 2.440 14.952 0.620 0.410
+  MEAN over 12 sectors: min1=31.482+-0.317 ppt at phase 0.4557+-0.0412; min2=28.590+-0.212 at 0.9567+-0.0416; dmin=2.892+-0.342 ppt (8.5 sigma); dmax=0.819+-0.196; dmin/ptp=0.0909+-0.0107
+  SIGNED min2-min1 flux at fixed global phases 0.456/0.956: per-sector [3.285, 2.546, 3.033, 3.748, -0.009, 3.881, 3.258, 2.631, 3.381, 4.04, 1.132, 3.394] -> 2.860 +- 0.343 ppt (8.3 sigma); sectors with min2 shallower: 11/12
+   per-sector depth in that window (sector, ppt, err): [(16, np.float64(2.805), np.float64(0.904)), (17, np.float64(0.621), np.float64(0.445)), (24, np.float64(1.329), np.float64(0.636)), (55, np.float64(0.916), np.float64(0.373)), (56, np.float64(1.656), np.float64(0.678)), (57, np.float64(1.014), np.float64(0.209)), (75, np.float64(0.749), np.float64(0.714)), (76, np.float64(0.616), np.float64(0.425)), (77, np.float64(0.448), np.float64(0.298)), (82, np.float64(-0.074), np.float64(0.636)), (83, np.float64(1.709), np.float64(0.633)), (84, np.float64(0.007), np.float64(0.293))]
+RESIDUAL (K=2) binned 200: rms 0.583 ppt, median bin err 0.561 ppt, chi2/dof=1.13; strongest box dip 0.821 ppt at phase 0.305, width 0.060 phase, 5.2 sigma (white-noise, bin errors)
+   per-sector depth in that window (sector, ppt, err): [(16, np.float64(-0.456), np.float64(0.882)), (17, np.float64(1.152), np.float64(0.434)), (24, np.float64(1.104), np.float64(0.463)), (55, np.float64(1.212), np.float64(0.383)), (56, np.float64(-0.125), np.float64(0.73)), (57, np.float64(-0.109), np.float64(0.272)), (75, np.float64(1.664), np.float64(0.777)), (76, np.float64(0.178), np.float64(0.425)), (77, np.float64(0.592), np.float64(0.289)), (82, np.float64(-0.191), np.float64(0.69)), (83, np.float64(-1.786), np.float64(0.655)), (84, np.float64(0.614), np.float64(0.242))]
+RESIDUAL (K=6) binned 200: rms 0.354 ppt, median bin err 0.560 ppt, chi2/dof=0.40; strongest box dip 0.296 ppt at phase 0.795, width 0.060 phase, 1.8 sigma (white-noise, bin errors)
+DET (KSPSAP/DET_FLUX) fold at Gaia P, K=6: min1=3.560 ppt at 0.9667, min2=2.524 at 0.3760, dmin=1.037, dmax=0.131

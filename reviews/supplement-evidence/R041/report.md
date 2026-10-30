@@ -1,0 +1,331 @@
+# TIC 30311062: CONFIRMED
+
+Repeated primary and secondary eclipses, concordant independent reduction and own pixel regression support an eclipsing target. The capable 25.8 arcsec neighbour is strongly disfavoured in every pixel event.
+
+Full-review completion: COMPLETE (adjudicated). Novelty: no prior target EB classification found in successful queried catalogues; limited prior-art coverage, not a guaranteed discovery claim. Current SIMBAD identifies TYC 7688-1322-1 as SB*; known spectroscopic binarity is distinct from prior eclipse classification.
+
+## Raw SAP, individual events and ephemerides
+
+22 accepted primary fits across 5 sectors; median depth 53.465 ppt. Shared exposure-integrated trapezoid T14=2.5942 h, profile range [2.53557931 2.65288966] h; fractional ingress=0.350. T12 and T23 below are trapezoid coordinates; a grazing flat segment is not physical totality.
+
+P=3.8955409024 ± 6.08e-07 d; Tref=2476.7759143 ± 0.000168 BTJD, reference cycle 245; χ²/dof=13.75/20, O−C RMS=0.511 min. Errors include grid/red-noise and ephemeris scatter scaling, conditional on shape/baseline.
+
+Secondary: 23 usable windows, 23 individual >3σ; combined depth 6.4164 ± 0.1063 ppt (event-scatter error). Fitted phase=0.4999561, Gaia nominal=0.4722082. Phase was optimized; repeatability and controls matter more than its single-trial S/N.
+
+P=3.8955419398 ± 2.52e-06 d; Tref=2404.7079841 ± 0.00062 BTJD, reference cycle 226; χ²/dof=41.86/21, O−C RMS=3.592 min. Errors include grid/red-noise and ephemeris scatter scaling, conditional on shape/baseline.
+
+| kind | sector | mid BTJD ± d | depth ± ppt | T14/T12/T23 h | β | O−C min |
+| --- | --- | --- | --- | --- | --- | --- |
+| P | 8 | 1522.3683029 ± 0.00269 | 53.181 ± 0.560 | 2.594/0.908/0.778 | 1 | -0.130025 |
+| P | 8 | 1526.2638395 ± 0.00269 | 52.748 ± 0.640 | 2.594/0.908/0.778 | 1 | -0.136153 |
+| P | 8 | 1537.9504495 ± 0.00269 | 53.435 ± 0.566 | 2.594/0.908/0.778 | 1 | -0.154534 |
+| P | 9 | 1545.7415228 ± 0.00269 | 54.128 ± 0.630 | 2.594/0.908/0.778 | 1.07634 | -0.166789 |
+| P | 9 | 1549.6370594 ± 0.00269 | 52.964 ± 0.628 | 2.594/0.908/0.778 | 1 | -0.172916 |
+| P | 9 | 1553.5319475 ± 0.00269 | 53.443 ± 0.611 | 2.594/0.908/0.778 | 1 | -1.11297 |
+| P | 9 | 1561.3243179 ± 0.00269 | 53.364 ± 0.641 | 2.594/0.908/0.778 | 1 | 0.742627 |
+| P | 9 | 1565.2192060 ± 0.00269 | 53.106 ± 0.554 | 2.594/0.908/0.778 | 1 | -0.197425 |
+| P | 35 | 2258.6253778 ± 0.000556 | 54.759 ± 0.536 | 2.594/0.908/0.778 | 1.01045 | -0.354146 |
+| P | 35 | 2262.5209144 ± 0.000536 | 54.320 ± 0.649 | 2.594/0.908/0.778 | 1.05479 | -0.360273 |
+| P | 35 | 2278.1030610 ± 0.000579 | 54.247 ± 0.632 | 2.594/0.908/0.778 | 1 | -0.384782 |
+| P | 36 | 2285.8947829 ± 0.000556 | 54.177 ± 0.589 | 2.594/0.908/0.778 | 1.03355 | 0.536888 |
+| P | 36 | 2289.7903195 ± 0.000518 | 53.920 ± 0.657 | 2.594/0.908/0.778 | 1.24742 | 0.53076 |
+| P | 36 | 2297.5813928 ± 0.000518 | 54.881 ± 0.747 | 2.594/0.908/0.778 | 1.27875 | 0.518506 |
+| P | 36 | 2301.4762809 ± 0.000501 | 54.413 ± 0.594 | 2.594/0.908/0.778 | 1.31815 | -0.421546 |
+| P | 89 | 3719.4535662 ± 0.000324 | 53.487 ± 0.515 | 2.594/0.908/0.778 | 1.12975 | 0.149918 |
+| P | 89 | 3723.3484543 ± 0.000324 | 53.415 ± 0.549 | 2.594/0.908/0.778 | 1.30092 | -0.790133 |
+| P | 89 | 3727.2446395 ± 0.000324 | 53.521 ± 0.543 | 2.594/0.908/0.778 | 1.18982 | 0.137664 |
+| P | 89 | 3731.1401762 ± 0.000324 | 53.144 ± 0.617 | 2.594/0.908/0.778 | 1.25237 | 0.131537 |
+| P | 89 | 3735.0350643 ± 0.000324 | 53.385 ± 0.581 | 2.594/0.908/0.778 | 1.23284 | -0.808515 |
+| P | 89 | 3742.8274347 ± 0.000324 | 53.173 ± 0.573 | 2.594/0.908/0.778 | 1.19895 | 1.04708 |
+| P | 89 | 3746.7223228 ± 0.000324 | 53.846 ± 0.662 | 2.594/0.908/0.778 | 1.07113 | 0.107028 |
+| S | 8 | 1524.3172896 ± 0.00246 | 5.984 ± 0.353 | 2.594/0.908/0.778 | 1.08619 | 2.56884 |
+| S | 8 | 1528.2095877 ± 0.00246 | 6.843 ± 0.419 | 2.594/0.908/0.778 | 1 | -2.10228 |
+| S | 8 | 1539.8968590 ± 0.00301 | 6.304 ± 0.378 | 2.594/0.908/0.778 | 1 | -1.17284 |
+| S | 9 | 1547.6885893 ± 0.00246 | 6.103 ± 0.463 | 2.594/0.908/0.778 | 1 | -0.241899 |
+| S | 9 | 1551.5821846 ± 0.00269 | 6.915 ± 0.447 | 2.594/0.908/0.778 | 1 | -3.04517 |
+| S | 9 | 1559.3732664 ± 0.00269 | 6.372 ± 0.438 | 2.594/0.908/0.778 | 1 | -3.04815 |
+| S | 9 | 1563.2726986 ± 0.00301 | 6.162 ± 0.479 | 2.594/0.908/0.778 | 1.06847 | 2.5539 |
+| S | 9 | 1567.1688881 ± 0.00269 | 6.457 ± 0.503 | 2.594/0.908/0.778 | 1.08676 | 3.48633 |
+| S | 35 | 2256.6763850 ± 0.00162 | 7.115 ± 0.451 | 2.594/0.908/0.778 | 1 | -1.44771 |
+| S | 35 | 2260.5719259 ± 0.00195 | 7.461 ± 0.640 | 2.594/0.908/0.778 | 1.24434 | -1.4492 |
+| S | 35 | 2264.4694125 ± 0.00292 | 5.867 ± 0.623 | 2.594/0.908/0.778 | 1.21943 | 1.35108 |
+| S | 35 | 2272.2546573 ± 0.00227 | 6.930 ± 0.541 | 2.594/0.908/0.778 | 1.05792 | -7.05723 |
+| S | 35 | 2276.1579809 ± 0.00389 | 5.491 ± 0.533 | 2.594/0.908/0.778 | 1.13964 | 4.14837 |
+| S | 36 | 2283.9484141 ± 0.00162 | 6.373 ± 0.491 | 2.594/0.908/0.778 | 1.10519 | 3.21146 |
+| S | 36 | 2287.8426579 ± 0.00162 | 6.981 ± 0.447 | 2.594/0.908/0.778 | 1 | 1.34212 |
+| S | 36 | 2291.7375502 ± 0.00195 | 5.562 ± 0.465 | 2.594/0.908/0.778 | 1.21341 | 0.406697 |
+| S | 36 | 2303.4248215 ± 0.00195 | 6.642 ± 0.447 | 2.594/0.908/0.778 | 1.00254 | 1.33614 |
+| S | 89 | 3721.3952244 ± 0.00162 | 5.689 ± 0.440 | 2.594/0.908/0.778 | 1 | -8.54687 |
+| S | 89 | 3725.2978995 ± 0.00162 | 6.279 ± 0.439 | 2.594/0.908/0.778 | 1.00749 | 1.7248 |
+| S | 89 | 3729.1940889 ± 0.0013 | 6.363 ± 0.424 | 2.594/0.908/0.778 | 1.0649 | 2.65723 |
+| S | 89 | 3736.9832250 ± 0.0013 | 7.050 ± 0.433 | 2.594/0.908/0.778 | 1 | -0.147527 |
+| S | 89 | 3740.8755232 ± 0.00162 | 6.712 ± 0.470 | 2.594/0.908/0.778 | 1.0687 | -4.81864 |
+| S | 89 | 3744.7794953 ± 0.00162 | 6.217 ± 0.478 | 2.594/0.908/0.778 | 1.04952 | 7.32088 |
+
+All primary timing scans interior: True. QUALITY=0 fits retain all untrimmed cadences; 22 flagged core cadences inspected separately in event records. Minimum background-regressed/ordinary primary depth ratio=0.9937; background is standardized in native units, never divided by normalized SAP. Centroid template shifts/errors are retained per event in fit-results.json and are not by themselves source localization.
+
+Blind rolling-median census: 50 triggers; 1 outside the two eclipse phase windows. Largest off-phase dip=4.015 ppt, versus primary median 53.465 ppt. No off-phase event of comparable primary depth. Off-phase s094 triggers cluster near the known 3875 BTJD sector systematic where applicable; shallow isolated census triggers are not additional classified eclipses. Full trigger/threshold/duration list and every rejected/insufficient event window remain in fit-results.json; coverage failures are not nulls.
+
+## Own Gaia covariance and physical interpretation
+
+Source 5331998419615383296; covariance bit_index=127; source and SB1/SB2 layout asserted before reconstruction. Photometric period minus Gaia period=0.736σ. Primary matches conjunction A. Per-event Gaia predictions, correlated timing errors and residuals are in orbit-gates.json; no correlation copied from another source.
+
+```json
+{
+  "gaia_primary_epoch_comparison": [
+    {
+      "kind": "A",
+      "epoch389_offset": -0.05773932081262956,
+      "epoch389_gaia_error": 0.0333814287225213
+    },
+    {
+      "kind": "B",
+      "epoch389_offset": -1.9017475239081705,
+      "epoch389_gaia_error": 0.02602670286563926
+    }
+  ],
+  "eccentricity_comparison": {
+    "bit_index": 127,
+    "gaia_primary": "A",
+    "gaia_relative_phase_nominal": 0.47220815810774097,
+    "gaia_relative_phase_quantiles_16_50_84": [
+      0.45725756759080327,
+      0.47363311595792956,
+      0.48741877166881104
+    ],
+    "gaia_relative_phase_sigma": 0.014681907149251458,
+    "gaia_e_cos_omega_quantiles": [
+      -0.06714117234692414,
+      -0.04140133817282157,
+      -0.019757666776569708
+    ],
+    "gaia_e_sin_omega_quantiles": [
+      -0.04411436145591112,
+      -0.025652195219393575,
+      -0.01049851667360484
+    ],
+    "photometric_phase": 0.49995606427953015,
+    "photometric_e_cos_omega_first_order": -6.901406832912049e-05,
+    "photometric_note": "First-order small-e approximation; fitted profile phase is optimized and conditional on eclipse shape, with no calibrated uncertainty. Omitted without three individual secondary detections.",
+    "geometry_status": "conditional shape feasibility",
+    "geometry_e_sin_omega_conditional_range": [
+      -5.551115123125783e-17,
+      0.1499999999999999
+    ],
+    "geometry_note": "Coarse conditional feasibility range, fixed TIC properties and simplified limb-darkened shape; not a calibrated posterior. Check chi2 and grid boundaries in geometry.json."
+  },
+  "physics": [
+    {
+      "m1": 1.26,
+      "m2_min": 0.6217224924042701,
+      "f_mass": 0.06787011513003473,
+      "a_rsun": 12.862494442295503,
+      "r1_rsun": 1.248,
+      "r2_approx_rsun": 0.6837183934664118,
+      "central_T14_hours": {
+        "A": 4.59984449468575,
+        "B": 4.334056685019584
+      },
+      "observed_T14_hours": 2.594234482758621
+    }
+  ],
+  "shape_feasibility": {
+    "status": "conditional shape feasibility",
+    "best": {
+      "chi2": 131.23966706443295,
+      "dof": 121,
+      "k": 0.44999999999999996,
+      "b_A": 1.0750000000000002,
+      "e_sin_omega": -5.551115123125783e-17,
+      "primary_scale": 0.8772294505408279,
+      "secondary_scale": 0.019771395014470575
+    },
+    "profile_interval_approx_95": {
+      "k": [
+        0.32499999999999996,
+        0.44999999999999996
+      ],
+      "b_A": [
+        0.8300000000000001,
+        1.0750000000000002
+      ],
+      "e_sin_omega": [
+        -5.551115123125783e-17,
+        0.1499999999999999
+      ]
+    },
+    "error_inflation": 1.0846253476399417,
+    "assumptions": "Circular projected chord with eccentric speed factors; fixed TIC R1/M1, u1=.4 u2=.6, free depth scales per kind, event-scatter bin errors and 0.15ppt floor. Contact shape and dilution degeneracies persist. No claim of precise e sin omega.",
+    "primary_profile_n": 64,
+    "secondary_profile_n": 64
+  }
+}
+```
+
+Physical quantities using TIC primary properties and approximate companion radii are conditional feasibility checks. The mass function and minimum mass establish stellar-scale companions; main-sequence radii are not measured constraints. A/B conjunction uses Gaia primary ω without a 180° change. Two-disk models use limb darkening and partial overlap; no e sinω is inferred by treating a grazing trapezoid T23 as totality. Free depth scales, grid boundaries, χ² and dilution prevent precise radii/mass-ratio claims.
+
+## Independence and attribution
+
+TARS, sector 89: FITS target+sector identity validated against the exact MAST row. Same TESS pixels, independent pipeline; not a second observatory. Linear/quadratic baseline sensitivity and background regressions tested. Aperture and PDCSAP dilution corrections explain depth scale differences; eclipse recurrence survives.
+
+| BTJD | column | quadratic ppt | β error ppt | linear ppt | core n | background ppt |
+| --- | --- | --- | --- | --- | --- | --- |
+| 3719.45357 | FLUX | 41.8469 | 0.692875 | 42.7122 | 47 | n/a |
+| 3723.34845 | FLUX | 42.2192 | 0.48355 | 43.0431 | 46 | n/a |
+| 3727.24464 | FLUX | 43.2549 | 0.775645 | 44.523 | 47 | n/a |
+| 3731.14018 | FLUX | 43.1723 | 0.633141 | 44.5356 | 47 | n/a |
+| 3735.03506 | FLUX | 45.4171 | 0.637084 | 46.6709 | 47 | n/a |
+| 3742.82743 | FLUX | 48.7159 | 0.958973 | 49.6814 | 46 | n/a |
+| 3746.72232 | FLUX | 48.7572 | 1.0262 | 48.3701 | 46 | n/a |
+
+Exact URI/URL, header, SHA256 and retrieval UTC are in independent-manifest.json. Neighbour required fractional dips use G as an approximate passband, not a calibrated TESS dilution correction.
+
+| Gaia source | sep arcsec | G | required fractional dip | capable |
+| --- | --- | --- | --- | --- |
+| 5331998423911867520 | 25.7815 | 14.190861 | 0.673572 | True |
+
+Original batch difference-image evidence (old/new schemas represent the same events, not independent repeats):
+
+```json
+[
+  {
+    "tic": "30311062",
+    "sector": 89,
+    "n_events": 8,
+    "deficit_minus_target_arcsec": 3.67,
+    "deficit_minus_light_arcsec": 4.15,
+    "peak_on_target": true,
+    "depth_ap3": 0.04381,
+    "psf_frac_resid": 0.373,
+    "n_neighbours_60": 28,
+    "n_possible": 1,
+    "brightest_nb": {
+      "G": 14.190861,
+      "sep": 25.8
+    }
+  }
+]
+```
+
+pixel-localization.json:
+
+```json
+{
+  "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet30311062\\tesscut_s089.fits",
+  "sha256": "ae9bfcf3362d2a4435e8149344c2c15a9f0ac9691bb8a0c6b33cf89efe24c8ac",
+  "sector": 89,
+  "calibration": {
+    "sigma_pixels": 0.7500000000000001,
+    "dx_pixels": -1.1102230246251565e-16,
+    "dy_pixels": -1.1102230246251565e-16
+  },
+  "fixed_fits": [
+    {
+      "source_id": "5331998419615383296",
+      "sep_arcsec": 0.0,
+      "G": 11.440071,
+      "chi2": 12881.368295256081,
+      "amplitude": 79.73951727820702,
+      "fractional_residual": 0.16070161969519842
+    },
+    {
+      "source_id": "5331998423911867520",
+      "sep_arcsec": 25.781484130057645,
+      "G": 14.190861,
+      "chi2": 135871.80798765813,
+      "amplitude": 22.918132576601387,
+      "fractional_residual": 0.8862086488465227
+    }
+  ],
+  "free_best": {
+    "chi2": 11594.676792683837,
+    "pixel_x": 7.709705222113174,
+    "pixel_y": 7.5588368928913745,
+    "distance_from_target_arcsec": 2.1000000000001418,
+    "fractional_residual": 0.17089493881662482
+  },
+  "event_source_comparisons": [
+    {
+      "tc": 3719.4534621341113,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        16809.995902515773
+      ]
+    },
+    {
+      "tc": 3723.349003036515,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        17624.83028511714
+      ]
+    },
+    {
+      "tc": 3727.2445439389194,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        20434.706365918348
+      ]
+    },
+    {
+      "tc": 3731.140084841323,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        16068.983622104712
+      ]
+    },
+    {
+      "tc": 3735.0356257437275,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        19296.580593791143
+      ]
+    },
+    {
+      "tc": 3738.9311666461317,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        9917.94953278288
+      ]
+    },
+    {
+      "tc": 3742.8267075485355,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        15973.944617671137
+      ]
+    },
+    {
+      "tc": 3746.72224845094,
+      "best_source": "5331998419615383296",
+      "delta_chi2_neighbor_minus_target": [
+        0.0,
+        6402.114012469223
+      ]
+    }
+  ],
+  "caution": "Same TESS pixels as QLP, independent aperture reduction. Approximate circular Gaussian PSF calibrated to multi-star out-of-eclipse image; formal chi2 excludes PSF mismatch, correlated pixels/time and sector-level systematics. No formal significance from delta-chi2; compare event repeatability and residuals. Aperture depth errors are white-noise conditional only; degree comparison probes baseline sensitivity."
+}
+```
+
+## Archives and novelty
+
+Fresh 60 arcsec IDIA cones returned all nine requested table sections. Counts: {'B_vsx_vsx': 0, 'II_366_catv2021': 0, 'B_sb9_main': 0, 'B_wds_wds': 0, 'J_ApJS_279_50_table2': 6, 'J_ApJS_279_50_table3': 0, 'J_ApJS_279_50_table4': 0, 'J_A_A_691_A242_obaf-eb1': 0, 'J_ApJS_258_16_tess-ebs': 0}. Gaia EB matches=0; vari_summary rows=0; ExoFOP TOI/CTOI={'toi_count': 0, 'ctoi_count': 0}. SIMBAD exact Gaia identifier response is retained in shared cache. WDS records at 290592570/362082706 are visual companions, not an eclipse classification. Kostov table2 rows are unvetted flags and cone neighbours; they do not establish prior published EB classification. There are no target matches in VSX, ASAS-SN, SB9, vetted Kostov3/4, IJspeert or Prša in this fresh pass.
+
+Exact catalogue rows including positions/identifiers are in catalogue-rows.json. General web search on all ten SIMBAD names plus eclipsing returned no relevant exact-target publication (an unrelated aggregated exoplanet-catalogue result was discarded); this is weaker than a complete bibliography search. Novelty remains limited to the successful named checks. Shared/fresh archive query receipts, response hashes and timestamps are indexed in archive-provenance.json and idia-receipts.json.
+
+## Predictions and next check
+
+After evaluation epoch BTJD 4344.32544: next primary approximately 4346.63555; next other-kind approximately 4344.68712 BTJD. These are extrapolations using photometric primary P and the observed secondary epoch (or Gaia phase for a null); formal small timing errors do not include future orbital changes or model systematics. For the three-event secondary at257800191 use these only as scheduling estimates.
+
+Refine diluted two-star dimensions and small-e orbital solution with joint light-curve/RV modelling.
+
+Adjudication: **CONFIRMED**. Repeated primary and secondary eclipses, concordant independent reduction and own pixel regression support an eclipsing target. The capable 25.8 arcsec neighbour is strongly disfavoured in every pixel event.
+
+Reproducibility: source-audit.json verifies original candidate status and absent original vet folder before claim. fit_batch.py → orbit_gates.py → secondary_fit.py → shape_secondary.py → secondary_fit.py → geometry.py; null_secondary.py and covariance_geometry.py adapt SB2 covariance as needed. Independent and pixel scripts preserve separate provenance. No original catalogue/paper edits or commits.

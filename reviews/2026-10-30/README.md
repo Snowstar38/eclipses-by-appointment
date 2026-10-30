@@ -1,6 +1,6 @@
 # Individual review evidence
 
-70 previously unreviewed Fable 5 batch candidates received individual review: **64 physical confirmations and six plausible cases**. They do not overlap the paper's existing object table. The paper's physical sample is **263 systems (251 confirmed and 12 probable)**; the six plausible cases are excluded.
+70 previously unreviewed Fable 5 batch candidates received individual review: **64 physical confirmations and six plausible cases**. They do not overlap the paper's existing object table. Together with the returned Fable reviews, the paper's physical sample is **273 systems (261 confirmed and 12 probable)**; the six plausible cases from this review and one from the returned batch are excluded.
 
 The paper distinguishes its **199-system uncatalogued subset** from physical confirmations whose novelty checks remain incomplete; nine-catalogue services failed for the final 20 reviews (including 16 confirmations). Successful checks are distinguished from failed requests. These are internal project verdicts, not external peer review or precise component characterization. Existing tested code and valid prior evidence were reused.
 
