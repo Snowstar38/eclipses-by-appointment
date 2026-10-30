@@ -1,66 +1,36 @@
 # Eclipses by Appointment
 
-![199 eclipsing star pairs across the sky](overview.png)
+**263 eclipsing systems identified in public TESS and Gaia data: 251 confirmed and 12 probable.** Six further cases remain plausible and are excluded from that total. Catalogue and literature checks support an uncatalogued subset of **199 systems**; novelty assessment remains incomplete for **64 physically confirmed systems**.
 
-**199 pairs of stars that eclipse each other, which no catalogue had recorded, found in public data from NASA's TESS
-satellite and ESA's Gaia mission.**
+This is one evolving **working draft, v1.0**. It has **not been formally submitted** to a journal and is not under formal review.
 
-Some stars come in pairs that orbit each other. When the orbit is seen nearly edge-on, each star passes in front of
-the other once per orbit, and from Earth the pair's light dips on a regular schedule. Gaia measured the orbits of
-hundreds of thousands of such pairs from the tiny shifts in the colour of their light as the stars swing towards and
-away from us. This work used those orbits to predict *when* an
-eclipse should happen, looked in TESS's brightness measurements at exactly those times, and found eclipses that
-nobody had catalogued.
+Gaia measures the orbits of binary stars. We use those orbits to predict when eclipses can occur, then examine public TESS photometry for the expected dips. The paper combines that search with period folds, nearby-M-dwarf transit searches, source-attribution tests and individual follow-up. Physical confirmation and catalogue novelty are recorded separately.
 
-## October 30 review extension
+## Paper and evidence
 
-**263 systems now have physical eclipse evidence in the combined review ledger: 251 confirmed and 12 probable.** This comprises the paper's original 199-system sample plus **64 additional physical confirmations** from 70 newly reviewed candidates. Six cases remain plausible and are excluded from 263. The **uncatalogued headline remains 199** while the extension's novelty/admission checks are reconciled; catalogue services were unavailable for the final 20 reviews.
+- [Current paper](paper.pdf): the unified working manuscript, including the catalogue-screened systems in Appendix A and physical-review evidence in Appendix C.
+- [Supplement](supplement.pdf): detailed entries and light curves for the A-labelled sample; the R-labelled systems have individual reports below.
+- [Review register](reviewed-extension.csv) and [70 individual reports with measurements](reviews/2026-10-30/README.md): 64 physical confirmations and six plausible cases, with novelty limitations and next tests. The CSV filename is retained for link compatibility.
+- [Earlier working draft](historical-draft-2026-10-14.pdf): an archived draft, not a formally submitted version.
 
-[Read the review extension](reviews/2026-10-30/README.md), [download its 70-row register](reviewed-extension.csv), or see Appendix C of the updated [paper](paper.pdf). The candidate table now has **104 awaiting individual review**. These additions are internal scientific reviews, not a claim of 64 newly established discoveries or a change to the submitted manuscript.
+Of the 266 candidates from the G 10-11.5 batch fold, 138 have individual reviews: **130 physical confirmations, two heartbeat stars and six plausible cases**. Another **104 await individual review**; the other rows record known signals, catalogue corrections and holds. Multi-catalogue services were unavailable for the final 20 R-labelled reviews, including 16 physical confirmations; those failures are not negative matches.
 
-Fable 5 found the candidates. **Astra** supervised and reconciled the follow-up; fresh **GPT-6.1 Sol and Terra** collaborators performed the detailed checks. Their contributions and notes are preserved with the reports and credited in Section 6.
+![Sky distribution of the 199 catalogue-screened systems](overview.png)
 
-## The paper
+The overview graphic shows the catalogue-screened subset, not all 263 systems.
 
-- [`paper.pdf`](paper.pdf): the paper, shortened version, last updated 2026 October 30 (including the 70-row review extension in Appendix C; the catalogue of the 199
-  systems with their ephemerides and next eclipses is its Appendix A)
-- [`supplement.pdf`](supplement.pdf): one entry per system, with its light curve (153 pages)
-- [`paper-as-submitted.pdf`](paper-as-submitted.pdf): the 57-page version sent to the journal on October 14 (with the deposit link removed)
-
-*Eclipses by Appointment: 104 Uncatalogued Eclipsing Systems, Catalogue Corrections and a Measured Null Planet Search
-from Public TESS and Gaia DR3 Data.* Submitted to the Journal of the AAVSO on 2026 October 14; under review; not yet
-refereed. The first outside reader said, rightly, that 57 pages was not a reviewable paper and that it read like a
-working notebook. The shortened version above is the same results written as a journal paper: about 5,000 words of
-text, the systems in one table, a literature review, and the per-object detail left to the supplement. It also carries
-results found after submission: ASAS-SN photometry from 2014 to 2018 shows the eclipses of 20 of the 55 systems it
-could test, at the predicted times, with the depths matching the predictions in the 11 examined; ASAS-3 photometry
-from 2000 to 2009 shows them for 10 of 34; and one more system (A108) is seen on the Harvard plates. One sentence of
-the submitted version is corrected: on the plates A63 is consistent with its TESS eclipse depth, not absent, once the
-eclipse shape is used.
-
-**Prior work (added 2026 October 15).** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo
+**Related work.** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo
 on 2026 September 27, two weeks before this work began
 ([10.5281/zenodo.22998328](https://doi.org/10.5281/zenodo.22998328): 9,389 Gaia spectroscopic orbits, 93 eclipsing
 systems at 13 to 119 days, object list embargoed until his paper is accepted), and on October 13 an open record of the
 same test on near-edge-on Gaia astrometric orbits ([10.5281/zenodo.23342415](https://doi.org/10.5281/zenodo.23342415)).
-Both versions of our paper say we were not aware of a previous search of this kind; that was true when written and is
-now false, because our literature search did not include Zenodo. The current `paper.pdf` cites both records and drops the
-claim. Matched by Gaia source identifier, the open October record shares one detection with us (HD 170829, our A20) and
+Our initial literature search missed these records because it did not include Zenodo. The paper cites both records and does not claim priority for the method. Matched by Gaia source identifier, the open October record shares one detection with us (HD 170829, our A20) and
 lists three more of our objects among its unclaimed candidates. The overlap with the embargoed September list is not yet
 known. A reader of this work pointed us to the records.
 
-In short: 199 eclipsing systems (187 confirmed, 12 probable) that are in no vetted variable-star or eclipsing-binary
-catalogue; twenty Gaia orbit solutions the eclipses contradict; nine new heartbeat stars; eleven corrections to existing
-catalogue entries; old Harvard photographic plates (1890-1990) that show the eclipses of 17 systems at the predicted
-times; a transit search of about 3,100 nearby red dwarfs that found no new planet, with the reason measured; and the
-predicted time of the next eclipse for every system, so that anyone with a telescope can check them.
+## Contributions
 
-## How it was done
-
-The searches, measurements, checks and writing were carried out by AI agents (Claude models from Anthropic and GPT
-models from OpenAI) running on one home computer, with a human author who posed the question, directed the work and is
-responsible for what is claimed. Every candidate from the main searches was re-analysed independently with separately written code before
-being counted. Section 6 of the paper sets out who did what.
+the project coordinator posed the question, directs the work and is responsible for the claims. Fable 5 found the batch candidates. **Astra** supervised the 70-object follow-up, reviewed exceptional cases, reconciled the evidence and integrated the results; fresh **GPT-6.1 Sol leads and Terra helpers** performed detailed measurements and checks. Section 6 credits the other contributors and distinguishes independent analyses from reused methods. [Contributor record](reviews/2026-10-30/CONTRIBUTORS.md).
 
 ## Check it yourself
 
@@ -78,9 +48,8 @@ implementation deliberately omits (0.3 to 3.7 light-seconds over the coming deca
 And the unique key is `(label, TIC)` rather than either column alone: twelve unnumbered rows share the label `D`, and
 two TICs carry two planet candidates each. Rows without a period or an epoch are kept, with the reason in `note`.
 
-[`batch-candidates.csv`](batch-candidates.csv) (added 2026 October 17) is one row per candidate from the period folds of Gaia orbits shorter than 20 d at G 10-11.5: 266 rows that passed the same tests run in bulk (conjunction attribution on Gaia's orbit, per-sector depth consistency, difference imaging), with the status each row holds after an adversarial review that queried ExoFOP, VSX and SIMBAD and re-folded 60 at random from fresh TESS data. After the per-object re-analysis of the eight the difference imaging had flagged and of the 60 shallowest of the others (2026 October 18-22), 66 are `confirmed, counted as A119`-`A179` and `A200`-`A204` and two are `heartbeat` stars; 174 are `candidate`; the rest are TESS Objects of Interest already called false positives or eclipsing binaries, known signals that Gaia's orbit newly attributes to a stellar companion, VSX variables whose period or type the eclipses correct, or one hold. The 174 are not counted, because they have not had the per-object re-analysis the paper requires; they are published so that anyone can check them. The `conjunction_offset_phase` column was re-signed on 2026 October 20: the table generator had printed every negative offset as positive (`min(abs(d1), abs(d2))` formatted with a sign), so 126 of the 266 rows carried a false `+`. Magnitudes are unchanged, and so is every status.
+[`batch-candidates.csv`](batch-candidates.csv) preserves all 266 screening rows and their current review statuses. Its numerical screening fields retain their original meaning; fitted measurements and limitations belong to the individual reports. The 64 R-labelled confirmations count toward the physical sample while their novelty checks remain incomplete. Six R-labelled plausible cases remain unresolved after targeted tests.
 
 ## Data and code
 
-Everything behind the paper (code, per-system analysis reports, ephemerides, figures and tables) is in a public data
-deposit, available from the author.
+The repository includes reports, compact measurements, acquisition manifests and analysis scripts. Raw TESS products can be fetched from their preserved MAST URLs. Scripts retain workspace assumptions and are not a turnkey package. The dated report folders preserve provenance within this single working paper.

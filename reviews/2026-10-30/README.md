@@ -1,8 +1,8 @@
-# October 30 physical-review extension
+# Individual review evidence
 
-70 previously unreviewed Fable 5 batch candidates received individual review: **64 physical confirmations and six plausible cases**. They do not overlap the paper's existing object table. The combined physical-evidence ledger is **263 systems (251 confirmed and 12 probable)**; the six plausible cases are excluded.
+70 previously unreviewed Fable 5 batch candidates received individual review: **64 physical confirmations and six plausible cases**. They do not overlap the paper's existing object table. The paper's physical sample is **263 systems (251 confirmed and 12 probable)**; the six plausible cases are excluded.
 
-The **199-system uncatalogued sample remains unchanged**. Novelty admission is pending for the extension; nine-catalogue services failed for the final 20 reviews (including 16 confirmations). Successful checks are distinguished from failed requests. These are internal project verdicts, not external peer review or precise component characterization. Existing tested code and valid prior evidence were reused.
+The paper distinguishes its **199-system uncatalogued subset** from physical confirmations whose novelty checks remain incomplete; nine-catalogue services failed for the final 20 reviews (including 16 confirmations). Successful checks are distinguished from failed requests. These are internal project verdicts, not external peer review or precise component characterization. Existing tested code and valid prior evidence were reused.
 
 [Machine-readable register](../../reviewed-extension.csv) has review IDs R001-R070, physical verdicts, novelty limitations, report paths and deciding next tests. [Updated candidate table](../../batch-candidates.csv) records the 70 completed reviews and leaves 104 unreviewed candidates. Numerical screening columns in that table retain their original meaning; use the reports for fitted measurements.
 
