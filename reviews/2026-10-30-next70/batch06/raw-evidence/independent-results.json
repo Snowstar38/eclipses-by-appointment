@@ -1,0 +1,525 @@
+[
+  {
+    "tic": "417917895",
+    "sector": 15,
+    "provenance": "Independent TESScut pixel aperture extraction",
+    "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet417917895\\tesscut_s015.fits",
+    "sha256": "ca4ba12a2cebe890215058bc9e937a4a32ab037dbf8da181ac45f3d348771251",
+    "identity": {
+      "header_sector": 15,
+      "target_xy": [
+        7.4958076830554,
+        7.350922985347209
+      ],
+      "target_coordinate_source": "Gaia target coordinate projected through cutout WCS"
+    },
+    "measurements": [
+      {
+        "tc": 1711.643767279932,
+        "depth": 0.10515803098678589,
+        "n_in": 7,
+        "n_pre": 4,
+        "n_post": 11
+      },
+      {
+        "tc": 1727.6196013586139,
+        "depth": 0.10189932584762573,
+        "n_in": 7,
+        "n_pre": 11,
+        "n_post": 11
+      }
+    ],
+    "note": "3x3 target aperture, per-cadence faint-pixel background; core medians versus local pre/post baseline; same TESS images, independent extraction, depth not model corrected; event centers use QLP-derived period and cycle counts",
+    "archive_inventory_error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "162075402",
+    "sector": 80,
+    "provenance": "TARS",
+    "uri": "mast:HLSP/tars/sec_80_cam_1_ccd_4/hlsp_tars_tess_ffi_s0080-0000000162075402_tess_v01_lc.fits",
+    "sha256": "2d53408eceefdfc33237968acd13ac097511600cfd11ea13c0ea65787f47dcbe",
+    "measurements": [
+      {
+        "tc": 3481.458276333563,
+        "depth": 0.13185773720734587,
+        "formal_error": 0.0006664273293215628,
+        "n_in": 74,
+        "column": "FLUX"
+      },
+      {
+        "tc": 3502.7689633333257,
+        "depth": 0.11762662501529939,
+        "formal_error": 0.0005773461380464561,
+        "n_in": 75,
+        "column": "FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 162075402,
+      "header_OBJECT": null,
+      "header_SECTOR": 80,
+      "header_RA_OBJ": null,
+      "header_DEC_OBJ": null,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "FLUX"
+    ],
+    "quality_filter": "none (column missing)",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "29741740",
+    "sector": 12,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0012/target/0000/0000/2974/1740/hlsp_tess-spoc_tess_phot_0000000029741740-s0012_tess_v1_lc.fits",
+    "sha256": "9d2932f5f532a985e304813564852d43ba28d712a30d0e473a922ac8702339a4",
+    "measurements": [
+      {
+        "tc": 1649.30093687745,
+        "depth": 0.12472985120557595,
+        "formal_error": 0.0007850194769782211,
+        "n_in": 13,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 29741740,
+      "header_OBJECT": "TIC 29741740",
+      "header_SECTOR": 12,
+      "header_RA_OBJ": 249.327863860984,
+      "header_DEC_OBJ": -53.9361546319132,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "48829357",
+    "sector": 9,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0009/target/0000/0000/4882/9357/hlsp_tess-spoc_tess_phot_0000000048829357-s0009_tess_v1_lc.fits",
+    "sha256": "841173682fb073db1eaf2818f9485f91cae3dccc544b087c95d2b623db85b5f2",
+    "measurements": [
+      {
+        "tc": 1559.4400929091105,
+        "depth": 0.14849866683003157,
+        "formal_error": 0.0004322549072800158,
+        "n_in": 18,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 48829357,
+      "header_OBJECT": "TIC 48829357",
+      "header_SECTOR": 9,
+      "header_RA_OBJ": 162.844147096058,
+      "header_DEC_OBJ": -35.162343369764,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "115549556",
+    "sector": 17,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0017/target/0000/0001/1554/9556/hlsp_tess-spoc_tess_phot_0000000115549556-s0017_tess_v1_lc.fits",
+    "sha256": "eaef00ad8f04a1ca5743e528f3de8686890efb139abd61cdfad3137f0cc27fdd",
+    "measurements": [
+      {
+        "tc": 1769.5148019870064,
+        "depth": 0.14054685694446942,
+        "formal_error": 0.0005656487126647374,
+        "n_in": 11,
+        "column": "SAP_FLUX"
+      },
+      {
+        "tc": 1782.6792251075979,
+        "depth": 0.14072486481047258,
+        "formal_error": 0.000665217866565596,
+        "n_in": 11,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 115549556,
+      "header_OBJECT": "TIC 115549556",
+      "header_SECTOR": 17,
+      "header_RA_OBJ": 7.94249431957821,
+      "header_DEC_OBJ": 36.8711701423097,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "90563464",
+    "sector": 66,
+    "provenance": "Independent TESScut pixel aperture extraction",
+    "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet90563464\\tesscut_s066.fits",
+    "sha256": "f7cd96d14ad84fadcd71440d4b145491b2f413ea6ccfde3608065f447dd2cee5",
+    "identity": {
+      "header_sector": 66,
+      "target_xy": [
+        7.794729821745857,
+        7.126871080414592
+      ],
+      "target_coordinate_source": "Gaia target coordinate projected through cutout WCS"
+    },
+    "measurements": [
+      {
+        "tc": 3102.4189362696907,
+        "depth": 0.12517017126083374,
+        "n_in": 79,
+        "n_pre": 132,
+        "n_post": 132
+      },
+      {
+        "tc": 3117.653155050792,
+        "depth": 0.12472677230834961,
+        "n_in": 79,
+        "n_pre": 132,
+        "n_post": 126
+      }
+    ],
+    "note": "3x3 target aperture, per-cadence faint-pixel background; core medians versus local pre/post baseline; same TESS images, independent extraction, depth not model corrected; event centers use QLP-derived period and cycle counts",
+    "archive_inventory_error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "156851362",
+    "sector": 72,
+    "provenance": "SPOC",
+    "uri": "mast:TESS/product/tess2023315124025-s0072-0000000156851362-0267-s_lc.fits",
+    "sha256": "598c649414d427eb734dda145fa6371d7deea198f6fcb728fc57c5126a1004b6",
+    "measurements": [
+      {
+        "tc": 3265.649055507411,
+        "depth": 0.11822442665698127,
+        "formal_error": 0.00028976788969866117,
+        "n_in": 127,
+        "column": "SAP_FLUX"
+      },
+      {
+        "tc": 3281.7820829915127,
+        "depth": 0.12297911890287493,
+        "formal_error": 0.00028756822712174603,
+        "n_in": 128,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 156851362,
+      "header_OBJECT": "TIC 156851362",
+      "header_SECTOR": 72,
+      "header_RA_OBJ": 148.651791357846,
+      "header_DEC_OBJ": 13.6185256401421,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "273177449",
+    "sector": 81,
+    "provenance": "Independent TESScut pixel aperture extraction",
+    "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet273177449\\tesscut_s081.fits",
+    "sha256": "c9ba3f8174f6f32ff4a93c4e3da90370c16e1f6fa75ce39d85c6bcbda0372652",
+    "identity": {
+      "header_sector": 81,
+      "target_xy": [
+        7.412663307593448,
+        7.1057125734254
+      ],
+      "target_coordinate_source": "Gaia target coordinate projected through cutout WCS"
+    },
+    "measurements": [
+      {
+        "tc": 3508.131317655415,
+        "depth": 0.1194847822189331,
+        "n_in": 47,
+        "n_pre": 78,
+        "n_post": 78
+      },
+      {
+        "tc": 3513.419448453357,
+        "depth": 0.09451544284820557,
+        "n_in": 11,
+        "n_pre": 74,
+        "n_post": 55
+      },
+      {
+        "tc": 3518.7075792512983,
+        "depth": 0.11673957109451294,
+        "n_in": 47,
+        "n_pre": 78,
+        "n_post": 72
+      },
+      {
+        "tc": 3523.99571004924,
+        "depth": 0.11910873651504517,
+        "n_in": 47,
+        "n_pre": 78,
+        "n_post": 78
+      },
+      {
+        "tc": 3529.2838408471816,
+        "depth": 0.11979156732559204,
+        "n_in": 46,
+        "n_pre": 78,
+        "n_post": 77
+      }
+    ],
+    "note": "3x3 target aperture, per-cadence faint-pixel background; core medians versus local pre/post baseline; same TESS images, independent extraction, depth not model corrected; event centers use QLP-derived period and cycle counts",
+    "archive_inventory_error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "144500102",
+    "sector": 98,
+    "provenance": "Independent TESScut pixel aperture extraction",
+    "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet144500102\\tesscut_s098.fits",
+    "sha256": "40093cfe4ceed6592e1eaad911530727b66a76b5b50e3d81cc5f9d51fcc1f7f8",
+    "identity": {
+      "header_sector": 98,
+      "target_xy": [
+        7.828699861597151,
+        7.147652888216914
+      ],
+      "target_coordinate_source": "Gaia target coordinate projected through cutout WCS"
+    },
+    "measurements": [
+      {
+        "tc": 3990.3142730884206,
+        "depth": 0.12568384408950806,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 3995.557059666997,
+        "depth": 0.13172531127929688,
+        "n_in": 51,
+        "n_pre": 98,
+        "n_post": 57
+      },
+      {
+        "tc": 4000.799846245573,
+        "depth": 0.12670433521270752,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 4006.042632824149,
+        "depth": 0.1266782283782959,
+        "n_in": 59,
+        "n_pre": 99,
+        "n_post": 98
+      },
+      {
+        "tc": 4011.2854194027254,
+        "depth": 0.12755393981933594,
+        "n_in": 58,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 4016.5282059813017,
+        "depth": 0.12795329093933105,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 81
+      },
+      {
+        "tc": 4021.770992559878,
+        "depth": 0.12698709964752197,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 4027.0137791384536,
+        "depth": 0.12585091590881348,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 4032.25656571703,
+        "depth": 0.1259247064590454,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      },
+      {
+        "tc": 4037.499352295606,
+        "depth": 0.12770229578018188,
+        "n_in": 59,
+        "n_pre": 94,
+        "n_post": 96
+      },
+      {
+        "tc": 4042.7421388741823,
+        "depth": 0.12812590599060059,
+        "n_in": 59,
+        "n_pre": 98,
+        "n_post": 98
+      }
+    ],
+    "note": "3x3 target aperture, per-cadence faint-pixel background; core medians versus local pre/post baseline; same TESS images, independent extraction, depth not model corrected; event centers use QLP-derived period and cycle counts",
+    "archive_inventory_error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "177285916",
+    "sector": 88,
+    "provenance": "Independent TESScut pixel aperture extraction",
+    "source_path": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet177285916\\tesscut_s088.fits",
+    "sha256": "203a78acf3eb42de92ca092f276fb57ed216c3cc10d68d6f50bfd54f2625bfe5",
+    "identity": {
+      "header_sector": 88,
+      "target_xy": [
+        7.910751154363421,
+        7.316390626650431
+      ],
+      "target_coordinate_source": "Gaia target coordinate projected through cutout WCS"
+    },
+    "measurements": [
+      {
+        "tc": 3691.679228744997,
+        "depth": 0.12779605388641357,
+        "n_in": 59,
+        "n_pre": 99,
+        "n_post": 100
+      },
+      {
+        "tc": 3698.10877523171,
+        "depth": 0.12744802236557007,
+        "n_in": 60,
+        "n_pre": 100,
+        "n_post": 99
+      },
+      {
+        "tc": 3704.5383217184226,
+        "depth": 0.12732559442520142,
+        "n_in": 60,
+        "n_pre": 99,
+        "n_post": 100
+      },
+      {
+        "tc": 3710.9678682051344,
+        "depth": 0.127757728099823,
+        "n_in": 60,
+        "n_pre": 100,
+        "n_post": 99
+      },
+      {
+        "tc": 3717.397414691847,
+        "depth": 0.12597006559371948,
+        "n_in": 52,
+        "n_pre": 81,
+        "n_post": 83
+      }
+    ],
+    "note": "3x3 target aperture, per-cadence faint-pixel background; core medians versus local pre/post baseline; same TESS images, independent extraction, depth not model corrected; event centers use QLP-derived period and cycle counts",
+    "archive_inventory_error": "MAST product inventory timed out"
+  }
+]

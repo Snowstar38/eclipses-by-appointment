@@ -1,0 +1,1 @@
+The batch lead reviewed the deciding evidence and prepared the reports. A fresh GPT-6.1 Terra helper measured representative raw events and checked independent extractions; the project coordinator set the review scope. No human personal name is included.

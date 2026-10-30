@@ -1,0 +1,17 @@
+# TIC 89329656
+
+CONFIRMED. Execution: complete. Scoped novelty: no identified prior EB.
+
+Raw QLP SAP_FLUX with QUALITY=0 yields 6 representative events in sectors [8, 61, 90]; depths 88.18–92.47 ppt. Quadratic local baseline plus trapezoid, native cadence, derives P=5.907986359 d from event centres. Timing RMS=4.623 min; unweighted and conditional on the search cycle counts, without a fitted uncertainty. For two-event solutions, near-zero RMS is algebraic and is not a precision claim. The lead inspected the raw event panel.
+
+Cached difference-image deficit peaks at the target pixel; target/deficit distance 1.852 arcsec. All flux-capable catalogued neighbours have deficit centres closer to the target and own-pixel losses substantially below the losses required if they supplied the eclipse. Centroid displacements are descriptive, without calibrated uncertainty; G/TESS band differences, uncatalogued blends and PSF modelling limit the test. 
+
+Capable neighbour Gaia DR3 5314677404925988608: catalog separation 49.19 arcsec, required loss 61.43%, own-pixel loss 1.10%, deficit distance 52.85 arcsec. Pixel losses include mixed source flux and are supporting spatial diagnostics.
+
+TESS-SPOC sector 8 confirms event depths 84.19, 83.53 ppt. Fixed QLP event shape with independently extracted SAP flux; uninflated formal depth errors (ppt): 0.641, 0.45. FITS TIC/sector headers and padded TIC URI identity pass. Input paths/URIs and SHA256 are preserved in raw-evidence/independent-results.json.
+
+Gaia SB1 P=5.907958435 d, difference 0.13 Gaia sigma. Closest edge-on conjunction A offset 0.01662 d versus linear full SB1 covariance error 0.05077 d; no significant timing contradiction. Observed median duration 3.50 h versus approximate central main-sequence feasibility 4.79 h; mass function 0.02211 solar masses. This is a geometry feasibility check, not a fitted stellar solution or measured inclination. Linear propagation can be approximate for nearly circular orbits.
+
+Seven-scope central catalogue matrix marks coverage complete and no identified prior EB. SIMBAD SB* alone is not an EB type; Kostov table2 is unvetted. Historical five-arcsecond batteries retain condensed rather than raw per-query receipts; VSX/ASAS-SN cones are 60 arcsec. Scope and alternate-identity limitations apply. See catalogue-review.json and ../shared-catalogues/README.md for exact coverage.
+
+Evidence: raw-evidence/raw-events.json, raw-evidence/qlp-manifest.json, source-review.json, gaia-geometry.json, catalogue-review.json, and provenance hashes.

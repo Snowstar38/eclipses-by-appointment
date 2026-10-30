@@ -1,0 +1,69 @@
+{
+  "tic": "417917895",
+  "sector": 15,
+  "input_cutout": "C:\\Home\\sky\\data\\sb1-scale-c3\\vet417917895\\tesscut_s015.fits",
+  "input_sha256": "ca4ba12a2cebe890215058bc9e937a4a32ab037dbf8da181ac45f3d348771251",
+  "target_px": [
+    7.4958076830554,
+    7.350922985347209
+  ],
+  "neighbour": {
+    "source_id": "1584822355036510720",
+    "sep": 12.432912188742161,
+    "G": 12.54699,
+    "depth_needed": 0.9167456439848842,
+    "possible": true,
+    "px": [
+      7.610275367651457,
+      6.768531832293759
+    ],
+    "frac_loss_at_pixel": 0.1045629252593574
+  },
+  "measurements": [
+    {
+      "label": "first_half",
+      "n_events": 1,
+      "centroid": [
+        7.354853738377085,
+        7.378956517349353
+      ],
+      "target_distance_arcsec": 3.018007124854027,
+      "neighbour_distance_arcsec": 13.89588430537765
+    },
+    {
+      "label": "second_half",
+      "n_events": 1,
+      "centroid": [
+        7.367755935711385,
+        7.4307147594976115
+      ],
+      "target_distance_arcsec": 3.168424522374906,
+      "neighbour_distance_arcsec": 14.809123527117336
+    },
+    {
+      "label": "event_0",
+      "n_events": 1,
+      "centroid": [
+        7.354853738377085,
+        7.378956517349353
+      ],
+      "target_distance_arcsec": 3.018007124854027,
+      "neighbour_distance_arcsec": 13.89588430537765
+    },
+    {
+      "label": "event_1",
+      "n_events": 1,
+      "centroid": [
+        7.367755935711385,
+        7.4307147594976115
+      ],
+      "target_distance_arcsec": 3.168424522374906,
+      "neighbour_distance_arcsec": 14.809123527117336
+    }
+  ],
+  "shifted_empirical_template_fractional_residual": {
+    "target": 0.12792514575290134,
+    "neighbour": 0.5954015414359484
+  },
+  "note": "Existing diffstack primitives; split-stack repeatability and shifted blended out-of-eclipse image diagnostic, not calibrated PRF likelihood; own-pixel mixed flux is not an exclusion."
+}

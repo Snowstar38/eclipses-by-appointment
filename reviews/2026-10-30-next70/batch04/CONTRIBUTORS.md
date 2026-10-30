@@ -1,0 +1,1 @@
+The batch lead adjudicated sources, Gaia orbit geometry and reports. A fresh GPT-6.1 Terra helper independently reviewed raw eclipses and measured an independent reduction. The project coordinator set the review scope.

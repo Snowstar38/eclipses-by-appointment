@@ -1,0 +1,275 @@
+[
+  {
+    "tic": "417917895",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "162075402",
+    "sector": 80,
+    "provenance": "TARS",
+    "uri": "mast:HLSP/tars/sec_80_cam_1_ccd_4/hlsp_tars_tess_ffi_s0080-0000000162075402_tess_v01_lc.fits",
+    "sha256": "2d53408eceefdfc33237968acd13ac097511600cfd11ea13c0ea65787f47dcbe",
+    "measurements": [
+      {
+        "tc": 3481.458276333563,
+        "depth": 0.13185773720734587,
+        "formal_error": 0.0006664273293215628,
+        "n_in": 74,
+        "column": "FLUX"
+      },
+      {
+        "tc": 3502.7689633333257,
+        "depth": 0.11762662501529939,
+        "formal_error": 0.0005773461380464561,
+        "n_in": 75,
+        "column": "FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 162075402,
+      "header_OBJECT": null,
+      "header_SECTOR": 80,
+      "header_RA_OBJ": null,
+      "header_DEC_OBJ": null,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "FLUX"
+    ],
+    "quality_filter": "none (column missing)",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "29741740",
+    "sector": 12,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0012/target/0000/0000/2974/1740/hlsp_tess-spoc_tess_phot_0000000029741740-s0012_tess_v1_lc.fits",
+    "sha256": "9d2932f5f532a985e304813564852d43ba28d712a30d0e473a922ac8702339a4",
+    "measurements": [
+      {
+        "tc": 1649.30093687745,
+        "depth": 0.12472985120557595,
+        "formal_error": 0.0007850194769782211,
+        "n_in": 13,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 29741740,
+      "header_OBJECT": "TIC 29741740",
+      "header_SECTOR": 12,
+      "header_RA_OBJ": 249.327863860984,
+      "header_DEC_OBJ": -53.9361546319132,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "48829357",
+    "sector": 9,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0009/target/0000/0000/4882/9357/hlsp_tess-spoc_tess_phot_0000000048829357-s0009_tess_v1_lc.fits",
+    "sha256": "841173682fb073db1eaf2818f9485f91cae3dccc544b087c95d2b623db85b5f2",
+    "measurements": [
+      {
+        "tc": 1559.4400929091105,
+        "depth": 0.14849866683003157,
+        "formal_error": 0.0004322549072800158,
+        "n_in": 18,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 48829357,
+      "header_OBJECT": "TIC 48829357",
+      "header_SECTOR": 9,
+      "header_RA_OBJ": 162.844147096058,
+      "header_DEC_OBJ": -35.162343369764,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "115549556",
+    "sector": 17,
+    "provenance": "TESS-SPOC",
+    "uri": "mast:HLSP/tess-spoc/s0017/target/0000/0001/1554/9556/hlsp_tess-spoc_tess_phot_0000000115549556-s0017_tess_v1_lc.fits",
+    "sha256": "eaef00ad8f04a1ca5743e528f3de8686890efb139abd61cdfad3137f0cc27fdd",
+    "measurements": [
+      {
+        "tc": 1769.5148019870064,
+        "depth": 0.14054685694446942,
+        "formal_error": 0.0005656487126647374,
+        "n_in": 11,
+        "column": "SAP_FLUX"
+      },
+      {
+        "tc": 1782.6792251075979,
+        "depth": 0.14072486481047258,
+        "formal_error": 0.000665217866565596,
+        "n_in": 11,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 115549556,
+      "header_OBJECT": "TIC 115549556",
+      "header_SECTOR": 17,
+      "header_RA_OBJ": 7.94249431957821,
+      "header_DEC_OBJ": 36.8711701423097,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "90563464",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "156851362",
+    "sector": 72,
+    "provenance": "SPOC",
+    "uri": "mast:TESS/product/tess2023315124025-s0072-0000000156851362-0267-s_lc.fits",
+    "sha256": "598c649414d427eb734dda145fa6371d7deea198f6fcb728fc57c5126a1004b6",
+    "measurements": [
+      {
+        "tc": 3265.649055507411,
+        "depth": 0.11822442665698127,
+        "formal_error": 0.00028976788969866117,
+        "n_in": 127,
+        "column": "SAP_FLUX"
+      },
+      {
+        "tc": 3281.7820829915127,
+        "depth": 0.12297911890287493,
+        "formal_error": 0.00028756822712174603,
+        "n_in": 128,
+        "column": "SAP_FLUX"
+      }
+    ],
+    "identity": {
+      "header_TICID": 156851362,
+      "header_OBJECT": "TIC 156851362",
+      "header_SECTOR": 72,
+      "header_RA_OBJ": 148.651791357846,
+      "header_DEC_OBJ": 13.6185256401421,
+      "uri_contains_padded_tic": true,
+      "header_tic_matches": true,
+      "header_sector_matches": true
+    },
+    "input_columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ],
+    "quality_filter": "QUALITY == 0",
+    "note": "fixed QLP-measured event shape; uninflated formal errors"
+  },
+  {
+    "tic": "273177449",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "144500102",
+    "error": "MAST product inventory timed out"
+  },
+  {
+    "tic": "177285916",
+    "error": "MAST product inventory timed out"
+  }
+]

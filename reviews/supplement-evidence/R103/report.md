@@ -1,0 +1,25 @@
+# TIC 364120441
+
+CONFIRMED. Execution: complete. Scoped novelty: no identified prior EB.
+
+Raw QLP SAP_FLUX with QUALITY=0 yields 5 representative events in sectors [16, 57, 86]; depths 100.73–104.96 ppt. Quadratic local baseline plus trapezoid, native cadence, derives P=9.320238676 d from event centres. Timing RMS=0.229 min; unweighted and conditional on the search cycle counts, without a fitted uncertainty. For two-event solutions, near-zero RMS is algebraic and is not a precision claim. The lead inspected the raw event panel.
+
+Cached eclipse deficit peaks at the target pixel, offset 3.013 arcsec. The capable neighbour is spatially distinct, farther from the eclipse deficit, with own-pixel fractional loss much below that needed to supply the eclipse. Centroid displacement is descriptive; G/TESS band differences, unresolved or uncatalogued blends and PSF modelling limit this test. High PSF residual limits characterization; attribution uses the deficit peak and neighbour comparison. Lead inspected the cached difference-image panel.
+
+Capable neighbour Gaia DR3 2276488904907517312: catalog separation 31.62 arcsec, required loss 15.34%, own-pixel loss 0.39%, deficit distance 35.25 arcsec. Pixel losses include mixed source flux and are supporting spatial diagnostics.
+
+Independent TESScut pixel aperture extraction sector 20 confirms event depths 37.71, 35.73, 35.54 ppt. Independent 3x3 target aperture with per-cadence faint-pixel background; core medians versus local pre/post baseline, without formal errors or dilution correction. This uses the same TESS images through an independent extraction pipeline, not an independent observation. Gaia coordinates projected through the cutout WCS verify the target position and header sector. Input paths/URIs and SHA256 are preserved in raw-evidence/independent-results.json.
+
+Gaia SB1 P=9.320765417 d, difference -0.78 Gaia sigma. Closest edge-on conjunction A offset -0.02559 d versus linear full SB1 covariance error 0.11851 d; no significant timing contradiction. Observed median duration 5.51 h versus approximate central main-sequence feasibility 6.15 h; mass function 0.03363 solar masses. This is a geometry feasibility check, not a fitted stellar solution or measured inclination. Linear propagation can be approximate for nearly circular orbits.
+
+Seven-scope central catalogue matrix status is no identified prior EB; coverage is yes. See the target-specific matches in catalogue-review.json. SIMBAD SB* alone is not an EB type; Kostov table2 is unvetted. Historical five-arcsecond batteries retain condensed rather than raw per-query receipts; VSX/ASAS-SN cones are 60 arcsec. Scope and alternate-identity limitations apply. See catalogue-review.json and ../shared-catalogues/README.md for exact coverage.
+
+Evidence: raw-evidence/raw-events.json, raw-evidence/qlp-manifest.json, source-review.json, gaia-geometry.json, catalogue-review.json, and provenance hashes.
+
+The independent sector-20 aperture depths are only 35.5–37.7 ppt versus about 101 ppt QLP depths in sectors16/86. The reductions show repeated eclipses at matching phases but do not agree in depth. Aperture/sector dilution, systematics and differing measurement definitions are possible contributors; no cause is established. Core-median depths can underestimate the deepest point of V-shaped events. The spatial deficit test, rather than assumed equal depths, supplies attribution evidence.
+
+Independent measurements use core medians rather than the QLP trapezoid depth, so numerical equality of the depths is not assumed. Product-inventory failures are preserved; this check uses an independent aperture extraction, not a separately delivered pipeline product.
+
+Bounded same-sector check: sector20 QLP core depths103.37,98.69,95.98ppt versus3x3 depths37.71,35.73,35.54ppt at the same primary epochs. Pixel1x1 depths69.24–75.92ppt and5x5 depths26.59–27.72ppt demonstrate strong aperture dependence. The G10.43 neighbour is about2.07 times the G flux of the G11.22 target, sufficient to make this dilution plausible. Deficit target/neighbour distances are3.01/35.25arcsec. See DEPTH-SANITY-364120441.md and depth-sanity-364120441.json for counts, provenance and limitations; source/timing evidence supports the target.
+
+Separate central open-release comparison found no exact Gaia/TIC overlap in the available track3/dossier tables; overlap with the embargoed 93-system release is unknown. This is not an additional EB gate. See ../shared-catalogues/README.md.

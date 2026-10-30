@@ -1,0 +1,9 @@
+# TIC 364120441 bounded depth check
+
+Sector20 QLP SAP_FLUX was retrieved with TIC/sector headers checked, and compared with the independently extracted TESScut apertures at the same three primary epochs, BTJD1843.395863,1852.716102,1862.036340. Identical phase windows yield QLP core depths103.37,98.69,95.98ppt and 3x3 pixel depths37.71,35.73,35.54ppt. Thus the discrepancy persists at the same epochs and is not evidence for changing events or a cycle mismatch.
+
+The pixel depth depends strongly on aperture: 1x1 core depths75.92,72.90,69.24ppt; 5x5 depths27.72,26.71,26.59ppt. The first event baseline grows from2716electrons/s in1x1 to17013 in3x3 and26389 in5x5, while lost flux grows only from206 to642 and731electrons/s. This directly supports aperture contamination as a major contributor. The capable neighbour at31.62arcsec has G10.4295 versus target G11.2213, approximately2.07 times the target G flux. If both are admitted comparably, a target eclipse is diluted by approximately1/(1+2.07)=0.326, close to the measured3x3/QLP ratio0.36–0.37. Bandpass and PSF/aperture throughput differ, so this is a plausibility calculation, not an exact correction.
+
+The disappearing-light centroid is3.01arcsec from the target and35.25arcsec from this neighbour; the peak is the target pixel. The neighbour pixel loses0.393% versus15.34% required in the original flux feasibility test. Together with the strong aperture-depth trend, these data support the target as the eclipsing source, with dilution affecting the independent aperture. No timing/source contradiction emerged; CONFIRMED remains appropriate. Equal-depth agreement is not claimed.
+
+Reproduction: depth_sanity.py. Exact QLP URI/SHA256, event depths/baselines, aperture counts and source geometry are in depth-sanity-364120441.json; the TESScut path/SHA256 are in raw-evidence/independent-results.json. The newly retrieved QLP file is included in the batch manifest.

@@ -1,0 +1,3 @@
+﻿# Prior coverage recovery
+
+The exact 16 physically confirmed R051–R070 objects and ten physically confirmed C objects were queried against VizieR II/366/catv2021 with 60-arcsec cones on 2026-10-30 UTC. All 26 succeeded and returned zero rows; raw response files, URL, timestamps, table identifiers and SHA-256 are retained in asassn/ and asassn-receipts.json. R source identifiers and coordinates come from shared-full-review/targets-selected.json; C coordinates from c9a-return/batch/targets.csv. R physical status selection comes from reviewed-extension.csv; C selection comes from c9a.json. roster.json maps review IDs to TICs. This resolves these ASAS-SN gaps only; C IJspeert 2024 and vetted Kostov table3/4 checks remain unresolved pending separate validated results.

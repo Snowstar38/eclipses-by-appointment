@@ -1,0 +1,18 @@
+# TIC 45006630
+
+CONFIRMED. Execution: complete. Scoped novelty: no identified prior EB.
+
+Raw QLP SAP_FLUX with QUALITY=0 yields 6 representative events in sectors [12, 99, 103]; depths 119.63 to 136.51 ppt. Quadratic local baseline plus trapezoid, native cadence, derives P=5.262707767 d from event centres. Timing RMS=2.709 min; unweighted and conditional on the search cycle counts, without a fitted uncertainty. For two-event solutions, near-zero RMS is algebraic and is not a precision claim. The helper and lead inspected the representative raw event panel and reviewed the deciding measurements; sector-dependent aperture dilution and baseline changes remain in the depths.
+
+Cached difference-image deficit peaks at the target pixel; target/deficit distance 6.552 arcsec. No Gaia G-band flux-capable neighbour within the cached 60 arcsec search. Centroid displacements are descriptive, without calibrated uncertainty; G/TESS band differences, uncatalogued blends and PSF modelling limit the test. High PSF fractional residual is retained as a characterization limitation; attribution rests on the deficit peak and neighbour comparison, not a formal PSF likelihood. 
+
+Independent TESScut pixel aperture extraction sector 38 confirms event depths 119.54, 119.91, 120.42, 121.88, 123.00 ppt. Independent 3x3 target aperture with per-cadence faint-pixel background; core medians versus local pre/post baseline, without formal errors or dilution correction. This uses the same TESS images through an independent extraction pipeline, not an independent observation. Gaia coordinates projected through the cutout WCS verify the target position and header sector. Input paths/URIs and SHA256 are preserved in raw-evidence/independent-results.json.
+
+Gaia SB1 P=5.263085637 d, difference -1.77 Gaia sigma. Closest edge-on conjunction A offset -0.12775 d versus linear full SB1 covariance error 0.05735 d; timing differences and propagation limits are retained. Observed median duration 4.98 h versus approximate central main-sequence feasibility 5.93 h; mass function 0.05140 solar masses. This is a geometry feasibility check, not a fitted stellar solution or measured inclination. Linear propagation can be approximate for nearly circular orbits.
+
+Seven-scope central catalogue matrix marks coverage complete and no identified prior EB for this target. SIMBAD SB* alone is not an EB type; Kostov table2 is unvetted. Historical five-arcsecond batteries retain condensed rather than raw per-query receipts; VSX/ASAS-SN cones are 60 arcsec. Scope and alternate-identity limitations apply. See catalogue-review.json and ../shared-catalogues/README.md for exact coverage.
+
+Evidence: raw-evidence/raw-events.json, raw-evidence/qlp-manifest.json, source-review.json, gaia-geometry.json, catalogue-review.json, and provenance hashes.
+The conjunction difference is 2.23 times the linear covariance error. Together with the photometric/Gaia period agreement, localized repeated eclipses and independent reduction, this is retained as a moderate timing tension and characterization limitation, rather than a demonstrated orbit contradiction.
+
+Contributor note: an automated photometry helper measured representative raw events and checked independent reductions; the lead reviewed the deciding evidence.

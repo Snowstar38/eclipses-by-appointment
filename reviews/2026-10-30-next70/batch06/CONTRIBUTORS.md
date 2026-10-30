@@ -1,0 +1,1 @@
+The batch lead adjudicated source attribution, Gaia orbit geometry, targeted depth sanity and reports. A fresh GPT-6.1 Terra helper reviewed raw repetitions and independently extracted flux. The project coordinator set the scope.

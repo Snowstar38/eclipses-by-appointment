@@ -1,0 +1,17 @@
+# TIC 194733085: CONFIRMED
+
+Repeated deep eclipses localized to the target, a period measured from raw flux and independent photometric extraction support a target eclipsing binary. Review completed under `../../../BRIEF.md`; characterization limitations below do not erase this evidence.
+
+Raw QLP SAP_FLUX, QUALITY=0, representative local quadratic-plus-trapezoid fits: 2 accepted events in sectors [18, 58]; depths 68.79 to 69.27 ppt, durations 8.33 to 8.36 h. Eclipse-derived period 9.56087231 d, epoch 1800.875773 BTJD; timing residual RMS 0.00 min. No precision period error inferred. Lead inspected the first/last raw event panels; repeat eclipse structure survives local baselines. Underlying individual times, depths, fit edges and method: `../../raw-evidence/raw-events.json`; full20-event panel: `../../raw-evidence/raw-event-panels.png`.
+
+Independent TESS-SPOC sector 18 raw SAP_FLUX reproduces depths 65.17 ppt at the QLP event times. FITS TIC/sector and product URI were checked; QUALITY=0 where supplied. Product `mast:HLSP/tess-spoc/s0018/target/0000/0001/9473/3085/hlsp_tess-spoc_tess_phot_0000000194733085-s0018_tess_v1_lc.fits`, SHA256 `87777d68458b407f0629f971b2b59c4cbda0ed9c685b866042e7d9d5b0feab49`. Fixed QLP shape; reported product errors are uninflated formal errors, with aperture/dilution differences retained. Same TESS photons, independent reduction.
+
+Difference imaging: cached sector58, 2 events, deficit-target distance2.27arcsec and peak[8, 8] versus target pixel[8, 8]. Lead visually inspected target and neighbour maps. No Gaia neighbour within the tested60arcsec cone can supply the eclipse at its catalogue G flux under a total-eclipse upper bound. See `../../source-review.json` and original pixel receipts in `../../raw-evidence/194733085/`; PSF residual0.071 is descriptive and includes field contamination.
+
+Exact Gaia DR3 source236071679131396864: SB1 P=9.55897526 +/- 0.00129118d, e=0.0099, omega=176.97deg. Closest conjunctionA at first fitted epoch: observed-minus-Gaia+0.1794d, linear full-covariance error0.1704d. The eclipse period projected back near BTJD389 gives offset-0.1014d. Conditional duration feasibility: observed median8.35h is below the central crossing estimate9.17h using TIC R1=2.25742Rsun, M1=1.26Msun and minimum companion mass0.617Msun with a main-sequence radius approximation. Shorter grazing chords are feasible. This is a consistency check, not a unique geometry fit. See `../../gaia-geometry.json` for covariance assumptions and alternatives.
+
+No target prior EB established in the seven scoped checks; coverage limited to recorded services, identifiers and catalogue versions. SIMBAD primary is SB*, Gaia DR3 EB has no exact row; VSX exact rows: `[]`; ASAS-SN exact rows: `[]`. Prsa, IJspeert and vetted Kostov tables3/4 have recorded original five-arcsec negative checks; Kostov table2 candidates do not establish prior EB. Nearby catalogue variables are separate sources.  Provenance and limits: `../../../shared-catalogues/coverage-matrix.csv` and README.
+
+Representative events use the original search cycle counts, native cadence without integration, and local quadratic baselines. Depths/durations are conditional measurements, not precision stellar parameters. Two-event ephemerides have no empirical residual uncertainty. Colour, aperture throughput, unresolved companions and untested faint/distant sources limit localization; no calibrated centroid error is claimed.
+
+Next check: joint RV/eclipse analysis with improved stellar dimensions; revisit Gaia orbit drift where noted.

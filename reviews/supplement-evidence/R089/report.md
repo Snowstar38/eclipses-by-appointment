@@ -1,0 +1,21 @@
+# TIC 309981203
+
+CONFIRMED. Execution: complete. Scoped novelty: no identified prior EB.
+
+Raw QLP SAP_FLUX with QUALITY=0 yields 6 representative events in sectors [11, 65, 101]; depths 68.83–92.29 ppt. Quadratic local baseline plus trapezoid, native cadence, derives P=7.510847371 d from event centres. Timing RMS=1.317 min; unweighted and conditional on the search cycle counts, without a fitted uncertainty. For two-event solutions, near-zero RMS is algebraic and is not a precision claim. The lead inspected the raw event panel.
+
+Cached difference-image deficit peaks at the target pixel; target/deficit distance 3.369 arcsec. All flux-capable catalogued neighbours have deficit centres closer to the target and own-pixel losses substantially below the losses required if they supplied the eclipse. Centroid displacements are descriptive, without calibrated uncertainty; G/TESS band differences, uncatalogued blends and PSF modelling limit the test. High PSF fractional residual is retained as a characterization limitation; attribution rests on the deficit peak and neighbour comparison, not a formal PSF likelihood. Lead inspected the cached three-panel image.
+
+QLP fitted depth varies across sectors (about69-92 ppt); pixel aperture depths are lower (about45 ppt). Aperture dilution/systematics are retained; depth consistency is not assumed.
+
+Capable neighbour Gaia DR3 6053400814785975424: catalog separation 18.10 arcsec, required loss 23.10%, own-pixel loss 2.21%, deficit distance 16.72 arcsec. Pixel losses include mixed source flux and are supporting spatial diagnostics.
+
+Capable neighbour Gaia DR3 6053776126202785024: catalog separation 39.16 arcsec, required loss 15.18%, own-pixel loss 0.73%, deficit distance 46.10 arcsec. Pixel losses include mixed source flux and are supporting spatial diagnostics.
+
+Independent TESScut pixel aperture extraction sector 37 confirms event depths 44.84, 44.96, 44.76, 45.43 ppt. Independent 3x3 target aperture with per-cadence faint-pixel background; core medians versus local pre/post baseline, without formal errors or dilution correction. This uses the same TESS images through an independent extraction pipeline, not an independent observation. Gaia coordinates projected through the cutout WCS verify the target position and header sector. Input paths/URIs and SHA256 are preserved in raw-evidence/independent-results.json.
+
+Gaia SB1 P=7.510519276 d, difference 0.94 Gaia sigma. Closest edge-on conjunction A offset 0.03433 d versus linear full SB1 covariance error 0.05965 d; no significant timing contradiction. Observed median duration 4.18 h versus approximate central main-sequence feasibility 4.97 h; mass function 0.01878 solar masses. This is a geometry feasibility check, not a fitted stellar solution or measured inclination. Linear propagation can be approximate for nearly circular orbits.
+
+Seven-scope central catalogue matrix marks coverage complete and no identified prior EB. SIMBAD SB* alone is not an EB type; Kostov table2 is unvetted. Historical five-arcsecond batteries retain condensed rather than raw per-query receipts; VSX/ASAS-SN cones are 60 arcsec. Scope and alternate-identity limitations apply. See catalogue-review.json and ../shared-catalogues/README.md for exact coverage.
+
+Evidence: raw-evidence/raw-events.json, raw-evidence/qlp-manifest.json, source-review.json, gaia-geometry.json, catalogue-review.json, and provenance hashes.
