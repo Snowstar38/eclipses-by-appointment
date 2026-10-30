@@ -1,0 +1,9 @@
+# Evidence helper audit
+
+The evidence analyst used cached search timings as event seeds, extracted quality-zero 3×3 TESScut aperture time series with a faint-pixel median background, fitted individual events with local quadratic baselines and trapezoids, and regenerated difference images with the cached Gaia neighbor list. The analyst downloaded same-sector QLP light curves directly from MAST and independently fitted quality-zero SAP flux events. The exact source paths, download URIs, source hashes, fit results and reproducible scripts are in this directory; artifact-hashes.json inventories the outputs. Event-panel plots show individual QLP events rather than folded curves.
+
+Both reductions use the same TESS FFI photons; they are not independent observations. Period fits are conditional on seed cycle counts, cover representative events in one sector, and do not include uncertainty estimates or finite-exposure integration. A two-event fit has zero residual by construction. Gaia neighbor brightness checks are approximate and cannot rule out unresolved or missing objects; difference centroids have no significance estimate. For TIC 170081245, the 6.570-day event spacing includes alternating primary and secondary eclipses; the orbital period is about twice that spacing, consistent with the Gaia period of about 13.14065 days.
+
+The difference-image script reports its PSF-fit region as 9×9 even when DIFF_FITR=2: the fitr2 run actually uses a central 5×5 region. The 309600815 central fit was rerun after image inspection showed a bright source near the edge of the default region; the fractional residual changed from 0.900 to 0.093. Target positions for 335001355, 170081245, and 427330878 lie close to pixel boundaries, so their adjacent-pixel deficit peaks are not alone evidence of a different source.
+
+An independent evidence analyst extracted pixel time series and regenerated difference images. The analyst used a GPT-6.1 Terra model.

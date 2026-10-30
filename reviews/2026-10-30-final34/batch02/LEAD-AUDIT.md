@@ -1,0 +1,9 @@
+# Lead audit
+
+The lead inspected all ten regenerated three-panel difference images and twenty representative QLP SAP event panels. Repeated sharp eclipses are visible in raw flux. All ten received custom TESScut extraction, local eclipse timing, difference-image attribution, QLP SAP comparison, and nominal Gaia conjunction/duration feasibility review. QLP and TESScut share the same FFI photons. Cached Gaia and seed source files have hashes in raw-events.json; QLP FITS hashes and MAST URIs are in qlp-results.json.
+
+Capable neighbour cases were individually adjudicated:350335402 has a bright blend but disappearing light at the target rather than the G8.90 neighbour;358766055 has a close0.53pixel neighbour so calibrated subpixel limits are retained;37307440 has a capable neighbour displaced about30arcsec from the deficit;382260140 has a capable distant neighbour outside the compact target deficit. Global PSF residuals are not automatic rejection criteria. The helper independently reviewed deciding pixel evidence and midpoint alias tests.
+
+TIC47719859 has a real repeating on-target eclipse sequence, but additional helper raw QLP timings over years show genuine Gaia SB2 orbital association tension. It is PROBABLE with the geometry/association check unresolved. TIC382260140 has a nominal conjunction phase offset .0745; its propagated diagonal timing scale .241d, matching orbital scale and feasible duration support the association with uncertainty retained. No arbitrary sigma veto is used. The other nine are CONFIRMED under the bounded original checks. All ten executions are complete; all scoped catalogue rows have no identified prior EB. No exhaustive literature claim is made.
+
+The lead owns the final physical adjudication. No canonical/public files were edited. User thanks were conveyed to the fresh Terra helper; optional contributor notes may accompany its audit.
