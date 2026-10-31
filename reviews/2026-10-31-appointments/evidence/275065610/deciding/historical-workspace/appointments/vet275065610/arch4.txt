@@ -1,0 +1,57 @@
+vari_eclipsing_binary 0
+vari_summary 2
+    {'solution_id': '375316653866487564', 'source_id': '4551534490352420352', 'num_selected_g_fov': '86', 'mean_obs_time_g_fov': '2235.5539867974367', 'time_duration_g_fov': '956.3228', 'min_mag_g_fov': '17.65537', 'max_mag_g_fov': '17.809042', 'mean_mag_g_fov': '17.769436', 'median_mag_g_fov': '17.771578', 'range_mag_g_fov': '0.15367219', 'trimmed_range_mag_g_fov': '0.07497146', 'std_dev_mag_g_fov': '0.023593301', 'skewness_mag_g_fov': '-1.6040827', 'kurtosis_mag_g_fov': '5.6278834'} sep 118.31496134566764 G 17.771408
+    {'solution_id': '375316653866487564', 'source_id': '4551531294896729984', 'num_selected_g_fov': '82', 'mean_obs_time_g_fov': '2227.5586148312723', 'time_duration_g_fov': '956.3228', 'min_mag_g_fov': '15.17863', 'max_mag_g_fov': '15.214494', 'mean_mag_g_fov': '15.19206', 'median_mag_g_fov': '15.191013', 'range_mag_g_fov': '0.035863202', 'trimmed_range_mag_g_fov': '0.027131416', 'std_dev_mag_g_fov': '0.008183389', 'skewness_mag_g_fov': '0.7636755', 'kurtosis_mag_g_fov': '-0.01449995'} sep 73.19043974582243 G 15.191807
+vari_classifier_result 2
+    {'solution_id': '375316653866487564', 'source_id': '4551531294896729984', 'classifier_name': 'nTransits:5+', 'best_class_name': 'SOLAR_LIKE', 'best_class_score': '0.68336356', 'phot_g_mean_mag': '15.191807', 'sep': '73.19043974582243'} sep 73.19043974582243 G 15.191807
+    {'solution_id': '375316653866487564', 'source_id': '4551534490352420352', 'classifier_name': 'nTransits:5+', 'best_class_name': 'RS', 'best_class_score': '0.07657257', 'phot_g_mean_mag': '17.771408', 'sep': '118.31496134566764'} sep 118.31496134566764 G 17.771408
+nss_two_body_orbit 1
+    {'solution_id': '4338096422163308546', 'source_id': '4551531672853862144', 'nss_solution_type': 'SB1', 'ra': '', 'ra_error': '', 'dec': '', 'dec_error': '', 'parallax': '', 'parallax_error': '', 'pmra': '', 'pmra_error': '', 'pmdec': '', 'pmdec_error': '', 'a_thiele_innes': ''} sep 0.07383167372690602 G 11.329544
+nb45 [{'source_id': '4551531565476021504', 'ra': '268.3966583047084', 'dec': '18.8117836457594', 'phot_g_mean_mag': '12.112813', 'bp_rp': '1.4875431', 'parallax': '0.24285096025703573', 'ruwe': '1.1041317', 'non_single_star': '0', 'phot_variable_flag': 'NOT_AVAILABLE', 'radial_velocity': '41.756714', 'rv_amplitude_robust': '6.681637', 'rv_chisq_pvalue': '0.3436793'}]
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-10-22T22:58:24 [V7.6.2]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-22T22:58:24	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.2	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	MaxTuples=50000	
+#INFO	-c=268.409480+18.815020,rs=60.	
+#Constraint -out.add=_r
+
+#RESOURCE=yCat_22790050
+#Name: J/ApJS/279/50
+#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Kostov V.B.	    First author or institution
+#INFO	cites=bibcode:2025ApJS..279...50K	    Article or Data origin sources
+#INFO	journal=ApJS	    Journal name
+#INFO	original_date=2025	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier/bb-8q-1j	    Dataset identifier that can be used for citation
+#INFO	publication_date=2026-09-14	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Table	J_ApJS_279_50_table2:
+#Name: J/ApJS/279/50/table2
+#Title: Identifying information for ~900,000 unvetted and unvalidated targets
+#Column	_r	(F6.3)	Distance from center (268.409480+18.815020)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I10)	[1051/2056031989] TESS Input catalog	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F10.6)	Right Ascension, decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F10.6)	Declination, decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Tmag	(F5.2)	[-1.2/20.63] TESS magnitude	[ucd=phot.mag;em.opt]
+_r	TIC	RAJ2000	DEJ2000	Tmag
+arcsec	 	deg	deg	mag
+------	----------	----------	----------	-----
+ 0.017	 275065610	268.409476	+18.815017	10.89
+45.144	 275065613	268.396682	+18.811780	11.38
+
+
+TOI table: toi,tid,tfopwg_disp,pl_orbper,ra,dec
+

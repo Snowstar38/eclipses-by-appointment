@@ -1,0 +1,12 @@
+s7 q0   box-depth robust sd 423 ppm; dips > max(0.4%, 5 sd): ['1494.74 (3.57%)']
+s7 allq box-depth robust sd 447 ppm; dips > max(0.4%, 5 sd): ['1494.74 (3.57%)']
+s33 q0   box-depth robust sd 342 ppm; dips > max(0.4%, 5 sd): ['2201.83 (5.24%)']
+s33 allq box-depth robust sd 365 ppm; dips > max(0.4%, 5 sd): ['2201.84 (3.96%)']
+s87 q0   box-depth robust sd 469 ppm; dips > max(0.4%, 5 sd): ['3683.47 (4.88%)']
+s87 allq box-depth robust sd 545 ppm; dips > max(0.4%, 5 sd): ['3683.48 (5.09%)']
+B window 3676.80-3678.04: QLP cadences 536 (q==0 0), TARS 536; QLP flags present [np.int64(1073741824)]
+B window 3676.18-3678.66: QLP cadences 980 (q==0 71), TARS 974; QLP flags present [np.int64(0), np.int64(1073741824), np.int64(1073741856)]
+QLP s87 gaps >0.1 d: [(np.float64(3669.518), np.float64(3669.728)), (np.float64(3676.444), np.float64(3676.657)), (np.float64(3683.479), np.float64(3683.692))]
+TARS s87 gaps >0.1 d: [(np.float64(3669.518), np.float64(3669.735)), (np.float64(3676.444), np.float64(3676.664)), (np.float64(3683.478), np.float64(3683.698))]
+  QLP all: 1-h binned scatter in +-2 sigma window 2053 ppm, min bin 0.70% below median
+  TARS: 1-h binned scatter in +-2 sigma window 933 ppm, min bin 0.19% below median

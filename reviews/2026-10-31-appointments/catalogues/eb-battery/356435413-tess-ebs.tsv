@@ -1,0 +1,59 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T19:20:55 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T19:20:55	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=262.775602+22.094614,rs=5.	
+#Constraint -out.add=_r
+
+#RESOURCE=yCat_22580016
+#Name: J/ApJS/258/16
+#Title: TESS Eclipsing Binary stars. I. Sectors 1-26 (Prsa+, 2022)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Prsa A.	    First author or institution
+#INFO	cites=bibcode:2022ApJS..258...16P	    Article or Data origin sources
+#INFO	journal=ApJS	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.22580016	    Dataset identifier that can be used for citation
+#INFO	publication_date=2022-12-16	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Table	J_ApJS_258_16_tess-ebs:
+#Name: J/ApJS/258/16/tess-ebs
+#Title: The Eclipsing Binary stars (TESS-EBs) catalog
+#Column	_r	(F5.3)	Distance from center (262.7756015946+22.0946140407)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(A10)	[91961/2046417955] TESS input catalog (TIC) identification number (tess_id)	[ucd=meta.id;meta.main]
+#Column	m_TIC	(I1)	[1/2] Enumerates distinct ephemerides associated with a single TIC (signal_id) (1)	[ucd=meta.code.multip]
+#Column	RAJ2000	(F14.10)	Right ascension (J2000) (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F14.10)	[-87.67/87.56] Declination (J2000) (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	pmRA	(F9.3)	[-1114/419]? Proper motion in right ascension from TIC	[ucd=pos.pm;pos.eq.ra]
+#Column	pmDE	(F8.3)	[-991/1200]? Proper motion in declination from TIC (pmdec)	[ucd=pos.pm;pos.eq.dec]
+#Column	Tmag	(F6.3)	[2.28/17.66] TESS magnitude from TIC	[ucd=phot.mag;em.opt]
+#Column	BJD0	(F11.6)	[1322/2142]? Barycentric Julian Date of the first primary eclipse; BJD0-2457000	[ucd=time.epoch]
+#Column	e_BJD0	(D13.6)	[0/12.73]? BJD0 uncertainty (bjd0_uncert)	[ucd=stat.error]
+#Column	Per	(F11.7)	[0.048/314.7]? Binary star orbital period (period)	[ucd=meta.id]
+#Column	e_Per	(D14.7)	[0/7.22]? Per uncertainty (period_uncert)	[ucd=stat.error]
+#Column	Morph	(F6.3)	[-1/1.08] Morphology coefficient (morph_coeff) (3)	[ucd=src.morph.param]
+#Column	Wp-pf	(F6.3)	[0.0005/0.41]? Primary eclipse width estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Dp-pf	(F9.3)	[0.00013/27772]? Primary eclipse depth estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phip-pf	(E10.3)	[-0.5/1.5]? Phase estimate of the primary eclipse from the polychain fit to the phased lightcurve	[ucd=time.phase]
+#Column	Ws-pf	(F6.3)	[0.0019/0.41]? Secondary eclipse width estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Ds-pf	(F6.3)	[0.00028/16.95]? Secondary eclipse depth estimate from the polychain fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phis-pf	(F6.3)	[-0.171/1.39]? Phase estimate of the secondary eclipse from the polychain fit to the phased lightcurve	[ucd=time.phase]
+#Column	Wp-2g	(E10.3)	[2.5e-5/0.41]? Primary eclipse width estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Dp-2g	(F6.3)	[0.00034/34.45]? Primary eclipse depth estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phip-2g	(E10.3)	[1e-7/1]? Phase estimate of the primary eclipse from the 2-gaussian fit to the phased lightcurve	[ucd=time.phase]
+#Column	Ws-2g	(F6.3)	[0.00014/0.41]? Secondary eclipse width estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=src.var.amplitude]
+#Column	Ds-2g	(F6.3)	[0.00035/17.91]? Secondary eclipse depth estimate from the 2-gaussian fit to the phased lightcurve, in phase units	[ucd=phys.absorption.opticalDepth]
+#Column	Phis-2g	(E10.3)	[6.3e-7/1]? Phase estimate of the secondary eclipse from the 2-gaussian fit to the phased lightcurve	[ucd=time.phase]
+#Column	TESSebs	(a7)	Display data from the TESS EB live database (htt[local path omitted])	[ucd=meta.ref.url]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]

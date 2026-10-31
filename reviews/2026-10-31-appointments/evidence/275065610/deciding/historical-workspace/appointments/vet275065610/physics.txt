@@ -1,0 +1,16 @@
+mass function f(M) = 0.1173 Msun
+  M1 1.2: m2(i=90) 0.769 Msun; a 48.7 Rsun; r_A 23.8, r_B 73.2 Rsun
+  M1 1.4: m2(i=90) 0.837 Msun; a 50.8 Rsun; r_A 24.9, r_B 76.4 Rsun
+  M1 1.6: m2(i=90) 0.902 Msun; a 52.7 Rsun; r_A 25.8, r_B 79.3 Rsun
+best: a/R1 15.86, k 0.250, b_A 0.819 (R1 units), i 83.95 deg, dt +0.8 min, chi2 1318 (N 1389)
+  -> b_B = 2.51 R1 vs contact limit 1+k = 1.25: B eclipse IMPOSSIBLE
+  stellar density from a/R1 (q->0): 0.096 g/cc = 0.068 rho_sun; for M1+m2 ~ 2.1 Msun R1 ~ 3.14 Rsun
+profile over b_A (refit aR,k,dt):
+  b_A 0.0: dchi2  +2801.8  a/R1  24.34 k 0.200  b_B 0.00 (1+k 1.20)
+  b_A 0.2: dchi2  +2668.3  a/R1  23.85 k 0.201  b_B 0.61 (1+k 1.20)
+  b_A 0.4: dchi2  +2208.6  a/R1  22.38 k 0.204  b_B 1.23 (1+k 1.20)
+  b_A 0.6: dchi2  +1222.5  a/R1  19.66 k 0.212  b_B 1.84 (1+k 1.21)
+  b_A 0.8: dchi2     +2.7  a/R1  16.03 k 0.242  b_B 2.46 (1+k 1.24)
+  b_A 0.9: dchi2    +12.6  a/R1  15.40 k 0.293  b_B 2.76 (1+k 1.29)
+  b_A 1.0: dchi2    +23.3  a/R1  15.27 k 0.361  b_B 3.07 (1+k 1.36)
+B feasibility vs e sin w (b_B/b_A = (1+esw)/(1-esw)); need b_B < 1+k: requires (1+esw)/(1-esw) < 1.53 -> esw < 0.208; Gaia esw 0.508+-0.008

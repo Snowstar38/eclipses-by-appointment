@@ -1,0 +1,17 @@
+corr matrix (P, gamma, K1, e, w, Tp):
+[[ 1.    -0.617 -0.317  0.47   0.564  0.806]
+ [-0.617  1.     0.126 -0.384 -0.576 -0.655]
+ [-0.317  0.126  1.     0.05  -0.171 -0.316]
+ [ 0.47  -0.384  0.05   1.     0.103  0.299]
+ [ 0.564 -0.576 -0.171  0.103  1.     0.874]
+ [ 0.806 -0.655 -0.316  0.299  0.874  1.   ]]
+
+(1) unconditioned, Gaia epoch  effective N = 2000000
+  conj A: predicted - observed eclipse = +9.58 +- 0.92 d  (+10.43 sigma); posterior density at 0: 0.0000 /d
+  conj B: predicted - observed eclipse = +0.66 +- 1.48 d  (+0.45 sigma); posterior density at 0: 0.2524 /d
+
+(2) conditioned on P = 46.1291 (kernel 0.01 d)  effective N = 215507
+  conj A: predicted - observed eclipse = +9.55 +- 1.14 d  (+8.40 sigma); posterior density at 0: 0.0000 /d
+  conj B: predicted - observed eclipse = +0.96 +- 1.17 d  (+0.82 sigma); posterior density at 0: 0.2496 /d
+  A - B phase (weighted): 0.1862 +- 0.0310
+  e cos w 0.5154 +- 0.0564;  e sin w -0.0468 +- 0.0895; e 0.525, w 355.0 deg

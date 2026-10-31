@@ -1,0 +1,35 @@
+f(m) = 0.00671 Msun  (K 11.90+-0.77, e 0.138)
+M1 1.00: m2(i=90) = 0.215 (0.199-0.231) Msun; a = 52.12 Rsun = 0.2424 AU
+M1 1.07: m2(i=90) = 0.224 (0.208-0.240) Msun; a = 53.23 Rsun = 0.2475 AU
+M1 1.14: m2(i=90) = 0.233 (0.216-0.250) Msun; a = 54.29 Rsun = 0.2525 AU
+M1 1.20: m2(i=90) = 0.241 (0.223-0.258) Msun; a = 55.17 Rsun = 0.2566 AU
+
+Implied (1 + e sin w)/sqrt(1-e^2) from v_A = 9.75 +- 0.06 R1/d:
+  M1 1.14 R1 1.053: a/R1 51.6; ratio 1.191 -> e sin w = +0.179 (for e=0.138; d(esw)/dR1 = 1.12 per Rsun); R2 = k R1 = 0.279 Rsun
+  M1 1.14 R1 0.950: a/R1 57.2; ratio 1.074 -> e sin w = +0.064 (for e=0.138; d(esw)/dR1 = 1.12 per Rsun); R2 = k R1 = 0.252 Rsun
+  M1 1.14 R1 1.150: a/R1 47.2; ratio 1.300 -> e sin w = +0.288 (for e=0.138; d(esw)/dR1 = 1.12 per Rsun); R2 = k R1 = 0.305 Rsun
+  M1 1.05 R1 1.000: a/R1 52.9; ratio 1.160 -> e sin w = +0.149 (for e=0.138; d(esw)/dR1 = 1.15 per Rsun); R2 = k R1 = 0.265 Rsun
+  M1 1.20 R1 1.200: a/R1 46.0; ratio 1.335 -> e sin w = +0.322 (for e=0.138; d(esw)/dR1 = 1.10 per Rsun); R2 = k R1 = 0.318 Rsun
+e sin w 0.00: central (b=0) T14 at A = 7.34 h, at B = 7.34 h
+e sin w 0.12: central (b=0) T14 at A = 6.55 h, at B = 8.34 h
+
+T2 3100 K: TESS-band surface brightness ratio 0.0535; L2/L1 = 0.00376; full-occultation secondary depth 3.75 ppt
+T2 3250 K: TESS-band surface brightness ratio 0.0697; L2/L1 = 0.00490; full-occultation secondary depth 4.88 ppt
+T2 3400 K: TESS-band surface brightness ratio 0.0889; L2/L1 = 0.00625; full-occultation secondary depth 6.21 ppt
+
+e sin w | b_B | occulted frac of companion | secondary depth (ppt, T2 3250 K BB) | T14_B (h)
+  -0.050 | 0.747 | 0.994 | 4.84 | 4.55
+  -0.025 | 0.785 | 0.945 | 4.61 | 4.64
+  +0.000 | 0.825 | 0.873 | 4.26 | 4.72
+  +0.025 | 0.868 | 0.784 | 3.82 | 4.76
+  +0.050 | 0.912 | 0.682 | 3.32 | 4.77
+  +0.075 | 0.959 | 0.570 | 2.78 | 4.72
+  +0.100 | 1.009 | 0.451 | 2.20 | 4.59
+  +0.125 | 1.061 | 0.330 | 1.61 | 4.36
+  +0.150 | 1.117 | 0.211 | 1.03 | 3.96
+  +0.175 | 1.175 | 0.101 | 0.49 | 3.28
+  +0.200 | 1.238 | 0.017 | 0.08 | 1.92
+  +0.225 | 1.304 | 0.000 | 0.00 | 0.00
+  +0.250 | 1.375 | 0.000 | 0.00 | 0.00
+  +0.275 | 1.451 | 0.000 | 0.00 | 0.00
+  +0.300 | 1.533 | 0.000 | 0.00 | 0.00

@@ -1,0 +1,11 @@
+pipeline scatter at s1: 20.0 min; per-event errors (min): [20.5 20.6 20.3]
+QLP: epochs [ 0 24 87]  T0 1337.4273 +- 16.9 min  P 29.38001 +- 0.00022  O-C (min) [ 5.2 -7.3  2. ]  chi2 0.20/1
+   vs Gaia P 29.38574+-0.01343: diff -0.00574 = -0.43 sigma
+own TESScut 3x3: epochs [ 0 24 87]  T0 1337.4374 +- 16.9 min  P 29.37990 +- 0.00022  O-C (min) [ 6.2 -8.6  2.3]  chi2 0.28/1
+   vs Gaia P 29.38574+-0.01343: diff -0.00584 = -0.43 sigma
+   alias N=23 between s1 and s27: P 30.6570  -> (+1.271 d vs Gaia = +95 sigma)
+   alias N=24 between s1 and s27: P 29.3796  -> (-0.006 d vs Gaia = -0 sigma)
+   alias N=25 between s1 and s27: P 28.2045  -> (-1.181 d vs Gaia = -88 sigma)
+A obs 1337.431 vs Gaia A k=31 1337.428 +- 0.472: +0.003 d = +0.01 sigma
+A obs 2042.542 vs Gaia A k=55 2042.699 +- 0.750: -0.157 d = -0.21 sigma
+A obs 3893.489 vs Gaia A k=118 3894.009 +- 1.562: -0.519 d = -0.33 sigma

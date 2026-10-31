@@ -1,0 +1,14 @@
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+  ret = ret.dtype.type(ret / rcount)
+tess-spoc_tess_pho 07_ SAP_FLUX          N  113 t0 1501.2991 dep 2.45% T14 6.41 h rms 1.10 ppt
+tess-spoc_tess_pho 07_ PDCSAP_FLUX       N  113 t0 1501.2989 dep 3.60% T14 6.46 h rms 1.63 ppt
+tess-spoc_tess_pho 34_ SAP_FLUX          N  329 t0 2239.8312 dep 1.88% T14 6.22 h rms 1.72 ppt
+tess-spoc_tess_pho 34_ PDCSAP_FLUX       N  329 t0 2239.8309 dep 2.98% T14 6.23 h rms 2.71 ppt
+eleanor-lite s7 CORR_FLUX                N  114 t0 1501.2996 dep 2.32% T14 6.40 h rms 0.97 ppt
+TGLC s7 cal_aper_flux                    N  115 t0 1501.2977 dep 3.18% T14 6.42 h rms 2.68 ppt
+TGLC s7 cal_psf_flux                     N  115 t0 1501.3013 dep 2.63% T14 6.46 h rms 0.89 ppt
+T16 s7 IFL1 (TMID_BJD-2457000)           N    0 t0 1501.2980 dep 2.00% T14 6.48 h rms nan ppt
+T16 s7 IFL2 (TMID_BJD-2457000)           N    0 t0 1501.2980 dep 2.00% T14 6.48 h rms nan ppt
+T16 s7 IFL3 (TMID_BJD-2457000)           N    0 t0 1501.2980 dep 2.00% T14 6.48 h rms nan ppt

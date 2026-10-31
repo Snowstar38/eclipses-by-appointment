@@ -1,0 +1,23 @@
+B ephemeris (6 TESScut events, n=[-52. -26.   0.  25.  26.  47.]): P 28.40515+-0.00003  T0 2978.3647+-0.0008 BTJD  chi2 2.6/4  O-C min [  1.1 -11.3  -0.9   0.1   2.4  -0.1]
+   vs Gaia P 28.40535+-0.00789: -0.00020 d = -0.03 sigma
+Forward test: fit without s108 -> P 28.40515+-0.00003; predicts s108 4313.4067+-0.0017; observed 4313.4066 (diff -0.2 min)
+Fit on the 4 classifier events -> predicts s87 3688.4934; observed 3688.4935 (diff +0.1 min)
+   B 1501.298 vs Gaia 1500.950+-0.430: +0.348 d = 0.81 sigma
+   B 2239.823 vs Gaia 2239.489+-0.633: +0.334 d = 0.53 sigma
+   B 2978.364 vs Gaia 2978.028+-0.836: +0.336 d = 0.40 sigma
+   B 3716.900 vs Gaia 3716.568+-1.040: +0.332 d = 0.32 sigma
+A predicted from observed B: tB - 7.306 +- 0.324 d
+  s7 A window 1493.99+-0.97: coverage 100%; deepest box 1.05 ppt (err~1.26, red-noise x2) at 1493.57, 4 h
+  s34 A window 2232.53+-0.97: coverage 100%; deepest box 0.79 ppt (err~0.80, red-noise x2) at 2232.27, 4 h
+  s61 A window 2971.06+-0.97: coverage 100%; deepest box 1.05 ppt (err~0.44, red-noise x2) at 2970.12, 8 h
+  s87 A window 3681.19+-0.97: coverage 100%; deepest box 9.86 ppt (err~0.46, red-noise x2) at 3680.76, 8 h
+  s88 A window 3709.59+-0.97: coverage 100%; deepest box 1.05 ppt (err~0.36, red-noise x2) at 3709.95, 6 h
+  s108 A window 4306.10+-0.97: coverage 100%; deepest box 1.85 ppt (err~0.37, red-noise x2) at 4305.85, 8 h
+Census (6 h box, q==0, local linear baseline 0.5-1.0 d either side), dips > 0.5%:
+  s7: 1501.30 (1.2%)
+  s34: 2239.84 (0.9%)
+  s61: 2975.48 (0.9%), 2976.44 (0.5%), 2978.36 (1.2%)
+  s87: 3664.33 (8.9%), 3664.65 (3.1%), 3665.41 (1.3%), 3665.87 (0.9%), 3666.89 (1.0%), 3676.13 (13.1%), 3676.45 (5.4%), 3678.35 (4.9%), 3678.67 (1.5%), 3679.53 (0.8%), 3679.85 (0.6%), 3680.81 (0.9%), 3683.69 (0.9%), 3684.01 (0.5%), 3688.49 (1.2%)
+  s88: 3696.92 (0.5%), 3711.56 (0.8%), 3716.90 (1.3%)
+  s108: 4313.39 (1.2%)
+  s109: none

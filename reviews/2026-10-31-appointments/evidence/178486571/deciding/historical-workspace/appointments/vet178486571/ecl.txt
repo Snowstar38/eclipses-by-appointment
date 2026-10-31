@@ -1,0 +1,21 @@
+[local path omitted] 5.1\made\appointments\vet178486571\ecl.py:47: RuntimeWarning: All-NaN slice encountered
+  dbk = np.nanmedian(bk[inn]) - np.nanmedian(bk[outw]) if inn.sum() else np.nan; sbk = np.nanstd(bk[outw])
+[local path omitted] RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[local path omitted] 5.1\made\appointments\vet178486571\ecl.py:48: RuntimeWarning: All-NaN slice encountered
+  dx = (np.nanmedian(x[inn]) - np.nanmedian(x[outw])) if inn.sum() else np.nan; dy = (np.nanmedian(y[inn]) - np.nanmedian(y[outw])) if inn.sum() else np.nan
+A QLP7       t0 1494.78348 +-   0.3 min  dep  5.38%  T14  5.04 h  T12 1.95 h  flat  1.13 h  rms   572 beta 1.0 dBKG -118 (sd 103)  dxy -0.0006,-0.0058  span 1494.02-1495.60 nin 9 nflag_in 0
+A TSPOC7     t0 1494.78330 +-   0.3 min  dep  4.82%  T14  5.05 h  T12 1.93 h  flat  1.19 h  rms   457 beta 1.0 dBKG -1.12 (sd 1.59)  dxy +0.0003,+0.0007  span 1494.02-1495.60 nin 9 nflag_in 0
+A TARS7      t0 1494.78468 +-   0.6 min  dep  4.98%  T14  5.19 h  T12 1.99 h  flat  1.21 h  rms   683 beta 1.1 dBKG +nan (sd nan)  dxy -0.1875,-0.1875  span 1494.02-1495.60 nin 10 nflag_in 0
+A ELE7       t0 1494.78381 +-   0.3 min  dep  4.84%  T14  5.04 h  T12 1.92 h  flat  1.21 h  rms   492 beta 1.0 dBKG +0.0281 (sd 0.177)  dxy +0.0000,+0.0004  span 1494.02-1495.60 nin 9 nflag_in 0
+A TGLCa7     t0 1494.78319 +-   0.3 min  dep  6.34%  T14  5.03 h  T12 1.92 h  flat  1.19 h  rms   595 beta 1.0 dBKG +0.0526 (sd 0.16)  dxy +nan,+nan  span 1494.02-1495.60 nin 9 nflag_in 0
+A TGLCp7     t0 1494.78491 +-   1.0 min  dep  4.77%  T14  5.19 h  T12 1.97 h  flat  1.25 h  rms  1064 beta 1.1 dBKG +0.0523 (sd 0.16)  dxy +nan,+nan  span 1494.02-1495.60 nin 10 nflag_in 0
+A TGLCnb7    t0 1494.78489 +-   1.0 min  dep 97.27%  T14  5.18 h  T12 1.91 h  flat  1.36 h  rms 22182 beta 1.1 dBKG +0.0526 (sd 0.16)  dxy +nan,+nan  span 1494.02-1495.60 nin 9 nflag_in 0
+A QLP33      t0 2201.87612 +-   0.3 min  dep  5.53%  T14  4.94 h  T12 1.88 h  flat  1.17 h  rms  1017 beta 1.0 dBKG -25.7 (sd 78)  dxy -0.0049,-0.0027  span 2201.83-2202.67 nin 21 nflag_in 0
+A QLP33all   t0 2201.87550 +-   0.3 min  dep  5.65%  T14  5.07 h  T12 1.95 h  flat  1.17 h  rms  1042 beta 1.0 dBKG -12.2 (sd 78)  dxy -0.0074,-0.0036  span 2201.74-2202.67 nin 31 nflag_in 9
+A TSPOC33    t0 2201.87453 +-   0.4 min  dep  4.47%  T14  5.03 h  T12 1.94 h  flat  1.15 h  rms   930 beta 1.4 dBKG -3.95 (sd 1.64)  dxy -0.0049,+0.0011  span 2201.75-2202.67 nin 30 nflag_in 0
+A TSPOC33all t0 2201.87470 +-   0.4 min  dep  4.44%  T14  5.00 h  T12 1.93 h  flat  1.15 h  rms   945 beta 1.5 dBKG -3.95 (sd 1.64)  dxy -0.0049,+0.0011  span 2201.74-2202.67 nin 30 nflag_in 0
+A TARS33     t0 2201.87725 +-   0.7 min  dep  5.08%  T14  5.21 h  T12 2.03 h  flat  1.14 h  rms  1414 beta 1.1 dBKG +nan (sd nan)  dxy -0.4792,-0.4792  span 2201.74-2202.67 nin 31 nflag_in 0
+A QLP87      t0 3683.40362 +-   0.3 min  dep  5.51%  T14  5.10 h  T12 2.00 h  flat  1.09 h  rms  1799 beta 1.0 dBKG -57.9 (sd 65.9)  dxy -0.0116,-0.0115  span 3682.60-3684.20 nin 66 nflag_in 0
+A QLP87all   t0 3683.40345 +-   0.6 min  dep  5.47%  T14  5.09 h  T12 2.00 h  flat  1.09 h  rms  2015 beta 1.0 dBKG -53.9 (sd 65.7)  dxy -0.0120,-0.0114  span 3682.60-3684.20 nin 79 nflag_in 13
+A TARS87     t0 3683.40111 +-   0.6 min  dep  4.97%  T14  5.15 h  T12 2.06 h  flat  1.02 h  rms  2296 beta 1.1 dBKG +nan (sd nan)  dxy +0.2118,+0.2118  span 3682.60-3684.20 nin 74 nflag_in 0
