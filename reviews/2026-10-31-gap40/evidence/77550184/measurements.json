@@ -1,0 +1,128 @@
+{
+  "timing_included_historical_cycles": [
+    0,
+    1,
+    72,
+    73,
+    247
+  ],
+  "timing_excluded_historical_cycles": [],
+  "tic": "77550184",
+  "historical_period_days": 10.214366130112024,
+  "historical_epoch_btjd": 1527.7322,
+  "search_duration_days": 0.261,
+  "events": [
+    {
+      "sector": 8,
+      "cycle": 0,
+      "predicted_btjd": 1527.7322,
+      "mid_btjd": 1527.7251364957833,
+      "timing_error_days": 0.0104167226293157,
+      "formal_timing_error_days": 0.00032866585792374275,
+      "depth_ppt": 60.64366018596226,
+      "duration_days": 0.3071954402224201,
+      "cadence_days": 0.0208334452586314,
+      "oot_scatter_ppt": 0.7130944873250674,
+      "resid_rms_ppt": 0.7427192497768039,
+      "n": 75,
+      "fit_shift_days": -0.007063504216545136
+    },
+    {
+      "sector": 8,
+      "cycle": 1,
+      "predicted_btjd": 1537.946566130112,
+      "mid_btjd": 1537.9403596665777,
+      "timing_error_days": 0.0104167226293157,
+      "formal_timing_error_days": 0.0002901813390793729,
+      "depth_ppt": 59.93249368144042,
+      "duration_days": 0.3022342689459253,
+      "cadence_days": 0.0208334452586314,
+      "oot_scatter_ppt": 0.5757691191577129,
+      "resid_rms_ppt": 0.9452259687038833,
+      "n": 72,
+      "fit_shift_days": -0.006206463534150939
+    },
+    {
+      "sector": 35,
+      "cycle": 72,
+      "predicted_btjd": 2263.1665613680657,
+      "mid_btjd": 2263.1630727620595,
+      "timing_error_days": 0.0034722032852414486,
+      "formal_timing_error_days": 0.00035209063223750134,
+      "depth_ppt": 63.35318381795027,
+      "duration_days": 0.307420779941811,
+      "cadence_days": 0.006944406570482897,
+      "oot_scatter_ppt": 1.2446354010505534,
+      "resid_rms_ppt": 1.2700113229210308,
+      "n": 188,
+      "fit_shift_days": -0.0034886060060486837
+    },
+    {
+      "sector": 35,
+      "cycle": 73,
+      "predicted_btjd": 2273.3809274981777,
+      "mid_btjd": 2273.37749681763,
+      "timing_error_days": 0.0034722032852414486,
+      "formal_timing_error_days": 0.00038943613486255125,
+      "depth_ppt": 62.338299283846766,
+      "duration_days": 0.30362391439091496,
+      "cadence_days": 0.006944406570482897,
+      "oot_scatter_ppt": 1.1689339259446307,
+      "resid_rms_ppt": 1.2267163908326832,
+      "n": 180,
+      "fit_shift_days": -0.003430680547823256
+    },
+    {
+      "sector": 99,
+      "cycle": 247,
+      "predicted_btjd": 4050.68063413767,
+      "mid_btjd": 4050.685984633924,
+      "timing_error_days": 0.001157446876504764,
+      "formal_timing_error_days": 0.00022545331048658745,
+      "depth_ppt": 52.656916133883314,
+      "duration_days": 0.3072480768324213,
+      "cadence_days": 0.002314893753009528,
+      "oot_scatter_ppt": 1.2445337187676417,
+      "resid_rms_ppt": 1.3564942055588245,
+      "n": 675,
+      "fit_shift_days": 0.005350496253717283
+    }
+  ],
+  "sources": [
+    {
+      "tic": "77550184",
+      "sector": 8,
+      "path": "[local path omitted]",
+      "sha256": "e1116f6575ca52dd09886cfdcffb302023a90b85b085db4b25e216aea3426289",
+      "status": "ok"
+    },
+    {
+      "tic": "77550184",
+      "sector": 35,
+      "path": "[local path omitted]",
+      "sha256": "dee13719761978ba756ebf6d94a49f805ac177d26e56268f3c69da311ddd0670",
+      "status": "ok"
+    },
+    {
+      "tic": "77550184",
+      "sector": 99,
+      "path": "[local path omitted]",
+      "sha256": "06d01edf08f766acec4bbc3ebb3f80c0e203f957e242ba5ae053d11f2a1baea9",
+      "status": "ok"
+    }
+  ],
+  "period_days": 10.214416259590474,
+  "period_error_days": 1.4190042358189235e-05,
+  "primary_epoch_btjd": 1527.7251647231262,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    -2.8227342909303843e-05,
+    0.0007786838609717961,
+    -6.265158071983024e-05,
+    -5.485560086526675e-05,
+    3.791950803133659e-06
+  ],
+  "reduced_chi_square": 0.0020604313304084165,
+  "error_meaning": "Linear timing fit using quadrature-free conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage.",
+  "depth_ppt": 60.64366018596226
+}

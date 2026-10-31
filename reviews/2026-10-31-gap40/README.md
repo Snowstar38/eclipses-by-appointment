@@ -1,0 +1,3 @@
+# Gaia period-fold review evidence
+
+Forty fixed targets, R175-R214, selected by increasing Gaia G from the remaining screened queue before detailed review. Physical outcomes and scoped catalogue checks are separate. Reports retain source-attribution, period-alias and timing-precision limitations. The manifest preserves original and exported hashes. FITS data are not redistributed; receipts identify their sources. Scripts are archival records, not turnkey reproductions after local-path sanitization. Historical evidence is preserved. The separate exploratory search is not part of this fixed denominator.

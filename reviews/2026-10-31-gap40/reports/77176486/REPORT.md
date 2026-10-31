@@ -1,0 +1,31 @@
+# TIC 77176486: CONFIRMED
+
+Full bounded review: COMPLETE. Physical outcome and catalogue novelty are separate. This review applies current section 2.7 and does not promote the historical screening label automatically.
+
+1. **Raw events: pass.** Free trapezoid fits to quality-zero raw QLP SAP_FLUX show 6 distinct eclipse events in selected sectors [31, 98]. The lead inspected representative raw-event plots and numeric fit output; the helper independently audited timing and pixel exceptions. All fitted windows are preserved. Timing includes historical cycles [53, 54, 187, 189, 190]; excluded cycles [188] remain in the raw evidence. Fits with midpoint covariance uncertainty larger than the seeded eclipse duration are excluded as unconstrained, not treated as timing measurements. Local linear baseline, free depth, center, duration and ingress were fitted; QLP detrended flux is not used as the deciding raw check. Representative selection is at most three spread available QLP sectors, with coverage/window requirements recorded by the script. Uncovered or flagged windows were never called nulls.
+2. **Eclipse timing: pass.** 5 retained reference-eclipse midtimes give P=13.7536919134 +/-0.0000189931 d, observed reference eclipse epoch BTJD 2153.3151206. Historical event coordinates in difference-image JSON were predictions and are not used as measured timings. Cycle counts were seeded by historical photometric search period, then fit freely across the selected baseline. This is not a blind all-alias search. Error meaning: Linear timing fit using quadrature-free conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage.
+3. **Target attribution: pass at TESS image resolution.** Historical S98 deficit peak [8, 8] vs target pixel [8, 8]; deficit-target separation 1.800 arcsec. Full saved difference image, original cutout identity and capable neighbours were audited. PSF-scaled image fractional residual 0.289. Capable neighbours: Gaia 4864096337267522304: 30.54 arcsec, G 15.883, required fractional eclipse 0.724, pixel fractional loss 0.013984958972541156; Gaia 4864096268548045056: 55.77 arcsec, G 13.048, required fractional eclipse 0.066, pixel fractional loss 0.0017051419244163086
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut aperture gives 1x1/3x3/5x5 depths 14.204/14.336/12.592 ppt, with 3 stacked events. QLP retained-reference fitted median 12.944 ppt. This separately extracted cutout is an alternative reduction of the same TESS photons, not independent observing occasions. Dilution, aperture differences and, where relevant, mixed primary/secondary stacks prevent a claim of equal intrinsic depths.
+5. **Gaia orbital geometry: pass with stated limitations.** DR3 4864096337267521536, P=13.7484948196+/-0.0039618290 d, e=0.036317, omega=108.4415 deg. Closest edge-on conjunction offset 0.578516 d (0.042078 phase), full-SB1-covariance linear propagated Gaia uncertainty 0.549110 d at the measured epoch. Near-Gaia-reference projected eclipse offset -0.086712 d (photometric period projection allowance 0.002431 d). The approximate central duration 7.94 h vs median local-model width 7.79 h is only an approximate comparison; this radius/minimum-mass estimate is not a detailed binary fit. Full covariance and assumptions are in gaia-geometry.json. No arbitrary sigma veto is used.
+
+**Deciding limitations and interpretation:** The 13.75369 d signal lies near the TESS orbital timescale, but repeated localized raw SAP dips in S31 and S98 and the target-centered cutout deficit support astrophysical eclipses. Quality-nonzero cadences are excluded; no flagged or uncovered window is a clean null. Cycle188 is visibly present but its trapezoid covariance is singular, so it is excluded from timing. Bounded S98 pixel/background check (background-check.json) finds target-pixel losses11.99/22.43/16.35 electrons/s versus3.24/9.85/7.73 at the close capable neighbour and0.70/6.30/3.36 at the farther one. Outer-pixel median losses are -0.027/5.68/4.04: common-mode background affects later events, while cycle187 is localized with negligible outer deficit. Core quality flags are0/0/3; flagged cadences are excluded. FLUX_BKG is zero throughout and supplies no independent background measurement. These are descriptive diagnostics, not a calibrated artifact veto. Gaia conjunction offset is 0.04208 phase with 0.549 d propagated uncertainty; this is association support with appreciable orbital uncertainty, not a precise phase coincidence.
+
+**Next check:** Optional resolved photometry or updated spectroscopy for improved binary parameters; no missing bounded admission check.
+
+Catalogue novelty: central seven-group result applies; see ../../../catalogues/coverage-matrix.csv. A separate source in the search cone does not establish a target match. This physical report does not assert exhaustive literature priority.
+
+Measured events (errors are the conservative fit inputs, not calibrated coverage):
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Timing error d | Fitted depth ppt |
+|---|---|---|---|---|
+| 31 | 53 | 2153.3137971 | 0.003472 | 15.827 |
+| 31 | 54 | 2167.0701251 | 0.003472 | 15.907 |
+| 98 | 187 | 3996.3092194 | 0.001863 | 12.944 |
+| 98 | 188 | 4010.0881669 | 52645.017728 | 13.408 |
+| 98 | 189 | 4023.8184814 | 0.001282 | 12.187 |
+| 98 | 190 | 4037.5701222 | 0.001159 | 12.787 |
+
+Evidence (original source layout; use the public evidence links below for exported locations): measurements.json, raw-events.png, raw-windows.csv, ../../shared-qlp QLP FITS; historical/diff_s98.json, historical/diff_s98.png and historical/gaia.json; ../gaia-geometry.json; ../helper-audit.md; ../SHA256SUMS.json. Original cutout retained at [local path omitted] Historical pipeline definitions are diffstack.py and c3_sapdepth.py in the source sb1-scale tree. No historical evidence overwritten.
+
+
+Stable review key: R205. [Deciding evidence](../../evidence/77176486/) and [catalogue coverage](../../catalogues/coverage-matrix.csv). The export manifest maps original hashes to sanitized files. Analysis scripts are archival and require the recorded external data; local paths are omitted.

@@ -1,0 +1,49 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T19:56:59 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T19:56:59	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=293.900910+06.563067,rs=5.	
+#Constraint -out.max=10
+
+#RESOURCE=yCat_1357
+#Name: I/357
+#Title: Gaia DR3 Part 3. Non-single stars (Gaia Collaboration, 2022)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Gaia collaboration	    First author or institution
+#INFO	cites=bibcode:2022yCat.1357....0G	    Bibcode of the dataset
+#INFO	journal=yCat	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.1357	    Dataset identifier that can be used for citation
+#INFO	publication_date=2025-03-25	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Coosys	H_2016.000:	ICRS
+#Table	I_357_tbosb1:
+#Name: I/357/tbosb1
+#Title: Non-single-star orbital models for sources compatible with Single Lined Spectroscopic binary model (nss_two_body_orbit)
+#Column	Source	(I19)	Source Identifier (source_id)	[ucd=meta.id;meta.main]
+#Column	NSSmodel	(A3)	[SB1] NSS model adopted (nss_solution_type)	[ucd=meta.record]
+#Column	RA_ICRS	(F15.11)	Right ascension (ICRS) at Ep=2016.0 (added by CDS) (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DE_ICRS	(F15.11)	Declination (ICRS) at Ep=2016.0 (added by CDS) (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	Per	(F22.17)	Orbital Period (period)	[ucd=time.period]
+#Column	Tperi	(D22.15)	Periastron epoch relative to 2016.0 (t_periastron)	[ucd=time.epoch]
+#Column	ecc	(F22.19)	eccentricity (eccentricity)	[ucd=src.orbital.eccentricity]
+#Column	Vcm	(D21.14)	The velocity of the center of mass (center_of_mass_velocity)	[ucd=phys.veloc]
+#Column	K1	(F21.17)	Semi-amplitude of the center of mass (semi_amplitude_primary)	[ucd=phys.veloc]
+#Column	omega	(D21.14)	Argument of periastron (arg_periastron)	[ucd=src.orbital.periastron]
+#Column	Flags	(I8)	Quality flag for the achieved NSS solution (flags) (G2)	[ucd=meta.code.error]
+Source	NSSmodel	RA_ICRS	DE_ICRS	Per	Tperi	ecc	Vcm	K1	omega	Flags
+ 	 	deg	deg	d	d	 	km/s	km/s	deg	
+-------------------	---	---------------	---------------	----------------------	----------------------	----------------------	---------------------	---------------------	---------------------	--------
+4294780314633731584	SB1	293.90091628505	 +6.56306062537	  13.07598329958083028	 2.661414723047846e+00	 0.5447655019888759664	-2.55366979565750e+01	 66.29962875457556493	 9.33396958626802e+01	       0
+

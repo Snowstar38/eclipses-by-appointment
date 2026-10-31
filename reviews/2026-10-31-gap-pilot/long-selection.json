@@ -1,0 +1,599 @@
+{
+ "rule": "brightest16 noncontrols historical14h, halves, far0.6-1.6, snr>=8, z<8 or unavailable; no outcome selection",
+ "eligible_count": 1228,
+ "selected": [
+  {
+   "tic": "429118330",
+   "G": 5.17,
+   "Tmag": 4.88,
+   "P_gaia": 30.43678,
+   "type": "SB2",
+   "e": 0.649,
+   "control": false,
+   "nsec": 2,
+   "circular_assumed_omega0": false,
+   "n_windows": 2,
+   "best": {
+    "t": 3659.1789,
+    "dur_h": 14.0,
+    "depth_ppm": 219,
+    "snr": 23.19,
+    "far": 0.85,
+    "halves": true,
+    "kind": "A",
+    "sector": 86,
+    "tc": 3659.175,
+    "sig": 0.095,
+    "dphase": 0.0001,
+    "dt_sigma": 0.0
+   },
+   "null": {
+    "n": 40,
+    "med": 5.1,
+    "mad": 2.3,
+    "max": 24.6,
+    "exceed": 1
+   },
+   "z": 7.9,
+   "same_kind_depths": [
+    93,
+    219
+   ],
+   "other_kind_best": null
+  },
+  {
+   "tic": "168976468",
+   "G": 5.91,
+   "Tmag": 5.589,
+   "P_gaia": 27.87384,
+   "type": "SB2",
+   "e": 0.395,
+   "control": false,
+   "nsec": 5,
+   "circular_assumed_omega0": false,
+   "n_windows": 9,
+   "best": {
+    "t": 3696.1908,
+    "dur_h": 14.0,
+    "depth_ppm": 237,
+    "snr": 14.92,
+    "far": 1.55,
+    "halves": true,
+    "kind": "A",
+    "sector": 88,
+    "tc": 3695.948,
+    "sig": 0.059,
+    "dphase": 0.0087,
+    "dt_sigma": 4.1
+   },
+   "null": {
+    "n": 40,
+    "med": 4.53,
+    "mad": 2.28,
+    "max": 171.1,
+    "exceed": 5
+   },
+   "z": 4.6,
+   "same_kind_depths": [
+    113,
+    88,
+    237
+   ],
+   "other_kind_best": 5.17
+  },
+  {
+   "tic": "56257053",
+   "G": 6.09,
+   "Tmag": 5.531,
+   "P_gaia": 38.61176,
+   "type": "SB2",
+   "e": 0.006,
+   "control": false,
+   "nsec": 7,
+   "circular_assumed_omega0": false,
+   "n_windows": 14,
+   "best": {
+    "t": 3703.4787,
+    "dur_h": 14.0,
+    "depth_ppm": 2715,
+    "snr": 221.06,
+    "far": 1.11,
+    "halves": true,
+    "kind": "A",
+    "sector": 88,
+    "tc": 3703.084,
+    "sig": 1.787,
+    "dphase": 0.0102,
+    "dt_sigma": 0.2
+   },
+   "same_kind_depths": [
+    851,
+    414,
+    475,
+    448,
+    2715,
+    454
+   ],
+   "other_kind_best": 73.64
+  },
+  {
+   "tic": "446318155",
+   "G": 6.42,
+   "Tmag": 6.374,
+   "P_gaia": 46.58153,
+   "type": "SB2",
+   "e": 0.273,
+   "control": false,
+   "nsec": 7,
+   "circular_assumed_omega0": false,
+   "n_windows": 6,
+   "best": {
+    "t": 4080.398,
+    "dur_h": 14.0,
+    "depth_ppm": 209,
+    "snr": 11.49,
+    "far": 1.31,
+    "halves": true,
+    "kind": "B",
+    "sector": 100,
+    "tc": 4079.372,
+    "sig": 0.343,
+    "dphase": 0.022,
+    "dt_sigma": 3.0
+   },
+   "null": {
+    "n": 40,
+    "med": 7.52,
+    "mad": 6.24,
+    "max": 138.42,
+    "exceed": 12
+   },
+   "z": 0.6,
+   "same_kind_depths": [
+    162,
+    209
+   ],
+   "other_kind_best": 7.51
+  },
+  {
+   "tic": "56129375",
+   "G": 6.47,
+   "Tmag": 5.901,
+   "P_gaia": 42.33594,
+   "type": "SB1",
+   "e": 0.003,
+   "control": false,
+   "nsec": 3,
+   "circular_assumed_omega0": false,
+   "n_windows": 7,
+   "best": {
+    "t": 4016.2083,
+    "dur_h": 14.0,
+    "depth_ppm": 8745,
+    "snr": 150.09,
+    "far": 0.83,
+    "halves": true,
+    "kind": "A",
+    "sector": 98,
+    "tc": 4018.905,
+    "sig": 6.708,
+    "dphase": -0.0637,
+    "dt_sigma": -0.4
+   },
+   "same_kind_depths": [],
+   "other_kind_best": 74.72
+  },
+  {
+   "tic": "413366824",
+   "G": 6.56,
+   "Tmag": 5.985,
+   "P_gaia": 52.82865,
+   "type": "SB1",
+   "e": 0.008,
+   "control": false,
+   "nsec": 3,
+   "circular_assumed_omega0": false,
+   "n_windows": 3,
+   "best": {
+    "t": 3028.0592,
+    "dur_h": 14.0,
+    "depth_ppm": 3840,
+    "snr": 206.42,
+    "far": 1.16,
+    "halves": true,
+    "kind": "A",
+    "sector": 63,
+    "tc": 3034.364,
+    "sig": 5.338,
+    "dphase": -0.1193,
+    "dt_sigma": -1.2
+   },
+   "same_kind_depths": [
+    425,
+    3840,
+    706
+   ],
+   "other_kind_best": null
+  },
+  {
+   "tic": "346546437",
+   "G": 6.57,
+   "Tmag": 6.117,
+   "P_gaia": 52.42788,
+   "type": "AstroSpectroSB1",
+   "e": 0.14,
+   "control": false,
+   "nsec": 3,
+   "circular_assumed_omega0": true,
+   "n_windows": 3,
+   "best": {
+    "t": 3603.8078,
+    "dur_h": 14.0,
+    "depth_ppm": 144,
+    "snr": 9.38,
+    "far": 1.51,
+    "halves": true,
+    "kind": "B",
+    "sector": 84,
+    "tc": 3602.566,
+    "sig": 0.646,
+    "dphase": 0.0237,
+    "dt_sigma": 1.9
+   },
+   "null": {
+    "n": 40,
+    "med": 5.16,
+    "mad": 2.33,
+    "max": 19.03,
+    "exceed": 6
+   },
+   "z": 1.8,
+   "same_kind_depths": [
+    94,
+    144
+   ],
+   "other_kind_best": null
+  },
+  {
+   "tic": "133342111",
+   "G": 6.6,
+   "Tmag": 6.012,
+   "P_gaia": 56.23234,
+   "type": "SB1",
+   "e": 0.066,
+   "control": false,
+   "nsec": 8,
+   "circular_assumed_omega0": false,
+   "n_windows": 11,
+   "best": {
+    "t": 3732.4176,
+    "dur_h": 14.0,
+    "depth_ppm": 4500,
+    "snr": 263.39,
+    "far": 1.25,
+    "halves": true,
+    "kind": "B",
+    "sector": 89,
+    "tc": 3725.42,
+    "sig": 3.517,
+    "dphase": 0.1244,
+    "dt_sigma": 2.0
+   },
+   "null": {
+    "n": 15,
+    "med": 25.64,
+    "mad": 0.0,
+    "max": 72.59,
+    "exceed": 0
+   },
+   "z": null,
+   "same_kind_depths": [
+    489,
+    297,
+    4500
+   ],
+   "other_kind_best": 41.26
+  },
+  {
+   "tic": "137326629",
+   "G": 6.82,
+   "Tmag": 6.484,
+   "P_gaia": 26.76374,
+   "type": "SB1",
+   "e": 0.141,
+   "control": false,
+   "nsec": 8,
+   "circular_assumed_omega0": false,
+   "n_windows": 16,
+   "best": {
+    "t": 3311.0722,
+    "dur_h": 14.0,
+    "depth_ppm": 452,
+    "snr": 30.87,
+    "far": 1.41,
+    "halves": true,
+    "kind": "B",
+    "sector": 73,
+    "tc": 3311.688,
+    "sig": 0.206,
+    "dphase": -0.023,
+    "dt_sigma": -3.0
+   },
+   "null": {
+    "n": 40,
+    "med": 5.08,
+    "mad": 4.63,
+    "max": 289.41,
+    "exceed": 5
+   },
+   "z": 5.6,
+   "same_kind_depths": [
+    479,
+    452,
+    1068,
+    200
+   ],
+   "other_kind_best": 22.12
+  },
+  {
+   "tic": "96093296",
+   "G": 6.91,
+   "Tmag": 6.617,
+   "P_gaia": 28.14325,
+   "type": "SB1",
+   "e": 0.275,
+   "control": false,
+   "nsec": 5,
+   "circular_assumed_omega0": false,
+   "n_windows": 11,
+   "best": {
+    "t": 4052.1234,
+    "dur_h": 14.0,
+    "depth_ppm": 4679,
+    "snr": 236.31,
+    "far": 0.91,
+    "halves": true,
+    "kind": "B",
+    "sector": 99,
+    "tc": 4046.215,
+    "sig": 1.971,
+    "dphase": 0.2099,
+    "dt_sigma": 3.0
+   },
+   "same_kind_depths": [
+    1798,
+    747
+   ],
+   "other_kind_best": 25.12
+  },
+  {
+   "tic": "58858845",
+   "G": 7.06,
+   "Tmag": 6.711,
+   "P_gaia": 34.19808,
+   "type": "SB1",
+   "e": 0.056,
+   "control": false,
+   "nsec": 6,
+   "circular_assumed_omega0": false,
+   "n_windows": 10,
+   "best": {
+    "t": 2860.0709,
+    "dur_h": 14.0,
+    "depth_ppm": 496,
+    "snr": 31.28,
+    "far": 1.43,
+    "halves": true,
+    "kind": "B",
+    "sector": 57,
+    "tc": 2859.524,
+    "sig": 0.894,
+    "dphase": 0.016,
+    "dt_sigma": 0.6
+   },
+   "null": {
+    "n": 40,
+    "med": 8.4,
+    "mad": 6.32,
+    "max": 54.8,
+    "exceed": 7
+   },
+   "z": 3.6,
+   "same_kind_depths": [
+    134,
+    496
+   ],
+   "other_kind_best": 6.2
+  },
+  {
+   "tic": "63581861",
+   "G": 7.24,
+   "Tmag": 7.136,
+   "P_gaia": 55.49245,
+   "type": "SB1",
+   "e": 0.143,
+   "control": false,
+   "nsec": 4,
+   "circular_assumed_omega0": false,
+   "n_windows": 5,
+   "best": {
+    "t": 2247.0628,
+    "dur_h": 14.0,
+    "depth_ppm": 1259,
+    "snr": 50.31,
+    "far": 1.13,
+    "halves": true,
+    "kind": "A",
+    "sector": 34,
+    "tc": 2249.903,
+    "sig": 5.41,
+    "dphase": -0.0512,
+    "dt_sigma": -0.5
+   },
+   "same_kind_depths": [
+    1259
+   ],
+   "other_kind_best": 9.94
+  },
+  {
+   "tic": "91919464",
+   "G": 7.27,
+   "Tmag": 6.673,
+   "P_gaia": 28.96663,
+   "type": "SB1",
+   "e": 0.33,
+   "control": false,
+   "nsec": 5,
+   "circular_assumed_omega0": false,
+   "n_windows": 9,
+   "best": {
+    "t": 2575.6709,
+    "dur_h": 14.0,
+    "depth_ppm": 194,
+    "snr": 9.4,
+    "far": 1.21,
+    "halves": true,
+    "kind": "A",
+    "sector": 46,
+    "tc": 2576.357,
+    "sig": 0.268,
+    "dphase": -0.0237,
+    "dt_sigma": -2.6
+   },
+   "null": {
+    "n": 40,
+    "med": 4.68,
+    "mad": 2.04,
+    "max": 18.45,
+    "exceed": 2
+   },
+   "z": 2.3,
+   "same_kind_depths": [
+    133,
+    194,
+    111,
+    132
+   ],
+   "other_kind_best": 4.34
+  },
+  {
+   "tic": "57559390",
+   "G": 7.28,
+   "Tmag": 6.782,
+   "P_gaia": 52.82171,
+   "type": "SB1",
+   "e": 0.352,
+   "control": false,
+   "nsec": 1,
+   "circular_assumed_omega0": false,
+   "n_windows": 2,
+   "best": {
+    "t": 3499.3826,
+    "dur_h": 14.0,
+    "depth_ppm": 291,
+    "snr": 13.35,
+    "far": 1.45,
+    "halves": true,
+    "kind": "B",
+    "sector": 80,
+    "tc": 3501.4,
+    "sig": 0.971,
+    "dphase": -0.0382,
+    "dt_sigma": -2.1
+   },
+   "null": {
+    "n": 40,
+    "med": 25.36,
+    "mad": 0.0,
+    "max": 25.36,
+    "exceed": 40
+   },
+   "z": null,
+   "same_kind_depths": [
+    291
+   ],
+   "other_kind_best": 4.67
+  },
+  {
+   "tic": "762167",
+   "G": 7.3,
+   "Tmag": 6.621,
+   "P_gaia": 53.73654,
+   "type": "SB1",
+   "e": 0.462,
+   "control": false,
+   "nsec": 4,
+   "circular_assumed_omega0": false,
+   "n_windows": 4,
+   "best": {
+    "t": 2981.6584,
+    "dur_h": 14.0,
+    "depth_ppm": 1168,
+    "snr": 61.91,
+    "far": 1.45,
+    "halves": true,
+    "kind": "A",
+    "sector": 61,
+    "tc": 2974.905,
+    "sig": 22.684,
+    "dphase": 0.1257,
+    "dt_sigma": 0.3
+   },
+   "null": {
+    "n": 40,
+    "med": 64.62,
+    "mad": 15.82,
+    "max": 75.29,
+    "exceed": 23
+   },
+   "z": -0.2,
+   "same_kind_depths": [
+    1168
+   ],
+   "other_kind_best": 61.91
+  },
+  {
+   "tic": "317774715",
+   "G": 7.35,
+   "Tmag": 7.205,
+   "P_gaia": 35.64042,
+   "type": "SB2",
+   "e": 0.138,
+   "control": false,
+   "nsec": 11,
+   "circular_assumed_omega0": false,
+   "n_windows": 17,
+   "best": {
+    "t": 3616.5088,
+    "dur_h": 14.0,
+    "depth_ppm": 1900,
+    "snr": 86.64,
+    "far": 1.15,
+    "halves": true,
+    "kind": "B",
+    "sector": 85,
+    "tc": 3619.519,
+    "sig": 1.318,
+    "dphase": -0.0845,
+    "dt_sigma": -2.3
+   },
+   "null": {
+    "n": 40,
+    "med": 25.0,
+    "mad": 27.55,
+    "max": 188.71,
+    "exceed": 3
+   },
+   "z": 2.2,
+   "same_kind_depths": [
+    820,
+    383,
+    576,
+    297,
+    1900
+   ],
+   "other_kind_best": 48.84
+  }
+ ],
+ "source_sha256": "2c59421147593603e80dd4f7c076f7b001d2e868dbc0d5d79713f02f43ffc92a"
+}

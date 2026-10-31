@@ -1,0 +1,30 @@
+import pathlib,json,urllib.request,urllib.parse,csv,io,zipfile,sys,subprocess,concurrent.futures
+O=pathlib.Path(__file__).parent;S=pathlib.Path('[local path omitted] 5/made/sb1-scale/diffimg');TG=json.load(open(S.parent/'targets.json'))
+TG.update(json.load(open(O/'fresh-targets-48.json')))
+TG.update(json.load(open(O/'fresh-targets-96.json')))
+CASES={'167178300':33,'325573958':81,'403769569':99,'155303130':71,'382042754':97,'389128842':102}
+def q(query):
+ b=urllib.parse.urlencode({'REQUEST':'doQuery','LANG':'ADQL','FORMAT':'csv','QUERY':query}).encode();raw=urllib.request.urlopen('http[local path omitted]',b,timeout=55).read();return list(csv.DictReader(io.StringIO(raw.decode())))
+def work(item):
+ k,sec=item;w=O/k;w.mkdir(exist_ok=True);v=TG[k];result={'tic':k,'sector':sec}
+ try:
+  p=w/'gaia.json'
+  if not p.exists():
+   src=[dict(v['gaia'])];ra,dec=src[0]['ra'],src[0]['dec']
+   url='http[local path omitted]'+urllib.parse.urlencode({'-source':'I/355/gaiadr3','-c':str(ra)+' '+str(dec),'-c.rs':90,'-out':'Source,RA_ICRS,DE_ICRS,Gmag,BP-RP,Plx,VarFlag','-out.add':'_r','-out.max':500})
+   raw=urllib.request.urlopen(url,timeout=25).read();(w/'gaia-neighbors.tsv').write_bytes(raw);lines=[l for l in raw.decode('latin1').splitlines() if l and not l.startswith('#')];head=[x.strip() for x in lines[0].split('\t')];rr=[dict(zip(head,[x.strip() for x in l.split('\t')])) for l in lines[3:]]
+   nb=[{'source_id':r['Source'],'ra':r['RA_ICRS'],'dec':r['DE_ICRS'],'phot_g_mean_mag':r['Gmag'],'bp_rp':r['BP-RP'],'parallax':r['Plx'],'phot_variable_flag':r.get('VarFlag',''),'sep':r['_r']} for r in rr];p.write_text(json.dumps({'src':src,'nb':nb,'nss':[],'note':'localGaiaSBselection target; freshIDIA GaiaDR3 neighbor cone; NSSfull unavailable'},indent=1))
+  cut=w/f'tesscut_s{sec:03d}.fits'
+  if not cut.exists():
+   u=f"http[local path omitted]'ra']}&dec={v['dec']}&y=15&x=15&units=px&sector={sec}"
+   raw=urllib.request.urlopen(u,timeout=90).read();z=zipfile.ZipFile(io.BytesIO(raw));names=[n for n in z.namelist() if n.endswith('.fits')];cut.write_bytes(z.read(names[0]));result['cutout_members']=names
+  if k=='155303130':ep={'P':20.525,'t0':3238.1921,'dur':8/24,'depth':100884}
+  elif k in ['382042754','389128842']:
+   r=next(r for r in map(json.loads,open(O/'fresh-results-96.jsonl')) if r['tic']==k);b=r['best'];ep={'P':r['P_gaia'],'t0':b['t'],'dur':b['dur_h']/24,'depth':b['depth_ppm']}
+  else:r=next(r for r in json.load(open(O/'band-results-72.json')) if r['tic']==k);ep=r['historical_search']['P']
+  code=(S/'diffstack.py').read_text();start=code.index("cut = os.path.join(");end=code.index('\nwith fits.open',start);code=code[:start]+f'cut = {str(cut)!r}'+code[end:];script=w/'diffstack-local.py';script.write_text(code)
+  proc=subprocess.run([sys.executable,str(script),k,str(sec),str(ep['P']),str(ep['t0']),str(ep['dur']*24),str(ep['depth']/1e6),'pilot'],cwd=w,capture_output=True,text=True,timeout=45);(w/'pixel-stdout.txt').write_text(proc.stdout+proc.stderr);result['exitcode']=proc.returncode
+ except Exception as e:result['error']=repr(e)
+ (w/'receipt.json').write_text(json.dumps(result,indent=1));print(result,flush=True)
+if __name__=='__main__':
+ with concurrent.futures.ThreadPoolExecutor(3) as ex:list(ex.map(work,CASES.items()))

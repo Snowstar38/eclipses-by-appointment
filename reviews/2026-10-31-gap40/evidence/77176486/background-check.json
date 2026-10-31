@@ -1,0 +1,68 @@
+{
+  "tic": "77176486",
+  "sector": 98,
+  "input_sha256": "bbf69cff96be9126fa735e05d22cfe9471e54c03089921fe2785c271192536f4",
+  "method": "Quality-zero per-pixel median out-minus-in. Core +/-0.0783d; baseline0.261-0.6525d from historical predictions. Model background and outer pixels are diagnostic only, not a calibrated artifact test.",
+  "events": [
+    {
+      "cycle": 187,
+      "n_in": 68,
+      "n_out": 269,
+      "flagged_in": 0,
+      "target_pixel_deficit": 11.9853515625,
+      "neighbor_pixel_deficits": [
+        {
+          "source_id": "4864096337267522304",
+          "deficit": 3.244354248046875
+        },
+        {
+          "source_id": "4864096268548045056",
+          "deficit": 0.70111083984375
+        }
+      ],
+      "outer_pixel_median_deficit": -0.02678680419921875,
+      "background_model_median_in": 0.0,
+      "background_model_median_out": 0.0
+    },
+    {
+      "cycle": 189,
+      "n_in": 67,
+      "n_out": 254,
+      "flagged_in": 0,
+      "target_pixel_deficit": 22.4324951171875,
+      "neighbor_pixel_deficits": [
+        {
+          "source_id": "4864096337267522304",
+          "deficit": 9.848968505859375
+        },
+        {
+          "source_id": "4864096268548045056",
+          "deficit": 6.297271728515625
+        }
+      ],
+      "outer_pixel_median_deficit": 5.677421569824219,
+      "background_model_median_in": 0.0,
+      "background_model_median_out": 0.0
+    },
+    {
+      "cycle": 190,
+      "n_in": 64,
+      "n_out": 327,
+      "flagged_in": 3,
+      "target_pixel_deficit": 16.354248046875,
+      "neighbor_pixel_deficits": [
+        {
+          "source_id": "4864096337267522304",
+          "deficit": 7.725830078125
+        },
+        {
+          "source_id": "4864096268548045056",
+          "deficit": 3.36431884765625
+        }
+      ],
+      "outer_pixel_median_deficit": 4.0382843017578125,
+      "background_model_median_in": 0.0,
+      "background_model_median_out": 0.0
+    }
+  ]
+}

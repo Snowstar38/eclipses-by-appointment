@@ -1,0 +1,28 @@
+# TIC 253126207: PROBABLE
+
+Full bounded review: COMPLETE. Physical outcome and catalogue novelty are separate. This review applies current section2.7 and does not promote the historical screening label automatically.
+
+1. **Raw events: pass.** Free trapezoid fits to quality-zero raw QLP SAP_FLUX show 3 distinct eclipse events in selected sectors[11, 65]. The raw-event plot and numeric raw-windows.csv were inspected. Local linear baseline, free depth, center, duration and ingress were fitted; QLP detrended flux is not used as the deciding raw check. Representative selection is at most three spread available QLP sectors, with coverage/window requirements recorded by the script. Uncovered or flagged windows were never called nulls.
+2. **Eclipse timing: pass.** 3 same-kind midtimes give P=17.4365709217 ±0.0000882356d, reference primary epoch BTJD1604.0901103. Historical event coordinates in difference-image JSON were predictions and are not used as measured timings. Cycle counts were seeded by historical photometric search period, then fit freely across the selected baseline. This is not a blind all-alias search. Error meaning: Linear timing fit using quadrature-free conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage.
+3. **Target attribution: unresolved after check.** Historical S11 deficit peak[0, 4] vs target pixel[8, 7]; deficit-target separation1.226arcsec. Full saved difference image, original cutout identity and capable neighbours were audited. PSF-scaled image fractional residual0.657. Capable neighbours: Gaia 6057181524220240640: 15.16 arcsec, G14.357, required fractional eclipse0.197, pixel fractional loss0.011569246090371028; Gaia 6057181524220244480: 17.15 arcsec, G13.765, required fractional eclipse0.120, pixel fractional loss0.008403673294152252; Gaia 6057181524220244992: 19.43 arcsec, G14.081, required fractional eclipse0.156, pixel fractional loss0.008403673294152252; Gaia 6057181588591943552: 33.34 arcsec, G16.012, required fractional eclipse0.856, pixel fractional loss0.009381520926729047; Gaia 6057181592939737344: 36.01 arcsec, G15.802, required fractional eclipse0.708, pixel fractional loss0.010987593137566736; Gaia 6057178569282855936: 43.30 arcsec, G15.691, required fractional eclipse0.641, pixel fractional loss0.01054462829889948; Gaia 6057178603642493440: 58.22 arcsec, G15.236, required fractional eclipse0.426, pixel fractional loss-0.007294689097777693
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut aperture gives 1x1/3x3/5x5 depths11.569/10.998/10.078ppt, with 2 stacked events. QLP primary fitted median13.513ppt. This separately extracted cutout is an alternative reduction of the same TESS photons, not independent observing occasions. Dilution, aperture differences and, where relevant, mixed primary/secondary stacks prevent a claim of equal intrinsic depths.
+5. **Gaia orbital geometry: pass with stated limitations.** DR36057181524220247680, P=17.4320492926±0.0143074370d, e=0.491205, omega=74.2928deg. Closest edge-on conjunction offset0.009591d (0.000550phase), full-SB1-covariance linear propagated Gaia uncertainty0.611269d at the measured epoch. Near-Gaia-reference projected eclipse offset-0.306923d (photometric period projection allowance0.006176d). The approximate central duration4.17h vs observed median4.39h permits noncentral geometry; this radius/minimum-mass estimate is not a detailed binary fit. Full covariance and assumptions are in gaia-geometry.json. No arbitrary sigma veto is used.
+
+**Deciding limitations and interpretation:** Attribution remains unresolved: seven capable neighbours include three within one TESS pixel (15.16, 17.15 and 19.43 arcsec); the historical PSF fractional residual is 0.657. A known Gaia eclipsing binary at 24.77 arcsec with P=0.312563 d is a different source, and its short period does not identify the 17.44 d signal. Real repeating eclipses pass the other checks; source localization is the failed scientific check. Resolved eclipse imaging or defensible multi-source PRF modeling is required.
+
+**Next check:** Resolved eclipse photometry or multi-source PRF localization of the17.44d signal.
+
+Catalogue novelty: central seven-group result applies; see ../../catalogues/coverage-matrix.csv. A separate source in the search cone does not establish a target match. This physical report does not assert exhaustive literature priority.
+
+Measured events (errors are the conservative fit inputs, not calibrated coverage):
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Timing error d | Fitted depth ppt |
+|---|---|---|---|---|
+| 11 | 0 | 1604.0919255 | 0.010417 | 13.513 |
+| 11 | 1 | 1621.5248445 | 0.010417 | 12.858 |
+| 65 | 85 | 3086.1986389 | 0.001157 | 13.922 |
+
+Evidence (original source layout; use the public evidence links below for exported locations): measurements.json, raw-events.png, raw-windows.csv, raw/QLP FITS; historical/diff_s11.json, historical/diff_s11.png and historical/gaia.json; ../gaia-geometry.json; ../helper-audit.md; ../SHA256SUMS.json. Original cutout retained at [local path omitted] Historical pipeline definitions are diffstack.py and c3_sapdepth.py in the source sb1-scale tree. No historical evidence overwritten.
+
+
+Stable review key: R179. [Deciding evidence](../../evidence/253126207/) and [catalogue coverage](../../catalogues/coverage-matrix.csv). The export manifest maps original hashes to sanitized files. Analysis scripts are archival and require the recorded external data; local paths are omitted.

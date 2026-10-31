@@ -1,0 +1,68 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T19:59:38 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T19:59:38	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=337.583750-70.357157,rs=90.	
+#Constraint -out.max=500
+
+#RESOURCE=yCat_1355
+#Name: I/355
+#Title: Gaia DR3 Part 1. Main source (Gaia Collaboration, 2022)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Gaia collaboration	    First author or institution
+#INFO	cites=bibcode:2022yCat.1355....0G	    Bibcode of the dataset
+#INFO	journal=yCat	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.1355	    Dataset identifier that can be used for citation
+#INFO	publication_date=2024-12-12	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Coosys	H_2016.000:	ICRS
+#Table	I_355_gaiadr3:
+#Name: I/355/gaiadr3
+#Title: Gaia DR3 source catalog (1811709771 sources)
+#Column	_r	(F6.3)	Distance from center (337.58375040927-70.35715734297)[ICRS], at Epoch=J2016.0	[ucd=pos.angDistance]
+#Column	Source	(I19)	Unique source identifier (unique within a particular Data Release) (source_id)	[ucd=meta.id;meta.main]
+#Column	RA_ICRS	(F15.11)	Right ascension (ICRS) at Ep=2016.0 (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DE_ICRS	(F15.11)	Declination (ICRS) at Ep=2016.0 (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	Gmag	(F9.6)	? G-band mean magnitude (phot_g_mean_mag)	[ucd=phot.mag;em.opt]
+#Column	BP-RP	(F9.6)	? BP-RP colour (bp_rp)	[ucd=phot.color;em.opt.B;em.opt.R]
+#Column	Plx	(F9.4)	? Parallax (parallax)	[ucd=pos.parallax.trig]
+#Column	VarFlag	(a13)	Photometric variability flag (phot_variable_flag)	[ucd=meta.code;src.var]
+_r	Source	RA_ICRS	DE_ICRS	Gmag	BP-RP	Plx	VarFlag
+arcsec	 	deg	deg	mag	mag	mas	
+------	-------------------	---------------	---------------	---------	---------	---------	-------------
+86.219	6385053379013386368	337.60127482314	-70.38037205206	18.680515	 1.332832	   0.4121	NOT_AVAILABLE
+75.838	6385053383309355776	337.58401189810	-70.37822324005	20.988857	 1.146164	         	NOT_AVAILABLE
+77.890	6385053585171816960	337.56033014928	-70.37731173655	19.950653	 1.446911	   0.6162	NOT_AVAILABLE
+36.394	6385053761266439296	337.60092708767	-70.36545628674	20.869987	 1.793407	         	NOT_AVAILABLE
+54.669	6385053795626633728	337.62115091879	-70.36567830488	14.458573	 0.877061	   1.1428	NOT_AVAILABLE
+64.258	6385053795626633856	337.62581282535	-70.36805612302	15.308463	 1.064891	   1.1229	NOT_AVAILABLE
+27.190	6385053795626634240	337.59760959537	-70.36310263335	15.303111	 0.871031	   0.7102	NOT_AVAILABLE
+68.959	6385053894409467776	337.62552682289	-70.34413487826	20.189379	 1.366184	  -0.5010	NOT_AVAILABLE
+72.867	6385053898705872256	337.63639847428	-70.34734293331	16.204716	 0.763020	   0.2901	NOT_AVAILABLE
+71.452	6385053898706384640	337.63844666313	-70.34969093036	20.619946	 2.231590	         	NOT_AVAILABLE
+37.694	6385053963128941056	337.56060330029	-70.36416506203	18.996445	 0.982760	   0.1609	NOT_AVAILABLE
+35.705	6385053963128942592	337.55696864109	-70.35299792937	20.499664	 1.159424	  -0.0383	NOT_AVAILABLE
+40.512	6385053967424793472	337.55088462473	-70.35930004960	20.712322	 1.777019	   0.5609	NOT_AVAILABLE
+17.453	6385053967424869248	337.56940655067	-70.35665348953	20.873420	 1.251854	   2.8140	NOT_AVAILABLE
+23.892	6385053997488681088	337.56913127418	-70.35269776663	21.047812	 0.817554	         	NOT_AVAILABLE
+26.091	6385053997488681216	337.59608823181	-70.35121411001	19.543236	 1.033781	   0.0905	NOT_AVAILABLE
+ 0.000	6385053997488958464	337.58375040927	-70.35715734297	11.513674	 0.777534	   3.2507	NOT_AVAILABLE
+13.152	6385054001784751488	337.58101458944	-70.35362158875	21.164782	 0.908855	         	NOT_AVAILABLE
+70.208	6385054031848419712	337.52914505576	-70.35057801680	20.114985	 1.876541	   0.6500	NOT_AVAILABLE
+78.056	6385054036144803584	337.53099911744	-70.34468823638	15.171195	 1.121024	   1.7008	NOT_AVAILABLE
+69.592	6385054066208418816	337.53923928295	-70.34492304546	19.909517	 2.521486	   1.3786	NOT_AVAILABLE
+64.324	6385054100567898880	337.59424562638	-70.33964152574	19.035060	 2.309488	   1.2608	NOT_AVAILABLE
+78.257	6385054100567899264	337.56946294624	-70.33595704981	18.716343	 1.029278	   0.5050	NOT_AVAILABLE
+

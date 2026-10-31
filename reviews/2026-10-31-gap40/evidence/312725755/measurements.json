@@ -1,0 +1,128 @@
+{
+  "timing_included_historical_cycles": [
+    0,
+    1,
+    63,
+    64,
+    130
+  ],
+  "timing_excluded_historical_cycles": [],
+  "tic": "312725755",
+  "historical_period_days": 11.3049438154831,
+  "historical_epoch_btjd": 1823.1157,
+  "search_duration_days": 0.261,
+  "events": [
+    {
+      "sector": 19,
+      "cycle": 0,
+      "predicted_btjd": 1823.1157,
+      "mid_btjd": 1823.1124592760432,
+      "timing_error_days": 0.01041690114254834,
+      "formal_timing_error_days": 0.0026523870488614544,
+      "depth_ppt": 47.710924471257606,
+      "duration_days": 0.3639452401939688,
+      "cadence_days": 0.02083380228509668,
+      "oot_scatter_ppt": 3.462438376441065,
+      "resid_rms_ppt": 2.7432923671164904,
+      "n": 115,
+      "fit_shift_days": -0.0032407239569139296
+    },
+    {
+      "sector": 19,
+      "cycle": 1,
+      "predicted_btjd": 1834.4206438154831,
+      "mid_btjd": 1834.4206438154831,
+      "timing_error_days": 0.01041690114254834,
+      "formal_timing_error_days": 0.0,
+      "depth_ppt": 46.79462055090838,
+      "duration_days": 0.261,
+      "cadence_days": 0.02083380228509668,
+      "oot_scatter_ppt": 1.7962302473735976,
+      "resid_rms_ppt": 2.6836906206868747,
+      "n": 70,
+      "fit_shift_days": 0.0
+    },
+    {
+      "sector": 45,
+      "cycle": 63,
+      "predicted_btjd": 2535.3271603754356,
+      "mid_btjd": 2535.325690541176,
+      "timing_error_days": 0.003472401628869193,
+      "formal_timing_error_days": 0.0015572875932175526,
+      "depth_ppt": 49.21489237712804,
+      "duration_days": 0.35420768047889784,
+      "cadence_days": 0.006944803257738386,
+      "oot_scatter_ppt": 3.664255061344469,
+      "resid_rms_ppt": 2.8932989373747513,
+      "n": 353,
+      "fit_shift_days": -0.0014698342595583583
+    },
+    {
+      "sector": 45,
+      "cycle": 64,
+      "predicted_btjd": 2546.6321041909187,
+      "mid_btjd": 2546.627489392699,
+      "timing_error_days": 0.003472401628869193,
+      "formal_timing_error_days": 0.001722842873043204,
+      "depth_ppt": 49.85682621297683,
+      "duration_days": 0.3587409865042737,
+      "cadence_days": 0.006944803257738386,
+      "oot_scatter_ppt": 3.986524206199403,
+      "resid_rms_ppt": 3.8260755450394193,
+      "n": 351,
+      "fit_shift_days": -0.004614798219621868
+    },
+    {
+      "sector": 73,
+      "cycle": 130,
+      "predicted_btjd": 3292.758396012803,
+      "mid_btjd": 3292.7596227559766,
+      "timing_error_days": 0.0011574148800264084,
+      "formal_timing_error_days": 0.0007210306041995507,
+      "depth_ppt": 43.993815749380715,
+      "duration_days": 0.31923096362794356,
+      "cadence_days": 0.0023148297600528167,
+      "oot_scatter_ppt": 3.3027004244091915,
+      "resid_rms_ppt": 3.0874501822800324,
+      "n": 1010,
+      "fit_shift_days": 0.00122674317327636
+    }
+  ],
+  "sources": [
+    {
+      "tic": "312725755",
+      "sector": 19,
+      "path": "[local path omitted]",
+      "sha256": "01e02abc33325c6f4cd15f8b6296063eb70e6a687fedca94f84f874880c66fb6",
+      "status": "ok"
+    },
+    {
+      "tic": "312725755",
+      "sector": 45,
+      "path": "[local path omitted]",
+      "sha256": "e08db39a26e4d58adc2962ae6c4db3e619b3e00813a4e779cf52bcac80cc3a50",
+      "status": "ok"
+    },
+    {
+      "tic": "312725755",
+      "sector": 73,
+      "path": "[local path omitted]",
+      "sha256": "d7fd80ef2779dbf7cfbe9b929ff766f16af66bfe911557b723b7e620ff78a726",
+      "status": "ok"
+    }
+  ],
+  "period_days": 11.304994219364756,
+  "period_error_days": 3.431475573613791e-05,
+  "primary_epoch_btjd": 1823.1102836630625,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    0.002175612980636288,
+    0.005365933055827554,
+    0.0007710581335231836,
+    -0.0024243097082035092,
+    9.057549550561816e-05
+  ],
+  "reduced_chi_square": 0.28394429748725303,
+  "error_meaning": "Linear timing fit using quadrature-free conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage.",
+  "depth_ppt": 47.710924471257606
+}

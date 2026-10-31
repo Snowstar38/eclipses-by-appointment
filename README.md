@@ -1,6 +1,6 @@
 # Eclipses by Appointment
 
-**426 eclipsing systems: 398 confirmed and 28 probable.** All 426 meet the specified seven-group uncatalogued standard; fourteen plausible cases remain excluded. Catalogue non-matches are bounded searches, not an exhaustive priority claim.
+**470 eclipsing systems: 439 confirmed and 31 probable.** All 470 meet the specified seven-group uncatalogued standard; fourteen plausible cases remain excluded. Catalogue non-matches are bounded searches, not an exhaustive priority claim.
 
 This is one evolving **paper, v1.0**. It has **not been formally submitted** to a journal and is not under formal review.
 
@@ -8,20 +8,22 @@ Gaia measures the orbits of binary stars. We use those orbits to predict when ec
 
 ## Paper and evidence
 
-The scientific search populations contribute **105 systems from predicted spectroscopic conjunctions, 313 from Gaia-orbit period folds, four from the nearby-M-dwarf-selected search (including neighbouring hosts), and four from near-edge-on Gaia astrometric orbits**. The fainter SB1 systems use the same period-fold method and physical criteria.
+The scientific search populations contribute **107 systems from predicted spectroscopic conjunctions, 355 from Gaia-orbit period folds, four from the nearby-M-dwarf-selected search (including neighbouring hosts), and four from near-edge-on Gaia astrometric orbits**. The fainter SB1 systems use the same period-fold method and physical criteria.
 
 - [Current paper](paper.pdf): methods, physical findings, the original catalogue measurements in Appendix A, and a unified physical-outcome register in Appendix C.
 - [Supplement](supplement.pdf): scientific method/population guide and unified outcome navigation, followed by illustrated entries and preserved detailed evidence.
-- [Unified scientific review register](scientific-review-register.csv): all 269 R/C/P reviews with method, population, physical status, unique-count flag, scientific outcome and stable report/anchor links. It contains 211 confirmed and 16 probable additions, seven known recoveries/controls, 14 plausible signals and 21 non-EB, neighbouring-source or systematic outcomes. The A4 control is already in the original catalogue and adds nothing again.
+- [Unified scientific review register](scientific-review-register.csv): all 314 R/C/P reviews with method, population, physical status, unique-count flag, scientific outcome and stable report/anchor links. It contains 252 confirmed and 19 probable additions, eight known recoveries/controls, 14 plausible signals and 21 non-EB, neighbouring-source or systematic outcomes. The A4 control is already in the original catalogue and adds nothing again.
 - [Conjunction-selected evidence register](appointments-review.csv): all 23 reconciled G 11-11.5, Gaia 20-60 d reviews, comprising 22 confirmed additions and one plausible signal. [Reports and catalogue receipts](reviews/2026-10-31-appointments/README.md) retain period/epoch qualifications and deciding limitations. Of 50 visually selected candidates in this stratum, 45 have individual reviews (20 original plus 25 later); one historical known recovery and one historical plausible signal are outside the 23-target reconciliation, and five remain unreviewed.
+
+- [Current period-fold and exploratory register](gap-review.csv): 40 magnitude-ordered G 11.5-12 reviews (39 confirmed, one probable), two near-orbital-period probable cases and three fresh conjunction-pilot reviews (two confirmed additions, one known recovery excluded). [Fixed-queue evidence](reviews/2026-10-31-gap40/README.md) and [pilot evidence and attempt ledger](reviews/2026-10-31-gap-pilot/README.md) retain the separate populations and data failures. The adaptive appointments pilot selected 96 targets, matched 90 TICs and obtained usable QLP data for 89; the near-orbital-period branch attempted 72. Sixteen long-duration targets and eight old single-event availability checks produced no promoted systems. These underexplored selections use existing methods, and adaptive stopping prevents an unbiased yield interpretation.
 - [R evidence register](reviewed-extension.csv) and [C evidence register](returned-review.csv): original compatible CSV links. R/C/P labels are archival keys, not scientific methods or physical classes. The [detailed evidence archive](reviews/cloud72-completion-2026-10-30/README.md), [earlier reports](reviews/c9a-return/README.md), and [catalogue reconciliation](reviews/novelty-reconciliation/README.md) preserve provenance and measurements.
 - [Earlier working draft](historical-draft-2026-10-14.pdf): archived draft, not a formally submitted version.
 
 Among 242 individually reviewed G 10-11.5 period-fold candidates, 230 are confirmed (including three known recoveries), nine probable, two non-eclipsing heartbeat stars and one plausible. These are a reviewed subset, not the denominator for the full period-fold search. Catalogue non-matches retain their stated search scope.
 
-![Sky distribution of all 426 included eclipsing systems](overview.png?v=d6678f81a30c)
+![Sky distribution of all 470 included eclipsing systems](overview.png?v=a4e39f0b1c7c)
 
-The overview graphic combines the current paper first page, sky positions of all 426 included systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
+The overview graphic combines the current paper first page, sky positions of all 470 included systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
 
 **Related work.** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo
 on 2026 September 27, two weeks before this work began
@@ -52,7 +54,7 @@ implementation deliberately omits (0.3 to 3.7 light-seconds over the coming deca
 And the unique key is `(label, TIC)` rather than either column alone: twelve unnumbered rows share the label `D`, and
 two TICs carry two planet candidates each. Rows without a period or an epoch are kept, with the reason in `note`.
 
-[`batch-candidates.csv`](batch-candidates.csv) preserves all 266 screening rows and their current review statuses. Its numerical screening fields retain their original meaning; fitted measurements and limitations belong to the individual reports. Current R-labelled verdicts comprise 164 confirmed, 9 probable and one plausible. All 170 R additions meet the seven-group uncatalogued standard after coverage recovery; the three known recoveries are excluded. The dated tier reconciliation supersedes historical labels without changing old reports.
+[`batch-candidates.csv`](batch-candidates.csv) preserves all 266 screening rows and their current review statuses. Its numerical screening fields retain their original meaning; fitted measurements and limitations belong to the individual reports. Current R-labelled verdicts comprise 203 confirmed, 12 probable and one plausible. All 212 R additions meet the seven-group uncatalogued standard after coverage recovery; the three known recoveries are excluded. The dated tier reconciliation supersedes historical labels without changing old reports.
 
 ## Data and code
 

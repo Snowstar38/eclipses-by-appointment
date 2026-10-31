@@ -1,0 +1,91 @@
+{
+  "tic": "424716057",
+  "historical_period_days": 15.405571285015247,
+  "historical_epoch_btjd": 1625.9368,
+  "search_duration_days": 0.261,
+  "events": [
+    {
+      "sector": 12,
+      "cycle": 0,
+      "predicted_btjd": 1625.9368,
+      "mid_btjd": 1625.939557659634,
+      "timing_error_days": 0.010416739829736343,
+      "formal_timing_error_days": 0.0003676417137123338,
+      "depth_ppt": 211.90741878678438,
+      "duration_days": 0.46161919475195595,
+      "cadence_days": 0.020833479659472687,
+      "oot_scatter_ppt": 1.913091900883916,
+      "resid_rms_ppt": 2.2882797460414253,
+      "n": 72,
+      "fit_shift_days": 0.0027576596340114063
+    },
+    {
+      "sector": 103,
+      "cycle": 165,
+      "predicted_btjd": 4167.856062027516,
+      "mid_btjd": 4167.853324309499,
+      "timing_error_days": 0.001157406848960818,
+      "formal_timing_error_days": 8.91177711251783e-05,
+      "depth_ppt": 205.05025842102333,
+      "duration_days": 0.46504074942790874,
+      "cadence_days": 0.002314813697921636,
+      "oot_scatter_ppt": 1.3642959617076935,
+      "resid_rms_ppt": 2.3267932389461246,
+      "n": 674,
+      "fit_shift_days": -0.0027377180170072325
+    },
+    {
+      "sector": 93,
+      "cycle": 144,
+      "predicted_btjd": 3844.3390650421957,
+      "mid_btjd": 3844.3392113803475,
+      "timing_error_days": 0.0011573892946898923,
+      "formal_timing_error_days": 0.00017058850263107896,
+      "depth_ppt": 229.4994286447981,
+      "duration_days": 0.465840475338053,
+      "cadence_days": 0.0023147785893797845,
+      "oot_scatter_ppt": 2.914994406569339,
+      "resid_rms_ppt": 3.3880619543163824,
+      "n": 677,
+      "fit_shift_days": 0.0001463381517609944
+    }
+  ],
+  "sources": [
+    {
+      "tic": "424716057",
+      "sector": 12,
+      "path": "[local path omitted]",
+      "sha256": "11975759b3bc73a341063cf3171fbd7d15b675795fbb7de454cb36ef17496638",
+      "status": "ok",
+      "uri": "mast:HLSP/qlp/s0012/0000/0004/2471/6057/hlsp_qlp_tess_ffi_s0012-0000000424716057_tess_v01_llc.fits"
+    },
+    {
+      "tic": "424716057",
+      "sector": 103,
+      "path": "[local path omitted]",
+      "sha256": "ee45cfd2ffc4cf161ec3c5c4ae037f66da9d1d6128af3210ff52fdfabf49cfd6",
+      "status": "ok",
+      "uri": "mast:HLSP/qlp/s0103/0000/0004/2471/6057/hlsp_qlp_tess_ffi_s0103-0000000424716057_tess_v01_llc.fits"
+    },
+    {
+      "tic": "424716057",
+      "sector": 93,
+      "path": "[local path omitted]",
+      "sha256": "9931011ea34e169105251e657a9fb7423e038dee08d5f80ca5c3a050f11710eb",
+      "status": "ok",
+      "uri": "mast:HLSP/qlp/s0093/0000/0004/2471/6057/hlsp_qlp_tess_ffi_s0093-0000000424716057_tess_v01_llc.fits"
+    }
+  ],
+  "period_days": 15.405497331062046,
+  "period_error_days": 5.499559353955741e-05,
+  "primary_epoch_btjd": 1625.946884976911,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    -0.007327317277031398,
+    -0.0006202926497280714,
+    0.0007107305018507759
+  ],
+  "reduced_chi_square": 1.1591156850825621,
+  "error_meaning": "Linear timing fit using quadrature-free conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage.",
+  "depth_ppt": 211.90741878678438
+}

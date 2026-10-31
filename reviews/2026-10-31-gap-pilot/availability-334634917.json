@@ -1,0 +1,96 @@
+{
+ "status": "COMPLETE",
+ "msg": "",
+ "data": [
+  {
+   "sequence_number": 50,
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "t_min": 59664.774778935185,
+   "t_max": 59691.01403881944,
+   "t_obs_release": 59710,
+   "dataproduct_type": "timeseries",
+   "target_name": "334634917",
+   "obs_id": "tess2022085151738-s0050-0000000334634917-0222-s"
+  },
+  {
+   "sequence_number": 50,
+   "obs_collection": "HLSP",
+   "provenance_name": "TESS-SPOC",
+   "t_min": 59664.774778935185,
+   "t_max": 59691.01126105324,
+   "t_obs_release": 60023.73511561,
+   "dataproduct_type": "timeseries",
+   "target_name": "334634917",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000334634917-s0050_tess_v1_tp"
+  },
+  {
+   "sequence_number": 50,
+   "obs_collection": "HLSP",
+   "provenance_name": "QLP",
+   "t_min": 59664.77907476621,
+   "t_max": 59691.00861260388,
+   "t_obs_release": 60030.42342595,
+   "dataproduct_type": "timeseries",
+   "target_name": "334634917",
+   "obs_id": "hlsp_qlp_tess_ffi_s0050-0000000334634917_tess_v01_llc"
+  },
+  {
+   "sequence_number": 50,
+   "obs_collection": "HLSP",
+   "provenance_name": "TARS",
+   "t_min": 59664.77927357639,
+   "t_max": 59691.00876881945,
+   "t_obs_release": 61218.48528932,
+   "dataproduct_type": "timeseries",
+   "target_name": "334634917",
+   "obs_id": "hlsp_tars_tess_ffi_s0050-0000000334634917_tess"
+  }
+ ],
+ "fields": [
+  {
+   "name": "sequence_number",
+   "type": "int"
+  },
+  {
+   "name": "obs_collection",
+   "type": "string"
+  },
+  {
+   "name": "provenance_name",
+   "type": "string"
+  },
+  {
+   "name": "t_min",
+   "type": "float"
+  },
+  {
+   "name": "t_max",
+   "type": "float"
+  },
+  {
+   "name": "t_obs_release",
+   "type": "float"
+  },
+  {
+   "name": "dataproduct_type",
+   "type": "string"
+  },
+  {
+   "name": "target_name",
+   "type": "string"
+  },
+  {
+   "name": "obs_id",
+   "type": "string"
+  }
+ ],
+ "paging": {
+  "page": 1,
+  "pageSize": 2000,
+  "pagesFiltered": 1,
+  "rows": 4,
+  "rowsFiltered": 4,
+  "rowsTotal": 4
+ }
+}

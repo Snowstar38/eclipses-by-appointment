@@ -1,0 +1,21 @@
+> Supervisor-accepted physical review: CONFIRMED. Included under the paper's stated physical tier and bounded catalogue scope. Earlier pending-admission wording below records the original handoff.
+
+# TIC 389128842: CONFIRMED
+
+Scientific method/population: fresh Gaia-conjunction appointments G11.5-12 P20-60d. Physical review completion: complete bounded first pass, independently audited in [helper/AUDIT.md](../helper/AUDIT.md); supervisor admission pending. Catalogue novelty is separate: no prior EB identified in seven scoped groups; cachedChopardv1.2.0 exact IDs no overlap; laterreleases/embargo93 unknown.
+
+1. Repeated raw eclipses: PASS. 4 fit-eligible raw SAP events in sectors [102, 103, 104]. Trapezoid depths median 339.70 ppt; duration median 8.39 h. All saved events, rejected fits and raw files are identified in timing-results.json; no claim that other sectors are clean nulls. QUALITY==0 used. Existing raw observations were remeasured, not merely called eclipses from BLS.
+2. Eclipse timing: PASS. P=22.6663428344 d; A-eclipse reference epoch BTJD 4134.51793092; OLS scatter SE 5.40966539e-05 d; residual RMS 0.123 min. This SE excludes cadence/template/extraction systematics and is not calibrated coverage. Fits are representative, not all-event precision ephemerides.
+3. Target pixels: PASS. Sector 102, 1 event stack, peak pixel [7, 8] equals target [7, 8]; centroid-target 0.54 arcsec. 0 distinct Gaia neighbours could supply the flux under the conservative total-flux bound. All distinct Gaia neighbours within 60arcsec are too faint under the conservative bound. Catalogue incompleteness/unresolved companions are not excluded. Gaia position used consistently with target ID. The older diffstack n_possible field includes the target itself; this report explicitly removes it.
+4. Alternative reduction: PASS as a processing check. Own TESScut extraction using median faint-pixel background and target 3x3 aperture reproduces deficit 371.64 ppt. The difference-stack receipt records per-event aperture depths. These are the same TESS photons, not an independent observing occasion; dilution/apertures explain differing QLP depths.
+5. Gaia geometry: PASS for consistency, not a precision solution. Eclipse P differs from Gaia by -0.046 quoted Gaia period errors. A-conjunction epoch difference -0.235 propagated marginal-error sigma. Gaia mass function 0.1004 solar masses, minimum companion mass 0.649 solar masses for TIC primary mass 1.000. TIC R1=1.372 solar radii. Illustrative edge-on R2=1solar-radius duration at this conjunction 13.04 h, longer than observed; impact/inclination can shorten it. This is an existence/consistency check, not a fitted mass-radius claim. Correlated Gaia errors were not modeled; no arbitrary sigma veto.
+
+Seven catalogue groups: fresh VSX60arcsec, ASAS-SN60arcsec, SIMBAD exactGaiaDR3, Gaia vari_eclipsing_binary exactID, Prsa2022 5arcsec, IJspeert2024 5arcsec, vetted Kostov2025 tables3+4 5arcsec all returned successful receipts. No on-target EB match in this bounded scope. Any VSX/ASAS-SN neighbour is retained as attribution evidence, not mistaken for target identity. Full rows, UTC queries and response hashes are in [catalogue coverage](../catalogues/coverage-matrix.csv). The latter two Kostov tables form one group. No external messaging or public/paper edits.
+
+Limitations: Pilot characterization; period errors are scatter-only. No exhaustive literature priority claim.
+Next check: Supervisor review before admission; independent helper audit completed.
+
+Lead audit: scripts inspected and deciding numeric outputs reconciled with raw SAP plots, full Gaia NSS metadata, source IDs and real TESScut pixels. Apparent failure/non-detection is not called physical refutation unless contrary evidence is present. Independent [helper audit](../helper/AUDIT.md) uncertainty caveats are retained. The helper verified deciding artifacts, not an exhaustive literature search.
+
+
+Accepted review key: P026. [Pilot selection and limitations](../REPORT.md), [independent audit](../helper/AUDIT.md), and [catalogue receipts](../catalogues/). Nearby files contain the deciding pixel measurements and hashes. This public archive omits raw FITS and sanitizes local paths; scripts are archival rather than turnkey.

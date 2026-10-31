@@ -1,5 +1,5 @@
 {
-  "description": "Original 199 active A systems plus every current review-register row with count_addition=true; joined by exact TIC identifier to TIC coordinate metadata. No coordinate imputation. Source hashes refer to publication inputs; source identifiers are sanitized aliases.",
+  "description": "Original 199 active A systems plus every included scientific-review row, including 44 final accepted additions. Exact TIC joins to actual coordinate metadata; original 426 rows preserved byte-for-byte; no coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
@@ -93,9 +93,24 @@
     },
     "target-metadata-29.json": {
       "sha256": "9e49e66d5afcbaac8992937f6d52ba3ea592b051d5c9d0c14e9b71d4b31ec941"
+    },
+    "gap40-results.csv": {
+      "sha256": "a9351cb6340d3b0629fd0321536f1bb67358ffe09ca2b569e883cb68325d2ce0"
+    },
+    "gap40-target-metadata.json": {
+      "sha256": "d5c3161163df2c6ddb1c7cf8aafb71ad3448f31853fb5ffdefdcf593fd966e75"
+    },
+    "period-pilot-results.csv": {
+      "sha256": "761608b77c2d3601f3b47a60b93101b73624049722b16cfa44e39a19e620040b"
+    },
+    "period-pilot-target-metadata.json": {
+      "sha256": "798d4c2fe450abf44914b0c048280228f4f078a482d9e57a9f142e71698a896b"
+    },
+    "gap40-shared-target-metadata.json": {
+      "sha256": "d7103e4e72104ca9831e1b9521868554850a2ef78bbff5f9a802fd1b7d7d804f"
     }
   },
-  "included": 426,
+  "included": 470,
   "omitted": 0,
   "sky_background": {
     "source": "https://svs.gsfc.nasa.gov/4851/",
@@ -105,5 +120,16 @@
     "reuse_terms": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
     "coordinates": "ICRF/J2000 plate carree; north up; RA0 centre; RA increasing left",
     "transformation": "Pixel-cell Mollweide reprojection; RGB 0.57 source + 0.43 navy; no sky geometry approximation"
+  },
+  "tiers": {
+    "confirmed": 439,
+    "probable": 31
+  },
+  "final_additions": {
+    "included": 44,
+    "fixed_population": 40,
+    "period_pilot": 4,
+    "excluded_known_systems": 1,
+    "coordinate_join": "Exact TIC = metadata ID; fixed-population coordinates also checked against shared metadata."
   }
 }

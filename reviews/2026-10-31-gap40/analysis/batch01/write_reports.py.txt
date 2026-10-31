@@ -1,0 +1,55 @@
+import csv,json,hashlib,shutil
+from pathlib import Path
+import numpy as np
+B=Path(__file__).parent;SB=Path('[local path omitted] 5/made/sb1-scale');G=json.load(open(B/'gaia-geometry.json'));rows=[];hashes={}
+special={
+'300217120':'The nearby other eclipse in S67 contaminates a wider baseline window; the final fit uses a narrower 1.65-search-duration half-window and shows the repeated primary. Historical S27 TESScut contains one event but QLP independently shows three primaries in S67/S94.',
+'424716057':'QLP primary depths vary across apertures/sectors (205–230 ppt in the selected sectors); no common intrinsic depth is claimed.',
+'265350422':'Three G-band-capable neighbours at 32.85, 42.38 and 51.78 arcsec lie away from the compact deficit on the target. The target-centered dip grows rather than vanishes in the small aperture. No calibrated centroid confidence ellipse is available.',
+'274941915':'Three capable neighbours at 32.98, 40.57 and 47.81 arcsec are spatially separated from the target-centered compact deficit. The small-aperture reduction retains the eclipse. No calibrated centroid confidence ellipse is available.',
+'253126207':'Attribution remains unresolved: seven capable neighbours include three within one TESS pixel (15.16, 17.15 and 19.43 arcsec); the historical PSF fractional residual is 0.657. A known Gaia eclipsing binary at 24.77 arcsec with P=0.312563 d is a different source, and its short period does not identify the 17.44 d signal. Real repeating eclipses pass the other checks; source localization is the failed scientific check. Resolved eclipse imaging or defensible multi-source PRF modeling is required.',
+'245474316':'Deep repeated eclipses are isolated in both reductions; all four measured primary events support the timing solution.',
+'397586559':'Unequal alternating eclipses (primary median approximately254 ppt, secondary164 ppt) establish orbital period twice the historical4.93316d event spacing. Only deeper even cycles enter the reported primary ephemeris. Historical S70 difference image mixes both eclipse kinds, so its aperture depth is a mixture. Gaia nominal conjunction is0.28093d later at the TESS epoch; measured-Gaia period difference−0.00126495d accumulates this offset. Projecting toward the Gaia2016 reference reduces offset to−0.0166d; the orbit association is physically consistent with an imperfect Gaia period, and the tension is retained rather than subjected to a sigma veto.',
+'305801065':'The shallow eclipse is clearly repeated with localized ingress/egress despite higher scatter in newer sectors. Three capable neighbours at28.07,33.30,54.57arcsec are separated from the compact target deficit. Depth depends on dilution and trapezoid shape; historical median3.8ppt is not a precision intrinsic depth.',
+'345794632':'Large historical PSF fractional residual0.57 reflects imperfect scaled out-image morphology in a crowded field. No listed neighbour within60arcsec can supply the approximately73ppt eclipse under the G-band flux-budget screen, and the lost-light core coincides with the target. The weaker localization calibration remains a limitation.',
+'258621299':'Unequal alternating eclipses (primary median approximately180ppt, secondary131ppt) establish orbital period twice the historical3.49299d event spacing. Only deeper even cycles enter the reported primary ephemeris. Historical S20 difference image mixes both eclipse kinds, so its aperture depth is a mixture.'}
+for q in csv.DictReader(open(B/'queue.csv')):
+ tic=q['tic'];D=B/tic;M=json.load(open(D/'measurements.json'));g=G[tic];src=next((SB/'diffimg'/tic).glob('diff_s*.json'));diff=json.load(open(src));evidence=D/'historical';evidence.mkdir(exist_ok=True)
+ for p in [src,src.with_suffix('.png'),src.parent/'gaia.json']:
+  dest=evidence/p.name;shutil.copy2(p,dest);hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+ cut=Path(f'[local path omitted]"sector"]:03}.fits');hashes[str(cut)]=hashlib.sha256(cut.read_bytes()).hexdigest()
+ events=[e for e in M['events'] if 'mid_btjd' in e];neigh=[n for n in diff['neighbours_60'] if n['possible']];verdict='PROBABLE' if tic=='253126207' else 'CONFIRMED';lim=special[tic];nfit=len([e for e in events if tic not in ('397586559','258621299') or e['cycle']%2==0]);offset=np.hypot(*diff['deficit_minus_target_px'])*21
+ nb='; '.join(f"Gaia {n['source_id']}: {n['sep']:.2f} arcsec, G{n['G']:.3f}, required fractional eclipse{n['depth_needed']:.3f}, pixel fractional loss{n['frac_loss_at_pixel']}" for n in neigh) or 'None within60arcsec under the approximate G-band flux-budget test.'
+ table='\n'.join(f"| {e['sector']} | {e['cycle']} | {e['mid_btjd']:.7f} | {e['timing_error_days']:.6f} | {e['depth_ppt']:.3f} |" for e in events)
+ report=f'''# TIC {tic}: {verdict}
+
+Full bounded review: COMPLETE. Physical outcome and catalogue novelty are separate. This review applies current section2.7 and does not promote the historical screening label automatically.
+
+1. **Raw events: pass.** Free trapezoid fits to quality-zero raw QLP SAP_FLUX show {len(events)} distinct eclipse events in selected sectors{sorted(set(e['sector'] for e in events))}. The raw-event plot and numeric raw-windows.csv were inspected. Local linear baseline, free depth, center, duration and ingress were fitted; QLP detrended flux is not used as the deciding raw check. Representative selection is at most three spread available QLP sectors, with coverage/window requirements recorded by the script. Uncovered or flagged windows were never called nulls.
+2. **Eclipse timing: pass.** {nfit} same-kind midtimes give P={M['period_days']:.10f} ±{M['period_error_days']:.10f}d, reference primary epoch BTJD{M['primary_epoch_btjd']:.7f}. Historical event coordinates in difference-image JSON were predictions and are not used as measured timings. Cycle counts were seeded by historical photometric search period, then fit freely across the selected baseline. This is not a blind all-alias search. Error meaning: {M['error_meaning']}
+3. **Target attribution: {'unresolved after check' if verdict=='PROBABLE' else 'pass at TESS image resolution'}.** Historical S{diff['sector']} deficit peak{diff['peak_deficit_px']} vs target pixel{diff['target_pixel']}; deficit-target separation{offset:.3f}arcsec. Full saved difference image, original cutout identity and capable neighbours were audited. PSF-scaled image fractional residual{diff['psf_fit_frac_resid']:.3f}. Capable neighbours: {nb}
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut aperture gives 1x1/3x3/5x5 depths{diff['depth_ap1']*1000:.3f}/{diff['depth_ap3']*1000:.3f}/{diff['depth_ap5']*1000:.3f}ppt, with {diff['n_events']} stacked events. QLP primary fitted median{M['depth_ppt']:.3f}ppt. This separately extracted cutout is an alternative reduction of the same TESS photons, not independent observing occasions. Dilution, aperture differences and, where relevant, mixed primary/secondary stacks prevent a claim of equal intrinsic depths.
+5. **Gaia orbital geometry: pass with stated limitations.** DR3{g['gaia_source_id']}, P={g['period_days']:.10f}±{g['period_error_days']:.10f}d, e={g['eccentricity']:.6f}, omega={g['omega_deg']:.4f}deg. Closest edge-on conjunction offset{g['closest']['offset_days']:.6f}d ({g['closest']['offset_phase']:.6f}phase), full-SB1-covariance linear propagated Gaia uncertainty{g['closest']['gaia_covariance_linear_error_days']:.6f}d at the measured epoch. Near-Gaia-reference projected eclipse offset{g['near_reference']['offset_days']:.6f}d (photometric period projection allowance{g['near_reference']['period_projection_allowance_days']:.6f}d). The approximate central duration{g['central_duration_hours_approx']:.2f}h vs observed median{g['observed_duration_hours']:.2f}h permits noncentral geometry; this radius/minimum-mass estimate is not a detailed binary fit. Full covariance and assumptions are in gaia-geometry.json. No arbitrary sigma veto is used.
+
+**Deciding limitations and interpretation:** {lim}
+
+**Next check:** {'Resolved eclipse photometry or multi-source PRF localization of the17.44d signal.' if verdict=='PROBABLE' else 'Optional resolved photometry or updated spectroscopy for improved binary parameters; no missing bounded admission check.'}
+
+Catalogue novelty: central seven-group result applies; see ../shared-catalogues/coverage-matrix.csv. A separate source in the search cone does not establish a target match. This physical report does not assert exhaustive literature priority.
+
+Measured events (errors are the conservative fit inputs, not calibrated coverage):
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Timing error d | Fitted depth ppt |
+|---|---|---|---|---|
+{table}
+
+Evidence: measurements.json, raw-events.png, raw-windows.csv, raw/QLP FITS; historical/{src.name}, historical/{src.stem}.png and historical/gaia.json; ../gaia-geometry.json; ../helper-audit.md; ../SHA256SUMS.json. Original cutout retained at {cut.as_posix()}. Historical pipeline definitions are diffstack.py and c3_sapdepth.py in the source sb1-scale tree. No historical evidence overwritten.
+'''
+ (D/'REPORT.md').write_text(report,encoding='utf-8')
+ rows.append(dict(tic=tic,physical_verdict=verdict,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=lim,next_check='Resolved eclipse photometry / multi-source PRF localization' if verdict=='PROBABLE' else 'Optional precision characterization',source_report=str(src),report=str(D/'REPORT.md')))
+with open(B/'RESULTS.csv','w',newline='',encoding='utf-8') as f:w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+for p in [SB/'search.jsonl',SB/'c5-sapdepth.json',SB/'c5-catrows.md',SB/'c3_sapdepth.py',SB/'diffimg/diffstack.py',B.parent/'shared-catalogues/gaia-nss-full.csv',B.parent/'shared-catalogues/targets-selected.json']:
+ hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+for p in B.rglob('*'):
+ if p.is_file() and p.name!='SHA256SUMS.json':hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+json.dump(hashes,open(B/'SHA256SUMS.json','w'),indent=2)

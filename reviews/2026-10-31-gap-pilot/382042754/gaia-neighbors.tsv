@@ -1,0 +1,53 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T19:59:38 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T19:59:38	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=079.230127-56.581895,rs=90.	
+#Constraint -out.max=500
+
+#RESOURCE=yCat_1355
+#Name: I/355
+#Title: Gaia DR3 Part 1. Main source (Gaia Collaboration, 2022)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Gaia collaboration	    First author or institution
+#INFO	cites=bibcode:2022yCat.1355....0G	    Bibcode of the dataset
+#INFO	journal=yCat	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.1355	    Dataset identifier that can be used for citation
+#INFO	publication_date=2024-12-12	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Coosys	H_2016.000:	ICRS
+#Table	I_355_gaiadr3:
+#Name: I/355/gaiadr3
+#Title: Gaia DR3 source catalog (1811709771 sources)
+#Column	_r	(F6.3)	Distance from center (079.23012695411-56.58189543825)[ICRS], at Epoch=J2016.0	[ucd=pos.angDistance]
+#Column	Source	(I19)	Unique source identifier (unique within a particular Data Release) (source_id)	[ucd=meta.id;meta.main]
+#Column	RA_ICRS	(F15.11)	Right ascension (ICRS) at Ep=2016.0 (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DE_ICRS	(F15.11)	Declination (ICRS) at Ep=2016.0 (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	Gmag	(F9.6)	? G-band mean magnitude (phot_g_mean_mag)	[ucd=phot.mag;em.opt]
+#Column	BP-RP	(F9.6)	? BP-RP colour (bp_rp)	[ucd=phot.color;em.opt.B;em.opt.R]
+#Column	Plx	(F9.4)	? Parallax (parallax)	[ucd=pos.parallax.trig]
+#Column	VarFlag	(a13)	Photometric variability flag (phot_variable_flag)	[ucd=meta.code;src.var]
+_r	Source	RA_ICRS	DE_ICRS	Gmag	BP-RP	Plx	VarFlag
+arcsec	 	deg	deg	mag	mag	mas	
+------	-------------------	---------------	---------------	---------	---------	---------	-------------
+42.279	4763601313789641856	079.24581624342	-56.58985036735	21.566893	 1.259396	         	NOT_AVAILABLE
+45.565	4763601348149383296	079.20715467542	-56.58153772614	18.900951	 1.131945	   0.2858	NOT_AVAILABLE
+40.676	4763601352445677824	079.21034194510	-56.58488575978	17.717213	 0.985470	   0.3985	NOT_AVAILABLE
+20.757	4763601382509124608	079.22936313784	-56.57614506085	21.516674	 1.578476	         	NOT_AVAILABLE
+ 0.000	4763601386805416704	079.23012695411	-56.58189543825	11.511363	 0.687914	   2.4076	NOT_AVAILABLE
+70.601	4763601588667558272	079.20105219366	-56.57057658109	19.310116	 2.291880	   1.5056	NOT_AVAILABLE
+62.758	4763601760466254080	079.21572262926	-56.56637298794	18.370258	 0.912413	   0.1745	NOT_AVAILABLE
+73.242	4763601764762536704	079.21416359227	-56.56354911194	12.978499	 1.283441	   0.3874	NOT_AVAILABLE
+
