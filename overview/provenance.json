@@ -1,11 +1,11 @@
 {
-  "description": "Original 199 active A systems plus every included scientific-review row. Exact TIC joins to actual coordinate metadata; original 470 rows preserved byte-for-byte before 58 magnitude-campaign additions; no coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
+  "description": "Original 199 active A systems plus every included scientific-review row. Exact TIC joins to actual coordinate metadata; original 528 rows preserved byte-for-byte before 58 second magnitude-campaign additions; no coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
     },
     "scientific-review-register.csv": {
-      "sha256": "fae45e834c4a1d9b3e20a33e5944dabad9d703eedab6b47d0dec088ce25c3690"
+      "sha256": "eb983afac2a3edda3397ad6f96b72996482d0c948fcf7075bd7f1d5771f561cf"
     },
     "target-metadata-01.json": {
       "sha256": "0702b3c81ceafa50cf44de10747ee1560a4500df6e644e6c4f19527ec1cb51d8"
@@ -117,9 +117,18 @@
     },
     "magnitude60-accepted-counts.json": {
       "sha256": "59e5fb6cdb0785d8c5868a8ab659bdec4647b4923c3fec6c0ac07e4068337951"
+    },
+    "magnitude60b-results.csv": {
+      "sha256": "ba7f77048330d7d806f29df9712ce06ca69a82986fba700a2f438c9709007b55"
+    },
+    "magnitude60b-target-metadata.json": {
+      "sha256": "da50481c6f8391dc5a8587f447b168c172a6f3ddadf935722a0b37a110d00b0d"
+    },
+    "magnitude60b-accepted-counts.json": {
+      "sha256": "a7132e6537d6cd677e0ba342f3a7cf0764c13aa777fd8bde2284a7b896ef6961"
     }
   },
-  "included": 528,
+  "included": 586,
   "omitted": 0,
   "sky_background": {
     "source": "https://svs.gsfc.nasa.gov/4851/",
@@ -131,16 +140,16 @@
     "transformation": "Pixel-cell Mollweide reprojection; RGB 0.57 source + 0.43 navy; no sky geometry approximation"
   },
   "tiers": {
-    "confirmed": 486,
-    "probable": 42
+    "confirmed": 541,
+    "probable": 45
   },
   "final_additions": {
-    "included": 102,
+    "included": 160,
     "fixed_population": 40,
     "period_pilot": 4,
     "excluded_known_systems": 2,
     "coordinate_join": "Exact TIC = metadata ID; fixed-population coordinates also checked against shared metadata.",
-    "magnitude_campaign": 58,
-    "excluded_plausible_systems": 1
+    "magnitude_campaign": 116,
+    "excluded_plausible_systems": 3
   }
 }

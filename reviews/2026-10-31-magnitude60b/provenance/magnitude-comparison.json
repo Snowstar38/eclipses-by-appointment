@@ -1,0 +1,147 @@
+{
+  "groups": {
+    "11.5-12": {
+      "selected": 30,
+      "outcomes": {
+        "CONFIRMED": 29,
+        "PROBABLE": 1
+      },
+      "confirmed_fraction": 0.9666666666666667,
+      "confirmed_wilson95": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "completed": 30,
+      "new_additions": 30,
+      "magnitude_range": [
+        11.664764,
+        11.995496
+      ],
+      "catalogue_statuses": {
+        "no identified prior EB": 30
+      }
+    },
+    "12-12.5": {
+      "selected": 30,
+      "outcomes": {
+        "CONFIRMED": 26,
+        "PROBABLE": 2,
+        "PLAUSIBLE": 2
+      },
+      "confirmed_fraction": 0.8666666666666667,
+      "confirmed_wilson95": [
+        0.703186733179637,
+        0.9469034451594526
+      ],
+      "completed": 30,
+      "new_additions": 28,
+      "magnitude_range": [
+        12.003646,
+        12.4871645
+      ],
+      "catalogue_statuses": {
+        "no identified prior EB": 30
+      }
+    }
+  },
+  "faint_minus_bright_confirmation_fraction": -0.09999999999999998,
+  "round1": {
+    "groups": {
+      "11.5-12": {
+        "selected": 30,
+        "outcomes": {
+          "PROBABLE": 3,
+          "CONFIRMED": 27
+        },
+        "confirmed_fraction": 0.9,
+        "confirmed_wilson95": [
+          0.7437891742081593,
+          0.9654001112526658
+        ],
+        "completed": 30,
+        "new_additions": 30,
+        "magnitude_range": [
+          11.676387,
+          11.974201
+        ],
+        "catalogue_statuses": {
+          "no identified prior EB": 30
+        }
+      },
+      "12-12.5": {
+        "selected": 30,
+        "outcomes": {
+          "PROBABLE": 8,
+          "CONFIRMED": 21,
+          "PLAUSIBLE": 1
+        },
+        "confirmed_fraction": 0.7,
+        "confirmed_wilson95": [
+          0.5212421254128504,
+          0.8333525173175619
+        ],
+        "completed": 30,
+        "new_additions": 28,
+        "magnitude_range": [
+          12.002902,
+          12.487862
+        ],
+        "catalogue_statuses": {
+          "no identified prior EB": 29,
+          "known prior EB": 1
+        }
+      }
+    },
+    "faint_minus_bright_confirmation_fraction": -0.20000000000000007
+  },
+  "cumulative": {
+    "groups": {
+      "11.5-12": {
+        "selected": 60,
+        "outcomes": {
+          "PROBABLE": 4,
+          "CONFIRMED": 56
+        },
+        "confirmed_fraction": 0.9333333333333333,
+        "confirmed_wilson95": [
+          0.8407464268680283,
+          0.9737713012754938
+        ],
+        "completed": 60,
+        "new_additions": 60,
+        "magnitude_range": [
+          11.664764,
+          11.995496
+        ],
+        "catalogue_statuses": {
+          "no identified prior EB": 60
+        }
+      },
+      "12-12.5": {
+        "selected": 60,
+        "outcomes": {
+          "PROBABLE": 10,
+          "CONFIRMED": 47,
+          "PLAUSIBLE": 3
+        },
+        "confirmed_fraction": 0.7833333333333333,
+        "confirmed_wilson95": [
+          0.6637997242680521,
+          0.868769559518097
+        ],
+        "completed": 60,
+        "new_additions": 56,
+        "magnitude_range": [
+          12.002902,
+          12.487862
+        ],
+        "catalogue_statuses": {
+          "no identified prior EB": 59,
+          "known prior EB": 1
+        }
+      }
+    },
+    "faint_minus_bright_confirmation_fraction": -0.15000000000000002
+  },
+  "interpretation": "Fixed screened-candidate samples, not blind search or completeness. Descriptive Wilson binomial model intervals; finite historical strata, depleted bright pool, crowding and coverage complicate interpretation. Differences need not be caused by magnitude. Known confirmed recoveries count toward physical confirmation, not additions. No target removed from selected denominators."
+}

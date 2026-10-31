@@ -1,0 +1,418 @@
+{
+  "description": "Independent audit of historical spatial and SAP summary products. Windows and historical tc values are predictions, not fitted times. Possible-neighbor threshold is a rough Gaia brightness test, not a calibrated TESS-band aperture model. Difference centroid is not a formal localization uncertainty. Alternative cutout uses same photons as QLP.",
+  "sapdepth_file": "[local path omitted] 5\\made\\sb1-scale\\c5-sapdepth.json",
+  "sapdepth_sha256": "ee1ec5ee81119fd773588f3a542ad62d1cd2c1e08bb5fc091410a3a620dccb5b",
+  "rows": [
+    {
+      "tic": "336856559",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\336856559\\diff_s103.png",
+      "image_sha256": "7a22326e1e7e51372160c9d0bd23eab2546f45fd58d0934cc62cb5fb78783c71",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\336856559\\diff_s103.json",
+      "difference_sha256": "7544e283299b1c062d013a41ad54f38790ca83031010d5792ceb8220a8bf8edc",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\336856559\\gaia.json",
+      "gaia_sha256": "adec372f5396e76e35fd5130a193425021db01950c0d5a27d6403509c9f2fb63",
+      "sector": 103,
+      "n_stacked_predicted_windows": 8,
+      "target_offset_px": 0.21145313719327735,
+      "aperture_fractional_depth_1_3_5": [
+        0.09966776552832894,
+        0.054231208909606754,
+        0.027296694054145504
+      ],
+      "capable_neighbors": [
+        {
+          "source_id": "5969863533437354240",
+          "sep_arcsec": 45.905079365310016,
+          "G": 9.994182,
+          "intrinsic_depth_needed_approx": 0.1697891745273161,
+          "distance_deficit_px": 2.2579848922935692
+        }
+      ],
+      "search_spacing_days": 2.90971241524618,
+      "historical_t0_prediction": 1632.1298,
+      "historical_even_odd_n": [
+        14,
+        14
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        142.015,
+        137.14999999999998
+      ],
+      "queue_period_days": 2.90971,
+      "gaia_nss_period": "2.9097381651414467",
+      "gaia_nss_period_error": "1.9977141E-4"
+    },
+    {
+      "tic": "146878534",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\146878534\\diff_s33.png",
+      "image_sha256": "64376865b756e0279bb7018ba617edbeffb21102cedcad2c4243d7036b12d53a",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\146878534\\diff_s33.json",
+      "difference_sha256": "5a3cbd634131ad5bc159d6b4625f9e3780c483201406349c1265ab91d30393c0",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\146878534\\gaia.json",
+      "gaia_sha256": "1fc029bba6347952d48afbb2cf3273a39810ed6d9bda340dccf88fdf6160f8a7",
+      "sector": 33,
+      "n_stacked_predicted_windows": 3,
+      "target_offset_px": 0.08916443711224593,
+      "aperture_fractional_depth_1_3_5": [
+        0.1400937891992712,
+        0.12764271991529774,
+        0.06875957663795358
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 8.980165307835652,
+      "historical_t0_prediction": 1470.8518,
+      "historical_even_odd_n": [
+        3,
+        3
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        165.142,
+        122.627
+      ],
+      "queue_period_days": 8.98016,
+      "gaia_nss_period": "8.979329668018831",
+      "gaia_nss_period_error": "4.3729955E-4"
+    },
+    {
+      "tic": "123220126",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\123220126\\diff_s62.png",
+      "image_sha256": "70ebe29dfd578532b1a93e1660600454ec3d5b0f69c1c890434cd895f491d791",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\123220126\\diff_s62.json",
+      "difference_sha256": "b07ea622cda68776429beffae6d45b597c2fe3c22b5ce25c83019a687a7e0a60",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\123220126\\gaia.json",
+      "gaia_sha256": "8d014313172d3878fc0bb3cebf6c583b68c4523419603bba9288cd9d736a0907",
+      "sector": 62,
+      "n_stacked_predicted_windows": 6,
+      "target_offset_px": 0.1166180422985291,
+      "aperture_fractional_depth_1_3_5": [
+        0.10592752225846958,
+        0.10320686024907318,
+        0.09632738013761447
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 3.9823685087285825,
+      "historical_t0_prediction": 1519.0846,
+      "historical_even_odd_n": [
+        12,
+        10
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        126.0295,
+        85.3005
+      ],
+      "queue_period_days": 7.96474,
+      "gaia_nss_period": "7.964889511659892",
+      "gaia_nss_period_error": "4.9014937E-4"
+    },
+    {
+      "tic": "42960522",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\42960522\\diff_s38.png",
+      "image_sha256": "73f4782ad6604edb1fa3be697f9e3f9c58d4efb6c12deb23915f30c1202efb2e",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\42960522\\diff_s38.json",
+      "difference_sha256": "3c57f26613b55bcbc0e6c031df3e57661182d29dc722f31b9a17a656c6f52f88",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\42960522\\gaia.json",
+      "gaia_sha256": "2ef6bc65a92dd0b2c7862039f3ebe5ee65d9ee51cdf3fb6af23e79648ff4d1c2",
+      "sector": 38,
+      "n_stacked_predicted_windows": 10,
+      "target_offset_px": 0.30717145860876516,
+      "aperture_fractional_depth_1_3_5": [
+        0.020933844368059736,
+        0.015800446012880998,
+        0.012059556118839921
+      ],
+      "capable_neighbors": [
+        {
+          "source_id": "5886336555601769088",
+          "sep_arcsec": 34.1648239967476,
+          "G": 13.66217,
+          "intrinsic_depth_needed_approx": 0.13736601741949503,
+          "distance_deficit_px": 1.5471966799416594
+        },
+        {
+          "source_id": "5886342431117033728",
+          "sep_arcsec": 29.059740125917298,
+          "G": 12.760144,
+          "intrinsic_depth_needed_approx": 0.07218733678843889,
+          "distance_deficit_px": 1.6146714192087048
+        },
+        {
+          "source_id": "5886336521242033536",
+          "sep_arcsec": 58.541646303607266,
+          "G": 13.329675,
+          "intrinsic_depth_needed_approx": 0.1068972690143718,
+          "distance_deficit_px": 2.617038855716815
+        },
+        {
+          "source_id": "5886336585650415360",
+          "sep_arcsec": 59.380583937442935,
+          "G": 15.897392,
+          "intrinsic_depth_needed_approx": 0.9269397529783381,
+          "distance_deficit_px": 2.6466926542987608
+        },
+        {
+          "source_id": "5886342431117035648",
+          "sep_arcsec": 58.96848280286653,
+          "G": 15.832945,
+          "intrinsic_depth_needed_approx": 0.8747796270513576,
+          "distance_deficit_px": 3.0077989668158285
+        }
+      ],
+      "search_spacing_days": 2.5438159717367803,
+      "historical_t0_prediction": 1627.7274,
+      "historical_even_odd_n": [
+        27,
+        26
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        21.378,
+        22.2985
+      ],
+      "queue_period_days": 2.54382,
+      "gaia_nss_period": "2.5437447918383342",
+      "gaia_nss_period_error": "2.679482E-4"
+    },
+    {
+      "tic": "374589618",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\374589618\\diff_s81.png",
+      "image_sha256": "c7c1c779da25dfb5ad75e7d5d07380701bbbc4c1d61d434815ff32fb7fe42425",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\374589618\\diff_s81.json",
+      "difference_sha256": "2d760fd4049be868bf7c722fc3106fcc4af92b7de6e8cd683a5e88b522368999",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\374589618\\gaia.json",
+      "gaia_sha256": "b51a933ccb0cd519063ef5bdf450b6a0a82a8dc41c5a56638645c6096465013a",
+      "sector": 81,
+      "n_stacked_predicted_windows": 14,
+      "target_offset_px": 0.09909991075110994,
+      "aperture_fractional_depth_1_3_5": [
+        0.005646202945171767,
+        0.005782994951160942,
+        0.005583596345306361
+      ],
+      "capable_neighbors": [
+        {
+          "source_id": "1802168316060661376",
+          "sep_arcsec": 13.531414137937073,
+          "G": 17.27968,
+          "intrinsic_depth_needed_approx": 0.7900840421150956,
+          "distance_deficit_px": 0.6692550567332863
+        },
+        {
+          "source_id": "1802168311763607936",
+          "sep_arcsec": 24.73040721696219,
+          "G": 17.408926,
+          "intrinsic_depth_needed_approx": 0.8893173693379972,
+          "distance_deficit_px": 1.1667718996457386
+        },
+        {
+          "source_id": "1802168419139874048",
+          "sep_arcsec": 31.64937804227208,
+          "G": 15.749306,
+          "intrinsic_depth_needed_approx": 0.19684160721103255,
+          "distance_deficit_px": 1.7219226792138065
+        },
+        {
+          "source_id": "1802165464202369664",
+          "sep_arcsec": 42.66169483300445,
+          "G": 16.94133,
+          "intrinsic_depth_needed_approx": 0.5799061882107619,
+          "distance_deficit_px": 2.1268572296688752
+        },
+        {
+          "source_id": "1802168384780141824",
+          "sep_arcsec": 43.75711974831741,
+          "G": 15.783086,
+          "intrinsic_depth_needed_approx": 0.20290085076921316,
+          "distance_deficit_px": 2.1409467918901055
+        },
+        {
+          "source_id": "1802168483562365568",
+          "sep_arcsec": 47.577216052203106,
+          "G": 16.950226,
+          "intrinsic_depth_needed_approx": 0.5846351960878958,
+          "distance_deficit_px": 2.5003082468370246
+        },
+        {
+          "source_id": "1802168380483110784",
+          "sep_arcsec": 52.037499588963605,
+          "G": 16.353365,
+          "intrinsic_depth_needed_approx": 0.33955451559297645,
+          "distance_deficit_px": 2.5177206276259794
+        },
+        {
+          "source_id": "1802168449202616960",
+          "sep_arcsec": 53.79209346005133,
+          "G": 17.241926,
+          "intrinsic_depth_needed_approx": 0.7632572403687876,
+          "distance_deficit_px": 2.813550780770676
+        }
+      ],
+      "search_spacing_days": 1.5831395728485418,
+      "historical_t0_prediction": 2770.5746,
+      "historical_even_odd_n": [
+        13,
+        11
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        4.449,
+        7.716
+      ],
+      "queue_period_days": 3.16628,
+      "gaia_nss_period": "3.1662003844934894",
+      "gaia_nss_period_error": "1.9504804E-4"
+    },
+    {
+      "tic": "355885228",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\355885228\\diff_s24.png",
+      "image_sha256": "f1118fe0b6492a7d5de71cedc6259bb36aa10e3147f65c9f46578fe37e096e07",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\355885228\\diff_s24.json",
+      "difference_sha256": "9cb6f8231d12859421f10a8d15bbd0680e34e3516d26f8601d51f053717e6cae",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\355885228\\gaia.json",
+      "gaia_sha256": "d327d93937be4bbb6f5e637e89f7fcedc8d15fe2d11d3ac910af9bb5b4707bad",
+      "sector": 24,
+      "n_stacked_predicted_windows": 4,
+      "target_offset_px": 0.10245082913866027,
+      "aperture_fractional_depth_1_3_5": [
+        0.021673387940848235,
+        0.020791202943819746,
+        0.020470140382740414
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 6.111876462789879,
+      "historical_t0_prediction": 1959.6012,
+      "historical_even_odd_n": [
+        3,
+        3
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        24.736,
+        14.276
+      ],
+      "queue_period_days": 12.22375,
+      "gaia_nss_period": "12.224155239549667",
+      "gaia_nss_period_error": "9.737126E-4"
+    },
+    {
+      "tic": "169303527",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\169303527\\diff_s69.png",
+      "image_sha256": "b8a7b25007f1ec403b6e703c2457c696d5ad6ae52dc15df007fa0945800eef53",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\169303527\\diff_s69.json",
+      "difference_sha256": "001af6fc92fdabedd77611e38e531cbe31c47d1f2b632ac42c7a0f3e8c7b2221",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\169303527\\gaia.json",
+      "gaia_sha256": "15a4bbbe67b1ee314e497d716a552c8820701537974761bba2e68ddc506efaab",
+      "sector": 69,
+      "n_stacked_predicted_windows": 4,
+      "target_offset_px": 0.06334098726099179,
+      "aperture_fractional_depth_1_3_5": [
+        0.13102526131278508,
+        0.12822782693947027,
+        0.12071732354050682
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 5.445696525575344,
+      "historical_t0_prediction": 2091.7186,
+      "historical_even_odd_n": [
+        5,
+        5
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        133.493,
+        132.524
+      ],
+      "queue_period_days": 5.4457,
+      "gaia_nss_period": "5.445640981115381",
+      "gaia_nss_period_error": "0.001193095"
+    },
+    {
+      "tic": "94541119",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\94541119\\diff_s18.png",
+      "image_sha256": "d5252fe7fa2b290e6911520baef8224a5a2a46ffc964ee7d27bd4dcad665d06b",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\94541119\\diff_s18.json",
+      "difference_sha256": "8d262073298dfa59d9cb0914e04ca5b6721c75d55c119210b9d5a0b8ff044810",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\94541119\\gaia.json",
+      "gaia_sha256": "be3fade75b4cd73f7c0e0eb68e0dd1168c65d42aa2198307b7764d52344db3bf",
+      "sector": 18,
+      "n_stacked_predicted_windows": 2,
+      "target_offset_px": 0.23665112115480322,
+      "aperture_fractional_depth_1_3_5": [
+        0.10957432108281578,
+        0.1083346921965633,
+        0.10702850939658666
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 10.893282003124536,
+      "historical_t0_prediction": 1797.8401,
+      "historical_even_odd_n": [
+        3,
+        4
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        111.029,
+        111.82749999999999
+      ],
+      "queue_period_days": 10.89328,
+      "gaia_nss_period": "10.89554003254778",
+      "gaia_nss_period_error": "0.0012192578"
+    },
+    {
+      "tic": "409935170",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\409935170\\diff_s94.png",
+      "image_sha256": "d41496a8635164fc0b2f37f32917fe74d1419c9108ee946cf1e8ca6e30e090ce",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\409935170\\diff_s94.json",
+      "difference_sha256": "6ba3fba5ffd2e8e06ecb7014090886b24c98df73efe91e33fe8c2aab5c4821c9",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\409935170\\gaia.json",
+      "gaia_sha256": "724fa73f424abc83149aa8432055bb597353683979188c628f1faf06fbc07ca5",
+      "sector": 94,
+      "n_stacked_predicted_windows": 6,
+      "target_offset_px": 0.1010179330717842,
+      "aperture_fractional_depth_1_3_5": [
+        0.12907547582044707,
+        0.12696315774107267,
+        0.11953973661650641
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 4.351933615495198,
+      "historical_t0_prediction": 1655.7909,
+      "historical_even_odd_n": [
+        17,
+        17
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        118.183,
+        115.286
+      ],
+      "queue_period_days": 8.70387,
+      "gaia_nss_period": "8.705618734014378",
+      "gaia_nss_period_error": "7.330769E-4"
+    },
+    {
+      "tic": "365864542",
+      "difference_image": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\365864542\\diff_s15.png",
+      "image_sha256": "cefa27fab32618125149abd41c8bb858021831e171fa5c1ff7ac73fb03c9e33d",
+      "difference_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\365864542\\diff_s15.json",
+      "difference_sha256": "b9618d1c6c726de8f16e0e970a67e74fcd52a14f57fed6a2ed9139c1574451f7",
+      "gaia_data": "[local path omitted] 5\\made\\sb1-scale\\diffimg\\365864542\\gaia.json",
+      "gaia_sha256": "cc71a073b24fe082b3d71adf56b8e766880fcca9cdf00b050f1ed9a306087ffc",
+      "sector": 15,
+      "n_stacked_predicted_windows": 2,
+      "target_offset_px": 0.10380285218729418,
+      "aperture_fractional_depth_1_3_5": [
+        0.25757701368676084,
+        0.24795651756330728,
+        0.19592266650240545
+      ],
+      "capable_neighbors": [],
+      "search_spacing_days": 13.383860265421822,
+      "historical_t0_prediction": 1717.1185,
+      "historical_even_odd_n": [
+        8,
+        8
+      ],
+      "historical_even_odd_median_depth_ppt": [
+        263.051,
+        264.636
+      ],
+      "queue_period_days": 13.38386,
+      "gaia_nss_period": "13.380739214025883",
+      "gaia_nss_period_error": "0.004240325"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+from pathlib import Path
+p=Path(__file__).parent/'write_reports.py';s=p.read_text()
+a=s.index('special=');b=s.index('\nfor q ',a)
+s=s[:a]+'''special={
+'379550793':'Crowded field: deficit0.315pixel from target; closest capable neighbor0.856pixel from deficit (G13.91,21.4arcsec). Peak/core favors target, with no calibrated centroid errors; aperture depths12.04/10.48/7.51ppt and sector depths differ through dilution. Intrinsic neighbor eclipse requirements are not directly compared with blended pixel losses.',
+'161823655':'Five measured events over three sectors, including adjacent same-kind repeats. Raw sector85 has changing baselines but clear narrow core; depth variation alone is not established astrophysically. No capable neighbor under approximate Gaia flux-budget screen.',
+'341118777':'Deep repeated events in sectors13/101. Sector104 cycle371 singular center covariance is excluded from timing; its real partial/noisy morphology is retained as documentation. No capable neighbor under approximate flux-budget screen.',
+'21952826':'Four measured repeats, with consecutive events in sector62. Deficit0.344pixel from target; nearest capable neighbor2.08pixels from deficit. Sector-dependent depth may reflect aperture dilution.',
+'308986181':'Eleven clear measured eclipses in three widely separated sectors. No capable neighbor under approximate Gaia flux-budget screen; target deficit0.176pixel from target.',
+'262082690':'Four real measured events in sectors99/102; adjacent cycles280/281 test recurrence. Historical sector38 adds independently extracted repeated events. Target deficit0.006pixel from target; nearest capable neighbor0.74pixel from deficit. Crowding and aperture dilution remain, but exact target-centered deficit/core favors target without a calibrated localization error.',
+'220568520':'Repeated flat-bottomed raw eclipses over sectors1/30/97. Sector1 cycle0 singular center covariance is excluded from timing. The near-gap asymmetric sector97 cycle141 is retained with finite timing allowance; clean neighboring cycle142 confirms recurrence. No capable neighbor under approximate flux-budget screen.',
+'276277940':'Deep raw eclipses recur across three sectors, with sector-dependent depths130-160ppt. Sector83 cycle270 singular center covariance is excluded from timing. Historical cutout1/3/5 depths109.7/109.5/90.1ppt show aperture dilution; no capable catalogued neighbor under approximate brightness screen.',
+'406863699':'Three clear measured eclipses, including consecutive cycles88/89 in sector66 and recurrence in101; historical cutout65 also has two events. No capable neighbor under approximate flux-budget screen. Gaia conjunction offset0.053phase has propagated epoch uncertainty and approximate geometry, not an arbitrary significance veto.',
+'207148517':'Shallow repeat signal is measured in sectors69/97; individual fits vary and broad sector69 cycle236 is baseline-sensitive. Median depth is diluted. Historical PSF-scaled residual0.9997 is poor because bright off-center source dominates wide fit; local deficit core0.130pixel from target versus capable neighbor1.84pixels away supports target. Neighbor intrinsic requirement0.736 is not compared directly with its blended pixel fractional loss. Precision timing/shape is limited by low signal and baseline model.'}
+''' + s[b:]
+s=s.replace("verdict='PROBABLE' if tic=='374589618' else 'CONFIRMED'","verdict='CONFIRMED'")
+p.write_text(s,encoding='utf-8')

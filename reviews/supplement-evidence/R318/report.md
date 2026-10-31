@@ -1,0 +1,27 @@
+# TIC 63577915: CONFIRMED
+
+Full bounded review: COMPLETE. All five checks were performed; scientific uncertainty is retained separately from execution completeness. Catalogue novelty is supplied by the shared scoped catalogue receipts and is not inferred from this physical classification.
+
+1. **Raw repeated events: pass.** 6 usable free-center trapezoid fits to quality-zero raw QLP SAP_FLUX in sectors[7, 34, 87] show localized eclipse morphology. Numeric raw-windows.csv and raw-events.png are deciding artifacts. Initial selection uses up to three widely separated available sectors; the two apparent two-event cases received bounded extra earlier-sector checks. Flagged and uncovered windows are never called clean negatives. A local linear baseline, depth, center, duration and ingress are fitted; no Gaia-fixed center is used as a measured midpoint.
+2. **Eclipse timing: pass at the retained photometric cycle assignment.** P=14.4103324466 +/-0.0000232127d, epoch BTJD1497.60282988; epoch kind: Selected phase-zero eclipse; not assumed deepest primary. The legacy CSV name primary_epoch_btjd does not assert this is the deeper eclipse. Cycle assignments start from the historical photometric branch; an independently recomputed weighted linear fit reproduces all numbers. Representative raw events support same event kind at retained photometric period; no persistent unequal alternating sequence seen. The measured period is seeded by the historical photometric branch, not an exhaustive alias search. This is a bounded recurrence/morphology audit, not an exhaustive blind alias scan. Error meaning: Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.
+3. **Target attribution: pass at TESS resolution with limitations below.** Identity: Gaia DR32921280937631096448; cutout WCS and selected target agree. Lost-light centroid is0.145px from target; peak[8, 8] versus target pixel[8, 8]. Historical PSF residual0.902. Capable-neighbour review: No listed neighbour within60arcsec passes the approximate G-band flux-budget screen. Required intrinsic eclipse fractions and observed blended-pixel fractional losses have different dilution and are not compared as a veto. No calibrated centroid confidence ellipse or precise exclusion probability is claimed.
+4. **Alternative reduction: pass.** Separately extracted background-subtracted target-centered TESScut S7 gives1x1/3x3/5x5 aperture depths224.852/220.968/205.231ppt from2 stacked event(s). QLP fitted selected-event median is226.649ppt. These are reductions of the same TESS photons, not independent observations. Different apertures, dilution and possible mixed eclipse-kind stacks preclude a claim of equal intrinsic depth.
+5. **Gaia orbital geometry: consistent within the stated bounded approximations.** Full NSS orbit: P=14.4142632131+/-0.0018573652d, e=0.554808, omega=287.4635deg, periastron BTJD388.188059. Measured-Gaia period difference-0.00393077d. Closest edge-on conjunction offset-0.315064d (-0.021858phase); full covariance linear propagated error0.128221d at the measured epoch. Both conjunction branches and covariance details are retained in gaia-geometry.json. Mass function0.204064solar masses; assumed primary mass1.260, minimum companion mass1.020. Approximate central duration8.75h versus fitted median7.08h uses TIC radius and an assumed main-sequence minimum-mass companion, not a fitted geometry. There is no arbitrary sigma veto, and neither this duration estimate nor the formal timing error establishes precision orbital association.
+
+**Limitations:** Large scaled-out-image PSF residual0.902 is not alone a failed attribution check: deficit core is on target, and no listed Gaia neighbour within60arcsec can supply the eclipse under the approximate G-band flux budget. No calibrated centroid ellipse is available.
+
+**Next check:** Optional resolved photometry or spectroscopy for precision characterization.
+
+|Sector|Historical photometric cycle|Measured midpoint BTJD|Fit-input error d|Depth ppt|
+|---|---|---|---|---|
+|7|0|1497.60274145|0.01041656|226.826|
+|7|1|1512.01267369|0.01041656|226.471|
+|34|51|2232.53009473|0.00347216|228.801|
+|34|52|2246.93990779|0.00347216|227.555|
+|87|151|3673.56295216|0.00115742|219.578|
+|87|152|3687.97343485|0.00115742|220.710|
+
+Provenance: measurements.json, raw-windows.csv, raw-events.png, historical/diff_s07.json and matching PNG/gaia.json; ../download-receipts.json, ../extra-downloads.json, ../alias-audit.json, ../recurrence-coverage.json, ../pixel-audit.json, ../gaia-geometry.json, ../HELPER-AUDIT.md, ../LEAD-AUDIT.md and ../SHA256SUMS.json. Original cutout: [local path omitted] Catalogue evidence: ../../catalogues/coverage-matrix.csv. Historical extraction definitions: [local path omitted] 5/made/sb1-scale/diffimg/diffstack.py. This reviewed evidence does not claim exhaustive literature priority.
+
+
+Stable review key: R318. [Deciding evidence](../../2026-10-31-magnitude60b/evidence/63577915) and [catalogue coverage](../../2026-10-31-magnitude60b/catalogues/coverage-matrix.csv). The export manifest maps original hashes to sanitized files. Analysis scripts are archival and require the recorded external data; local paths are omitted.

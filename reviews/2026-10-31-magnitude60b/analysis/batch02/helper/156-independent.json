@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "predicted": 1908.162,
+      "measured_btjd": 1908.1572770328303,
+      "nfit": 3,
+      "half_cadence_days": 0.010416751727234441,
+      "depth_ppt": 11.524259567260742
+    },
+    {
+      "predicted": 1918.1039741459824,
+      "measured_btjd": 1918.1035917648246,
+      "nfit": 4,
+      "half_cadence_days": 0.010416751727234441,
+      "depth_ppt": 11.950492858886719
+    }
+  ],
+  "period_two_adjacent_days": 9.946314731994335,
+  "period_error_halfcad_quadrature": 0.01473151156852831,
+  "centroid_xy_5x5_positive": [
+    7.745794926632695,
+    7.7066728150976935
+  ],
+  "tesscut_sha256": "8d198452c1cc6f4a1491b5b75e875719eb4f022c4e7c9d6a1aa053d55f45751b",
+  "caution": "Quadratic 3-4-point and Gaussian timing mix; cadence floor is an allowance, not total or calibrated uncertainty. Sector 49 event cycle75 is interrupted by scattered light/gap.",
+  "combined_events": [
+    {
+      "sector": 22,
+      "cycle": 0,
+      "mid_btjd": 1908.1572770328303,
+      "timing_error_days": 0.010416751727234441,
+      "depth_ppt": 11.524259567260742,
+      "method": "quadratic through 3-4 trough samples, cadence/2 allowance"
+    },
+    {
+      "sector": 22,
+      "cycle": 1,
+      "mid_btjd": 1918.1035917648246,
+      "timing_error_days": 0.010416751727234441,
+      "depth_ppt": 11.950492858886719,
+      "method": "quadratic through 3-4 trough samples, cadence/2 allowance"
+    },
+    {
+      "sector": 49,
+      "cycle": 74,
+      "mid_btjd": 2644.2494162109188,
+      "timing_error_days": 0.003472202554917203,
+      "formal_timing_error_days": 0.0018647041494748219,
+      "depth_ppt": 13.284037813218152,
+      "gaussian_sigma_days": 0.02068827160573452,
+      "sample_count": 41,
+      "method": "Gaussian plus linear baseline, unflagged SAP, sigma max(formal, cadence/2)",
+      "source_sha256": "59a6e9df004e6949d43f98751e7f4340afb36104e54680e941472a418a888beb"
+    },
+    {
+      "sector": 49,
+      "cycle": 76,
+      "mid_btjd": 2664.1445105653715,
+      "timing_error_days": 0.003472202554917203,
+      "formal_timing_error_days": 0.0012509892866006127,
+      "depth_ppt": 12.603406484098628,
+      "gaussian_sigma_days": 0.01814099525046917,
+      "sample_count": 32,
+      "method": "Gaussian plus linear baseline, unflagged SAP, sigma max(formal, cadence/2)",
+      "source_sha256": "59a6e9df004e6949d43f98751e7f4340afb36104e54680e941472a418a888beb"
+    }
+  ]
+}

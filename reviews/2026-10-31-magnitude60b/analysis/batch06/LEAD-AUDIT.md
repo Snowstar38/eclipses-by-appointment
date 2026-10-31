@@ -1,0 +1,15 @@
+# Lead scientific audit
+
+Exact ten-target batch06 queue retained without replacements. Final outcomes are8CONFIRMED,1PROBABLE(TIC601646479),1PLAUSIBLE(TIC377129604); all10bounded reviews COMPLETE. Novelty is separately supplied by scoped shared catalogue receipts; physical counts do not imply new additions.
+
+Five checks use representative raw SAP trapezoid fits, measured event timing/cycle recurrence, target and every historically capable Gaia neighbor, custom TESScut3x3 reduction, and same-source full NSS covariance/geometry. Shared QLP files and historical pixel data reused with hashes. Approximate duration/mass-function calculations are descriptive physical checks, not fitted binary models. Independent helper reproduced weighted timing slopes/errors/epochs and inspected deciding pixels/raw exceptions.
+
+Timing artifacts reject zero/singular covariance; final uncertainties retain max(formal covariance,half cadence) event allowances and reduced-chi-square inflation. These are not total systematics or calibrated coverage. No fixed Gaia period or predicted conjunction centers enter the timing regression. TIC601646479 uses even historical half-period cycles only, with orbital_cycle=cycle/2. Distinct secondary eclipses in322048799/162289987/367461405/22026010/365325928 remain outside selected-kind timings.
+
+Additional sparse-case investigation: all5available QLP sectors of240786248 checked, adding S57/S84 to original17/58/85. Seven real events include adjacent cross-sector cycles102/103 and170/171, testing the interval. Depth parity is confounded with sector dilution, explicitly retaining that limitation; agreement of recurrence and Gaia orbit supports confirmation. TIC377129604 all3available45/46/72 checked, including whole-sector raw inspection and alternate18.233d seed. Earlier weak fits are spurious, excluded. Two S72 deep eclipses have unequal depths and unresolved kind/double-period alias. Their measured separation is reported with its meaning and plausible outcome; earlier data are not treated as clean nulls.
+
+Attribution: all capable listed Gaia neighbors assessed geometrically and image morphology inspected for deciding wider sources. TIC162289987 deficit0.074px from target vs0.686px nearest capable source supports target with finite centroid/blending limitations. TIC601646479 close1.89arcsec source remains unresolved (0.137px from deficit vs target0.165px); probable outcome follows this completed check. Intrinsic required neighbor eclipse fraction never compared with diluted pixel fractional loss as veto.
+
+Custom TESScut aperture depths reproduce events in separately extracted same photons; no independent observing claim. Gaia conjunction offsets and full correlation errors evaluated at measured epochs, with no arbitrary sigma veto. Unresolved physical kind is not an execution failure. No exhaustive all-sector event fitting or Monte Carlo added. Provisional files document prior preparation and are superseded by final reports/results/audits.
+
+No canonical/public edits; private human identities omitted. Thank you to the independent helper for the careful measurements and scientific audit.

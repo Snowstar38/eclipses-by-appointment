@@ -1,0 +1,11 @@
+# Batch01 lead audit
+
+Exact round2 ten-target queue retained; all ten bounded reviews COMPLETE. Nine confirmed, one probable (TIC374589618 attribution unresolved after completed check). Scientific novelty is separate and centrally scoped.
+
+Inspected raw-contact.png and the six full panels of TIC146878534. Repeated raw eclipses are visible for all ten. Reused historical difference-image/cutout extractions with preserved source hashes; fresh helper independently inspected all images and capable-neighbor screens. Strong aperture dilution in336856559 and changing baselines in146878534 are explicit limitations. The pixel fractional loss is not used to exclude an intrinsically capable neighbor.
+
+Free measured trapezoid centers, not historical predicted centers, define timing. Same-kind half-period parity selection:123220126 even,374589618 odd,355885228 even,409935170 even, with orbital_cycle=(cycle-parity)/2. Alternating depths are checked per sector; pooled depths in409935170 obscure the difference. Half-period branches are not silently adopted as orbital periods. FullNSS correlation order P,gamma,K,e,omega,Tp uses indices0,3,4,5. Linear covariance at actual epoch is descriptive, no arbitrary sigma veto. Approximate central durations are not detailed binary models.
+
+Timing guard excludes nonfinite, zero, and duration-scale/singular center covariance; retained errors are max(formal covariance,half cadence), with regression covariance inflated by excess residual scatter. These are not calibrated total errors. No two-event or single-cycle cases remain: minimum three same-kind timings includes within-sector same-kind repeat, so no new availability query was triggered. Downloaded but uncovered/flagged windows are not nulls. At most three archived representative sectors per target were initially selected.
+
+Fresh helper independently reconstructed regression and audited parity, raw morphology, image attribution and report values. Final helper freeze audit completed against44 deciding files with no mismatch; overall manifest refreshed after the helper note. No public/canonical files edited. Private human identity excluded from output. Thank you to the coordinator for the kind encouragement.

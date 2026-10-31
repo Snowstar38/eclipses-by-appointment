@@ -1,0 +1,16 @@
+import json,csv,hashlib
+from pathlib import Path
+import numpy as np
+from astropy.io import fits
+from astropy.wcs import WCS
+B=Path(__file__).parent; S=Path('[local path omitted] 5/made/sb1-scale'); TG=json.load(open(B.parent/'targets-selected.json')); out={}
+for r in csv.DictReader(open(B/'queue.csv')):
+ tic=r['tic'];
+ m=json.load(open(B/tic/'measurements.json'));src=next((S/'diffimg'/tic).glob('diff_s*.json'));d=json.load(open(src));cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ with fits.open(cut) as h:
+  w=WCS(h[2].header); ra,dec=w.all_pix2world(*d['target_px'],0); ident=dict(ra_deg=float(ra),dec_deg=float(dec),header_sector=h[0].header.get('SECTOR'))
+ target=json.load(open(src.parent/'gaia.json'))['src'][0]
+ ident.update(gaia_source_id=target['source_id'],target_selected_id=TG[tic]['gaia']['source_id'],coordinate_error_arcsec=float(np.hypot((ra-float(target['ra']))*np.cos(np.deg2rad(dec)),dec-float(target['dec']))*3600))
+ out[tic]=dict(identity=ident,cutout_path=str(cut),cutout_sha256=hashlib.sha256(cut.read_bytes()).hexdigest(),difference_path=str(src),target_deficit_distance_px=float(np.linalg.norm(d['deficit_minus_target_px'])),capable=[dict(source_id=n['source_id'],separation_arcsec=n['sep'],intrinsic_fractional_eclipse_required=n['depth_needed'],deficit_distance_px=float(np.linalg.norm(np.array(n['px'])-d['deficit_centroid'])),blended_pixel_fractional_loss=n['frac_loss_at_pixel']) for n in d['neighbours_60'] if n['possible']],note='Intrinsic required fraction and blended pixel loss have different dilution and are not compared as a veto.')
+ print(tic,ident)
+json.dump(out,open(B/'pixel-audit.json','w'),indent=2)

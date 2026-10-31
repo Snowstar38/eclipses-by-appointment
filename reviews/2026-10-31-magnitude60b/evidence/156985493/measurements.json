@@ -1,0 +1,92 @@
+{
+  "tic": "156985493",
+  "historical_period_days": 9.941974145982302,
+  "historical_epoch_btjd": 1908.162,
+  "search_duration_days": 0.051000000000000004,
+  "events": [
+    {
+      "sector": 22,
+      "cycle": 0,
+      "mid_btjd": 1908.1572770328303,
+      "timing_error_days": 0.010416751727234441,
+      "depth_ppt": 11.524259567260742,
+      "method": "quadratic through 3-4 trough samples, cadence/2 allowance",
+      "timing_usable": true,
+      "duration_days": 0.05,
+      "duration_kind": "Approximate sector22 TESScut FWHM, not individual fitted duration"
+    },
+    {
+      "sector": 22,
+      "cycle": 1,
+      "mid_btjd": 1918.1035917648246,
+      "timing_error_days": 0.010416751727234441,
+      "depth_ppt": 11.950492858886719,
+      "method": "quadratic through 3-4 trough samples, cadence/2 allowance",
+      "timing_usable": true,
+      "duration_days": 0.05,
+      "duration_kind": "Approximate sector22 TESScut FWHM, not individual fitted duration"
+    },
+    {
+      "sector": 49,
+      "cycle": 74,
+      "mid_btjd": 2644.2494162109188,
+      "timing_error_days": 0.003472202554917203,
+      "formal_timing_error_days": 0.0018647041494748219,
+      "depth_ppt": 13.284037813218152,
+      "gaussian_sigma_days": 0.02068827160573452,
+      "sample_count": 41,
+      "method": "Gaussian plus linear baseline, unflagged SAP, sigma max(formal, cadence/2)",
+      "source_sha256": "59a6e9df004e6949d43f98751e7f4340afb36104e54680e941472a418a888beb",
+      "timing_usable": true,
+      "duration_days": 0.05,
+      "duration_kind": "Approximate sector22 TESScut FWHM, not individual fitted duration"
+    },
+    {
+      "sector": 49,
+      "cycle": 76,
+      "mid_btjd": 2664.1445105653715,
+      "timing_error_days": 0.003472202554917203,
+      "formal_timing_error_days": 0.0012509892866006127,
+      "depth_ppt": 12.603406484098628,
+      "gaussian_sigma_days": 0.01814099525046917,
+      "sample_count": 32,
+      "method": "Gaussian plus linear baseline, unflagged SAP, sigma max(formal, cadence/2)",
+      "source_sha256": "59a6e9df004e6949d43f98751e7f4340afb36104e54680e941472a418a888beb",
+      "timing_usable": true,
+      "duration_days": 0.05,
+      "duration_kind": "Approximate sector22 TESScut FWHM, not individual fitted duration"
+    }
+  ],
+  "sources": [
+    {
+      "tic": "156985493",
+      "sector": 22,
+      "path": "[local path omitted]",
+      "sha256": "c1c92795cce3fc18710c69f2ab54f93850c9435370b118e6749eba2c44aebd94",
+      "status": "ok"
+    },
+    {
+      "tic": "156985493",
+      "sector": 49,
+      "path": "[local path omitted]",
+      "sha256": "59a6e9df004e6949d43f98751e7f4340afb36104e54680e941472a418a888beb",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating narrow eclipse; primary by convention, relative secondary depth unestablished",
+  "timing_event_count": 4,
+  "period_days": 9.947202308351999,
+  "period_error_days": 0.00010412078725464438,
+  "primary_epoch_btjd": 1908.1567945599277,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    0.0004824729026040586,
+    -0.0004051034550229815,
+    -0.0003491670568109839,
+    0.00034057069206028245
+  ],
+  "reduced_chi_square": 0.011695384875648557,
+  "error_meaning": "Weighted linear fit to two sparse quadratic trough centers at sector22 and two free Gaussian plus linear centers at sector49. Inputs max(formal covariance where available, half cadence); sector22 half cadence is a coarse allowance. Covariance inflated if reduced chi square exceeds one. Mixed-model, cadence-smearing, baseline and pipeline systematics are not calibrated, not total uncertainty or coverage.",
+  "depth_ppt": 12.276949671492673,
+  "custom_extraction": "helper/156-independent.json combined_events; original empty generic extraction retained pipeline_measurements.json"
+}
