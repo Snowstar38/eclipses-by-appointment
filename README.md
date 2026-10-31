@@ -19,7 +19,7 @@ The scientific search populations contribute **105 systems from predicted spectr
 
 Among 242 individually reviewed G 10-11.5 period-fold candidates, 230 are confirmed (including three known recoveries), nine probable, two non-eclipsing heartbeat stars and one plausible. These are a reviewed subset, not the denominator for the full period-fold search. Catalogue non-matches retain their stated search scope.
 
-![Sky distribution of all 426 included eclipsing systems](overview.png)
+![Sky distribution of all 426 included eclipsing systems](overview.png?v=d6678f81a30c)
 
 The overview graphic combines the current paper first page, sky positions of all 426 included systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
 
