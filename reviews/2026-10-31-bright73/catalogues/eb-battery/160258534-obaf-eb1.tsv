@@ -1,0 +1,48 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T21:20:47 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T21:20:48	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=322.243116+35.026445,rs=5.	
+#Constraint -out.add=_r
+
+#RESOURCE=yCat_36910242
+#Name: J/A+A/691/A242
+#Title: TESS OBAF-type eclipsing binaries (IJspeert+, 2024)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=IJspeert L.W.	    First author or institution
+#INFO	cites=bibcode:2024A&A...691A.242I	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2024	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.36910242	    Dataset identifier that can be used for citation
+#INFO	publication_date=2025-02-18	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Table	J_A_A_691_A242_obaf-eb1:
+#Name: J/A+A/691/A242/obaf-eb1
+#Title: TESS_OBAF_EB_catalogue (partial)
+#Column	_r	(F5.3)	Distance from center (322.24311621690+35.02644503645)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I9)	Identification number in the TESS Input Catalog (TIC)	[ucd=meta.id;meta.main]
+#Column	2MASS	(A17)	Identification number from 2MASS (TWOMASS)	[ucd=meta.id]
+#Column	RAJ2000	(F15.11)	Right ascension (J2000) (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F15.11)	Declination (J2000) (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	plx	(F26.19)	? TIC parallax (mas) (plx)	[ucd=pos.parallax.trig]
+#Column	Jmag	(F22.16)	J band magnitude (Jmag)	[ucd=phot.mag;em.IR.J]
+#Column	Hmag	(F22.16)	H band magnitude (Hmag)	[ucd=phot.mag;em.IR.H]
+#Column	Kmag	(F22.16)	K band magnitude (Kmag)	[ucd=phot.mag;em.IR.K]
+#Column	Tmag	(F22.16)	TESS (T) magnitude (Tmag)	[ucd=phot.mag;em.opt]
+#Column	wdflag	(F4.1)	? TIC white dwarf flag (0 or -1 (so not 1) in this case, by design) (wdflag)	[ucd=meta.code]
+#Column	GaiaDR3	(I19)	? Identification number from GAIA DR3 (GAIA_DR3)	[ucd=meta.id]
+#Column	Gmag	(F22.16)	? Gaia G-band mean magnitude (phot_g_mean_mag)	[ucd=phot.mag;em.opt]
+#Column	score	(F4.1)	Sum of score values across all datasets (SPOC and QLP years 1-4) (score)	[ucd=stat.fit.param]
+#Column	slike	(F4.1)	Sum of sine_like values across all datasets (SPOC and QLP years 1-4) (sine_like)	[ucd=meta.code]
+#Column	wide	(F4.1)	Sum of wide values across all datasets (SPOC and QLP years 1-4) (wide)	[ucd=meta.code]

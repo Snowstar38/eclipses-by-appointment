@@ -1,0 +1,15 @@
+# Batch07 lead audit ? final numeric/report freeze
+
+Exact ten-target queue retained. Current section2.7, delegation brief, final34 conventions and privacy boundary read. No canonical/public edits. Tested source primitives reused; deciding raw SAP windows, morphology and difference contact sheets reviewed directly. The trapezoid fits measure timing and are not the sole eclipse classifier. All ten exhibit localized repeated ingress/egress or narrow eclipse cores; TIC300148401 has curved baseline and sparse S6 sampling, explicitly limited.
+
+TIC143467555 required a real alias correction: persistent odd/even depth differences reject the historical half branch; only odd deeper events fit the 4.27351856d ephemeris. TIC168917716 repeats every6.701d with nearly equal parity depths. Even events give13.402438d consistent with Gaia; doubled branch is explicitly Gaia informed and equal-depth ambiguity is retained rather than claimed photometrically rejected. TIC257047728 has two consecutive fully covered S48 eclipses, so recurrence is tested locally; S40 historical cutout independently repeats the same morphology. No apparent single-event case remains.
+
+Pixel identity uses actual cutout WCS, source identifiers and hashes; capable-neighbor deficit distances are recorded without comparing intrinsic required eclipse to diluted pixel loss. Full difference cores favor targets; nearest capable source for168917716 is0.859pixel from deficit versus target0.086pixel. Alternative target-centered aperture extractions reuse historical TESScut photons; they are reduction checks, not independent observing occasions.
+
+Gaia uses full SB1 correlation submatrix, conjunctions, mass function and illustrative duration. TIC140340353 offset-0.05phase is retained with0.161d full-covariance uncertainty and no fixed sigma veto. Formal timing covariance, half-cadence floor and inflation are described, without calibrated total uncertainty claims. Predicted historical centers are never used as measured timings.
+
+Fresh helper corrections applied. Final numerical/report freeze independently confirmed by fresh helper; final manifest generated after that confirmation. Final outcome9 CONFIRMED and1 PROBABLE (TIC119193784).
+
+Helper identified that119193784 has only odd historical cycles. Bounded raw/quality inspection of both available QLP sectors finds intermediate cycles0/106 entirely flagged within0.2d:42/173 points, zero clean. These are not null detections. Period10.4453149d remains conditional on Gaia-informed cycle counting;20.8906d and integer aliases not independently excluded. Real repeated eclipses are retained PROBABLE for unresolved timing/orbital alias. coverage-alias.json records exact windows. No required work is hidden as physical uncertainty.
+
+Helper also corrected300148401 late sector98,119193784 measured sectors50/91,168917716 opposite-parity labels, and exact historical script paths. Numeric period/error/epoch/depth values retained from final measurements artifacts.

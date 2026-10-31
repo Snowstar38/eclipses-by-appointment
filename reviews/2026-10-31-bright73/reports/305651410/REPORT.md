@@ -1,0 +1,34 @@
+# TIC 305651410: CONFIRMED
+
+Full bounded review: COMPLETE. Physical outcome and catalogue novelty are separate. This review applies current section2.7 and does not promote the historical screening label automatically.
+
+1. **Raw events: pass.** Free trapezoid fits to quality-zero raw QLP SAP_FLUX contain 7 distinct eclipse events in selected sectors[15, 56, 83]. The representative raw-event plot and numeric raw-windows.csv were inspected. Broadly repeated morphology is retained even when individual shallow fits are noisy. Local linear baseline, free depth, center, duration and ingress were fitted; QLP detrended flux is not used as the deciding raw check. Representative selection is at most three spread available QLP sectors, with coverage/window requirements recorded by the script. Uncovered or flagged windows were never called nulls.
+2. **Eclipse timing: pass.** 7 same-kind midtimes give P=9.0437491336 +/-0.0000163681d, reference eclipse epoch BTJD1713.5371983, kind: Selected repeating eclipse; deeper/secondary identity not independently established. Partial or singular center-covariance fits flagged timing_usable=false are excluded from ephemeris and remain documented in measurements.json. Historical event coordinates in difference-image JSON were predictions and are not used as measured timings. Cycle counts were seeded by historical photometric search period, then fit freely across the selected baseline. This is not a blind all-alias search. Error meaning: Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.
+3. **Target attribution: pass at TESS image resolution.** Historical S55 deficit peak[8, 8] vs target pixel[8, 8]; deficit-target separation1.245arcsec. Full saved difference image, original cutout identity and capable neighbours were audited. PSF-scaled image fractional residual0.552. Capable neighbours: Gaia 1970480765776344576: 11.46 arcsec, G15.095, required fractional eclipse0.273; Gaia 1970480731416602240: 22.41 arcsec, G16.071, required fractional eclipse0.650; Gaia 1970480731416603904: 27.53 arcsec, G14.779, required fractional eclipse0.207; Gaia 1970480765776343040: 31.00 arcsec, G16.117, required fractional eclipse0.678; Gaia 1970480697056864384: 31.24 arcsec, G15.472, required fractional eclipse0.380; Gaia 1970480765776350464: 31.53 arcsec, G13.473, required fractional eclipse0.072; Gaia 1970480765776345088: 40.75 arcsec, G16.360, required fractional eclipse0.845; Gaia 1970480692753954688: 45.53 arcsec, G15.647, required fractional eclipse0.445; Gaia 1970480765776357760: 50.87 arcsec, G16.188, required fractional eclipse0.723; Gaia 1970480800136095616: 54.22 arcsec, G15.066, required fractional eclipse0.266; Gaia 1970480834495821184: 54.26 arcsec, G16.336, required fractional eclipse0.827; Gaia 1970480795828502144: 57.10 arcsec, G15.860, required fractional eclipse0.538; Gaia 1970492551166619008: 59.04 arcsec, G16.503, required fractional eclipse0.962
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut aperture gives 1x1/3x3/5x5 depths12.607/11.644/9.927ppt, with 3 stacked events. QLP selected-kind fitted median13.481ppt. This separately extracted cutout is an alternative reduction of the same TESS photons, not independent observing occasions. Dilution, aperture differences and, where relevant, mixed primary/secondary stacks prevent a claim of equal intrinsic depths.
+5. **Gaia orbital geometry: pass with stated limitations.** DR31970480731416604032, P=9.0416084657+/-0.0035950535d, e=0.190327, omega=178.9507deg. Closest edge-on conjunction offset-0.145031d (-0.016040phase), full-SB1-covariance linear propagated Gaia uncertainty0.461576d at the measured epoch. Near-Gaia-reference projected eclipse offset-0.457568d (photometric period projection allowance0.002390d). The approximate central duration6.12h vs observed median4.52h is a radius/minimum-mass illustration, not a detailed binary fit.  Full covariance and assumptions are in gaia-geometry.json. No arbitrary sigma veto is used.
+
+**Deciding limitations and interpretation:** Repeated flat-bottom eclipses; crowded field includes capable neighbor0.550pixel from deficit versus target0.059pixel. Full difference core favors target but subpixel crowding limits precision.
+
+**Next check:** Optional resolved photometry or updated spectroscopy for improved binary parameters; no missing bounded admission check.
+
+Catalogue novelty: central seven-group result applies; see ../../catalogues/coverage-matrix.csv. A separate source in the search cone does not establish a target match. This physical report does not assert exhaustive literature priority.
+
+Measured events (errors are the conservative fit inputs, not calibrated coverage):
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Timing error d | Fitted depth ppt | Timing status |
+|---|---|---|---|---|---|
+| 15 | 0 | 1713.5359134 | 0.010417 | 14.752 | used in ephemeris |
+| 15 | 2 | 1731.6199227 | 0.010417 | 13.799 | used in ephemeris |
+| 56 | 123 | 2825.9201271 | 0.001621 | 13.719 | used in ephemeris |
+| 56 | 124 | 2834.9624255 | 0.001328 | 12.950 | used in ephemeris |
+| 56 | 125 | 2844.0043409 | 0.001419 | 13.250 | used in ephemeris |
+| 83 | 205 | 3567.5052335 | 0.001635 | 13.256 | used in ephemeris |
+| 83 | 206 | 3576.5498593 | 0.001601 | 13.481 | used in ephemeris |
+
+Evidence (original source layout; use the public evidence links below for exported locations): measurements.json, raw-events.png, raw-windows.csv, shared-qlp QLP FITS; historical/diff_s55.json, historical/diff_s55.png and historical/gaia.json; ../gaia-geometry.json; ../helper-audit.md; ../SHA256SUMS.json. Original cutout retained at [local path omitted] Historical pipeline definitions are diffstack.py and c3_sapdepth.py in the source sb1-scale tree. No historical evidence overwritten.
+
+
+Stable review key: R379. [Deciding evidence](../../evidence/305651410/) and [catalogue coverage](../../catalogues/coverage-matrix.csv). The export manifest maps original hashes to sanitized files. Analysis scripts are archival and require the recorded external data; local paths are omitted.
+
+Direct public evidence: [measured events](../../evidence/305651410/measurements.json), [raw eclipse plots](../../evidence/305651410/raw-events.png), [raw flux windows](../../evidence/305651410/raw-windows.csv), [Gaia geometry](../../analysis/batch05/gaia-geometry.json), [independent audit](../../analysis/batch05/helper-audit.md), [difference image](../../evidence/305651410/historical/diff_s55.png).

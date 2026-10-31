@@ -1,0 +1,16 @@
+from pathlib import Path
+b=Path(__file__).parent
+for p in [b/'write_reports.py',b/'167923097/REPORT.md']:
+ s=p.read_text(encoding='utf-8').replace('sectors9/62/109','sectors9/62/100');p.write_text(s,encoding='utf-8')
+(b/'LEAD-AUDIT.md').write_text('''# Batch03 lead audit (provisional pending fresh helper)
+
+Exact ten queue identities retained. All ten have completed original bounded five-check preparation and provisional CONFIRMED physical outcomes. Physical outcome is separate from central catalogue novelty. No canonical/public files edited.
+
+Raw and pixel contact sheets were visually inspected. Ten targets show repeated isolated raw SAP eclipses; every selected same-kind sequence contains a within-sector recurrence pair. No apparent single-cycle/two-event untested period case requires further availability lookup. The shared representative QLP sectors are used; flagged/uncovered windows are not nulls. Trapezoid free centers, rather than predictions, define timing. TIC375058760 sector98 cycle375 has singular center covariance and is excluded, retaining raw event evidence. Scatter-inflated errors use max(formal center error,half cadence); these are not calibrated total uncertainty.
+
+TIC16809274 has unequal alternating depths: even historical half-period cycles ~58-62ppt, odd ~81-87ppt in sectors82/83. Five even cycles define doubled period14.725871972d; epoch is explicitly the shallower eclipse. Odd/deeper events remain in raw evidence. Same-kind pairs0/2 and248/250 test recurrence. No silent orbital alias adoption. Other targets have within-sector same-kind recurrence without persistent unequal alternating pattern.
+
+Original TESScut WCS/sector and exact Gaia source IDs independently match all ten targets-selected identities; pixel-audit.json records original cutout SHA256 and capable-neighbor distances. Target-centered deficit cores support assignment at TESS resolution. Shallow233462817 has0.53pixel centroid offset, noisy difference image but no capable listed neighbor; this is a localization precision limitation. TIC16809274 target0.160pixel versus capable neighbor1.046pixel;160258534 target0.079 versus2.51/2.73pixel. Intrinsic neighbor required eclipse and blended pixel fractional loss are not compared directly. Alternative background-subtracted TESScut aperture depths test extraction on the same photons.
+
+Full NSS covariance uses lower triangle P,gamma,K,e,omega,Tp with indices0,3,4,5. Gaia conjunctions and approximate radius/minimum-mass durations are descriptive, without arbitrary sigma veto. TIC233462817 offset0.041phase with propagated Gaia0.245d error and short eclipse allows noncentral geometry; uncertainty/model assumptions remain. Period/epoch artifacts and all ten reports await final fresh helper audit before hash freeze. Private human identity excluded. Thanks to the project coordinator for the encouragement.
+''',encoding='utf-8')

@@ -1,0 +1,68 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-10-31T21:20:26 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-31T21:20:26	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=188.607806-60.231076,rs=60.	
+#Constraint -sort=_r
+
+#RESOURCE=yCat_2366
+#Name: II/366
+#Title: ASAS-SN catalog of variable stars (Jayasinghe+, 2018-2020)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Jayasinghe T.	    First author or institution
+#INFO	cites=bibcode:2018MNRAS.477.3145J	    Article or Data origin sources
+#INFO	journal=MNRA	    Journal name
+#INFO	original_date=2018	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	publication_date=2024-09-11	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Table	II_366_catv2021:
+#Name: II/366/catv2021
+#Title: ASAS-SN catalog of variable stars (from the ASAS-SN Variable Stars Database (AVSD); htt[local path omitted] on 10-Sep-2024) (08-Oct-2021 version)
+#Column	_r	(F5.2)	Distance from center (188.60781-60.23108)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	ASASSN-V	(A19)	ASAS-SN identifier (JHHMMSS.ss+DDMMSS.s) (asassn_name)	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F9.5)	Right ascension in decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination in decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Vmag	(F5.2)	[1.64/18.89] Mean Johnson V-band magnitude (mean_vmag)	[ucd=phot.mag;em.opt.V]
+#Column	Amp	(F5.2)	[0/11.31] Amplitude (amplitude)	[ucd=phot.mag]
+#Column	Per	(E11.4)	[0.03/1923]? Period (period)	[ucd=time.period]
+#Column	Type	(a8)	Variability type (variable_type) (1)	[ucd=meta.note]
+#Column	Prob	(F6.3)	[0.19/1]? Classification probability (class_probability)	[ucd=meta.code.class;stat.probability]
+#Column	HJD	(F13.5)	Heliocentric Julian Date (epoch_hjd)	[ucd=time.epoch]
+#Column	Plx	(F8.4)	[-84.9/317]? Gaia DR2 parallax (parallax)	[ucd=pos.parallax]
+#Column	e_Plx	(F7.4)	[0.007/4.4]? Parallax uncertainty (parallax_error)	[ucd=stat.error;pos.parallax]
+#Column	pmRA	(F9.3)	[-3259/4003]? Gaia proper motion in right ascension direction (pmRA*cosDE) (pmra)	[ucd=pos.pm;pos.eq.ra]
+#Column	e_pmRA	(F6.3)	[0.005/5]? Error on pmRA (pmra_error)	[ucd=stat.error;pos.pm;pos.eq.ra]
+#Column	pmDE	(F9.3)	[-5818/1793]? Gaia proper motion in declination direction (pmdec)	[ucd=pos.pm;pos.eq.dec]
+#Column	e_pmDE	(F6.3)	[0.007/4.5]? Error on pmDE (pmdec_error)	[ucd=stat.error;pos.pm;pos.eq.dec]
+#Column	Vt	(F12.5)	[0.003/418426]? Microturbulent velocity (vt)	[ucd=phys.veloc]
+#Column	Dist	(F11.5)	[1.3/62100]? Distance (dist)	[ucd=pos.distance;pos.heliocentric]
+#Column	WISEA	(A19)	AllWISE identifier (JHHMMSS.ss+DDMMSS.s) (allwise_id)	[ucd=meta.id.cross]
+#Column	J-K	(F6.3)	[-9.6/9.7]? J-K color index (j_k)	[ucd=phot.color;em.IR.J;em.IR.K]
+#Column	W1-W2	(F6.3)	[-6.9/8]? W1-W2 color index (w1_w2)	[ucd=phot.color;em.IR;em.IR]
+#Column	APASS	(I8)	[542/61176398]? APASS identifier (apass_dr9_id)	[ucd=meta.id.cross]
+#Column	B-V	(F6.3)	[-3.4/9.81]? B-V color index (b_v)	[ucd=phot.color;em.opt.B;em.opt.V]
+#Column	E(B-V)	(F7.3)	[0.003/143.6] Reddening E(B-V) (e_b_v)	[ucd=phot.color.excess]
+#Column	Ref	(A3)	Reference (reference) (2)	[ucd=meta.ref;pos.frame]
+#Column	GaiaDR3	(I19)	? Gaia EDR3 source ID (edr3_source_id)	[ucd=meta.id.cross]
+#Column	GALEX	(A16)	GALEX identifier (JHHMMSS.s+DDMMSS) (galex_id)	[ucd=meta.id.cross]
+#Column	TIC	(I11)	? TIC identifier (tic_id)	[ucd=meta.id.cross]
+#Column	pm	(F8.3)	[0.006/7062]? Gaia EDR3 total proper motion (pm)	[ucd=pos.pm]
+#Column	URL	(A3)	Display the ASASSN online data (http[local path omitted]) for this object	[ucd=meta.ref.url]
+#Column	2M	(A2)	Display the 2MASS data (Cutri+ 2003, II/246) within 2"	[ucd=meta.ref.url]
+_r	ASASSN-V	RAJ2000	DEJ2000	Vmag	Amp	Per	Type	Prob	HJD	Plx	e_Plx	pmRA	e_pmRA	pmDE	e_pmDE	Vt	Dist	WISEA	J-K	W1-W2	APASS	B-V	E(B-V)	Ref	GaiaDR3	GALEX	TIC	pm	URL	2M
+arcsec	 	deg	deg	mag	mag	d	 	 	d	mas	mas	mas/yr	mas/yr	mas/yr	mas/yr	km/s	pc	 	mag	mag	 	mag	mag	 	 	 	 	mas/yr	 	
+-----	-------------------	---------	---------	-----	-----	-----------	--------	------	-------------	--------	-------	---------	------	---------	------	------------	-----------	-------------------	------	------	--------	------	-------	---	-------------------	----------------	-----------	--------	---	--
+ 2.04	J123426.14-601352.3	188.60892	-60.23120	11.92	 0.09	           	ROT:    	 0.663	2458228.83398	  2.4053	 0.0121	   -0.944	 0.011	   -3.672	 0.014	    43.75278	  410.74506	J123425.85-601351.7	 0.361	-0.036	53871436	 0.614	  1.179	II 	6058112123371152384	                	  179857938	   3.792	URL	2M
+37.86	J123422.64-601322.7	188.59434	-60.22296	17.42	 1.22	 6.1943e+00	SR      	 1.000	2457767.74589	  0.0614	 0.0258	   -6.047	 0.024	    0.371	 0.027	     3.81892	 7519.57080	J123422.49-601322.4	 2.392	 0.506	        	      	  1.185	II 	6058112192090628096	                	  179857876	   6.058	URL	2M
+

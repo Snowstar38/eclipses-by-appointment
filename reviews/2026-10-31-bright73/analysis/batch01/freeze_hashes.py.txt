@@ -1,0 +1,13 @@
+import json,hashlib,csv
+from pathlib import Path
+B=Path(__file__).parent;S=Path('[local path omitted]');H={}
+def add(p):
+ p=Path(p);H[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+for q in csv.DictReader(open(B/'queue.csv')):
+ tic=q['tic'];d=next((S/'diffimg'/tic).glob('diff_s*.json'));z=json.load(open(d));add(d);add(d.with_suffix('.png'));add(d.parent/'gaia.json');add(Path(f'[local path omitted]"sector"]:03}.fits'))
+for r in json.load(open(B/'download-receipts.json')):add(r['path'])
+for p in [S/'search.jsonl',S/'c5-sapdepth.json',S/'c5-catrows.md',S/'c3_sapdepth.py',S/'diffimg/diffstack.py',B.parent/'targets-selected.json',B.parent/'shared-catalogues/gaia-nss-full.csv',B.parent/'shared-catalogues/coverage-matrix.csv']:add(p)
+for p in B.rglob('*'):
+ if p.is_file() and p.name not in ('SHA256SUMS.json','root-verification.json') and '__pycache__' not in str(p):add(p)
+(B/'SHA256SUMS.json').write_text(json.dumps(H,indent=2)+'\n')
+print(len(H))

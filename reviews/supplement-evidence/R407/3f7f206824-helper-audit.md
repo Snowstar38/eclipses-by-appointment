@@ -1,0 +1,19 @@
+# Independent helper audit — batch 08
+
+Scope: checked current methods §2.7, delegation, brief and privacy boundary; inspected representative raw-event figures, all three historical difference-image figures, measured-event records, pixel and alias audits, Gaia geometry, RESULTS and reports. No canonical or public edits. Timing cross-check uses independently written `helper/independent_fit.py`; run from any directory with Python and NumPy. It reads measured centers and timing usability, not predicted centers. It recomputes weighted linear fits, minimum half-cadence inputs, chi-square inflation, epoch and median used depth, and asserts agreement with RESULTS. Formal/scatter-inflated fit errors are not total systematic uncertainties.
+
+| TIC | events / usable | independently recomputed P (d) | error (d) | epoch BTJD | reduced chi-square | median depth ppt |
+|---|---:|---:|---:|---:|---:|---:|
+| 348302938 | 14 / 14 | 3.64395614786308 | 0.0000165768355 | 2966.836912377 | 2.79005 | 4.5571708 |
+| 451086560 | 8 / 7 | 8.30042915586028 | 0.00000912548234 | 1576.719433175 | 0.03484 | 151.8479853 |
+| 229308711 | 4 / 4 | 14.6174947318523 | 0.0000862146611 | 1471.093305462 | 0.06107 | 27.9742990 |
+
+451086560 S64 cycle 179 has a gap across ingress; raw plot supports partial event and its exclusion from timing. 348302938 is shallow, with scattered individual points, but repeated narrow depressions in multiple cycles and sectors; the fit error incorporates chi-square inflation. 451086560 has deep repeated flat-bottom events. 229308711 has repeated broad events and curved/sloped backgrounds, so model-systematic timing caveat matters. The fitted ephemeris epoch is a fitted reference rather than an individual observed center; report identifies eclipse kind as selected repeating event, without assuming primary identity.
+
+Within-sector consecutive cycles test recurrence and support the adopted Gaia-compatible period branch. Nearly equal alternating eclipses cannot on photometry alone exclude a doubled orbital period, and no exhaustive alias search is claimed. Flagged or uncovered windows are not clean non-detections. No all-sector requirement was imposed.
+
+Pixel figures show deficits centered close to the target in all three cases; 451086560 lies in a crowded field with a bright offset neighbor and 348302938 is shallow. The audited target/nearest capable-neighbor separations are 0.270/1.107 pixels (348302938), 0.096/1.679 pixels (451086560), and 0.118/no capable listed neighbor within 60 arcsec (229308711). These are approximate TESS-resolution localization, not proof of resolved source identity. Neighbor intrinsic required eclipse fractions and blended pixel losses are distinct quantities, not a direct veto comparison. Cutout identity and hashes are recorded in pixel-audit.json; custom TESScut and QLP reductions share photons, not independent observing occasions.
+
+Gaia numeric records match report descriptions: nearest conjunction offsets / full-covariance linear propagated errors in days are -0.04738/0.31498, +0.13369/0.08927, and -0.24947/0.54663 for the three TICs in table order. Approximate durations rely on assumed radii and minimum companion masses and do not constitute fitted geometries. No arbitrary sigma veto was applied. Physical outcome is separate from scoped catalogue novelty.
+
+Draft CONFIRMED/COMPLETE for all three is supported under the bounded protocol, with listed limitations. DR3 G values 11.996688, 11.996699 and 11.995216, respectively, belong to actual 11.5–12 selection; inventory values 12.0059, 12.0086 and 12.0132 retain their historical role. Fixed prior magnitude comparison and its substitution provenance are separate. Reviewed helper findings with batch lead, including request to qualify depth variation and retain nearly-equal doubled-orbit ambiguity. These are scientific caveats, not unperformed mandatory work.

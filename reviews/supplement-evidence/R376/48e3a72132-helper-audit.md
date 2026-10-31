@@ -1,0 +1,3 @@
+Fresh helper04 final independent numeric, alias, pixel and report audit: see [AUDIT.md](helper-audit/AUDIT.md). Audit and numeric freeze complete. Reproducible helper script and timing-check.json are retained there.
+
+Final lead/root interpretation correction after helper numeric freeze: TIC382631802 is PLAUSIBLE, review COMPLETE, excluded from confirmed additions. Existing raw images show recurring V dips on structured variability without stable resolved eclipse contacts/flat bottom. Eclipse interpretation is insecure; recurrence and trapezoid fits alone do not prove occultation over pulsation/tidal minima. Numerical evidence is unchanged. Prior helper PROBABLE assessment remains preserved as audit history. Final outcomes9CONFIRMED1PLAUSIBLE.

@@ -1,0 +1,16 @@
+# Independent helper audit: batch 07
+
+Reviewed the exact ten targets against the current section 2.7, delegation, final34 conventions, brief and privacy boundary. Inspected the raw-event and difference-image contact sheets and the numerical measurements, alias, pixel, geometry and report artifacts. Repeated localized eclipse-shaped cores are visible for all ten; TIC 300148401 has real baseline curvature and sparse S6 sampling, so its linear-baseline depth and timing are model-sensitive. The S48 consecutive pair tests 257047728 recurrence. Difference cores support the recorded target attribution at TESS resolution; close-source limitations remain and required intrinsic neighbour eclipse fractions must not be compared directly to diluted pixel losses. Alternative aperture reductions reuse TESS photons.
+
+All ten RESULTS period, period-error, epoch and depth numbers exactly match measurements.json. Errors are fit-input/covariance quantities, not calibrated total uncertainties. In 143467555 the actual odd deeper events determine the 4.27351856 d branch; the even shallower events are excluded. In 168917716 the 6.701 d photometric repetition and nearly equal alternating depths do not independently establish the 13.40244 d orbital branch; Gaia informs the adopted branch and primary identity remains unresolved. For 140340353 the reported -0.167 d offset and 0.161 d full covariance propagation are consistent with the saved geometry script and support a limited, not definitive, consistency statement; linear propagation and orbital assumptions remain limitations.
+
+Corrections sent to lead and root for resolution before final freeze:
+
+1. 300148401: limits state S33/92 but the actual measured late sector is S98.
+2. 119193784: four measured events are in S50 and S91, not S50/51/91. All measured historical cycle numbers are odd; local pairs are separated by two cycles. The 10.445 d fit is conditional on the chosen cycle count; investigate covered intermediate windows and otherwise acknowledge the 20.8906 d alternative and Gaia-informed branch.
+3. 168917716: report rows labeled secondary overstate the evidence; identify as opposite parity, primary/secondary identity unresolved.
+4. Historical pipeline locations are [local path omitted] and [local path omitted] Record both exact locations rather than imply both are in the sb1-scale root.
+
+This is an independent audit of the saved deciding artifacts, not a new all-sector extraction or a claim of calibrated uncertainties. Lead owns final corrections, any required coverage investigation, verdicts and manifest after freeze. No canonical/public files changed.
+
+Final freeze check: lead corrected the sector labels, opposite-parity wording and exact pipeline paths. The new 119193784 coverage-alias.json records zero quality-zero points in both intermediate windows; neither flagged window is a clean null. The report and RESULTS now retain the conditional Gaia-informed 10.445 d branch, identify the 20.8906 d alternative and record PROBABLE/COMPLETE. Numeric check rerun against the frozen result rows passed all ten. No further required correction identified; lead may generate the manifest after this audit is saved.
