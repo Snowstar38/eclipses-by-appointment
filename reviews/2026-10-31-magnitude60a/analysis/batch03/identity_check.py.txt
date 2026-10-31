@@ -1,0 +1,13 @@
+import csv,json
+from pathlib import Path
+from astropy.io import fits
+from astropy.wcs import WCS
+import numpy as np
+B=Path('[local path omitted]');T=json.load(open(B.parent/'targets-selected.json'));out={}
+for r in csv.DictReader(open(B/'queue.csv')):
+ t=r['tic'];d=json.load(open(next((B/t/'historical').glob('diff_s*.json'))));p=Path(f'[local path omitted]"sector"]:03}.fits')
+ with fits.open(p) as h:
+  hdr=h[0].header;w=WCS(h[2].header);px=w.all_world2pix(float(T[t]['gaia']['ra']),float(T[t]['gaia']['dec']),0);dist=float(np.hypot(*(np.array(px)-d['target_px'])))
+ out[t]=dict(raw_cutout=str(p),sector_header=hdr.get('SECTOR'),target_wcs_pixel=list(map(float,px)),historical_target_px=d['target_px'],wcs_difference_pixels=dist,gaia_source_id=T[t]['gaia']['source_id'],inventory_gaia_g=r['gaia_g'],dr3_gaia_g=T[t]['gaia']['phot_g_mean_mag'])
+json.dump(out,open(B/'identity-check.json','w'),indent=2)
+print([(t,round(x['wcs_difference_pixels'],5)) for t,x in out.items()])

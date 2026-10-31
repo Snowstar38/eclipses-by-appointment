@@ -1,0 +1,50 @@
+{
+  "groups": {
+    "11.5-12": {
+      "selected": 30,
+      "outcomes": {
+        "PROBABLE": 3,
+        "CONFIRMED": 27
+      },
+      "confirmed_fraction": 0.9,
+      "confirmed_wilson95": [
+        0.7437891742081593,
+        0.9654001112526658
+      ],
+      "completed": 30,
+      "new_additions": 30,
+      "magnitude_range": [
+        11.676387,
+        11.974201
+      ],
+      "catalogue_statuses": {
+        "no identified prior EB": 30
+      }
+    },
+    "12-12.5": {
+      "selected": 30,
+      "outcomes": {
+        "PROBABLE": 8,
+        "CONFIRMED": 21,
+        "PLAUSIBLE": 1
+      },
+      "confirmed_fraction": 0.7,
+      "confirmed_wilson95": [
+        0.5212421254128504,
+        0.8333525173175619
+      ],
+      "completed": 30,
+      "new_additions": 28,
+      "magnitude_range": [
+        12.002902,
+        12.487862
+      ],
+      "catalogue_statuses": {
+        "no identified prior EB": 29,
+        "known prior EB": 1
+      }
+    }
+  },
+  "interpretation": "Fixed screened-candidate samples, not blind search or completeness. Wilson intervals are descriptive binomial model intervals; actual selection uses finite historical screening strata. Earlier brightness-ordered reviews depleted the bright stratum. Differences need not be caused by magnitude. Known confirmed recoveries count toward physical confirmation, not additions. No target is removed from the selected denominator.",
+  "faint_minus_bright_confirmation_fraction": -0.20000000000000007
+}

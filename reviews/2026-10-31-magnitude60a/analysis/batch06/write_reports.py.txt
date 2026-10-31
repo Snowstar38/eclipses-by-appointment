@@ -1,0 +1,56 @@
+import csv,json,hashlib
+from pathlib import Path
+import numpy as np
+B=Path(__file__).parent;S=Path('[local path omitted] 5/made/sb1-scale');G=json.load(open(B/'gaia-geometry.json'));rows=[]
+notes={
+'396859601':'Two S32 well-sampled events determine the reported period. A third real S5 eclipse tests recurrence across 44 cycles; its zero/singular covariance is excluded from timing. No newer timeseries sectors in current MAST query beyond5/32. Period error remains short-baseline and conditional on tested cycle branch, not precision long-baseline characterization.',
+'115106052':'Deeper odd half-period cycles selected:10 primary times, with independent even-cycle timing agreement. Alternating depth and center residuals support doubled orbital period; historical half-period stack mixes unequal eclipses.',
+'443911710':'Close2.88arcsec neighbor G16.14 requires129percent intrinsic loss under approximate Gaia-G flux budget; excluded as sole source under that assumption. TESS/G color differences are not modeled. Nine measured repeats, consistent target-centered cutout.',
+'144113939':'One capable neighbor38.54arcsec away is separated from target-centered deficit. Four raw repeated events span sectors64/101; alternative historicalS37 provides earlier reduction evidence.',
+'339578643':'Four raw events in sectors95/103; target-centeredS102 cutout supports separate reduction. No capable neighbor within60arcsec.',
+'207813753':'Completed attribution check remains unresolved:16 capable neighbors, including12.72–18.90arcsec sources. Target-centered deficit favors target but lacks calibrated multistar localization to rule out close sources. Aperture depths differ strongly in crowded field. Real repeating eclipses retained probable.',
+'173040554':'Seventeen selected even-half-cycle times; deeper ordering usually favors even but noisy shapes make primary identity provisional. Thirteen capable neighbors include13.75arcsec G13.70; centroid0.37pixel from target cannot exclude blended sources. Real raw alternating dips and orbital-period fit retained probable. Geometry phase offset-0.040 is discussed with Gaia covariance, not an automatic veto.',
+'67300566':'Real repeated raw dips; capable G12.84 neighbor18.26arcsec away lies0.84pixel from deficit versus0.05pixel target offset. Uncalibrated close-source localization prevents definitive attribution; completed review retains probable.',
+'20176241':'Two well-sampledS48 events and third clear sparseS21 recurrence test period across55cycles. S21 missing egress/sparse core gets duration/2 conservative timing allowance, not calibrated confidence. Current MAST query finds only21/48, no newer sector.',
+'387275908':'Capable neighbors27.34 and36.11arcsec are spatially separated from deficit0.10pixel from target. High total-light PSF residual0.823 reflects crowding and is not used alone as attribution evidence. Gaia phase offset-0.059 has covariance uncertainty0.255d; duration can be noncentral.'}
+for q in csv.DictReader(open(B/'queue.csv')):
+ t=q['tic'];D=B/t;M=json.load(open(D/'measurements.json'));g=G[t];fp=next((D/'historical').glob('diff_s*.json'));d=json.load(open(fp));v='PROBABLE' if t in ('207813753','173040554','67300566') else 'CONFIRMED';ev=[e for e in M['events'] if 'mid_btjd'in e];nb=[n for n in d['neighbours_60'] if n['possible']];cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ table='\n'.join(f"|{e['sector']}|{e['cycle']}|{e['mid_btjd']:.8f}|{e['timing_error_days']:.7f}|{e['depth_ppt']:.3f}|{e.get('timing_usable')}|" for e in ev)
+ nbt='\n'.join(f"|{n['source_id']}|{n['sep']:.3f}|{n['G']:.3f}|{n['depth_needed']:.4f}|{float(np.linalg.norm(np.array(n['px'])-d['deficit_centroid'])):.3f}|" for n in nb) or '|None|||||'
+ nextcheck='Resolved eclipse photometry or calibrated multisource PRF localization.' if v=='PROBABLE' else 'Optional precision characterization; no missing bounded admission check.'
+ report=f'''# TIC {t}: {v}
+
+Full bounded review COMPLETE under current paper section2.7. Historical screened status was not an admission. Catalogue novelty is separate; central seven-group coverage applies, see ../../shared-catalogues/coverage-matrix.csv. No exhaustive priority claim.
+
+1. **Raw repeated eclipses: pass.** {len(ev)} directly measured raw QLP SAP events in sectors{sorted(set(e['sector'] for e in ev))}. Representative raw-event plots and numeric windows inspected. A local linear baseline plus free trapezoid was fitted to quality-zero cadences. Predicted centers only guide windows. Flagged/uncovered windows are not clean non-detections. At most three spread QLP sectors used; no mandatory all-event/all-sector fitting.
+2. **Timing: pass with limitations below.** {M['timing_event_count']} same-kind measured times give P={M['period_days']:.11f} +/-{M['period_error_days']:.11f}d, reference eclipse epoch BTJD{M['primary_epoch_btjd']:.8f}; epoch kind: {M['epoch_kind']}. Historical photometric cycle branch guides association, not a fixed Gaia period fit. Error meaning: {M['error_meaning']} SparseS21 TIC20176241 instead uses duration/2 conservative allowance. Zero/singular timing fits are excluded; their real raw detections remain evidence. This is not a blind all-alias search.
+3. **Attribution: {'unresolved after performed check' if v=='PROBABLE' else 'pass at TESS image resolution with limitations below'}.** DecidingS{d['sector']} image peak{d['peak_deficit_px']} matches target pixel{d['target_pixel']}; target-deficit offset{float(np.linalg.norm(d['deficit_minus_target_px'])):.3f}pixel, light-deficit offset{d['deficit_minus_light_arcsec']:.3f}arcsec; PSF total-light scaled residual{d['psf_fit_frac_resid']:.3f}. Gaia identifiers/WCS validated in identity-check.json (zero pixel mismatch). Capable neighbors listed below; required eclipse is approximate Gaia-G flux budget and pixel fractional losses are blended, not intrinsic source eclipses.
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut yields1x1/3x3/5x5 depths{d['depth_ap1']*1000:.3f}/{d['depth_ap3']*1000:.3f}/{d['depth_ap5']*1000:.3f}ppt, {d['n_events']} stacked events, versus selected-kind raw QLP median{M['depth_ppt']:.3f}ppt. Aperture dilution and mixed primary/secondary stacks may change depth. Reused numeric image and plots, cutout identity and source algorithm checked; same TESS photons test reduction robustness, not independent observing occasions.
+5. **Gaia geometry: consistent within stated model limitations.** DR3{g['gaia_source_id']}; P={g['period_days']:.10f} +/-{g['period_error_days']:.10f}d, e={g['eccentricity']:.6f}, omega={g['omega_deg']:.4f}deg. Closest edge-on conjunction offset{g['closest']['offset_days']:.6f}d ({g['closest']['offset_phase']:.6f}phase), full-SB1-covariance linear Gaia uncertainty{g['closest']['gaia_covariance_linear_error_days']:.6f}d at measured epoch. Approximate central duration{g['central_duration_hours_approx']:.2f}h vs measured median{g['observed_duration_hours']:.2f}h permits noncentral eclipses. Mass function{g['mass_function_solar']:.6f}solar, assumed primary mass{g['assumed_m1_solar']}, minimum companion{g['minimum_m2_solar']:.3f}solar. This is not a detailed binary fit or an arbitrary sigma veto; correlation convention and near-reference sensitivity recorded in ../gaia-geometry.json.
+
+**Deciding limitations:** {notes[t]}
+
+**Next check:** {nextcheck}
+
+|Sector|Historical photometric cycle|Measured midpoint BTJD|Input timing error d|Depth ppt|Usable timing before same-kind selection|
+|---|---|---|---|---|---|
+{table}
+
+|Capable Gaia neighbor|Separation arcsec|G|Required intrinsic fractional eclipse|Distance from deficit pixel|
+|---|---|---|---|---|
+{nbt}
+
+Evidence: measurements.json, raw-events.png, raw-windows.csv, historical/{fp.name}, historical/{fp.stem}.png, historical/gaia.json; ../identity-check.json, ../gaia-geometry.json, ../helper-audit.md and ../SHA256SUMS.json. Original cutout: {cut.as_posix()}. QLP FITS and source paths with hashes retained in manifest. Difference events' JSON coordinates are predictions, never timing measurements. Interpretation uses bounded representative evidence rather than automatic historical screening.
+'''
+ (D/'REPORT.md').write_text(report,encoding='utf-8');rows.append(dict(tic=t,physical_verdict=v,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=notes[t],next_check=nextcheck,source_report=str(S/'diffimg'/t/fp.name),report=str(D/'REPORT.md')))
+with open(B/'RESULTS.csv','w',newline='',encoding='utf-8')as f:w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+h={}
+for p in list(B.rglob('*'))+[S/'search.jsonl',S/'c6-sapdepth.json',S/'c7-sapdepth.json',S/'diffimg/diffstack.py',S/'c3_sapdepth.py',B.parent/'targets-selected.json',B.parent/'shared-catalogues/gaia-nss-full.csv']:
+ if p.is_file() and p.name not in ('SHA256SUMS.json','root-verification.json'):h[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+for r in rows:
+ for p in (B.parent/'shared-qlp').glob(r['tic']+'_s*.fits'):h[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+ d=json.load(open(next((B/r['tic']/'historical').glob('diff_s*.json'))));p=Path(f'[local path omitted]"tic"]}/tesscut_s{d["sector"]:03}.fits');h[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+ for p in (S/'diffimg'/r['tic']).glob('*'):
+  if p.name.startswith('diff_s') or p.name=='gaia.json':h[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+json.dump(h,open(B/'SHA256SUMS.json','w'),indent=2)
+

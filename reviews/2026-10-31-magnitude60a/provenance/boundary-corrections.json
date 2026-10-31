@@ -1,0 +1,83 @@
+{
+  "seed": 2026103102,
+  "changes": [
+    {
+      "old": {
+        "tic": "229308711",
+        "chunk": "5",
+        "gaia_g": "12.0132",
+        "period_days": "14.61869",
+        "depth_ppt": "29.8",
+        "events": "7",
+        "status": "screened; paper admission review required",
+        "source": "Fable 5\\made\\sb1-scale\\c5-catrows.md",
+        "magnitude_group": "11.5-12",
+        "round": "1",
+        "batch": "1",
+        "queue_index": "10"
+      },
+      "replacement": "180871891",
+      "reason": "Inventory magnitude outside requested group; later crosscheck finds nested Gaia DR3 G differs. Retain conservative selection from stars satisfying both, not a physical rejection.",
+      "old_gaia_dr3_g": "11.995216"
+    },
+    {
+      "old": {
+        "tic": "451086560",
+        "chunk": "5",
+        "gaia_g": "12.0086",
+        "period_days": "8.30045",
+        "depth_ppt": "150.7",
+        "events": "19",
+        "status": "screened; paper admission review required",
+        "source": "Fable 5\\made\\sb1-scale\\c5-catrows.md",
+        "magnitude_group": "11.5-12",
+        "round": "1",
+        "batch": "2",
+        "queue_index": "15"
+      },
+      "replacement": "448485777",
+      "reason": "Inventory magnitude outside requested group; later crosscheck finds nested Gaia DR3 G differs. Retain conservative selection from stars satisfying both, not a physical rejection.",
+      "old_gaia_dr3_g": "11.996699"
+    },
+    {
+      "old": {
+        "tic": "57358968",
+        "chunk": "5",
+        "gaia_g": "12.0014",
+        "period_days": "7.49621",
+        "depth_ppt": "82.4",
+        "events": "7",
+        "status": "screened; paper admission review required",
+        "source": "Fable 5\\made\\sb1-scale\\c5-catrows.md",
+        "magnitude_group": "11.5-12",
+        "round": "2",
+        "batch": "3",
+        "queue_index": "28"
+      },
+      "replacement": "276277940",
+      "reason": "Inventory magnitude outside requested group; later crosscheck finds nested Gaia DR3 G differs. Retain conservative selection from stars satisfying both, not a physical rejection.",
+      "old_gaia_dr3_g": "11.99607"
+    },
+    {
+      "old": {
+        "tic": "5903277",
+        "chunk": "7",
+        "gaia_g": "12.5085",
+        "period_days": "9.73340",
+        "depth_ppt": "59.9",
+        "events": "14",
+        "status": "screened; paper admission review required",
+        "source": "Fable 5\\made\\sb1-scale\\c7-catrows.md",
+        "magnitude_group": "12-12.5",
+        "round": "2",
+        "batch": "5",
+        "queue_index": "41"
+      },
+      "replacement": "388152396",
+      "reason": "Inventory magnitude outside requested group; later crosscheck finds nested Gaia DR3 G differs. Retain conservative selection from stars satisfying both, not a physical rejection.",
+      "old_gaia_dr3_g": "12.496618"
+    }
+  ],
+  "reason": "Exact Gaia G validation; no replacement chosen on physical outcome. Keep initial queue for audit. Sampling is within historical chunks intersected with exact magnitude range; not all eligible stars across chunk boundaries.",
+  "clarification": "Inventory gaia_g is historical screening value, not necessarily nested Gaia DR3 phot_g_mean_mag. All final120 meet both ranges. Earlier boundary correction was based on inventory values; do not imply removed targets fail Gaia DR3 bin membership."
+}

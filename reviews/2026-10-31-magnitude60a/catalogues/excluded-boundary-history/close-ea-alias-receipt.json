@@ -1,0 +1,5 @@
+{
+  "query": "SELECT ident.id,basic.main_id,basic.otype,basic.ra,basic.dec FROM ident JOIN basic ON ident.oidref=basic.oid WHERE ident.id IN ('Gaia DR3 854441274902991616','ASASSN-V J104558.09+574951.0')",
+  "url": "http[local path omitted]",
+  "sha256": "60ae4f63da0304069514598e5ff22a3fd7cfbc37b3455fe6032ee77022fe34ec"
+}

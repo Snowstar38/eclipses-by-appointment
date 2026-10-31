@@ -1,0 +1,432 @@
+{
+  "396859601": {
+    "request": {
+      "service": "Mast.Caom.Filtered",
+      "format": "json",
+      "pagesize": 2000,
+      "page": 1,
+      "params": {
+        "columns": "obs_collection,provenance_name,sequence_number,t_min,t_max,t_obs_release,obs_id,dataproduct_type,target_name,dataURL",
+        "filters": [
+          {
+            "paramName": "target_name",
+            "values": [
+              "396859601"
+            ]
+          },
+          {
+            "paramName": "dataproduct_type",
+            "values": [
+              "timeseries"
+            ]
+          }
+        ]
+      }
+    },
+    "response": {
+      "status": "COMPLETE",
+      "msg": "",
+      "data": [
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "QLP",
+          "t_min": 58437.49552256,
+          "t_max": 58463.76607969,
+          "t_obs_release": 59255.77491892,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/qlp/s0005/0000/0003/9685/9601/hlsp_qlp_tess_ffi_s0005-0000000396859601_tess_v01_llc.fits",
+          "obs_id": "hlsp_qlp_tess_ffi_s0005-0000000396859601_tess_v01_llc"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "TESS-SPOC",
+          "t_min": 58437.484269016204,
+          "t_max": 58463.50482974537,
+          "t_obs_release": 59310.52378471,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tess-spoc/s0005/target/0000/0003/9685/9601/hlsp_tess-spoc_tess_phot_0000000396859601-s0005_tess_v1_lc.fits",
+          "obs_id": "hlsp_tess-spoc_tess_phot_0000000396859601-s0005_tess_v1_tp"
+        },
+        {
+          "sequence_number": 32,
+          "obs_collection": "HLSP",
+          "provenance_name": "TESS-SPOC",
+          "t_min": 59173.72703144676,
+          "t_max": 59199.73345277778,
+          "t_obs_release": 59310.67298604,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tess-spoc/s0032/target/0000/0003/9685/9601/hlsp_tess-spoc_tess_phot_0000000396859601-s0032_tess_v1_lc.fits",
+          "obs_id": "hlsp_tess-spoc_tess_phot_0000000396859601-s0032_tess_v1_tp"
+        },
+        {
+          "sequence_number": 32,
+          "obs_collection": "HLSP",
+          "provenance_name": "QLP",
+          "t_min": 59173.73132725991,
+          "t_max": 59199.73080448341,
+          "t_obs_release": 59566.07431707,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/qlp/s0032/0000/0003/9685/9601/hlsp_qlp_tess_ffi_s0032-0000000396859601_tess_v01_llc.fits",
+          "obs_id": "hlsp_qlp_tess_ffi_s0032-0000000396859601_tess_v01_llc"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "TASOC",
+          "t_min": 58437.48508298708,
+          "t_max": 58463.7764734497,
+          "t_obs_release": 59819.67078694,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tasoc/s0005/c1800/0000/0003/9685/9601/hlsp_tasoc_tess_ffi_tic00396859601-s0005-cam1-ccd1-c1800_tess_v05_cbv-lc.fits",
+          "obs_id": "hlsp_tasoc_tess_ffi_tic00396859601-s0005-cam1-ccd1-c1800_tess_v05"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "GSFC-ELEANOR-LITE",
+          "t_min": 58437.48411394676,
+          "t_max": 58463.775445300926,
+          "t_obs_release": 60040.86356477,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/gsfc-eleanor-lite/s0005/0000/0003/9685/9601/hlsp_gsfc-eleanor-lite_tess_ffi_s0005-0000000396859601_tess_v1.0_lc.fits",
+          "obs_id": "hlsp_gsfc-eleanor-lite_tess_ffi_s0005-0000000396859601_tess_v1.0_lc"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "TGLC",
+          "t_min": 58437.49533123868,
+          "t_max": 58463.76582949246,
+          "t_obs_release": 60138.554699,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tglc/s0005/cam1-ccd1/0032/5857/8909/9497/hlsp_tglc_tess_ffi_gaiaid-3258578909949773056-s0005-cam1-ccd1_tess_v1_llc.fits",
+          "obs_id": "hlsp_tglc_tess_ffi_gaiaid-3258578909949773056-s0005-cam1-ccd1_tess_v1_llc"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "T16",
+          "t_min": 58437.5101960046,
+          "t_max": 58463.4476894033,
+          "t_obs_release": 60941.62431707,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/t16/s0005/cam1-ccd1/0032/5857/8909/9497/hlsp_t16_tess_ffi_s0005-cam1-ccd1-03258578909949773056_tess_v01_llc.fits",
+          "obs_id": "hlsp_t16_tess_ffi_s0005-cam1-ccd1-03258578909949773056_tess_v01"
+        },
+        {
+          "sequence_number": 5,
+          "obs_collection": "HLSP",
+          "provenance_name": "TARS",
+          "t_min": 58437.495331238424,
+          "t_max": 58463.453339594904,
+          "t_obs_release": 61184.35962965,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tars/sec_5_cam_1_ccd_1/hlsp_tars_tess_ffi_s0005-0000000396859601_tess_v01_lc.fits",
+          "obs_id": "hlsp_tars_tess_ffi_s0005-0000000396859601_tess"
+        },
+        {
+          "sequence_number": 32,
+          "obs_collection": "HLSP",
+          "provenance_name": "TARS",
+          "t_min": 59173.745001111114,
+          "t_max": 59199.73076241898,
+          "t_obs_release": 61202.84440962,
+          "dataproduct_type": "timeseries",
+          "target_name": "396859601",
+          "dataURL": "mast:HLSP/tars/sec_32_cam_1_ccd_1/hlsp_tars_tess_ffi_s0032-0000000396859601_tess_v01_lc.fits",
+          "obs_id": "hlsp_tars_tess_ffi_s0032-0000000396859601_tess"
+        }
+      ],
+      "fields": [
+        {
+          "name": "sequence_number",
+          "type": "int"
+        },
+        {
+          "name": "obs_collection",
+          "type": "string"
+        },
+        {
+          "name": "provenance_name",
+          "type": "string"
+        },
+        {
+          "name": "t_min",
+          "type": "float"
+        },
+        {
+          "name": "t_max",
+          "type": "float"
+        },
+        {
+          "name": "t_obs_release",
+          "type": "float"
+        },
+        {
+          "name": "dataproduct_type",
+          "type": "string"
+        },
+        {
+          "name": "target_name",
+          "type": "string"
+        },
+        {
+          "name": "dataURL",
+          "type": "string"
+        },
+        {
+          "name": "obs_id",
+          "type": "string"
+        }
+      ],
+      "paging": {
+        "page": 1,
+        "pageSize": 2000,
+        "pagesFiltered": 1,
+        "rows": 10,
+        "rowsFiltered": 10,
+        "rowsTotal": 10
+      }
+    },
+    "raw_window_coverage": [
+      {
+        "sector": 5,
+        "cycle": 0,
+        "predicted_btjd": 1441.4617,
+        "all_core": 2,
+        "clean_core": 1,
+        "clean_pre": 1,
+        "clean_post": 4
+      },
+      {
+        "sector": 5,
+        "cycle": 1,
+        "predicted_btjd": 1458.2403212622326,
+        "all_core": 2,
+        "clean_core": 2,
+        "clean_pre": 5,
+        "clean_post": 5
+      },
+      {
+        "sector": 32,
+        "cycle": 44,
+        "predicted_btjd": 2179.7210355382326,
+        "all_core": 4,
+        "clean_core": 4,
+        "clean_pre": 14,
+        "clean_post": 15
+      },
+      {
+        "sector": 32,
+        "cycle": 45,
+        "predicted_btjd": 2196.4996568004653,
+        "all_core": 5,
+        "clean_core": 5,
+        "clean_pre": 15,
+        "clean_post": 14
+      }
+    ]
+  },
+  "20176241": {
+    "request": {
+      "service": "Mast.Caom.Filtered",
+      "format": "json",
+      "pagesize": 2000,
+      "page": 1,
+      "params": {
+        "columns": "obs_collection,provenance_name,sequence_number,t_min,t_max,t_obs_release,obs_id,dataproduct_type,target_name,dataURL",
+        "filters": [
+          {
+            "paramName": "target_name",
+            "values": [
+              "20176241"
+            ]
+          },
+          {
+            "paramName": "dataproduct_type",
+            "values": [
+              "timeseries"
+            ]
+          }
+        ]
+      }
+    },
+    "response": {
+      "status": "COMPLETE",
+      "msg": "",
+      "data": [
+        {
+          "sequence_number": 21,
+          "obs_collection": "HLSP",
+          "provenance_name": "TESS-SPOC",
+          "t_min": 58869.94200728,
+          "t_max": 58897.27526919,
+          "t_obs_release": 59173.71369208,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/tess-spoc/s0021/target/0000/0000/2017/6241/hlsp_tess-spoc_tess_phot_0000000020176241-s0021_tess_v1_lc.fits",
+          "obs_id": "hlsp_tess-spoc_tess_phot_0000000020176241-s0021_tess_v1_tp"
+        },
+        {
+          "sequence_number": 21,
+          "obs_collection": "HLSP",
+          "provenance_name": "QLP",
+          "t_min": 58869.95324744,
+          "t_max": 58897.26567638,
+          "t_obs_release": 59174.46269675,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/qlp/s0021/0000/0000/2017/6241/hlsp_qlp_tess_ffi_s0021-0000000020176241_tess_v01_llc.fits",
+          "obs_id": "hlsp_qlp_tess_ffi_s0021-0000000020176241_tess_v01_llc"
+        },
+        {
+          "sequence_number": 48,
+          "obs_collection": "HLSP",
+          "provenance_name": "TESS-SPOC",
+          "t_min": 59607.44177193287,
+          "t_max": 59635.48999638889,
+          "t_obs_release": 59974.68309018,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/tess-spoc/s0048/target/0000/0000/2017/6241/hlsp_tess-spoc_tess_phot_0000000020176241-s0048_tess_v1_lc.fits",
+          "obs_id": "hlsp_tess-spoc_tess_phot_0000000020176241-s0048_tess_v1_tp"
+        },
+        {
+          "sequence_number": 48,
+          "obs_collection": "HLSP",
+          "provenance_name": "QLP",
+          "t_min": 59607.43912300188,
+          "t_max": 59635.48734787432,
+          "t_obs_release": 59991.70337955,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/qlp/s0048/0000/0000/2017/6241/hlsp_qlp_tess_ffi_s0048-0000000020176241_tess_v01_llc.fits",
+          "obs_id": "hlsp_qlp_tess_ffi_s0048-0000000020176241_tess_v01_llc"
+        },
+        {
+          "sequence_number": 21,
+          "obs_collection": "HLSP",
+          "provenance_name": "TARS",
+          "t_min": 58869.95343017361,
+          "t_max": 58897.26568603009,
+          "t_obs_release": 61191.92384248,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/tars/sec_21_cam_1_ccd_2/hlsp_tars_tess_ffi_s0021-0000000020176241_tess_v01_lc.fits",
+          "obs_id": "hlsp_tars_tess_ffi_s0021-0000000020176241_tess"
+        },
+        {
+          "sequence_number": 48,
+          "obs_collection": "HLSP",
+          "provenance_name": "TARS",
+          "t_min": 59607.44617909722,
+          "t_max": 59635.48757849537,
+          "t_obs_release": 61217.85810176,
+          "dataproduct_type": "timeseries",
+          "target_name": "20176241",
+          "dataURL": "mast:HLSP/tars/sec_48_cam_1_ccd_2/hlsp_tars_tess_ffi_s0048-0000000020176241_tess_v01_lc.fits",
+          "obs_id": "hlsp_tars_tess_ffi_s0048-0000000020176241_tess"
+        }
+      ],
+      "fields": [
+        {
+          "name": "sequence_number",
+          "type": "int"
+        },
+        {
+          "name": "obs_collection",
+          "type": "string"
+        },
+        {
+          "name": "provenance_name",
+          "type": "string"
+        },
+        {
+          "name": "t_min",
+          "type": "float"
+        },
+        {
+          "name": "t_max",
+          "type": "float"
+        },
+        {
+          "name": "t_obs_release",
+          "type": "float"
+        },
+        {
+          "name": "dataproduct_type",
+          "type": "string"
+        },
+        {
+          "name": "target_name",
+          "type": "string"
+        },
+        {
+          "name": "dataURL",
+          "type": "string"
+        },
+        {
+          "name": "obs_id",
+          "type": "string"
+        }
+      ],
+      "paging": {
+        "page": 1,
+        "pageSize": 2000,
+        "pagesFiltered": 1,
+        "rows": 6,
+        "rowsFiltered": 6,
+        "rowsTotal": 6
+      }
+    },
+    "raw_window_coverage": [
+      {
+        "sector": 21,
+        "cycle": 0,
+        "predicted_btjd": 1876.7069,
+        "all_core": 4,
+        "clean_core": 0,
+        "clean_pre": 3,
+        "clean_post": 6
+      },
+      {
+        "sector": 21,
+        "cycle": 1,
+        "predicted_btjd": 1890.2261725855942,
+        "all_core": 3,
+        "clean_core": 3,
+        "clean_pre": 11,
+        "clean_post": 7
+      },
+      {
+        "sector": 48,
+        "cycle": 55,
+        "predicted_btjd": 2620.266892207687,
+        "all_core": 11,
+        "clean_core": 9,
+        "clean_pre": 27,
+        "clean_post": 29
+      },
+      {
+        "sector": 48,
+        "cycle": 56,
+        "predicted_btjd": 2633.7861647932814,
+        "all_core": 11,
+        "clean_core": 9,
+        "clean_pre": 29,
+        "clean_post": 26
+      }
+    ]
+  }
+}

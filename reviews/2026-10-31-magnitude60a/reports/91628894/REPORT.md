@@ -1,0 +1,32 @@
+# TIC 91628894: CONFIRMED
+
+Full bounded review: COMPLETE. Physical outcome and catalogue novelty are separate. This review applies current section2.7 and does not promote the historical screening label automatically.
+
+1. **Raw events: pass.** Free trapezoid fits to quality-zero raw QLP SAP_FLUX show 7 distinct eclipse events in selected sectors[10, 64, 100]. The raw-event plot and numeric raw-windows.csv were inspected. Local linear baseline, free depth, center, duration and ingress were fitted; QLP detrended flux is not used as the deciding raw check. Representative selection is at most three spread available QLP sectors, with coverage/window requirements recorded by the script. Uncovered or flagged windows were never called nulls.
+2. **Eclipse timing: pass.** 7 same-kind midtimes give P=6.7661193197 ±0.0000092506d, fitted ephemeris intercept at earliest retained cycle BTJD1576.8187199, kind: Selected repeating eclipse, primary by convention; deeper/secondary identity not independently established. Singular center-covariance fits flagged timing_usable=false are excluded from ephemeris and remain documented in measurements.json. Historical event coordinates in difference-image JSON were predictions and are not used as measured timings. Cycle counts were seeded by historical photometric search period, then fit freely across the selected baseline. This is not a blind all-alias search. Error meaning: Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.
+3. **Target attribution: pass at TESS image resolution.** Historical S63 deficit peak[7, 7] vs target pixel[7, 8]; deficit-target separation7.925arcsec. Full saved difference image, original cutout identity and capable neighbours were audited. PSF-scaled image fractional residual0.290. Capable neighbours: Gaia 5348295453990085888: 19.20 arcsec, G15.582, required fractional eclipse0.381, pixel fractional loss0.01023010947109879; Gaia 5348295140443337472: 34.87 arcsec, G16.515, required fractional eclipse0.885, pixel fractional loss0.011668267374688467; Gaia 5348295453990088064: 37.41 arcsec, G16.480, required fractional eclipse0.857, pixel fractional loss0.011393153500120334; Gaia 5348295350910866688: 42.05 arcsec, G15.208, required fractional eclipse0.273, pixel fractional loss0.007769923584894719; Gaia 5348295350905264640: 43.46 arcsec, G16.548, required fractional eclipse0.912, pixel fractional loss0.007769923584894719; Gaia 5348295350910866176: 48.35 arcsec, G15.901, required fractional eclipse0.507, pixel fractional loss0.007769923584894719; Gaia 5348295282191399936: 56.55 arcsec, G16.151, required fractional eclipse0.636, pixel fractional loss0.0010946274488744217; Gaia 5348295144752436864: 58.14 arcsec, G16.385, required fractional eclipse0.786, pixel fractional loss0.004377720591664356
+4. **Alternative reduction: pass.** Background-subtracted target-centered TESScut aperture gives 1x1/3x3/5x5 depths9.974/10.396/9.922ppt, with 4 stacked events. QLP selected-kind fitted median10.761ppt. This separately extracted cutout is an alternative reduction of the same TESS photons, not independent observing occasions. Dilution, aperture differences and, where relevant, mixed primary/secondary stacks prevent a claim of equal intrinsic depths.
+5. **Gaia orbital geometry: pass with stated limitations.** DR35348295449680819200, P=6.7670124687±0.0024326020d, e=0.198278, omega=64.3659deg. Closest edge-on conjunction offset-0.195924d (-0.028953phase), full-SB1-covariance linear propagated Gaia uncertainty0.279206d at the measured epoch. Near-Gaia-reference projected eclipse offset-0.038730d (photometric period projection allowance0.001628d). The approximate central duration8.09h vs observed median7.38h permits noncentral geometry; this radius/minimum-mass estimate is not a detailed binary fit. Full covariance and assumptions are in gaia-geometry.json. No arbitrary sigma veto is used.
+
+**Deciding limitations and interpretation:** Deficit0.377pixel from target; light-centroid shift1.05arcsec is a different quantity. Nearest capable source19.20arcsec away requires38.1% eclipse and lies0.675pixel from deficit. Central lost-light peak and consistent10ppt aperture depths favor target; no calibrated subpixel uncertainty is inferred.
+
+**Next check:** Optional resolved photometry or updated spectroscopy for improved binary parameters; no missing bounded admission check.
+
+Catalogue novelty: central seven-group result applies; see ../../catalogues/coverage-matrix.csv. A separate source in the search cone does not establish a target match. This physical report does not assert exhaustive literature priority.
+
+Measured events (errors are the conservative fit inputs, not calibrated coverage):
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Timing error d | Fitted depth ppt | Timing status |
+|---|---|---|---|---|---|
+| 10 | 0 | 1576.8225588 | 0.010417 | 11.231 | usable; same-kind selection applies |
+| 10 | 2 | 1590.3487237 | 0.010417 | 9.789 | usable; same-kind selection applies |
+| 64 | 217 | 3045.0666167 | 0.001347 | 10.891 | usable; same-kind selection applies |
+| 64 | 218 | 3051.8326234 | 0.001314 | 10.423 | usable; same-kind selection applies |
+| 64 | 219 | 3058.6000453 | 0.001157 | 10.761 | usable; same-kind selection applies |
+| 64 | 220 | 3065.3634430 | 0.001323 | 10.941 | usable; same-kind selection applies |
+| 100 | 370 | 4080.2829159 | 0.001327 | 8.638 | usable; same-kind selection applies |
+
+Evidence (original source layout; use the public evidence links below for exported locations): measurements.json, raw-events.png, raw-windows.csv, shared-qlp QLP FITS; historical/diff_s63.json, historical/diff_s63.png and historical/gaia.json; ../gaia-geometry.json; ../helper-audit.md; ../SHA256SUMS.json. Original cutout retained at [local path omitted] Historical pipeline definitions are diffstack.py and c3_sapdepth.py in the source sb1-scale tree. No historical evidence overwritten.
+
+
+Stable review key: R236. [Deciding evidence](../../evidence/91628894/) and [catalogue coverage](../../catalogues/coverage-matrix.csv). The export manifest maps original hashes to sanitized files. Analysis scripts are archival and require the recorded external data; local paths are omitted.

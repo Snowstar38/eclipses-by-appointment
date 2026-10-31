@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "systems": 470,
+    "confirmed": 439,
+    "probable": 31,
+    "reviews": 314
+  },
+  "public_commit": "a5597b1ac282ce29caeaa4f7f5f1bfc122d28aa6",
+  "selection": "Random sample without replacement from remaining screened inventory; seed 2026103101; 60 chunk5,30 chunk6,30 chunk7 reserved before inspection. Each round30 chunk5 plus15 chunk6 plus15 chunk7. Only round1 executed now. Sorted TIC input and Python random.Random. Historical chunk boundaries approximate: four out-of-bound selections replaced using seed2026103102 from same chunk and actual magnitude interval, before final acceptance. Original queues retained. Interpretation is sampling from boundary-valid subsets of historical screening chunks.",
+  "inventory_sha256": "b5451b890fba80147fb68c317ff83eb7af00831da871d611bcfa778118a7288e",
+  "register_sha256": "1d13411b197cf690dcc42e163ae9fe0a1242685e728e070f64b5caef841192be",
+  "seed": 2026103101,
+  "queue_size": 60,
+  "limitation": "Screened remainder only. Bright group previously depleted below G11.663; not magnitude completeness or causal brightness experiment.",
+  "magnitude_provenance": "Queue gaia_g is historical inventory value; nested Gaia DR3 phot_g_mean_mag differs slightly. magnitude-validation.json confirms all final120 inside both intervals. Boundary corrections applied to inventory values only; removed targets actually remain within nested DR3 bins. This modest selection restriction is retained transparently; no verdict-driven replacement."
+}
