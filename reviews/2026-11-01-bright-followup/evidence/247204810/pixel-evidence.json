@@ -1,0 +1,88 @@
+{
+  "tic": "247204810",
+  "source_json": "../../../../Fable 5/made/sb1-scale/diffimg/247204810/diff_s41.json",
+  "pixel_sector": 41,
+  "stacked_events": 6,
+  "deficit_minus_target_px": [
+    -0.1341006235805109,
+    0.13790063315384327
+  ],
+  "deficit_target_distance_px": 0.1923527017458105,
+  "target_pixel": [
+    8,
+    7
+  ],
+  "peak_deficit_pixel": [
+    8,
+    7
+  ],
+  "aperture_depth_ppt": {
+    "1": 15.355651025614579,
+    "3": 15.300326434576236,
+    "5": 14.381774534994491
+  },
+  "capable_neighbours": [
+    {
+      "source_id": "1842700575266015616",
+      "sep": 17.289422643659773,
+      "G": 15.895514,
+      "depth_needed": 0.5765785057770306,
+      "px": [
+        8.58716033768089,
+        6.982232438037225
+      ],
+      "frac_loss_at_pixel": 0.01591838750691553,
+      "distance_to_deficit_px": 1.0677140554482734
+    },
+    {
+      "source_id": "1842700609625760512",
+      "sep": 35.04535114177112,
+      "G": 16.08678,
+      "depth_needed": 0.6845630048417592,
+      "px": [
+        6.147749001744017,
+        8.061265335709981
+      ],
+      "frac_loss_at_pixel": 0.011903766880282428,
+      "distance_to_deficit_px": 1.611518924334193
+    },
+    {
+      "source_id": "1842700639688468992",
+      "sep": 54.196669734471214,
+      "G": 16.4746,
+      "depth_needed": 0.9715855208206629,
+      "px": [
+        8.173468981940958,
+        10.055501057679608
+      ],
+      "frac_loss_at_pixel": 0.012952210140893943,
+      "distance_to_deficit_px": 2.581807389827746
+    },
+    {
+      "source_id": "1842700540906274816",
+      "sep": 54.98933651778127,
+      "G": 15.098255,
+      "depth_needed": 0.284990040865297,
+      "px": [
+        7.433980707173365,
+        4.675381766290835
+      ],
+      "frac_loss_at_pixel": 0.005724607505866428,
+      "distance_to_deficit_px": 2.857988740572906
+    },
+    {
+      "source_id": "1842700536609208320",
+      "sep": 56.14015171112327,
+      "G": 16.333149,
+      "depth_needed": 0.8548598599547877,
+      "px": [
+        6.4114793472475045,
+        5.010460438432855
+      ],
+      "frac_loss_at_pixel": 8.228993157711638e-05,
+      "distance_to_deficit_px": 2.8095420241461264
+    }
+  ],
+  "all_neighbours_examined": 42,
+  "capability_rule": "The historical depth_needed compares intrinsic neighbor eclipse to blended target light; possible when <=1. Pixel fractional loss is a separate statistic."
+}

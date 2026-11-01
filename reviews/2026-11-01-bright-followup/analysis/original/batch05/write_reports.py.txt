@@ -1,0 +1,71 @@
+import csv,json,hashlib,shutil
+from pathlib import Path
+import numpy as np
+B=Path(__file__).parent; SB=Path('[local path omitted] 5/made/sb1-scale')
+G=json.loads((B/'gaia-geometry.json').read_text()); A=json.loads((B/'alias-audit.json').read_text())
+VERDICTS={
+ '384076458':'CONFIRMED','27732047':'CONFIRMED','309253911':'CONFIRMED',
+ '237240609':'CONFIRMED','232533575':'PLAUSIBLE','339368119':'CONFIRMED',
+ '270478197':'CONFIRMED','233095433':'CONFIRMED','3942765':'CONFIRMED',
+ '40076679':'PROBABLE'}
+NOTES={
+ '384076458':'Sixteen measured raw eclipses span sectors 66 and 102 with twelve adjacent-cycle pairs. The only approximately capable Gaia neighbor is 46.6 arcsec away from the target-centered deficit.',
+ '27732047':'Deep and shallow eclipses alternate at the 2.58356-d photometric search period. The 5.16713-d orbital ephemeris uses the eleven deeper odd-parity centers; shallow even-parity eclipses independently support the double-period interpretation. Two nominally capable Gaia neighbors lie beyond 54 arcsec; the source image is structured, but its strongest deficit is on the target core.',
+ '309253911':'Nine measured eclipses in sectors 1, 38 and 96 include five adjacent-cycle pairs. No Gaia neighbor within 60 arcsec meets the approximate flux budget.',
+ '237240609':'Five measured eclipses in sectors 54 and 81 include a sector-81 adjacent pair. No Gaia neighbor within 60 arcsec meets the approximate flux budget.',
+ '232533575':'Two target-centered eclipses in sector 77 are separated by 15.252 d. The Gaia-like 5.084-d period assigns three cycles, but cycles 291 and 292 fall in an observation gap. Sector 23 has no usable repeated center and current MAST lists only sectors 23 and 77. Thus the integer-cycle alias is untested by a third eclipse; the reported period is conditional on the Gaia-supported three-cycle assignment.',
+ '339368119':'Nine deep measured eclipses in sectors 19, 59 and 86 include five adjacent-cycle pairs. No Gaia neighbor within 60 arcsec meets the approximate flux budget.',
+ '270478197':'Four deep measured eclipses include an adjacent sector-70 pair and a sector-71 repeat. No Gaia neighbor within 60 arcsec meets the approximate flux budget.',
+ '233095433':'Five deep measured eclipses include adjacent pairs in sectors 14 and 53 and a sector-86 repeat. No Gaia neighbor within 60 arcsec meets the approximate flux budget.',
+ '3942765':'Four eclipse-shaped events occur in sector 48; three centers give the ephemeris. Cycle 136 has a positive pre-ingress excursion that biases its fitted baseline and midpoint, so it is retained as morphology and excluded from timing. The remaining adjacent pair tests recurrence; no capable Gaia neighbor lies within 60 arcsec.',
+ '40076679':'Seven shallow raw eclipses recur in sectors 39, 66 and 103; three adjacent sector-39 cycles directly test the period. Both sector-39 and newly measured sector-66 difference images have strong structured residuals in a crowded field. Ten Gaia neighbors within 60 arcsec can in principle produce the blended depth. The sector-66 deficit core is near the target, yet the pixel data cannot uniquely assign the signal.'}
+NEXT={
+ '232533575':'A third measured eclipse in future coverage to distinguish 15.252 d divided by three from other integer-cycle aliases.',
+ '40076679':'Resolved time-series photometry or multi-source pixel modeling during an eclipse to identify the variable source.'}
+rows=[]; source_hashes={}
+for q in csv.DictReader((B/'queue.csv').open()):
+ tic=q['tic']; D=B/tic; M=json.loads((D/'measurements.json').read_text()); g=G[tic]
+ src=next((SB/'diffimg'/tic).glob('diff_s*.json')); d=json.loads(src.read_text()); H=D/'historical'; H.mkdir(exist_ok=True)
+ for p in [src,src.with_suffix('.png'),src.parent/'gaia.json']:
+  shutil.copy2(p,H/p.name);source_hashes[p.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+ cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ source_hashes[cut.as_posix()]=hashlib.sha256(cut.read_bytes()).hexdigest()
+ ev=sorted([e for e in M['events'] if 'mid_btjd' in e],key=lambda x:x['mid_btjd']); used=[e for e in ev if e.get('timing_usable')]
+ cap=[n for n in d['neighbours_60'] if n['possible']];offset=np.hypot(*d['deficit_minus_target_px'])*21
+ captext='; '.join(f"Gaia {n['source_id']} ({n['sep']:.2f} arcsec, G {n['G']:.3f}, intrinsic required loss about {n['depth_needed']:.3f})" for n in cap) or 'none under the approximate G-band flux budget'
+ table='\n'.join(f"| {e['sector']} | {e['cycle']} | {e['mid_btjd']:.7f} | {e['timing_error_days']:.6f} | {e['depth_ppt']:.2f} | {'used' if e.get('timing_usable') else 'excluded: '+e.get('timing_failure_reason','unusable center')} |" for e in ev)
+ v=VERDICTS[tic]; nc=NEXT.get(tic,'Optional resolved photometry and spectroscopy for precision binary parameters; no missing bounded admission check.')
+ extra=''
+ if tic=='232533575':
+  extra=' Live MAST timeseries availability query is retained in ../232533575-availability.json; availability is not an eclipse detection. The two intervening predicted cycles have no quality-zero or flagged QLP cadences within 0.25 d, so neither is a clean null.'
+ if tic=='40076679':
+  d66=json.loads((H/'diff_s66.json').read_text());off66=np.hypot(*d66['deficit_minus_target_px'])*21
+  extra=f' A fresh sector-66 TESScut stack of two actual measured windows gives a {off66:.2f}-arcsec target offset, target-core peak, 1x1/3x3/5x5 depths {d66["depth_ap1"]*1000:.2f}/{d66["depth_ap3"]*1000:.2f}/{d66["depth_ap5"]*1000:.2f} ppt and image-model residual {d66["psf_fit_frac_resid"]:.3f}; see historical/diff_s66.json and .png. These residuals prevent unique source attribution.'
+ report=f'''# TIC {tic}: {v}
+
+Full bounded review: **COMPLETE**. Physical outcome and catalogue novelty are separate.
+
+1. **Raw evidence.** Quality-zero QLP SAP_FLUX gives {len(used)} timing-selected measured centers in sectors {sorted(set(e['sector'] for e in used))}. Local trapezoids fit free centers, depths, durations and baselines. Raw plots and windows retain the evidence. Predicted centers guided extraction only; flagged or uncovered windows are not null detections. {'Two observed eclipse-shaped events do not test the integer-cycle period.' if tic=='232533575' else 'Representative raw morphology shows repeated eclipses.'}
+2. **Timing and aliases.** Selected centers yield P = {M['period_days']:.10f} ± {M['period_error_days']:.10f} d and reference epoch BTJD {M['primary_epoch_btjd']:.7f} ({M['epoch_kind']}). There are {len(A[tic]['within_sector_same_kind_pairs'])} within-sector same-kind adjacent pairs after the specified parity selection. The historical search branch is {M['historical_period_days']:.8f} d. {M['error_meaning']} This conditional formal error is not total calibrated uncertainty or an exhaustive alias search.{extra if tic=='232533575' else ''}
+3. **Source attribution.** Historical sector {d['sector']} TESScut difference image puts the deficit {offset:.2f} arcsec from the target coordinate; peak {d['peak_deficit_px']} versus target pixel {d['target_pixel']}. Image-model fractional residual {d['psf_fit_frac_resid']:.3f} is not a localization error. Capable Gaia neighbors within 60 arcsec: {captext}. Intrinsic required losses use an approximate flux budget and cannot be equated to blended pixel loss.{extra if tic=='40076679' else ''}
+4. **Alternative reduction.** Background-subtracted TESScut target 1x1/3x3/5x5 apertures yield {d['depth_ap1']*1000:.2f}/{d['depth_ap3']*1000:.2f}/{d['depth_ap5']*1000:.2f} ppt in {d['n_events']} stacked historical events; representative QLP raw median selected depth is {M['depth_ppt']:.2f} ppt. These reductions use the same TESS photons; aperture dilution and event choice limit direct depth comparison.
+5. **Gaia geometry.** Matched DR3 source {g['gaia_source_id']} has SB1 P = {g['period_days']:.10f} d and e = {g['eccentricity']:.5f}. Closest edge-on conjunction offset is {g['closest']['offset_days']:.5f} d ({g['closest']['offset_phase']:.5f} phase), with {g['closest']['gaia_covariance_linear_error_days']:.5f} d linearly propagated full source-specific SB1 covariance. Rough central duration {g['central_duration_hours_approx']:.2f} h versus observed median fit {g['observed_duration_hours']:.2f} h assumes TIC radius and a minimum-mass main-sequence companion, not a complete binary model. Agreement does not prove source identity.
+
+**Interpretation and limitation:** {NOTES[tic]}
+
+**Next check:** {nc}
+
+Catalogue novelty: central seven-group result is ../../shared-catalogues/coverage-matrix.csv. A cone source alone is not an exact target match or exhaustive priority.
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Input timing error d | Fitted depth ppt | Timing status |
+|---|---:|---:|---:|---:|---|
+{table}
+
+Evidence: measurements.json, raw-windows.csv, raw-events.png, ../download-receipts.json, ../gaia-geometry.json, ../alias-audit.json, historical/{src.name}, historical/{src.stem}.png, historical/gaia.json and ../helper-audit.md. Original TESScut: {cut.as_posix()} (SHA256 in ../source-hashes.json). Retained artifacts are in ../SHA256SUMS.json.
+'''
+ (D/'REPORT.md').write_text(report,encoding='utf-8')
+ rows.append(dict(tic=tic,physical_verdict=v,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=NOTES[tic],next_check=nc,source_report=str(src),report=str(D/'REPORT.md')))
+with (B/'RESULTS.csv').open('w',newline='',encoding='utf-8') as f:
+ w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+(B/'source-hashes.json').write_text(json.dumps(source_hashes,indent=2)+'\n',encoding='utf-8')
+print({v:sum(r['physical_verdict']==v for r in rows) for v in set(VERDICTS.values())})

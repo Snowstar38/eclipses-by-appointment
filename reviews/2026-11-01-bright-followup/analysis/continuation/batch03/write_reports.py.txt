@@ -1,0 +1,62 @@
+import csv, json, math, shutil
+from pathlib import Path
+
+B = Path(__file__).parent
+SB = Path('[local path omitted] 5/made/sb1-scale/diffimg')
+Q = list(csv.DictReader((B/'queue.csv').open()))
+G = json.loads((B/'gaia-geometry.json').read_text())
+A = json.loads((B/'alias-audit.json').read_text())
+
+# Target-specific interpretations after inspecting the numeric events, source images, and Gaia neighbors.
+notes = {
+ '411063531': ('CONFIRMED', 'Six raw events span S10, S64 and S100, with adjacent pairs in both later sectors. The crowded S90 deficit centroid is 3.1 arcsec from the target while the light centroid is displaced 26.3 arcsec; four flux-capable catalogued neighbors are 44–47 arcsec from the deficit. The target is favored, but the image-model residual (0.86) limits localization precision.', 'Resolved eclipse imaging would strengthen attribution in this crowded field.'),
+ '399293743': ('CONFIRMED', 'Five raw events span S54 and S81, including three adjacent S81 cycles. The S81 deficit lies near the target, about 17.5 arcsec from the only flux-capable Gaia neighbor; the source is favored at TESS resolution.', 'Optional resolved photometry and spectroscopy.'),
+ '44487490': ('CONFIRMED', 'Adjacent S17 and S84 dips alternate timing around the 3.44695-day photometric search clock. Odd cycles define the same-kind 6.89392-day orbit, matching Gaia; the even events are the other eclipse kind. The S84 image is target-centered, with the sole capable neighbor about 54 arcsec away.', 'Optional characterization of both eclipse kinds.'),
+ '426704374': ('CONFIRMED', 'Raw eclipses recur across S12, S66 and S102, including adjacent S12 and S66 cycles. The S12 deficit is target-centered and no Gaia neighbor in the 60-arcsec screen passes the flux-budget bound.', 'Optional precision characterization.'),
+ '316637090': ('CONFIRMED', 'Ten shallow raw events in S53 and S80 repeat; the S80 aperture extraction recovers six. The target-near deficit is roughly 31 arcsec from the only capable Gaia neighbor. The Gaia conjunction offset is descriptive and is not used as a significance veto.', 'Additional resolved photometry would strengthen this shallow attribution.'),
+ '382581210': ('CONFIRMED', 'The current MAST QLP availability record lists nine sectors; all nine files were retrieved and checked. Ten measured quality-zero raw eclipses in S2, S3, S29, S68, S69 and S95 now span the long baseline, including adjacent S29 and S68 pairs. The S29 clean intermediate windows reject equal-kind half, third and quarter-period submultiples; flagged windows were not used as nulls. The historical S2 cutout separately stacks two sparse predicted windows into one target-centered deficit, which alone would not establish each window as an eclipse. Its capable Gaia neighbor is 33 arcsec from the target and 32.5 arcsec from the deficit.', 'Optional later-sector timing and resolved photometry.'),
+ '277598042': ('CONFIRMED', 'Fourteen raw events span S13, S92 and S94 with multiple adjacent cycles. The S94 difference core lies near the target and about 20 arcsec from the only capable Gaia neighbor; that neighbor would need an approximately 80% intrinsic eclipse.', 'Optional resolved photometry.'),
+ '470627360': ('CONFIRMED', 'S59 has two adjacent measured eclipses and S73 supplies a longer-baseline third. The S59 difference core is target-centered, about 35.5 arcsec from its only capable Gaia neighbor; the long event is also recovered by aperture extraction.', 'Further-sector timing would refine the modest three-event ephemeris.'),
+ '440168538': ('CONFIRMED', 'Two adjacent raw eclipses in each of S57 and S84 anchor the recurrence. The S57 deficit favors the target; no Gaia neighbor within 60 arcsec passes the flux-budget screen. The image-model residual (0.77) limits localization precision.', 'Optional resolved photometry.'),
+ '446159745': ('CONFIRMED', 'Seven raw eclipses span S19, S53 and S74, with an adjacent S53 triplet. The S20 alternative extraction is a separate observing occasion with three events; its deficit is sharply target-centered and no capable Gaia neighbor is listed.', 'Optional precision characterization.'),
+}
+
+rows=[]
+for q in Q:
+ tic=q['tic']; m=json.loads((B/tic/'measurements.json').read_text()); g=G[tic]
+ verdict, limitation, next_check=notes[tic]
+ src=next((SB/tic).glob('diff_s*.json'))
+ d=json.loads(src.read_text())
+ h=B/tic/'historical'; h.mkdir(exist_ok=True)
+ for p in [src,src.with_suffix('.png'),src.parent/'gaia.json']:
+  shutil.copy2(p,h/p.name)
+ cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ assert cut.exists(),cut
+ pts=[e for e in m['events'] if e.get('timing_usable')]
+ if tic=='44487490': pts=[e for e in pts if e['cycle']%2==1]
+ sectors=sorted({e['sector'] for e in pts})
+ caps=sorted((n for n in d['neighbours_60'] if n['possible']), key=lambda n:n['sep'])
+ off=math.dist(d['deficit_minus_target_px'],[0,0])*21
+ relation=('The cutout and selected QLP observations use the same TESS sector and share photons; this is an alternative reduction, not an independent observing occasion.' if d['sector'] in sectors else 'The cutout sector is a separate TESS observing occasion from the selected QLP sectors; it is the same instrument with an alternative reduction, not independent-instrument confirmation.')
+ lines=[f'# TIC {tic}: {verdict}', '', '**Full bounded review: COMPLETE.** Physical outcome, catalogue novelty and historical screening label are separate.', '',
+  f'1. **Repeated raw morphology.** {len(pts)} timing-usable measured eclipses in quality-zero QLP SAP_FLUX across representative sectors {sectors}. The local fit has a free center, depth, width and baseline. Predicted centers select inspection windows; flagged and uncovered windows are not clean nulls. Raw points are preserved in `raw-windows.csv` and `raw-events.png`.',
+  f'2. **Measured timing and aliases.** P = {m["period_days"]:.10f} ± {m["period_error_days"]:.10f} d, reference BTJD {m["primary_epoch_btjd"]:.7f} ({m["epoch_kind"]}). {m.get("timing_selection",A[tic]["same_kind_selection"])} Adjacent-cycle and parity summaries are in `../alias-audit.json`. {m["error_meaning"]} This is a bounded alias check, not an exhaustive all-period search.',
+  f'3. **Pixel attribution.** The S{d["sector"]} TESScut deficit centroid is {off:.2f} arcsec from the target coordinate. Peak deficit pixel {d["peak_deficit_px"]}; target pixel {d["target_pixel"]}. Image-model fractional residual {d["psf_fit_frac_resid"]:.3f} is not a calibrated centroid error. The table below lists every Gaia neighbor in the 60-arcsec screen that can supply the selected depth under an approximate flux-budget calculation. Required intrinsic eclipse depth is not a blended pixel loss.',
+  f'4. **Alternative reduction.** Target-centered, background-subtracted cutout apertures combining {d["n_events"]} predicted event windows give 1x1/3x3/5x5 depths {d["depth_ap1"]*1000:.2f}/{d["depth_ap3"]*1000:.2f}/{d["depth_ap5"]*1000:.2f} ppt; median selected QLP raw fit depth is {m["depth_ppt"]:.2f} ppt. The stack does not by itself prove each cutout window contains an eclipse. {relation} Aperture dilution and selected-event differences limit depth equality.',
+  f'5. **Gaia geometry.** Source {g["gaia_source_id"]} has orbital P = {g["period_days"]:.9f} d and e = {g["eccentricity"]:.4f}. The nearest edge-on conjunction is offset by {g["closest"]["offset_days"]:+.4f} d ({g["closest"]["offset_phase"]:+.4f} phase) at the measured reference epoch. Full source-specific NSS covariance gives a descriptive linear timing scale of {g["closest"]["gaia_covariance_linear_error_days"]:.4f} d. Approximate central duration {g["central_duration_hours_approx"]:.2f} h versus observed median {g["observed_duration_hours"]:.2f} h. Assumed TIC radius and minimum-mass companion make this a plausibility check, not a fitted binary model or sigma veto.',
+  '',f'**Deciding interpretation and limitation:** {limitation}', '',f'**Next check:** {next_check}', '',
+  'Catalogue novelty: the central seven-group result in `../../shared-catalogues/coverage-matrix.csv` reports complete scoped checks with no identified prior EB match. It does not establish exhaustive literature priority or resolve embargoed identities.', '',
+  '| Sector | Historical cycle | Measured midpoint BTJD | Input timing error d | Fitted depth ppt |', '|---:|---:|---:|---:|---:|']
+ for e in pts: lines.append(f'| {e["sector"]} | {e["cycle"]} | {e["mid_btjd"]:.7f} | {e["timing_error_days"]:.6f} | {e["depth_ppt"]:.2f} |')
+ lines += ['', 'Capable Gaia neighbors:', '', '| Gaia DR3 source | Target separation arcsec | G | Required intrinsic eclipse fraction | Deficit separation arcsec |', '|---|---:|---:|---:|---:|']
+ if caps:
+  for n in caps:lines.append(f'| {n["source_id"]} | {n["sep"]:.2f} | {n["G"]:.3f} | {n["depth_needed"]:.3f} | {math.dist(n["px"],d["deficit_centroid"])*21:.1f} |')
+ else:lines.append('| None | — | — | — | — |')
+ lines += ['', f'Evidence: `measurements.json`, `raw-windows.csv`, `raw-events.png`, `../download-receipts.json`, `../alias-audit.json`, `../gaia-geometry.json`, `historical/{src.name}`, `historical/{src.stem}.png`, `historical/gaia.json`, original `{cut}`, and `../helper-audit.md`. All file hashes are in `../SHA256SUMS.json`.']
+ if tic=='382581210':
+  lines += ['', 'Additional recurrence and alias evidence: `../382581210-mast-availability.json`, `../sparse-sector-receipts.json`, `../targeted-download-receipts.json`, and `../helper/382581210-coverage.csv` plus its script. The current MAST query returned nine QLP sectors; all nine files were checked. The clean S29 half/third/quarter positions have 28/28/25 quality-zero points and median deficits -1.15/-0.08/-0.26 ppt, versus 49.84 and 52.66 ppt in the two observed event windows. Other intervening flagged windows are not negative detections.']
+ report=B/tic/'REPORT.md'; report.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+ rows.append(dict(tic=tic,physical_verdict=verdict,full_review_completion='COMPLETE',period_days=m['period_days'],period_error_days=m['period_error_days'],primary_epoch_btjd=m['primary_epoch_btjd'],depth_ppt=m['depth_ppt'],limitations=limitation,next_check=next_check,source_report=str(src.resolve()),report=str(report.resolve())))
+with (B/'RESULTS.csv').open('w',newline='',encoding='utf-8') as f:
+ w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+print({v:sum(r['physical_verdict']==v for r in rows) for v in ['CONFIRMED','PROBABLE','PLAUSIBLE']})

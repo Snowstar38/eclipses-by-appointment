@@ -1,0 +1,44 @@
+#
+#   VizieR Astronomical Server vizier.idia.ac.za
+#    Date: 2026-11-01T11:30:26 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-01T11:30:26	  Query execution date
+#INFO	request=http[local path omitted]	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=160.751530-53.707575,rs=60.	
+#Constraint -sort=_r
+
+#RESOURCE=yCat_102027
+#Name: B/vsx
+#Title: AAVSO International Variable Star Index VSX (Watson+, 2006-)
+#INFO	ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	data_ivoid=iv[local path omitted]	    IVOID of underlying data collection
+#INFO	creator=Watson C.	    First author or institution
+#INFO	cites=bibcode:2006SASS...25...47W	    Article or Data origin sources
+#INFO	journal=SASS	    Journal name
+#INFO	original_date=2006	    Year of the article publication
+#INFO	reference_url=http[local path omitted]	    Dataset landing page
+#INFO	publication_date=2026-10-19	    Date of first publication in the data centre
+#INFO	rights_uri=http[local path omitted]	    Licence URI
+#Table	B_vsx_vsx:
+#Name: B/vsx/vsx
+#Title: Variable Star indeX, Version 2026-10-18 (\originalcolumnnames)
+#Column	_r	(F5.2)	Distance from center (160.75153-53.70757)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	Name	(A30)	Variable star identifier	[ucd=meta.id;meta.main]
+#Column	Type	(A30)	? Variability type, ariability type, as in GCVS catalog Variability type (see details of VSX type list)	[ucd=src.class]
+#Column	Period	(F19.12)	[0.0/27400.0]? Period of the variable in days	[ucd=time.period]
+#Column	RAJ2000	(F9.5)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+_r	Name	Type	Period	RAJ2000	DEJ2000
+arcsec	 	 	d	deg	deg
+-----	------------------------------	------------------------------	-------------------	---------	---------
+35.99	Gaia DR3 5354251096167375232  	RS                            	                   	160.73595	-53.70372
+46.61	Gaia DR3 5354249687418099072  	DSCT|GDOR|SXPHE               	     0.023173300000	160.72995	-53.70969
+48.55	Gaia DR3 5354251130527119360  	E                             	     0.390526000000	160.74875	-53.69419
+

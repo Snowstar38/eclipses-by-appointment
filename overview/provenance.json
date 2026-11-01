@@ -1,5 +1,5 @@
 {
-  "description": "Original 199 active A systems plus every included scientific-review row. Exact TIC joins to actual coordinate metadata; original 586 rows preserved byte-for-byte before 72 remaining-bright-stratum additions; no coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
+  "description": "Original 658 rows preserved byte-for-byte; 125 eligible additions joined by exact TIC to actual coordinate metadata. No coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
@@ -135,9 +135,18 @@
     },
     "bright73-accepted-counts.json": {
       "sha256": "4450e3df077aa5896609e3b2c8f7d0bea452f9e077d16146c0375ef20eea7ace"
+    },
+    "bright100-session-results.csv": {
+      "sha256": "8d7d3143e9b471cbabfacedbd698d404a58b8a9ed4a16a3d4898ad8878c4a096"
+    },
+    "bright100-target-metadata.json": {
+      "sha256": "61f5e58806db98a0bbbbdd2ceea773fb7ff2e0610a95a2858965f3bc52050d2b"
+    },
+    "bright-next-target-metadata.json": {
+      "sha256": "f99065e47159f17305bd5e2c23fc96200d95099f7a4e02dbcdf684cd70c5f145"
     }
   },
-  "included": 658,
+  "included": 783,
   "omitted": 0,
   "sky_background": {
     "source": "https://svs.gsfc.nasa.gov/4851/",
@@ -149,8 +158,8 @@
     "transformation": "Pixel-cell Mollweide reprojection; RGB 0.57 source + 0.43 navy; no sky geometry approximation"
   },
   "tiers": {
-    "confirmed": 610,
-    "probable": 48
+    "confirmed": 711,
+    "probable": 72
   },
   "final_additions": {
     "included": 232,
@@ -160,6 +169,7 @@
     "coordinate_join": "Exact TIC = metadata ID; fixed-population coordinates also checked against shared metadata.",
     "magnitude_campaign": 116,
     "excluded_plausible_systems": 4,
-    "remaining_bright_stratum": 72
+    "remaining_bright_stratum": 72,
+    "brightest_remaining_reviews": 125
   }
 }

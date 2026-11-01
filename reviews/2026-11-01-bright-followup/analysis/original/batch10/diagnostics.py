@@ -1,0 +1,6 @@
+import csv,json,glob,numpy as np
+from pathlib import Path
+B=Path(__file__).parent
+for q in csv.DictReader((B/'queue.csv').open()):
+ tic=q['tic'];m=json.loads((B/tic/'measurements.json').read_text());d=json.loads(Path(glob.glob(str(Path('[local path omitted] 5/made/sb1-scale/diffimg')/tic/'diff_s*.json'))[0]).read_text());g=json.loads((dpath:=Path('[local path omitted] 5/made/sb1-scale/diffimg')/tic/'gaia.json').read_text());ev=[e for e in m['events'] if e.get('timing_usable')];n=[x for x in d['neighbours_60'] if x['possible']];print(tic,'P',round(m.get('period_days',0),7),'Gaia',round(float(g['nss'][0]['period']),6),'ev',len(ev),'sector',sorted(set(e['sector'] for e in ev)),'depth',round(m.get('depth_ppt',0),1),'parity',[(i,round(float(np.median([e['depth_ppt'] for e in ev if e['cycle']%2==i])),1)) for i in (0,1) if any(e['cycle']%2==i for e in ev)],'diff',d['sector'],'offset',round(float(np.hypot(*d['deficit_minus_target_px'])*21),1),'peak',d['peak_deficit_px'],d['target_pixel'],'ap',*[round(d['depth_ap'+x]*1000,1) for x in ('1','3','5')],'neighbor',[(round(x['sep'],1),round(x['depth_needed'],2)) for x in n[:8]])
+ print(' events',[(e['sector'],e['cycle'],round(e['depth_ppt'],1),round(e['fit_shift_days'],3)) for e in ev])

@@ -1,0 +1,63 @@
+import csv,json,hashlib,shutil
+from pathlib import Path
+import numpy as np
+B=Path(__file__).parent;SB=Path('[local path omitted] 5/made/sb1-scale')
+G=json.loads((B/'gaia-geometry.json').read_text());A=json.loads((B/'alias-audit.json').read_text())
+verdicts={'248688713':'CONFIRMED','210418035':'PLAUSIBLE','700593737':'PROBABLE','77571117':'CONFIRMED','152147232':'PROBABLE','270214638':'CONFIRMED','66281997':'PROBABLE','31405122':'CONFIRMED','156976058':'CONFIRMED','335502443':'CONFIRMED'}
+notes={
+'248688713':'Adjacent S32 cycles and S98 repeats establish recurrence. The brighter capable neighbor at 31.6 arcsec is distinct from the target-centered deficit; high image-model residual limits precision.',
+'210418035':'Broad, changing 0.96–2.86 ppt depressions repeat near the selected phase, but fitted duration is 27.45 h versus a rough 5.84 h central eclipse duration. S11 includes a narrow-looking dip while S99/S102 are broad. A phase-dependent orbital variable, blend or extraction structure remains possible. The timing fit does not establish stable eclipses; crowded S65 pixels are noisy.',
+'700593737':'A raw S19 adjacent-cycle pair confirms repetition. A capable 2.8 arcsec Gaia companion shares the central TESS core; source attribution is unresolved.',
+'77571117':'Six raw repeats span three sectors. The deficit is target-centered and no Gaia neighbor is capable under the approximate flux budget.',
+'152147232':'Fifteen raw repeats include many within-sector pairs. A capable 2.7 arcsec Gaia neighbor shares the TESS core and cannot be resolved.',
+'270214638':'Six deep raw repeats span three sectors. The deficit is target-centered and no Gaia neighbor is capable under the approximate flux budget.',
+'66281997':'Eight usable raw centers lie in six sectors after all eight archived QLP sectors were examined; they include adjacent S56/S57 and S76/S77 cycles. The historical S57 deficit lies 9.1 arcsec from the target, toward a capable G16.8 star 21.8 arcsec away. Noisy pixels and other capable neighbors prevent unique attribution.',
+'31405122':'Thirteen deep raw repeats include six adjacent-cycle pairs. The deficit is target-centered and no Gaia neighbor is capable under the approximate flux budget.',
+'156976058':'Fourteen deep raw repeats include adjacent cycles in S53 and S80. The only nominally capable neighbor is 55.8 arcsec away, distinct from the target-centered deficit.',
+'335502443':'Five raw repeats include adjacent S60 cycles. A capable neighbor 16.2 arcsec away is distinct from the target-centered deficit core at TESS resolution.'}
+nexts={'210418035':'Resolved time-series photometry and a phase-resolved orbital model to distinguish broad variability from eclipses; repeat difference imaging in a cleaner sector.',
+'700593737':'Resolved eclipse photometry or multi-source PSF localization of the 2.8 arcsec pair.',
+'152147232':'Resolved eclipse photometry or multi-source PSF localization of the 2.7 arcsec pair.',
+'66281997':'Independent high-resolution eclipse photometry or multi-source PSF localization of the crowded deficit core.'}
+rows=[];source_hashes={}
+for q in csv.DictReader((B/'queue.csv').open()):
+ tic=q['tic'];D=B/tic;M=json.loads((D/'measurements.json').read_text());g=G[tic]
+ src=next((SB/'diffimg'/tic).glob('diff_s*.json'));d=json.loads(src.read_text());H=D/'historical';H.mkdir(exist_ok=True)
+ for p in [src,src.with_suffix('.png'),src.parent/'gaia.json']:
+  shutil.copy2(p,H/p.name);source_hashes[p.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+ cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ source_hashes[cut.as_posix()]=hashlib.sha256(cut.read_bytes()).hexdigest()
+ ev=sorted([e for e in M['events'] if 'mid_btjd' in e],key=lambda x:x['mid_btjd']);used=[e for e in ev if e.get('timing_usable')]
+ cap=[n for n in d['neighbours_60'] if n['possible']];offset=np.hypot(*d['deficit_minus_target_px'])*21
+ captext='; '.join(f"Gaia {n['source_id']} ({n['sep']:.2f} arcsec, G {n['G']:.3f}, intrinsic loss approx. {n['depth_needed']:.3f})" for n in cap) or 'none under approximate G-band flux budget'
+ table='\n'.join(f"| {e['sector']} | {e['cycle']} | {e['mid_btjd']:.7f} | {e['timing_error_days']:.6f} | {e['depth_ppt']:.2f} | {'used' if e.get('timing_usable') else 'excluded: '+e.get('timing_failure_reason','unusable center')} |" for e in ev)
+ v=verdicts[tic];nc=nexts.get(tic,'Optional resolved photometry and spectroscopy for precision binary parameters; no missing bounded admission check.')
+ tw='These are selected-phase adjacent pairs; the event kind is uncertain. The formal fit describes phase recurrence of a variable signal, not a secure eclipse ephemeris.' if tic=='210418035' else 'Measured centers and same-kind pairs support the bounded period and alias check.'
+ report=f'''# TIC {tic}: {v}
+
+Full bounded review: **COMPLETE**. Physical outcome and catalogue novelty are separate.
+
+1. **Raw evidence.** Quality-zero QLP SAP_FLUX contains {len(used)} timing-usable measured centers in sectors {sorted(set(e['sector'] for e in used))}. Local trapezoids fit free centers, depths, durations and baselines. Raw plots and windows retain the evidence. Predicted centers guided extraction only; flagged or uncovered windows are not null detections. {'The morphology is eclipse-shaped but inconsistent across sectors.' if tic=='210418035' else 'Representative morphology shows repeated eclipses.'}
+2. **Timing and aliases.** Measured centers yield P = {M['period_days']:.10f} ± {M['period_error_days']:.10f} d and reference epoch BTJD {M['primary_epoch_btjd']:.7f} ({'selected repeating phase; eclipse kind unestablished' if tic=='210418035' else M['epoch_kind']}). There are {len(A[tic]['within_sector_same_kind_pairs'])} within-sector adjacent {'selected-phase' if tic=='210418035' else 'same-kind'} pairs (../alias-audit.json). {tw} {M['error_meaning']} This formal error is not total calibrated uncertainty or an exhaustive alias search.
+3. **Source attribution.** Historical sector {d['sector']} TESScut difference image puts the deficit {offset:.2f} arcsec from the target coordinate; peak {d['peak_deficit_px']} versus target pixel {d['target_pixel']}. Image-model fractional residual {d['psf_fit_frac_resid']:.3f} is not a localization error. Capable Gaia neighbors within 60 arcsec: {captext}. Intrinsic-loss requirements use an approximate flux budget and cannot be equated to blended pixel loss.
+4. **Alternative reduction.** Background-subtracted TESScut 1x1/3x3/5x5 target apertures yield {d['depth_ap1']*1000:.2f}/{d['depth_ap3']*1000:.2f}/{d['depth_ap5']*1000:.2f} ppt in {d['n_events']} stacked historical events; representative QLP raw median fit depth is {M['depth_ppt']:.2f} ppt. These different reductions use the same TESS photons. Aperture dilution and event choice limit depth comparisons.
+5. **Gaia geometry.** Matched DR3 source {g['gaia_source_id']} has SB1 P = {g['period_days']:.10f} d and e = {g['eccentricity']:.5f}. Closest edge-on conjunction offset is {g['closest']['offset_days']:.5f} d ({g['closest']['offset_phase']:.5f} phase), with {g['closest']['gaia_covariance_linear_error_days']:.5f} d linearly propagated full source-specific SB1 covariance. Rough central duration {g['central_duration_hours_approx']:.2f} h versus observed median fit {g['observed_duration_hours']:.2f} h assumes TIC radius and a minimum-mass main-sequence companion, not a full binary model. Agreement is not source proof.
+
+**Interpretation and limitation:** {notes[tic]}
+
+**Next check:** {nc}
+
+Catalogue novelty: central seven-group result is ../../shared-catalogues/coverage-matrix.csv. A cone source alone is not an exact target match or exhaustive priority.
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Input timing error d | Fitted depth ppt | Timing status |
+|---|---:|---:|---:|---:|---|
+{table}
+
+Evidence: measurements.json, raw-windows.csv, raw-events.png, ../download-receipts.json, ../gaia-geometry.json, ../alias-audit.json, historical/{src.name}, historical/{src.stem}.png, historical/gaia.json and ../helper-audit.md. Original TESScut: {cut.as_posix()} (SHA256 in ../source-hashes.json). Retained artifacts are in ../SHA256SUMS.json.
+'''
+ (D/'REPORT.md').write_text(report,encoding='utf-8')
+ rows.append(dict(tic=tic,physical_verdict=v,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=notes[tic],next_check=nc,source_report=str(src),report=str(D/'REPORT.md')))
+with (B/'RESULTS.csv').open('w',newline='',encoding='utf-8') as f:
+ w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+(B/'source-hashes.json').write_text(json.dumps(source_hashes,indent=2)+'\n',encoding='utf-8')
+print({v:sum(r['physical_verdict']==v for r in rows) for v in set(verdicts.values())})

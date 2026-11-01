@@ -1,0 +1,73 @@
+import csv, json, shutil, hashlib, math
+from pathlib import Path
+import numpy as np
+
+B=Path(__file__).parent
+SB=Path('[local path omitted] 5/made/sb1-scale')
+G=json.loads((B/'gaia-geometry.json').read_text())
+A=json.loads((B/'alias-audit.json').read_text())
+notes={
+'381076353':'Recurrent ~3 ppt depressions are comparable to local scatter. Folded S11 and S102 show localized troughs and recovery, but S99 is rounded and broad variability is not decisively excluded; eclipse morphology remains uncertain. Fifty capable Gaia sources within 60 arcsec include several within 8 arcsec; the target-centered core has 0.909 image-model fractional residual, leaving attribution unresolved. Trapezoid durations and timing are shape-sensitive (up to 113 min timing residual).',
+'76450330':'Strong alternating depths establish the 2.1333 d orbital cycle; the historical SAP 1.06665 d branch is the half-period. The deeper parity is fitted for the reported epoch.',
+'95247597':'S88 has a consecutive 14.376 d same-kind recurrence and S61 adds a long baseline. Earlier S7 windows have only five quality-zero points each, so they are not clean nulls. Current MAST QLP availability includes S7/34/61/88; availability alone is not an eclipse detection.',
+'436762701':'Seven deep raw events across S56 and S83 include consecutive cycles, with consistent depths and a target-centered deficit.',
+'462538667':'Eight deep raw events across S41 and S75 include consecutive cycles, with a well-centered pixel deficit and stable depths.',
+'62433366':'Even historical half-period cycles are modestly but persistently deeper than odd cycles in S76 and S84, supporting the 4.7597 d orbital period. The duration is only a rough trapezoid shape measure.',
+'220213855':'Four consecutive raw eclipses in S87 establish recurrence across 16.43 d. S6 is available but its candidate windows have at most four quality-zero cadences inside half the search duration; no clean null is claimed. The fitted period error is limited by one sector and is not total ephemeris uncertainty.',
+'265436769':'Four shallow raw events in S95 and S104 include same-sector consecutive cycles. The S67 difference core favors the target, yet a capable source 22.6 arcsec away and a high image-model residual (0.87) leave attribution unresolved. Early S1 windows are sparse or flagged, not clean nulls.',
+'238406817':'Alternating ~275 and ~116 ppt eclipses identify the 4.7752 d orbital period; the historical 2.38762 d SAP branch is the half-period. The deeper parity defines the epoch.',
+'395080968':'Alternating depths support the 3.6265 d orbital period, but raw fits scatter strongly and residuals reach 75 min. The S56 alternative aperture stack mixes eclipse kinds; its depth is not an intrinsic primary depth. Capable neighbors at 6.3 and 11.9 arcsec share the TESS image core and the image-model residual is 0.982, so source attribution and precision ephemeris remain limited.'}
+probable={'265436769','395080968'}
+plausible={'381076353'}
+rows=[];source_hashes={}
+for q in csv.DictReader((B/'queue.csv').open()):
+ tic=q['tic'];D=B/tic;M=json.loads((D/'measurements.json').read_text());g=G[tic]
+ src=next((SB/'diffimg'/tic).glob('diff_s*.json'));diff=json.loads(src.read_text())
+ historical=D/'historical';historical.mkdir(exist_ok=True)
+ for p in (src,src.with_suffix('.png'),src.parent/'gaia.json'):
+  shutil.copy2(p,historical/p.name);source_hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+ cut=Path(f'[local path omitted]"sector"]:03}.fits')
+ source_hashes[str(cut)]=hashlib.sha256(cut.read_bytes()).hexdigest()
+ ev=[e for e in M['events'] if 'mid_btjd' in e];used=[e for e in ev if e.get('timing_usable') and ('orbital_cycle' not in M or True)]
+ selected=[e for e in ev if e.get('timing_usable') and (tic not in ('76450330','62433366','238406817','395080968') or 'orbital_cycle' in e)]
+ neighbors=[n for n in diff['neighbours_60'] if n['possible']]
+ near=sorted(neighbors,key=lambda n:n['sep'])[:5]
+ neartext='; '.join(f"{n['sep']:.1f} arcsec, G={n['G']:.2f}, intrinsic-loss requirement ~{n['depth_needed']:.2f}" for n in near) or 'none under the approximate G-band flux budget'
+ if len(neighbors)>len(near):neartext+=f'; {len(neighbors)-len(near)} further capable sources in the 60 arcsec list'
+ offset=math.hypot(*diff['deficit_minus_target_px'])*21
+ verdict='PLAUSIBLE' if tic in plausible else ('PROBABLE' if tic in probable else 'CONFIRMED')
+ attr='unresolved at TESS resolution' if tic in probable or tic in plausible else 'favors target at TESS resolution'
+ same=A[tic]['within_sector_same_kind_pairs']
+ def timing_status(e):
+  if not e.get('timing_usable'):return 'excluded: unidentifiable center covariance'
+  if e not in selected:return 'other eclipse kind'
+  return 'used'
+ table='\n'.join(f"| {e['sector']} | {e['cycle']} | {e['mid_btjd']:.7f} | {e['timing_error_days']:.6f} | {e['depth_ppt']:.2f} | {timing_status(e)} |" for e in sorted(ev,key=lambda x:x['mid_btjd']))
+ report=f'''# TIC {tic}: {verdict}
+
+Full bounded review: **COMPLETE**. Physical outcome and catalogue novelty are separate. This report reviews the frozen batch04 target; historical screening is not an admission verdict.
+
+1. **Raw events.** Quality-zero QLP SAP_FLUX shows {len(selected)} timing-selected {'candidate depressions' if tic in plausible else 'measured eclipses'} in sectors {sorted(set(e['sector'] for e in selected))}. Local trapezoid fits allow free centers and baseline. Predicted windows are search guides only; flagged or sparsely sampled windows are not null detections. Numeric windows and the raw plot retain the evidence.
+2. **Timing and aliases.** Measured {'repeating depression' if tic in plausible else 'same-kind'} centers give P={M['period_days']:.10f} d, fit error={M['period_error_days']:.10f} d, epoch BTJD {M['primary_epoch_btjd']:.7f} ({M['epoch_kind']}). There are {len(same)} consecutive within-sector same-kind cycle pairs. The inventory period was {q['period_days']} d and the historical SAP search branch was {M['historical_period_days']:.10f} d. {M.get('timing_selection','All selected historical photometric cycles used; no systematic alternating depth pattern requiring a double-period fit in representative data.')} {M['error_meaning']} The fit error is not calibrated total uncertainty. This bounded alias check is not an exhaustive blind period search.
+3. **Pixel attribution: {attr}.** Historical S{diff['sector']} TESScut deficit core is {offset:.2f} arcsec from the target coordinate; peak pixel {diff['peak_deficit_px']} and target pixel {diff['target_pixel']}. Fractional PSF model residual is {diff['psf_fit_frac_resid']:.3f}, not a localization uncertainty. Capable Gaia neighbors: {neartext}. The full list and flux-budget calculation are in historical/{src.name}; the original cutout and stacked image are retained and hashed.
+4. **Alternative reduction.** A target-centered, background-subtracted TESScut extraction of the same TESS photons gives 1x1/3x3/5x5 stacked depths {diff['depth_ap1']*1000:.2f}/{diff['depth_ap3']*1000:.2f}/{diff['depth_ap5']*1000:.2f} ppt from {diff['n_events']} selected windows. Median selected QLP raw fit depth is {M['depth_ppt']:.2f} ppt. Aperture dilution, event-kind mixing and model residuals limit direct depth comparisons. This reduction is not an independent observing occasion.
+5. **Gaia orbit.** The matched DR3 NSS source {g['gaia_source_id']} has P={g['period_days']:.10f} d and e={g['eccentricity']:.5f}. Closest edge-on conjunction differs from the measured epoch by {g['closest']['offset_phase']:.5f} in phase ({g['closest']['offset_days']:.5f} d); linear propagation of the source-specific full SB1 covariance gives {g['closest']['gaia_covariance_linear_error_days']:.5f} d as a descriptive timing scale. The rough central-duration estimate is {g['central_duration_hours_approx']:.2f} h versus trapezoid median {g['observed_duration_hours']:.2f} h; these assume a TIC radius and minimum-mass main-sequence companion and are not a full geometry fit or a sigma gate.
+
+**Deciding interpretation and limitation.** {notes[tic]}
+
+**Next check.** {'Higher-resolution time-series photometry to test eclipse morphology and source attribution.' if tic in plausible else 'Resolved eclipse photometry or multi-source PRF localization for source attribution.' if tic in probable else 'Optional resolved photometry and spectroscopy for precision binary parameters; no missing bounded admission check.'}
+
+Catalogue novelty is evaluated centrally against seven scoped groups in ../../shared-catalogues/coverage-matrix.csv. This physical review does not assert exhaustive literature priority.
+
+| Sector | Historical photometric cycle | Measured midpoint BTJD | Input timing error d | Fitted depth ppt | Timing status |
+|---|---:|---:|---:|---:|---|
+{table}
+
+Evidence: measurements.json, raw-windows.csv, raw-events.png, ../download-receipts.json, ../alias-audit.json, ../gaia-geometry.json, historical/{src.name}, historical/{src.stem}.png, historical/gaia.json, original TESScut {cut.as_posix()} and ../helper-audit.md. The original cutout and source files are SHA-256 recorded in ../source-hashes.json and ../SHA256SUMS.json.
+'''
+ (D/'REPORT.md').write_text(report,encoding='utf-8')
+ rows.append(dict(tic=tic,physical_verdict=verdict,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=notes[tic],next_check='Test morphology and resolve source attribution' if tic in plausible else 'Resolved source localization' if tic in probable else 'Optional precision characterization',source_report=str(src),report=str(D/'REPORT.md')))
+with (B/'RESULTS.csv').open('w',newline='',encoding='utf-8') as f:
+ w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+(B/'source-hashes.json').write_text(json.dumps(source_hashes,indent=2)+'\n',encoding='utf-8')
+print({v:sum(r['physical_verdict']==v for r in rows) for v in ('CONFIRMED','PROBABLE','PLAUSIBLE')})

@@ -1,0 +1,117 @@
+{
+  "s18_fits": [
+    {
+      "sector": 18,
+      "cycle": -1,
+      "predicted_guide_btjd": 1792.3594583475856,
+      "measured_mid_btjd": 1792.358078015243,
+      "formal_error_days": 0.0016418314412298275,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 16.042489617042072,
+      "duration_days": 0.0822077745340103,
+      "usable": true,
+      "quality_zero_points": 32
+    },
+    {
+      "sector": 18,
+      "cycle": 0,
+      "predicted_guide_btjd": 1797.9916,
+      "measured_mid_btjd": 1797.988668039392,
+      "formal_error_days": 0.0009123549067589981,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 17.947399978346596,
+      "duration_days": 0.07653873277545357,
+      "usable": true,
+      "quality_zero_points": 33
+    },
+    {
+      "sector": 18,
+      "cycle": 2,
+      "predicted_guide_btjd": 1809.255883304829,
+      "measured_mid_btjd": 1809.2530955507998,
+      "formal_error_days": 0.001112618458672434,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 18.690530035146264,
+      "duration_days": 0.07781245139245964,
+      "usable": true,
+      "quality_zero_points": 34
+    },
+    {
+      "sector": 18,
+      "cycle": 3,
+      "predicted_guide_btjd": 1814.8880249572437,
+      "measured_mid_btjd": 1814.8824887855903,
+      "formal_error_days": 0.0025911704397249395,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 19.45769082731154,
+      "duration_days": 0.07629890186048593,
+      "usable": false,
+      "quality_zero_points": 17
+    }
+  ],
+  "selected_midpoints": [
+    {
+      "sector": 18,
+      "cycle": -1,
+      "predicted_guide_btjd": 1792.3594583475856,
+      "measured_mid_btjd": 1792.358078015243,
+      "formal_error_days": 0.0016418314412298275,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 16.042489617042072,
+      "duration_days": 0.0822077745340103,
+      "usable": true,
+      "quality_zero_points": 32
+    },
+    {
+      "sector": 18,
+      "cycle": 0,
+      "predicted_guide_btjd": 1797.9916,
+      "measured_mid_btjd": 1797.988668039392,
+      "formal_error_days": 0.0009123549067589981,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 17.947399978346596,
+      "duration_days": 0.07653873277545357,
+      "usable": true,
+      "quality_zero_points": 33
+    },
+    {
+      "sector": 18,
+      "cycle": 2,
+      "predicted_guide_btjd": 1809.255883304829,
+      "measured_mid_btjd": 1809.2530955507998,
+      "formal_error_days": 0.001112618458672434,
+      "conservative_error_days": 0.01042,
+      "depth_ppt": 18.690530035146264,
+      "duration_days": 0.07781245139245964,
+      "usable": true,
+      "quality_zero_points": 34
+    },
+    {
+      "sector": 85,
+      "cycle": 324,
+      "measured_mid_btjd": 3622.809675850202,
+      "conservative_error_days": 0.0011574122330557657
+    },
+    {
+      "sector": 85,
+      "cycle": 326,
+      "measured_mid_btjd": 3634.0735379735847,
+      "conservative_error_days": 0.0011574122330557657
+    }
+  ],
+  "epoch_kind": "repeating eclipse; primary by convention",
+  "epoch_cycle": -1,
+  "primary_epoch_btjd": 1792.357106056683,
+  "period_days": 5.6321610432833324,
+  "period_error_days": 1.8695399747188008e-05,
+  "residual_days": [
+    0.0009719585600578284,
+    -0.0005990605743591004,
+    -0.0004936357331644103,
+    0.00023072643580235308,
+    -0.00022923674805497285
+  ],
+  "reduced_chi_square": 0.03107238972231947,
+  "error_meaning": "Linear fit to independently measured raw S18 and S85 midpoints, with max(formal center covariance, half cadence) per event and scatter inflation; formal fit error, not total calibrated uncertainty. Historical period/cycle predictions guided extraction only.",
+  "alias_note": "S18 quality-zero raw eclipses in successive cycles -1 and 0 and cycle 2 reject the 11.26386-day double-period interpretation; S85 intervening cycle 325 is all flagged and never treated as a clean null."
+}

@@ -1,0 +1,201 @@
+{
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "format": "json",
+    "pagesize": 2000,
+    "page": 1,
+    "params": {
+      "columns": "obs_collection,provenance_name,sequence_number,t_min,t_max,t_obs_release,obs_id,dataproduct_type,target_name,dataURL",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "66281997"
+          ]
+        },
+        {
+          "paramName": "dataproduct_type",
+          "values": [
+            "timeseries"
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 17,
+        "obs_collection": "HLSP",
+        "provenance_name": "TESS-SPOC",
+        "t_min": 58764.19075455,
+        "t_max": 58789.1902308,
+        "t_obs_release": 59186.4099884,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/tess-spoc/s0017/target/0000/0000/6628/1997/hlsp_tess-spoc_tess_phot_0000000066281997-s0017_tess_v1_lc.fits",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000066281997-s0017_tess_v1_tp"
+      },
+      {
+        "sequence_number": 17,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 58764.20199446,
+        "t_max": 58789.18063795,
+        "t_obs_release": 59186.85887728,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0017/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0017-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0017-0000000066281997_tess_v01_llc"
+      },
+      {
+        "sequence_number": 16,
+        "obs_collection": "HLSP",
+        "provenance_name": "TESS-SPOC",
+        "t_min": 58738.16973852,
+        "t_max": 58762.815738,
+        "t_obs_release": 59190.70329853,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/tess-spoc/s0016/target/0000/0000/6628/1997/hlsp_tess-spoc_tess_phot_0000000066281997-s0016_tess_v1_lc.fits",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000066281997-s0016_tess_v1_tp"
+      },
+      {
+        "sequence_number": 16,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 58738.16014514817,
+        "t_max": 58762.80614511808,
+        "t_obs_release": 59265.70381932,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0016/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0016-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0016-0000000066281997_tess_v01_llc"
+      },
+      {
+        "sequence_number": 56,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 59824.75664335908,
+        "t_max": 59852.64131886978,
+        "t_obs_release": 60090.60755782,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0056/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0056-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0056-0000000066281997_tess_v01_llc"
+      },
+      {
+        "sequence_number": 57,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 59852.85428236565,
+        "t_max": 59881.61541634612,
+        "t_obs_release": 60117.91965263,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0057/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0057-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0057-0000000066281997_tess_v01_llc"
+      },
+      {
+        "sequence_number": 84,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 60584.08868203638,
+        "t_max": 60609.8429389731,
+        "t_obs_release": 60726.40770824,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0084/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0084-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0084-0000000066281997_tess_v01_llc"
+      },
+      {
+        "sequence_number": 76,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 60367.189855668694,
+        "t_max": 60394.27263913024,
+        "t_obs_release": 60804.42552083,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0076/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0076-0000000066281997_tess_v02_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0076-0000000066281997_tess_v02_llc"
+      },
+      {
+        "sequence_number": 77,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 60394.97865289869,
+        "t_max": 60423.04468037747,
+        "t_obs_release": 60806.61081011,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0077/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0077-0000000066281997_tess_v02_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0077-0000000066281997_tess_v02_llc"
+      },
+      {
+        "sequence_number": 83,
+        "obs_collection": "HLSP",
+        "provenance_name": "QLP",
+        "t_min": 60558.92632566439,
+        "t_max": 60583.87803425919,
+        "t_obs_release": 60723,
+        "dataproduct_type": "timeseries",
+        "target_name": "66281997",
+        "dataURL": "mast:HLSP/qlp/s0083/0000/0000/6628/1997/hlsp_qlp_tess_ffi_s0083-0000000066281997_tess_v01_llc.fits",
+        "obs_id": "hlsp_qlp_tess_ffi_s0083-0000000066281997_tess_v01_llc"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "provenance_name",
+        "type": "string"
+      },
+      {
+        "name": "t_min",
+        "type": "float"
+      },
+      {
+        "name": "t_max",
+        "type": "float"
+      },
+      {
+        "name": "t_obs_release",
+        "type": "float"
+      },
+      {
+        "name": "dataproduct_type",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "dataURL",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 2000,
+      "pagesFiltered": 1,
+      "rows": 10,
+      "rowsFiltered": 10,
+      "rowsTotal": 10
+    }
+  }
+}

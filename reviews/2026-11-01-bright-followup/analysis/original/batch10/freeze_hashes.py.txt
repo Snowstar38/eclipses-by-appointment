@@ -1,0 +1,15 @@
+import csv,hashlib,json,os
+from pathlib import Path
+B=Path(__file__).parent;ROOT=B.parent;SB=Path('[local path omitted] 5/made/sb1-scale');H={}
+def add(p):
+ p=Path(p);key=Path(os.path.relpath(p,B)).as_posix();H[key]=hashlib.sha256(p.read_bytes()).hexdigest()
+for r in json.loads((B/'download-receipts.json').read_text()):
+ assert r['status']=='ok';p=Path(r.get('path',r.get('file')));assert hashlib.sha256(p.read_bytes()).hexdigest()==r['sha256'];add(p)
+for q in csv.DictReader((B/'queue.csv').open()):
+ tic=q['tic'];d=next((SB/'diffimg'/tic).glob('diff_s*.json'));z=json.loads(d.read_text())
+ for p in [d,d.with_suffix('.png'),d.parent/'gaia.json',Path(f'[local path omitted]"sector"]:03}.fits')]:add(p)
+for p in [SB/'search.jsonl',SB/'c7-sapdepth.json',SB/'c7-catrows.md',SB/'c3_sapdepth.py',SB/'diffimg/diffstack.py',ROOT/'targets-selected.json',ROOT/'queue.csv',ROOT/'baseline.json',ROOT/'shared-catalogues/gaia-nss-full.csv',ROOT/'shared-catalogues/coverage-matrix.csv']:add(p)
+for p in B.rglob('*'):
+ if p.is_file() and p.name not in ('SHA256SUMS.json','root-verification.json') and '__pycache__' not in str(p):add(p)
+(B/'SHA256SUMS.json').write_text(json.dumps(dict(sorted(H.items())),indent=2)+'\n')
+print(len(H))

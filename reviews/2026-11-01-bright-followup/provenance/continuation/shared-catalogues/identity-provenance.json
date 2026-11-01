@@ -1,0 +1,30 @@
+{
+  "queue": "[local path omitted]",
+  "queue_sha256": "dbb57262b879513d571cbe07c52fc687c73593659228c21c1286aadd062114df",
+  "targets_sha256": "f99065e47159f17305bd5e2c23fc96200d95099f7a4e02dbcdf684cd70c5f145",
+  "identity_check": "40 unique TIC and Gaia DR3 IDs; queue ordered identity exact; distinct from original100; all queries fresh; receipt-to-raw hashes verified",
+  "query_scope": "VSX/ASAS-SN 60 arcsec; three historical EB groups 5 arcsec (Kostov two tables); exact Gaia DR3 EB and SIMBAD identifiers; cached public Chopard v1.2.0 exact-ID comparison, not embargoed identities or later releases",
+  "nss_rows": 40,
+  "coverage_rows": 40,
+  "known_prior_eb": [
+    {
+      "tic": "66072136",
+      "matches": [
+        {
+          "source": "VSX",
+          "identity_basis": "positionally secure counterpart; Gaia target 0.01 arcsec from rounded VSX coordinates, next Gaia source 1.96 arcsec away and 7.83 mag fainter; exact catalogue alias absent",
+          "period_note": "VSX EA period 1.08916 d differs from Gaia SB1 orbit 4.589208 d; physical signal and period require independent review",
+          "row": {
+            "_r": "0.03",
+            "Name": "V0693 Lac",
+            "Type": "EA",
+            "Period": "1.089160000000",
+            "RAJ2000": "340.76279",
+            "DEJ2000": "50.44253"
+          }
+        }
+      ]
+    }
+  ],
+  "nearby_eb_identity_unresolved": []
+}

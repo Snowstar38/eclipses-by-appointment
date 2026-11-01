@@ -1,0 +1,15 @@
+import csv,json,hashlib,shutil
+from pathlib import Path
+from astropy.io import fits
+B=Path(__file__).parent;S=Path('[local path omitted] 5/made/sb1-scale');out={}
+for q in csv.DictReader((B/'queue.csv').open()):
+ t=q['tic'];src=next((S/'diffimg'/t).glob('diff_s*.json'));d=json.loads(src.read_text());assert str(d['tic'])==t
+ cut=Path(f'[local path omitted]"sector"]:03}.fits');assert cut.exists()
+ with fits.open(cut) as h:
+  h.verify('exception');head=dict(primary_header={k:str(h[0].header.get(k)) for k in ['OBJECT','TICID','SECTOR','RA_OBJ','DEC_OBJ']},extensions=[x.name for x in h],shape=[str(x.data.shape) if x.data is not None else None for x in h])
+ hist=B/t/'historical';hist.mkdir(exist_ok=True)
+ orig=[src,src.with_suffix('.png'),src.parent/'gaia.json',cut]
+ for f in orig[:3]:shutil.copy2(f,hist/f.name)
+ out[t]=dict(originals={str(f):hashlib.sha256(f.read_bytes()).hexdigest() for f in orig},cutout_fits_identity=head,sector=d['sector'],source_json=str(src),source_cutout=str(cut))
+(B/'source-hashes.json').write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8')
+print(len(out))

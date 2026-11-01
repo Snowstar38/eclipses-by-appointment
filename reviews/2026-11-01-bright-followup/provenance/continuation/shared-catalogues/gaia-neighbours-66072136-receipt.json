@@ -1,0 +1,27 @@
+{
+  "query": "SELECT source_id,ra,dec,phot_g_mean_mag,pmra,pmdec,DISTANCE(POINT('ICRS',ra,dec),POINT('ICRS',340.762774630792,50.4425370555553)) AS distance_deg FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',340.762774630792,50.4425370555553,0.001388888889)) ORDER BY distance_deg",
+  "url": "http[local path omitted]",
+  "queried_at_utc": "2026-11-01T11:33:30.945062+00:00",
+  "status": "success",
+  "rows": [
+    {
+      "source_id": "1989520523290696832",
+      "ra": "340.76279200907004",
+      "dec": "50.44252759787",
+      "phot_g_mean_mag": "12.29553",
+      "pmra": "2.4256253822599754",
+      "pmdec": "-2.2677811547601094",
+      "distance_deg": "1.4557983913535395E-5"
+    },
+    {
+      "source_id": "1989520527587092096",
+      "ra": "340.76308909594076",
+      "dec": "50.44201997552145",
+      "phot_g_mean_mag": "20.125687",
+      "pmra": "",
+      "pmdec": "",
+      "distance_deg": "5.54508202507912E-4"
+    }
+  ],
+  "sha256": "05a57169600fa37683965a592c355ffedc58a68eb36fe3ce0fed655f21bc9229"
+}

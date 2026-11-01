@@ -1,0 +1,7 @@
+# Bright100 scoped catalogue audit
+
+All 100 queue identities verified; 100 complete NSS orbit rows and 100/100 seven-group catalogue coverage. All fresh remote queries succeeded. Six cone positive controls and exact Gaia EB positive control succeeded. Raw receipt hashes independently checked by audit.py. No failed query was interpreted as a non-match.
+
+Prior EB exceptions: [{"tic": "238406817", "matches": [{"source": "ASASSN", "row": {"_r": "0.07", "ASASSN-V": "J000540.34+272357.5", "RAJ2000": "001.41808", "DEJ2000": "+27.39930", "Vmag": "12.24", "Amp": "0.27", "Per": "4.7754e+00", "Type": "EA", "Prob": "1.000", "HJD": "2458312.04435", "Plx": "1.8059", "e_Plx": "0.0158", "pmRA": "3.377", "e_pmRA": "0.014", "pmDE": "-5.874", "e_pmDE": "0.012", "Vt": "59.00924", "Dist": "544.25513", "WISEA": "J000540.33+272357.4", "J-K": "0.332", "W1-W2": "-0.025", "APASS": "18085358", "B-V": "0.604", "E(B-V)": "0.069", "Ref": "IX", "GaiaDR3": "2854017381783700352", "GALEX": "", "TIC": "238406817", "pm": "6.775", "URL": "URL", "2M": "2M"}}]}].
+
+Scope: VSX, SIMBAD primary type, Gaia DR3 eclipsing binaries, Prsa 2022, IJspeert 2024, Kostov 2025 (two tables), ASAS-SN. Nearby rows retained separately; positional association is explicitly distinguished from exact identity. Public Chopard v1.2.0 exact comparison is separate; later releases and embargoed identities remain unchecked/unknown. Catalogue outcomes do not supply physical verdicts or global novelty claims. No canonical/public edits.

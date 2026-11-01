@@ -1,0 +1,107 @@
+{
+  "tic": "3942765",
+  "historical_period_days": 5.568624706135916,
+  "historical_epoch_btjd": 1876.5556,
+  "search_duration_days": 0.12,
+  "events": [
+    {
+      "sector": 48,
+      "cycle": 132,
+      "predicted_btjd": 2611.6140612099407,
+      "mid_btjd": 2611.6122989355126,
+      "timing_error_days": 0.0034722531598845308,
+      "formal_timing_error_days": 0.00024122394963207547,
+      "depth_ppt": 137.62630673470065,
+      "duration_days": 0.15415782225787406,
+      "cadence_days": 0.0069445063197690615,
+      "oot_scatter_ppt": 2.022052446027947,
+      "resid_rms_ppt": 1.6976264980269724,
+      "n": 81,
+      "fit_shift_days": -0.0017622744278915346,
+      "timing_usable": true
+    },
+    {
+      "sector": 48,
+      "cycle": 133,
+      "predicted_btjd": 2617.1826859160765,
+      "mid_btjd": 2617.181596894103,
+      "timing_error_days": 0.0034722531598845308,
+      "formal_timing_error_days": 0.0002060403037484563,
+      "depth_ppt": 135.92752417440343,
+      "duration_days": 0.15432476785140103,
+      "cadence_days": 0.0069445063197690615,
+      "oot_scatter_ppt": 1.7693165114353377,
+      "resid_rms_ppt": 1.7435813793265686,
+      "n": 86,
+      "fit_shift_days": -0.0010890219730626267,
+      "timing_usable": true
+    },
+    {
+      "sector": 48,
+      "cycle": 135,
+      "predicted_btjd": 2628.3199353283485,
+      "mid_btjd": 2628.318777825854,
+      "timing_error_days": 0.0034722531598845308,
+      "formal_timing_error_days": 0.00015536004800868178,
+      "depth_ppt": 137.91765898580164,
+      "duration_days": 0.1544788419066536,
+      "cadence_days": 0.0069445063197690615,
+      "oot_scatter_ppt": 1.3392157923246735,
+      "resid_rms_ppt": 1.7319631263246063,
+      "n": 85,
+      "fit_shift_days": -0.0011575024948022538,
+      "timing_usable": true
+    },
+    {
+      "sector": 48,
+      "cycle": 136,
+      "predicted_btjd": 2633.8885600344847,
+      "mid_btjd": 2633.8955128372017,
+      "timing_error_days": 0.0034722531598845308,
+      "formal_timing_error_days": 0.00020241503745634012,
+      "depth_ppt": 134.10034016114858,
+      "duration_days": 0.14072058255132194,
+      "cadence_days": 0.0069445063197690615,
+      "oot_scatter_ppt": 1.692516402366571,
+      "resid_rms_ppt": 12.757602573278257,
+      "n": 86,
+      "fit_shift_days": 0.006952802716858048,
+      "timing_usable": false,
+      "timing_failure_reason": "Pre-ingress positive flux excursion biases the local linear baseline and center; retained as eclipse morphology, excluded from timing fit."
+    }
+  ],
+  "sources": [
+    {
+      "tic": "3942765",
+      "sector": 21,
+      "uri": "mast:HLSP/qlp/s0021/0000/0000/0394/2765/hlsp_qlp_tess_ffi_s0021-0000000003942765_tess_v01_llc.fits",
+      "path": "[local path omitted]",
+      "sha256": "39dc170f6e6b378b4c83ebd5e16af2756c56f582071d5540435e44107e88a0b2",
+      "status": "ok",
+      "rows": 1265
+    },
+    {
+      "tic": "3942765",
+      "sector": 48,
+      "uri": "mast:HLSP/qlp/s0048/0000/0000/0394/2765/hlsp_qlp_tess_ffi_s0048-0000000003942765_tess_v01_llc.fits",
+      "path": "[local path omitted]",
+      "sha256": "a8d0e84f38ed2d7177cb6defd46e3e7175b789fbb83ba0abd7fdbde0b4b506af",
+      "status": "ok",
+      "rows": 3836
+    }
+  ],
+  "epoch_kind": "Selected repeating eclipse, primary by convention; deeper/secondary identity not independently established",
+  "timing_event_count": 3,
+  "period_days": 5.568792606650722,
+  "period_error_days": 0.0016073408834599266,
+  "primary_epoch_btjd": 2611.612501076289,
+  "epoch_cycle": 132,
+  "timing_residual_days": [
+    -0.00020214077630953398,
+    0.00030321116355480626,
+    -0.00010107038724527229
+  ],
+  "reduced_chi_square": 0.011861869369685491,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 137.62630673470065
+}

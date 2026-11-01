@@ -1,0 +1,52 @@
+{
+  "tic": "288605754",
+  "source_json": "../../../../Fable 5/made/sb1-scale/diffimg/288605754/diff_s65.json",
+  "pixel_sector": 65,
+  "stacked_events": 5,
+  "deficit_minus_target_px": [
+    0.05090919521195314,
+    0.030246479061559306
+  ],
+  "deficit_target_distance_px": 0.05921651503381551,
+  "target_pixel": [
+    7,
+    7
+  ],
+  "peak_deficit_pixel": [
+    7,
+    7
+  ],
+  "aperture_depth_ppt": {
+    "1": 76.61512467421464,
+    "3": 64.33551301546429,
+    "5": 47.64857927840305
+  },
+  "capable_neighbours": [
+    {
+      "source_id": "5894483730622299776",
+      "sep": 29.389972615329345,
+      "G": 13.721063,
+      "depth_needed": 0.4120973605354243,
+      "px": [
+        7.580926492051404,
+        8.745856939587817
+      ],
+      "frac_loss_at_pixel": 0.017648384598100066,
+      "distance_to_deficit_px": 1.375492947517408
+    },
+    {
+      "source_id": "5894485414249487744",
+      "sep": 51.68318950347415,
+      "G": 13.57425,
+      "depth_needed": 0.3690314495289764,
+      "px": [
+        8.56677139218528,
+        5.314740321000756
+      ],
+      "frac_loss_at_pixel": 0.003416354563919108,
+      "distance_to_deficit_px": 2.5043415367317388
+    }
+  ],
+  "all_neighbours_examined": 164,
+  "capability_rule": "The historical depth_needed compares intrinsic neighbor eclipse to blended target light; possible when <=1. Pixel fractional loss is a separate statistic."
+}

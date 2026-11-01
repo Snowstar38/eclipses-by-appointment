@@ -1,0 +1,16 @@
+import json,csv,hashlib
+from pathlib import Path
+import numpy as np
+from astropy.io import fits
+from astropy.wcs import WCS
+B=Path(__file__).parent.parent; S=Path('[local path omitted] 5/made/sb1-scale'); TG=json.load(open(B.parent/'targets-selected.json')); out={}
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+for r in csv.DictReader(open(B/'queue.csv')):
+ tic=r['tic']; src=next((S/'diffimg'/tic).glob('diff_s*.json')); d=json.load(open(src)); cut=Path(f'[local path omitted]"sector"]:03}.fits'); png=src.with_suffix('.png'); gaia=src.parent/'gaia.json'
+ with fits.open(cut) as h:
+  w=WCS(h[2].header); ra,dec=w.all_pix2world(*d['target_px'],0); ident=dict(ra_deg=float(ra),dec_deg=float(dec),header_sector=h[0].header.get('SECTOR'))
+ target=json.load(open(gaia))['src'][0]
+ ident.update(gaia_source_id=target['source_id'],target_selected_id=str(TG[tic]['gaia']['source_id']),coordinate_error_arcsec=float(np.hypot((ra-float(target['ra']))*np.cos(np.deg2rad(dec)),dec-float(target['dec']))*3600))
+ out[tic]=dict(identity=ident,files={str(p):sha(p) for p in [src,png,gaia,cut]},sector=d['sector'],events=d['events'],target_px=d['target_px'],centroid=d['deficit_centroid'],target_deficit_distance_px=float(np.linalg.norm(d['deficit_minus_target_px'])),psf_fit_frac_resid=d['psf_fit_frac_resid'],capable=[dict(source_id=n['source_id'],separation_arcsec=n['sep'],intrinsic_fractional_eclipse_required=n['depth_needed'],deficit_distance_px=float(np.linalg.norm(np.array(n['px'])-d['deficit_centroid'])),blended_pixel_fractional_loss=n['frac_loss_at_pixel']) for n in d['neighbours_60'] if n['possible']],note='Intrinsic required eclipse and blended pixel loss are different quantities and cannot be compared as a veto.')
+ print(tic,ident,'target_dist',round(out[tic]['target_deficit_distance_px'],2),'resid',round(d['psf_fit_frac_resid'],2),'capable',[(round(x['separation_arcsec'],1),round(x['deficit_distance_px'],2),round(x['intrinsic_fractional_eclipse_required'],2)) for x in out[tic]['capable']])
+json.dump(out,open(B/'helper'/'pixel-audit.json','w'),indent=2)
