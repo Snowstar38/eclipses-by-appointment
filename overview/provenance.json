@@ -1,5 +1,5 @@
 {
-  "description": "Original 658 rows preserved byte-for-byte; 125 eligible additions joined by exact TIC to actual coordinate metadata. No coordinate imputation. Hashed publication inputs use sanitized logical aliases.",
+  "description": "Original 783 rows preserved byte-for-byte; 134 eligible additions joined by exact TIC to actual target coordinate metadata. No coordinate imputation. Hashed inputs use sanitized logical aliases.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
@@ -144,9 +144,15 @@
     },
     "bright-next-target-metadata.json": {
       "sha256": "f99065e47159f17305bd5e2c23fc96200d95099f7a4e02dbcdf684cd70c5f145"
+    },
+    "remaining136-results.csv": {
+      "sha256": "7f7f565b79c39d4ae737d7d0646488e8e13b8822db5e0612554b631bb0e01c61"
+    },
+    "remaining136-target-metadata.json": {
+      "sha256": "2df047ed818ed6c184a00203cb52aaf02d1827f2a8dddb03046ec9bef1f79be2"
     }
   },
-  "included": 783,
+  "included": 917,
   "omitted": 0,
   "sky_background": {
     "source": "https://svs.gsfc.nasa.gov/4851/",
@@ -158,8 +164,8 @@
     "transformation": "Pixel-cell Mollweide reprojection; RGB 0.57 source + 0.43 navy; no sky geometry approximation"
   },
   "tiers": {
-    "confirmed": 711,
-    "probable": 72
+    "confirmed": 812,
+    "probable": 105
   },
   "final_additions": {
     "included": 232,
@@ -170,6 +176,7 @@
     "magnitude_campaign": 116,
     "excluded_plausible_systems": 4,
     "remaining_bright_stratum": 72,
-    "brightest_remaining_reviews": 125
+    "brightest_remaining_reviews": 125,
+    "remaining_screened_reviews": 134
   }
 }

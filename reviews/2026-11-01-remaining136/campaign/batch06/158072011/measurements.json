@@ -1,0 +1,110 @@
+{
+  "tic": "158072011",
+  "historical_period_days": 12.108529932224169,
+  "historical_epoch_btjd": 1440.7806,
+  "search_duration_days": 0.18,
+  "events": [
+    {
+      "sector": 5,
+      "cycle": 1,
+      "predicted_btjd": 1452.8891299322243,
+      "mid_btjd": 1452.8910174963742,
+      "timing_error_days": 0.01041685295933803,
+      "formal_timing_error_days": 0.0019986558790227337,
+      "depth_ppt": 58.78033138935503,
+      "duration_days": 0.22452111222644086,
+      "cadence_days": 0.02083370591867606,
+      "oot_scatter_ppt": 3.5829996680094354,
+      "resid_rms_ppt": 2.550066658967261,
+      "n": 37,
+      "fit_shift_days": 0.0018875641499690532,
+      "timing_usable": true
+    },
+    {
+      "sector": 32,
+      "cycle": 61,
+      "predicted_btjd": 2179.4009258656743,
+      "mid_btjd": 2179.4017264439353,
+      "timing_error_days": 0.0034722662871899956,
+      "formal_timing_error_days": 0.0009486609171191135,
+      "depth_ppt": 59.29033262022253,
+      "duration_days": 0.22564627376188054,
+      "cadence_days": 0.006944532574379991,
+      "oot_scatter_ppt": 3.3331308947813247,
+      "resid_rms_ppt": 2.301310709593075,
+      "n": 152,
+      "fit_shift_days": 0.0008005782609371057,
+      "timing_usable": true
+    },
+    {
+      "sector": 32,
+      "cycle": 62,
+      "predicted_btjd": 2191.5094557978987,
+      "mid_btjd": 2191.510630820816,
+      "timing_error_days": 0.0034722662871899956,
+      "formal_timing_error_days": 0.0005982597743434381,
+      "depth_ppt": 57.230911124951575,
+      "duration_days": 0.2186955245481365,
+      "cadence_days": 0.006944532574379991,
+      "oot_scatter_ppt": 2.3111907543022356,
+      "resid_rms_ppt": 2.2341776694855415,
+      "n": 156,
+      "fit_shift_days": 0.0011750229173898628,
+      "timing_usable": true
+    },
+    {
+      "sector": 98,
+      "cycle": 215,
+      "predicted_btjd": 4044.114535428196,
+      "mid_btjd": 4044.111834393631,
+      "timing_error_days": 0.0011574155481639536,
+      "formal_timing_error_days": 0.0004566514869215377,
+      "depth_ppt": 54.52854589087448,
+      "duration_days": 0.2255836071794138,
+      "cadence_days": 0.0023148310963279073,
+      "oot_scatter_ppt": 2.6628970361502615,
+      "resid_rms_ppt": 2.5113875526943987,
+      "n": 461,
+      "fit_shift_days": -0.0027010345650505772,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "158072011",
+      "sector": 5,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\158072011_s005.fits",
+      "sha256": "fe10b03cf8dd790d45a41d76c950577575f31541f963e57102672e0e3596eb55",
+      "status": "ok"
+    },
+    {
+      "tic": "158072011",
+      "sector": 32,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\158072011_s032.fits",
+      "sha256": "9a87a411c66bd6a5a40f929473924c56318c81869472a1f8861766440cddf3bf",
+      "status": "ok"
+    },
+    {
+      "tic": "158072011",
+      "sector": 98,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\158072011_s098.fits",
+      "sha256": "70f7dea599eb07b7d4582a345740fbc6c29d085e3eba2849eeb37acde1bae27a",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating eclipse, primary by convention; deeper/secondary identity not independently established",
+  "timing_event_count": 4,
+  "period_days": 12.108506173168768,
+  "period_error_days": 1.686953288290845e-05,
+  "primary_epoch_btjd": 1452.8915159047817,
+  "epoch_cycle": 1,
+  "timing_residual_days": [
+    -0.0004984084075658757,
+    -0.00015985097252269043,
+    0.0002383527394158591,
+    -2.569267508079065e-06
+  ],
+  "reduced_chi_square": 0.004562828615047087,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 58.0056212571533
+}

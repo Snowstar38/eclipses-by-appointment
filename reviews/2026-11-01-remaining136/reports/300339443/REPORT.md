@@ -1,0 +1,49 @@
+# TIC 300339443: CONFIRMED
+
+Full bounded physical review: COMPLETE. Catalogue novelty is separate from this verdict.
+
+Raw QLP SAP_FLUX contains 7 complete free-center fitted eclipses in representative sectors[14, 41, 81]. Predicted historical centers guided extraction, not timing points. Fits use local linear baselines and trapezoid shapes; quality-zero cadences only. Flagged, partial and uncovered windows are not clean nulls. [raw-events.png](../../campaign/batch02/300339443/raw-events.png), [raw-sector-fold.png](../../campaign/batch02/300339443/raw-sector-fold.png) and [raw-windows.csv](../../campaign/batch02/300339443/raw-windows.csv) show the actual observations.
+
+Measured recurrence P=8.5704599586 +/- 0.0000175154d. Named reference epoch BTJD1686.8328010: selected eclipse kind at phase zero, not an assumed deeper primary. The legacy primary_epoch_btjd column carries this epoch. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when positive-degree-of-freedom reduced chi square exceeds one. With only two centers, no reduced chi square or measured residual scatter exists; covariance propagates input timing allowances. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. Consecutive same-kind measured pairs: 3. Same-sector parity and actual coverage are in [alias-coverage.json](../../campaign/batch02/300339443/alias-coverage.json). Other-kind free fits: 6 midpoints; measured phase range -0.43672 to -0.43624. See [secondary-timing.json](../../campaign/batch02/300339443/secondary-timing.json). The exact-half-phase baseline estimates are not interpreted as clean depths where they overlap the other eclipse. This is a bounded alias check, not a blind exhaustive search. Two separated sectors are distinct observing occasions on the same instrument.
+
+Fresh raw TESScut pixel identity agrees with Gaia DR3 1827899598271026688 to 0.00000arcsec by saved WCS; all source bytes are hashed. In sector81, 3 separately recomputed event deficits average0.171px from the target. Event-scatter vector is[0.0014919499920669182, 0.018055773229612843]; this is descriptive sampling scatter, not calibrated positional confidence or pixel-response systematics. Lead visually inspected the historical full-field and freshly recomputed core images. Every capable neighbor in the saved60arcsec Gaia list: Gaia 1827899671327619072: separation25.56arcsec, G13.416, intrinsic required fraction0.428, deficit distance1.322px; Gaia 1827899602608139776: separation29.83arcsec, G13.748, intrinsic required fraction0.539, deficit distance1.274px; Gaia 1827898846705015680: separation43.38arcsec, G13.999, intrinsic required fraction0.649, deficit distance1.905px; Gaia 1827524291192242560: separation53.19arcsec, G13.346, intrinsic required fraction0.409, deficit distance2.508px Intrinsic source loss requirements and diluted fractional pixel losses are different quantities and are never compared as a veto. The G-band flux screen is approximate and does not exclude unknown unresolved companions.
+
+Alternative extraction: background-subtracted raw TESScut1x1/3x3/5x5 median event depths are115.55/74.46/45.53ppt; selected QLP raw median fit depth117.65ppt. Details, windows, individual centroids, count and depths are in [pixel-evidence.json](../../campaign/batch02/300339443/pixel-evidence.json). This separately extracted reduction shares the same TESS photons as QLP and is not an independent instrument or independent observing occasion. Aperture dilution, cadence and event-core averaging explain differing apparent depths; no intrinsic binary depth is inferred.
+
+Gaia orbit and physical plausibility: source-specific NSS P=8.5709502081d, e=0.13410, omega=214.3992deg, periastron BTJD391.66674. Closest edge-on conjunction offset at the measured epoch=-0.08621d (-0.01006phase); descriptive linear full-SB1-covariance timing error=0.10829d. The covariance uses source-specific P/e/omega/Tp correlations, not only diagonal errors. Mass function=0.19808solar; assumed primary mass=1.000solar gives minimum companion mass=0.892solar. Approximate central duration=12.32h versus observed9.35h. TIC radius/main-sequence companion assumptions and edge-on conjunction are approximations, not a fitted stellar model or arbitrary sigma admission rule. Orbit/geometry are consistent at this descriptive precision and do not establish the identity of an unresolved eclipse source.
+
+Deciding interpretation: Two near-equal-depth event kinds recur at unequal phase separation. Nearby known EB Gaia DR3 1827899632630791296 is 48.55 arcsec away, G=18.463, has catalogue P=19.923 d, and would require an impossible approximate 32.52 fractional intrinsic loss to produce this depth. Its pixel (9.694,8.783) is away from the target core. This is a contamination check, not an exact target catalogue recovery. Other capable neighbors are spatially separated from the deficit core.
+
+Next check: Optional resolved photometry and precision binary characterization.
+
+Seven scoped catalogue groups were checked centrally for this identity; see [../../shared-catalogues/coverage-matrix.csv](../../campaign/shared-catalogues/coverage-matrix.csv) and verification receipts. A nearby catalogue source is not an exact target match, and the scoped result does not assert exhaustive publication priority.
+
+|Sector|Photometric cycle|Measured midpoint BTJD|Input timing allowance d|Fitted depth ppt|
+|---|---:|---:|---:|---:|
+|14|0|1686.8290999|0.010417|115.73|
+|14|1|1695.4004679|0.010417|121.37|
+|41|86|2423.8930350|0.003472|116.04|
+|41|88|2441.0337929|0.003472|118.31|
+|81|213|3512.3406415|0.001157|118.22|
+|81|214|3520.9117055|0.001157|116.42|
+|81|215|3529.4812969|0.001157|117.65|
+
+Evidence and provenance: [measurements.json](../../campaign/batch02/300339443/measurements.json), [raw-windows.csv](../../campaign/batch02/300339443/raw-windows.csv), [raw-events.png](../../campaign/batch02/300339443/raw-events.png), [raw-sector-fold.png](../../campaign/batch02/300339443/raw-sector-fold.png), [alias-coverage.json](../../campaign/batch02/300339443/alias-coverage.json), [pixel-evidence.json](../../campaign/batch02/300339443/pixel-evidence.json), [pixel-recomputed.png](../../campaign/batch02/300339443/pixel-recomputed.png), historical/diff_s*.json/png, [historical/gaia.json](../../campaign/batch02/300339443/historical/gaia.json); batch [../gaia-geometry.json](../../campaign/batch02/gaia-geometry.json), [../alias-audit.json](../../campaign/batch02/alias-audit.json), [../secondary-audit.json](../../campaign/batch02/secondary-audit.json), [../measurement-source-receipts.json](../../campaign/batch02/measurement-source-receipts.json), [../download-receipts.json](../../campaign/batch02/download-receipts.json), [../source-hashes.json](../../campaign/batch02/source-hashes.json), [../LEAD-AUDIT.md](../../campaign/batch02/LEAD-AUDIT.md) and [../helper-audit.md](../../campaign/batch02/helper-audit.md). SHA256SUMS.json covers reports, scripts, raw FITS and original cutouts. Current availability receipt for246857844 is in shared-catalogues and copied locally with its hash. No canonical/public files were edited by this batch.
+
+
+Stable review key: R550.
+
+Deciding evidence and numeric artifacts:
+- [alias-coverage.json](../../campaign/batch02/300339443/alias-coverage.json)
+- [historical/diff_s81.json](../../campaign/batch02/300339443/historical/diff_s81.json)
+- [historical/diff_s81.png](../../campaign/batch02/300339443/historical/diff_s81.png)
+- [historical/gaia.json](../../campaign/batch02/300339443/historical/gaia.json)
+- [measurements.json](../../campaign/batch02/300339443/measurements.json)
+- [pixel-evidence.json](../../campaign/batch02/300339443/pixel-evidence.json)
+- [pixel-recomputed.png](../../campaign/batch02/300339443/pixel-recomputed.png)
+- [raw-events.png](../../campaign/batch02/300339443/raw-events.png)
+- [raw-sector-fold.png](../../campaign/batch02/300339443/raw-sector-fold.png)
+- [raw-windows.csv](../../campaign/batch02/300339443/raw-windows.csv)
+- [secondary-timing.json](../../campaign/batch02/300339443/secondary-timing.json)
+
+[Batch audits and scripts](../../campaign/batch02/INDEX.md). [Depth correction provenance](../../campaign/depth-audit/README.md).

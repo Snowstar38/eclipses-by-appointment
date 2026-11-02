@@ -1,0 +1,98 @@
+{
+  "tic": "73023909",
+  "queried_at_utc": "2026-11-02T05:02:10.961763+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "73023909"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 19,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "73023909",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000073023909-s0019_tess_v1_tp"
+      },
+      {
+        "sequence_number": 19,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "73023909",
+        "obs_id": "hlsp_qlp_tess_ffi_s0019-0000000073023909_tess_v01_llc"
+      },
+      {
+        "sequence_number": 59,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "73023909",
+        "obs_id": "hlsp_qlp_tess_ffi_s0059-0000000073023909_tess_v01_llc"
+      },
+      {
+        "sequence_number": 19,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "73023909",
+        "obs_id": "hlsp_tars_tess_ffi_s0019-0000000073023909_tess"
+      },
+      {
+        "sequence_number": 59,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "73023909",
+        "obs_id": "hlsp_tars_tess_ffi_s0059-0000000073023909_tess"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 5,
+      "rowsFiltered": 5,
+      "rowsTotal": 5
+    }
+  },
+  "qlp_sectors": [
+    19,
+    59
+  ]
+}

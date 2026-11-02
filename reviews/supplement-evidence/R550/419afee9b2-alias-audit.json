@@ -1,0 +1,3381 @@
+{
+  "300339443": {
+    "measured_period_days": 8.57045995855222,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 14,
+        "cycles": [
+          0,
+          1
+        ],
+        "measured_spacing_days": 8.57136799019031
+      },
+      {
+        "sector": 81,
+        "cycles": [
+          213,
+          214
+        ],
+        "measured_spacing_days": 8.571064052381644
+      },
+      {
+        "sector": 81,
+        "cycles": [
+          214,
+          215
+        ],
+        "measured_spacing_days": 8.569591340866282
+      }
+    ],
+    "sector_parity_depths": {
+      "14": {
+        "0": [
+          115.72855215566354
+        ],
+        "1": [
+          121.37074990572336
+        ]
+      },
+      "41": {
+        "0": [
+          116.04258572371236,
+          118.311516289147
+        ],
+        "1": []
+      },
+      "81": {
+        "0": [
+          116.42490676399773
+        ],
+        "1": [
+          118.21908637681005,
+          117.65052647576815
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 14,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1686.8328009560023,
+        "n_core": 10,
+        "n_flagged_core": 0,
+        "n_pre": 19,
+        "n_post": 19,
+        "raw_depth_ppt": 116.45577708587751,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 1691.1180309352785,
+        "n_core": 0,
+        "n_flagged_core": 9,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 14,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 1695.4032609145545,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 17,
+        "n_post": 19,
+        "raw_depth_ppt": 121.26240319958926,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": 1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1699.6884908938307,
+        "n_core": 10,
+        "n_flagged_core": 0,
+        "n_pre": 19,
+        "n_post": 19,
+        "raw_depth_ppt": -55.18633020165375,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 14,
+        "cycle": 2,
+        "phase": 0,
+        "predicted_center_btjd": 1703.9737208731067,
+        "n_core": 0,
+        "n_flagged_core": 9,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 14,
+        "cycle": 2,
+        "phase": 0.5,
+        "predicted_center_btjd": 1708.258950852383,
+        "n_core": 0,
+        "n_flagged_core": 9,
+        "n_pre": 0,
+        "n_post": 8,
+        "status": "flagged/gap/insufficient baseline; not clean null",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 41,
+        "cycle": 86,
+        "phase": 0,
+        "predicted_center_btjd": 2423.8923573914935,
+        "n_core": 28,
+        "n_flagged_core": 0,
+        "n_pre": 56,
+        "n_post": 56,
+        "raw_depth_ppt": 116.76305858483305,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 86,
+        "phase": 0.5,
+        "predicted_center_btjd": 2428.1775873707693,
+        "n_core": 28,
+        "n_flagged_core": 0,
+        "n_pre": 56,
+        "n_post": 56,
+        "raw_depth_ppt": -55.92691421667517,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 41,
+        "cycle": 87,
+        "phase": 0,
+        "predicted_center_btjd": 2432.4628173500455,
+        "n_core": 18,
+        "n_flagged_core": 10,
+        "n_pre": 56,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 41,
+        "cycle": 87,
+        "phase": 0.5,
+        "predicted_center_btjd": 2436.7480473293217,
+        "n_core": 28,
+        "n_flagged_core": 0,
+        "n_pre": 56,
+        "n_post": 56,
+        "raw_depth_ppt": -53.26806189971434,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 41,
+        "cycle": 88,
+        "phase": 0,
+        "predicted_center_btjd": 2441.0332773085975,
+        "n_core": 28,
+        "n_flagged_core": 0,
+        "n_pre": 56,
+        "n_post": 56,
+        "raw_depth_ppt": 118.50851524602224,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 88,
+        "phase": 0.5,
+        "predicted_center_btjd": 2445.3185072878737,
+        "n_core": 28,
+        "n_flagged_core": 0,
+        "n_pre": 56,
+        "n_post": 56,
+        "raw_depth_ppt": -54.40380632848796,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 81,
+        "cycle": 212,
+        "phase": 0.5,
+        "predicted_center_btjd": 3508.055542148349,
+        "n_core": 84,
+        "n_flagged_core": 0,
+        "n_pre": 169,
+        "n_post": 168,
+        "raw_depth_ppt": -52.599499766945,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 81,
+        "cycle": 213,
+        "phase": 0,
+        "predicted_center_btjd": 3512.3407721276253,
+        "n_core": 84,
+        "n_flagged_core": 0,
+        "n_pre": 168,
+        "n_post": 169,
+        "raw_depth_ppt": 118.13213745257012,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 81,
+        "cycle": 213,
+        "phase": 0.5,
+        "predicted_center_btjd": 3516.626002106901,
+        "n_core": 0,
+        "n_flagged_core": 84,
+        "n_pre": 0,
+        "n_post": 168,
+        "status": "flagged/gap/insufficient baseline; not clean null",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 81,
+        "cycle": 214,
+        "phase": 0,
+        "predicted_center_btjd": 3520.9112320861777,
+        "n_core": 85,
+        "n_flagged_core": 0,
+        "n_pre": 168,
+        "n_post": 168,
+        "raw_depth_ppt": 117.12686275307149,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 81,
+        "cycle": 214,
+        "phase": 0.5,
+        "predicted_center_btjd": 3525.1964620654535,
+        "n_core": 84,
+        "n_flagged_core": 0,
+        "n_pre": 169,
+        "n_post": 168,
+        "raw_depth_ppt": -53.41853478989256,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 81,
+        "cycle": 215,
+        "phase": 0,
+        "predicted_center_btjd": 3529.4816920447297,
+        "n_core": 84,
+        "n_flagged_core": 0,
+        "n_pre": 168,
+        "n_post": 168,
+        "raw_depth_ppt": 117.0599655432123,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "142502809": {
+    "measured_period_days": 6.4535587012588005,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 41,
+        "cycles": [
+          114,
+          115
+        ],
+        "measured_spacing_days": 6.453670411734038
+      },
+      {
+        "sector": 41,
+        "cycles": [
+          115,
+          116
+        ],
+        "measured_spacing_days": 6.454533391848599
+      },
+      {
+        "sector": 41,
+        "cycles": [
+          116,
+          117
+        ],
+        "measured_spacing_days": 6.453493988363334
+      }
+    ],
+    "sector_parity_depths": {
+      "41": {
+        "0": [
+          15.757110034553978,
+          16.841012012604153
+        ],
+        "1": [
+          14.435022130725928,
+          16.253507975778064
+        ]
+      },
+      "74": {
+        "0": [],
+        "1": [
+          15.827554562791185,
+          18.48458232444543
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 14,
+        "cycle": -115,
+        "phase": 0.5,
+        "predicted_center_btjd": 1686.5590944775292,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 6,
+        "raw_depth_ppt": 0.21244384888152723,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": -114,
+        "phase": 0,
+        "predicted_center_btjd": 1689.7858738281589,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 5,
+        "raw_depth_ppt": 14.518212157087596,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": -114,
+        "phase": 0.5,
+        "predicted_center_btjd": 1693.0126531787882,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 6,
+        "raw_depth_ppt": 0.1613050244606562,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": -113,
+        "phase": 0,
+        "predicted_center_btjd": 1696.2394325294176,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 1,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 14,
+        "cycle": -113,
+        "phase": 0.5,
+        "predicted_center_btjd": 1699.466211880047,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 6,
+        "raw_depth_ppt": -0.8228089656012738,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": -112,
+        "phase": 0,
+        "predicted_center_btjd": 1702.6929912306764,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 6,
+        "raw_depth_ppt": 14.757253914294832,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": -112,
+        "phase": 0.5,
+        "predicted_center_btjd": 1705.9197705813058,
+        "n_core": 1,
+        "n_flagged_core": 2,
+        "n_pre": 7,
+        "n_post": 5,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 14,
+        "cycle": -111,
+        "phase": 0,
+        "predicted_center_btjd": 1709.1465499319352,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 4,
+        "raw_depth_ppt": 17.507304586962256,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2422.2647864210326,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 18,
+        "n_post": 18,
+        "raw_depth_ppt": 0.39739182528386596,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 2425.491565771662,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 19,
+        "n_post": 18,
+        "raw_depth_ppt": 15.358974051840724,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 2428.7183451222913,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 18,
+        "n_post": 19,
+        "raw_depth_ppt": -1.8323434073010958,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 2431.9451244729207,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 18,
+        "n_post": 18,
+        "raw_depth_ppt": 13.537765311443572,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2435.17190382355,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 19,
+        "n_post": 18,
+        "raw_depth_ppt": -0.984628568578616,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 2,
+        "phase": 0,
+        "predicted_center_btjd": 2438.3986831741795,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 18,
+        "n_post": 19,
+        "raw_depth_ppt": 15.744177541721083,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 2,
+        "phase": 0.5,
+        "predicted_center_btjd": 2441.625462524809,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 17,
+        "n_post": 18,
+        "raw_depth_ppt": -0.5013904654893597,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 3,
+        "phase": 0,
+        "predicted_center_btjd": 2444.8522418754383,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 18,
+        "n_post": 18,
+        "raw_depth_ppt": 15.383012748128477,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 74,
+        "cycle": 138,
+        "phase": 0,
+        "predicted_center_btjd": 3316.0826665453765,
+        "n_core": 27,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 55,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 74,
+        "cycle": 138,
+        "phase": 0.5,
+        "predicted_center_btjd": 3319.309445896006,
+        "n_core": 0,
+        "n_flagged_core": 0,
+        "n_pre": 55,
+        "n_post": 24,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 74,
+        "cycle": 139,
+        "phase": 0,
+        "predicted_center_btjd": 3322.5362252466352,
+        "n_core": 27,
+        "n_flagged_core": 0,
+        "n_pre": 55,
+        "n_post": 55,
+        "raw_depth_ppt": 15.204689325219235,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 74,
+        "cycle": 139,
+        "phase": 0.5,
+        "predicted_center_btjd": 3325.7630045972646,
+        "n_core": 27,
+        "n_flagged_core": 0,
+        "n_pre": 55,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 74,
+        "cycle": 140,
+        "phase": 0,
+        "predicted_center_btjd": 3328.989783947894,
+        "n_core": 0,
+        "n_flagged_core": 27,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 74,
+        "cycle": 140,
+        "phase": 0.5,
+        "predicted_center_btjd": 3332.2165632985234,
+        "n_core": 0,
+        "n_flagged_core": 27,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 74,
+        "cycle": 141,
+        "phase": 0,
+        "predicted_center_btjd": 3335.443342649153,
+        "n_core": 27,
+        "n_flagged_core": 0,
+        "n_pre": 55,
+        "n_post": 55,
+        "raw_depth_ppt": 15.747261077263651,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 74,
+        "cycle": 141,
+        "phase": 0.5,
+        "predicted_center_btjd": 3338.670121999782,
+        "n_core": 27,
+        "n_flagged_core": 0,
+        "n_pre": 55,
+        "n_post": 55,
+        "raw_depth_ppt": 0.7144995219028338,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "246857844": {
+    "measured_period_days": 14.172420048978578,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 2,
+        "cycles": [
+          0,
+          1
+        ],
+        "measured_spacing_days": 14.172420048978893
+      }
+    ],
+    "sector_parity_depths": {
+      "2": {
+        "0": [
+          89.15853638377948
+        ],
+        "1": [
+          87.06944506849545
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 2,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1358.7466031184408,
+        "n_core": 4,
+        "n_flagged_core": 3,
+        "n_pre": 12,
+        "n_post": 9,
+        "raw_depth_ppt": -0.3524717555207779,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1365.83281314293,
+        "n_core": 6,
+        "n_flagged_core": 0,
+        "n_pre": 12,
+        "n_post": 4,
+        "raw_depth_ppt": 87.82520822339401,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 1372.9190231674193,
+        "n_core": 6,
+        "n_flagged_core": 0,
+        "n_pre": 10,
+        "n_post": 8,
+        "raw_depth_ppt": -0.3557165601162371,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 1380.0052331919087,
+        "n_core": 5,
+        "n_flagged_core": 1,
+        "n_pre": 9,
+        "n_post": 9,
+        "raw_depth_ppt": 86.997186816549,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 29,
+        "cycle": 51,
+        "phase": 0,
+        "predicted_center_btjd": 2088.6262356408374,
+        "n_core": 15,
+        "n_flagged_core": 4,
+        "n_pre": 0,
+        "n_post": 28,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 29,
+        "cycle": 51,
+        "phase": 0.5,
+        "predicted_center_btjd": 2095.712445665327,
+        "n_core": 16,
+        "n_flagged_core": 3,
+        "n_pre": 25,
+        "n_post": 29,
+        "raw_depth_ppt": -0.18309301752528206,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 29,
+        "cycle": 52,
+        "phase": 0,
+        "predicted_center_btjd": 2102.798655689816,
+        "n_core": 3,
+        "n_flagged_core": 16,
+        "n_pre": 0,
+        "n_post": 29,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 29,
+        "cycle": 52,
+        "phase": 0.5,
+        "predicted_center_btjd": 2109.8848657143053,
+        "n_core": 15,
+        "n_flagged_core": 4,
+        "n_pre": 28,
+        "n_post": 26,
+        "raw_depth_ppt": 0.9078508820378195,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 69,
+        "cycle": 128,
+        "phase": 0.5,
+        "predicted_center_btjd": 3186.9887894366775,
+        "n_core": 56,
+        "n_flagged_core": 0,
+        "n_pre": 113,
+        "n_post": 114,
+        "raw_depth_ppt": -0.11363239489270427,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 69,
+        "cycle": 129,
+        "phase": 0,
+        "predicted_center_btjd": 3194.074999461167,
+        "n_core": 0,
+        "n_flagged_core": 21,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 69,
+        "cycle": 129,
+        "phase": 0.5,
+        "predicted_center_btjd": 3201.161209485656,
+        "n_core": 44,
+        "n_flagged_core": 13,
+        "n_pre": 107,
+        "n_post": 69,
+        "raw_depth_ppt": 0.43716496068357813,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "206614346": {
+    "measured_period_days": 11.683072320539234,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 2,
+        "cycles": [
+          0,
+          1
+        ],
+        "measured_spacing_days": 11.68358386962177
+      },
+      {
+        "sector": 68,
+        "cycles": [
+          154,
+          155
+        ],
+        "measured_spacing_days": 11.682413303832618
+      },
+      {
+        "sector": 96,
+        "cycles": [
+          219,
+          220
+        ],
+        "measured_spacing_days": 11.682186304537026
+      }
+    ],
+    "sector_parity_depths": {
+      "2": {
+        "0": [
+          89.02071955031253
+        ],
+        "1": [
+          89.05753874109458
+        ]
+      },
+      "68": {
+        "0": [
+          90.43546804899167
+        ],
+        "1": [
+          90.02782129633572
+        ]
+      },
+      "96": {
+        "0": [
+          78.41845123807461
+        ],
+        "1": [
+          79.32310551924884
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 2,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1359.946905647895,
+        "n_core": 5,
+        "n_flagged_core": 0,
+        "n_pre": 10,
+        "n_post": 11,
+        "raw_depth_ppt": 91.33941697373571,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 1365.7884418081646,
+        "n_core": 5,
+        "n_flagged_core": 0,
+        "n_pre": 10,
+        "n_post": 3,
+        "raw_depth_ppt": 4.87390422888867,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 1371.629977968434,
+        "n_core": 5,
+        "n_flagged_core": 1,
+        "n_pre": 9,
+        "n_post": 11,
+        "raw_depth_ppt": 89.60903043603041,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 2,
+        "cycle": 1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1377.4715141287038,
+        "n_core": 5,
+        "n_flagged_core": 0,
+        "n_pre": 9,
+        "n_post": 11,
+        "raw_depth_ppt": 4.214444238673454,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 68,
+        "cycle": 154,
+        "phase": 0,
+        "predicted_center_btjd": 3159.140043010937,
+        "n_core": 47,
+        "n_flagged_core": 0,
+        "n_pre": 96,
+        "n_post": 96,
+        "raw_depth_ppt": 90.91657064056157,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 68,
+        "cycle": 154,
+        "phase": 0.5,
+        "predicted_center_btjd": 3164.9815791712062,
+        "n_core": 48,
+        "n_flagged_core": 0,
+        "n_pre": 95,
+        "n_post": 95,
+        "raw_depth_ppt": 5.203563847738235,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 68,
+        "cycle": 155,
+        "phase": 0,
+        "predicted_center_btjd": 3170.8231153314764,
+        "n_core": 47,
+        "n_flagged_core": 1,
+        "n_pre": 96,
+        "n_post": 96,
+        "raw_depth_ppt": 90.57714163042641,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 68,
+        "cycle": 155,
+        "phase": 0.5,
+        "predicted_center_btjd": 3176.6646514917456,
+        "n_core": 48,
+        "n_flagged_core": 0,
+        "n_pre": 95,
+        "n_post": 95,
+        "raw_depth_ppt": 5.216985603230917,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 96,
+        "cycle": 218,
+        "phase": 0.5,
+        "predicted_center_btjd": 3912.6982076857175,
+        "n_core": 48,
+        "n_flagged_core": 0,
+        "n_pre": 95,
+        "n_post": 95,
+        "raw_depth_ppt": 4.514585526980364,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 96,
+        "cycle": 219,
+        "phase": 0,
+        "predicted_center_btjd": 3918.539743845987,
+        "n_core": 48,
+        "n_flagged_core": 0,
+        "n_pre": 96,
+        "n_post": 96,
+        "raw_depth_ppt": 79.86897206786325,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 96,
+        "cycle": 219,
+        "phase": 0.5,
+        "predicted_center_btjd": 3924.381280006257,
+        "n_core": 0,
+        "n_flagged_core": 48,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 96,
+        "cycle": 220,
+        "phase": 0,
+        "predicted_center_btjd": 3930.222816166526,
+        "n_core": 48,
+        "n_flagged_core": 0,
+        "n_pre": 95,
+        "n_post": 95,
+        "raw_depth_ppt": 78.66844278054019,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "17033860": {
+    "measured_period_days": 15.380267722722293,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 41,
+        "cycles": [
+          47,
+          48
+        ],
+        "measured_spacing_days": 15.380257944485493
+      },
+      {
+        "sector": 75,
+        "cycles": [
+          107,
+          108
+        ],
+        "measured_spacing_days": 15.380424971513548
+      }
+    ],
+    "sector_parity_depths": {
+      "14": {
+        "0": [
+          232.5932212429215
+        ],
+        "1": []
+      },
+      "41": {
+        "0": [
+          250.69798452888332
+        ],
+        "1": [
+          251.5194041472006
+        ]
+      },
+      "75": {
+        "0": [
+          249.46042230116788
+        ],
+        "1": [
+          248.40457575829566
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 14,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1690.6048225315449,
+        "n_core": 0,
+        "n_flagged_core": 4,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 14,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1698.294956392906,
+        "n_core": 4,
+        "n_flagged_core": 0,
+        "n_pre": 6,
+        "n_post": 9,
+        "raw_depth_ppt": 237.8715638170259,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 14,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 1705.985090254267,
+        "n_core": 0,
+        "n_flagged_core": 4,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 41,
+        "cycle": 47,
+        "phase": 0,
+        "predicted_center_btjd": 2421.167539360854,
+        "n_core": 12,
+        "n_flagged_core": 0,
+        "n_pre": 25,
+        "n_post": 25,
+        "raw_depth_ppt": 247.69824887412227,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 47,
+        "phase": 0.5,
+        "predicted_center_btjd": 2428.857673222215,
+        "n_core": 12,
+        "n_flagged_core": 0,
+        "n_pre": 23,
+        "n_post": 24,
+        "raw_depth_ppt": -0.26099678546875893,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 48,
+        "phase": 0,
+        "predicted_center_btjd": 2436.547807083576,
+        "n_core": 13,
+        "n_flagged_core": 0,
+        "n_pre": 25,
+        "n_post": 24,
+        "raw_depth_ppt": 248.6834789060788,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 41,
+        "cycle": 48,
+        "phase": 0.5,
+        "predicted_center_btjd": 2444.2379409449372,
+        "n_core": 12,
+        "n_flagged_core": 0,
+        "n_pre": 25,
+        "n_post": 25,
+        "raw_depth_ppt": 0.7823668398790895,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 75,
+        "cycle": 107,
+        "phase": 0,
+        "predicted_center_btjd": 3343.9836027241913,
+        "n_core": 37,
+        "n_flagged_core": 0,
+        "n_pre": 75,
+        "n_post": 74,
+        "raw_depth_ppt": 245.40187531779577,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 75,
+        "cycle": 107,
+        "phase": 0.5,
+        "predicted_center_btjd": 3351.6737365855524,
+        "n_core": 37,
+        "n_flagged_core": 0,
+        "n_pre": 75,
+        "n_post": 75,
+        "raw_depth_ppt": 0.8367006242304686,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 75,
+        "cycle": 108,
+        "phase": 0,
+        "predicted_center_btjd": 3359.3638704469136,
+        "n_core": 37,
+        "n_flagged_core": 0,
+        "n_pre": 74,
+        "n_post": 75,
+        "raw_depth_ppt": 245.85730005609895,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 75,
+        "cycle": 108,
+        "phase": 0.5,
+        "predicted_center_btjd": 3367.0540043082747,
+        "n_core": 37,
+        "n_flagged_core": 0,
+        "n_pre": 74,
+        "n_post": 74,
+        "raw_depth_ppt": 0.6669745684735329,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "278966364": {
+    "measured_period_days": 12.515130886694886,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 92,
+        "cycles": [
+          108,
+          109
+        ],
+        "measured_spacing_days": 12.513493068044681
+      }
+    ],
+    "sector_parity_depths": {
+      "42": {
+        "0": [],
+        "1": [
+          8.691716563551354
+        ]
+      },
+      "70": {
+        "0": [
+          11.210155983566494
+        ],
+        "1": []
+      },
+      "92": {
+        "0": [
+          11.100813779376706
+        ],
+        "1": [
+          14.134549309245358
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 42,
+        "cycle": -2,
+        "phase": 0.5,
+        "predicted_center_btjd": 2448.7272845260204,
+        "n_core": 2,
+        "n_flagged_core": 2,
+        "n_pre": 4,
+        "n_post": 6,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 42,
+        "cycle": -1,
+        "phase": 0,
+        "predicted_center_btjd": 2454.984849969368,
+        "n_core": 0,
+        "n_flagged_core": 4,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 42,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2461.242415412715,
+        "n_core": 1,
+        "n_flagged_core": 1,
+        "n_pre": 0,
+        "n_post": 5,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 42,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 2467.499980856063,
+        "n_core": 4,
+        "n_flagged_core": 1,
+        "n_pre": 5,
+        "n_post": 6,
+        "raw_depth_ppt": 10.197458462299135,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 70,
+        "cycle": 59,
+        "phase": 0.5,
+        "predicted_center_btjd": 3212.1502686144086,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": 0.13037283471262207,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 70,
+        "cycle": 60,
+        "phase": 0,
+        "predicted_center_btjd": 3218.407834057756,
+        "n_core": 0,
+        "n_flagged_core": 9,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 70,
+        "cycle": 60,
+        "phase": 0.5,
+        "predicted_center_btjd": 3224.6653995011034,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": 2.0087773008701237,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 70,
+        "cycle": 61,
+        "phase": 0,
+        "predicted_center_btjd": 3230.922964944451,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": 10.881443201289475,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 92,
+        "cycle": 107,
+        "phase": 0,
+        "predicted_center_btjd": 3806.6189857324157,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": 12.658831157772443,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 92,
+        "cycle": 107,
+        "phase": 0.5,
+        "predicted_center_btjd": 3812.876551175763,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": -1.8024005068260074,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 92,
+        "cycle": 108,
+        "phase": 0,
+        "predicted_center_btjd": 3819.1341166191105,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 28,
+        "raw_depth_ppt": 9.809209028777799,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 92,
+        "cycle": 108,
+        "phase": 0.5,
+        "predicted_center_btjd": 3825.391682062458,
+        "n_core": 15,
+        "n_flagged_core": 0,
+        "n_pre": 29,
+        "n_post": 29,
+        "raw_depth_ppt": 0.8667002384231681,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "338072783": {
+    "measured_period_days": 2.5117384941146965,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 58,
+        "cycles": [
+          454,
+          455
+        ],
+        "measured_spacing_days": 2.5114385000001676
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          455,
+          456
+        ],
+        "measured_spacing_days": 2.5113507781329645
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          456,
+          457
+        ],
+        "measured_spacing_days": 2.511915240309918
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          457,
+          458
+        ],
+        "measured_spacing_days": 2.511235259833029
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          458,
+          459
+        ],
+        "measured_spacing_days": 2.5115839990157838
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          459,
+          460
+        ],
+        "measured_spacing_days": 2.5124861879044147
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          460,
+          461
+        ],
+        "measured_spacing_days": 2.512089983781607
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          461,
+          462
+        ],
+        "measured_spacing_days": 2.5109983935039963
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          462,
+          463
+        ],
+        "measured_spacing_days": 2.511799343531493
+      },
+      {
+        "sector": 58,
+        "cycles": [
+          463,
+          464
+        ],
+        "measured_spacing_days": 2.511373022738553
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          744,
+          745
+        ],
+        "measured_spacing_days": 2.51249127884239
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          745,
+          746
+        ],
+        "measured_spacing_days": 2.5103969565234365
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          746,
+          747
+        ],
+        "measured_spacing_days": 2.511869550229221
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          747,
+          748
+        ],
+        "measured_spacing_days": 2.5115898490585096
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          750,
+          751
+        ],
+        "measured_spacing_days": 2.5102721879070486
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          751,
+          752
+        ],
+        "measured_spacing_days": 2.512525005082807
+      },
+      {
+        "sector": 85,
+        "cycles": [
+          752,
+          753
+        ],
+        "measured_spacing_days": 2.51192050283953
+      }
+    ],
+    "sector_parity_depths": {
+      "58": {
+        "0": [
+          35.71706746697337,
+          38.68095720974116,
+          35.155591460988305,
+          37.99125565974679,
+          36.383221457815026,
+          39.36280498987316
+        ],
+        "1": [
+          35.84938401157894,
+          39.03420131318417,
+          36.15606645906943,
+          37.59926860446358,
+          39.30929168883399
+        ]
+      },
+      "85": {
+        "0": [
+          34.91772161498619,
+          36.164079254468206,
+          37.494043578100865,
+          34.22787052910095,
+          37.436739701006516
+        ],
+        "1": [
+          37.47254060398403,
+          37.28853298885254,
+          36.48336416380256,
+          34.273621337935225
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 16,
+        "cycle": -455,
+        "phase": 0,
+        "predicted_center_btjd": 1739.6940559162554,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 2,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -455,
+        "phase": 0.5,
+        "predicted_center_btjd": 1740.9499251633126,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 4,
+        "raw_depth_ppt": 2.043667032314511,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 16,
+        "cycle": -454,
+        "phase": 0,
+        "predicted_center_btjd": 1742.2057944103701,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -454,
+        "phase": 0.5,
+        "predicted_center_btjd": 1743.4616636574274,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 3,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -453,
+        "phase": 0,
+        "predicted_center_btjd": 1744.7175329044849,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -453,
+        "phase": 0.5,
+        "predicted_center_btjd": 1745.9734021515421,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -452,
+        "phase": 0,
+        "predicted_center_btjd": 1747.2292713985994,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -452,
+        "phase": 0.5,
+        "predicted_center_btjd": 1748.4851406456569,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -451,
+        "phase": 0,
+        "predicted_center_btjd": 1749.7410098927141,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -451,
+        "phase": 0.5,
+        "predicted_center_btjd": 1750.9968791397714,
+        "n_core": 0,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -450,
+        "phase": 0,
+        "predicted_center_btjd": 1752.252748386829,
+        "n_core": 1,
+        "n_flagged_core": 1,
+        "n_pre": 4,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -450,
+        "phase": 0.5,
+        "predicted_center_btjd": 1753.5086176338862,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 5,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -449,
+        "phase": 0,
+        "predicted_center_btjd": 1754.7644868809437,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -449,
+        "phase": 0.5,
+        "predicted_center_btjd": 1756.020356128001,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -448,
+        "phase": 0,
+        "predicted_center_btjd": 1757.2762253750582,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 2,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -448,
+        "phase": 0.5,
+        "predicted_center_btjd": 1758.5320946221157,
+        "n_core": 1,
+        "n_flagged_core": 1,
+        "n_pre": 3,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -447,
+        "phase": 0,
+        "predicted_center_btjd": 1759.787963869173,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 3,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -447,
+        "phase": 0.5,
+        "predicted_center_btjd": 1761.0438331162304,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 16,
+        "cycle": -446,
+        "phase": 0,
+        "predicted_center_btjd": 1762.2997023632877,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 5,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 58,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 2882.5350707384423,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 36,
+        "n_post": 38,
+        "raw_depth_ppt": 34.40653442771746,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 2883.7909399855,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 1.7866686518871466,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 2885.046809232557,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 33.50938956096072,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2886.3026784796143,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 3.381962298335539,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 2,
+        "phase": 0,
+        "predicted_center_btjd": 2887.558547726672,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 35.187354795552686,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 2,
+        "phase": 0.5,
+        "predicted_center_btjd": 2888.814416973729,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 35,
+        "raw_depth_ppt": 3.045342452482447,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 3,
+        "phase": 0,
+        "predicted_center_btjd": 2890.0702862207863,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 35.92513638647288,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 3,
+        "phase": 0.5,
+        "predicted_center_btjd": 2891.326155467844,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 1.0519342018862066,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 4,
+        "phase": 0,
+        "predicted_center_btjd": 2892.5820247149013,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 33.97381290311119,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 4,
+        "phase": 0.5,
+        "predicted_center_btjd": 2893.8378939619583,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 3.5360202712639843,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 5,
+        "phase": 0,
+        "predicted_center_btjd": 2895.093763209016,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 34.11779845900498,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 5,
+        "phase": 0.5,
+        "predicted_center_btjd": 2896.3496324560733,
+        "n_core": 16,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 38,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 58,
+        "cycle": 6,
+        "phase": 0,
+        "predicted_center_btjd": 2897.6055017031304,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 35.35676150109379,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 6,
+        "phase": 0.5,
+        "predicted_center_btjd": 2898.861370950188,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 1.8741807492138607,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 7,
+        "phase": 0,
+        "predicted_center_btjd": 2900.1172401972453,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 35.16926154473621,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 7,
+        "phase": 0.5,
+        "predicted_center_btjd": 2901.3731094443024,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 3.061553700634656,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 8,
+        "phase": 0,
+        "predicted_center_btjd": 2902.62897869136,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 35.12562945512576,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 8,
+        "phase": 0.5,
+        "predicted_center_btjd": 2903.8848479384174,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 0.5696140068808253,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 9,
+        "phase": 0,
+        "predicted_center_btjd": 2905.1407171854744,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 33.98387954105664,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 9,
+        "phase": 0.5,
+        "predicted_center_btjd": 2906.396586432532,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 3.2745470703915425,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 10,
+        "phase": 0,
+        "predicted_center_btjd": 2907.6524556795894,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 34.728914896050675,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 58,
+        "cycle": 10,
+        "phase": 0.5,
+        "predicted_center_btjd": 2908.9083249266464,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 2.14522762591407,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 290,
+        "phase": 0,
+        "predicted_center_btjd": 3610.9392340317045,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 25,
+        "n_post": 38,
+        "raw_depth_ppt": 31.52589942216677,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 290,
+        "phase": 0.5,
+        "predicted_center_btjd": 3612.1951032787615,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 0.4716596633668191,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 291,
+        "phase": 0,
+        "predicted_center_btjd": 3613.450972525819,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 35.540417411653145,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 291,
+        "phase": 0.5,
+        "predicted_center_btjd": 3614.7068417728765,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 2.459011110598208,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 292,
+        "phase": 0,
+        "predicted_center_btjd": 3615.9627110199335,
+        "n_core": 17,
+        "n_flagged_core": 2,
+        "n_pre": 36,
+        "n_post": 34,
+        "raw_depth_ppt": 33.07460586099653,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 292,
+        "phase": 0.5,
+        "predicted_center_btjd": 3617.218580266991,
+        "n_core": 16,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 38,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 85,
+        "cycle": 293,
+        "phase": 0,
+        "predicted_center_btjd": 3618.4744495140485,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 33.90105052220693,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 293,
+        "phase": 0.5,
+        "predicted_center_btjd": 3619.730318761106,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 2.1259597966284405,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 294,
+        "phase": 0,
+        "predicted_center_btjd": 3620.986188008163,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 33.92497105085634,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 294,
+        "phase": 0.5,
+        "predicted_center_btjd": 3622.2420572552205,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 3.2277163154984523,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 295,
+        "phase": 0,
+        "predicted_center_btjd": 3623.4979265022776,
+        "n_core": 0,
+        "n_flagged_core": 19,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 85,
+        "cycle": 295,
+        "phase": 0.5,
+        "predicted_center_btjd": 3624.753795749335,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 2.9031555752331295,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 296,
+        "phase": 0,
+        "predicted_center_btjd": 3626.0096649963925,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 33.37631876552605,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 296,
+        "phase": 0.5,
+        "predicted_center_btjd": 3627.26553424345,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 37,
+        "raw_depth_ppt": 0.941232149771376,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 297,
+        "phase": 0,
+        "predicted_center_btjd": 3628.521403490507,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 36,
+        "raw_depth_ppt": 33.27638684597445,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 297,
+        "phase": 0.5,
+        "predicted_center_btjd": 3629.7772727375645,
+        "n_core": 0,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 85,
+        "cycle": 298,
+        "phase": 0,
+        "predicted_center_btjd": 3631.0331419846216,
+        "n_core": 18,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 34.27227507288344,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 298,
+        "phase": 0.5,
+        "predicted_center_btjd": 3632.289011231679,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 1.5868381577771595,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 299,
+        "phase": 0,
+        "predicted_center_btjd": 3633.5448804787366,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 37,
+        "n_post": 38,
+        "raw_depth_ppt": 33.02657739697257,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 85,
+        "cycle": 299,
+        "phase": 0.5,
+        "predicted_center_btjd": 3634.800749725794,
+        "n_core": 19,
+        "n_flagged_core": 0,
+        "n_pre": 38,
+        "n_post": 37,
+        "raw_depth_ppt": 2.1286785958005705,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "464680877": {
+    "measured_period_days": 12.102289670109505,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 65,
+        "cycles": [
+          121,
+          122
+        ],
+        "measured_spacing_days": 12.102590596342452
+      }
+    ],
+    "sector_parity_depths": {
+      "11": {
+        "0": [],
+        "1": [
+          73.09490062796536
+        ]
+      },
+      "65": {
+        "0": [
+          79.70941461217656
+        ],
+        "1": [
+          80.18841684709608
+        ]
+      },
+      "91": {
+        "0": [],
+        "1": [
+          79.88853755116618
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 11,
+        "cycle": -2,
+        "phase": 0,
+        "predicted_center_btjd": 1597.307710218076,
+        "n_core": 0,
+        "n_flagged_core": 9,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 11,
+        "cycle": -2,
+        "phase": 0.5,
+        "predicted_center_btjd": 1603.3588550531306,
+        "n_core": 4,
+        "n_flagged_core": 4,
+        "n_pre": 12,
+        "n_post": 14,
+        "raw_depth_ppt": 1.413524379062392,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 11,
+        "cycle": -1,
+        "phase": 0,
+        "predicted_center_btjd": 1609.4099998881854,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 17,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 11,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1615.46114472324,
+        "n_core": 8,
+        "n_flagged_core": 0,
+        "n_pre": 15,
+        "n_post": 17,
+        "raw_depth_ppt": -1.647961476783033,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 11,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1621.512289558295,
+        "n_core": 9,
+        "n_flagged_core": 0,
+        "n_pre": 17,
+        "n_post": 17,
+        "raw_depth_ppt": 74.14496270859216,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 65,
+        "cycle": 120,
+        "phase": 0,
+        "predicted_center_btjd": 3073.7870499714354,
+        "n_core": 77,
+        "n_flagged_core": 0,
+        "n_pre": 155,
+        "n_post": 155,
+        "raw_depth_ppt": 80.41148597166037,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 65,
+        "cycle": 120,
+        "phase": 0.5,
+        "predicted_center_btjd": 3079.8381948064903,
+        "n_core": 77,
+        "n_flagged_core": 0,
+        "n_pre": 155,
+        "n_post": 154,
+        "raw_depth_ppt": 0.9115972100923742,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 65,
+        "cycle": 121,
+        "phase": 0,
+        "predicted_center_btjd": 3085.889339641545,
+        "n_core": 78,
+        "n_flagged_core": 0,
+        "n_pre": 155,
+        "n_post": 155,
+        "raw_depth_ppt": 80.3344216063081,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 65,
+        "cycle": 121,
+        "phase": 0.5,
+        "predicted_center_btjd": 3091.9404844765995,
+        "n_core": 78,
+        "n_flagged_core": 0,
+        "n_pre": 155,
+        "n_post": 155,
+        "raw_depth_ppt": 0.8591013058221186,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 91,
+        "cycle": 178,
+        "phase": 0,
+        "predicted_center_btjd": 3775.719850837787,
+        "n_core": 78,
+        "n_flagged_core": 0,
+        "n_pre": 25,
+        "n_post": 155,
+        "raw_depth_ppt": 80.80137463705184,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 91,
+        "cycle": 178,
+        "phase": 0.5,
+        "predicted_center_btjd": 3781.7709956728413,
+        "n_core": 59,
+        "n_flagged_core": 18,
+        "n_pre": 142,
+        "n_post": 58,
+        "raw_depth_ppt": 1.5463989791183463,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 91,
+        "cycle": 179,
+        "phase": 0,
+        "predicted_center_btjd": 3787.822140507896,
+        "n_core": 0,
+        "n_flagged_core": 29,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 91,
+        "cycle": 179,
+        "phase": 0.5,
+        "predicted_center_btjd": 3793.873285342951,
+        "n_core": 77,
+        "n_flagged_core": 0,
+        "n_pre": 155,
+        "n_post": 155,
+        "raw_depth_ppt": 0.5164648634660152,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 91,
+        "cycle": 180,
+        "phase": 0,
+        "predicted_center_btjd": 3799.924430178006,
+        "n_core": 59,
+        "n_flagged_core": 18,
+        "n_pre": 155,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "62867537": {
+    "measured_period_days": 2.837205000940153,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 56,
+        "cycles": [
+          393,
+          394
+        ],
+        "measured_spacing_days": 2.8393749965471216
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          394,
+          395
+        ],
+        "measured_spacing_days": 2.8386842130694276
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          395,
+          396
+        ],
+        "measured_spacing_days": 2.83764370351264
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          398,
+          399
+        ],
+        "measured_spacing_days": 2.83621402138715
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          399,
+          400
+        ],
+        "measured_spacing_days": 2.8378243619322348
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          400,
+          401
+        ],
+        "measured_spacing_days": 2.838859061493622
+      },
+      {
+        "sector": 56,
+        "cycles": [
+          401,
+          402
+        ],
+        "measured_spacing_days": 2.8382409249034026
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          654,
+          655
+        ],
+        "measured_spacing_days": 2.8380050217965618
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          655,
+          656
+        ],
+        "measured_spacing_days": 2.839198834582021
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          656,
+          657
+        ],
+        "measured_spacing_days": 2.83769326581114
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          657,
+          658
+        ],
+        "measured_spacing_days": 2.8388423505552964
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          658,
+          659
+        ],
+        "measured_spacing_days": 2.836822246549673
+      }
+    ],
+    "sector_parity_depths": {
+      "56": {
+        "0": [
+          19.70196303957006,
+          15.209277739694697,
+          13.407545899145218,
+          14.27181773955533,
+          12.494213414740466
+        ],
+        "1": [
+          15.116909699631176,
+          14.855953136888328,
+          12.929716176842023,
+          11.881152488392937
+        ]
+      },
+      "83": {
+        "0": [
+          12.7785787626856,
+          13.733303254265195,
+          15.80303845931431,
+          15.502953180680496
+        ],
+        "1": [
+          15.322537145372717,
+          13.625617793350195,
+          13.580255512207081
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 15,
+        "cycle": -393,
+        "phase": 0,
+        "predicted_center_btjd": 1712.2548807405437,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -393,
+        "phase": 0.5,
+        "predicted_center_btjd": 1713.6734832410136,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 5,
+        "raw_depth_ppt": 1.276289083720128,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -392,
+        "phase": 0,
+        "predicted_center_btjd": 1715.0920857414837,
+        "n_core": 2,
+        "n_flagged_core": 1,
+        "n_pre": 5,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -392,
+        "phase": 0.5,
+        "predicted_center_btjd": 1716.5106882419539,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 5,
+        "raw_depth_ppt": -0.8055944974481033,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -391,
+        "phase": 0,
+        "predicted_center_btjd": 1717.929290742424,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 5,
+        "raw_depth_ppt": 13.80680340955398,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -391,
+        "phase": 0.5,
+        "predicted_center_btjd": 1719.347893242894,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 5,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -390,
+        "phase": 0,
+        "predicted_center_btjd": 1720.7664957433642,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -390,
+        "phase": 0.5,
+        "predicted_center_btjd": 1722.185098243834,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -389,
+        "phase": 0,
+        "predicted_center_btjd": 1723.6037007443042,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -389,
+        "phase": 0.5,
+        "predicted_center_btjd": 1725.0223032447743,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 1,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -388,
+        "phase": 0,
+        "predicted_center_btjd": 1726.4409057452444,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -388,
+        "phase": 0.5,
+        "predicted_center_btjd": 1727.8595082457146,
+        "n_core": 2,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 4,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -387,
+        "phase": 0,
+        "predicted_center_btjd": 1729.2781107461847,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 4,
+        "n_post": 4,
+        "raw_depth_ppt": 14.339413779350219,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -387,
+        "phase": 0.5,
+        "predicted_center_btjd": 1730.6967132466546,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 5,
+        "raw_depth_ppt": 0.548975860584,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -386,
+        "phase": 0,
+        "predicted_center_btjd": 1732.1153157471247,
+        "n_core": 3,
+        "n_flagged_core": 0,
+        "n_pre": 5,
+        "n_post": 5,
+        "raw_depth_ppt": 14.753349496064327,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": -386,
+        "phase": 0.5,
+        "predicted_center_btjd": 1733.5339182475948,
+        "n_core": 0,
+        "n_flagged_core": 3,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -385,
+        "phase": 0,
+        "predicted_center_btjd": 1734.952520748065,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -385,
+        "phase": 0.5,
+        "predicted_center_btjd": 1736.371123248535,
+        "n_core": 0,
+        "n_flagged_core": 2,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 56,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2825.8578436095536,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 1.0926867307456956,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 2827.2764461100237,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 13.565475491757905,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 2828.695048610494,
+        "n_core": 20,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": -1.5154068803822085,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 1,
+        "phase": 0,
+        "predicted_center_btjd": 2830.113651110964,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 14.733818615364825,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 1,
+        "phase": 0.5,
+        "predicted_center_btjd": 2831.532253611434,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 1.4908345524347055,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 2,
+        "phase": 0,
+        "predicted_center_btjd": 2832.950856111904,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 16.086143986920764,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 2,
+        "phase": 0.5,
+        "predicted_center_btjd": 2834.3694586123743,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 1.7934782447280861,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 3,
+        "phase": 0,
+        "predicted_center_btjd": 2835.788061112844,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 13.84973598524275,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 3,
+        "phase": 0.5,
+        "predicted_center_btjd": 2837.206663613314,
+        "n_core": 18,
+        "n_flagged_core": 2,
+        "n_pre": 40,
+        "n_post": 40,
+        "raw_depth_ppt": 1.0152144685574571,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 4,
+        "phase": 0,
+        "predicted_center_btjd": 2838.625266113784,
+        "n_core": 0,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 56,
+        "cycle": 4,
+        "phase": 0.5,
+        "predicted_center_btjd": 2840.0438686142543,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 0.9985571676782712,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 5,
+        "phase": 0,
+        "predicted_center_btjd": 2841.4624711147244,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 14.077669069437748,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 5,
+        "phase": 0.5,
+        "predicted_center_btjd": 2842.8810736151945,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": -1.1122650461248274,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 6,
+        "phase": 0,
+        "predicted_center_btjd": 2844.2996761156646,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 12.800591230155423,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 6,
+        "phase": 0.5,
+        "predicted_center_btjd": 2845.7182786161347,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 38,
+        "raw_depth_ppt": 0.22755329648804778,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 7,
+        "phase": 0,
+        "predicted_center_btjd": 2847.136881116605,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 14.116404659405557,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 7,
+        "phase": 0.5,
+        "predicted_center_btjd": 2848.555483617075,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": -0.7764121233657661,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 8,
+        "phase": 0,
+        "predicted_center_btjd": 2849.974086117545,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 13.15953623485977,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 8,
+        "phase": 0.5,
+        "predicted_center_btjd": 2851.392688618015,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": -1.2139756614371056,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 9,
+        "phase": 0,
+        "predicted_center_btjd": 2852.811291118485,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 12.386272358561602,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 258,
+        "phase": 0.5,
+        "predicted_center_btjd": 3560.693938853053,
+        "n_core": 14,
+        "n_flagged_core": 7,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 1.427479533142817,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 259,
+        "phase": 0,
+        "predicted_center_btjd": 3562.1125413535233,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 28,
+        "n_post": 42,
+        "raw_depth_ppt": 13.115736389867294,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 259,
+        "phase": 0.5,
+        "predicted_center_btjd": 3563.5311438539934,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 0.03256121657257971,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 260,
+        "phase": 0,
+        "predicted_center_btjd": 3564.9497463544635,
+        "n_core": 0,
+        "n_flagged_core": 0,
+        "n_pre": 24,
+        "n_post": 36,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 83,
+        "cycle": 260,
+        "phase": 0.5,
+        "predicted_center_btjd": 3566.3683488549336,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 0.18423040560344717,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 261,
+        "phase": 0,
+        "predicted_center_btjd": 3567.7869513554037,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 12.704137157289797,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 261,
+        "phase": 0.5,
+        "predicted_center_btjd": 3569.2055538558734,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 2.460895016668907,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 262,
+        "phase": 0,
+        "predicted_center_btjd": 3570.6241563563435,
+        "n_core": 19,
+        "n_flagged_core": 2,
+        "n_pre": 42,
+        "n_post": 40,
+        "raw_depth_ppt": 15.954036892894429,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 262,
+        "phase": 0.5,
+        "predicted_center_btjd": 3572.0427588568136,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 42,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 83,
+        "cycle": 263,
+        "phase": 0,
+        "predicted_center_btjd": 3573.4613613572837,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 16.484612066211323,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 263,
+        "phase": 0.5,
+        "predicted_center_btjd": 3574.879963857754,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 1.0538808800369948,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 264,
+        "phase": 0,
+        "predicted_center_btjd": 3576.298566358224,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 13.498256945889908,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 264,
+        "phase": 0.5,
+        "predicted_center_btjd": 3577.717168858694,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 11,
+        "raw_depth_ppt": 0.03886114539519703,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 265,
+        "phase": 0,
+        "predicted_center_btjd": 3579.135771359164,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 41,
+        "raw_depth_ppt": 15.091254196039849,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 265,
+        "phase": 0.5,
+        "predicted_center_btjd": 3580.5543738596343,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": -0.25206323206705683,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 266,
+        "phase": 0,
+        "predicted_center_btjd": 3581.9729763601044,
+        "n_core": 20,
+        "n_flagged_core": 0,
+        "n_pre": 42,
+        "n_post": 42,
+        "raw_depth_ppt": 12.981982785906121,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 266,
+        "phase": 0.5,
+        "predicted_center_btjd": 3583.3915788605746,
+        "n_core": 21,
+        "n_flagged_core": 0,
+        "n_pre": 41,
+        "n_post": 42,
+        "raw_depth_ppt": 0.1693343119887336,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  },
+  "260765760": {
+    "measured_period_days": 17.015268935422874,
+    "within_sector_consecutive_pairs": [
+      {
+        "sector": 56,
+        "cycles": [
+          65,
+          66
+        ],
+        "measured_spacing_days": 17.014121214567695
+      },
+      {
+        "sector": 83,
+        "cycles": [
+          108,
+          109
+        ],
+        "measured_spacing_days": 17.014315708694994
+      }
+    ],
+    "sector_parity_depths": {
+      "15": {
+        "0": [
+          293.07730172935055
+        ],
+        "1": []
+      },
+      "56": {
+        "0": [
+          300.31282552832675
+        ],
+        "1": [
+          298.9339762795197
+        ]
+      },
+      "83": {
+        "0": [
+          292.20324342941336
+        ],
+        "1": [
+          291.2146547541141
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "sector": 15,
+        "cycle": -1,
+        "phase": 0,
+        "predicted_center_btjd": 1711.4941769620639,
+        "n_core": 8,
+        "n_flagged_core": 0,
+        "n_pre": 0,
+        "n_post": 16,
+        "status": "flagged/gap/insufficient baseline; not clean null"
+      },
+      {
+        "sector": 15,
+        "cycle": -1,
+        "phase": 0.5,
+        "predicted_center_btjd": 1720.0018114297754,
+        "n_core": 0,
+        "n_flagged_core": 8,
+        "n_pre": 5,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 15,
+        "cycle": 0,
+        "phase": 0,
+        "predicted_center_btjd": 1728.5094458974868,
+        "n_core": 7,
+        "n_flagged_core": 0,
+        "n_pre": 13,
+        "n_post": 14,
+        "raw_depth_ppt": 276.49462884064735,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 15,
+        "cycle": 0,
+        "phase": 0.5,
+        "predicted_center_btjd": 1737.0170803651981,
+        "n_core": 0,
+        "n_flagged_core": 8,
+        "n_pre": 0,
+        "n_post": 0,
+        "status": "flagged/gap/insufficient baseline; not clean null",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 56,
+        "cycle": 64,
+        "phase": 0.5,
+        "predicted_center_btjd": 2825.994292232262,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 138,
+        "raw_depth_ppt": -33.047820073425214,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 56,
+        "cycle": 65,
+        "phase": 0,
+        "predicted_center_btjd": 2834.5019266999734,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 137,
+        "raw_depth_ppt": 268.5019730802429,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 56,
+        "cycle": 65,
+        "phase": 0.5,
+        "predicted_center_btjd": 2843.009561167685,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 138,
+        "raw_depth_ppt": -32.487955362443756,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 56,
+        "cycle": 66,
+        "phase": 0,
+        "predicted_center_btjd": 2851.5171956353965,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 138,
+        "raw_depth_ppt": 268.807804912464,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 108,
+        "phase": 0,
+        "predicted_center_btjd": 3566.158490923157,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 138,
+        "raw_depth_ppt": 256.4750426566067,
+        "status": "covered core with both baselines"
+      },
+      {
+        "sector": 83,
+        "cycle": 108,
+        "phase": 0.5,
+        "predicted_center_btjd": 3574.6661253908687,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 137,
+        "n_post": 135,
+        "raw_depth_ppt": -35.08783226192236,
+        "status": "covered core with both baselines",
+        "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+      },
+      {
+        "sector": 83,
+        "cycle": 109,
+        "phase": 0,
+        "predicted_center_btjd": 3583.17375985858,
+        "n_core": 69,
+        "n_flagged_core": 0,
+        "n_pre": 138,
+        "n_post": 137,
+        "raw_depth_ppt": 258.5401070258756,
+        "status": "covered core with both baselines"
+      }
+    ],
+    "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+  }
+}

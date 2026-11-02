@@ -1,0 +1,84 @@
+{
+  "tic": "396671669",
+  "queried_at_utc": "2026-11-02T05:28:36.177900+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "396671669"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 55,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "396671669",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000396671669-s0055_tess_v1_tp"
+      },
+      {
+        "sequence_number": 55,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "396671669",
+        "obs_id": "hlsp_qlp_tess_ffi_s0055-0000000396671669_tess_v01_llc"
+      },
+      {
+        "sequence_number": 82,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "396671669",
+        "obs_id": "hlsp_qlp_tess_ffi_s0082-0000000396671669_tess_v01_llc"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 3,
+      "rowsFiltered": 3,
+      "rowsTotal": 3
+    }
+  },
+  "qlp_sectors": [
+    55,
+    82
+  ]
+}

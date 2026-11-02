@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "gaia_source_id": "6213615984122331008",
+    "coordinate_error_arcsec": 0.0
+  },
+  "sector": 65,
+  "target_px": [
+    7.620172947019139,
+    7.844175202942104
+  ],
+  "duration_days": 0.3589657040048757,
+  "events": [
+    {
+      "historical_cycle": 121,
+      "window_center_btjd": 3073.7872346519016,
+      "n_in": 77,
+      "n_pre": 155,
+      "n_post": 155,
+      "centroid_px": [
+        7.684235566163444,
+        8.134973970208456
+      ],
+      "target_distance_px": 0.297771627619655,
+      "aperture_depths_ppt": {
+        "1": 68.61007552892416,
+        "3": 63.11572121527902,
+        "5": 56.66274048481508
+      }
+    },
+    {
+      "historical_cycle": 122,
+      "window_center_btjd": 3085.8894688225782,
+      "n_in": 78,
+      "n_pre": 155,
+      "n_post": 155,
+      "centroid_px": [
+        7.671305334273057,
+        8.047794830610503
+      ],
+      "target_distance_px": 0.20994159615974622,
+      "aperture_depths_ppt": {
+        "1": 67.00356279705917,
+        "3": 63.13743923826191,
+        "5": 57.160579990589746
+      }
+    }
+  ],
+  "mean_centroid_px": [
+    7.677770450218251,
+    8.09138440040948
+  ],
+  "event_scatter_px": [
+    0.00914305465200767,
+    0.06164496078772161
+  ],
+  "target_distance_px": 0.2538303758166773,
+  "capable": [
+    {
+      "source_id": "6213615984122329728",
+      "separation_arcsec": 17.286067200510555,
+      "G": 14.180456,
+      "intrinsic_required_fraction": 0.4996854330159194,
+      "pixel_position": [
+        7.849716579774803,
+        8.683460238225308
+      ],
+      "distance_to_deficit_px": 0.616538132798608
+    }
+  ],
+  "method": "Quality-zero raw TESScut flux; per-cadence low40% median background; in |dt|<0.25 measured duration, separate symmetric out baselines0.75\u20131.75duration; positive-deficit centroid in target5x5; event scatter descriptive, not calibrated localization error. Aperture depths use signed deficit. Same TESS photons as QLP, independent extraction not independent observing occasions."
+}

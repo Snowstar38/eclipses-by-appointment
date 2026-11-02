@@ -1,0 +1,53 @@
+# TIC 314713331: CONFIRMED
+
+Full bounded physical review: **COMPLETE**. Physical classification is separate from catalogue recovery/novelty; historical screening was not an admission verdict.
+
+1. **Raw events.** 13 free-center trapezoid measurements from quality-zero QLP SAP_FLUX in sectors [16, 57, 84]; 13 enter the reported ephemeris. Representative raw light curves and numerical windows show repeated eclipse morphology. Predictions guided the windows and are not measurements. Flagged or uncovered windows are not clean nulls.
+2. **Timing and aliases.** Measured recurring-eclipse timing supported. Selected primary and unequal secondary morphology support the quoted orbital period; half/double hypotheses were checked. P=5.1765061266 +/- 0.0000052664 d; reference BTJD=1739.8785468. Epoch kind: Selected repeating eclipse, primary by convention; deeper/secondary identity not independently established. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. The formal error column is the local free-center model covariance; the input error adds a half-cadence floor. Singular/unidentifiable centers are excluded. Cycle/parity counts are in [../alias-audit.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/alias-audit.json). The epoch kind above states whether the fitted events are identified as deeper primary or selected eclipse by convention. The bounded half/double check does not prove all possible aliases absent.
+3. **Attribution.** Fresh difference stack in sector 24 has 5 events; target coordinate [7.513877286219605, 7.953249188522971], deficit [7.446741433788142, 8.09249674220127]; offset 0.155 pixel. The image-model fractional residual 0.967 is not a localization uncertainty. Every capable Gaia neighbor in the retained 60-arcsec table was inspected: Gaia 2008766035527664640: 36.57 arcsec, G=15.176, intrinsic required loss proxy=0.637; Gaia 2008754250137422336: 53.57 arcsec, G=14.639, intrinsic required loss proxy=0.408. The intrinsic loss proxy uses a pairwise G-band flux budget and cannot be directly compared with diluted pixel fractional loss. Close blends and passband/aperture response limit exclusion claims. Repeated box eclipses and weak secondary near phase 0.500; target-centered deficit distinct from two capable neighbors 36.57 and 53.57 arcsec away.
+4. **Alternative reduction.** Fresh TESScut background-subtracted target-centered 1x1/3x3/5x5 depths are 55.25/54.64/51.47 ppt; selected QLP fitted median 49.80 ppt. This reruns the historical extraction primitive using the fresh ephemeris and measured duration, with identity and source hashes checked. The retained QLP sectors do not include this cutout sector. This cutout is a distinct observing occasion on the same instrument; it is an alternative extraction of that sector FFI data, without a direct same-sector QLP comparison here. Distinct sectors are distinct observing occasions on one instrument. Depth differences can reflect dilution, aperture and background response; intrinsic binary depth is not inferred.
+5. **Gaia geometry/physical plausibility.** Exact DR3 source 2008765962505842304, orbital P=5.1766131923 d, e=0.03225. Closest edge-on conjunction offset=-0.01184 d (-0.00229 phase), full source-specific covariance linear timing allowance=0.16870 d. Mass function=0.017688 solar masses; adopted primary mass=1.18, minimum secondary mass=0.345. Rough central duration=4.94 h versus observed median=4.47 h. Radius and main-sequence companion assumptions make this a plausibility calculation, not a fitted geometry or calibrated significance veto. Shorter observed duration can reflect impact parameter and model assumptions. Orbit agreement does not establish ownership among unresolved sources.
+
+**Secondary phase check:** Pooled raw-window free-center phase=0.4996902283812347, depth=1.7904809648658992ppt. Formal pooled trapezoid covariance only; sector normalization, red noise and shape systematics uncalibrated. Weak secondary fits (especially314713331) describe inspected narrow dips and are not independent primary-eclipse evidence or calibrated detection significances. See [../secondary-phases.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/secondary-phases.json) and [../secondary-contact.png](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/secondary-contact.png).
+
+**Deciding limit:** Repeated box eclipses and weak secondary near phase 0.500; target-centered deficit distinct from two capable neighbors 36.57 and 53.57 arcsec away.
+
+**Next check:** Optional resolved photometry and spectroscopy for precision physical parameters.
+
+Catalogue recovery is recorded centrally in [../../shared-catalogues/coverage-matrix.csv](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/shared-catalogues/coverage-matrix.csv). A successful cone with no exact eclipsing target classification is distinct from a failed query; known recoveries must not count as new additions. No exhaustive literature priority claim is made.
+
+| Sector | Search cycle | Measured midpoint BTJD | Formal center error d | Timing input error d | Depth ppt | Timing status |
+|---|---:|---:|---:|---:|---:|---|
+| 16 | 0 | 1739.8785717 | 0.000689522 | 0.0104168 | 53.33 | selected |
+| 16 | 1 | 1745.0559513 | 0.000627102 | 0.0104168 | 51.91 | selected |
+| 16 | 3 | 1755.4088620 | 0.000534279 | 0.0104168 | 52.13 | selected |
+| 16 | 4 | 1760.5843301 | 0.000867886 | 0.0104168 | 51.64 | selected |
+| 57 | 216 | 2858.0045545 | 0.00035742 | 0.0011574 | 49.12 | selected |
+| 57 | 218 | 2868.3568502 | 0.000414582 | 0.0011574 | 49.57 | selected |
+| 57 | 219 | 2873.5332905 | 0.000422196 | 0.0011574 | 49.25 | selected |
+| 57 | 220 | 2878.7092876 | 0.000580049 | 0.0011574 | 49.55 | selected |
+| 84 | 357 | 3587.8909194 | 0.000532365 | 0.0011574 | 50.02 | selected |
+| 84 | 358 | 3593.0668218 | 0.00057135 | 0.0011574 | 50.56 | selected |
+| 84 | 359 | 3598.2456129 | 0.000813559 | 0.0011574 | 47.39 | selected |
+| 84 | 360 | 3603.4203422 | 0.000469937 | 0.0011574 | 48.74 | selected |
+| 84 | 361 | 3608.5975693 | 0.00050462 | 0.0011574 | 49.80 | selected |
+
+Evidence: [measurements.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/measurements.json), [raw-windows.csv](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/raw-windows.csv), [raw-events.png](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/raw-events.png), [fresh-pixels/diff_fresh.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/fresh-pixels/diff_fresh.json)/png, historical original receipts, [../download-receipts.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/download-receipts.json), [../identity-check.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/identity-check.json), [../alias-audit.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/alias-audit.json), [../gaia-geometry.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/gaia-geometry.json) and [../helper-audit.md](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/helper-audit.md). Original inputs and fresh outputs are covered by [../SHA256SUMS.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/SHA256SUMS.json) and [../source-hashes.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/source-hashes.json).
+
+
+Stable review key: R593.
+
+Deciding evidence and numeric artifacts:
+- [fresh-pixels/diff_fresh.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/fresh-pixels/diff_fresh.json)
+- [fresh-pixels/diff_fresh.png](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/fresh-pixels/diff_fresh.png)
+- [fresh-pixels/gaia.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/fresh-pixels/gaia.json)
+- [fresh-pixels/run.log](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/fresh-pixels/run.log)
+- [historical/diff_s24.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/historical/diff_s24.json)
+- [historical/diff_s24.png](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/historical/diff_s24.png)
+- [historical/gaia.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/historical/gaia.json)
+- [measurements.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/measurements.json)
+- [phase-check.json](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/phase-check.json)
+- [raw-events.png](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/raw-events.png)
+- [raw-windows.csv](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/314713331/raw-windows.csv)
+
+[Batch audits and scripts](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/batch06/INDEX.md). [Depth correction provenance](https://github.com/Snowstar38/eclipses-by-appointment/blob/main/reviews/2026-11-01-remaining136/campaign/depth-audit/README.md).

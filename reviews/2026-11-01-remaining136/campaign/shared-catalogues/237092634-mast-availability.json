@@ -1,0 +1,127 @@
+{
+  "tic": "237092634",
+  "queried_at_utc": "2026-11-02T05:14:42.111425+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "237092634"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 24,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000237092634-s0024_tess_v1_tp"
+      },
+      {
+        "sequence_number": 24,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_qlp_tess_ffi_s0024-0000000237092634_tess_v01_llc"
+      },
+      {
+        "sequence_number": 51,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000237092634-s0051_tess_v1_tp"
+      },
+      {
+        "sequence_number": 51,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_qlp_tess_ffi_s0051-0000000237092634_tess_v01_llc"
+      },
+      {
+        "sequence_number": 78,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_qlp_tess_ffi_s0078-0000000237092634_tess_v02_llc"
+      },
+      {
+        "sequence_number": 78,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000237092634-s0078_tess_v1_tp"
+      },
+      {
+        "sequence_number": 24,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tars_tess_ffi_s0024-0000000237092634_tess"
+      },
+      {
+        "sequence_number": 51,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tars_tess_ffi_s0051-0000000237092634_tess"
+      },
+      {
+        "sequence_number": 78,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "237092634",
+        "obs_id": "hlsp_tars_tess_ffi_s0078-0000000237092634_tess"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 9,
+      "rowsFiltered": 9,
+      "rowsTotal": 9
+    }
+  },
+  "qlp_sectors": [
+    24,
+    51,
+    78
+  ]
+}

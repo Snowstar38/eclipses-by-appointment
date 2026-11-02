@@ -1,0 +1,84 @@
+{
+  "tic": "237092634",
+  "historical_period_days": 13.729739416466359,
+  "historical_epoch_btjd": 1963.1816,
+  "search_duration_days": 0.12,
+  "events": [
+    {
+      "sector": 24,
+      "cycle": 0,
+      "predicted_btjd": 1963.1816,
+      "mid_btjd": 1963.1743472560638,
+      "timing_error_days": 0.01041663442015306,
+      "formal_timing_error_days": 0.00011869019338611472,
+      "depth_ppt": 147.05460387474352,
+      "extrapolated_amplitude_ppt": 147.05460387474352,
+      "ingress_parameter_days": 0.03776416973248254,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.12379298494322626,
+      "cadence_days": 0.02083326884030612,
+      "oot_scatter_ppt": 0.8857040706723567,
+      "resid_rms_ppt": 1.1422310974816223,
+      "n": 35,
+      "fit_shift_days": -0.007252743936045767,
+      "timing_usable": true
+    },
+    {
+      "sector": 24,
+      "cycle": 1,
+      "predicted_btjd": 1976.9113394164663,
+      "mid_btjd": 1976.9110928506364,
+      "timing_error_days": 0.01041663442015306,
+      "formal_timing_error_days": 0.00018417062675200408,
+      "depth_ppt": 144.2690991846751,
+      "extrapolated_amplitude_ppt": 144.2690991846751,
+      "ingress_parameter_days": 0.030434777399055018,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.11749506893407627,
+      "cadence_days": 0.02083326884030612,
+      "oot_scatter_ppt": 1.233219917521373,
+      "resid_rms_ppt": 2.2804955853914795,
+      "n": 34,
+      "fit_shift_days": -0.00024656582980866,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "237092634",
+      "sector": 24,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\237092634_s024.fits",
+      "sha256": "374cd144887b6ce3a21ed5da6293644e5b479979a57786f53c1efbdb91cf8075",
+      "status": "ok"
+    },
+    {
+      "tic": "237092634",
+      "sector": 51,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\237092634_s051.fits",
+      "sha256": "e31e0ed1a472dc58dc81a18cddb448d13749be628f89a7d312f58d764611450b",
+      "status": "ok"
+    },
+    {
+      "tic": "237092634",
+      "sector": 78,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\237092634_s078.fits",
+      "sha256": "55fe2d85f9cd1b508f265e992f7c5c956f30dac7703b7f599fdf8d89e7d38834",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating eclipse; deeper/secondary identity not established",
+  "timing_event_count": 2,
+  "period_days": 13.736745594572286,
+  "period_error_days": 0.014731345671262858,
+  "primary_epoch_btjd": 1963.1743472560638,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    0.0,
+    2.2737367544323206e-13
+  ],
+  "reduced_chi_square": null,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 145.6618515297093,
+  "epoch_error_days": 0.01041663442015306,
+  "epoch_error_meaning": "Conservative linear timing-fit covariance under the stated cadence floor and scatter inflation; excludes uncalibrated shape and baseline systematics."
+}

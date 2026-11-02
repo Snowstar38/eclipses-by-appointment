@@ -1,0 +1,97 @@
+{
+  "tic": "94220952",
+  "historical_period_days": 11.122752433348229,
+  "historical_epoch_btjd": 2777.5404,
+  "search_duration_days": 0.12,
+  "events": [
+    {
+      "sector": 54,
+      "cycle": 1,
+      "predicted_btjd": 2788.663152433348,
+      "mid_btjd": 2788.648887589134,
+      "timing_error_days": 0.006944345296460597,
+      "formal_timing_error_days": 0.001281828084984716,
+      "depth_ppt": 60.43474139116804,
+      "extrapolated_amplitude_ppt": 60.43474139116804,
+      "ingress_parameter_days": 0.06005929630868008,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.16020040620159826,
+      "cadence_days": 0.013888690592921193,
+      "oot_scatter_ppt": 2.7780512709405274,
+      "resid_rms_ppt": 2.3861885361398945,
+      "n": 56,
+      "fit_shift_days": -0.014264844213588314,
+      "timing_usable": true
+    },
+    {
+      "sector": 81,
+      "cycle": 66,
+      "predicted_btjd": 3511.642060600983,
+      "mid_btjd": 3511.6393543210856,
+      "timing_error_days": 0.0011573905276236474,
+      "formal_timing_error_days": 0.0006707074287604479,
+      "depth_ppt": 59.04787382598301,
+      "extrapolated_amplitude_ppt": 59.04787382598301,
+      "ingress_parameter_days": 0.06362543402379973,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.16513877313311146,
+      "cadence_days": 0.0023147810552472947,
+      "oot_scatter_ppt": 4.548937002791801,
+      "resid_rms_ppt": 4.245566480639357,
+      "n": 311,
+      "fit_shift_days": -0.0027062798972965663,
+      "timing_usable": true
+    },
+    {
+      "sector": 81,
+      "cycle": 67,
+      "predicted_btjd": 3522.7648130343314,
+      "mid_btjd": 3522.7618744934252,
+      "timing_error_days": 0.0011573905276236474,
+      "formal_timing_error_days": 0.0007584866715579704,
+      "depth_ppt": 58.92200267726715,
+      "extrapolated_amplitude_ppt": 58.92200267726715,
+      "ingress_parameter_days": 0.06312961560767959,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.16076514299026487,
+      "cadence_days": 0.0023147810552472947,
+      "oot_scatter_ppt": 5.176447218602291,
+      "resid_rms_ppt": 4.526016462338104,
+      "n": 311,
+      "fit_shift_days": -0.0029385409060046584,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "94220952",
+      "sector": 54,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\94220952_s054.fits",
+      "sha256": "616e55320f8d3cd1077ce1baedec13af321b78248a3536217145db66c774102b",
+      "status": "ok"
+    },
+    {
+      "tic": "94220952",
+      "sector": 81,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\94220952_s081.fits",
+      "sha256": "93c165f5151a1e1874af008d26f2a8874d20a22dcd2edeea3cb2382d4851f51e",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating eclipse; deeper/secondary identity not established",
+  "timing_event_count": 3,
+  "period_days": 11.122925403209845,
+  "period_error_days": 0.00010652791774180924,
+  "primary_epoch_btjd": 2788.6489989502916,
+  "epoch_cycle": 1,
+  "timing_residual_days": [
+    -0.0001113611574510287,
+    0.0002041621542048233,
+    -0.0002010687162510294
+  ],
+  "reduced_chi_square": 0.06155434287909847,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 59.04787382598301,
+  "epoch_error_days": 0.006929824103548514,
+  "epoch_error_meaning": "Conservative linear timing-fit covariance under the stated cadence floor and scatter inflation; excludes uncalibrated shape and baseline systematics."
+}

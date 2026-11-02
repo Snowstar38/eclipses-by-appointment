@@ -1,0 +1,122 @@
+{
+  "tic": "70241645",
+  "historical_period_days": 18.314698683224083,
+  "historical_epoch_btjd": 1695.6709,
+  "search_duration_days": 0.081,
+  "events": [
+    {
+      "sector": 14,
+      "cycle": 0,
+      "predicted_btjd": 1695.6709,
+      "mid_btjd": 1695.6680776945716,
+      "timing_error_days": 0.010416903490806817,
+      "formal_timing_error_days": 0.0009608131885946277,
+      "depth_ppt": 47.46413693143866,
+      "extrapolated_amplitude_ppt": 47.46413693143866,
+      "ingress_parameter_days": 0.022525215841541872,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.09085518261523633,
+      "cadence_days": 0.020833806981613634,
+      "oot_scatter_ppt": 2.8467970198830166,
+      "resid_rms_ppt": 5.0188764660450715,
+      "n": 23,
+      "fit_shift_days": -0.002822305428492438,
+      "timing_usable": true
+    },
+    {
+      "sector": 55,
+      "cycle": 61,
+      "predicted_btjd": 2812.867519676669,
+      "mid_btjd": 2812.866531784192,
+      "timing_error_days": 0.003472144022566681,
+      "formal_timing_error_days": 0.0006582250301224419,
+      "depth_ppt": 47.552828106115086,
+      "extrapolated_amplitude_ppt": 47.552828106115086,
+      "ingress_parameter_days": 0.05381249440478055,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.13767659307195956,
+      "cadence_days": 0.006944288045133362,
+      "oot_scatter_ppt": 2.2767753396542445,
+      "resid_rms_ppt": 2.5175798080599514,
+      "n": 70,
+      "fit_shift_days": -0.0009878924772631628,
+      "timing_usable": true
+    },
+    {
+      "sector": 81,
+      "cycle": 99,
+      "predicted_btjd": 3508.8260696391844,
+      "mid_btjd": 3508.82267861075,
+      "timing_error_days": 0.0011574063428270165,
+      "formal_timing_error_days": 0.0007476486069696645,
+      "depth_ppt": 44.53890342400714,
+      "extrapolated_amplitude_ppt": 44.53890342400714,
+      "ingress_parameter_days": 0.05797588896268816,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.14496801108995475,
+      "cadence_days": 0.002314812685654033,
+      "oot_scatter_ppt": 4.011894351515575,
+      "resid_rms_ppt": 4.086361228256893,
+      "n": 210,
+      "fit_shift_days": -0.0033910284347947943,
+      "timing_usable": true
+    },
+    {
+      "sector": 81,
+      "cycle": 100,
+      "predicted_btjd": 3527.1407683224083,
+      "mid_btjd": 3527.139273070446,
+      "timing_error_days": 0.0011574063428270165,
+      "formal_timing_error_days": 0.0006039112495094196,
+      "depth_ppt": 44.37594442497193,
+      "extrapolated_amplitude_ppt": 44.37594442497193,
+      "ingress_parameter_days": 0.046902207935620985,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.13182998487597972,
+      "cadence_days": 0.002314812685654033,
+      "oot_scatter_ppt": 3.581205256197048,
+      "resid_rms_ppt": 3.5682666343978986,
+      "n": 209,
+      "fit_shift_days": -0.0014952519621190936,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "70241645",
+      "sector": 14,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\70241645_s014.fits",
+      "sha256": "beb79fb14e503a81268acfe7ac67e820086ee74da32c7d19c116f6ab99b3b5f4",
+      "status": "ok"
+    },
+    {
+      "tic": "70241645",
+      "sector": 55,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\70241645_s055.fits",
+      "sha256": "ac63899c34fb356a717a5e009180e96f7cc69e005d41d2ecd889a4d900c81241",
+      "status": "ok"
+    },
+    {
+      "tic": "70241645",
+      "sector": 81,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\70241645_s081.fits",
+      "sha256": "695c5e31c6aa6901a5e19fb138ff1b54c7f56f4f894209662f527967f49e8f6d",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating narrow eclipse; deeper-primary identity unestablished because no secure secondary",
+  "timing_event_count": 4,
+  "period_days": 18.314682557233876,
+  "period_error_days": 7.003110207916476e-05,
+  "primary_epoch_btjd": 1695.6700935253634,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    -0.0020158307918336504,
+    0.0008022675619940856,
+    -0.0009880807674562675,
+    0.0009238216948688205
+  ],
+  "reduced_chi_square": 0.7283698884494509,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 46.001520177722895
+}

@@ -1,0 +1,114 @@
+{
+  "tic": "54140419",
+  "queried_at_utc": "2026-11-02T05:25:53.755468+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "54140419"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 7,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_qlp_tess_ffi_s0007-0000000054140419_tess_v01_llc"
+      },
+      {
+        "sequence_number": 34,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_qlp_tess_ffi_s0034-0000000054140419_tess_v01_llc"
+      },
+      {
+        "sequence_number": 61,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_qlp_tess_ffi_s0061-0000000054140419_tess_v01_llc"
+      },
+      {
+        "sequence_number": 7,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_tglc_tess_ffi_gaiaid-3035960206561478144-s0007-cam2-ccd3_tess_v1_llc"
+      },
+      {
+        "sequence_number": 88,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_qlp_tess_ffi_s0088-0000000054140419_tess_v01_llc"
+      },
+      {
+        "sequence_number": 7,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_t16_tess_ffi_s0007-cam2-ccd3-03035960206561478144_tess_v01"
+      },
+      {
+        "sequence_number": 7,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "54140419",
+        "obs_id": "hlsp_gsfc-eleanor-lite_tess_ffi_s0007-0000000054140419_tess_v1.0_lc"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 7,
+      "rowsFiltered": 7,
+      "rowsTotal": 7
+    }
+  },
+  "qlp_sectors": [
+    7,
+    34,
+    61,
+    88
+  ]
+}

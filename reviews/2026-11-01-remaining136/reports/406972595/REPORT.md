@@ -1,0 +1,44 @@
+# TIC 406972595: CONFIRMED
+
+Full bounded physical review: **COMPLETE**. Physical classification is separate from catalogue recovery/novelty; historical screening was not an admission verdict.
+
+1. **Raw events.** 7 free-center trapezoid measurements from quality-zero QLP SAP_FLUX in sectors [12, 93, 102]; 7 enter the reported ephemeris. Representative raw light curves and numerical windows show repeated eclipse morphology. Predictions guided the windows and are not measurements. Flagged or uncovered windows are not clean nulls.
+2. **Timing and aliases.** Measured recurring-eclipse timing supported. P=6.4940582389 +/- 0.0000171180 d; reference BTJD=1633.0162055. Epoch kind: Selected repeating eclipse; depth rank to be checked against other event kind. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. The formal error column is the local free-center model covariance; the input error adds a half-cadence floor. Singular/unidentifiable centers are excluded. Cycle/parity counts are in [../alias-audit.json](../../campaign/batch01/alias-audit.json). Selected eclipse means the measured recurrence, with no assumption that it is the deeper primary. The bounded half/double check does not prove all possible aliases absent. 
+3. **Attribution.** Fresh difference stack in sector 39 has 4 events; target coordinate [7.442694351830347, 7.490629109323532], deficit [7.259587537596887, 7.462001674428883]; offset 0.185 pixel. The image-model fractional residual 0.601 is not a localization uncertainty. Every capable Gaia neighbor in the retained 60-arcsec table was inspected: None under the approximate G-band brightness screen within 60 arcsec. The intrinsic loss proxy uses a pairwise G-band flux budget and cannot be directly compared with diluted pixel fractional loss. Close blends and passband/aperture response limit exclusion claims. Seven repeated raw eclipses with within-sector recurrence in S93; compact target deficit and no capable Gaia neighbor within 60 arcsec.
+4. **Alternative reduction.** Fresh TESScut background-subtracted target-centered 1x1/3x3/5x5 depths are 73.25/71.22/66.21 ppt; selected QLP fitted median 79.31 ppt. This reruns the historical extraction primitive using the fresh ephemeris and measured duration, with identity and source hashes checked. The retained QLP sectors do not include this cutout sector. This cutout is a distinct observing occasion on the same instrument; it is an alternative extraction of that sector FFI data, without a direct same-sector QLP comparison here. Distinct sectors are distinct observing occasions on one instrument. Depth differences can reflect dilution, aperture and background response; intrinsic binary depth is not inferred.
+5. **Gaia geometry/physical plausibility.** Exact DR3 source 5779383275684367360, orbital P=6.4933125698 d, e=0.16654. Closest edge-on conjunction offset=0.17883 d (0.02754 phase), full source-specific covariance linear timing allowance=0.12773 d. Full 6x6 orbit correlation matrix is positive definite (helper receipt). Mass function=0.032901 solar masses; adopted primary mass=1, minimum secondary mass=0.401. Rough central duration=6.01 h versus observed median=4.07 h. Radius and main-sequence companion assumptions make this a plausibility calculation, not a fitted geometry or calibrated significance veto. Shorter observed duration can reflect impact parameter and model assumptions. Orbit agreement does not establish ownership among unresolved sources.
+
+**Deciding limit:** Seven repeated raw eclipses with within-sector recurrence in S93; compact target deficit and no capable Gaia neighbor within 60 arcsec.
+
+**Next check:** Optional resolved photometry and spectroscopy for precision physical parameters.
+
+Catalogue recovery is recorded centrally in [../../shared-catalogues/coverage-matrix.csv](../../campaign/shared-catalogues/coverage-matrix.csv). A successful cone with no exact eclipsing target classification is distinct from a failed query; known recoveries must not count as new additions. No exhaustive literature priority claim is made.
+
+| Sector | Search cycle | Measured midpoint BTJD | Formal center error d | Timing input error d | Depth ppt | Timing status |
+|---|---:|---:|---:|---:|---:|---|
+| 12 | 0 | 1633.0105672 | 0.000420498 | 0.0104167 | 75.31 | selected |
+| 12 | 2 | 1646.0012616 | 0.000271617 | 0.0104167 | 69.47 | selected |
+| 93 | 339 | 3834.5020662 | 0.000280772 | 0.0011574 | 79.87 | selected |
+| 93 | 340 | 3840.9961318 | 0.000324632 | 0.0011574 | 80.12 | selected |
+| 93 | 341 | 3847.4907862 | 0.000289572 | 0.0011574 | 79.31 | selected |
+| 93 | 342 | 3853.9840881 | 0.000298791 | 0.0011574 | 80.41 | selected |
+| 102 | 385 | 4133.2278059 | 0.000272035 | 0.00115741 | 74.56 | selected |
+
+Evidence: [measurements.json](../../campaign/batch01/406972595/measurements.json), [raw-windows.csv](../../campaign/batch01/406972595/raw-windows.csv), [raw-events.png](../../campaign/batch01/406972595/raw-events.png), [fresh-pixels/diff_fresh.json](../../campaign/batch01/406972595/fresh-pixels/diff_fresh.json)/png, historical original receipts, [../measurement-source-receipts.json](../../campaign/batch01/measurement-source-receipts.json), [../identity-check.json](../../campaign/batch01/identity-check.json), [../alias-audit.json](../../campaign/batch01/alias-audit.json), [../gaia-geometry.json](../../campaign/batch01/gaia-geometry.json) and [../helper-audit.md](../../campaign/batch01/helper-audit.md). Original inputs and fresh outputs are covered by [../SHA256SUMS.json](../../campaign/batch01/SHA256SUMS.json) and [../source-hashes.json](../../campaign/batch01/source-hashes.json).
+
+
+Stable review key: R546.
+
+Deciding evidence and numeric artifacts:
+- [fresh-pixels/diff_fresh.json](../../campaign/batch01/406972595/fresh-pixels/diff_fresh.json)
+- [fresh-pixels/diff_fresh.png](../../campaign/batch01/406972595/fresh-pixels/diff_fresh.png)
+- [fresh-pixels/gaia.json](../../campaign/batch01/406972595/fresh-pixels/gaia.json)
+- [fresh-pixels/run.log](../../campaign/batch01/406972595/fresh-pixels/run.log)
+- [historical/diff_s39.json](../../campaign/batch01/406972595/historical/diff_s39.json)
+- [historical/diff_s39.png](../../campaign/batch01/406972595/historical/diff_s39.png)
+- [historical/gaia.json](../../campaign/batch01/406972595/historical/gaia.json)
+- [measurements.json](../../campaign/batch01/406972595/measurements.json)
+- [raw-events.png](../../campaign/batch01/406972595/raw-events.png)
+- [raw-windows.csv](../../campaign/batch01/406972595/raw-windows.csv)
+
+[Batch audits and scripts](../../campaign/batch01/INDEX.md). [Depth correction provenance](../../campaign/depth-audit/README.md).

@@ -1,0 +1,111 @@
+{
+  "tic": "278966364",
+  "historical_period_days": 12.515112426766308,
+  "historical_epoch_btjd": 2454.9869,
+  "search_duration_days": 0.051000000000000004,
+  "events": [
+    {
+      "sector": 42,
+      "cycle": 1,
+      "predicted_btjd": 2467.502012426766,
+      "mid_btjd": 2467.5018152848847,
+      "timing_error_days": 0.0034723137143828353,
+      "formal_timing_error_days": 0.0010345395790468327,
+      "depth_ppt": 8.691716563551354,
+      "duration_days": 0.05377465986446928,
+      "cadence_days": 0.006944627428765671,
+      "oot_scatter_ppt": 1.6856281007012646,
+      "resid_rms_ppt": 2.0264186820827597,
+      "n": 28,
+      "fit_shift_days": -0.00019714188130767965,
+      "timing_usable": true
+    },
+    {
+      "sector": 70,
+      "cycle": 62,
+      "predicted_btjd": 3230.923870459511,
+      "mid_btjd": 3230.922484456573,
+      "timing_error_days": 0.0011573608221624454,
+      "formal_timing_error_days": 0.0009351683150715361,
+      "depth_ppt": 11.210155983566494,
+      "duration_days": 0.06627526732177161,
+      "cadence_days": 0.002314721644324891,
+      "oot_scatter_ppt": 2.923338443550834,
+      "resid_rms_ppt": 2.9223832224674755,
+      "n": 132,
+      "fit_shift_days": -0.0013860029380406236,
+      "timing_usable": true
+    },
+    {
+      "sector": 92,
+      "cycle": 108,
+      "predicted_btjd": 3806.619042090761,
+      "mid_btjd": 3806.620006892293,
+      "timing_error_days": 0.001545417165564018,
+      "formal_timing_error_days": 0.001545417165564018,
+      "depth_ppt": 11.100813779376706,
+      "duration_days": 0.06792822903662482,
+      "cadence_days": 0.0023150224228629668,
+      "oot_scatter_ppt": 3.8775468824234314,
+      "resid_rms_ppt": 3.6200334692724447,
+      "n": 132,
+      "fit_shift_days": 0.0009648015321123131,
+      "timing_usable": true
+    },
+    {
+      "sector": 92,
+      "cycle": 109,
+      "predicted_btjd": 3819.1341545175273,
+      "mid_btjd": 3819.1334999603378,
+      "timing_error_days": 0.001670419381093066,
+      "formal_timing_error_days": 0.001670419381093066,
+      "depth_ppt": 14.134549309245358,
+      "duration_days": 0.0899300035468308,
+      "cadence_days": 0.0023150224228629668,
+      "oot_scatter_ppt": 2.9711539801772076,
+      "resid_rms_ppt": 3.3031210378806053,
+      "n": 132,
+      "fit_shift_days": -0.0006545571896890049,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "278966364",
+      "sector": 42,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\278966364_s042.fits",
+      "sha256": "45c078994f22af0be2e205000c437a522d9024264899240bfc87de7c5cd6b296",
+      "status": "ok"
+    },
+    {
+      "tic": "278966364",
+      "sector": 70,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\278966364_s070.fits",
+      "sha256": "7098e43372329fa40b651aeb2d9644c4e6fcb856ed3d23a409f1ad4d747f39a6",
+      "status": "ok"
+    },
+    {
+      "tic": "278966364",
+      "sector": 92,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\278966364_s092.fits",
+      "sha256": "dfd6873fefbd6f7e1ae7f41cc73667313bade3e9dffea5139370ee12cfaed994",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected eclipse kind at phase zero of measured recurrence; legacy primary_epoch column does not imply deeper-primary rank",
+  "timing_event_count": 4,
+  "period_days": 12.515130886694886,
+  "period_error_days": 2.6857262975080795e-05,
+  "primary_epoch_btjd": 2467.499980856063,
+  "epoch_cycle": 1,
+  "timing_residual_days": [
+    0.0018344288218941074,
+    -0.00048048787812149385,
+    0.0010211598773821606,
+    -0.0006166587727420847
+  ],
+  "fit_degrees_of_freedom": 2,
+  "reduced_chi_square": 0.5121766836508983,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when positive-degree-of-freedom reduced chi square exceeds one. With only two centers, no reduced chi square or measured residual scatter exists; covariance propagates input timing allowances. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 11.155484881471601
+}

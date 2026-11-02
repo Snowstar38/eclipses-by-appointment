@@ -1,0 +1,102 @@
+{
+  "tic": "73248723",
+  "historical_period_days": 15.477720127892898,
+  "historical_epoch_btjd": 1855.1145,
+  "search_duration_days": 0.12,
+  "events": [
+    {
+      "sector": 47,
+      "cycle": 47,
+      "predicted_btjd": 2582.567346010966,
+      "mid_btjd": 2582.56814907314,
+      "timing_error_days": 0.0034722053813993625,
+      "formal_timing_error_days": 5.265598212730821e-05,
+      "depth_ppt": 456.0280304216383,
+      "extrapolated_amplitude_ppt": 456.0280304216383,
+      "ingress_parameter_days": 0.08058739940909,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.1967597197848447,
+      "cadence_days": 0.006944410762798725,
+      "oot_scatter_ppt": 1.350225186479418,
+      "resid_rms_ppt": 4.652036248450985,
+      "n": 97,
+      "fit_shift_days": 0.0008030621737674911,
+      "timing_usable": true
+    },
+    {
+      "sector": 47,
+      "cycle": 48,
+      "predicted_btjd": 2598.045066138859,
+      "mid_btjd": 2598.0436387855307,
+      "timing_error_days": 0.0034722053813993625,
+      "formal_timing_error_days": 5.9247596557100834e-05,
+      "depth_ppt": 458.6524359427162,
+      "extrapolated_amplitude_ppt": 458.6524359427162,
+      "ingress_parameter_days": 0.08060337241728434,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.19645471244202325,
+      "cadence_days": 0.006944410762798725,
+      "oot_scatter_ppt": 1.5264784325060905,
+      "resid_rms_ppt": 4.329214898830634,
+      "n": 96,
+      "fit_shift_days": -0.0014273533284278098,
+      "timing_usable": true
+    },
+    {
+      "sector": 74,
+      "cycle": 95,
+      "predicted_btjd": 3325.4979121498254,
+      "mid_btjd": 3325.3864089598146,
+      "timing_error_days": 0.001157398732857473,
+      "formal_timing_error_days": 8.409741766263293e-05,
+      "depth_ppt": 462.49068469081266,
+      "extrapolated_amplitude_ppt": 462.49068469081266,
+      "ingress_parameter_days": 0.08093474067308573,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.19720638634159396,
+      "cadence_days": 0.002314797465714946,
+      "oot_scatter_ppt": 3.970103268216672,
+      "resid_rms_ppt": 5.568781599878108,
+      "n": 285,
+      "fit_shift_days": -0.11150319001063108,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "73248723",
+      "sector": 20,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\73248723_s020.fits",
+      "sha256": "7126d006c1c4f01df7706c025fda3c6e94623c6d984d09e5d29018f59de302c1",
+      "status": "ok"
+    },
+    {
+      "tic": "73248723",
+      "sector": 47,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\73248723_s047.fits",
+      "sha256": "eb0098a2727ee1c9692b99f83a04667311bc38c22abcfca7ea2b2577871ed8a6",
+      "status": "ok"
+    },
+    {
+      "tic": "73248723",
+      "sector": 74,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\73248723_s074.fits",
+      "sha256": "0839841e0e25cf132bdefb8ca27688b342491a08b18d61bfe12f145c9f2f92ef",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Deeper primary eclipse, established relative to observed shallower secondary",
+  "timing_event_count": 3,
+  "period_days": 15.475379278755168,
+  "period_error_days": 5.7140267868752955e-05,
+  "primary_epoch_btjd": 2582.5682037087263,
+  "epoch_cycle": 47,
+  "timing_residual_days": [
+    -5.4635586366202915e-05,
+    5.579804928856902e-05,
+    -1.2915961633552797e-07
+  ],
+  "reduced_chi_square": 0.000505848822814114,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 458.6524359427162
+}

@@ -1,0 +1,41 @@
+# TIC 137395412: CONFIRMED
+
+Full bounded physical review: **COMPLETE**. Physical outcome and catalogue novelty are separate; a known recovery is not a new addition.
+
+1. **Raw repeated events.** 4 free-center local trapezoid measurements in quality-zero QLP SAP_FLUX; 4 centers enter timing, in sectors [19, 53]. Predictions locate windows and are not measurements. Flagged or uncovered windows are not clean nulls. Four selected centers form consecutive pairs in S19/S53. No capable neighbor within 60 arcsec. No significant secondary center is claimed; Gaia predicts the other conjunction at actual phase 0.72348, so a half-phase null alone is not an eccentric-secondary test.
+2. **Timing and aliases.** Measured recurring-eclipse period P=15.4469737423 +/- 0.0001293520 days, epoch BTJD=1819.8478710. Epoch kind is the selected recurring eclipse; deeper-primary rank is not assumed. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. There are 2 adjacent same-kind pairs within sectors. Selected depths occur comparably in both cycle parities; doubling does not reveal alternating selected-event kinds. Halving interleaves a shallow secondary or sampled baseline, not the selected eclipse. No significant repeated secondary center is claimed; this is not proof of absence. Actual phase scans and candidate fits are retained; secondary usability is a heuristic amplitude/local-scatter check, not calibrated significance. No exhaustive all-alias search or calibrated secondary-null confidence is asserted.
+3. **Pixel attribution.** Fresh S19 difference stack contains 2 selected eclipses. Target WCS pixel=[7.266344681731502, 7.588371946702171], deficit centroid=[7.097606651246714, 7.7439308877700626], descriptive offset=0.230 pixel. Neither offset nor image residual is a calibrated localization uncertainty or universal veto. All capable Gaia neighbors: None under the approximate pairwise G-band flux screen within 60 arcsec.. Capability is a G-band pairwise flux-budget proxy; color and aperture response limit precision. Intrinsic neighbor losses are never equated to diluted pixel fractional loss. Same-unit actual deficits and field morphology are independently recorded in [../terra-pixel-audit.json](../../campaign/batch04/terra-pixel-audit.json); close blends retain uncertainty.
+4. **Alternative reduction.** Reused, read and rerun TESScut primitive subtracts faint-pixel background, with symmetric local side windows and selected eclipse core; fresh target-centered 1x1/3x3/5x5 depths=31.90/31.57/30.79 ppt. QLP fitted median=30.73 ppt. Aperture, dilution and background response explain why these are not intrinsic-depth measurements. This reduction and the retained QLP sector share TESS photons, testing processing robustness rather than independent observations. Distinct sectors remain occasions on one instrument.
+5. **Gaia geometry.** Source 544879277958019456; P=15.4431614446 +/- 0.014090715 days, e=0.42867. Closest edge-on conjunction offset=0.31577 days (0.02045 phase), source-specific full covariance linear allowance=1.20350 days. Other conjunction relative phase=0.72348, linear phase allowance=0.03700. Full correlation matrix minimum eigenvalue=0.0576975. These linear allowances are descriptive, not calibrated significance. Near Gaia reference the projected epoch offset=-0.03878 days, period-projection allowance alone=0.01203 days (ignores fit covariance/model systematics). Mass function=0.019994 solar masses; adopted primary mass=1.29, minimum secondary mass=0.382. Approximate central duration=11.78 hours versus observed median=8.03 hours. TIC radius, edge-on geometry and main-sequence secondary assumptions make this a plausibility test, not a fitted physical characterization. Impact parameter can shorten duration. Agreement does not by itself establish ownership.
+
+**Deciding limitation:** Four selected centers form consecutive pairs in S19/S53. No capable neighbor within 60 arcsec. No significant secondary center is claimed; Gaia predicts the other conjunction at actual phase 0.72348, so a half-phase null alone is not an eccentric-secondary test.
+
+**Next check:** Optional resolved photometry and spectroscopy for improved localization and physical parameters.
+
+Shared catalogue results are in [../../shared-catalogues/coverage-matrix.csv](../../campaign/shared-catalogues/coverage-matrix.csv). Successful no-matches are distinct from failed queries; no exhaustive priority claim is made. TIC 295771108 is a known exact ASAS-SN EA recovery.
+
+| Sector | Search cycle | Measured BTJD | Formal error d | Input allowance d | Depth ppt | Status |
+|---|---:|---:|---:|---:|---:|---|
+| 19 | 0 | 1819.8481178 | 0.000812293 | 0.0104166 | 29.86 | used |
+| 19 | 1 | 1835.2943650 | 0.000838023 | 0.0104166 | 30.80 | used |
+| 53 | 60 | 2746.6678217 | 0.00155186 | 0.00347228 | 30.65 | used |
+| 53 | 61 | 2762.1117691 | 0.0010532 | 0.00347228 | 30.91 | used |
+
+Evidence: [measurements.json](../../campaign/batch04/137395412/measurements.json), [raw-windows.csv](../../campaign/batch04/137395412/raw-windows.csv), [raw-events.png](../../campaign/batch04/137395412/raw-events.png), [fresh-pixels/diff_fresh.json](../../campaign/batch04/137395412/fresh-pixels/diff_fresh.json)/png, historical originals, [../identity-check.json](../../campaign/batch04/identity-check.json), [../alias-audit.json](../../campaign/batch04/alias-audit.json), [../secondary-measurements.json](../../campaign/batch04/secondary-measurements.json), [../secondary-phase-scan.json](../../campaign/batch04/secondary-phase-scan.json)/png, [../gaia-geometry.json](../../campaign/batch04/gaia-geometry.json), [../terra-pixel-audit.json](../../campaign/batch04/terra-pixel-audit.json) and [../helper-audit.md](../../campaign/batch04/helper-audit.md). Exact sources and outputs are covered by [../SHA256SUMS.json](../../campaign/batch04/SHA256SUMS.json). The methods snapshot freezes the read methods without hashing a mutable canonical page.
+
+
+Stable review key: R578.
+
+Deciding evidence and numeric artifacts:
+- [fresh-pixels/diff_fresh.json](../../campaign/batch04/137395412/fresh-pixels/diff_fresh.json)
+- [fresh-pixels/diff_fresh.png](../../campaign/batch04/137395412/fresh-pixels/diff_fresh.png)
+- [fresh-pixels/gaia.json](../../campaign/batch04/137395412/fresh-pixels/gaia.json)
+- [fresh-pixels/run.log](../../campaign/batch04/137395412/fresh-pixels/run.log)
+- [historical/diff_s19.json](../../campaign/batch04/137395412/historical/diff_s19.json)
+- [historical/diff_s19.png](../../campaign/batch04/137395412/historical/diff_s19.png)
+- [historical/gaia.json](../../campaign/batch04/137395412/historical/gaia.json)
+- [measurements.json](../../campaign/batch04/137395412/measurements.json)
+- [raw-events.png](../../campaign/batch04/137395412/raw-events.png)
+- [raw-windows.csv](../../campaign/batch04/137395412/raw-windows.csv)
+
+[Batch audits and scripts](../../campaign/batch04/INDEX.md). [Depth correction provenance](../../campaign/depth-audit/README.md).

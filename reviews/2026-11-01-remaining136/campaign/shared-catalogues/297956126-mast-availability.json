@@ -1,0 +1,117 @@
+{
+  "tic": "297956126",
+  "queried_at_utc": "2026-11-02T05:06:19.081748+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "297956126"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 65,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0065-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 66,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0066-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 93,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0093-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 100,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0100-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 101,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0101-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 102,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0102-0000000297956126_tess_v01_llc"
+      },
+      {
+        "sequence_number": 103,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "297956126",
+        "obs_id": "hlsp_qlp_tess_ffi_s0103-0000000297956126_tess_v01_llc"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 7,
+      "rowsFiltered": 7,
+      "rowsTotal": 7
+    }
+  },
+  "qlp_sectors": [
+    65,
+    66,
+    93,
+    100,
+    101,
+    102,
+    103
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "tic": "246857844",
+  "queried_at_utc": "2026-11-02T04:45:43.008748+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "246857844"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 29,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000246857844-s0029_tess_v1_tp"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_qlp_tess_ffi_s0002-0000000246857844_tess_v01_llc"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000246857844-s0002_tess_v1_tp"
+      },
+      {
+        "sequence_number": 29,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_qlp_tess_ffi_s0029-0000000246857844_tess_v01_llc"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tasoc_tess_ffi_tic00246857844-s0002-cam1-ccd2-c1800_tess_v05"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_gsfc-eleanor-lite_tess_ffi_s0002-0000000246857844_tess_v1.0_lc"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tglc_tess_ffi_gaiaid-2347638783375829632-s0002-cam1-ccd2_tess_v1_llc"
+      },
+      {
+        "sequence_number": 69,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_qlp_tess_ffi_s0069-0000000246857844_tess_v01_llc"
+      },
+      {
+        "sequence_number": 69,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000246857844-s0069_tess_v1_tp"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_t16_tess_ffi_s0002-cam1-ccd2-02347638783375829632_tess_v01"
+      },
+      {
+        "sequence_number": 2,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tars_tess_ffi_s0002-0000000246857844_tess"
+      },
+      {
+        "sequence_number": 29,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tars_tess_ffi_s0029-0000000246857844_tess"
+      },
+      {
+        "sequence_number": 69,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "246857844",
+        "obs_id": "hlsp_tars_tess_ffi_s0069-0000000246857844_tess"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 13,
+      "rowsFiltered": 13,
+      "rowsTotal": 13
+    }
+  },
+  "qlp_sectors": [
+    2,
+    29,
+    69
+  ]
+}

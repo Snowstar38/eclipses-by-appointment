@@ -1,0 +1,56 @@
+from pathlib import Path
+import json,csv,numpy as np
+B=Path(__file__).parent;G=json.load(open(B/'gaia-geometry.json'))
+notes={
+'272328952':'Deep repeated raw events. Compact difference core lies on target. Capable G12.87 neighbor at24.5arcsec lies1.17pixels away and overlaps the broad core; bright G9.29 neighbor at41.8arcsec dominates baseline but not deficit. Attribution favors target but does not uniquely exclude the closest capable source. Broad off-eclipse variability changes across sectors; S24 custom1x1/3x3/5x5 depths64.9/12.5/4.65ppt differ greatly from QLP144ppt, a major aperture/sector dilution limitation rather than depth agreement.',
+'99569713':'Ten repeated raw eclipses. Capable G15.57 source at5arcsec is unresolved within the target deficit; ownership remains unresolved. A farther source33arcsec away overlaps the wings.',
+'386161311':'Repeated eclipse-shaped raw dips with depth variation. Nineteen capable sources include sources9.4/13.4/14arcsec away, unresolved around the weak target-centered deficit. Target ownership remains unresolved; conjunction offset0.0505phase is comparable to propagated timing allowance, rather than a clean veto.',
+'427095568':'Three deep S58 eclipses establish local recurrence; S16/85 small noise fits are explicitly rejected. Full quality-zero light curves lack any comparable deep eclipse anywhere (minima0.994/0.988 of median versus S58 0.746), independently of uncertain extrapolated phase. Including flagged finite cadences gives minima0.886/0.902 in S16/85, still no comparable25percent event; flagged windows are not clean nulls. Fresh S56 target-centered deficit also recovers eclipses. No capable Gaia source in60arcsec. Major cross-sector absence remains unexplained; local S58 timing is not a precise cross-year ephemeris.',
+'393761712':'Four deep eclipses repeat across three QLP sectors, with consecutive same-kind S72 events. Compact target deficit and no capable Gaia source in60arcsec support target attribution.',
+'290749976':'Shallow recurring broad dips have variable baselines and a noisy offset deficit (0.62pixel). Three capable neighbors lie36-49arcsec away. Smooth morphology and variable fitted duration versus approximate central4.85h do not establish eclipse geometry; rotational, tidal or baseline modulation remains possible. No convincing sharp eclipse component is established, so this is PLAUSIBLE, not a demonstrated repeating eclipser. TIC radius2.113 solar radii is already used; broad shape/baseline and attribution remain unresolved. Period describes dip recurrence; trapezoid centers are model-dependent.',
+'24995506':'Six repeated raw eclipses at11.48585d. Compact target-centered deficit overlaps three capable sources19-23arcsec away, so ownership remains unresolved. Nearby known EB Gaia5940721527468980608 at42.94arcsec has G17.062 and period0.72596d: G-band pairwise maximum diluted loss is1.38percent, below observed4.8percent; required intrinsic loss exceeds unity. Its period differs from observed recurrence and its location is distinct from deficit core. This excludes that catalogued EB under approximate passband budget, not every close neighbor.',
+'321533638':'Fresh availability query and actual additional S38/65/101 data increase timing sample to12 across all6 current QLP sectors. Consecutive within-sector recurrences establish7.40605d. Fourteen capable sources include one13.5arcsec away and near-equal source16.5arcsec away; crowded deficit does not uniquely establish target ownership.',
+'349452680':'All four currently available QLP sectors43/44/59/86 inspected; three clear actual events. Bounded integer aliases0.8-40d reject shorter alternatives through sampled clean nulls;19.34676d and38.69352d survive. Reported19.34673d is observed eclipse recurrence; double orbital-period equal-eclipse labeling remains unresolved. Sole capable neighbor47.1arcsec away is spatially distinct from compact target deficit.',
+'2042514759':'Eight deep repeated eclipses. Brighter G11.76 source only2.9arcsec away is unresolved within deficit core; target attribution remains unresolved. Depth in custom aperture is diluted and is not intrinsic binary depth.'}
+confirmed={'393761712','349452680'};rows=[]
+for q in csv.DictReader(open(B/'queue.csv')):
+ tic=q['tic'];D=B/tic;M=json.load(open(D/'measurements.json'));g=G[tic];d=json.load(open(D/'fresh-pixels/diff_fresh.json'));verdict='PLAUSIBLE' if tic=='290749976' else 'CONFIRMED' if tic in confirmed else 'PROBABLE';ev=[e for e in M['events'] if 'mid_btjd' in e];used=[e for e in ev if e.get('timing_usable')];nt=[]
+ for n in d['neighbours_60']:
+  if n['possible']:nt.append(f"| {n['source_id']} | {n['sep']:.2f} | {n['G']:.3f} | {n['depth_needed']:.4f} | {n['signed_deficit_e_per_s_at_pixel']:.5g} | {n['baseline_e_per_s_at_pixel']:.5g} |")
+ table='\n'.join(f"|{e['sector']}|{e['cycle']}|{e['mid_btjd']:.7f}|{e['formal_timing_error_days']:.5g}|{e['timing_error_days']:.5g}|{e['depth_ppt']:.3f}|{'used' if e in used else 'rejected: '+e.get('timing_failure_reason','')}|" for e in ev)
+ nextcheck='Resolved photometry through an eclipse to establish ownership; additional timing for remaining period/shape limits.' if verdict!='CONFIRMED' else 'Optional resolved follow-up for physical parameters and orbital eclipse labeling.'
+ if tic=='290749976':nextcheck='Establish sharp eclipse morphology against rotational/tidal/baseline modulation, then resolve source ownership with eclipse photometry.'
+ text=f'''# TIC {tic}: {verdict}
+
+Full bounded physical review: COMPLETE. Physical verdict is separate from catalogue novelty. The epoch is the selected recurring eclipse; no deeper-primary rank is assumed.
+
+**Deciding evidence and limitation:** {notes[tic]}
+
+Raw QLP SAP_FLUX representative windows contain {len(used)} accepted free-center measurements in sectors {sorted(set(e['sector'] for e in used))}. Predicted windows are search guides, not timings. Quality-zero points enter fits; flagged or uncovered windows are not clean nulls. Rejected fits remain visible in numerical artifacts. Raw event plots and full recurrence phase plots were inspected; fitted dips alone do not establish eclipse morphology (TIC290749976 remains plausible).
+
+Measured recurrence P={M['period_days']:.10f} +/- {M['period_error_days']:.10f} days; selected-eclipse reference BTJD={M['primary_epoch_btjd']:.7f}; fitted median depth={M['depth_ppt']:.3f}ppt. {M['error_meaning']} Singular/unidentifiable timing covariance is excluded. Within-sector cycle counts/parity are in ../alias-audit.json. Full-phase inspection tests secondary structure at its observed phase, without imposing phase0.5; unequal secondaries do not halve same-kind periods. Half/double ambiguity is described explicitly above where material. No exhaustive alias search is claimed. Sparse349452680 additionally has current availability and bounded sampled-null receipts.
+
+Fresh TESScut sector{d['sector']} stacks {d['n_events']} actual covered events. Deficit-target offset={np.hypot(*d['deficit_minus_target_px']):.3f}pixel, target pixel={d['target_px']}, deficit centroid={d['deficit_centroid']}. The image-model residual={d['psf_fit_frac_resid']:.3f} is not a calibrated location error. Actual target pixel deficit={d['target_signed_deficit_e_per_s_at_pixel']:.5g} electron/s and baseline={d['target_baseline_e_per_s_at_pixel']:.5g} electron/s. All flux-capable Gaia neighbors within60arcsec are below; their actual signed deficit and baseline are evaluated in common electron/s units at each source's rounded pixel. Overlapping PSFs prevent deblended ownership. Intrinsic required eclipse fraction uses pairwise Gaia G brightness; it is not directly comparable with diluted fractional pixel loss. Color, aperture response and unlisted faint/unresolved sources limit this approximate screen.
+
+| Gaia source | separation arcsec | G | intrinsic required loss proxy | actual signed pixel deficit e/s | pixel baseline e/s |
+|---|---:|---:|---:|---:|---:|
+{chr(10).join(nt) if nt else '| None capable within60arcsec | | | | | |'}
+
+Alternative background-subtracted target-centered TESScut1x1/3x3/5x5 depths={d['depth_ap1']*1000:.3f}/{d['depth_ap3']*1000:.3f}/{d['depth_ap5']*1000:.3f}ppt. These custom extractions test reduction robustness. All QLP and cutouts use TESS photons; same-sector extractions are not independent observations. Distinct sectors are distinct observing occasions on one instrument. Depth changes can be dilution/aperture/background effects; these numbers are not intrinsic eclipse depths. Pixel-arrays.npz preserves actual stacked images.
+
+Gaia DR3 source={g['gaia_source_id']}, P={g['period_days']:.9f}d, e={g['eccentricity']:.5f}. Closest edge-on conjunction offset={g['closest']['offset_days']:.5f}d ({g['closest']['offset_phase']:.5f}phase); source-specific full covariance linear timing allowance={g['closest']['gaia_covariance_linear_error_days']:.5f}d. This descriptive linear allowance is not a calibrated significance veto. Geometry code retains both eccentric conjunctions. Mass function={g['mass_function_solar']:.5g} solar masses; TIC/adopted primary mass={g['assumed_m1_solar']:.3f}, minimum secondary mass={g['minimum_m2_solar']:.3f}, TIC radius={g['tic_radius_solar']:.3f} solar radii. Approximate central duration={g['central_duration_hours_approx']:.3f}h versus measured median={g['observed_duration_hours']:.3f}h. TIC radius and main-sequence minimum-mass companion assumptions make this a plausibility screen, not a fitted binary model. Orbit agreement alone does not establish target ownership.
+
+| Sector | Search cycle | midpoint BTJD | formal center error d | timing input error d | depth ppt | status |
+|---|---:|---:|---:|---:|---:|---|
+{table}
+
+**Next check:** {nextcheck}
+
+Seven-group catalogue receipts are in ../../shared-catalogues/coverage-matrix.csv; known recovery and physical outcome are separate. No exhaustive priority claim. Evidence: measurements.json, raw-windows.csv, raw-events.png, fresh-pixels/diff_fresh.json/png and pixel-arrays.npz; batch identity/hash receipts, geometry, phase and alias artifacts, helper audit. Source hashes and SHA256SUMS.json cover retained sources and outputs. Methods are preserved in a read snapshot rather than mutable manuscript hashes.
+'''
+ if tic=='290749976':
+  text=text.replace('The epoch is the selected recurring eclipse; no deeper-primary rank is assumed.','The epoch is a fitted variability-dip reference, not a validated eclipse ephemeris.').replace('selected-eclipse reference BTJD=','variability-dip reference BTJD=').replace('Measured recurrence P=','Measured variability-dip recurrence P=')
+ (D/'REPORT.md').write_text(text,encoding='utf8');rows.append(dict(tic=tic,physical_verdict=verdict,full_review_completion='COMPLETE',period_days=M['period_days'],period_error_days=M['period_error_days'],primary_epoch_btjd=M['primary_epoch_btjd'],depth_ppt=M['depth_ppt'],limitations=notes[tic],next_check=nextcheck,source_report=str(D/'fresh-pixels/diff_fresh.json'),report=str(D/'REPORT.md')))
+with open(B/'RESULTS.csv','w',newline='') as f:
+ w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+(B/'scientific-exceptions.json').write_text(json.dumps(notes,indent=2))

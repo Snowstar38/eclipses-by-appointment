@@ -1,0 +1,107 @@
+{
+  "tic": "349452680",
+  "queried_at_utc": "2026-11-02T04:49:19.063668+00:00",
+  "endpoint": "httplocal-source/omitted",
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "params": {
+      "columns": "obs_id,sequence_number,project,obs_collection,target_name",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "349452680"
+          ]
+        }
+      ]
+    },
+    "format": "json",
+    "pagesize": 5000,
+    "page": 1
+  },
+  "status": "success",
+  "response": {
+    "status": "COMPLETE",
+    "msg": "",
+    "data": [
+      {
+        "sequence_number": 43,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_qlp_tess_ffi_s0043-0000000349452680_tess_v01_llc"
+      },
+      {
+        "sequence_number": 43,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000349452680-s0043_tess_v1_tp"
+      },
+      {
+        "sequence_number": 44,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000349452680-s0044_tess_v1_tp"
+      },
+      {
+        "sequence_number": 44,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_qlp_tess_ffi_s0044-0000000349452680_tess_v01_llc"
+      },
+      {
+        "sequence_number": 59,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_qlp_tess_ffi_s0059-0000000349452680_tess_v01_llc"
+      },
+      {
+        "sequence_number": 86,
+        "obs_collection": "HLSP",
+        "project": "TESS",
+        "target_name": "349452680",
+        "obs_id": "hlsp_qlp_tess_ffi_s0086-0000000349452680_tess_v01_llc"
+      }
+    ],
+    "fields": [
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "project",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "pageSize": 5000,
+      "pagesFiltered": 1,
+      "rows": 6,
+      "rowsFiltered": 6,
+      "rowsTotal": 6
+    }
+  },
+  "qlp_sectors": [
+    43,
+    44,
+    59,
+    86
+  ]
+}

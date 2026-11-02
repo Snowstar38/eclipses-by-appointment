@@ -1,0 +1,50 @@
+# TIC 435209690: CONFIRMED
+
+Full bounded physical review: **COMPLETE**. Four deep flat-bottomed measured raw eclipses in sectors56/83, including consecutive same-kind pairs in both sectors. These resolve the long-baseline integer count. Shallower secondary is measured near0.50613, not the Gaia-guided initial search phase. No capable Gaia neighbor within60arcsec; compact target-centered deficit.
+
+Raw morphology was inspected in [raw-events.png](../../campaign/batch09/435209690/raw-events.png) and [phase-review.png](../../campaign/batch09/435209690/phase-review.png), including P and2P parity views. 4 free-center trapezoid timings survive finite, identifiable center-covariance checks. Quality-zero raw QLP SAP_FLUX was used; predictions only guide fitting windows. This is representative available evidence, not an all-event/all-sector census.
+
+Measured same-kind eclipse ephemeris: P=15.13929711422 +/- 0.00002361560 d; reference BTJD=2827.02320573. Epoch kind: Deeper primary eclipse, established by unequal observed secondary. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. Reduced timing chi-square=0.010032924595660919; zero degrees of freedom would be null. All selected timings follow the named repeating eclipse family. Epoch kind above identifies the deeper primary only where an unequal secondary is established. Model depth is the realized central loss d*min(1,w/(2*k)); extrapolated amplitude and ingress are retained separately. The reference is the fitted first selected cycle, not a Gaia prediction. Within-sector cycle recurrence and parity depths are in [../alias-audit.json](../../campaign/batch09/alias-audit.json). Opposite-phase sampled coverage, quality-zero core/sideband counts and flagged counts are in [../half-period-coverage.json](../../campaign/batch09/half-period-coverage.json). For138080650, orbital cycles are half the even historical SAP cycles; excluded odd-cycle secondaries remain in [measurements.json](../../campaign/batch09/435209690/measurements.json). Unequal observed secondary depths exclude mixing eclipse kinds into P/2 where established; TIC138854818 instead has sampled opposite-phase coverage without a comparable11ppt primary; the P/2 and2P raw views were inspected. No exhaustive blind alias search is asserted.
+
+Narrow shallower secondary visible in raw pooled windows. Depth is the realized center deficit of the fitted shape, with its amplitude parameter retained separately in the JSON. Measured pooled secondary phase=0.5061266, formal phase covariance error=5.306e-05; depth=22.994 ppt. Formal pooled trapezoid covariance only; sector normalization, red noise and shape systematics uncalibrated. Search-guide provenance: Gaia conjunction search guide, adjusted from raw phase morphology for435209690 and58825156. Final phase is a free-center fit to observed raw flux..
+
+Fresh difference image: sector56, 2 complete core/sideband events. Target pixel=[7.529072749676924, 7.048914551382477]; deficit centroid=[7.542996432180552, 7.0785451329092695]; deficit-target distance=0.0327 pixel. Deficit-light offset=0.387 arcsec is a descriptive field-light displacement, not an arbitrary veto. Fractional PSF-model residual=0.0455 is not a calibrated localization uncertainty. Every flux-capable Gaia source in the60-arcsec list was inspected against the image. Attribution conclusion: Four deep flat-bottomed measured raw eclipses in sectors56/83, including consecutive same-kind pairs in both sectors. These resolve the long-baseline integer count. Shallower secondary is measured near0.50613, not the Gaia-guided initial search phase. No capable Gaia neighbor within60arcsec; compact target-centered deficit.
+
+| Capable Gaia source | Separation arcsec | G | Intrinsic required eclipse proxy | Pixel coordinate | Diluted loss at pixel |
+|---|---:|---:|---:|---|---:|
+| None | | | | | |
+
+The pairwise G-band required intrinsic loss is an approximate brightness screen, with passband, aperture and blend assumptions. It cannot be directly compared to the diluted fractional loss in a pixel. Noncapable neighbors and all coordinates remain in [fresh-pixels/diff_fresh.json](../../campaign/batch09/435209690/fresh-pixels/diff_fresh.json) and gaia.json. TESS resolution does not exclude unlisted unresolved companions.
+
+Alternative reduction: fresh background-subtracted TESScut1x1/3x3/5x5 target apertures have depths 185.719/184.070/180.128 ppt versus fitted raw QLP median196.752 ppt. Individual cutout event depths are retained in the pixel JSON. Same-sector QLP and cutout extraction share TESS photons and test processing robustness. Distinct sectors are observing occasions on one instrument. Aperture/depth differences reflect dilution, background and extraction response; no intrinsic depth inferred.
+
+Gaia DR3 source2813025595435362944: P=15.13820213 +/-0.00456877 d, e=0.046168, omega=123.82564 degrees, periastron BTJD=391.1103205. Closest edge-on conjunction offset=-0.035622 d (-0.002353 phase), source-specific full-covariance linear uncertainty=0.850911 d. Full correlation ordering P,gamma,K,e,omega,Tp, selected indices0,3,4,5. This linear approximation is descriptive, not a sigma veto. Both conjunctions and near-reference projection are retained in [../gaia-geometry.json](../../campaign/batch09/gaia-geometry.json). Mass function=0.0456945 solar masses, assumed M1=0.99, minimum M2=0.45747; approximate central duration=6.721 h versus observed5.671 h. TIC radius and main-sequence companion scaling are assumptions, not a geometry fit; impact parameter and stellar evolution affect duration. Agreement cannot establish ownership among unresolved sources.
+
+| Sector | Same-kind cycle | Measured midpoint BTJD | Formal center error d | Input error d | Depth ppt |
+|---|---:|---:|---:|---:|---:|
+| 56 | 0 | 2827.02314613 | 0.00012635961 | 0.0011574122 | 195.203 |
+| 56 | 1 | 2842.16256160 | 0.00013731954 | 0.0011574122 | 195.778 |
+| 83 | 49 | 3568.84886442 | 0.00014979004 | 0.0011573982 | 197.726 |
+| 83 | 50 | 3583.98796216 | 0.00014215494 | 0.0011573982 | 199.636 |
+
+Next check: Optional resolved photometry and spectroscopy to refine physical parameters.
+
+Catalogue status is separate from physical verdict; shared-catalogues/coverage-matrix.csv retains the seven scoped groups. Known recoveries are not new additions; no exhaustive priority claim. Sources and identity are checked in [../identity-check.json](../../campaign/batch09/identity-check.json) and [../source-hashes.json](../../campaign/batch09/source-hashes.json). Numeric artifacts, original receipts and outputs are frozen in [../SHA256SUMS.json](../../campaign/batch09/SHA256SUMS.json); independent helper review is [../helper-audit.md](../../campaign/batch09/helper-audit.md).
+
+
+Stable review key: R627.
+
+Deciding evidence and numeric artifacts:
+- [fresh-pixels/diff_fresh.json](../../campaign/batch09/435209690/fresh-pixels/diff_fresh.json)
+- [fresh-pixels/diff_fresh.png](../../campaign/batch09/435209690/fresh-pixels/diff_fresh.png)
+- [fresh-pixels/gaia.json](../../campaign/batch09/435209690/fresh-pixels/gaia.json)
+- [fresh-pixels/run.log](../../campaign/batch09/435209690/fresh-pixels/run.log)
+- [historical/diff_s56.json](../../campaign/batch09/435209690/historical/diff_s56.json)
+- [historical/diff_s56.png](../../campaign/batch09/435209690/historical/diff_s56.png)
+- [historical/gaia.json](../../campaign/batch09/435209690/historical/gaia.json)
+- [measurements.json](../../campaign/batch09/435209690/measurements.json)
+- [phase-review.png](../../campaign/batch09/435209690/phase-review.png)
+- [raw-events.png](../../campaign/batch09/435209690/raw-events.png)
+- [raw-windows.csv](../../campaign/batch09/435209690/raw-windows.csv)
+
+[Batch audits and scripts](../../campaign/batch09/INDEX.md). [Depth correction provenance](../../campaign/depth-audit/README.md).

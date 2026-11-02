@@ -1,0 +1,278 @@
+{
+  "measured_period_days": 8.57045995855222,
+  "within_sector_consecutive_pairs": [
+    {
+      "sector": 14,
+      "cycles": [
+        0,
+        1
+      ],
+      "measured_spacing_days": 8.57136799019031
+    },
+    {
+      "sector": 81,
+      "cycles": [
+        213,
+        214
+      ],
+      "measured_spacing_days": 8.571064052381644
+    },
+    {
+      "sector": 81,
+      "cycles": [
+        214,
+        215
+      ],
+      "measured_spacing_days": 8.569591340866282
+    }
+  ],
+  "sector_parity_depths": {
+    "14": {
+      "0": [
+        115.72855215566354
+      ],
+      "1": [
+        121.37074990572336
+      ]
+    },
+    "41": {
+      "0": [
+        116.04258572371236,
+        118.311516289147
+      ],
+      "1": []
+    },
+    "81": {
+      "0": [
+        116.42490676399773
+      ],
+      "1": [
+        118.21908637681005,
+        117.65052647576815
+      ]
+    }
+  },
+  "coverage": [
+    {
+      "sector": 14,
+      "cycle": 0,
+      "phase": 0,
+      "predicted_center_btjd": 1686.8328009560023,
+      "n_core": 10,
+      "n_flagged_core": 0,
+      "n_pre": 19,
+      "n_post": 19,
+      "raw_depth_ppt": 116.45577708587751,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 14,
+      "cycle": 0,
+      "phase": 0.5,
+      "predicted_center_btjd": 1691.1180309352785,
+      "n_core": 0,
+      "n_flagged_core": 9,
+      "n_pre": 0,
+      "n_post": 0,
+      "status": "flagged/gap/insufficient baseline; not clean null",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 14,
+      "cycle": 1,
+      "phase": 0,
+      "predicted_center_btjd": 1695.4032609145545,
+      "n_core": 9,
+      "n_flagged_core": 0,
+      "n_pre": 17,
+      "n_post": 19,
+      "raw_depth_ppt": 121.26240319958926,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 14,
+      "cycle": 1,
+      "phase": 0.5,
+      "predicted_center_btjd": 1699.6884908938307,
+      "n_core": 10,
+      "n_flagged_core": 0,
+      "n_pre": 19,
+      "n_post": 19,
+      "raw_depth_ppt": -55.18633020165375,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 14,
+      "cycle": 2,
+      "phase": 0,
+      "predicted_center_btjd": 1703.9737208731067,
+      "n_core": 0,
+      "n_flagged_core": 9,
+      "n_pre": 0,
+      "n_post": 0,
+      "status": "flagged/gap/insufficient baseline; not clean null"
+    },
+    {
+      "sector": 14,
+      "cycle": 2,
+      "phase": 0.5,
+      "predicted_center_btjd": 1708.258950852383,
+      "n_core": 0,
+      "n_flagged_core": 9,
+      "n_pre": 0,
+      "n_post": 8,
+      "status": "flagged/gap/insufficient baseline; not clean null",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 41,
+      "cycle": 86,
+      "phase": 0,
+      "predicted_center_btjd": 2423.8923573914935,
+      "n_core": 28,
+      "n_flagged_core": 0,
+      "n_pre": 56,
+      "n_post": 56,
+      "raw_depth_ppt": 116.76305858483305,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 41,
+      "cycle": 86,
+      "phase": 0.5,
+      "predicted_center_btjd": 2428.1775873707693,
+      "n_core": 28,
+      "n_flagged_core": 0,
+      "n_pre": 56,
+      "n_post": 56,
+      "raw_depth_ppt": -55.92691421667517,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 41,
+      "cycle": 87,
+      "phase": 0,
+      "predicted_center_btjd": 2432.4628173500455,
+      "n_core": 18,
+      "n_flagged_core": 10,
+      "n_pre": 56,
+      "n_post": 0,
+      "status": "flagged/gap/insufficient baseline; not clean null"
+    },
+    {
+      "sector": 41,
+      "cycle": 87,
+      "phase": 0.5,
+      "predicted_center_btjd": 2436.7480473293217,
+      "n_core": 28,
+      "n_flagged_core": 0,
+      "n_pre": 56,
+      "n_post": 56,
+      "raw_depth_ppt": -53.26806189971434,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 41,
+      "cycle": 88,
+      "phase": 0,
+      "predicted_center_btjd": 2441.0332773085975,
+      "n_core": 28,
+      "n_flagged_core": 0,
+      "n_pre": 56,
+      "n_post": 56,
+      "raw_depth_ppt": 118.50851524602224,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 41,
+      "cycle": 88,
+      "phase": 0.5,
+      "predicted_center_btjd": 2445.3185072878737,
+      "n_core": 28,
+      "n_flagged_core": 0,
+      "n_pre": 56,
+      "n_post": 56,
+      "raw_depth_ppt": -54.40380632848796,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 81,
+      "cycle": 212,
+      "phase": 0.5,
+      "predicted_center_btjd": 3508.055542148349,
+      "n_core": 84,
+      "n_flagged_core": 0,
+      "n_pre": 169,
+      "n_post": 168,
+      "raw_depth_ppt": -52.599499766945,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 81,
+      "cycle": 213,
+      "phase": 0,
+      "predicted_center_btjd": 3512.3407721276253,
+      "n_core": 84,
+      "n_flagged_core": 0,
+      "n_pre": 168,
+      "n_post": 169,
+      "raw_depth_ppt": 118.13213745257012,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 81,
+      "cycle": 213,
+      "phase": 0.5,
+      "predicted_center_btjd": 3516.626002106901,
+      "n_core": 0,
+      "n_flagged_core": 84,
+      "n_pre": 0,
+      "n_post": 168,
+      "status": "flagged/gap/insufficient baseline; not clean null",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 81,
+      "cycle": 214,
+      "phase": 0,
+      "predicted_center_btjd": 3520.9112320861777,
+      "n_core": 85,
+      "n_flagged_core": 0,
+      "n_pre": 168,
+      "n_post": 168,
+      "raw_depth_ppt": 117.12686275307149,
+      "status": "covered core with both baselines"
+    },
+    {
+      "sector": 81,
+      "cycle": 214,
+      "phase": 0.5,
+      "predicted_center_btjd": 3525.1964620654535,
+      "n_core": 84,
+      "n_flagged_core": 0,
+      "n_pre": 169,
+      "n_post": 168,
+      "raw_depth_ppt": -53.41853478989256,
+      "status": "covered core with both baselines",
+      "interpretation_warning": "Actual other-kind eclipse is near this half-phase window or baseline. This local ratio is not a clean eclipse depth or clean null; use secondary-timing.json and full raw fold."
+    },
+    {
+      "sector": 81,
+      "cycle": 215,
+      "phase": 0,
+      "predicted_center_btjd": 3529.4816920447297,
+      "n_core": 84,
+      "n_flagged_core": 0,
+      "n_pre": 168,
+      "n_post": 168,
+      "raw_depth_ppt": 117.0599655432123,
+      "status": "covered core with both baselines"
+    }
+  ],
+  "interpretation": "Adjacent measured events test cycle spacing. Half-phase raw windows test P/2 and alternating-depth parity tests2P; sparse/flagged windows are not nulls. Equal-depth eclipses can retain an exact2P ambiguity; orbital association additionally uses Gaia but Gaia does not supply measured photometric timing. No exhaustive all-alias search."
+}

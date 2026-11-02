@@ -1,0 +1,110 @@
+{
+  "tic": "49621708",
+  "historical_period_days": 11.561877582615365,
+  "historical_epoch_btjd": 2458.9885,
+  "search_duration_days": 0.12,
+  "events": [
+    {
+      "sector": 70,
+      "cycle": 65,
+      "predicted_btjd": 3210.5105428699985,
+      "mid_btjd": 3210.508006968195,
+      "timing_error_days": 0.0011573625550909128,
+      "formal_timing_error_days": 7.103017544940718e-05,
+      "depth_ppt": 381.8415786582924,
+      "duration_days": 0.20451279917687654,
+      "cadence_days": 0.0023147251101818256,
+      "oot_scatter_ppt": 2.779503020020241,
+      "resid_rms_ppt": 4.678616956317551,
+      "n": 311,
+      "fit_shift_days": -0.0025359018034713213,
+      "timing_usable": true
+    },
+    {
+      "sector": 70,
+      "cycle": 66,
+      "predicted_btjd": 3222.072420452614,
+      "mid_btjd": 3222.0698099741103,
+      "timing_error_days": 0.0011573625550909128,
+      "formal_timing_error_days": 0.0001032999693113506,
+      "depth_ppt": 382.44820001960727,
+      "duration_days": 0.2046850806099433,
+      "cadence_days": 0.0023147251101818256,
+      "oot_scatter_ppt": 4.04384034729069,
+      "resid_rms_ppt": 4.685520366723953,
+      "n": 311,
+      "fit_shift_days": -0.00261047850392364,
+      "timing_usable": true
+    },
+    {
+      "sector": 92,
+      "cycle": 117,
+      "predicted_btjd": 3811.7281771659973,
+      "mid_btjd": 3811.7262573458906,
+      "timing_error_days": 0.0011575106420878,
+      "formal_timing_error_days": 9.845558225058857e-05,
+      "depth_ppt": 373.39391286086703,
+      "duration_days": 0.20645175736083005,
+      "cadence_days": 0.0023150212841756,
+      "oot_scatter_ppt": 3.7718885580302466,
+      "resid_rms_ppt": 5.018613740550342,
+      "n": 311,
+      "fit_shift_days": -0.0019198201066145352,
+      "timing_usable": true
+    },
+    {
+      "sector": 92,
+      "cycle": 118,
+      "predicted_btjd": 3823.290054748613,
+      "mid_btjd": 3823.288465712855,
+      "timing_error_days": 0.0011575106420878,
+      "formal_timing_error_days": 9.081023223260773e-05,
+      "depth_ppt": 373.73515034727075,
+      "duration_days": 0.2037813667969819,
+      "cadence_days": 0.0023150212841756,
+      "oot_scatter_ppt": 3.264298018220523,
+      "resid_rms_ppt": 5.034205072363558,
+      "n": 207,
+      "fit_shift_days": -0.001589035757874712,
+      "timing_usable": true
+    }
+  ],
+  "sources": [
+    {
+      "tic": "49621708",
+      "sector": 42,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\49621708_s042.fits",
+      "sha256": "4a6fd7eaa4e5bd8582f2dea467120e568fd44fec5791ead62ef44205884f1b41",
+      "status": "ok"
+    },
+    {
+      "tic": "49621708",
+      "sector": 70,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\49621708_s070.fits",
+      "sha256": "718379c87550ba0805d59c3cede779b574ee95c9b50f92427d9b9dd0474a6883",
+      "status": "ok"
+    },
+    {
+      "tic": "49621708",
+      "sector": 92,
+      "path": "local-source/Astra\\made\\remaining136-2026-11-01\\shared-qlp\\49621708_s092.fits",
+      "sha256": "57f219e21b9a84954541701362250a1a3af73b074540ed1166bee26109b8b676",
+      "status": "ok"
+    }
+  ],
+  "epoch_kind": "Selected repeating eclipse, primary by convention; deeper/secondary identity not independently established",
+  "timing_event_count": 4,
+  "period_days": 11.561893369570406,
+  "period_error_days": 2.2254281485744267e-05,
+  "primary_epoch_btjd": 3210.507960706784,
+  "epoch_cycle": 65,
+  "timing_residual_days": [
+    4.626141071639722e-05,
+    -4.410224437378929e-05,
+    -0.00015857855441936408,
+    0.00015641883965145098
+  ],
+  "reduced_chi_square": 0.020039910785431155,
+  "error_meaning": "Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated.",
+  "depth_ppt": 377.7883645027816
+}

@@ -1,0 +1,140 @@
+{
+  "tic": "393761712",
+  "sector": 20,
+  "label": "fresh",
+  "n_events": 2,
+  "events": [
+    {
+      "cycle": -1,
+      "t": 1848.4185504366055,
+      "n_in": 9,
+      "n_out": 29,
+      "depth_ap3": 0.0784940094729465
+    },
+    {
+      "cycle": 0,
+      "t": 1859.747225175518,
+      "n_in": 9,
+      "n_out": 30,
+      "depth_ap3": 0.07666509434603058
+    }
+  ],
+  "target_px": [
+    7.133785170811102,
+    7.130107863557841
+  ],
+  "target_G": 12.415063,
+  "light_centroid": [
+    7.0805905837325165,
+    7.253263933709772
+  ],
+  "deficit_centroid": [
+    7.077080695832156,
+    7.218069767439698
+  ],
+  "deficit_minus_target_px": [
+    -0.05670447497894582,
+    0.08796190388185732
+  ],
+  "deficit_minus_light_px": [
+    -0.003509887900360553,
+    -0.03519416627007388
+  ],
+  "deficit_minus_light_arcsec": 0.7427438022365102,
+  "peak_deficit_px": [
+    7,
+    7
+  ],
+  "target_pixel": [
+    7,
+    7
+  ],
+  "psf_fit_scale": 0.010696950263949574,
+  "psf_fit_frac_resid": 0.9169243074142184,
+  "depth_ap1": 0.07857831412099711,
+  "depth_ap3": 0.07757544994915952,
+  "depth_ap5": 0.0764934345562048,
+  "neighbours_60": [
+    {
+      "source_id": "878893283930636032",
+      "sep": 44.27529722935645,
+      "G": 20.959124,
+      "depth_needed": 191.3236841896346,
+      "possible": false,
+      "px": [
+        6.239673342740325,
+        5.1403929679988405
+      ],
+      "frac_loss_at_pixel": 0.007199793674113642,
+      "signed_deficit_e_per_s_at_pixel": 0.028593063354492188,
+      "baseline_e_per_s_at_pixel": 3.971372604370117,
+      "distance_from_target_pixels": 2.1813760168080676
+    },
+    {
+      "source_id": "878893451432155136",
+      "sep": 51.25170024613641,
+      "G": 20.131624,
+      "depth_needed": 89.32198457643712,
+      "possible": false,
+      "px": [
+        6.212198158416101,
+        9.567124236138241
+      ],
+      "frac_loss_at_pixel": 0.02893759357125198,
+      "signed_deficit_e_per_s_at_pixel": 0.9646816253662109,
+      "baseline_e_per_s_at_pixel": 33.33662223815918,
+      "distance_from_target_pixels": 2.605450329912293
+    },
+    {
+      "source_id": "878893382713903232",
+      "sep": 53.68523200877652,
+      "G": 20.975142,
+      "depth_needed": 194.16614349046156,
+      "possible": false,
+      "px": [
+        9.631922041012514,
+        6.095865617297981
+      ],
+      "frac_loss_at_pixel": -0.1254439755658512,
+      "signed_deficit_e_per_s_at_pixel": 0.1013498306274414,
+      "baseline_e_per_s_at_pixel": -0.8079290390014648,
+      "distance_from_target_pixels": 2.7037649391558336
+    },
+    {
+      "source_id": "878894104267141888",
+      "sep": 58.07349826599795,
+      "G": 19.014475,
+      "depth_needed": 31.96961882161043,
+      "possible": false,
+      "px": [
+        4.363242305779809,
+        8.037443909713607
+      ],
+      "frac_loss_at_pixel": 0.07152220573854588,
+      "signed_deficit_e_per_s_at_pixel": 0.8312253952026367,
+      "baseline_e_per_s_at_pixel": 11.621920585632324,
+      "distance_from_target_pixels": 2.915332994295743
+    }
+  ],
+  "n_neighbours_60": 4,
+  "n_possible": 0,
+  "brightest_neighbour_60": {
+    "source_id": "878894104267141888",
+    "sep": 58.07349826599795,
+    "G": 19.014475,
+    "depth_needed": 31.96961882161043,
+    "possible": false,
+    "px": [
+      4.363242305779809,
+      8.037443909713607
+    ],
+    "frac_loss_at_pixel": 0.07152220573854588,
+    "signed_deficit_e_per_s_at_pixel": 0.8312253952026367,
+    "baseline_e_per_s_at_pixel": 11.621920585632324,
+    "distance_from_target_pixels": 2.915332994295743
+  },
+  "G_limit_for_depth": 15.255117132230243,
+  "target_signed_deficit_e_per_s_at_pixel": 44.6823787689209,
+  "target_baseline_e_per_s_at_pixel": 568.63498878479,
+  "actual_deficit_note": "Signed pixel deficits and baselines have identical electron/s units. Intrinsic required loss is a brightness proxy; it is not compared directly to diluted fractional pixel loss. Overlapping PRFs do not provide deblended source fluxes."
+}

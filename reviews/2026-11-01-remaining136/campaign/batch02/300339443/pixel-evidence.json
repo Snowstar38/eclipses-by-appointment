@@ -1,0 +1,121 @@
+{
+  "identity": {
+    "gaia_source_id": "1827899598271026688",
+    "coordinate_error_arcsec": 1.2789769243681803e-11
+  },
+  "sector": 81,
+  "target_px": [
+    7.838196887233112,
+    7.436510284367516
+  ],
+  "duration_days": 0.3895119255022765,
+  "events": [
+    {
+      "historical_cycle": 213,
+      "window_center_btjd": 3512.3394679211415,
+      "n_in": 85,
+      "n_pre": 166,
+      "n_post": 166,
+      "centroid_px": [
+        7.988365637754141,
+        7.372935319076147
+      ],
+      "target_distance_px": 0.16307185485192086,
+      "aperture_depths_ppt": {
+        "1": 115.54535031210807,
+        "3": 74.4559498770584,
+        "5": 44.91379817344726
+      }
+    },
+    {
+      "historical_cycle": 214,
+      "window_center_btjd": 3520.909911901992,
+      "n_in": 84,
+      "n_pre": 169,
+      "n_post": 168,
+      "centroid_px": [
+        7.986292969061556,
+        7.336930887167122
+      ],
+      "target_distance_px": 0.17846149668690786,
+      "aperture_depths_ppt": {
+        "1": 115.30610344993424,
+        "3": 73.79250645823484,
+        "5": 45.533225583567194
+      }
+    },
+    {
+      "historical_cycle": 215,
+      "window_center_btjd": 3529.4803558828426,
+      "n_in": 84,
+      "n_pre": 168,
+      "n_post": 169,
+      "centroid_px": [
+        7.989188275625115,
+        7.352526133462729
+      ],
+      "target_distance_px": 0.17277655214682025,
+      "aperture_depths_ppt": {
+        "1": 117.70515578902688,
+        "3": 74.9143624369002,
+        "5": 46.2020694060463
+      }
+    }
+  ],
+  "mean_centroid_px": [
+    7.987948960813604,
+    7.3541307799019995
+  ],
+  "event_scatter_px": [
+    0.0014919499920669182,
+    0.018055773229612843
+  ],
+  "target_distance_px": 0.17091537759265923,
+  "capable": [
+    {
+      "source_id": "1827899671327619072",
+      "separation_arcsec": 25.55736237882994,
+      "G": 13.415694,
+      "intrinsic_required_fraction": 0.42801907431914593,
+      "pixel_position": [
+        7.6255989631511945,
+        8.625386868079527
+      ],
+      "distance_to_deficit_px": 1.321888634694458
+    },
+    {
+      "source_id": "1827899602608139776",
+      "separation_arcsec": 29.832836819337047,
+      "G": 13.748389,
+      "intrinsic_required_fraction": 0.539227837307519,
+      "pixel_position": [
+        9.238271741342402,
+        7.597094317940881
+      ],
+      "distance_to_deficit_px": 1.2737104601618199
+    },
+    {
+      "source_id": "1827898846705015680",
+      "separation_arcsec": 43.381139633374374,
+      "G": 13.999103,
+      "intrinsic_required_fraction": 0.6486788607946544,
+      "pixel_position": [
+        8.88028778651421,
+        5.670505592344721
+      ],
+      "distance_to_deficit_px": 1.905482183603409
+    },
+    {
+      "source_id": "1827524291192242560",
+      "separation_arcsec": 53.1934978822081,
+      "G": 13.346321,
+      "intrinsic_required_fraction": 0.4088215281497788,
+      "pixel_position": [
+        6.754296566768282,
+        5.170161921154492
+      ],
+      "distance_to_deficit_px": 2.508309830406253
+    }
+  ],
+  "method": "Quality-zero raw TESScut flux; per-cadence low40% median background; in |dt|<0.25 measured duration, separate symmetric out baselines0.75\u20131.75duration; positive-deficit centroid in target5x5; event scatter descriptive, not calibrated localization error. Aperture depths use signed deficit. Same TESS photons as QLP, independent extraction not independent observing occasions."
+}

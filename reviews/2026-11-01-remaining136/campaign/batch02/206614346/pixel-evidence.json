@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "gaia_source_id": "6607402809430700800",
+    "coordinate_error_arcsec": 5.1159076974727213e-11
+  },
+  "sector": 2,
+  "target_px": [
+    7.454452884897659,
+    7.743317360070025
+  ],
+  "duration_days": 0.22114486318073662,
+  "events": [
+    {
+      "historical_cycle": 0,
+      "window_center_btjd": 1359.9449,
+      "n_in": 6,
+      "n_pre": 11,
+      "n_post": 11,
+      "centroid_px": [
+        7.5430584239518526,
+        7.766909643944547
+      ],
+      "target_distance_px": 0.09169262461888768,
+      "aperture_depths_ppt": {
+        "1": 88.42061968499551,
+        "3": 87.1549660789217,
+        "5": 84.267242676921
+      }
+    },
+    {
+      "historical_cycle": 1,
+      "window_center_btjd": 1371.6279700847913,
+      "n_in": 6,
+      "n_pre": 11,
+      "n_post": 10,
+      "centroid_px": [
+        7.52195869583406,
+        7.869204760701221
+      ],
+      "target_distance_px": 0.14284492342348215,
+      "aperture_depths_ppt": {
+        "1": 88.64039589052636,
+        "3": 87.72679133276158,
+        "5": 85.00742470338028
+      }
+    }
+  ],
+  "mean_centroid_px": [
+    7.532508559892957,
+    7.818057202322883
+  ],
+  "event_scatter_px": [
+    0.014919760833283377,
+    0.07233357074091407
+  ],
+  "target_distance_px": 0.10806818411981284,
+  "capable": [],
+  "method": "Quality-zero raw TESScut flux; per-cadence low40% median background; in |dt|<0.25 measured duration, separate symmetric out baselines0.75\u20131.75duration; positive-deficit centroid in target5x5; event scatter descriptive, not calibrated localization error. Aperture depths use signed deficit. Same TESS photons as QLP, independent extraction not independent observing occasions."
+}

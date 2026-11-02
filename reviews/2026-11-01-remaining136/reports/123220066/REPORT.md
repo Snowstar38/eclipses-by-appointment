@@ -1,0 +1,42 @@
+# TIC 123220066: CONFIRMED
+
+Full bounded physical review: **COMPLETE**. Physical classification is separate from catalogue recovery/novelty; historical screening was not an admission verdict.
+
+1. **Raw events.** 5 free-center trapezoid measurements from quality-zero QLP SAP_FLUX in sectors [8, 35, 62, 89, 99]; 5 enter the reported ephemeris. Representative raw light curves and numerical windows show repeated eclipse morphology. Predictions guided the windows and are not measurements. Flagged or uncovered windows are not clean nulls.
+2. **Timing and aliases.** Measured recurring-eclipse timing supported. P=19.3886399262 +/- 0.0002064827 d; reference BTJD=1526.7034798. Epoch kind: Selected repeating eclipse; depth rank to be checked against other event kind. Linear timing fit using conservative per-event max(formal trapezoid covariance error, half cadence); covariance inflated when reduced chi square exceeds one. Not calibrated coverage or total uncertainty; pipeline timing offsets, trapezoid shape and baseline model systematics are not calibrated. The formal error column is the local free-center model covariance; the input error adds a half-cadence floor. Singular/unidentifiable centers are excluded. Cycle/parity counts are in [../alias-audit.json](../../campaign/batch01/alias-audit.json). Selected eclipse means the measured recurrence, with no assumption that it is the deeper primary. The bounded half/double check does not prove all possible aliases absent. For this sparse case, [../sparse-alias-coverage.json](../../campaign/batch01/sparse-alias-coverage.json) and [../terra/123-half-null.png](../../campaign/batch01/terra/123-half-null.png) retain additional current-coverage and alias evidence; the null thresholds are heuristic, not confidence limits. Unequal shallower secondary eclipses are not excluded.
+3. **Attribution.** Fresh difference stack in sector 8 has 1 events; target coordinate [7.524867716712931, 7.741832028869618], deficit [7.713426640385074, 7.662301616416583]; offset 0.205 pixel. The image-model fractional residual 0.280 is not a localization uncertainty. Every capable Gaia neighbor in the retained 60-arcsec table was inspected: Gaia 3824060626331605760: 32.06 arcsec, G=14.787, intrinsic required loss proxy=0.110; Gaia 3824060729410819456: 44.60 arcsec, G=15.069, intrinsic required loss proxy=0.139. The intrinsic loss proxy uses a pairwise G-band flux budget and cannot be directly compared with diluted pixel fractional loss. Close blends and passband/aperture response limit exclusion claims. Five actual raw midpoints after inspecting all five currently available QLP sectors (8/35/62/89/99). A bounded 0.8-40 day integer-alias test leaves only the 19.389-day recurrence without clean sampled nulls; the half-period predicts four nulls. Two capable sources at 32 and 45 arcsec are separated from the target-centered deficit. One-event image noise and non-calibrated localization remain limitations.
+4. **Alternative reduction.** Fresh TESScut background-subtracted target-centered 1x1/3x3/5x5 depths are 7.84/9.61/9.09 ppt; selected QLP fitted median 10.53 ppt. This reruns the historical extraction primitive using the fresh ephemeris and measured duration, with identity and source hashes checked. The alternative extraction and the QLP data for this sector share the same TESS photons; they test processing robustness and are not independent observations. Distinct sectors are distinct observing occasions on one instrument. Depth differences can reflect dilution, aperture and background response; intrinsic binary depth is not inferred.
+5. **Gaia geometry/physical plausibility.** Exact DR3 source 3824060695051082368, orbital P=19.3881864909 d, e=0.25411. Closest edge-on conjunction offset=0.18990 d (0.00979 phase), full source-specific covariance linear timing allowance=0.41755 d. Full 6x6 orbit correlation matrix is positive definite (helper receipt). Mass function=0.022158 solar masses; adopted primary mass=0.929, minimum secondary mass=0.327. Rough central duration=13.01 h versus observed median=5.78 h. Radius and main-sequence companion assumptions make this a plausibility calculation, not a fitted geometry or calibrated significance veto. Shorter observed duration can reflect impact parameter and model assumptions. Orbit agreement does not establish ownership among unresolved sources.
+
+**Deciding limit:** Five actual raw midpoints after inspecting all five currently available QLP sectors (8/35/62/89/99). A bounded 0.8-40 day integer-alias test leaves only the 19.389-day recurrence without clean sampled nulls; the half-period predicts four nulls. Two capable sources at 32 and 45 arcsec are separated from the target-centered deficit. One-event image noise and non-calibrated localization remain limitations.
+
+**Next check:** Optional resolved photometry and spectroscopy for precision physical parameters.
+
+Catalogue recovery is recorded centrally in [../../shared-catalogues/coverage-matrix.csv](../../campaign/shared-catalogues/coverage-matrix.csv). A successful cone with no exact eclipsing target classification is distinct from a failed query; known recoveries must not count as new additions. No exhaustive literature priority claim is made.
+
+| Sector | Search cycle | Measured midpoint BTJD | Formal center error d | Timing input error d | Depth ppt | Timing status |
+|---|---:|---:|---:|---:|---:|---|
+| 8 | 0 | 1526.6544279 | 0.0115875 | 0.0115875 | 10.38 | selected |
+| 35 | 38 | 2263.4732149 | 0.00389949 | 0.00389949 | 13.67 | selected |
+| 62 | 76 | 3000.2382630 | 0.0022037 | 0.0022037 | 10.53 | selected |
+| 89 | 114 | 3737.0255629 | 0.00220041 | 0.00220041 | 15.94 | selected |
+| 99 | 131 | 4066.6071194 | 0.00168496 | 0.00168496 | 9.10 | selected |
+
+Evidence: [measurements.json](../../campaign/batch01/123220066/measurements.json), [raw-windows.csv](../../campaign/batch01/123220066/raw-windows.csv), [raw-events.png](../../campaign/batch01/123220066/raw-events.png), [fresh-pixels/diff_fresh.json](../../campaign/batch01/123220066/fresh-pixels/diff_fresh.json)/png, historical original receipts, [../measurement-source-receipts.json](../../campaign/batch01/measurement-source-receipts.json), [../identity-check.json](../../campaign/batch01/identity-check.json), [../alias-audit.json](../../campaign/batch01/alias-audit.json), [../gaia-geometry.json](../../campaign/batch01/gaia-geometry.json) and [../helper-audit.md](../../campaign/batch01/helper-audit.md). Original inputs and fresh outputs are covered by [../SHA256SUMS.json](../../campaign/batch01/SHA256SUMS.json) and [../source-hashes.json](../../campaign/batch01/source-hashes.json).
+
+
+Stable review key: R547.
+
+Deciding evidence and numeric artifacts:
+- [fresh-pixels/diff_fresh.json](../../campaign/batch01/123220066/fresh-pixels/diff_fresh.json)
+- [fresh-pixels/diff_fresh.png](../../campaign/batch01/123220066/fresh-pixels/diff_fresh.png)
+- [fresh-pixels/gaia.json](../../campaign/batch01/123220066/fresh-pixels/gaia.json)
+- [fresh-pixels/run.log](../../campaign/batch01/123220066/fresh-pixels/run.log)
+- [historical/diff_s08.json](../../campaign/batch01/123220066/historical/diff_s08.json)
+- [historical/diff_s08.png](../../campaign/batch01/123220066/historical/diff_s08.png)
+- [historical/gaia.json](../../campaign/batch01/123220066/historical/gaia.json)
+- [measurements.json](../../campaign/batch01/123220066/measurements.json)
+- [raw-events.png](../../campaign/batch01/123220066/raw-events.png)
+- [raw-windows.csv](../../campaign/batch01/123220066/raw-windows.csv)
+
+[Batch audits and scripts](../../campaign/batch01/INDEX.md). [Depth correction provenance](../../campaign/depth-audit/README.md).
