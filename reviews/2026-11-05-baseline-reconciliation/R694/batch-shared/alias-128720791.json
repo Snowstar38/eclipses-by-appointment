@@ -1,0 +1,127 @@
+{
+  "tic": "128720791",
+  "measured_centers_btjd": [
+    1740.089213512742,
+    2847.1165834101093,
+    3563.42827506288
+  ],
+  "conservative_timing_errors_days": [
+    0.010416643089115496,
+    0.0011574184287610478,
+    0.0011574132872738119
+  ],
+  "searched_cycle_ranges": {
+    "second_event": [
+      35,
+      74
+    ],
+    "third_event": [
+      36,
+      119
+    ]
+  },
+  "period_search_days": [
+    15,
+    30
+  ],
+  "accepted_chi_square_under_25": [
+    {
+      "cycles": [
+        0,
+        68,
+        112
+      ],
+      "period_days": 16.279811391264776,
+      "chi_square": 0.00036656765036676857,
+      "maximum_abs_residual_minutes": 0.2726512114168145,
+      "clean_predicted_windows": [
+        {
+          "sector": 16,
+          "cycle": 0,
+          "predicted_btjd": 1740.089213512742,
+          "core_samples": 6,
+          "median_deficit_ppt": 3.806561120015872,
+          "oot_scatter_ppt": 0.44988414412373584
+        },
+        {
+          "sector": 16,
+          "cycle": 1,
+          "predicted_btjd": 1756.3690249040067,
+          "core_samples": 5,
+          "median_deficit_ppt": -0.20360021928755856,
+          "oot_scatter_ppt": 0.3299580199713135
+        },
+        {
+          "sector": 56,
+          "cycle": 67,
+          "predicted_btjd": 2830.8365767274818,
+          "core_samples": 52,
+          "median_deficit_ppt": -0.145248885694782,
+          "oot_scatter_ppt": 0.8715501615775441
+        },
+        {
+          "sector": 56,
+          "cycle": 68,
+          "predicted_btjd": 2847.1163881187467,
+          "core_samples": 51,
+          "median_deficit_ppt": 4.608838383492131,
+          "oot_scatter_ppt": 0.8079585468664768
+        },
+        {
+          "sector": 83,
+          "cycle": 112,
+          "predicted_btjd": 3563.4280893343966,
+          "core_samples": 52,
+          "median_deficit_ppt": 4.579196291353282,
+          "oot_scatter_ppt": 0.7008562162473702
+        },
+        {
+          "sector": 83,
+          "cycle": 113,
+          "predicted_btjd": 3579.7079007256616,
+          "core_samples": 52,
+          "median_deficit_ppt": -0.102403031988052,
+          "oot_scatter_ppt": 0.7991902828940043
+        }
+      ]
+    },
+    {
+      "cycles": [
+        0,
+        51,
+        84
+      ],
+      "period_days": 21.706415188353116,
+      "chi_square": 0.0003665676532521077,
+      "maximum_abs_residual_minutes": 0.2726511878427118,
+      "clean_predicted_windows": [
+        {
+          "sector": 16,
+          "cycle": 0,
+          "predicted_btjd": 1740.089213512742,
+          "core_samples": 6,
+          "median_deficit_ppt": 3.806561120015872,
+          "oot_scatter_ppt": 0.44988414412373584
+        },
+        {
+          "sector": 56,
+          "cycle": 51,
+          "predicted_btjd": 2847.116388118751,
+          "core_samples": 51,
+          "median_deficit_ppt": 4.608838383492131,
+          "oot_scatter_ppt": 0.8079585468664768
+        },
+        {
+          "sector": 83,
+          "cycle": 84,
+          "predicted_btjd": 3563.428089334404,
+          "core_samples": 52,
+          "median_deficit_ppt": 4.579196291353282,
+          "oot_scatter_ppt": 0.7008562162473702
+        }
+      ]
+    }
+  ],
+  "gaia_period_days": 21.7089228516977,
+  "interpretation": "Conditional integer-cycle enumeration, not blind all-period completeness. Three centers minus epoch/period leave one timing degree of freedom. The 16.2798-day alias has three clean additional predicted windows with approximately zero loss, versus 4\u20138 ppt measured events, and is rejected as an equal-depth same-kind clock. The Gaia-near 21.7064-day branch has no contradictory clean predicted window in retained sectors. The partial sector-56 first cycle is not used as a clean null."
+}

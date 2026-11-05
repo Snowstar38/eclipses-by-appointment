@@ -1,0 +1,93 @@
+{
+  "queue_row": {
+    "tic": "368903210",
+    "gaia_dr3": "195281133474312704",
+    "gaia_period_days": "26.946144164677033",
+    "gaia_G": "7.739329",
+    "ra_deg": "80.2672882703167",
+    "dec_deg": "42.504337529512355",
+    "nss_type": "SB2",
+    "queue_group": "single_sector_dip",
+    "cached_primary_identity_match": "False",
+    "dip_flag_sectors": "1",
+    "bright_flag_sectors": "0",
+    "known_prior_exact_note": "False",
+    "fold_raw_rank_tier": "",
+    "fold_isolated_window_stat_count": "",
+    "retained_dip_flags": "1",
+    "retained_bright_flags": "0",
+    "best_dip_contrast": "5.33126201856802",
+    "best_dip_depth": "0.0011112895765068576",
+    "best_window_btjd": "1820.9536195137937",
+    "best_window_duration_days": "0.96",
+    "best_window_slope_ratio": "0.011578647585918898",
+    "max_bright_contrast": "0",
+    "period_fold_attempted": "False",
+    "period_fold_flag": "False",
+    "old20_24_flag": "not_in_old1674",
+    "fold_best_z": "",
+    "fold_screening_period_days": "",
+    "fold_screening_depth_ppm": "",
+    "files": "1",
+    "usable_files": "1",
+    "failed_files": "0",
+    "dip_sameccd_max_other_targets": "0",
+    "dip_otherccd_max_other_targets": "4",
+    "bright_sameccd_max_other_targets": "0",
+    "output": "bulk-results\\368903210.json",
+    "common_mode_features": "[local-path-redacted]",
+    "sample_stratum": "single_sector_dip",
+    "selection_hash": "03197a7609deb0240aa0014c7b8968e36aa01b36d7d0623cfa61d9ef87e897f8",
+    "sample_id": "H066",
+    "batch": "batch07",
+    "stratum_population": "1079",
+    "stratum_sample": "20"
+  },
+  "target": {
+    "gaia": {
+      "source_id": "195281133474312704",
+      "nss_solution_type": "SB2",
+      "period": "26.946144164677033",
+      "period_error": "0.0037255622",
+      "t_periastron": "-9.599231547508827",
+      "t_periastron_error": "0.045730628",
+      "eccentricity": "0.4651073538511051",
+      "eccentricity_error": "0.008615879",
+      "arg_periastron": "9.206502601381642",
+      "arg_periastron_error": "0.7113689",
+      "semi_amplitude_primary": "55.146216843002584",
+      "semi_amplitude_secondary": "78.58838439942438",
+      "goodness_of_fit": "26.958893",
+      "significance": "65.65961",
+      "ra": "80.2672882703167",
+      "dec": "42.504337529512355",
+      "parallax": "2.7927207025104814",
+      "phot_g_mean_mag": "7.739329",
+      "bp_rp": "0.019494534",
+      "ruwe": "1.3515086",
+      "phot_variable_flag": "NOT_AVAILABLE",
+      "veb": ""
+    },
+    "control": false,
+    "files": [
+      {
+        "path": "[local-path-redacted]",
+        "sha256": "3fec1d5d734a174672b738889c94b7e6570ec4fc166c5e7072c957687dbae5ea"
+      }
+    ]
+  },
+  "bulk_result": "[local-path-redacted]",
+  "bulk_result_sha256": "30ed77f78abec4f86f7ff889c3eece16d69d558bee219882ee057bf02eda9672",
+  "fold_result": null,
+  "fold_result_sha256": null,
+  "fold": null,
+  "verified_files": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "3fec1d5d734a174672b738889c94b7e6570ec4fc166c5e7072c957687dbae5ea",
+      "sector": 19,
+      "quality0_samples": 829
+    }
+  ],
+  "preview_caveat": "Representative raw SAP quality0 plots only; not fitted events, physical decisions or full coverage audits."
+}

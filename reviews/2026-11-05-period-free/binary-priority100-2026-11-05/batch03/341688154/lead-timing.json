@@ -1,0 +1,78 @@
+{
+  "events": [
+    {
+      "sector": 14,
+      "cycle": 0,
+      "seed_btjd": 1703.347,
+      "mid_btjd": 1703.347046570132,
+      "formal_mid_error_days": 0.0034163008272384454,
+      "depth_ppt": 5.230342317143137,
+      "duration_days": 0.1345971636107532,
+      "edge_days": 0.04073999070529352,
+      "residual_scatter_ppt": 0.40653875517609894,
+      "n_quality0": 46,
+      "source_sha256": "42c9faee0597f0e55c58403f8c94093f06141530222b776d431696f352752203",
+      "alt_core_deficit_ppt": 4.006838538028523
+    },
+    {
+      "sector": 21,
+      "cycle": 3,
+      "seed_btjd": 1877.821,
+      "mid_btjd": 1877.8251586356591,
+      "formal_mid_error_days": 0.0018635415346084016,
+      "depth_ppt": 6.345421116972327,
+      "duration_days": 0.15332657925617266,
+      "edge_days": 0.048039776342049985,
+      "residual_scatter_ppt": 0.464091959108539,
+      "n_quality0": 52,
+      "source_sha256": "ee00ed8c62812af9b22b555f169b54fd823babd4e665aa5eaf3ea627f601655e",
+      "alt_core_deficit_ppt": 4.875252607004388
+    },
+    {
+      "sector": 48,
+      "cycle": 16,
+      "seed_btjd": 2633.874,
+      "mid_btjd": 2633.8705654956066,
+      "formal_mid_error_days": 0.002236566989851644,
+      "depth_ppt": 6.551337130992296,
+      "duration_days": 0.1523018145283963,
+      "edge_days": 0.06124444116294212,
+      "residual_scatter_ppt": 1.022932105324246,
+      "n_quality0": 156,
+      "source_sha256": "b8d68e6347a3b247b232f7da906800e7927953c814753583d3b0fda5dcbca2ed",
+      "alt_core_deficit_ppt": 4.329828163390448
+    },
+    {
+      "sector": 74,
+      "cycle": 28,
+      "seed_btjd": 3331.769,
+      "mid_btjd": 3331.7581434129024,
+      "formal_mid_error_days": 0.0021981733891355917,
+      "depth_ppt": 5.783377870367091,
+      "duration_days": 0.14413655456333221,
+      "edge_days": 0.04509779150697645,
+      "residual_scatter_ppt": 1.8524229183719954,
+      "n_quality0": 473,
+      "source_sha256": "fa071ab6111b5eb692cfae9fe3dcb03d6395c82a91d7da81b76c8fb66a657624"
+    }
+  ],
+  "epoch_btjd": 1703.3504327074402,
+  "period_days": 58.15744289747912,
+  "epoch_error_days": 0.006828665311215328,
+  "period_error_days": 0.00034868090477237386,
+  "residuals_days": [
+    -0.003386137308098114,
+    0.0023972357817001466,
+    0.0010464285005582497,
+    -0.0006904239530740597
+  ],
+  "weighted_chi2": 0.2157849260057689,
+  "scatter_inflation": 1,
+  "weight_floor_days": [
+    0.01,
+    0.01,
+    0.006,
+    0.006
+  ],
+  "method": "Local q0 raw SAP trapezoids; weighted line over same-kind cycle 0,3,16,28. Weights floor formal timing errors at stated values; multiply covariance errors by sqrt(reduced chi2) if >1. Alias coverage separate. QLP KSPSAP (same photons) is alternate reduction when available."
+}

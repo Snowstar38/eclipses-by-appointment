@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "mapping": {
+    "167197264": {
+      "period_days": "ephemeris-167197264.json:shared_period_days_descriptive",
+      "primary_epoch_btjd": "ephemeris-167197264.json:B_reference_btjd (fitted B epoch near s76)",
+      "depth_ppt": "helper-morphology-fits.json:tic=167197264,sector=76,window_half_days=2.0,depth*1000",
+      "gaia_period_days": "ephemeris-167197264.json:gaia_period_days",
+      "period_error_days": "blank; no calibrated photometric period error"
+    },
+    "155346713": {
+      "primary_epoch_btjd": "measurements-155346713.json:events[kind=A,sector=88].center_btjd",
+      "depth_ppt": "measurements-155346713.json:events[kind=A,sector=88].depth_ppt",
+      "gaia_period_days": "measurements-155346713.json:gaia_period_days",
+      "period_days": "blank; no same-kind photometric period",
+      "period_error_days": "blank"
+    }
+  }
+}

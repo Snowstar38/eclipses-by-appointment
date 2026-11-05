@@ -1,0 +1,151 @@
+{
+  "tic": "436013770",
+  "gaia_source_id": "3339827626624683264",
+  "screen_period_days": 23.735524684412614,
+  "screen_epoch_btjd": 1470.4137554223678,
+  "screen_duration_days": 0.261,
+  "source_receipts": [
+    {
+      "tic": "436013770",
+      "sector": 6,
+      "uri": "mast:HLSP/qlp/s0006/0000/0004/3601/3770/hlsp_qlp_tess_ffi_s0006-0000000436013770_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:29:40.335144+00:00",
+      "status": "ok",
+      "sha256": "7ce4c0f8aac6cc45e443c34350f6b0647eb32f9a30a6e2b32a9cf417a63730fe",
+      "bytes": 66240
+    },
+    {
+      "tic": "436013770",
+      "sector": 71,
+      "uri": "mast:HLSP/qlp/s0071/0000/0004/3601/3770/hlsp_qlp_tess_ffi_s0071-0000000436013770_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:29:40.383954+00:00",
+      "status": "ok",
+      "sha256": "e00355405abc61f66b3d6ac4779fe825be386e9eb76470f675e5a9558ad7df28",
+      "bytes": 665280
+    },
+    {
+      "tic": "436013770",
+      "sector": 72,
+      "uri": "mast:HLSP/qlp/s0072/0000/0004/3601/3770/hlsp_qlp_tess_ffi_s0072-0000000436013770_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:29:40.813328+00:00",
+      "status": "ok",
+      "sha256": "569a52506ee318ac2f68b787736e97745b37c0f47772d123f2eaefa15bd70b25",
+      "bytes": 650880
+    },
+    {
+      "tic": "436013770",
+      "sector": 98,
+      "uri": "mast:HLSP/qlp/s0098/0000/0004/3601/3770/hlsp_qlp_tess_ffi_s0098-0000000436013770_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:29:40.978769+00:00",
+      "status": "ok",
+      "sha256": "64cca63776ec4a6dbf65ebfb36402411245ee8831be3b2ff08653b2043b94800",
+      "bytes": 1460160
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 6,
+      "first_btjd": 1468.4124221532745,
+      "last_btjd": 1489.7245035588473,
+      "cadence_days": 0.02083296682508262,
+      "n": 824
+    },
+    {
+      "sector": 71,
+      "first_btjd": 3235.4620799415266,
+      "last_btjd": 3259.530899847238,
+      "cadence_days": 0.002314977482001268,
+      "n": 8574
+    },
+    {
+      "sector": 72,
+      "first_btjd": 3262.1166815260917,
+      "last_btjd": 3285.527193258647,
+      "cadence_days": 0.002314889626177319,
+      "n": 8420
+    },
+    {
+      "sector": 98,
+      "first_btjd": 3993.360343675595,
+      "last_btjd": 4045.8584727696157,
+      "cadence_days": 0.0023148662114635954,
+      "n": 12783
+    }
+  ],
+  "events": [
+    {
+      "sector": 6,
+      "cycle": 0,
+      "predicted_btjd": 1470.4137554223678,
+      "mid_btjd": 1470.423451005513,
+      "formal_timing_error_days": 0.000881665862139712,
+      "timing_error_days": 0.01041648341254131,
+      "timing_usable": true,
+      "depth_ppt": 33.83437140580932,
+      "model_amplitude_ppt": 33.83437140580932,
+      "duration_days": 0.49415260756827145,
+      "ingress_parameter_days": 0.10388349837621826,
+      "oot_scatter_ppt": 0.9030805729293311,
+      "n": 101,
+      "cadence_days": 0.02083296682508262,
+      "source_sha256": "7ce4c0f8aac6cc45e443c34350f6b0647eb32f9a30a6e2b32a9cf417a63730fe"
+    },
+    {
+      "sector": 71,
+      "cycle": 75,
+      "predicted_btjd": 3250.5781067533135,
+      "mid_btjd": 3250.5625748161265,
+      "formal_timing_error_days": 0.0007735964877037094,
+      "timing_error_days": 0.001157488741000634,
+      "timing_usable": true,
+      "depth_ppt": 36.44247095809958,
+      "model_amplitude_ppt": 36.44247095809958,
+      "duration_days": 0.4915037099958994,
+      "ingress_parameter_days": 0.10529274355996286,
+      "oot_scatter_ppt": 2.5500588573142484,
+      "n": 823,
+      "cadence_days": 0.002314977482001268,
+      "source_sha256": "e00355405abc61f66b3d6ac4779fe825be386e9eb76470f675e5a9558ad7df28"
+    },
+    {
+      "sector": 98,
+      "cycle": 107,
+      "predicted_btjd": 4010.114896654517,
+      "mid_btjd": 4010.1339204462706,
+      "formal_timing_error_days": 356259.5652102235,
+      "timing_error_days": null,
+      "timing_usable": false,
+      "depth_ppt": 27.301210264353898,
+      "model_amplitude_ppt": 27.301210264353898,
+      "duration_days": 0.3816650723315784,
+      "ingress_parameter_days": 0.08779363732412974,
+      "oot_scatter_ppt": 6.778771384647575,
+      "n": 788,
+      "cadence_days": 0.0023148662114635954,
+      "source_sha256": "64cca63776ec4a6dbf65ebfb36402411245ee8831be3b2ff08653b2043b94800"
+    }
+  ],
+  "timing_event_count": 2,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 23.735188317474393,
+  "period_error_days": 0.00013974128913057026,
+  "reference_epoch_btjd": 1470.423451005496,
+  "epoch_error_days": 0.010416483412541202,
+  "reference_cycle": 0,
+  "reduced_chi_square": null,
+  "timing_residual_days": [
+    1.7053025658242404e-11,
+    5.093170329928398e-11
+  ],
+  "depth_ppt": 35.13842118195445,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "physical_verdict": "PROBABLE",
+  "full_review_completion": "COMPLETE",
+  "catalogue_status": "UNKNOWN_INCOMPLETE_SCOPED_CHECKS",
+  "verdict_reason": "Two full raw eclipse centers span75 cycles. A third partial raw eclipse in sector98 has actual deep samples nearBTJD4010.12719; it is not used as a precise fitted center. This third occasion rejects the tested nearby integer counts by3.35\u201310.23 d, while the selected branch agrees to0.039 d. The difference favors the target and 1x1/3x3 losses33.20/33.31 ppt are stable, but the broad TESS PSF overlaps the sole capable neighbor31.7 arcsec away at roughly1.5 pixels. The image does not decisively exclude that source; attribution remains unresolved even though Gaia geometry is compatible."
+}

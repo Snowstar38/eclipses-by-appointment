@@ -1,0 +1,8 @@
+{
+  "description": "Post-screen bulk backlog ordering, frozen before raw SAP batch triage. Heuristic only; does not establish eclipse reality, target attribution, novelty, or orbital solution.",
+  "inclusion": "All fold flags, plus unflagged targets with max(P.z,P2.z)>=4 as near flags. All 1924 targets remain in all-outcomes.json regardless of queue membership.",
+  "raw_window": "Use best-z fold ephemeris P or P2 to predict each cached-sector window; quality-zero SAP, sector median normalized, core +/-duration/2, sidebands 1–2.5 durations on each side.",
+  "isolated_stat": "Positive median core depth, core below both sidebands, local SNR>=5, and absolute difference of sideband medians < 0.7 of core depth; requires >=3 core and >=4 points in each sideband. This is a ranking aid, not an event classification.",
+  "tiers": ["repeat_stat: >=2 isolated_stat windows at distinct cycles", "single_stat: exactly 1 isolated_stat window", "ambiguous_raw: positive local SNR>=5 in a measured window but no isolated_stat", "screen_only: flag without positive local raw SNR>=5", "near_flag: unflagged max z>=4"],
+  "sort": "Tier order, then descending max z, then ascending TIC. Known catalogue/history labels retained and do not erase rows."
+}

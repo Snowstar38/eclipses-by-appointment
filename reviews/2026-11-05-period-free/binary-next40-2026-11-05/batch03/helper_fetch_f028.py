@@ -1,0 +1,2 @@
+import requests,zipfile,io,pathlib,hashlib
+p=pathlib.Path('batch03/19385783/helper-tesscut-s034.fits');r=requests.get('https://mast.stsci.edu/tesscut/api/v0.1/astrocut',params={'ra':124.2953972265556,'dec':-9.026619109899057,'y':11,'x':11,'units':'px','sector':34},timeout=120);print(r.status_code,len(r.content));r.raise_for_status();z=zipfile.ZipFile(io.BytesIO(r.content));p.write_bytes(z.read(z.namelist()[0]));print(hashlib.sha256(p.read_bytes()).hexdigest())

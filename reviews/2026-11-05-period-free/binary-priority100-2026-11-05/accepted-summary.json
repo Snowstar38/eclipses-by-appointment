@@ -1,0 +1,55 @@
+{
+  "selected": 100,
+  "root_accepted": 100,
+  "accepted_batches": [
+    "batch01",
+    "batch02",
+    "batch03",
+    "batch04",
+    "batch05",
+    "batch06",
+    "batch07",
+    "batch08",
+    "batch09",
+    "batch10"
+  ],
+  "strata": {
+    "cross_method_dip": {
+      "selected": 72,
+      "parent": 72,
+      "root_accepted": 72,
+      "completed": 72,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "PROBABLE": 4,
+        "CONFIRMED": 7,
+        "PLAUSIBLE": 18,
+        "REFUTED": 43
+      },
+      "confirmed_fraction_of_selected": 0.09722222222222222,
+      "confirmed_or_probable_fraction_of_selected": 0.1527777777777778,
+      "fraction_status": "final"
+    },
+    "repeat_sector_dip": {
+      "selected": 28,
+      "parent": 862,
+      "root_accepted": 28,
+      "completed": 28,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "PROBABLE": 11,
+        "CONFIRMED": 9,
+        "PLAUSIBLE": 7,
+        "REFUTED": 1
+      },
+      "confirmed_fraction_of_selected": 0.32142857142857145,
+      "confirmed_or_probable_fraction_of_selected": 0.7142857142857143,
+      "fraction_status": "final"
+    }
+  },
+  "novelty_status_counts": {
+    "UNKNOWN": 97,
+    "KNOWN": 3
+  },
+  "limitations": "Priority-selected follow-up from cached detector leads, with outcome-informed ordering; not a random sample. Mixed-group count is not a survey-wide rate. Physical confirmation and catalogue novelty separate. No incomplete or pending target treated as a physical rejection."
+}

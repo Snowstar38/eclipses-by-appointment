@@ -1,0 +1,39 @@
+{
+  "seed": "astra-review100-2026-11-04-stratified-v1",
+  "selection": "lowest SHA256(seed|stratum|TIC), no replacement; fixed allocation before reviewing sample",
+  "source": "[local-path-redacted]",
+  "source_sha256": "6d85c06f682002f95189244daee3a6d28f69bb5160d82298dd14b55cc367fb2b",
+  "queue_sha256": "ed7856b49e6607f3db41f1e1b5bdc403ca902ae58cb36f429d24c7c2602b1a56",
+  "eligible_population": 2904,
+  "stratum_populations": {
+    "repeat_sector_dip": 882,
+    "cross_method_dip": 102,
+    "single_sector_dip": 1079,
+    "period_fold_only": 58,
+    "brightening_lead": 710,
+    "period_fold_near": 73
+  },
+  "allocation": {
+    "cross_method_dip": 30,
+    "repeat_sector_dip": 20,
+    "single_sector_dip": 20,
+    "period_fold_only": 10,
+    "brightening_lead": 10,
+    "period_fold_near": 10
+  },
+  "sample_n": 100,
+  "batch_sha256": {
+    "batch01": "bd3a4fefd68777266799be33cf990b465857821f5c9136107f664574e7a920cf",
+    "batch02": "4106e1313bf79dc57033743e45065ed4787ee3a9d043655951bba9dbcc2d5ca6",
+    "batch03": "4df71739683419a674ca2a74937690b34c693c3bda3afcb59348fd4b7d8ef11f",
+    "batch04": "1e651c952b3f9cc8d3ec7e1a322a2d6ea65d99ee274e9c99337c3763f90ee232",
+    "batch05": "157f645ea960dc3cec2130bddabedfa4fcba83ab1de43347fa809c8337740825",
+    "batch06": "72c11b62a1578537b06b7d635d2a3a926d582ddba3ef4e3efc66f3037185a5ed",
+    "batch07": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+    "batch08": "329c349e16947ef90ae015967d2e80236608c71cba417a335a0b376f83c7d741",
+    "batch09": "7d7da9a3dd61fa9b719f1ee18385f98e1c8eb6b6fb8b399a32ae8011bf385816",
+    "batch10": "c209a7d440a53cf7b371347cf0c53240a837104be19fbc0dd543a8dedf5aa1f1"
+  },
+  "inference": "Stratum-specific review yields only. Mixed sample oversamples some groups. Not survey completeness, false-alarm probability or occurrence. Unknown/incomplete retained in denominator and reported separately.",
+  "identifiers": "H001-H100 local sample identifiers. No R-series IDs assigned by this selection."
+}

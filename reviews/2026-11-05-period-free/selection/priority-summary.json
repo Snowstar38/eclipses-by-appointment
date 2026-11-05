@@ -1,0 +1,61 @@
+{
+  "remaining": 2804,
+  "groups": {
+    "cross_method_dip": 72,
+    "repeat_sector_dip": 862,
+    "single_sector_dip": 1059,
+    "period_fold_only": 48,
+    "period_fold_near": 63,
+    "brightening_lead": 700
+  },
+  "first100_groups": {
+    "cross_method_dip": 72,
+    "repeat_sector_dip": 28
+  },
+  "exploration20_groups": {
+    "single_sector_dip": 5,
+    "period_fold_only": 5,
+    "period_fold_near": 5,
+    "brightening_lead": 5
+  },
+  "parent_dispositions": {
+    "ranked_remaining": 2804,
+    "reviewed_frozen100": 100,
+    "historical_identity_exclusion": 80
+  },
+  "successes": 9,
+  "sensitivity_first100_overlap_sector_first": 73,
+  "rules": {
+    "group_order": [
+      "cross_method_dip",
+      "repeat_sector_dip",
+      "single_sector_dip",
+      "period_fold_only",
+      "period_fold_near",
+      "brightening_lead"
+    ],
+    "within_group": "descending best_dip_contrast for dip lanes; fold_best_z for fold lanes; max_bright_contrast for brightening; numeric TIC tie-break",
+    "new_thresholds": null,
+    "exploration_seed": "astra-priority-exploration-v1",
+    "exploration_allocation": 5,
+    "batch_size": 10,
+    "first_batch_targets": 100
+  },
+  "limits": [
+    "Scheduling heuristic informed by the same reviewed100, not held-out validation.",
+    "Group evidence supports cross/multi before other lanes; order among remaining four lanes is operational, not measured superiority.",
+    "Maximum contrast is not statistical significance; selection trials and observation counts vary.",
+    "Flags across sectors do not establish same-kind recurrence; quality of raw events and source attribution require review.",
+    "Fold coverage is restricted to a selected subset; missing flag/attempt is not a negative test.",
+    "No Gaia period agreement, slope, common-mode, brightness, or depth veto.",
+    "No physical classification, novelty clearance, ledger changes or new R IDs."
+  ],
+  "source_hashes": {
+    "candidate-backlog.csv": "6d85c06f682002f95189244daee3a6d28f69bb5160d82298dd14b55cc367fb2b",
+    "queue.csv": "ed7856b49e6607f3db41f1e1b5bdc403ca902ae58cb36f429d24c7c2602b1a56",
+    "accepted-results.csv": "0511f629684a60e4bedd3b45fa54654f3ff412f14dca5c341f114ac4b01eefa1",
+    "FINAL-VERIFICATION.json": "69f7b74dec20a5140916484fe38b01237036ad37383406e6bbeda8bb391ddc7d",
+    "build_backlog.py": "1ab0eb1e78f9091ba97ef33b9a1faa98c7c0a57bde47e7c659f0995bccfdcaf2",
+    "bulk_events.py": "3068b6e7ef5c820b3641eb89ba65a15f4fe0ec3470adcbfbd1282cb80b7a6f5b"
+  }
+}

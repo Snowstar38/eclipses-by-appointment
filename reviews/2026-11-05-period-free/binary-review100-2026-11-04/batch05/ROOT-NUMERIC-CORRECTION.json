@@ -1,0 +1,11 @@
+{
+  "sample_id": "H042",
+  "tic": "313617927",
+  "original_results_sha256": "5b7781997af7d404242b03eb5ab45e91e072ca21080018b662ffbec3aeb2f9f7",
+  "original_manifest_sha256": "82b0ed75daa4683a1c2f527caf1222c22ddc384582e071265297c35979544d82",
+  "previous_period_days": "38.43154",
+  "corrected_period_days": "38.5",
+  "reason": "The generic result period column must describe the measured eclipse clock, not silently substitute Gaia's spectroscopic orbital period. The measured pair separation is 38.5098 days; report only rounded 38.5 with no calibrated error. Gaia 38.431544 remains explicitly separate context in the report.",
+  "scope": "Root numeric-column reconciliation after lead/helper freeze. Physical verdict and underlying measurements unchanged. Original submitted evidence committed before correction. This note supersedes LEAD-AUDIT.md's statement that the result period field reports Gaia context.",
+  "format_correction": "Root also replaced mojibake middle-dot in generated report headings with ASCII dash; no scientific changes. Seal script excludes root acceptance to avoid circular hashes."
+}

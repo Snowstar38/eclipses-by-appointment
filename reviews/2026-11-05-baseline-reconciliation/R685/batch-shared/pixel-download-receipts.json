@@ -1,0 +1,53 @@
+[
+  {
+    "tic": "24668377",
+    "sector": 98,
+    "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C84.5730053110888%2C-31.095543165783827%2C0.016666667%29%29%3D1",
+    "gaia_sha256": "c24099896e0fde5c02c83125e3c07c4c481eab2b3eb08fd3079950805f7a5562",
+    "n_gaia_60arcsec": 9,
+    "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=84.5730053110888&dec=-31.095543165783827&y=15&x=15&units=px&sector=98",
+    "error": "<HTTPError 502: 'Bad Gateway'>"
+  },
+  {
+    "tic": "150465032",
+    "sector": 61,
+    "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C117.6216673770398%2C-35.26009419203414%2C0.016666667%29%29%3D1",
+    "gaia_sha256": "ff3ac900a96bfe8d093a162f9cb019f67fee6c1dd123aabbc2960ba83eb35858",
+    "n_gaia_60arcsec": 58,
+    "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=117.6216673770398&dec=-35.26009419203414&y=15&x=15&units=px&sector=61",
+    "error": "<HTTPError 502: 'Bad Gateway'>"
+  },
+  {
+    "tic": "331650047",
+    "sector": 79,
+    "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C70.04115437969662%2C76.71988728890283%2C0.016666667%29%29%3D1",
+    "gaia_sha256": "67bea83606719a305528df71e5ef85cd1e0cdacbcd88688739a4317d1f429447",
+    "n_gaia_60arcsec": 15,
+    "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=70.04115437969662&dec=76.71988728890283&y=15&x=15&units=px&sector=79",
+    "error": "<HTTPError 502: 'Bad Gateway'>"
+  },
+  {
+    "tic": "384744604",
+    "sector": 101,
+    "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C258.8388229297673%2C-79.33929690219503%2C0.016666667%29%29%3D1",
+    "gaia_sha256": "2a76a2507a95d978d97f42cc2da9fb4b2bc06a10ef0427b94d6a1786db6e470c",
+    "n_gaia_60arcsec": 24,
+    "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=258.8388229297673&dec=-79.33929690219503&y=15&x=15&units=px&sector=101",
+    "tesscut_zip_sha256": "8fdf9a88903750fa6cf71a3a261681dbfa448bbbdde41c20fafc4314969a64fd",
+    "tesscut_fits_sha256": "ad2b48b63875a039710fac6f01eb6a42612ca35b0cdcda84d9c0c2556d5034af",
+    "tesscut_fits_path": "[local-path-redacted]",
+    "archive_member": "tess-s0101-3-3_258.838823_-79.339297_15x15_astrocut.fits"
+  },
+  {
+    "tic": "109560492",
+    "sector": 88,
+    "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C113.37215593306139%2C-25.89363992284914%2C0.016666667%29%29%3D1",
+    "gaia_sha256": "621fd727a64651dcc81a87334df65defb37d1930edf047cdad1ef246f8124462",
+    "n_gaia_60arcsec": 94,
+    "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=113.37215593306139&dec=-25.89363992284914&y=15&x=15&units=px&sector=88",
+    "tesscut_zip_sha256": "15711b9285af9ef78ff98df7a89137d004ff8a500d3846bf6ab5b38dee0cafbd",
+    "tesscut_fits_sha256": "3b4ec36818bd78b5a3a9e8b7d548f3ed57c61c4fcb579f4db8c40224dcf94cc3",
+    "tesscut_fits_path": "[local-path-redacted]",
+    "archive_member": "tess-s0088-2-1_113.372156_-25.893640_15x15_astrocut.fits"
+  }
+]

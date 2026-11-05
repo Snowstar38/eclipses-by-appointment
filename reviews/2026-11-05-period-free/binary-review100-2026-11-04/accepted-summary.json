@@ -1,0 +1,111 @@
+{
+  "selected": 100,
+  "root_accepted": 100,
+  "accepted_batches": [
+    "batch01",
+    "batch02",
+    "batch03",
+    "batch04",
+    "batch05",
+    "batch06",
+    "batch07",
+    "batch08",
+    "batch09",
+    "batch10"
+  ],
+  "strata": {
+    "cross_method_dip": {
+      "selected": 30,
+      "parent": 102,
+      "root_accepted": 30,
+      "completed": 30,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "REFUTED": 18,
+        "CONFIRMED": 3,
+        "PLAUSIBLE": 6,
+        "PROBABLE": 3
+      },
+      "confirmed_fraction_of_selected": 0.1,
+      "confirmed_or_probable_fraction_of_selected": 0.2,
+      "fraction_status": "final"
+    },
+    "repeat_sector_dip": {
+      "selected": 20,
+      "parent": 882,
+      "root_accepted": 20,
+      "completed": 20,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "REFUTED": 15,
+        "PROBABLE": 2,
+        "PLAUSIBLE": 2,
+        "CONFIRMED": 1
+      },
+      "confirmed_fraction_of_selected": 0.05,
+      "confirmed_or_probable_fraction_of_selected": 0.15,
+      "fraction_status": "final"
+    },
+    "single_sector_dip": {
+      "selected": 20,
+      "parent": 1079,
+      "root_accepted": 20,
+      "completed": 20,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "REFUTED": 18,
+        "PLAUSIBLE": 2
+      },
+      "confirmed_fraction_of_selected": 0.0,
+      "confirmed_or_probable_fraction_of_selected": 0.0,
+      "fraction_status": "final"
+    },
+    "period_fold_only": {
+      "selected": 10,
+      "parent": 58,
+      "root_accepted": 10,
+      "completed": 10,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "REFUTED": 9,
+        "PLAUSIBLE": 1
+      },
+      "confirmed_fraction_of_selected": 0.0,
+      "confirmed_or_probable_fraction_of_selected": 0.0,
+      "fraction_status": "final"
+    },
+    "brightening_lead": {
+      "selected": 10,
+      "parent": 710,
+      "root_accepted": 10,
+      "completed": 10,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "NON_ECLIPSE_VARIABLE": 4,
+        "UNRESOLVED": 5,
+        "REFUTED": 1
+      },
+      "confirmed_fraction_of_selected": 0.0,
+      "confirmed_or_probable_fraction_of_selected": 0.0,
+      "fraction_status": "final"
+    },
+    "period_fold_near": {
+      "selected": 10,
+      "parent": 73,
+      "root_accepted": 10,
+      "completed": 10,
+      "not_yet_complete": 0,
+      "completed_verdicts": {
+        "REFUTED": 8,
+        "PLAUSIBLE": 2
+      },
+      "confirmed_fraction_of_selected": 0.0,
+      "confirmed_or_probable_fraction_of_selected": 0.0,
+      "fraction_status": "final"
+    }
+  },
+  "novelty_status_counts": {
+    "UNKNOWN": 100
+  },
+  "limitations": "Fixed stratified hash sample from cached detector leads. Mixed-group count is not a survey-wide rate. Physical confirmation and catalogue novelty separate. No incomplete or pending target treated as a physical rejection."
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "T011",
+  "tic": "355493553",
+  "conditional_epoch_btjd": 3921.7114,
+  "conditional_period_days": 52.1321502516,
+  "windows": [
+    {
+      "sector": 2,
+      "cycle": -49,
+      "pred_btjd": 1367.2360376716001,
+      "core_halfwidth_days": 0.6,
+      "core_quality0_n": 16,
+      "core_first_offset_days": -0.49190563551201194,
+      "core_last_offset_days": -0.1794115807858816,
+      "core_max_internal_gap_days": 0.02083294074304831,
+      "left_n": 31,
+      "right_n": 19,
+      "raw_core_deficit_ppt": 0.003488282857899705,
+      "source_sha256": "a03a87b5b69ebf94f99b3ad1e7fab9085c38a1e7720aa15fea65f3078bd25c43"
+    },
+    {
+      "sector": 96,
+      "cycle": 0,
+      "pred_btjd": 3921.7114,
+      "core_halfwidth_days": 0.6,
+      "core_quality0_n": 242,
+      "core_first_offset_days": 0.034873973183493945,
+      "core_last_offset_days": 0.5996801983519617,
+      "core_max_internal_gap_days": 0.004629557835414744,
+      "left_n": 208,
+      "right_n": 389,
+      "raw_core_deficit_ppt": 25.208648349440367,
+      "source_sha256": "7dd009eb5c3722682dcd7bc7875237bc4803a7793c6fd8f927fa16147661cd6a"
+    },
+    {
+      "sector": 102,
+      "cycle": 4,
+      "pred_btjd": 4130.2400010064,
+      "core_halfwidth_days": 0.6,
+      "core_quality0_n": 519,
+      "core_first_offset_days": -0.5997300379349326,
+      "core_last_offset_days": 0.599343450446213,
+      "core_max_internal_gap_days": 0.0023148136870076996,
+      "left_n": 389,
+      "right_n": 389,
+      "raw_core_deficit_ppt": -0.388828995316004,
+      "source_sha256": "acacdb6e59788ddf93cab25bf6fa09407ea69db7bcbfff0472eb7a30767dcb89"
+    },
+    {
+      "sector": 104,
+      "cycle": 5,
+      "pred_btjd": 4182.3721512580005,
+      "core_halfwidth_days": 0.6,
+      "core_quality0_n": 514,
+      "core_first_offset_days": -0.5999667440582925,
+      "core_last_offset_days": 0.5991067475388263,
+      "core_max_internal_gap_days": 0.004629627382200852,
+      "left_n": 385,
+      "right_n": 375,
+      "raw_core_deficit_ppt": -0.14925143720678768,
+      "source_sha256": "fb867faadf28a275e936e1fbf5b47ed1d9c80691096f65a85fad72e4ee5428d7"
+    }
+  ],
+  "caveat": "Sensitive null requires core endpoints, internal gaps and non-overlapping stable baselines; field variability can invalidate deficit."
+}

@@ -1,0 +1,6 @@
+{
+  "query": "SELECT source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',98.10815774706643,21.280199115729765,0.0166666666667))",
+  "url": "https://gaia.aip.de/tap/sync",
+  "status": 200,
+  "sha256": "1e923d045da93d8b67bd5cad89a3ac0b94d99d3bb90cfc98c53cc5d51a38cace"
+}

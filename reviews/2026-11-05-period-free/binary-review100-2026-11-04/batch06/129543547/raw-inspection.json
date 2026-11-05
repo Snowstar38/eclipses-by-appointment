@@ -1,0 +1,54 @@
+{
+  "sample_id": "H059",
+  "tic": "129543547",
+  "bulk_json_path": "[local-path-redacted]",
+  "bulk_json_sha256": "4ec7b267dbe1667194a77a85b7a2958a2bb2a0293b332cde3af2d9991d206513",
+  "gaia_period_days": 31.69682608826778,
+  "sectors": [
+    {
+      "sector": 27,
+      "path": "[local-path-redacted]",
+      "sha256": "272d708a824780fdbc4345c2ea5efd09ef21af3af423ca544b910c9c5f9cb9fc",
+      "time_start": 2036.3005519349854,
+      "time_end": 2060.5158396566726,
+      "n_quality0": 2834,
+      "cadence_days": 0.006944488929775616
+    },
+    {
+      "sector": 67,
+      "path": "[local-path-redacted]",
+      "sha256": "852cebcdfdd3aef04d0147ed3e4d0ddb75346fdea71d2b40018f7e14c89dcfc5",
+      "time_start": 3126.670339907287,
+      "time_end": 3150.830258813746,
+      "n_quality0": 8297,
+      "cadence_days": 0.002314841130782952
+    },
+    {
+      "sector": 94,
+      "path": "[local-path-redacted]",
+      "sha256": "a79f2b6eb77a7f0126d6aefa30977fdfd2395f5cecb29fc50240aa5ac34e15a2",
+      "time_start": 3856.448714017957,
+      "time_end": 3880.9373722941177,
+      "n_quality0": 8822,
+      "cadence_days": 0.0023148417490119755
+    }
+  ],
+  "representative_flagged_windows": [
+    {
+      "sector": 94,
+      "kind": "dip",
+      "screen_center_btjd": 3874.93972741893,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 7.4254216853982475,
+      "screen_supported": true,
+      "n_window_quality0": 2053,
+      "n_core": 70,
+      "n_left": 913,
+      "n_right": 900,
+      "local_baseline_flux": 1.002396821975708,
+      "core_median_delta_ppt": -5.219287991005572,
+      "side_mad_ppt": 2.727449096258878
+    }
+  ],
+  "caution": "Screening centers and local core medians are not eclipse timing or fitted depths. Panels use raw SAP_FLUX and QUALITY=0."
+}

@@ -1,0 +1,9 @@
+Root review checkpoint, updated 2026-11-04 01:30 UTC
+
+Physical review: lead and independent helper support four confirmed and one probable. Root reran exact queue/131 deciding hashes and result-to-measurement mapping checks successfully. Representative depths are medians of realized, diluted named-kind QLP fits across the listed sectors; they are not intrinsic depths or single-sector measurements. TIC109560492 retains unresolved crowded-source attribution. Timing errors remain conditional on cycle assignment and the timing model.
+
+Novelty: TIC24668377 has an exact TIC/Gaia IJspeert EB catalogue identification and must remain a known recovery. TIC331650047's ROT entry is not an EB identification. TIC150465032 has successful scoped target queries. Thirteen target catalogue requests and six fresh positive controls are unavailable; three-mirror bounded retries recovered none. Unavailable is unknown, never nonmatch. Earlier successful controls remain preserved but are not newly successful requests.
+
+Acceptance update: all five completed physical reviews are now accepted in accepted-batches.json, with an explicit addition_tics list containing ONLY TIC150465032. Root independently reran cached-control-assessment.py: six earlier successful controls match the parser, table and radius scopes and retain verified raw hashes. All target-specific queries for150 succeeded. The unavailable fresh controls are still unavailable, not newly successful. This supports that one bounded novelty addition, bringing the working claim to905 (805 confirmed,100 probable). The physical ledger including prior recoveries is926.
+
+TIC24668377 remains a known recovery; TIC331650047,384744604 and109560492 retain pending novelty decisions and contribute no new claim. Future successful queries cannot silently promote them: progress.py restricts additions to the explicit root-approved list. Retain all failed receipts and retry attempts. No canonical/public changes have been made.

@@ -1,0 +1,11 @@
+# Independent helper audit
+
+F030: Sector 34 independent TESSCut pixel reduction, same observing occasion as QLP. Valid sky and target flux, WCS positions, period, difference-image counts and approximate shifted-template fit are recorded in 288649491/helper-pixels.json. The 0.540074 d local signal matches VSX neighbor's 0.540070 d; loss of light is displaced toward the catalogued neighbor. This favors contamination, with model-dependent deblending and WCS uncertainty. No extra observing occasion is implied.
+
+F022: Sector 93 difference image records target and three Gaia neighbor positions in 324424395/helper-pixels.json. The dip projects on the target PSF; the clipped centroid is offset 0.57 pixel, with a gap and changing baseline, so cannot resolve exact ownership independently. Gaia contrast is approximate and not a bandpass-independent proof. The raw shape has a data gap in the core; the egress is observed. VSX match at 0.17 arcsec cannot be resolved by TESS.
+
+F027: Lead fold visually shows a broad wave at ~1.26 d with sector-dependent amplitudes, without a clear narrow isolated eclipse in the fold; physical interpretation remains open. F028: Lead fold shows sharp troughs approximately half-cycle apart at ~2.066 d; the folded period is a diagnostic, not a demonstrated Gaia 35 d orbital timing or source attribution. Assess individually covered raw occasions; folds use the same photons.
+
+The helper scripts and local FITS inputs carry their SHA-256 in the batch manifest and the pixel JSONs. Pixel image sky subtraction uses four corners, checked positive and finite for these two cutouts. F022 baseline slopes and gap limit localization; F030 shifted template is illustrative, not calibrated PRF inference.
+
+F028 sector-34 TESSCut attempted: valid sky and target flux but difference image dominated by off-target excess at (8,4), so this test does not localize the trough; local fold combines alternating dips. See 19385783/helper-pixels.json/png and helper_pixels_f028.py. Gaia period / diagnostic 2.06594 d is about 17, a near-harmonic, not an independent clock identification. F027 broad smooth variable-amplitude wave is consistent with several physical mechanisms including contact/ellipsoidal or spots/pulsation; morphology alone does not establish eclipses.

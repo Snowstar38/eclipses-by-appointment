@@ -1,0 +1,33 @@
+{
+  "tic": "246124257",
+  "windows": "BTJD 3101.055 +/-0.03 core; pre/post offsets 0.078 to 0.168 d; QUALITY=0",
+  "counts": [
+    26,
+    39,
+    39
+  ],
+  "apertures": {
+    "target_2x2": {
+      "difference_counts": 229.71624755859375,
+      "baseline_counts": 40043.28519821167,
+      "fractional_depth_ppt": 5.7366983358511465
+    },
+    "neighbor_2x2": {
+      "difference_counts": 26.609474182128906,
+      "baseline_counts": 4104.620948791504,
+      "fractional_depth_ppt": 6.482809134900351
+    },
+    "target_pixel": {
+      "difference_counts": 111.72371673583984,
+      "baseline_counts": 19316.014263153076,
+      "fractional_depth_ppt": 5.7839943175524695
+    },
+    "neighbor_pixel": {
+      "difference_counts": 10.423347473144531,
+      "baseline_counts": 1660.0484313964844,
+      "fractional_depth_ppt": 6.278941792304269
+    }
+  },
+  "caveat": "Neighbor aperture overlaps target PSF wings and fitted background, so depth gradient is supportive rather than a deblended measurement; same TESS photons.",
+  "fits_sha256": "967741b7ff88328be9ce8530c456a3c0faa98e4d633caa71ca41d9bec42dfefd"
+}

@@ -1,0 +1,40 @@
+{
+  "source_sha256": {
+    "cached_QLP_target_inventory": "9434777b195e9f7f7538b4ebe057d3926c4e8651b37f4ee2702ba3010726290c",
+    "accepted_proposal_ledger": "ede0e4dbe95779e510efc64f330d325516fc8bdd1d52991429988833aac449e0",
+    "scientific_review_register_at_harvest": "6facb4500f161a565507155ab2f8aacccc76bf392d01d59f75f6829e799ee972"
+  },
+  "method_sha256": "3068b6e7ef5c820b3641eb89ba65a15f4fe0ec3470adcbfbd1282cb80b7a6f5b",
+  "config": {
+    "durations_days": [
+      0.06,
+      0.12,
+      0.24,
+      0.48,
+      0.96,
+      1.6
+    ],
+    "flux": "SAP_FLUX",
+    "quality": 0,
+    "bin_minutes": 10,
+    "core": "[-.5d,+.5d]",
+    "sidebands": "[-1.75d,-.75d], [.75d,1.75d]",
+    "noise": "max(side residual RMS about side-mean interpolated line, robust adjacent-difference noise)",
+    "min_core": 3,
+    "min_each_side": 4,
+    "min_sampling_fraction": 0.5,
+    "max_internal_gap": "max(3*cadence,.5*duration), tested separately in core and both sides",
+    "flag": "supported and signed contrast>=5 and signed depth>=.001",
+    "retention": "four dips and two brightenings per sector; flag-eligible ranked before others; suppress overlapping duration windows",
+    "score_is_not_significance": true,
+    "period_free": true
+  },
+  "selection": "All cached targets absent accepted ledger and scientific review register; controls separate. No period/G/noise/coverage outcome cut. Sorted numeric TIC. Includes historically screened and newly screened targets; explicit method revisit, not pristine sky.",
+  "not_complete_sky_population": true,
+  "excluded": {
+    "no_cached_fits": 117,
+    "ledger_or_review_register": 131
+  },
+  "target_count": 6186,
+  "fits_count": 38388
+}

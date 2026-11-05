@@ -1,0 +1,90 @@
+{
+  "sample_id": "H062",
+  "tic": "74262097",
+  "bulk_json_path": "[local-path-redacted]",
+  "bulk_json_sha256": "49724f005609b1429772e5c032eedd714b2cc56bf71fc5f9e33d2b8607f5354d",
+  "gaia_period_days": 24.217964350636166,
+  "sectors": [
+    {
+      "sector": 12,
+      "path": "[local-path-redacted]",
+      "sha256": "31f10433d8cb0c73cb9653bb984c7d117406148e07653a1cecf445dbd30b2661",
+      "time_start": 1626.431918809526,
+      "time_end": 1652.182397901264,
+      "n_quality0": 920,
+      "cadence_days": 0.02083387529251013
+    },
+    {
+      "sector": 39,
+      "path": "[local-path-redacted]",
+      "sha256": "4461f65b48ffa8d230dc81a66b254f084ff516af5bf666f3bd6f5e73026fb0f3",
+      "time_start": 2361.9387221668317,
+      "time_end": 2389.362620110258,
+      "n_quality0": 3186,
+      "cadence_days": 0.006944556262169499
+    },
+    {
+      "sector": 66,
+      "path": "[local-path-redacted]",
+      "sha256": "253f71c240560d4e0b388879e174fa4ef52d24ebb96a007713088df8574ae5da",
+      "time_start": 3097.7255927563383,
+      "time_end": 3124.223373815211,
+      "n_quality0": 10707,
+      "cadence_days": 0.0023148332365963142
+    },
+    {
+      "sector": 93,
+      "path": "[local-path-redacted]",
+      "sha256": "55635403ae07d2c249034dffba80841cb49526e2424aab63da8faf08ec984088",
+      "time_start": 3830.2679088031296,
+      "time_end": 3855.094354369324,
+      "n_quality0": 9563,
+      "cadence_days": 0.002314821622121599
+    },
+    {
+      "sector": 100,
+      "path": "[local-path-redacted]",
+      "sha256": "2817a20374b7666caf7a52de794bf537dd7d37cd9f173d2767a38c44a295b6d2",
+      "time_start": 4074.611536171117,
+      "time_end": 4098.664765411883,
+      "n_quality0": 8801,
+      "cadence_days": 0.0023148136956478993
+    },
+    {
+      "sector": 103,
+      "path": "[local-path-redacted]",
+      "sha256": "1f3beb9a22c73bc0dba6e3e6780d36fe76bda1c88d8f3b51742ad446d3074841",
+      "time_start": 4152.906460411081,
+      "time_end": 4177.362467259065,
+      "n_quality0": 8744,
+      "cadence_days": 0.002314813697921636
+    },
+    {
+      "sector": 104,
+      "path": "[local-path-redacted]",
+      "sha256": "52cefd662f0d1c485852a0edc12a7f075baa64f05a1056668fdb77544501157c",
+      "time_start": 4178.728189956502,
+      "time_end": 4204.110122275559,
+      "n_quality0": 8561,
+      "cadence_days": 0.0023148136933741625
+    }
+  ],
+  "representative_flagged_windows": [
+    {
+      "sector": 104,
+      "kind": "dip",
+      "screen_center_btjd": 4197.283736594566,
+      "screen_duration_days": 0.96,
+      "screen_contrast": 5.5503740890636895,
+      "screen_supported": true,
+      "n_window_quality0": 1032,
+      "n_core": 66,
+      "n_left": 444,
+      "n_right": 389,
+      "local_baseline_flux": 1.0003652572631836,
+      "core_median_delta_ppt": -3.622996704351733,
+      "side_mad_ppt": 2.751538954334706
+    }
+  ],
+  "caution": "Screening centers and local core medians are not eclipse timing or fitted depths. Panels use raw SAP_FLUX and QUALITY=0."
+}

@@ -1,0 +1,110 @@
+{
+  "tic": "352438536",
+  "anchor_btjd": 2040.0819,
+  "other_btjd": 4106.0797,
+  "assumed_same_kind_cycles": 35,
+  "two_event_period_days": 59.028508571428574,
+  "gaia_period_days": 58.99727186350616,
+  "gaia_period_error_days": 0.026030397,
+  "gaia_conjunctions": [
+    {
+      "kind": "A",
+      "at_anchor_btjd": 2068.1602212864254,
+      "offset_days": -28.078321286425535,
+      "offset_phase": -0.47592575723478314
+    },
+    {
+      "kind": "B",
+      "at_anchor_btjd": 2040.0420138774712,
+      "offset_days": 0.03988612252874191,
+      "offset_phase": 0.0006760672361430699
+    }
+  ],
+  "selected_period_windows": [
+    {
+      "sector": 27,
+      "cycle": 0,
+      "predicted_btjd": 2040.0819,
+      "core_quality0": 331,
+      "core_flagged": 0,
+      "left_quality0": 172,
+      "right_quality0": 165,
+      "core_coverage_fraction": 0.9993913755362844,
+      "max_internal_core_gap_days": 0.00694445146336875,
+      "core_six_bin_counts": [
+        55,
+        55,
+        55,
+        56,
+        55,
+        55
+      ],
+      "clean_bilateral": true,
+      "median_core_deficit_ppt": 36.78284415713029,
+      "left_right_baseline_difference_ppt": 6.905975573182596
+    },
+    {
+      "sector": 94,
+      "cycle": 31,
+      "predicted_btjd": 3869.965665714286,
+      "core_quality0": 271,
+      "core_flagged": 668,
+      "left_quality0": 248,
+      "right_quality0": 518,
+      "core_coverage_fraction": 0.27274537683376326,
+      "max_internal_core_gap_days": 0.00231481819992041,
+      "core_six_bin_counts": [
+        0,
+        0,
+        0,
+        0,
+        106,
+        165
+      ],
+      "clean_bilateral": false
+    },
+    {
+      "sector": 101,
+      "cycle": 35,
+      "predicted_btjd": 4106.0797,
+      "core_quality0": 905,
+      "core_flagged": 12,
+      "left_quality0": 518,
+      "right_quality0": 518,
+      "core_coverage_fraction": 0.910828869526718,
+      "max_internal_core_gap_days": 0.004629627357644495,
+      "core_six_bin_counts": [
+        163,
+        165,
+        165,
+        165,
+        165,
+        82
+      ],
+      "clean_bilateral": true,
+      "median_core_deficit_ppt": 36.62406789319916,
+      "left_right_baseline_difference_ppt": -14.901767441200569
+    },
+    {
+      "sector": 103,
+      "cycle": 36,
+      "predicted_btjd": 4165.108208571429,
+      "core_quality0": 436,
+      "core_flagged": 460,
+      "left_quality0": 509,
+      "right_quality0": 516,
+      "core_coverage_fraction": 0.4388081618668841,
+      "max_internal_core_gap_days": 1.0486106151965942,
+      "core_six_bin_counts": [
+        153,
+        138,
+        89,
+        0,
+        0,
+        56
+      ],
+      "clean_bilateral": false
+    }
+  ],
+  "caveat": "Two-event period conditional on chosen cycle count; partial H008 s92 and H002 s103 have uncalibrated center errors. Candidate clean-window medians are diagnostics, not eclipse fits; quality flags excluded."
+}

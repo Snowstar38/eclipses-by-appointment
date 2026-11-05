@@ -1,0 +1,116 @@
+{
+  "tic": "128720791",
+  "gaia_source_id": "1932564828836775424",
+  "screen_period_days": 21.70644183194322,
+  "screen_epoch_btjd": 1740.091024634183,
+  "screen_duration_days": 0.081,
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sector": 16,
+      "sha256": "3776502e0058b790f21450f0aff1d623103248a14d8f4e608d739c6934bd74ec"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 56,
+      "sha256": "f7f1e92eefeadb13117f0ad4de1d1503b75954b30c9d32893c1162f213cb93a1"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 83,
+      "sha256": "711e86a8a014ee31e1b0d5920b213d65dcaadbf589ac0affd1029ff15587f2eb"
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 16,
+      "first_btjd": 1739.1815185707871,
+      "last_btjd": 1759.7440381607391,
+      "cadence_days": 0.020833286178230992,
+      "n": 697
+    },
+    {
+      "sector": 56,
+      "first_btjd": 2825.3660204987946,
+      "last_btjd": 2852.979684308374,
+      "cadence_days": 0.0023148368575220957,
+      "n": 11317
+    },
+    {
+      "sector": 83,
+      "first_btjd": 3559.4430941934265,
+      "last_btjd": 3584.3390813887827,
+      "cadence_days": 0.0023148265745476237,
+      "n": 10382
+    }
+  ],
+  "events": [
+    {
+      "sector": 16,
+      "cycle": 0,
+      "predicted_btjd": 1740.091024634183,
+      "mid_btjd": 1740.089213512742,
+      "formal_timing_error_days": 0.0005340660681820378,
+      "timing_error_days": 0.010416643089115496,
+      "timing_usable": true,
+      "depth_ppt": 8.183448066704296,
+      "model_amplitude_ppt": 8.183448066704296,
+      "duration_days": 0.07789916737876644,
+      "ingress_parameter_days": 0.01644203824371718,
+      "oot_scatter_ppt": 0.37545918195858835,
+      "n": 62,
+      "cadence_days": 0.020833286178230992,
+      "source_sha256": "3776502e0058b790f21450f0aff1d623103248a14d8f4e608d739c6934bd74ec"
+    },
+    {
+      "sector": 56,
+      "cycle": 51,
+      "predicted_btjd": 2847.1195580632875,
+      "mid_btjd": 2847.1165834101093,
+      "formal_timing_error_days": 0.000649200462598012,
+      "timing_error_days": 0.0011574184287610478,
+      "timing_usable": true,
+      "depth_ppt": 8.177899955640749,
+      "model_amplitude_ppt": 8.177899955640749,
+      "duration_days": 0.09661669684386252,
+      "ingress_parameter_days": 0.03282312514165953,
+      "oot_scatter_ppt": 0.8552963407574166,
+      "n": 562,
+      "cadence_days": 0.0023148368575220957,
+      "source_sha256": "f7f1e92eefeadb13117f0ad4de1d1503b75954b30c9d32893c1162f213cb93a1"
+    },
+    {
+      "sector": 83,
+      "cycle": 84,
+      "predicted_btjd": 3563.4321385174135,
+      "mid_btjd": 3563.42827506288,
+      "formal_timing_error_days": 0.0005713717869964258,
+      "timing_error_days": 0.0011574132872738119,
+      "timing_usable": true,
+      "depth_ppt": 8.457923718637339,
+      "model_amplitude_ppt": 8.457923718637339,
+      "duration_days": 0.09822209601765086,
+      "ingress_parameter_days": 0.03608251001439758,
+      "oot_scatter_ppt": 0.7333563011638327,
+      "n": 562,
+      "cadence_days": 0.0023148265745476237,
+      "source_sha256": "711e86a8a014ee31e1b0d5920b213d65dcaadbf589ac0affd1029ff15587f2eb"
+    }
+  ],
+  "timing_event_count": 3,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 21.706415188353116,
+  "period_error_days": 4.7235322326961065e-05,
+  "reference_epoch_btjd": 1740.0894028538446,
+  "epoch_error_days": 0.003272179546959765,
+  "reference_cycle": 0,
+  "reduced_chi_square": 0.0003665676532521077,
+  "timing_residual_days": [
+    -0.00018934110266854987,
+    5.950255854259012e-06,
+    -3.6126266422797926e-06
+  ],
+  "depth_ppt": 8.183448066704296,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics."
+}

@@ -1,0 +1,168 @@
+{
+  "sample_id": "T055",
+  "tic": "417309915",
+  "gaia_period_days": 58.5048634657712,
+  "source_bulk": "[local-path-redacted]",
+  "source_bulk_sha256": "deeef660c29dad4765665abaf8225720ae17a402c1eaf153aaa5ac859b915f43",
+  "file_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "8e1af6aebb0401d96ca12e1f4b09dac816b89d42f561b17109092956711542b4",
+      "sector": 17
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ac4ec14c3511ccc7aadb2532e809045a568f3501dad4b62a3eda33c942e84ac9",
+      "sector": 24
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "1f4e5e169064a393b84b298cb9261215f44368405be12f33819cd88e3ad9cfae",
+      "sector": 57
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ed604f310f0c4db5db99790ebfbe8998a0248a002a6c0523d87f40b342968817",
+      "sector": 58
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a24ead0ace6a474f720006700edad63ce43ee19371dca0e2c00d91c0d70a93c4",
+      "sector": 77
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "fe4a9bde08ebff503495286ff9edbbeb0e4581b02556b9f29f8c86f06d0d6f58",
+      "sector": 78
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "680a6d0205f0f38406f16b8630d9c912f02fde8f90caad532c3afee8a5f22564",
+      "sector": 84
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "f7d708fba65d463a2c5c5acb93419620ff0414ff77252b2e1f179eb1ae60dae6",
+      "sector": 85
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 17,
+      "first": 1764.7018888842501,
+      "last": 1789.681139947067,
+      "n": 1130,
+      "n_quality0": 706,
+      "median_cadence_days": 0.020833432168274157,
+      "max_gap_days": 1.4583465179678115
+    },
+    {
+      "sector": 24,
+      "first": 1955.7987377508261,
+      "last": 1982.2572612467038,
+      "n": 1226,
+      "n_quality0": 1178,
+      "median_cadence_days": 0.020833532637198005,
+      "max_gap_days": 0.9583445302041582
+    },
+    {
+      "sector": 57,
+      "first": 2853.353995814032,
+      "last": 2882.1158334124884,
+      "n": 10802,
+      "n_quality0": 10250,
+      "median_cadence_days": 0.0023148333975768765,
+      "max_gap_days": 3.129667253311254
+    },
+    {
+      "sector": 58,
+      "first": 2882.3287950939107,
+      "last": 2910.050418081754,
+      "n": 11704,
+      "n_quality0": 10997,
+      "median_cadence_days": 0.0023147639813032583,
+      "max_gap_days": 0.21295983574327693
+    },
+    {
+      "sector": 77,
+      "first": 3395.4789872503165,
+      "last": 3423.544329671997,
+      "n": 7702,
+      "n_quality0": 7475,
+      "median_cadence_days": 0.002314770616521855,
+      "max_gap_days": 10.023962109709828
+    },
+    {
+      "sector": 78,
+      "first": 3434.2619908291404,
+      "last": 3449.5030323520214,
+      "n": 6403,
+      "n_quality0": 5995,
+      "median_cadence_days": 0.0023148619447965757,
+      "max_gap_days": 0.21065319796935
+    },
+    {
+      "sector": 84,
+      "first": 3584.588405796921,
+      "last": 3610.3432942023987,
+      "n": 10841,
+      "n_quality0": 9993,
+      "median_cadence_days": 0.0023148308930558414,
+      "max_gap_days": 0.21296382649143197
+    },
+    {
+      "sector": 85,
+      "first": 3610.553940838186,
+      "last": 3636.0449107136205,
+      "n": 10741,
+      "n_quality0": 6962,
+      "median_cadence_days": 0.002314766738891194,
+      "max_gap_days": 0.21296079761441433
+    }
+  ],
+  "retained_flag_windows": [
+    {
+      "sector": 24,
+      "kind": "dip",
+      "time": 1969.361244187198,
+      "duration": 0.96,
+      "depth": 0.045972917918910894,
+      "contrast": 6.0325133796226424,
+      "core_samples": 28,
+      "core_quality0": 24,
+      "side_quality0": 81,
+      "raw_core_median_ppt": 58.51171607117933,
+      "core_first": 1969.2779097680989,
+      "core_last": 1969.8404165381698
+    },
+    {
+      "sector": 24,
+      "kind": "brightening",
+      "time": 1957.1528985405578,
+      "duration": 0.96,
+      "depth": -0.06539306141146439,
+      "contrast": -7.85207408213908,
+      "core_samples": 47,
+      "core_quality0": 47,
+      "side_quality0": 62,
+      "raw_core_median_ppt": -70.72788904727778,
+      "core_first": 1956.6737343221182,
+      "core_last": 1957.632062703911
+    },
+    {
+      "sector": 24,
+      "kind": "brightening",
+      "time": 1970.7570923971423,
+      "duration": 0.96,
+      "depth": -0.06307696049387568,
+      "contrast": -7.5832657560686725,
+      "core_samples": 47,
+      "core_quality0": 47,
+      "side_quality0": 66,
+      "raw_core_median_ppt": -62.79031563515014,
+      "core_first": 1970.2779210693836,
+      "core_last": 1971.2362636489065
+    }
+  ],
+  "note": "Retained windows and Gaia folds are predictions/screening only. Numeric core medians are not fitted eclipse depths."
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "F002",
+  "tic": "219345200",
+  "gaia_source_id": "4785405080341786368",
+  "evaluation_epoch_btjd": 1434.925,
+  "inclination_deg": 87.1805418430507,
+  "omega_abfg_deg": 158.08587881207646,
+  "omega_ch_deg": 155.11050313492302,
+  "omega_branch_difference_deg": 2.9753756771534245,
+  "gaia_period_days": 59.92132250863283,
+  "eccentricity": 0.2613498814313688,
+  "conjunctions": [
+    {
+      "kind": "A",
+      "cycle": 17,
+      "pred_btjd": 1434.7119657976846,
+      "offset_days": 0.2130342023153844,
+      "linear_full_cov_sigma_days": 0.22435091714316854,
+      "offset_sigma": 0.949557973856811
+    },
+    {
+      "kind": "B",
+      "cycle": 18,
+      "pred_btjd": 1455.47171508395,
+      "offset_days": -20.546715083949948,
+      "linear_full_cov_sigma_days": 0.30137745721147186,
+      "offset_sigma": -68.17601845227807
+    }
+  ],
+  "nss_file_sha256": "c788bbfe383f910c1e3a8b51197a02b047fe9c8698e837310182702402ef7d2d",
+  "caution": "ABFG versus C/H omega checks agree within 3 degrees modulo 180. Linear full-covariance Gaia timing at fixed cycle; nonlinear/systematic allowances and eclipse timing error excluded."
+}

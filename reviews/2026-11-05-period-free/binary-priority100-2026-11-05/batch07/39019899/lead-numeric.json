@@ -1,0 +1,130 @@
+{
+  "sample_id": "T065",
+  "tic": "39019899",
+  "gaia_period_days": 50.88694868611042,
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a33a9a17e3ae0c92cf163e6807e2d5c812c631ad2a053d31b56db4c29dc012e4",
+      "sector": 27
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e9ab27259da0bf9b6343015391d366e0b821273b033e483b2807c4e3787d9268",
+      "sector": 28
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d0a14d0370dc03c955fa3d3ff2155f6bef7151d4184dd769408f81827abbed71",
+      "sector": 67
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d7a61880152c3e5b030680c58d01dfe02edae540c0be24ec457b1f00027240aa",
+      "sector": 68
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "f517e45f03bfd9311435440e06221e49df76be9e9812acc6f758d11b5e08cce6",
+      "sector": 94
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "fba9e15eed70182896fac33bc23d61ea54acf8651070dfb8dd59cfa5d4ddef00",
+      "sector": 95
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "007dcfead890e85f413ec7df0635fa847f6902f72521c794e490e9a9093b8722",
+      "sector": 96
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 27,
+      "start_btjd": 2036.2837762087772,
+      "end_btjd": 2060.638284070189,
+      "n_all": 3360,
+      "n_quality0": 3312,
+      "cadence_days": 0.006944551643300656,
+      "max_internal_gap_days": 1.0347393107454081
+    },
+    {
+      "sector": 28,
+      "start_btjd": 2061.853571138229,
+      "end_btjd": 2087.0965044322147,
+      "n_all": 3464,
+      "n_quality0": 3279,
+      "cadence_days": 0.006944420529634954,
+      "max_internal_gap_days": 1.2013863288625544
+    },
+    {
+      "sector": 67,
+      "start_btjd": 3126.639638313179,
+      "end_btjd": 3154.3970428477965,
+      "n_all": 11719,
+      "n_quality0": 10453,
+      "cadence_days": 0.002314854976020797,
+      "max_internal_gap_days": 0.21296750010014875
+    },
+    {
+      "sector": 68,
+      "start_btjd": 3154.6100083281062,
+      "end_btjd": 3182.14001092177,
+      "n_all": 11639,
+      "n_quality0": 9927,
+      "cadence_days": 0.002314808140909008,
+      "max_internal_gap_days": 0.21296330993573065
+    },
+    {
+      "sector": 94,
+      "start_btjd": 3856.2605916300845,
+      "end_btjd": 3882.1198516953887,
+      "n_all": 10902,
+      "n_quality0": 8146,
+      "cadence_days": 0.002314857159035455,
+      "max_internal_gap_days": 0.21065306859327393
+    },
+    {
+      "sector": 95,
+      "start_btjd": 3882.3490202306284,
+      "end_btjd": 3907.559658168491,
+      "n_all": 10544,
+      "n_quality0": 8954,
+      "cadence_days": 0.002314814432793355,
+      "max_internal_gap_days": 0.21296409304886765
+    },
+    {
+      "sector": 96,
+      "start_btjd": 3907.772618432295,
+      "end_btjd": 3933.445744407877,
+      "n_all": 10796,
+      "n_quality0": 8818,
+      "cadence_days": 0.002314771265901072,
+      "max_internal_gap_days": 0.21295997774222997
+    }
+  ],
+  "events": [
+    {
+      "sector": 96,
+      "screen_btjd": 3925.927427276741,
+      "screen_duration_days": 1.6,
+      "screen_depth_ppt": 4.042666616598134,
+      "quality0_local_n": 2881,
+      "quality0_core_n": 691,
+      "raw_core_median_deficit_ppt": 4.90868585594284,
+      "raw_side_scatter_ppt": 1.9235826726524445,
+      "first_local_btjd": 3923.5733053946724,
+      "last_local_btjd": 3930.725920781744,
+      "local_max_gap_days": 0.2731419394644945,
+      "source_sha256": "007dcfead890e85f413ec7df0635fa847f6902f72521c794e490e9a9093b8722",
+      "fit_mid_btjd": 3926.127593891039,
+      "fit_mid_formal_error_days": 0.01526157416568752,
+      "fit_depth_ppt": 4.362727890379519,
+      "fit_duration_days": 2.6667092227826066,
+      "fit_edge_days": 0.9270527960798817,
+      "fit_slope_per_day": 0.0005655753766198354
+    }
+  ],
+  "method": "Local trapezoid fits to quality-zero raw SAP at period-free retained dip flags. Fits are exploratory, never sufficient for an eclipse verdict or cycle alias. Screen windows are not centers."
+}

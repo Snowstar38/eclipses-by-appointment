@@ -1,0 +1,5 @@
+T069 independent aperture audit
+
+TESSCut sectors 25, 26, 52: no zero median pixels, target pixels 1505, 1380, 1774 counts. A 3x3 target-centered aperture subtracts 9 times the per-cadence median of active pixels more than 3 pixels from the WCS target. For screen seed 2016.5550618 + integer Gaia period 30.11714556 d, core +/-0.8 d and baseline 2..4 d each side: the aperture deficits are 4.38, 4.60, 7.69 ppt respectively; QLP SAP deficits in the same windows are 2.14, 5.37, 7.91 ppt. See helper-pixel-numeric.json for counts, exact source hashes, positions and predictions; helper_pixels069.py reproduces plots and measurements. Receipts record retrieval and hashes.
+
+This confirms aperture-level variability in an independent extraction of the same photons; it does not localize a source within the blended 3x3 or establish eclipse shape. S52 shows multiple smooth quasi-periodic troughs across the sector, with the predicted-phase trough one of several. Suppression in KSPSAP does not prove an artifact. Gaia-phase agreement and local window contrasts do not establish a measured period or discrete eclipse. Lead retains the physical decision.

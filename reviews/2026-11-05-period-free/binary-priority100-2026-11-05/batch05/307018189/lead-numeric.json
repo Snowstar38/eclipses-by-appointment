@@ -1,0 +1,130 @@
+{
+  "sample_id": "T044",
+  "tic": "307018189",
+  "gaia_period_days": 25.95407985418257,
+  "source_packet": "[local-path-redacted]",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "07b724391a0af6195d6eb5db2629b728b83f07fb7dd85386cb8e57457584f5aa",
+      "sector": 6
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "8b44276174053b34066341ade7683b5c20acade18dafe1b6cde5f052e9c9435c",
+      "sector": 33
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "70027629cbbaaf2d88fba215f5a421957c355c7dcb82aeef02bc2e126223e761",
+      "sector": 43
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a71fc60b25e57ed4430b285aeba7b6c05898f7d3e4232b4852a8af5445ee4590",
+      "sector": 44
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "b5d74ac1f5acd2c186edaff141cefbbfb1a9f98e2c816290350fedc71e00fd05",
+      "sector": 45
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e7e34579c8468110ab9132a7649e27d2564072ebf7a9ba0665df023061e3eb1f",
+      "sector": 71
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a46ad40c2d87577ab7b6050da1bd36500add22fef250bef747021fa7795a3727",
+      "sector": 72
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 6,
+      "start_btjd": 1468.412325008046,
+      "end_btjd": 1489.7249371343273,
+      "n_all": 993,
+      "n_quality0": 824,
+      "cadence_days": 0.02083348810788266,
+      "max_internal_gap_days": 2.0416880057548497
+    },
+    {
+      "sector": 33,
+      "start_btjd": 2201.8009264467173,
+      "end_btjd": 2227.3286266424257,
+      "n_all": 3493,
+      "n_quality0": 3252,
+      "cadence_days": 0.00694442989606614,
+      "max_internal_gap_days": 2.326378115461921
+    },
+    {
+      "sector": 43,
+      "start_btjd": 2474.328590489896,
+      "end_btjd": 2498.0461799801487,
+      "n_all": 3408,
+      "n_quality0": 3004,
+      "cadence_days": 0.006945125046513567,
+      "max_internal_gap_days": 2.4446744447081983
+    },
+    {
+      "sector": 44,
+      "start_btjd": 2501.0325686718816,
+      "end_btjd": 2524.1804661434285,
+      "n_all": 3272,
+      "n_quality0": 2591,
+      "cadence_days": 0.006945072307871669,
+      "max_internal_gap_days": 3.354465605959831
+    },
+    {
+      "sector": 45,
+      "start_btjd": 2526.23617464633,
+      "end_btjd": 2550.4599272667874,
+      "n_all": 3449,
+      "n_quality0": 2949,
+      "cadence_days": 0.006944887254121568,
+      "max_internal_gap_days": 2.340429083910749
+    },
+    {
+      "sector": 71,
+      "start_btjd": 3235.3381100751267,
+      "end_btjd": 3259.481391514041,
+      "n_all": 10255,
+      "n_quality0": 8491,
+      "cadence_days": 0.002315015494787076,
+      "max_internal_gap_days": 3.34519249388768
+    },
+    {
+      "sector": 72,
+      "start_btjd": 3261.6644130929426,
+      "end_btjd": 3285.522250634008,
+      "n_all": 10104,
+      "n_quality0": 8641,
+      "cadence_days": 0.0023149435432969767,
+      "max_internal_gap_days": 3.331205603536091
+    }
+  ],
+  "flag_count": 1,
+  "representative_method": "Maximum screen contrast per sector, up to twelve sectors; all available FITS checked for hash and endpoints.",
+  "events": [
+    {
+      "sector": 6,
+      "seed_btjd": 1484.8291586622274,
+      "screen_duration_days": 0.48,
+      "screen_contrast": 6.506349163343986,
+      "screen_depth_ppt": 75.40547953311028,
+      "core_n": 23,
+      "side_n": 86,
+      "core_deficit_ppt": 69.23982883527557,
+      "side_scatter_ppt": 47.144081038598614,
+      "local_max_gap_days": 0.14583275725658496,
+      "source_sha256": "07b724391a0af6195d6eb5db2629b728b83f07fb7dd85386cb8e57457584f5aa",
+      "fit_mid_btjd": 1484.760835622569,
+      "fit_mid_formal_error_days": 0.01919563668084062,
+      "fit_depth_ppt": 79.33458120378043,
+      "fit_duration_days": 0.8216834245229269,
+      "fit_slope_per_day": -0.021052474824713924
+    }
+  ]
+}

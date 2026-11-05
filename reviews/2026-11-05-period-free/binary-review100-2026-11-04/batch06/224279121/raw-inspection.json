@@ -1,0 +1,63 @@
+{
+  "sample_id": "H052",
+  "tic": "224279121",
+  "bulk_json_path": "[local-path-redacted]",
+  "bulk_json_sha256": "727a71d834c3e31253e6e55ec74e5b83cbc75de7e9d3f6031e01c00057edc05e",
+  "gaia_period_days": 37.55269026667582,
+  "sectors": [
+    {
+      "sector": 2,
+      "path": "[local-path-redacted]",
+      "sha256": "cb7d374cc492d9a47db10be6f64c5d63ac9051a0d506e14df63004f79f1bf756",
+      "time_start": 1354.1616504352362,
+      "time_end": 1381.4114141617786,
+      "n_quality0": 1090,
+      "cadence_days": 0.0208332504628288
+    },
+    {
+      "sector": 29,
+      "path": "[local-path-redacted]",
+      "sha256": "48a66a0d9f78f2c88740b5874fafdf8901ae2adf9b04306ce5c2881493b35e16",
+      "time_start": 2088.4807870024424,
+      "time_end": 2111.181918385713,
+      "n_quality0": 2591,
+      "cadence_days": 0.006944387273961183
+    },
+    {
+      "sector": 69,
+      "path": "[local-path-redacted]",
+      "sha256": "b82db2fe7e08a6c87c58858f0e78cbff5d28407220be60768c896491d4255ab9",
+      "time_start": 3184.362244231149,
+      "time_end": 3206.6281947207817,
+      "n_quality0": 8619,
+      "cadence_days": 0.002314793652658409
+    },
+    {
+      "sector": 96,
+      "path": "[local-path-redacted]",
+      "sha256": "7940d9854934d432979cc169f5fb5328c1d0999893ddc260c6842ea6bc5ddc06",
+      "time_start": 3908.635942560816,
+      "time_end": 3933.420572193704,
+      "n_quality0": 9643,
+      "cadence_days": 0.0023148066218254826
+    }
+  ],
+  "representative_flagged_windows": [
+    {
+      "sector": 96,
+      "kind": "dip",
+      "screen_center_btjd": 3926.332735278908,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 11.878433968813026,
+      "screen_supported": true,
+      "n_window_quality0": 2555,
+      "n_core": 345,
+      "n_left": 933,
+      "n_right": 931,
+      "local_baseline_flux": 1.0011487007141113,
+      "core_median_delta_ppt": -3.416249873187782,
+      "side_mad_ppt": 0.46614569664794986
+    }
+  ],
+  "caution": "Screening centers and local core medians are not eclipse timing or fitted depths. Panels use raw SAP_FLUX and QUALITY=0."
+}

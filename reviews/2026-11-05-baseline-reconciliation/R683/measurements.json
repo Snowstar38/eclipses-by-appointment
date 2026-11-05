@@ -1,0 +1,196 @@
+{
+  "tic": "331650047",
+  "gaia_period_days": 25.974813602008197,
+  "depth_meaning": "Realized central trapezoid loss = amplitude*min(1,width/(2*ingress)); local normalization only",
+  "timing_meaning": "Formal covariance with half-cadence floor; not a calibrated total uncertainty",
+  "events": [
+    {
+      "kind": "A",
+      "sector": 73,
+      "predicted_btjd": 3295.783,
+      "predicted_sigma_days": 0.916,
+      "screen_center_btjd": 3298.0401,
+      "screen_snr": 369.73,
+      "screen_duration_hours": 2.0,
+      "mid_btjd": 3298.041205029708,
+      "formal_timing_error_days": 0.0001237458999858464,
+      "conservative_timing_error_days": 0.0011574031994996403,
+      "depth_ppt": 148.98635897528948,
+      "model_amplitude_ppt": 148.98635897528948,
+      "duration_hours": 3.652119795306063,
+      "ingress_parameter_hours": 1.4659560976361177,
+      "cadence_minutes": 3.333321214558964,
+      "oot_scatter_ppt": 2.176030371350676,
+      "n_points": 800,
+      "fit_center_shift_from_screen_days": 0.0011050297080146265,
+      "fit_parameters": [
+        0.9998120714795544,
+        -0.0022666213540665785,
+        0.14898635897528947,
+        3298.041205029708,
+        0.15217165813775263,
+        0.06108150406817157
+      ],
+      "timing_usable": true
+    },
+    {
+      "kind": "A",
+      "sector": 79,
+      "predicted_btjd": 3451.632,
+      "predicted_sigma_days": 0.96,
+      "screen_center_btjd": 3454.0066,
+      "screen_snr": 341.61,
+      "screen_duration_hours": 2.0,
+      "mid_btjd": 3454.0023740366028,
+      "formal_timing_error_days": 0.00026318408783955596,
+      "conservative_timing_error_days": 0.0011573947768965809,
+      "depth_ppt": 148.67617590060064,
+      "model_amplitude_ppt": 148.67617590060064,
+      "duration_hours": 3.6547622286464474,
+      "ingress_parameter_hours": 1.4464636130216169,
+      "cadence_minutes": 3.333296957462153,
+      "oot_scatter_ppt": 4.679505419401467,
+      "n_points": 863,
+      "fit_center_shift_from_screen_days": -0.004225963397402666,
+      "fit_parameters": [
+        0.9999246205552494,
+        0.005409605499592809,
+        0.14867617590060064,
+        3454.0023740366028,
+        0.15228175952693532,
+        0.060269317209234036
+      ],
+      "timing_usable": true
+    },
+    {
+      "kind": "A",
+      "sector": 86,
+      "predicted_btjd": 3659.431,
+      "predicted_sigma_days": 1.02,
+      "screen_center_btjd": 3661.9552,
+      "screen_snr": 336.67,
+      "screen_duration_hours": 2.0,
+      "mid_btjd": 3661.95147889457,
+      "formal_timing_error_days": 0.0001243432836335974,
+      "conservative_timing_error_days": 0.001157422774895167,
+      "depth_ppt": 143.20435355994655,
+      "model_amplitude_ppt": 143.20435355994655,
+      "duration_hours": 3.6523634525157487,
+      "ingress_parameter_hours": 1.4686942486368815,
+      "cadence_minutes": 3.3333775916980812,
+      "oot_scatter_ppt": 2.0974896471555247,
+      "n_points": 796,
+      "fit_center_shift_from_screen_days": -0.0037211054300314572,
+      "fit_parameters": [
+        1.0000456460016383,
+        0.001459809539892187,
+        0.14320435355994657,
+        3661.95147889457,
+        0.15218181052148952,
+        0.06119559369320339
+      ],
+      "timing_usable": true
+    }
+  ],
+  "same_kind_fits": {
+    "A": {
+      "cycles": [
+        0,
+        6,
+        14
+      ],
+      "event_sectors": [
+        73,
+        79,
+        86
+      ],
+      "epoch_btjd": 3298.0410624047945,
+      "period_days": 25.993593536962408,
+      "epoch_formal_error_days": 0.0010246663745685787,
+      "period_formal_error_days": 0.00011652079516340318,
+      "timing_residual_hours": [
+        0.0034229979282827117,
+        -0.005990159188513644,
+        0.002567335239291424
+      ],
+      "chi2": 0.0702313098208837,
+      "dof": 1,
+      "reduced_chi2": 0.0702313098208837,
+      "covariance_days2": [
+        [
+          1.0499411791715147e-06,
+          -9.051280483209544e-08
+        ],
+        [
+          -9.051280483209544e-08,
+          1.3577095705511761e-08
+        ]
+      ],
+      "timing_note": "Conditional weighted linear fit to raw QLP trapezoid centers, half-cadence floor; covariance scatter-inflated if dof>0. Does not include common pipeline timing offset, model or integer-cycle alias error."
+    }
+  },
+  "augmented_same_kind_fit": {
+    "kind": "A",
+    "events": [
+      {
+        "sector": 59,
+        "time": 2934.1301996176758,
+        "err": 0.0011574100523148445,
+        "depth": 144.74057415254973,
+        "source": "adaptive older QLP"
+      },
+      {
+        "sector": 73,
+        "time": 3298.041205029708,
+        "err": 0.0011574031994996403,
+        "depth": 148.98635897528948,
+        "source": "frozen latest-three"
+      },
+      {
+        "sector": 79,
+        "time": 3454.0023740366028,
+        "err": 0.0011573947768965809,
+        "depth": 148.67617590060064,
+        "source": "frozen latest-three"
+      },
+      {
+        "sector": 86,
+        "time": 3661.95147889457,
+        "err": 0.001157422774895167,
+        "depth": 143.20435355994655,
+        "source": "frozen latest-three"
+      }
+    ],
+    "cycles_from_epoch": [
+      0,
+      14,
+      20,
+      28
+    ],
+    "epoch_btjd": 2934.1302973313327,
+    "period_days": 25.993614004061012,
+    "epoch_formal_error_days": 0.0010502427872053572,
+    "period_formal_error_days": 5.654337506271256e-05,
+    "covariance_days2": [
+      [
+        1.1030099120768772e-06,
+        -4.955573668305595e-08
+      ],
+      [
+        -4.9555736683055944e-08,
+        3.197153263482585e-09
+      ]
+    ],
+    "timing_residual_hours": [
+      -0.0023451277666026726,
+      0.00747939651409979,
+      -0.004881022803601809,
+      -0.0002532113139750436
+    ],
+    "chi2": 0.11058819315448835,
+    "dof": 2,
+    "reduced_chi2": 0.05529409657724418,
+    "error_meaning": "Weighted raw QLP trapezoid centers, each floored at half its cadence; covariance inflated by reduced chi square above one. Conditional statistical precision; model/pipeline and alias uncertainty separate.",
+    "alias_note": "Even-cycle spacings alone permit half-period alias, but three adequately sampled odd half-cycles are clean nulls (half-alias-windows.json)."
+  }
+}

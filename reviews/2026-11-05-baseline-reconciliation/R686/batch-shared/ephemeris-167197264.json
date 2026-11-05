@@ -1,0 +1,66 @@
+{
+  "tic": 167197264,
+  "timescale": "BTJD = BJD_TDB - 2457000",
+  "source": "QLP QUALITY=0 SAP local 2-day window trapezoids; numbers descriptive, not calibrated total errors",
+  "gaia_period_days": 41.804020454205606,
+  "gaia_period_error_days": 0.0106868865,
+  "shared_period_days_descriptive": 41.800944208858255,
+  "A_reference_btjd": 3359.489216405343,
+  "B_reference_btjd": 3380.3864708425635,
+  "A_to_B_offset_days": 20.897254437220454,
+  "half_period_days": 20.900472104429127,
+  "max_abs_residual_days": 0.012023010912798782,
+  "event_rows": [
+    {
+      "kind": "B",
+      "sector": 56,
+      "cycle": -13,
+      "center_btjd": 2836.9772914348555,
+      "fit_residual_days": 0.003095307449257234
+    },
+    {
+      "kind": "B",
+      "sector": 76,
+      "cycle": 0,
+      "center_btjd": 3380.3918974325243,
+      "fit_residual_days": 0.005426589960734418
+    },
+    {
+      "kind": "B",
+      "sector": 82,
+      "cycle": 4,
+      "center_btjd": 3547.5817257805797,
+      "fit_residual_days": -0.008521897416812863
+    },
+    {
+      "kind": "A",
+      "sector": 15,
+      "cycle": -39,
+      "center_btjd": 1729.2512802088486,
+      "fit_residual_days": -0.0011120510225737235
+    },
+    {
+      "kind": "A",
+      "sector": 55,
+      "cycle": -13,
+      "center_btjd": 2816.0721910570505,
+      "fit_residual_days": -0.0047506331352451525
+    },
+    {
+      "kind": "A",
+      "sector": 75,
+      "cycle": 0,
+      "center_btjd": 3359.501239416256,
+      "fit_residual_days": 0.012023010912798782
+    },
+    {
+      "kind": "A",
+      "sector": 83,
+      "cycle": 5,
+      "center_btjd": 3568.4877771228716,
+      "fit_residual_days": -0.006160326762710611
+    }
+  ],
+  "cycle_alias_note": "Same-kind sequences include separated 13, 4, 17 (B) and 26, 13, 5 (A) cycle intervals. Shared P near Gaia and consistent half-orbit phase separate the opposite kinds; orbital and shape systematics remain.",
+  "uncertainty_note": "At least ~0.02 d event-center allowance from baseline/extraction differences; no formal precision period uncertainty is claimed."
+}

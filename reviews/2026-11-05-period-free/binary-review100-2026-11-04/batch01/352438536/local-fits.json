@@ -1,0 +1,60 @@
+{
+  "tic": "352438536",
+  "fits": [
+    {
+      "sector": 27,
+      "window_guess_btjd": 2040.08,
+      "n_quality0": 738,
+      "first_btjd": 2037.486044961214,
+      "last_btjd": 2042.673545569186,
+      "fit_baseline": 1.0094535260053978,
+      "fit_slope_per_day": -0.0016128386445863076,
+      "fit_depth_ppt": 37.495256263437625,
+      "fit_center_btjd": 2040.081851331526,
+      "fit_duration_days": 2.6780958569768805,
+      "fit_ingress_days": 0.23712582265408838,
+      "residual_mad_ppt": 0.7223477069532664,
+      "fit_cost": 0.00020253043013158102,
+      "fit_success": true,
+      "caution": "Center is exploratory; gap-interrupted/partial windows and nonstationary baselines may make fit unreliable.",
+      "timing_usable": true
+    },
+    {
+      "sector": 101,
+      "window_guess_btjd": 4105.95,
+      "n_quality0": 2227,
+      "first_btjd": 4103.2509724538295,
+      "last_btjd": 4108.64911798998,
+      "fit_baseline": 1.0080012486925778,
+      "fit_slope_per_day": 0.0033626832910565734,
+      "fit_depth_ppt": 36.58886975118793,
+      "fit_center_btjd": 4106.079711508001,
+      "fit_duration_days": 2.6978346411184213,
+      "fit_ingress_days": 0.2630515201089352,
+      "residual_mad_ppt": 1.0651179206742525,
+      "fit_cost": 0.0013156818744417197,
+      "fit_success": true,
+      "caution": "Center is exploratory; gap-interrupted/partial windows and nonstationary baselines may make fit unreliable.",
+      "timing_usable": true
+    },
+    {
+      "sector": 103,
+      "window_guess_btjd": 4166.13,
+      "n_quality0": 1008,
+      "first_btjd": 4164.330072529726,
+      "last_btjd": 4167.9296078527095,
+      "fit_baseline": 0.9927482738906523,
+      "fit_slope_per_day": 0.009431806011410882,
+      "fit_depth_ppt": 80.81648787909279,
+      "fit_center_btjd": 4165.726238523302,
+      "fit_duration_days": 1.50423547509675,
+      "fit_ingress_days": 0.63215608055386,
+      "residual_mad_ppt": 2.1056021576481183,
+      "fit_cost": 0.00212165085693733,
+      "fit_success": true,
+      "caution": "Center is exploratory; gap-interrupted/partial windows and nonstationary baselines may make fit unreliable.",
+      "timing_usable": false,
+      "parameter_exclusion_reason": "Ingress/egress gap or quality censoring makes the fitted center, duration and depth model-dependent; use only morphology and bounded contact timing."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "sample_id": "H070",
+  "tic": "354419348",
+  "queue_sha256": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+  "bulk_json": "[local-path-redacted]",
+  "bulk_json_sha256": "ede1b314f17f99c09b045c6bdc83551b24b6f5accff715c273e37d8da2ed3390",
+  "source_packet": "[local-path-redacted]",
+  "source_packet_sha256": "b7ba847562d1504ec8bc8fde98c3d82997fc23441b369152a882d97257ad84d0",
+  "verified_qlp_fits": [
+    {
+      "sector": 17,
+      "path": "[local-path-redacted]",
+      "sha256": "0593e39612e8bd28c3140d2bcc8372be39d3bfd812e7cd50f0568430a5413a8d"
+    },
+    {
+      "sector": 19,
+      "path": "[local-path-redacted]",
+      "sha256": "7b40ccc32aac516ebf9a2b49e5a413b947f3b6c78f5b9834bd114256a034a591"
+    },
+    {
+      "sector": 24,
+      "path": "[local-path-redacted]",
+      "sha256": "f8540f86434c5a24bab4f8139a509fe4702a9ec1823d9f438f268baa12d97591"
+    },
+    {
+      "sector": 25,
+      "path": "[local-path-redacted]",
+      "sha256": "6e639d2733c7d4b484d44b7479a5f5e3925b9157ccafe40a152a42221ade204f"
+    },
+    {
+      "sector": 52,
+      "path": "[local-path-redacted]",
+      "sha256": "1d346cb14b0d78595708369494c28190e931915b57d4921d3e579d242bf63411"
+    },
+    {
+      "sector": 58,
+      "path": "[local-path-redacted]",
+      "sha256": "c4e3a43150aa7213d2a310658f40c60c6c9a8fba40119c28ede5adb7edf673d6"
+    },
+    {
+      "sector": 59,
+      "path": "[local-path-redacted]",
+      "sha256": "5d9351984a3049b322294e6fa43d49cf8c534ce9bee811d5fbf7d5e69a0e1678"
+    },
+    {
+      "sector": 73,
+      "path": "[local-path-redacted]",
+      "sha256": "7bdf73cdf4ecf80ff21f3f85fac136e9a787753962ed2d9e54ce79e954d7dfd2"
+    },
+    {
+      "sector": 78,
+      "path": "[local-path-redacted]",
+      "sha256": "2dc0d71875fdb23ff62c2be50a81e8a0a7df97d01b953799c5faea0bd7d3d95f"
+    },
+    {
+      "sector": 79,
+      "path": "[local-path-redacted]",
+      "sha256": "2f541139253694cb05d9cf9f9aad15556225a57a04d16e529e5c038f7121f9c0"
+    },
+    {
+      "sector": 85,
+      "path": "[local-path-redacted]",
+      "sha256": "982a45902f10c5400cff91d09f0c956ae2da3daa426bbc7685673bb92362ba4e"
+    },
+    {
+      "sector": 86,
+      "path": "[local-path-redacted]",
+      "sha256": "384bd5ca5d2d0b9a54f2336154b866d2490dd543998d0cd6a1efdc3b72a1c761"
+    }
+  ],
+  "selected_screen_flags": [
+    {
+      "sector": 59,
+      "kind": "dip",
+      "screen_center_btjd": 2912.3112348088957,
+      "screen_duration_days": 0.06,
+      "screen_contrast": 5.413476726879832
+    },
+    {
+      "sector": 59,
+      "kind": "brightening",
+      "screen_center_btjd": 2926.220778857864,
+      "screen_duration_days": 0.12,
+      "screen_contrast": -7.718016006481335
+    },
+    {
+      "sector": 59,
+      "kind": "brightening",
+      "screen_center_btjd": 2912.207069006073,
+      "screen_duration_days": 0.12,
+      "screen_contrast": -6.013157320656209
+    }
+  ],
+  "gaia_orbit": {
+    "source_id": "2281250855409110144",
+    "nss_solution_type": "SB1",
+    "period": "45.131600403482715",
+    "period_error": "0.07326816",
+    "t_periastron": "-0.2784943730022361",
+    "t_periastron_error": "0.67938244",
+    "eccentricity": "0.36358893770391715",
+    "eccentricity_error": "0.06447476",
+    "arg_periastron": "313.3283793663781",
+    "arg_periastron_error": "7.3843555",
+    "semi_amplitude_primary": "10.349344599559796",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "0.75745577",
+    "significance": "19.361053",
+    "ra": "348.06983496999186",
+    "dec": "76.55422532806625",
+    "parallax": "1.50948897948318",
+    "phot_g_mean_mag": "10.934787",
+    "bp_rp": "0.89102554",
+    "ruwe": "1.2292886",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "sector_availability": {
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=348.06983496999186&dec=76.55422532806625",
+    "http_status": 200,
+    "response_sha256": "cb77b59283cf872f0f5e1d3d17bcbb3b543dbd15d9851d99f94f630834d6f529",
+    "available_sectors": [
+      17,
+      18,
+      19,
+      24,
+      25,
+      52,
+      58,
+      59,
+      73,
+      78,
+      79,
+      85,
+      86
+    ],
+    "uncached_sectors": [
+      18
+    ]
+  },
+  "note": "QLP FITS hashes reverified by inspect_raw.py. Screening windows are not measured event times."
+}

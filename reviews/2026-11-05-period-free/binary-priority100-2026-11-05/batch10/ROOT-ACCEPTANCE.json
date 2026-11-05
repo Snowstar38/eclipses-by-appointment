@@ -1,0 +1,74 @@
+{
+  "batch": "batch10",
+  "queue_sha256": "53f6f4f9a99462059c02effd7bced2f076e175325391e87b5ab96082ad86cf80",
+  "results_sha256": "e3e3529f89682e598a1c5b22e1f11d049401475c3a163c3d96a6192080027270",
+  "manifest_sha256": "78c19fef9d5ee0845e4dee893dcafc017805551908ed97fb87f0b1f95fb6c378",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 110,
+  "decisions": {
+    "T091": {
+      "tic": "420645189",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "KNOWN"
+    },
+    "T092": {
+      "tic": "212431520",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T093": {
+      "tic": "411613581",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T094": {
+      "tic": "293344008",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T095": {
+      "tic": "321441717",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T096": {
+      "tic": "356733570",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T097": {
+      "tic": "29510249",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T098": {
+      "tic": "117404582",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T099": {
+      "tic": "29551987",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T100": {
+      "tic": "95244521",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten revised reports, lead/helper audits, measured-event geometry, actual alias coverage and timing bounds. T091/T096/T098/T099 have repeat raw eclipse kinds, target-favored valid custom pixels, supported clocks and measured source-covariance Gaia conjunction agreement (.05-1.5 sigma); confirmed. T091 exact published Gaia/TOI EB receipt independently audited, KNOWN. Required bounded P/2 check: s26 BTJD2025.2678 uninterrupted12cadence core93percent, partial left62percent/full right, observed1.02ppt vs expected54ppt; lead visually checked deep-specific null, not universal sensitivity. T096 P2/P3 and T098 P2 covered nulls reviewed; T098 two kind-specific periods34.78577/34.78698 motivate conservative34.786+/-.002d. T099 broad baseline gap is outside event; actual ingress/core/egress sampled, third center -.041d within conservative .05d allowance, adopted28.791+/-.001d rather than inflated precision. T092 no same-kind repeat, target moment .047px vs neighbor1.65px; plausible. T093/T094/T095/T097 real-looking sparse events but neighboring integer counts unresolved: plausible, adopted periods blank. Opposite eclipse kind cannot force half-phase without orbital assumptions. T094 sector42 covered in bounded audit; T097 sector62 target-negative raw cutout cannot provide null. T100 unmistakable multi-sector short dip recurrence, harmonic .3396/.6792 and Gaia connection unresolved: probable with no adopted orbital period. Catalogue incompleteness retained.",
+  "helper_boundary": "Terra10 independently extracted all ten target cutouts and source moments. Root-requested measured-event covariance, alternate counts, partial-event bounds and harmonic tests are lead-owned, with lead visual null inspections. Final Terra auditor verified exact T091 prior public EB receipt.",
+  "accounting": "T091 KNOWN recovery and nine UNKNOWN. No new claim ledger, paper or identifiers changed."
+}

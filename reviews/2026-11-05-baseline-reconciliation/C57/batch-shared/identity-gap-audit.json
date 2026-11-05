@@ -1,0 +1,30 @@
+{
+  "cohorts": [
+    {
+      "source": "unmatched128/resolved/identity-outcomes.json",
+      "sha256": "8d8a3ce67586f7aed4e5c4170f19baea729eb2ec979f8a45748373ed710f4ae3",
+      "frozen": 128,
+      "unique": 125,
+      "different_dr2_dr3_ids": 125,
+      "unique_present_in_original_nss": 125,
+      "same_id_present_in_original_nss": 0,
+      "ambiguous": 3
+    },
+    {
+      "source": "unmatched512/identity-outcomes.json",
+      "sha256": "33b3083c943052035bbe57121b2b896c3aeb3ec552486e177a82e4907b3c002e",
+      "frozen": 512,
+      "unique": 503,
+      "different_dr2_dr3_ids": 48,
+      "unique_present_in_original_nss": 503,
+      "same_id_present_in_original_nss": 455,
+      "ambiguous": 9,
+      "same_id_g_range": [
+        11.554196,
+        11.917648
+      ]
+    }
+  ],
+  "original_nss_sha256": "2ceeb3781c3a62f33bb39287b4dae217309836e344c9ecf97dad759ddaccd80a",
+  "interpretation": "Exact identifier equality would miss only the different-ID subset:125 first cohort,48 second cohort. The remaining455 second-cohort identities have equal release IDs, so their absence in local mappings has another cause. These are outcome-independent frozen subsets of the locally unmatched 20-24 day parent, not an estimate of all-Gaia incompleteness or new-EB yield. Coordinates, neighborhoods and full TIC responses remain in the identity receipts."
+}

@@ -1,0 +1,722 @@
+{
+  "method": "Exploratory independent trapezoid plus linear baseline fit, local +/-2 d around s15/s17 troughs, raw SAP QUALITY=0; soft L1 residual. Strong changing baselines and imperfect shape dominate errors; no formal center errors assigned.",
+  "fits": [
+    {
+      "sector": 15,
+      "fitted_center_btjd": 1729.9241923996155,
+      "parameters": [
+        1729.9241923996155,
+        0.45317762012774343,
+        0.7293889079992816,
+        0.027110950866700644,
+        1.014679373273519,
+        -0.010592903877009398
+      ],
+      "n": 184,
+      "rms": 0.0022274452437397,
+      "source_sha256": "17fa9fb4ab75cca33c743cd059ea571882db1bcc30c20b590c3dd27b1adcd822"
+    },
+    {
+      "sector": 17,
+      "fitted_center_btjd": 1768.433992940411,
+      "parameters": [
+        1768.433992940411,
+        0.5922169533593689,
+        0.7141937046793901,
+        0.03189166259352532,
+        1.0129587291295463,
+        -0.008967022176226804
+      ],
+      "n": 164,
+      "rms": 0.0025610563784155818,
+      "source_sha256": "00d8da9e42ffbe9a28c8eaec86e3300e845f2af377f3981457518c4b174134dc"
+    }
+  ],
+  "center_difference_days": 38.50980054079537,
+  "integer_period_aliases_days": {
+    "1": 38.50980054079537,
+    "2": 19.254900270397684,
+    "3": 12.836600180265123,
+    "4": 9.627450135198842,
+    "5": 7.701960108159073,
+    "6": 6.418300090132561,
+    "7": 5.5014000772564815,
+    "8": 4.813725067599421
+  },
+  "caution": "These two fitted troughs do not establish unique cycle count; checking other predicted epochs with explicit gap/coverage and morphology is required. Shorter periods would require unobserved additional events. Near 38.43d is consistent with Gaia but Gaia is not a timing alias test.",
+  "sector16_alias_windows": [
+    {
+      "alias_n": 2,
+      "cycle": 1,
+      "predicted_btjd": 1749.1790926700132,
+      "core": {
+        "n": 5,
+        "expected": 24.000145323654138,
+        "coverage": 0.2083320718509185,
+        "max_gap_days": 0.4158578330414002
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.04166667825188597
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 3,
+      "cycle": 1,
+      "predicted_btjd": 1742.7607925798807,
+      "core": {
+        "n": 23,
+        "expected": 24.000145323654138,
+        "coverage": 0.9583275305142251,
+        "max_gap_days": 0.04166673062877635
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166675864462377
+      },
+      "right": {
+        "n": 22,
+        "expected": 33.60020345311798,
+        "coverage": 0.6547579401028442,
+        "max_gap_days": 0.10416677545731545
+      },
+      "delta_ppt": 2.7089401975994853
+    },
+    {
+      "alias_n": 3,
+      "cycle": 2,
+      "predicted_btjd": 1755.5973927601458,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.02083317835354137
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833192427062386
+      },
+      "right": {
+        "n": 34,
+        "expected": 33.60020345311798,
+        "coverage": 1.0,
+        "max_gap_days": 0.020833168466197094
+      },
+      "delta_ppt": 0.48578117461683945
+    },
+    {
+      "alias_n": 4,
+      "cycle": 1,
+      "predicted_btjd": 1739.5516425348144,
+      "core": {
+        "n": 19,
+        "expected": 24.000145323654138,
+        "coverage": 0.7916618730334903,
+        "max_gap_days": 0.06574685313989903
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 31,
+        "expected": 33.60020345311798,
+        "coverage": 0.9226134610540078,
+        "max_gap_days": 0.04166677860212076
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 4,
+      "cycle": 2,
+      "predicted_btjd": 1749.1790926700132,
+      "core": {
+        "n": 5,
+        "expected": 24.000145323654138,
+        "coverage": 0.2083320718509185,
+        "max_gap_days": 0.4158578330414002
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.04166667825188597
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 4,
+      "cycle": 3,
+      "predicted_btjd": 1758.806542805212,
+      "core": {
+        "n": 23,
+        "expected": 24.000145323654138,
+        "coverage": 0.9583275305142251,
+        "max_gap_days": 0.04166630279269157
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166631847397184
+      },
+      "right": {
+        "n": 31,
+        "expected": 33.60020345311798,
+        "coverage": 0.9226134610540078,
+        "max_gap_days": 0.04166629338396888
+      },
+      "delta_ppt": 1.3608084165843692
+    },
+    {
+      "alias_n": 5,
+      "cycle": 1,
+      "predicted_btjd": 1737.6261525077746,
+      "core": {
+        "n": 0,
+        "expected": 24.000145323654138,
+        "coverage": 0.0,
+        "max_gap_days": 0.5
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 5,
+      "cycle": 2,
+      "predicted_btjd": 1745.3281126159336,
+      "core": {
+        "n": 21,
+        "expected": 24.000145323654138,
+        "coverage": 0.8749947017738577,
+        "max_gap_days": 0.041666692214676004
+      },
+      "left": {
+        "n": 23,
+        "expected": 33.60020345311798,
+        "coverage": 0.6845196646529735,
+        "max_gap_days": 0.10416677545731545
+      },
+      "right": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166668212815239
+      },
+      "delta_ppt": 0.7201734099069323
+    },
+    {
+      "alias_n": 5,
+      "cycle": 3,
+      "predicted_btjd": 1753.0300727240929,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.020833214980484627
+      },
+      "left": {
+        "n": 7,
+        "expected": 33.60020345311798,
+        "coverage": 0.20833207185090497,
+        "max_gap_days": 0.5664977742956125
+      },
+      "right": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833196015701105
+      },
+      "delta_ppt": 11.8413306527001
+    },
+    {
+      "alias_n": 5,
+      "cycle": 4,
+      "predicted_btjd": 1760.732032832252,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.020833145084452553
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166629338396888
+      },
+      "right": {
+        "n": 34,
+        "expected": 33.60020345311798,
+        "coverage": 1.0,
+        "max_gap_days": 0.020833155192349295
+      },
+      "delta_ppt": 2.3096197677308083
+    },
+    {
+      "alias_n": 6,
+      "cycle": 1,
+      "predicted_btjd": 1736.342492489748,
+      "core": {
+        "n": 0,
+        "expected": 24.000145323654138,
+        "coverage": 0.0,
+        "max_gap_days": 0.5
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 6,
+      "cycle": 2,
+      "predicted_btjd": 1742.7607925798807,
+      "core": {
+        "n": 23,
+        "expected": 24.000145323654138,
+        "coverage": 0.9583275305142251,
+        "max_gap_days": 0.04166673062877635
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166675864462377
+      },
+      "right": {
+        "n": 22,
+        "expected": 33.60020345311798,
+        "coverage": 0.6547579401028442,
+        "max_gap_days": 0.10416677545731545
+      },
+      "delta_ppt": 2.7089401975994853
+    },
+    {
+      "alias_n": 6,
+      "cycle": 3,
+      "predicted_btjd": 1749.1790926700132,
+      "core": {
+        "n": 5,
+        "expected": 24.000145323654138,
+        "coverage": 0.2083320718509185,
+        "max_gap_days": 0.4158578330414002
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.04166667825188597
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 6,
+      "cycle": 4,
+      "predicted_btjd": 1755.5973927601458,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.02083317835354137
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833192427062386
+      },
+      "right": {
+        "n": 34,
+        "expected": 33.60020345311798,
+        "coverage": 1.0,
+        "max_gap_days": 0.020833168466197094
+      },
+      "delta_ppt": 0.48578117461683945
+    },
+    {
+      "alias_n": 6,
+      "cycle": 5,
+      "predicted_btjd": 1762.0156928502784,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.02083315590971324
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.02083314574792894
+      },
+      "right": {
+        "n": 23,
+        "expected": 33.60020345311798,
+        "coverage": 0.6845196646529735,
+        "max_gap_days": 0.23171004071696188
+      },
+      "delta_ppt": -1.665442637693304
+    },
+    {
+      "alias_n": 7,
+      "cycle": 1,
+      "predicted_btjd": 1735.425592476872,
+      "core": {
+        "n": 0,
+        "expected": 24.000145323654138,
+        "coverage": 0.0,
+        "max_gap_days": 0.5
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 7,
+      "cycle": 2,
+      "predicted_btjd": 1740.9269925541284,
+      "core": {
+        "n": 21,
+        "expected": 24.000145323654138,
+        "coverage": 0.8749947017738577,
+        "max_gap_days": 0.04166676679210468
+      },
+      "left": {
+        "n": 28,
+        "expected": 33.60020345311798,
+        "coverage": 0.8333282874036199,
+        "max_gap_days": 0.0833335870627252
+      },
+      "right": {
+        "n": 30,
+        "expected": 33.60020345311798,
+        "coverage": 0.8928517365038785,
+        "max_gap_days": 0.041666744343501705
+      },
+      "delta_ppt": 2.147919410681265
+    },
+    {
+      "alias_n": 7,
+      "cycle": 3,
+      "predicted_btjd": 1746.428392631385,
+      "core": {
+        "n": 23,
+        "expected": 24.000145323654138,
+        "coverage": 0.9583275305142251,
+        "max_gap_days": 0.0416666804653687
+      },
+      "left": {
+        "n": 30,
+        "expected": 33.60020345311798,
+        "coverage": 0.8928517365038785,
+        "max_gap_days": 0.04166669483856822
+      },
+      "right": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166667634467558
+      },
+      "delta_ppt": 0.08593551061997218
+    },
+    {
+      "alias_n": 7,
+      "cycle": 4,
+      "predicted_btjd": 1751.9297927086416,
+      "core": {
+        "n": 4,
+        "expected": 24.000145323654138,
+        "coverage": 0.1666656574807348,
+        "max_gap_days": 0.41677778974690227
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.02083321601321586
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 7,
+      "cycle": 5,
+      "predicted_btjd": 1757.431192785898,
+      "core": {
+        "n": 22,
+        "expected": 24.000145323654138,
+        "coverage": 0.9166611161440414,
+        "max_gap_days": 0.04166632302690232
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.041666341653581185
+      },
+      "right": {
+        "n": 30,
+        "expected": 33.60020345311798,
+        "coverage": 0.8928517365038785,
+        "max_gap_days": 0.04166630721169895
+      },
+      "delta_ppt": 1.406331625370072
+    },
+    {
+      "alias_n": 7,
+      "cycle": 6,
+      "predicted_btjd": 1762.9325928631545,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.020833184902585344
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833153549119743
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 8,
+      "cycle": 1,
+      "predicted_btjd": 1734.737917467215,
+      "core": {
+        "n": 0,
+        "expected": 24.000145323654138,
+        "coverage": 0.0,
+        "max_gap_days": 0.5
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 8,
+      "cycle": 2,
+      "predicted_btjd": 1739.5516425348144,
+      "core": {
+        "n": 19,
+        "expected": 24.000145323654138,
+        "coverage": 0.7916618730334903,
+        "max_gap_days": 0.06574685313989903
+      },
+      "left": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "right": {
+        "n": 31,
+        "expected": 33.60020345311798,
+        "coverage": 0.9226134610540078,
+        "max_gap_days": 0.04166677860212076
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 8,
+      "cycle": 3,
+      "predicted_btjd": 1744.3653676024137,
+      "core": {
+        "n": 17,
+        "expected": 24.000145323654138,
+        "coverage": 0.7083290442931229,
+        "max_gap_days": 0.08333340210083406
+      },
+      "left": {
+        "n": 28,
+        "expected": 33.60020345311798,
+        "coverage": 0.8333282874036199,
+        "max_gap_days": 0.06250008255392459
+      },
+      "right": {
+        "n": 28,
+        "expected": 33.60020345311798,
+        "coverage": 0.8333282874036199,
+        "max_gap_days": 0.041666692214676004
+      },
+      "delta_ppt": 1.3070681814857377
+    },
+    {
+      "alias_n": 8,
+      "cycle": 4,
+      "predicted_btjd": 1749.1790926700132,
+      "core": {
+        "n": 5,
+        "expected": 24.000145323654138,
+        "coverage": 0.2083320718509185,
+        "max_gap_days": 0.4158578330414002
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.04166667825188597
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    },
+    {
+      "alias_n": 8,
+      "cycle": 5,
+      "predicted_btjd": 1753.9928177376128,
+      "core": {
+        "n": 24,
+        "expected": 24.000145323654138,
+        "coverage": 0.9999939448844088,
+        "max_gap_days": 0.02083319718576604
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833222435612697
+      },
+      "right": {
+        "n": 34,
+        "expected": 33.60020345311798,
+        "coverage": 1.0,
+        "max_gap_days": 0.02083318429117753
+      },
+      "delta_ppt": 0.002459184067271636
+    },
+    {
+      "alias_n": 8,
+      "cycle": 6,
+      "predicted_btjd": 1758.806542805212,
+      "core": {
+        "n": 23,
+        "expected": 24.000145323654138,
+        "coverage": 0.9583275305142251,
+        "max_gap_days": 0.04166630279269157
+      },
+      "left": {
+        "n": 32,
+        "expected": 33.60020345311798,
+        "coverage": 0.952375185604137,
+        "max_gap_days": 0.04166631847397184
+      },
+      "right": {
+        "n": 31,
+        "expected": 33.60020345311798,
+        "coverage": 0.9226134610540078,
+        "max_gap_days": 0.04166629338396888
+      },
+      "delta_ppt": 1.3608084165843692
+    },
+    {
+      "alias_n": 8,
+      "cycle": 7,
+      "predicted_btjd": 1763.6202678728114,
+      "core": {
+        "n": 0,
+        "expected": 24.000145323654138,
+        "coverage": 0.0,
+        "max_gap_days": 0.5
+      },
+      "left": {
+        "n": 33,
+        "expected": 33.60020345311798,
+        "coverage": 0.9821369101542663,
+        "max_gap_days": 0.020833169281104347
+      },
+      "right": {
+        "n": 0,
+        "expected": 33.60020345311798,
+        "coverage": 0.0,
+        "max_gap_days": 0.7000000000000455
+      },
+      "delta_ppt": null
+    }
+  ],
+  "alias_diagnostic_note": "Window coverage includes endpoints and internal gaps. Deltas are diagnostic only: baselines may contain the opposite conjunction or variability and center uncertainties have not been propagated. Not labeled sensitive nulls."
+}

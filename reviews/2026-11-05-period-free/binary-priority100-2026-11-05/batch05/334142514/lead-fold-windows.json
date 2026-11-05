@@ -1,0 +1,64 @@
+{
+  "screen_period_days": 25.368600941722757,
+  "screen_epoch_btjd": 1505.1851636629121,
+  "screen_duration_days": 0.32,
+  "windows": [
+    {
+      "sector": 7,
+      "cycle": 0,
+      "pred_btjd": 1505.1851636629121,
+      "core_n": 15,
+      "side_n": 31,
+      "core_first_btjd": 1505.036308723132,
+      "core_last_btjd": 1505.327977314539,
+      "core_max_gap_days": 0.020833475212384656,
+      "side_max_gap_days": 0.666671048684293,
+      "cadence_days": 0.020833429047115715,
+      "raw_core_deficit_ppt": 1.042049738077977,
+      "source_sha256": "a716dc20d37bd4471e1b73d680d8e7050aedec2a968d453a7a5c60037b639416"
+    },
+    {
+      "sector": 34,
+      "cycle": 29,
+      "pred_btjd": 2240.8745909728723,
+      "core_n": 17,
+      "side_n": 89,
+      "core_first_btjd": 2240.7234951821774,
+      "core_last_btjd": 2240.8346051084714,
+      "core_max_gap_days": 0.006944371435565699,
+      "side_max_gap_days": 0.01388876640885428,
+      "cadence_days": 0.006944415501038748,
+      "raw_core_deficit_ppt": -1.5095255135193497,
+      "source_sha256": "081cacc1d480922bc58a8df307cc88b35f2e456534826aaffc74c89b6ba5e5f5"
+    },
+    {
+      "sector": 61,
+      "cycle": 58,
+      "pred_btjd": 2976.564018282832,
+      "core_n": 0,
+      "side_n": 277,
+      "core_first_btjd": null,
+      "core_last_btjd": null,
+      "core_max_gap_days": null,
+      "side_max_gap_days": 0.002314791966455232,
+      "cadence_days": 0.0023147894669364177,
+      "raw_core_deficit_ppt": null,
+      "source_sha256": "a9a88dc0ce22bc1e98575831dae9f3700b914a1a0cbcb2771eec94d4b82c2d56"
+    },
+    {
+      "sector": 88,
+      "cycle": 87,
+      "pred_btjd": 3712.253445592792,
+      "core_n": 139,
+      "side_n": 456,
+      "core_first_btjd": 3712.093958843449,
+      "core_last_btjd": 3712.413397606008,
+      "core_max_gap_days": 0.0023147740903368685,
+      "side_max_gap_days": 0.6435070715592701,
+      "cadence_days": 0.002314797654889844,
+      "raw_core_deficit_ppt": 9.706712795912065,
+      "source_sha256": "6b6362aa7c6a402aa1a1ee8f2acfd4847a4c4b51cc891aaccbb9646602754972"
+    }
+  ],
+  "method": "Predicted windows are not measured events. Quality-zero raw SAP, core \u00b1max(duration/2,0.05), side outside max(duration,0.15) to max(3duration,0.4). Report actual endpoints and internal gaps."
+}

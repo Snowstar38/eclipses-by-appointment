@@ -1,0 +1,116 @@
+{
+  "tic": "174303697",
+  "gaia_source_id": "1924017843915357440",
+  "screen_period_days": 20.68836506078619,
+  "screen_epoch_btjd": 1759.4050206686009,
+  "screen_duration_days": 0.261,
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sector": 16,
+      "sha256": "865fd375c3491dfe8c9b919402ef7ac37a7371af45e1853f023fe5298870b351"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 57,
+      "sha256": "88003bf311ac6cc64fbe11d2ef06f3f090daabaeee2b549778de888c22dcd88c"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 84,
+      "sha256": "c6d84c591ad6ad0d70c6eb6952163582bcf56d1ca2c359056a7e2ce3f378f9dd"
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 16,
+      "first_btjd": 1739.1815064303503,
+      "last_btjd": 1759.7443416705153,
+      "cadence_days": 0.02083362331495664,
+      "n": 697
+    },
+    {
+      "sector": 57,
+      "first_btjd": 2853.4105004226,
+      "last_btjd": 2882.072200536034,
+      "cadence_days": 0.00231478187834,
+      "n": 10265
+    },
+    {
+      "sector": 84,
+      "first_btjd": 3584.607866502108,
+      "last_btjd": 3610.306665479151,
+      "cadence_days": 0.002314783946985699,
+      "n": 10035
+    }
+  ],
+  "events": [
+    {
+      "sector": 57,
+      "cycle": 53,
+      "predicted_btjd": 2855.888368890269,
+      "mid_btjd": 2855.890706714406,
+      "formal_timing_error_days": 9.613066567863646e-05,
+      "timing_error_days": 0.00115739093917,
+      "timing_usable": true,
+      "depth_ppt": 179.74231790612478,
+      "model_amplitude_ppt": 179.74231790612478,
+      "duration_days": 0.5177931460849421,
+      "ingress_parameter_days": 0.2102233396781923,
+      "oot_scatter_ppt": 1.101512028516148,
+      "n": 902,
+      "cadence_days": 0.00231478187834,
+      "source_sha256": "88003bf311ac6cc64fbe11d2ef06f3f090daabaeee2b549778de888c22dcd88c"
+    },
+    {
+      "sector": 57,
+      "cycle": 54,
+      "predicted_btjd": 2876.576733951055,
+      "mid_btjd": 2876.579424090191,
+      "formal_timing_error_days": 8.877725042692446e-05,
+      "timing_error_days": 0.00115739093917,
+      "timing_usable": true,
+      "depth_ppt": 179.3050675388593,
+      "model_amplitude_ppt": 179.3050675388593,
+      "duration_days": 0.5164035809438248,
+      "ingress_parameter_days": 0.208705116169171,
+      "oot_scatter_ppt": 1.0166029871358333,
+      "n": 902,
+      "cadence_days": 0.00231478187834,
+      "source_sha256": "88003bf311ac6cc64fbe11d2ef06f3f090daabaeee2b549778de888c22dcd88c"
+    },
+    {
+      "sector": 84,
+      "cycle": 89,
+      "predicted_btjd": 3600.6695110785718,
+      "mid_btjd": 3600.6708240225535,
+      "formal_timing_error_days": 0.00010629652157740495,
+      "timing_error_days": 0.0011573919734928495,
+      "timing_usable": true,
+      "depth_ppt": 179.39657645110375,
+      "model_amplitude_ppt": 179.39657645110375,
+      "duration_days": 0.5162309106486445,
+      "ingress_parameter_days": 0.2087950681850226,
+      "oot_scatter_ppt": 1.2172714935936941,
+      "n": 902,
+      "cadence_days": 0.002314783946985699,
+      "source_sha256": "c6d84c591ad6ad0d70c6eb6952163582bcf56d1ca2c359056a7e2ce3f378f9dd"
+    }
+  ],
+  "timing_event_count": 3,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 20.688331458407006,
+  "period_error_days": 3.9917967746655805e-05,
+  "reference_epoch_btjd": 2855.890896955367,
+  "epoch_error_days": 0.0008299989159723152,
+  "reference_cycle": 53,
+  "reduced_chi_square": 0.055623319071644105,
+  "timing_residual_days": [
+    -0.0001902409612739575,
+    0.0001956764167516667,
+    -5.435465936898254e-06
+  ],
+  "depth_ppt": 179.39657645110375,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics."
+}

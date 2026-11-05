@@ -1,0 +1,9 @@
+# H048 - TIC 174187654
+
+**Physical verdict: REFUTED. Bounded review: COMPLETE. Catalogue novelty: UNKNOWN.** This is one frozen repeat_sector_dip lead, not a new counted acceptance.
+
+Raw SAP s93 has a broad asymmetric drop near 3837.15 amid strong secular variation. s102/s103 have very large jumps at sector breaks and slopes over many days, not recurring contact profiles at Gaia SB1 24.8894 d. The s93 TESSCut WCS shows a much brighter off-target source near pixel (2,6); the difference is dominated by that source while the target aperture gives only ~0.06 ppt under the chosen in/out windows and a poorly defined 0.99-pixel centroid. This extraction is not a trustworthy eclipse depth or localization. The selected dip interpretation is positively contradicted by the pixel and gap morphology.
+
+**Limits and next check.** The selected s93/s102/s103 features are dominated by aperture/source contamination and sector discontinuities; the target might still have unrelated variability. Use resolved photometry to determine the bright neighboring star’s variability if desired.
+
+**Evidence and method.** Examined all 7 cached sectors in raw SAP with quality=0, including [representative window data](raw-inspection.json), [raw panels](raw-windows.png), and [full sector / Gaia orbit context](orbit-context.json). Screen windows are predictions, not measured centers. Source [packet](../../source-packets/174187654/sources.json) and the original bulk JSON/FITS SHA-256 values are preserved in raw-inspection.json. [TESSCut receipt](../lead-pixels/174187654/receipt.json) and [difference image](../lead-pixels/174187654/difference.png). Gaia flux ratios are approximate. The central catalogue review could not query four required novelty gates, so UNKNOWN remains regardless of cached primary nonmatch.

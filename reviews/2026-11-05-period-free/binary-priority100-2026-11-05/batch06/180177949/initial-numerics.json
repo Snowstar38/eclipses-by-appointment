@@ -1,0 +1,266 @@
+{
+  "sample_id": "T060",
+  "tic": "180177949",
+  "gaia_period_days": 39.99639231675146,
+  "source_bulk": "[local-path-redacted]",
+  "source_bulk_sha256": "432a620b8c1726b558dad875066fafcf9b2d0e476fae99441c721225984c8a80",
+  "file_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "367d5cddeebf1b991b98c4e3231a465c4e12f08bb48d7d82e2685fdf983b383e",
+      "sector": 11
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "16a93939034f486183ff162cbb9045e1c4750c157ab3a9aa613d47a6d3ac17ca",
+      "sector": 37
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "dca93161510850910c3918907a76a3fb818c0600bf01b0b06d2e88cc8fc6fd0d",
+      "sector": 38
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a693a5a035fedc7446bd72607187a1846b28ce207ad76aac754cbc74d523fc02",
+      "sector": 64
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "9a5fc91440b247a7b632d1cfca17a7e9f77d79d7d4cafffa5b5b1ffc76cf7966",
+      "sector": 65
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d3e16eb79fbb191a7bd4185ca1b654b63951163a862aaf8ea1d3148a7b7a1b0f",
+      "sector": 99
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "7c7b8ebf63d8d21d218dddc0ae570d02c83b84950267d270130ce55f201c9098",
+      "sector": 100
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "276972b7f30d2c409f96bc7e0d5460e7a1fe19cf2fea5b42f1582c5867930c9f",
+      "sector": 101
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 11,
+      "first": 1596.7853619277919,
+      "last": 1623.8685856189002,
+      "n": 1248,
+      "n_quality0": 872,
+      "median_cadence_days": 0.02083318637164666,
+      "max_gap_days": 1.124989167837839
+    },
+    {
+      "sector": 37,
+      "first": 2307.2429900088446,
+      "last": 2332.5767711461317,
+      "n": 3477,
+      "n_quality0": 3139,
+      "median_cadence_days": 0.006944552437971652,
+      "max_gap_days": 1.2014080839594499
+    },
+    {
+      "sector": 38,
+      "first": 2333.8614953812157,
+      "last": 2360.548706051555,
+      "n": 3705,
+      "n_quality0": 3410,
+      "median_cadence_days": 0.006944352159507616,
+      "max_gap_days": 0.9722102428809194
+    },
+    {
+      "sector": 64,
+      "first": 3041.113145431447,
+      "last": 3068.0324822254515,
+      "n": 11356,
+      "n_quality0": 11015,
+      "median_cadence_days": 0.0023148500554270868,
+      "max_gap_days": 0.2129670969484323
+    },
+    {
+      "sector": 65,
+      "first": 3068.738501145409,
+      "last": 3096.589905752675,
+      "n": 11759,
+      "n_quality0": 10206,
+      "median_cadence_days": 0.002314781829909407,
+      "max_gap_days": 0.21296084086907285
+    },
+    {
+      "sector": 99,
+      "first": 4046.1087043636667,
+      "last": 4073.7769199246973,
+      "n": 8629,
+      "n_quality0": 7203,
+      "median_cadence_days": 0.0023149545625074097,
+      "max_gap_days": 7.275912142749348
+    },
+    {
+      "sector": 100,
+      "first": 4073.989876949554,
+      "last": 4100.464401340197,
+      "n": 11174,
+      "n_quality0": 8027,
+      "median_cadence_days": 0.0023148136961026466,
+      "max_gap_days": 0.2129628727070667
+    },
+    {
+      "sector": 101,
+      "first": 4100.677375748267,
+      "last": 4126.8046780672385,
+      "n": 11015,
+      "n_quality0": 8127,
+      "median_cadence_days": 0.0023148137088355725,
+      "max_gap_days": 0.2129628833326933
+    }
+  ],
+  "retained_flag_windows": [
+    {
+      "sector": 37,
+      "kind": "dip",
+      "time": 2322.4030568905896,
+      "duration": 0.48,
+      "depth": 0.013363846454823802,
+      "contrast": 5.109414619910834,
+      "core_samples": 69,
+      "core_quality0": 69,
+      "side_quality0": 136,
+      "raw_core_median_ppt": 12.26049388708972,
+      "core_first": 2322.16694220764,
+      "core_last": 2322.6391715368636
+    },
+    {
+      "sector": 64,
+      "kind": "dip",
+      "time": 3067.1713703596283,
+      "duration": 0.48,
+      "depth": 0.011715715754003542,
+      "contrast": 5.375682387406031,
+      "core_samples": 207,
+      "core_quality0": 200,
+      "side_quality0": 257,
+      "raw_core_median_ppt": 11.272312592149891,
+      "core_first": 3066.932944180801,
+      "core_last": 3067.4097965172123
+    },
+    {
+      "sector": 65,
+      "kind": "dip",
+      "time": 3093.9696079513747,
+      "duration": 0.48,
+      "depth": 0.012285732963195795,
+      "contrast": 5.30365904461531,
+      "core_samples": 207,
+      "core_quality0": 194,
+      "side_quality0": 252,
+      "raw_core_median_ppt": 11.37313785052385,
+      "core_first": 3093.7311884825617,
+      "core_last": 3094.208027387691
+    },
+    {
+      "sector": 99,
+      "kind": "dip",
+      "time": 4046.974497108679,
+      "duration": 0.48,
+      "depth": 0.010208526794806994,
+      "contrast": 5.730139276043802,
+      "core_samples": 207,
+      "core_quality0": 205,
+      "side_quality0": 257,
+      "raw_core_median_ppt": 9.999685268113012,
+      "core_first": 4046.7360566914526,
+      "core_last": 4047.21293757239
+    },
+    {
+      "sector": 99,
+      "kind": "brightening",
+      "time": 4068.086898399848,
+      "duration": 0.48,
+      "depth": -0.00951196555111844,
+      "contrast": -5.619678917926713,
+      "core_samples": 207,
+      "core_quality0": 206,
+      "side_quality0": 287,
+      "raw_core_median_ppt": -8.815864656326333,
+      "core_first": 4067.848457762909,
+      "core_last": 4068.325339009011
+    },
+    {
+      "sector": 100,
+      "kind": "dip",
+      "time": 4080.0292258300265,
+      "duration": 0.48,
+      "depth": 0.010775180389698935,
+      "contrast": 5.828858824563327,
+      "core_samples": 207,
+      "core_quality0": 200,
+      "side_quality0": 323,
+      "raw_core_median_ppt": 9.92776813479801,
+      "core_first": 4079.790800021408,
+      "core_last": 4080.267651638643
+    },
+    {
+      "sector": 100,
+      "kind": "brightening",
+      "time": 4094.9250520753326,
+      "duration": 0.48,
+      "depth": -0.009963315111008342,
+      "contrast": -6.029346533767257,
+      "core_samples": 207,
+      "core_quality0": 207,
+      "side_quality0": 258,
+      "raw_core_median_ppt": -9.384093963723306,
+      "core_first": 4094.686626260753,
+      "core_last": 4095.163477889911
+    },
+    {
+      "sector": 100,
+      "kind": "brightening",
+      "time": 4091.9250534878593,
+      "duration": 0.48,
+      "depth": -0.009301945228309405,
+      "contrast": -5.625108972620903,
+      "core_samples": 207,
+      "core_quality0": 152,
+      "side_quality0": 242,
+      "raw_core_median_ppt": -8.66501833836808,
+      "core_first": 4091.6866276755422,
+      "core_last": 4092.1634793001763
+    },
+    {
+      "sector": 101,
+      "kind": "dip",
+      "time": 4119.260700127263,
+      "duration": 0.48,
+      "depth": 0.009274933840416666,
+      "contrast": 5.0620812447090096,
+      "core_samples": 207,
+      "core_quality0": 96,
+      "side_quality0": 217,
+      "raw_core_median_ppt": 9.57599150671118,
+      "core_first": 4119.022274315025,
+      "core_last": 4119.499125939502
+    },
+    {
+      "sector": 101,
+      "kind": "brightening",
+      "time": 4115.5384796798535,
+      "duration": 0.48,
+      "depth": -0.008686353314241613,
+      "contrast": -5.1835123699972305,
+      "core_samples": 207,
+      "core_quality0": 207,
+      "side_quality0": 292,
+      "raw_core_median_ppt": -8.156907129337476,
+      "core_first": 4115.3000538676115,
+      "core_last": 4115.776905492096
+    }
+  ],
+  "note": "Retained windows and Gaia folds are predictions/screening only. Numeric core medians are not fitted eclipse depths."
+}

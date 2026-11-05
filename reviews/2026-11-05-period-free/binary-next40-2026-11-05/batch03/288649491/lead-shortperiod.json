@@ -1,0 +1,34 @@
+{
+  "sample_id": "F030",
+  "tic": "288649491",
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "4412635a809166da16eb35fc500a7eb0debe0c4382bdf76328e3cd4ad09344dc",
+      "sector": 34,
+      "quality0_samples": 2804
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "2e4ba9ded9b0c10a46b8ce82fc65680e27de972adc9ddcbc3ea554994443e8fc",
+      "sector": 61,
+      "quality0_samples": 9105
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "c12fef27cb18ae08bd1305d3adf873b7470e280e9158281cddf66a8a8d16cbca",
+      "sector": 88,
+      "quality0_samples": 11215
+    }
+  ],
+  "method": "BoxLeastSquares on QLP KSPSAP quality-zero data; diagnostic period search, same observing occasions as SAP",
+  "best": [
+    {
+      "period_days": 0.5400731891063035,
+      "epoch_btjd": 2230.061853583373,
+      "duration_days": 0.05,
+      "depth": 0.02423845854065344,
+      "snr": 1.0513497991442287
+    }
+  ]
+}

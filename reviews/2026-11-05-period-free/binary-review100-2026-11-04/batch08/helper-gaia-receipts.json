@@ -1,0 +1,14 @@
+{
+  "423569223": {
+    "error": "HTTPError('503 Server Error: 503 for url: https://gea.esac.esa.int/tap-server/tap/sync')",
+    "query": "SELECT TOP 200 source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',185.7635761280303,-19.64984786961213,0.04)) ORDER BY phot_g_mean_mag"
+  },
+  "393487481": {
+    "error": "HTTPError('503 Server Error: 503 for url: https://gea.esac.esa.int/tap-server/tap/sync')",
+    "query": "SELECT TOP 200 source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',160.0345560700852,8.362098087849262,0.04)) ORDER BY phot_g_mean_mag"
+  },
+  "41859748": {
+    "error": "HTTPError('503 Server Error: 503 for url: https://gea.esac.esa.int/tap-server/tap/sync')",
+    "query": "SELECT TOP 200 source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',20.47260957245033,-40.044053874022566,0.04)) ORDER BY phot_g_mean_mag"
+  }
+}

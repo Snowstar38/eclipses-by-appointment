@@ -1,0 +1,130 @@
+{
+  "tic": "24668377",
+  "sector": 98,
+  "event_kind": "A",
+  "center_btjd": 4001.394965491309,
+  "n_cadences": 864,
+  "cutout_sha256": "27fd96c330771e3405fceea0003b71b525098585b74b7937a6833ee25b651d37",
+  "target_xy": [
+    5.710896503393041,
+    5.908859368829137
+  ],
+  "deficit_centroid_xy": [
+    5.646462948413159,
+    5.975578925463074
+  ],
+  "light_centroid_xy": [
+    5.6843135703324075,
+    5.913994528635791
+  ],
+  "deficit_light_offset_arcsec": 1.5180120595384183,
+  "deficit_target_offset_arcsec": 1.9478201585222379,
+  "target_center_pixel_fractional_loss": 0.21886993351291786,
+  "neighbor_60arcsec": [
+    {
+      "source_id": "2902439805151657984",
+      "sep_arcsec": 11.853807263285503,
+      "G": 17.456734,
+      "delta_G": 5.934996000000002,
+      "xy": [
+        5.279546352949198,
+        5.491211063685701
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 42.93591473788855,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.2148461885161454
+    },
+    {
+      "source_id": "2902439839511399552",
+      "sep_arcsec": 38.275178628891375,
+      "G": 20.252743,
+      "delta_G": 8.731005,
+      "xy": [
+        4.971062737561502,
+        4.095164606882545
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 561.7360452440761,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.19861797380864946
+    },
+    {
+      "source_id": "2902439843808040192",
+      "sep_arcsec": 43.310481624407956,
+      "G": 20.986692,
+      "delta_G": 9.464954000000002,
+      "xy": [
+        5.073122528023738,
+        3.785704643542763
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 1104.1885472921663,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.19861797380864946
+    },
+    {
+      "source_id": "2902439878168521600",
+      "sep_arcsec": 43.82313988664814,
+      "G": 17.059404,
+      "delta_G": 5.5376660000000015,
+      "xy": [
+        5.708205798021362,
+        3.6765755793113195
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 29.832915827842555,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.16999335270817825
+    },
+    {
+      "source_id": "2902439878168521984",
+      "sep_arcsec": 44.89974862134917,
+      "G": 17.373594,
+      "delta_G": 5.8518560000000015,
+      "xy": [
+        6.946245273588862,
+        4.051814768429553
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 39.78415751205237,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.05295288779141066
+    },
+    {
+      "source_id": "2902439873871135744",
+      "sep_arcsec": 45.43454737123126,
+      "G": 21.638641,
+      "delta_G": 10.116903,
+      "xy": [
+        7.362195466473143,
+        4.403165098255011
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 2012.7542372429007,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.05295288779141066
+    },
+    {
+      "source_id": "2902439843807506816",
+      "sep_arcsec": 47.74100513491947,
+      "G": 20.853523,
+      "delta_G": 9.331785,
+      "xy": [
+        3.5189133900639,
+        4.987941291709101
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 976.7533586421836,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.21804571394362654
+    },
+    {
+      "source_id": "2902438950454316288",
+      "sep_arcsec": 50.11391555959921,
+      "G": 20.329212,
+      "delta_G": 8.807474,
+      "xy": [
+        6.007903156935509,
+        8.451557656581528
+      ],
+      "target_plus_neighbor_required_intrinsic_depth": 602.7127664388038,
+      "feasible_under_two_star_G_approximation": false,
+      "local_pixel_fractional_loss": 0.22476726202022831
+    }
+  ],
+  "limitation": "Single-sector pixel template from same TESS FFI photons. G-band two-star depth feasibility is approximate; compare PSF/centroid and each capable neighbor, not its intrinsic fraction with diluted target pixel loss."
+}

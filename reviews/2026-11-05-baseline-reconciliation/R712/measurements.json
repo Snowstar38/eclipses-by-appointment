@@ -1,0 +1,86 @@
+{
+  "tic": "188908998",
+  "gaia_source_id": "1889426452191954176",
+  "screen_period_days": 22.70538066116355,
+  "screen_epoch_btjd": 2847.8721008328816,
+  "screen_duration_days": 0.261,
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sector": 56,
+      "sha256": "2150d3eae9ea5ecb4db912bb2ef051550565f2370e8de652d6e6974b80a641cd"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 83,
+      "sha256": "046a7bb0bd3a886edbffb2e17986f659d208a7a2bd706241acfe335593914cb0"
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 56,
+      "first_btjd": 2825.2972731642476,
+      "last_btjd": 2853.109930495698,
+      "cadence_days": 0.0023148284362832783,
+      "n": 11051
+    },
+    {
+      "sector": 83,
+      "first_btjd": 3559.4437931162224,
+      "last_btjd": 3584.3603576676387,
+      "cadence_days": 0.002314772474619531,
+      "n": 10412
+    }
+  ],
+  "events": [
+    {
+      "sector": 56,
+      "cycle": 0,
+      "predicted_btjd": 2847.8721008328816,
+      "mid_btjd": 2847.87330010192,
+      "formal_timing_error_days": 0.0012605380660187968,
+      "timing_error_days": 0.0012605380660187968,
+      "timing_usable": true,
+      "depth_ppt": 18.38610358724084,
+      "model_amplitude_ppt": 18.38610358724084,
+      "duration_days": 0.5868224546377913,
+      "ingress_parameter_days": 0.16293491435832685,
+      "oot_scatter_ppt": 1.6667169212769517,
+      "n": 902,
+      "cadence_days": 0.0023148284362832783,
+      "source_sha256": "2150d3eae9ea5ecb4db912bb2ef051550565f2370e8de652d6e6974b80a641cd"
+    },
+    {
+      "sector": 83,
+      "cycle": 32,
+      "predicted_btjd": 3574.444281990115,
+      "mid_btjd": 3574.424599815238,
+      "formal_timing_error_days": 0.0014946573053447717,
+      "timing_error_days": 0.0014946573053447717,
+      "timing_usable": true,
+      "depth_ppt": 21.694559725141612,
+      "model_amplitude_ppt": 21.694559725141612,
+      "duration_days": 0.6097949648257871,
+      "ingress_parameter_days": 0.19161345847076794,
+      "oot_scatter_ppt": 2.1559093621586345,
+      "n": 902,
+      "cadence_days": 0.002314772474619531,
+      "source_sha256": "046a7bb0bd3a886edbffb2e17986f659d208a7a2bd706241acfe335593914cb0"
+    }
+  ],
+  "timing_event_count": 2,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 22.704728116041167,
+  "period_error_days": 6.110119580828229e-05,
+  "reference_epoch_btjd": 2847.8733001019204,
+  "epoch_error_days": 0.001260538066018797,
+  "reference_cycle": 0,
+  "reduced_chi_square": null,
+  "timing_residual_days": [
+    -4.547473508864641e-13,
+    0.0
+  ],
+  "depth_ppt": 20.040331656191228,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics."
+}

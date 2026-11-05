@@ -1,0 +1,37 @@
+{
+  "sample_id": "T018",
+  "tic": "320592245",
+  "conditional_epoch_btjd": 3874.7706,
+  "conditional_period_days": 56.17552444,
+  "windows": [
+    {
+      "sector": 67,
+      "cycle": -13,
+      "pred_btjd": 3144.48878228,
+      "core_halfwidth_days": 0.4,
+      "core_quality0_n": 346,
+      "core_first_offset_days": -0.3996587817277941,
+      "core_last_offset_days": 0.3989413016843173,
+      "core_max_internal_gap_days": 0.0023147846281972306,
+      "left_n": 259,
+      "right_n": 260,
+      "raw_core_deficit_ppt": 0.24546105619405179,
+      "source_sha256": "5d3c647e461e25914e69b3183608c7cefead967855f886462efd84824a6cc9b9"
+    },
+    {
+      "sector": 94,
+      "cycle": 0,
+      "pred_btjd": 3874.7706,
+      "core_halfwidth_days": 0.4,
+      "core_quality0_n": 50,
+      "core_first_offset_days": -0.38223874012282977,
+      "core_last_offset_days": 0.39090067789129535,
+      "core_max_internal_gap_days": 0.0740732503363688,
+      "left_n": 179,
+      "right_n": 40,
+      "raw_core_deficit_ppt": 4.473131407007669,
+      "source_sha256": "002eb212d3be9c79d4d93395f1ce89689fbdc626094dbdf898c888f76da49969"
+    }
+  ],
+  "caveat": "Sensitive null requires core endpoints, internal gaps and non-overlapping stable baselines; field variability can invalidate deficit."
+}

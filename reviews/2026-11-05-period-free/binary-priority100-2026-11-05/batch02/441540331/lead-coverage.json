@@ -1,0 +1,51 @@
+{
+  "sample_id": "T016",
+  "tic": "441540331",
+  "conditional_epoch_btjd": 1840.6365,
+  "conditional_period_days": 51.813122944,
+  "windows": [
+    {
+      "sector": 19,
+      "cycle": 0,
+      "pred_btjd": 1840.6365,
+      "core_halfwidth_days": 0.12,
+      "core_quality0_n": 11,
+      "core_first_offset_days": -0.10126543306319036,
+      "core_last_offset_days": 0.10706900788932217,
+      "core_max_internal_gap_days": 0.02083344617426519,
+      "left_n": 8,
+      "right_n": 8,
+      "raw_core_deficit_ppt": 22.394866269290993,
+      "source_sha256": "c0bdfab8ae5448bcde6fa818aada19dcb093d37c52c22d817d2bbc046bf4a285"
+    },
+    {
+      "sector": 40,
+      "cycle": 11,
+      "pred_btjd": 2410.580852384,
+      "core_halfwidth_days": 0.12,
+      "core_quality0_n": 34,
+      "core_first_offset_days": -0.1155008619966793,
+      "core_last_offset_days": 0.11366968734182592,
+      "core_max_internal_gap_days": 0.006944562698663503,
+      "left_n": 26,
+      "right_n": 26,
+      "raw_core_deficit_ppt": -0.16468606294561816,
+      "source_sha256": "ac7dafe282152b81f53642059cc2a8fbac4c572deda838af77a65915a805bdac"
+    },
+    {
+      "sector": 73,
+      "cycle": 28,
+      "pred_btjd": 3291.403942432,
+      "core_halfwidth_days": 0.12,
+      "core_quality0_n": 103,
+      "core_first_offset_days": -0.11952980653086342,
+      "core_last_offset_days": 0.11890078399483173,
+      "core_max_internal_gap_days": 0.004629720504453871,
+      "left_n": 76,
+      "right_n": 74,
+      "raw_core_deficit_ppt": 0.49698974105083504,
+      "source_sha256": "aa45050d7c83085cc4e9c9d0cf6645c0c3f18b28314abff2e6029c7af9573323"
+    }
+  ],
+  "caveat": "Sensitive null requires core endpoints, internal gaps and non-overlapping stable baselines; field variability can invalidate deficit."
+}

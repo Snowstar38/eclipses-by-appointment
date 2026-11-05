@@ -1,0 +1,24 @@
+{
+  "service": "Mast.Caom.Filtered",
+  "format": "json",
+  "params": {
+    "columns": "target_name,sequence_number,dataURL,provenance_name",
+    "filters": [
+      {
+        "paramName": "provenance_name",
+        "values": [
+          "QLP"
+        ]
+      },
+      {
+        "paramName": "target_name",
+        "values": [
+          "231694897",
+          "323818250"
+        ]
+      }
+    ]
+  },
+  "pagesize": 5000,
+  "page": 1
+}

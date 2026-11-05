@@ -1,0 +1,148 @@
+{
+  "sample_id": "H084",
+  "tic": "43868028",
+  "gaia_period_days": 54.1979827675697,
+  "sectors": [
+    {
+      "sector": 5,
+      "path": "[local-path-redacted]",
+      "sha256": "15be547d7bda48563dc249fd3def30ac648a23ead44c3ac19003d43242200bb3",
+      "start_btjd": 1438.2656056839057,
+      "end_btjd": 1463.3493192777432,
+      "quality0_n": 1024,
+      "cadence_days": 0.02083366367310191,
+      "gaps_over_0p5d": [
+        [
+          1449.953399151029,
+          1451.6825938564625
+        ]
+      ],
+      "sap_median": 0.9984588623046875,
+      "sap_p05_p95": [
+        0.9508294311626041,
+        1.0697973358581034
+      ]
+    },
+    {
+      "sector": 32,
+      "path": "[local-path-redacted]",
+      "sha256": "40dad2f4ac3b1f3534d13ab951fd9537d7ad3541fe1344b0f843108a628b2a35",
+      "start_btjd": 2174.3209897959914,
+      "end_btjd": 2199.5017037352613,
+      "quality0_n": 3076,
+      "cadence_days": 0.006944502148144238,
+      "gaps_over_0p5d": [
+        [
+          2184.6892264016265,
+          2187.3559108562654
+        ]
+      ],
+      "sap_median": 1.0027647018432617,
+      "sap_p05_p95": [
+        0.9451979510925129,
+        1.0492458807865142
+      ]
+    },
+    {
+      "sector": 98,
+      "path": "[local-path-redacted]",
+      "sha256": "bdf830884df71f0c6743209969a11114809909e9b166d6e9e2aab7086e84e0ef",
+      "start_btjd": 3995.177341024246,
+      "end_btjd": 4045.857672324768,
+      "quality0_n": 11962,
+      "cadence_days": 0.0023148278846747417,
+      "gaps_over_0p5d": [
+        [
+          4003.212291540447,
+          4009.39525892815
+        ],
+        [
+          4017.663834852367,
+          4023.57352095593
+        ],
+        [
+          4031.953026558128,
+          4038.2097953959546
+        ]
+      ],
+      "sap_median": 1.0002658367156982,
+      "sap_p05_p95": [
+        0.9705789725650763,
+        1.0250657622039658
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "sector": 5,
+      "kind": "brightening",
+      "screen_btjd": 1462.2451606682291,
+      "duration_days": 0.12,
+      "screen_contrast": -5.8949819586583665,
+      "screen_depth_fraction": -0.0018937065025677047,
+      "screen_supported": true,
+      "n_window": 96,
+      "n_core": 3,
+      "n_left": 40,
+      "n_right": 39,
+      "local_baseline_sap": 1.0364136695861816,
+      "core_delta_ppt": 4.126721806178679,
+      "pre_delta_ppt": -2.1682025031319885,
+      "post_delta_ppt": 7.538358338122109,
+      "pre_post_step_ppt": 9.70656084125406,
+      "max_internal_gap_days": 0.041666352542051754,
+      "alt_columns": {
+        "KSPSAP_FLUX": {
+          "core": 1.001558542251587,
+          "side": 0.9998708963394165
+        },
+        "SAP_BKG": {
+          "core": 89.97000122070312,
+          "side": 81.87000274658203
+        },
+        "SAP_X": {
+          "core": 1644.277099609375,
+          "side": 1644.27685546875
+        },
+        "SAP_Y": {
+          "core": 91.04283142089844,
+          "side": 91.04203033447266
+        }
+      }
+    },
+    {
+      "sector": 98,
+      "kind": "brightening",
+      "screen_btjd": 3996.03385226606,
+      "duration_days": 0.12,
+      "screen_contrast": -12.18365887251157,
+      "screen_depth_fraction": -0.012730363782275766,
+      "screen_supported": true,
+      "n_window": 692,
+      "n_core": 25,
+      "n_left": 187,
+      "n_right": 354,
+      "local_baseline_sap": 1.0237298011779785,
+      "core_delta_ppt": 19.98307340246508,
+      "pre_delta_ppt": 12.997474983895474,
+      "post_delta_ppt": -2.440185158531949,
+      "pre_post_step_ppt": -15.43766014242749,
+      "max_internal_gap_days": 0.22917461729139177,
+      "alt_columns": {
+        "SAP_BKG": {
+          "core": 18461.650390625,
+          "side": 18444.01171875
+        },
+        "SAP_X": {
+          "core": 126.966796875,
+          "side": 126.96424865722656
+        },
+        "SAP_Y": {
+          "core": 187.01495361328125,
+          "side": 187.01901245117188
+        }
+      }
+    }
+  ],
+  "bulk_sha256": "96cc712437ebf577f60689e6a0c5434822d28ab1667e5c771b77527e86471251"
+}

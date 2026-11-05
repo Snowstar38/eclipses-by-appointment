@@ -1,0 +1,42 @@
+{
+  "tic": "322217134",
+  "fits": [
+    {
+      "sector": 70,
+      "window_guess_btjd": 3231.91,
+      "n_quality0": 1253,
+      "first_btjd": 3230.2116448570764,
+      "last_btjd": 3233.109615021855,
+      "fit_baseline": 1.0056781740319518,
+      "fit_slope_per_day": -0.006879327938018241,
+      "fit_depth_ppt": 78.91054845164885,
+      "fit_center_btjd": 3232.106457064205,
+      "fit_duration_days": 1.1703771466978368,
+      "fit_ingress_days": 0.21929689112925563,
+      "residual_mad_ppt": 1.6610083234998356,
+      "fit_cost": 0.001623303491733459,
+      "fit_success": true,
+      "caution": "Center is exploratory; gap-interrupted/partial windows and nonstationary baselines may make fit unreliable.",
+      "timing_usable": true
+    },
+    {
+      "sector": 92,
+      "window_guess_btjd": 3814.8,
+      "n_quality0": 823,
+      "first_btjd": 3813.3007409431925,
+      "last_btjd": 3815.5208483361857,
+      "fit_baseline": 1.0058137612822766,
+      "fit_slope_per_day": 0.004875554607074926,
+      "fit_depth_ppt": 50.53031610733149,
+      "fit_center_btjd": 3815.1620221342246,
+      "fit_duration_days": 1.2376526544243718,
+      "fit_ingress_days": 0.17701491605093092,
+      "residual_mad_ppt": 2.5350396895007044,
+      "fit_cost": 0.0025828379613036757,
+      "fit_success": true,
+      "caution": "Center is exploratory; gap-interrupted/partial windows and nonstationary baselines may make fit unreliable.",
+      "timing_usable": false,
+      "parameter_exclusion_reason": "Ingress/egress gap or quality censoring makes the fitted center, duration and depth model-dependent; use only morphology and bounded contact timing."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "tic": "224631871",
+  "gaia_period_days": 45.004387116444406,
+  "gaia_period_error_days": 0.046237282,
+  "gaia_eccentricity": 0.3566897059135486,
+  "gaia_conjunction_bases_btjd": {
+    "A": 442.7462230257626,
+    "B": 413.65824660797324
+  },
+  "kinds": {
+    "primary": {
+      "events": [
+        {
+          "sector": 14,
+          "center_btjd": 1699.9899,
+          "cycle": 0
+        },
+        {
+          "sector": 55,
+          "center_btjd": 2821.7915,
+          "cycle": 25
+        },
+        {
+          "sector": 82,
+          "center_btjd": 3539.7622,
+          "cycle": 41
+        }
+      ],
+      "period_days": 44.87245725995319,
+      "epoch_btjd": 1699.9871402810306,
+      "residual_days": [
+        0.0027597189694006374,
+        -0.007071779860325478,
+        0.004312060888878477
+      ],
+      "gaia_period_difference_sigma": -2.8533220549429963,
+      "gaia_conjunction_offsets": [
+        {
+          "conjunction_kind": "A",
+          "predicted_at_epoch_btjd": 1702.8690622862061,
+          "offset_days": -2.881922005175511,
+          "offset_phase": -0.0640364682162835
+        },
+        {
+          "conjunction_kind": "B",
+          "predicted_at_epoch_btjd": 1718.7854729848611,
+          "offset_days": -18.79833270383051,
+          "offset_phase": -0.4177000045615927
+        }
+      ],
+      "caution": "Clock centers from local model fits; this is not a calibrated period uncertainty. Integer cycles use Gaia-compatible assignments and are checked against additional observing occasions."
+    },
+    "secondary": {
+      "events": [
+        {
+          "sector": 15,
+          "center_btjd": 1715.9279,
+          "cycle": 0
+        },
+        {
+          "sector": 82,
+          "center_btjd": 3555.6715,
+          "cycle": 41
+        }
+      ],
+      "period_days": 44.87179512195122,
+      "epoch_btjd": 1715.9279,
+      "residual_days": [
+        0.0,
+        -4.547473508864641e-13
+      ],
+      "gaia_period_difference_sigma": -2.867642490170218,
+      "gaia_conjunction_offsets": [
+        {
+          "conjunction_kind": "A",
+          "predicted_at_epoch_btjd": 1702.8690622862061,
+          "offset_days": 13.058837713793764,
+          "offset_phase": 0.2901681047228865
+        },
+        {
+          "conjunction_kind": "B",
+          "predicted_at_epoch_btjd": 1718.7854729848611,
+          "offset_days": -2.8575729848612355,
+          "offset_phase": -0.06349543162242267
+        }
+      ],
+      "caution": "Clock centers from local model fits; this is not a calibrated period uncertainty. Integer cycles use Gaia-compatible assignments and are checked against additional observing occasions."
+    }
+  }
+}

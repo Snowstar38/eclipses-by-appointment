@@ -1,0 +1,22 @@
+{
+  "tic": "155346713",
+  "gaia_source_id": "5694314546391164032",
+  "sector": 7,
+  "ra": 123.36760503228332,
+  "dec": -26.75531654331938,
+  "gaia_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+300+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Cparallax+FROM+gaiadr3.gaia_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C123.36760503228332%2C-26.75531654331938%2C0.016666667%29%29%3D1",
+  "gaia_sha256": "6a49ade4cb9ef9cda664210d793ce1addc7bc25064c74369402a145b6c353c31",
+  "n_gaia_60arcsec": 79,
+  "tesscut_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=123.36760503228332&dec=-26.75531654331938&y=15&x=15&units=px&sector=7",
+  "tesscut_zip_sha256": "afb90aeff03cd5e51ac2c4ff2d1e505253a5fbb24e24229a62fc9ec24da43073",
+  "tesscut_fits_sha256": "178b647707c329ed98f9471ff83d2960e8c94c7fe2bae51dce8c463d95fb371e",
+  "fits_path": "[local-path-redacted]",
+  "archive_member": "tess-s0007-2-2_123.367605_-26.755317_15x15_astrocut.fits",
+  "n_cadences": 1093,
+  "fits_header_identity": {
+    "TICID": "None",
+    "SECTOR": "7",
+    "OBJECT": ""
+  },
+  "status": "ok"
+}

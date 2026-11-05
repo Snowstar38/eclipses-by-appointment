@@ -1,0 +1,1224 @@
+{
+  "357019754": {
+    "stacks": [
+      {
+        "sector": 38,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\357019754\\diff_s38.json",
+        "source_sha256": "9d8ecd65a0a2b96f961d81a45289adc28d5514df3eb19880f7e9cc4fee1e3ba0",
+        "n_events": 5,
+        "target_pixel": [
+          7,
+          7
+        ],
+        "peak_pixel": [
+          7,
+          7
+        ],
+        "deficit_target_arcsec": 3.190621712328952,
+        "psf_fractional_residual": 0.11714690602867271,
+        "ap3_fractional_depth": 0.11119633240754151,
+        "adopted_qlp_depth_fraction": 0.11097598356639433,
+        "gaia_limit_G": 15.42659952167421,
+        "cached_n_capable": 0,
+        "n_capable_at_adopted_depth": 0,
+        "capable_and_borderline": []
+      }
+    ],
+    "threshold_meaning": "Cached diffstack approximate Gaia-G flux-ratio intrinsic eclipse fraction needed to explain observed blended deficit, scaled linearly to adopted QLP depth. This is not observed pixel fractional loss and ignores TESS color and actual aperture throughput. Capable threshold <=1, borderline to 1.05 included. Configured search radius 60 arcsec except 187202091 historical manual stack 90 arcsec. Pixel scale 21 arcsec. Source-centroid distances lack calibrated covariance and do not by themselves exclude close neighbors."
+  },
+  "187202091": {
+    "stacks": [
+      {
+        "sector": 19,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\187202091\\diff_s19.json",
+        "source_sha256": "bd3c2d51315dc7d2d25cdbf9df2d2af770f59a217c1598f0555a063dc61d3606",
+        "n_events": 2,
+        "target_pixel": [
+          8,
+          7
+        ],
+        "peak_pixel": [
+          8,
+          7
+        ],
+        "deficit_target_arcsec": 3.073317993933512,
+        "psf_fractional_residual": 0.34636236763706685,
+        "ap3_fractional_depth": 0.015793513027552192,
+        "adopted_qlp_depth_fraction": 0.01852876674119971,
+        "gaia_limit_G": 17.461255738465816,
+        "cached_n_capable": 6,
+        "n_capable_at_adopted_depth": 5,
+        "capable_and_borderline": [
+          {
+            "source_id": "198468896857388800",
+            "G": 14.528522,
+            "target_sep_arcsec": 17.08874366925494,
+            "cached_intrinsic_required_eclipse_fraction": 0.0840284322553344,
+            "required_fraction_at_adopted_depth": 0.09858118445032878,
+            "deficit_sep_arcsec": 20.17176908850216,
+            "position_px": [
+              7.184427644113919,
+              6.578248913342987
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468896857390080",
+            "G": 15.570477,
+            "target_sep_arcsec": 49.68015439506657,
+            "cached_intrinsic_required_eclipse_fraction": 0.19216229914899155,
+            "required_fraction_at_adopted_depth": 0.22544258590048122,
+            "deficit_sep_arcsec": 51.719839059316115,
+            "position_px": [
+              5.560035102329312,
+              7.5277957290718085
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468690698963712",
+            "G": 15.084108,
+            "target_sep_arcsec": 76.14379543122816,
+            "cached_intrinsic_required_eclipse_fraction": 0.1288801138262756,
+            "required_fraction_at_adopted_depth": 0.15120065830195084,
+            "deficit_sep_arcsec": 78.34867039498504,
+            "position_px": [
+              7.094755338877139,
+              3.483904705606543
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469098720060160",
+            "G": 17.12148,
+            "target_sep_arcsec": 81.85689821155027,
+            "cached_intrinsic_required_eclipse_fraction": 0.7481901176912131,
+            "required_fraction_at_adopted_depth": 0.8777679889576698,
+            "deficit_sep_arcsec": 78.8082270977294,
+            "position_px": [
+              11.313744969147454,
+              8.842558663095883
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468926920185984",
+            "G": 16.497456,
+            "target_sep_arcsec": 82.95088056179536,
+            "cached_intrinsic_required_eclipse_fraction": 0.4285044909316204,
+            "required_fraction_at_adopted_depth": 0.5027165106444386,
+            "deficit_sep_arcsec": 85.70824355353491,
+            "position_px": [
+              3.9968742483303403,
+              6.246736278857355
+            ],
+            "borderline": false
+          }
+        ]
+      },
+      {
+        "sector": 59,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\187202091\\diff_s59.json",
+        "source_sha256": "8f0c6c5611b222c849a4e4434077affbc1d6ec30fab801a1201acc43f541df25",
+        "n_events": 2,
+        "target_pixel": [
+          7,
+          7
+        ],
+        "peak_pixel": [
+          7,
+          7
+        ],
+        "deficit_target_arcsec": 0.23766805839220465,
+        "psf_fractional_residual": 0.2816368752968543,
+        "ap3_fractional_depth": 0.013647475588806478,
+        "adopted_qlp_depth_fraction": 0.01852876674119971,
+        "gaia_limit_G": 17.461255738465816,
+        "cached_n_capable": 6,
+        "n_capable_at_adopted_depth": 4,
+        "capable_and_borderline": [
+          {
+            "source_id": "198468896857388800",
+            "G": 14.528522,
+            "target_sep_arcsec": 17.08874366925494,
+            "cached_intrinsic_required_eclipse_fraction": 0.0840284322553344,
+            "required_fraction_at_adopted_depth": 0.11408287274496261,
+            "deficit_sep_arcsec": 17.111036504574294,
+            "position_px": [
+              6.512192986908052,
+              6.644401023529918
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468896857390080",
+            "G": 15.570477,
+            "target_sep_arcsec": 49.68015439506657,
+            "cached_intrinsic_required_eclipse_fraction": 0.19216229914899155,
+            "required_fraction_at_adopted_depth": 0.2608929683893053,
+            "deficit_sep_arcsec": 49.356070522584794,
+            "position_px": [
+              4.896816295643085,
+              7.617485695082939
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468690698963712",
+            "G": 15.084108,
+            "target_sep_arcsec": 76.14379543122816,
+            "cached_intrinsic_required_eclipse_fraction": 0.1288801138262756,
+            "required_fraction_at_adopted_depth": 0.17497665052611877,
+            "deficit_sep_arcsec": 76.73738341661306,
+            "position_px": [
+              6.390118851739893,
+              3.532342485189197
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469098720060160",
+            "G": 17.12148,
+            "target_sep_arcsec": 81.85689821155027,
+            "cached_intrinsic_required_eclipse_fraction": 0.7481901176912131,
+            "required_fraction_at_adopted_depth": 1.015795198061506,
+            "deficit_sep_arcsec": 82.04777224006331,
+            "position_px": [
+              10.667501215632173,
+              8.87714255692546
+            ],
+            "borderline": true
+          },
+          {
+            "source_id": "198468926920185984",
+            "G": 16.497456,
+            "target_sep_arcsec": 82.95088056179536,
+            "cached_intrinsic_required_eclipse_fraction": 0.4285044909316204,
+            "required_fraction_at_adopted_depth": 0.5817676469442121,
+            "deficit_sep_arcsec": 82.78333961738794,
+            "position_px": [
+              3.3193845421427524,
+              6.345815072697351
+            ],
+            "borderline": false
+          }
+        ]
+      },
+      {
+        "sector": 73,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\187202091\\diff_s73.json",
+        "source_sha256": "3a481f2422a5a011cbd51954739a6cf21850e5ebe15ab555ca07227d80a1d11a",
+        "n_events": 1,
+        "target_pixel": [
+          8,
+          8
+        ],
+        "peak_pixel": [
+          8,
+          8
+        ],
+        "deficit_target_arcsec": 10.825345433826369,
+        "psf_fractional_residual": 0.3801161991097655,
+        "ap3_fractional_depth": 0.014709568877034238,
+        "adopted_qlp_depth_fraction": 0.01852876674119971,
+        "gaia_limit_G": 17.461255738465816,
+        "cached_n_capable": 6,
+        "n_capable_at_adopted_depth": 5,
+        "capable_and_borderline": [
+          {
+            "source_id": "198468896857388800",
+            "G": 14.528522,
+            "target_sep_arcsec": 17.08874366925494,
+            "cached_intrinsic_required_eclipse_fraction": 0.0840284322553344,
+            "required_fraction_at_adopted_depth": 0.10584560525894257,
+            "deficit_sep_arcsec": 29.354504275632536,
+            "position_px": [
+              6.953679830589474,
+              7.350404109412027
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468896857390080",
+            "G": 15.570477,
+            "target_sep_arcsec": 49.68015439506657,
+            "cached_intrinsic_required_eclipse_fraction": 0.19216229914899155,
+            "required_fraction_at_adopted_depth": 0.24205538905652707,
+            "deficit_sep_arcsec": 61.52208399140772,
+            "position_px": [
+              5.282773957145956,
+              8.416648282535682
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468690698963712",
+            "G": 15.084108,
+            "target_sep_arcsec": 76.14379543122816,
+            "cached_intrinsic_required_eclipse_fraction": 0.1288801138262756,
+            "required_fraction_at_adopted_depth": 0.16234259390121553,
+            "deficit_sep_arcsec": 87.75633847240833,
+            "position_px": [
+              6.594784996078917,
+              4.148357490158913
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469098720060160",
+            "G": 17.12148,
+            "target_sep_arcsec": 81.85689821155027,
+            "cached_intrinsic_required_eclipse_fraction": 0.7481901176912131,
+            "required_fraction_at_adopted_depth": 0.9424504745625374,
+            "deficit_sep_arcsec": 78.08111849562954,
+            "position_px": [
+              11.597658637626438,
+              9.487753860980531
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468926920185984",
+            "G": 16.497456,
+            "target_sep_arcsec": 82.95088056179536,
+            "cached_intrinsic_required_eclipse_fraction": 0.4285044909316204,
+            "required_fraction_at_adopted_depth": 0.5397615542916799,
+            "deficit_sep_arcsec": 100.19069159144534,
+            "position_px": [
+              3.4888659384034284,
+              7.168273338983015
+            ],
+            "borderline": false
+          }
+        ]
+      },
+      {
+        "sector": 86,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\187202091\\diff_s86.json",
+        "source_sha256": "077cc28c749a0564c10b1f07fb909991fbd1f522245fb6a6453c394f538660d0",
+        "n_events": 1,
+        "target_pixel": [
+          7,
+          8
+        ],
+        "peak_pixel": [
+          7,
+          8
+        ],
+        "deficit_target_arcsec": 3.3943253391042654,
+        "psf_fractional_residual": 0.3997133144925199,
+        "ap3_fractional_depth": 0.020711811101179135,
+        "adopted_qlp_depth_fraction": 0.01852876674119971,
+        "gaia_limit_G": 17.461255738465816,
+        "cached_n_capable": 6,
+        "n_capable_at_adopted_depth": 7,
+        "capable_and_borderline": [
+          {
+            "source_id": "198468896857388800",
+            "G": 14.528522,
+            "target_sep_arcsec": 17.08874366925494,
+            "cached_intrinsic_required_eclipse_fraction": 0.0840284322553344,
+            "required_fraction_at_adopted_depth": 0.07517175650559867,
+            "deficit_sep_arcsec": 17.850378737225082,
+            "position_px": [
+              6.481123398860101,
+              7.18434534992404
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468896857390080",
+            "G": 15.570477,
+            "target_sep_arcsec": 49.68015439506657,
+            "cached_intrinsic_required_eclipse_fraction": 0.19216229914899155,
+            "required_fraction_at_adopted_depth": 0.17190821217858643,
+            "deficit_sep_arcsec": 47.82021261164416,
+            "position_px": [
+              4.830619811272728,
+              8.131732005535774
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469343533985024",
+            "G": 17.36636,
+            "target_sep_arcsec": 67.58009124037397,
+            "cached_intrinsic_required_eclipse_fraction": 0.9332084775542238,
+            "required_fraction_at_adopted_depth": 0.8348474267674217,
+            "deficit_sep_arcsec": 64.82594438235931,
+            "position_px": [
+              5.514316914067024,
+              10.445780393556756
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469343532141440",
+            "G": 17.54979,
+            "target_sep_arcsec": 73.89014033132835,
+            "cached_intrinsic_required_eclipse_fraction": 1.1018599439919194,
+            "required_fraction_at_adopted_depth": 0.9857228701035881,
+            "deficit_sep_arcsec": 71.18058309452076,
+            "position_px": [
+              5.703936423902135,
+              10.883213095254074
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468690698963712",
+            "G": 15.084108,
+            "target_sep_arcsec": 76.14379543122816,
+            "cached_intrinsic_required_eclipse_fraction": 0.1288801138262756,
+            "required_fraction_at_adopted_depth": 0.11529602867662203,
+            "deficit_sep_arcsec": 79.22378490884864,
+            "position_px": [
+              6.4558721746294045,
+              4.065833648681933
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198469098720060160",
+            "G": 17.12148,
+            "target_sep_arcsec": 81.85689821155027,
+            "cached_intrinsic_required_eclipse_fraction": 0.7481901176912131,
+            "required_fraction_at_adopted_depth": 0.6693301759584905,
+            "deficit_sep_arcsec": 81.69834513016033,
+            "position_px": [
+              10.578902410561113,
+              9.489897702481686
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468926920185984",
+            "G": 16.497456,
+            "target_sep_arcsec": 82.95088056179536,
+            "cached_intrinsic_required_eclipse_fraction": 0.4285044909316204,
+            "required_fraction_at_adopted_depth": 0.3833397147763921,
+            "deficit_sep_arcsec": 82.13827579877152,
+            "position_px": [
+              3.288270127625884,
+              6.831820502685277
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "198468961279935616",
+            "G": 17.586596,
+            "target_sep_arcsec": 86.3146745197513,
+            "cached_intrinsic_required_eclipse_fraction": 1.1392701415245698,
+            "required_fraction_at_adopted_depth": 1.0191899976492436,
+            "deficit_sep_arcsec": 84.57409999158487,
+            "position_px": [
+              3.1062547437866543,
+              8.432444388220075
+            ],
+            "borderline": true
+          }
+        ]
+      }
+    ],
+    "threshold_meaning": "Cached diffstack approximate Gaia-G flux-ratio intrinsic eclipse fraction needed to explain observed blended deficit, scaled linearly to adopted QLP depth. This is not observed pixel fractional loss and ignores TESS color and actual aperture throughput. Capable threshold <=1, borderline to 1.05 included. Configured search radius 60 arcsec except 187202091 historical manual stack 90 arcsec. Pixel scale 21 arcsec. Source-centroid distances lack calibrated covariance and do not by themselves exclude close neighbors."
+  },
+  "54054420": {
+    "stacks": [
+      {
+        "sector": 24,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\54054420\\diff_s24.json",
+        "source_sha256": "40d21e3226ef0603a5d40b27b82b09029e3dfcf614c509e338ec4baa56f1c7b7",
+        "n_events": 11,
+        "target_pixel": [
+          8,
+          8
+        ],
+        "peak_pixel": [
+          8,
+          8
+        ],
+        "deficit_target_arcsec": 2.6521694997807623,
+        "psf_fractional_residual": 0.6522058859633304,
+        "ap3_fractional_depth": 0.006805449019396828,
+        "adopted_qlp_depth_fraction": 0.00641484981190643,
+        "gaia_limit_G": 18.78764845641605,
+        "cached_n_capable": 10,
+        "n_capable_at_adopted_depth": 11,
+        "capable_and_borderline": [
+          {
+            "source_id": "525153141706274432",
+            "G": 17.603235,
+            "target_sep_arcsec": 7.877072018229718,
+            "cached_intrinsic_required_eclipse_fraction": 0.3411180376349667,
+            "required_fraction_at_adopted_depth": 0.3215395447565193,
+            "deficit_sep_arcsec": 6.414458381377445,
+            "position_px": [
+              7.55088381523481,
+              7.973099992758097
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153146007556736",
+            "G": 16.749239,
+            "target_sep_arcsec": 18.825041068746597,
+            "cached_intrinsic_required_eclipse_fraction": 0.1581795498086202,
+            "required_fraction_at_adopted_depth": 0.14910082383178364,
+            "deficit_sep_arcsec": 21.96506238771871,
+            "position_px": [
+              7.740067906496,
+              6.741325649181006
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153146007555584",
+            "G": 16.660902,
+            "target_sep_arcsec": 24.708402816427537,
+            "cached_intrinsic_required_eclipse_fraction": 0.1462257239717065,
+            "required_fraction_at_adopted_depth": 0.13783308863856863,
+            "deficit_sep_arcsec": 25.7957582130116,
+            "position_px": [
+              6.577847089501174,
+              7.6016334485255115
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153141706234240",
+            "G": 18.30522,
+            "target_sep_arcsec": 30.85830599850247,
+            "cached_intrinsic_required_eclipse_fraction": 0.6464508298898122,
+            "required_fraction_at_adopted_depth": 0.6093477407157124,
+            "deficit_sep_arcsec": 33.464219098349034,
+            "position_px": [
+              6.85405005962472,
+              6.497943143726619
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525141390675712128",
+            "G": 18.60497,
+            "target_sep_arcsec": 32.188978210008635,
+            "cached_intrinsic_required_eclipse_fraction": 0.8503389227991524,
+            "required_fraction_at_adopted_depth": 0.8015336627205125,
+            "deficit_sep_arcsec": 35.40337562074727,
+            "position_px": [
+              7.3494657961056,
+              6.159301976589067
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525147266190973440",
+            "G": 18.169186,
+            "target_sep_arcsec": 35.26317043391842,
+            "cached_intrinsic_required_eclipse_fraction": 0.570936565732639,
+            "required_fraction_at_adopted_depth": 0.5381676228654094,
+            "deficit_sep_arcsec": 37.24653068884599,
+            "position_px": [
+              6.265375318267941,
+              6.883591026519434
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153141706234112",
+            "G": 17.79086,
+            "target_sep_arcsec": 36.5615305129494,
+            "cached_intrinsic_required_eclipse_fraction": 0.40448549137768175,
+            "required_fraction_at_adopted_depth": 0.3812700191989644,
+            "deficit_sep_arcsec": 39.232571045619224,
+            "position_px": [
+              6.677124417727586,
+              6.287106752071784
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153141706261632",
+            "G": 18.795729,
+            "target_sep_arcsec": 47.531375879087555,
+            "cached_intrinsic_required_eclipse_fraction": 1.012669219587629,
+            "required_fraction_at_adopted_depth": 0.9545470011280593,
+            "deficit_sep_arcsec": 48.465536947272014,
+            "position_px": [
+              5.695450743995973,
+              8.750093197044668
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525141532415984000",
+            "G": 18.349728,
+            "target_sep_arcsec": 50.35515336077262,
+            "cached_intrinsic_required_eclipse_fraction": 0.673284148373165,
+            "required_fraction_at_adopted_depth": 0.6346409590669413,
+            "deficit_sep_arcsec": 51.30818019864012,
+            "position_px": [
+              10.232524345694337,
+              7.907576058773886
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525141532415984128",
+            "G": 17.104929,
+            "target_sep_arcsec": 54.309852843644435,
+            "cached_intrinsic_required_eclipse_fraction": 0.21748053407001322,
+            "required_fraction_at_adopted_depth": 0.20499822408426235,
+            "deficit_sep_arcsec": 55.574620862262684,
+            "position_px": [
+              10.438700825427127,
+              7.794962728782362
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "525153279145284096",
+            "G": 18.17648,
+            "target_sep_arcsec": 59.052325027607324,
+            "cached_intrinsic_required_eclipse_fraction": 0.5747499983169456,
+            "required_fraction_at_adopted_depth": 0.5417621832282061,
+            "deficit_sep_arcsec": 57.85138335023235,
+            "position_px": [
+              9.769858797446958,
+              9.703880674075576
+            ],
+            "borderline": false
+          }
+        ]
+      }
+    ],
+    "threshold_meaning": "Cached diffstack approximate Gaia-G flux-ratio intrinsic eclipse fraction needed to explain observed blended deficit, scaled linearly to adopted QLP depth. This is not observed pixel fractional loss and ignores TESS color and actual aperture throughput. Capable threshold <=1, borderline to 1.05 included. Configured search radius 60 arcsec except 187202091 historical manual stack 90 arcsec. Pixel scale 21 arcsec. Source-centroid distances lack calibrated covariance and do not by themselves exclude close neighbors."
+  },
+  "462088261": {
+    "stacks": [
+      {
+        "sector": 37,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\462088261\\diff_s37.json",
+        "source_sha256": "a0eb850c7120b8e0268b5578663f4c10097d5fa2d13f23f6eafaa379cc0aa929",
+        "n_events": 2,
+        "target_pixel": [
+          7,
+          8
+        ],
+        "peak_pixel": [
+          7,
+          8
+        ],
+        "deficit_target_arcsec": 3.1746871836111707,
+        "psf_fractional_residual": 0.8663704647698758,
+        "ap3_fractional_depth": 0.0074257310773159935,
+        "adopted_qlp_depth_fraction": 0.008260529947593956,
+        "gaia_limit_G": 18.510793298102268,
+        "cached_n_capable": 43,
+        "n_capable_at_adopted_depth": 41,
+        "capable_and_borderline": [
+          {
+            "source_id": "5356277083791572224",
+            "G": 15.557212,
+            "target_sep_arcsec": 5.16666271033222,
+            "cached_intrinsic_required_eclipse_fraction": 0.07325377426064289,
+            "required_fraction_at_adopted_depth": 0.08148894563429905,
+            "deficit_sep_arcsec": 7.523766827441519,
+            "position_px": [
+              7.300244905653294,
+              7.752171129095451
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277079471628416",
+            "G": 18.12746,
+            "target_sep_arcsec": 5.206076555222777,
+            "cached_intrinsic_required_eclipse_fraction": 0.7099349217695502,
+            "required_fraction_at_adopted_depth": 0.7897456319196282,
+            "deficit_sep_arcsec": 5.456564235789532,
+            "position_px": [
+              7.117914991375809,
+              7.852078643984257
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277079463811328",
+            "G": 17.894611,
+            "target_sep_arcsec": 8.90675916334866,
+            "cached_intrinsic_required_eclipse_fraction": 0.574328921575674,
+            "required_fraction_at_adopted_depth": 0.6388948383732733,
+            "deficit_sep_arcsec": 6.756398322690847,
+            "position_px": [
+              6.799087835285418,
+              7.927617663971377
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083791571200",
+            "G": 15.533377,
+            "target_sep_arcsec": 15.504011160695025,
+            "cached_intrinsic_required_eclipse_fraction": 0.07182389279176472,
+            "required_fraction_at_adopted_depth": 0.07989831724065044,
+            "deficit_sep_arcsec": 13.312382090385997,
+            "position_px": [
+              6.446253186774803,
+              8.022347920446691
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083791572736",
+            "G": 14.927195,
+            "target_sep_arcsec": 17.46904207486439,
+            "cached_intrinsic_required_eclipse_fraction": 0.04426245406435856,
+            "required_fraction_at_adopted_depth": 0.04923842831712025,
+            "deficit_sep_arcsec": 20.90819159549808,
+            "position_px": [
+              7.942903378004658,
+              7.790387002289085
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083791573376",
+            "G": 17.122063,
+            "target_sep_arcsec": 17.49296002385099,
+            "cached_intrinsic_required_eclipse_fraction": 0.28569858734226894,
+            "required_fraction_at_adopted_depth": 0.31781675260708775,
+            "deficit_sep_arcsec": 16.00954641668744,
+            "position_px": [
+              6.347084567731007,
+              7.190996765671173
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083791569664",
+            "G": 18.045208,
+            "target_sep_arcsec": 19.426420574567448,
+            "cached_intrinsic_required_eclipse_fraction": 0.6586792092356367,
+            "required_fraction_at_adopted_depth": 0.7327277647273928,
+            "deficit_sep_arcsec": 17.969332463657405,
+            "position_px": [
+              6.579790025227503,
+              8.415397561262141
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277079471513600",
+            "G": 17.896109,
+            "target_sep_arcsec": 20.827730648737088,
+            "cached_intrinsic_required_eclipse_fraction": 0.5751116555931644,
+            "required_fraction_at_adopted_depth": 0.6397655671574374,
+            "deficit_sep_arcsec": 19.492492699599328,
+            "position_px": [
+              6.226337970665543,
+              7.075879435830485
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151315072",
+            "G": 17.485617,
+            "target_sep_arcsec": 21.07500770576769,
+            "cached_intrinsic_required_eclipse_fraction": 0.39638397831325456,
+            "required_fraction_at_adopted_depth": 0.4409453681409875,
+            "deficit_sep_arcsec": 22.08713406746415,
+            "position_px": [
+              6.876082366700758,
+              6.599014688498672
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277152511047680",
+            "G": 17.189762,
+            "target_sep_arcsec": 22.80524398732493,
+            "cached_intrinsic_required_eclipse_fraction": 0.3036036549904002,
+            "required_fraction_at_adopted_depth": 0.3377347035779898,
+            "deficit_sep_arcsec": 24.187464293655747,
+            "position_px": [
+              7.702294181451554,
+              8.526247867542963
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083795484544",
+            "G": 18.019531,
+            "target_sep_arcsec": 23.24199996963594,
+            "cached_intrinsic_required_eclipse_fraction": 0.643457600213259,
+            "required_fraction_at_adopted_depth": 0.7157949461441799,
+            "deficit_sep_arcsec": 21.543975628726127,
+            "position_px": [
+              5.993152327703737,
+              7.297781676896031
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277113825198592",
+            "G": 18.098766,
+            "target_sep_arcsec": 24.940868714881343,
+            "cached_intrinsic_required_eclipse_fraction": 0.6916114698258642,
+            "required_fraction_at_adopted_depth": 0.7693622619930639,
+            "deficit_sep_arcsec": 26.59445150137493,
+            "position_px": [
+              7.031289605729288,
+              6.383367381119914
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277083791573248",
+            "G": 18.134048,
+            "target_sep_arcsec": 31.7815153858428,
+            "cached_intrinsic_required_eclipse_fraction": 0.7142106906048853,
+            "required_fraction_at_adopted_depth": 0.7945020816409453,
+            "deficit_sep_arcsec": 30.490757229463618,
+            "position_px": [
+              5.656296447976975,
+              7.00354529011728
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277079465459968",
+            "G": 18.392056,
+            "target_sep_arcsec": 34.26151790727329,
+            "cached_intrinsic_required_eclipse_fraction": 0.9038086728428377,
+            "required_fraction_at_adopted_depth": 1.005414622638334,
+            "deficit_sep_arcsec": 33.276430406768796,
+            "position_px": [
+              5.692373868891476,
+              6.693564657758527
+            ],
+            "borderline": true
+          },
+          {
+            "source_id": "5356277152511053312",
+            "G": 18.016342,
+            "target_sep_arcsec": 35.40462526605574,
+            "cached_intrinsic_required_eclipse_fraction": 0.641592132932602,
+            "required_fraction_at_adopted_depth": 0.713719763488401,
+            "deficit_sep_arcsec": 40.45964766314193,
+            "position_px": [
+              8.82173251996805,
+              7.160943777716527
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151318144",
+            "G": 17.354836,
+            "target_sep_arcsec": 35.781218406415434,
+            "cached_intrinsic_required_eclipse_fraction": 0.35224155879172003,
+            "required_fraction_at_adopted_depth": 0.39184046862061733,
+            "deficit_sep_arcsec": 40.66986713525707,
+            "position_px": [
+              8.445687675011198,
+              6.4082103033699305
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277152514962816",
+            "G": 17.265255,
+            "target_sep_arcsec": 36.149327386843424,
+            "cached_intrinsic_required_eclipse_fraction": 0.32493193958635436,
+            "required_fraction_at_adopted_depth": 0.36146070870816305,
+            "deficit_sep_arcsec": 41.21928276824515,
+            "position_px": [
+              8.867439870427793,
+              7.19479927767255
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151320576",
+            "G": 16.253792,
+            "target_sep_arcsec": 41.10452140696011,
+            "cached_intrinsic_required_eclipse_fraction": 0.13248534328812583,
+            "required_fraction_at_adopted_depth": 0.14737931315503502,
+            "deficit_sep_arcsec": 44.91193382699761,
+            "position_px": [
+              7.861942788343027,
+              5.709586716408706
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276327877330432",
+            "G": 13.4978695,
+            "target_sep_arcsec": 41.870857223592104,
+            "cached_intrinsic_required_eclipse_fraction": 0.017283673055766707,
+            "required_fraction_at_adopted_depth": 0.019226699350549093,
+            "deficit_sep_arcsec": 40.98089705505715,
+            "position_px": [
+              5.3007554926862905,
+              6.616493665645954
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049431827456",
+            "G": 17.663172,
+            "target_sep_arcsec": 44.755298396728925,
+            "cached_intrinsic_required_eclipse_fraction": 0.465492706108166,
+            "required_fraction_at_adopted_depth": 0.51782328220037,
+            "deficit_sep_arcsec": 44.83069841704385,
+            "position_px": [
+              6.822619607019211,
+              9.778147836058396
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276323549550080",
+            "G": 17.812628,
+            "target_sep_arcsec": 45.3926706419811,
+            "cached_intrinsic_required_eclipse_fraction": 0.5330970416285145,
+            "required_fraction_at_adopted_depth": 0.5930276805738803,
+            "deficit_sep_arcsec": 44.477783574781,
+            "position_px": [
+              4.864461785197751,
+              7.323888634267645
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151319808",
+            "G": 18.29004,
+            "target_sep_arcsec": 45.59060976276626,
+            "cached_intrinsic_required_eclipse_fraction": 0.8234180122331451,
+            "required_fraction_at_adopted_depth": 0.9159864636383648,
+            "deficit_sep_arcsec": 46.847166909127715,
+            "position_px": [
+              6.535626090587926,
+              5.457070697950991
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151321472",
+            "G": 14.01696,
+            "target_sep_arcsec": 45.846630420153645,
+            "cached_intrinsic_required_eclipse_fraction": 0.02334120589816004,
+            "required_fraction_at_adopted_depth": 0.025965218552514362,
+            "deficit_sep_arcsec": 48.23730100626183,
+            "position_px": [
+              7.1246218186138055,
+              5.356690617366385
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276980712351872",
+            "G": 16.993504,
+            "target_sep_arcsec": 47.925298500946425,
+            "cached_intrinsic_required_eclipse_fraction": 0.25462238632965833,
+            "required_fraction_at_adopted_depth": 0.28324697268248195,
+            "deficit_sep_arcsec": 47.55143828251963,
+            "position_px": [
+              5.133017217947868,
+              8.988639828329305
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277152511046144",
+            "G": 17.49936,
+            "target_sep_arcsec": 47.99614288273599,
+            "cached_intrinsic_required_eclipse_fraction": 0.4013389161068904,
+            "required_fraction_at_adopted_depth": 0.446457338828672,
+            "deficit_sep_arcsec": 50.59956823663945,
+            "position_px": [
+              8.810117965757662,
+              9.188319840320753
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151321600",
+            "G": 17.409618,
+            "target_sep_arcsec": 49.07716242145555,
+            "cached_intrinsic_required_eclipse_fraction": 0.37008723921550984,
+            "required_fraction_at_adopted_depth": 0.41169235606995236,
+            "deficit_sep_arcsec": 51.045620694246054,
+            "position_px": [
+              6.854641194653643,
+              5.219058109473416
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276362237071360",
+            "G": 12.43857,
+            "target_sep_arcsec": 49.08038610391599,
+            "cached_intrinsic_required_eclipse_fraction": 0.011126866230701292,
+            "required_fraction_at_adopted_depth": 0.012377745809076869,
+            "deficit_sep_arcsec": 48.638800249175986,
+            "position_px": [
+              5.284987209656637,
+              6.045448336726418
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049413678208",
+            "G": 18.132093,
+            "target_sep_arcsec": 50.38929421115945,
+            "cached_intrinsic_required_eclipse_fraction": 0.712939140783556,
+            "required_fraction_at_adopted_depth": 0.7930875844999116,
+            "deficit_sep_arcsec": 52.10698283612779,
+            "position_px": [
+              8.392661895057937,
+              9.671793150785504
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276357909302528",
+            "G": 17.857983,
+            "target_sep_arcsec": 50.67766998380446,
+            "cached_intrinsic_required_eclipse_fraction": 0.555522292432417,
+            "required_fraction_at_adopted_depth": 0.6179739725846192,
+            "deficit_sep_arcsec": 51.014136351534646,
+            "position_px": [
+              5.831845696004725,
+              5.494952140929857
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049431829632",
+            "G": 17.721827,
+            "target_sep_arcsec": 51.50407645529814,
+            "cached_intrinsic_required_eclipse_fraction": 0.49092092907390295,
+            "required_fraction_at_adopted_depth": 0.5461101397684047,
+            "deficit_sep_arcsec": 53.502070387281705,
+            "position_px": [
+              8.584507633751539,
+              9.60821366245373
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277113825199104",
+            "G": 17.989645,
+            "target_sep_arcsec": 51.91899856000894,
+            "cached_intrinsic_required_eclipse_fraction": 0.6261882871129048,
+            "required_fraction_at_adopted_depth": 0.6965842210917162,
+            "deficit_sep_arcsec": 54.72655795006574,
+            "position_px": [
+              7.2733416317964625,
+              5.0607978755319385
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276980712350976",
+            "G": 15.612221,
+            "target_sep_arcsec": 52.898429659941414,
+            "cached_intrinsic_required_eclipse_fraction": 0.07667613007791504,
+            "required_fraction_at_adopted_depth": 0.0852960418549337,
+            "deficit_sep_arcsec": 52.822069684381745,
+            "position_px": [
+              5.002196737081802,
+              9.229853694974313
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277045111888256",
+            "G": 17.268063,
+            "target_sep_arcsec": 53.27970660019073,
+            "cached_intrinsic_required_eclipse_fraction": 0.3257542185602843,
+            "required_fraction_at_adopted_depth": 0.3623754280830909,
+            "deficit_sep_arcsec": 54.98035716207421,
+            "position_px": [
+              8.422396726283637,
+              9.817593633713605
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277148183294080",
+            "G": 17.77414,
+            "target_sep_arcsec": 53.38758093054351,
+            "cached_intrinsic_required_eclipse_fraction": 0.5147882347549803,
+            "required_fraction_at_adopted_depth": 0.57266060211267,
+            "deficit_sep_arcsec": 56.359020582345785,
+            "position_px": [
+              9.118782632583484,
+              9.238759138017375
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049431825536",
+            "G": 17.478992,
+            "target_sep_arcsec": 56.74386774893303,
+            "cached_intrinsic_required_eclipse_fraction": 0.3940176951307835,
+            "required_fraction_at_adopted_depth": 0.4383130679822864,
+            "deficit_sep_arcsec": 57.1836376899785,
+            "position_px": [
+              6.7880718967830616,
+              10.365372306140781
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049413676032",
+            "G": 17.056118,
+            "target_sep_arcsec": 56.982834095170894,
+            "cached_intrinsic_required_eclipse_fraction": 0.2692986123049971,
+            "required_fraction_at_adopted_depth": 0.2995730963899892,
+            "deficit_sep_arcsec": 58.94502609125379,
+            "position_px": [
+              8.657014494983992,
+              9.8815847181841
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277118151323264",
+            "G": 17.980951,
+            "target_sep_arcsec": 57.69520291235919,
+            "cached_intrinsic_required_eclipse_fraction": 0.6212531598437193,
+            "required_fraction_at_adopted_depth": 0.6910942880227922,
+            "deficit_sep_arcsec": 62.7151722904006,
+            "position_px": [
+              8.511547278364825,
+              5.097339510675855
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049435744000",
+            "G": 17.109146,
+            "target_sep_arcsec": 57.99432274944463,
+            "cached_intrinsic_required_eclipse_fraction": 0.2824073107460371,
+            "required_fraction_at_adopted_depth": 0.3141554715014413,
+            "deficit_sep_arcsec": 59.94988606007302,
+            "position_px": [
+              8.668188442947711,
+              9.933097588049323
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356276980712350336",
+            "G": 18.357523,
+            "target_sep_arcsec": 58.062236283736404,
+            "cached_intrinsic_required_eclipse_fraction": 0.8757461459039623,
+            "required_fraction_at_adopted_depth": 0.9741973132892415,
+            "deficit_sep_arcsec": 58.23956912984616,
+            "position_px": [
+              4.678202497379953,
+              9.22742416644342
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277049431828352",
+            "G": 18.149805,
+            "target_sep_arcsec": 58.20840621111978,
+            "cached_intrinsic_required_eclipse_fraction": 0.7245432118536916,
+            "required_fraction_at_adopted_depth": 0.8059961823996771,
+            "deficit_sep_arcsec": 60.028436638324635,
+            "position_px": [
+              8.573365262727481,
+              10.005627802352771
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277045104057216",
+            "G": 17.603157,
+            "target_sep_arcsec": 58.49093028353543,
+            "cached_intrinsic_required_eclipse_fraction": 0.44085846093216363,
+            "required_fraction_at_adopted_depth": 0.4904196612108672,
+            "deficit_sep_arcsec": 58.8900497214116,
+            "position_px": [
+              6.399611378352188,
+              10.395843317401965
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "5356277113823566336",
+            "G": 18.124596,
+            "target_sep_arcsec": 58.49606506395202,
+            "cached_intrinsic_required_eclipse_fraction": 0.7080841933229419,
+            "required_fraction_at_adopted_depth": 0.7876868450340146,
+            "deficit_sep_arcsec": 61.92051918893311,
+            "position_px": [
+              7.55135268107189,
+              4.759433227703907
+            ],
+            "borderline": false
+          }
+        ]
+      }
+    ],
+    "threshold_meaning": "Cached diffstack approximate Gaia-G flux-ratio intrinsic eclipse fraction needed to explain observed blended deficit, scaled linearly to adopted QLP depth. This is not observed pixel fractional loss and ignores TESS color and actual aperture throughput. Capable threshold <=1, borderline to 1.05 included. Configured search radius 60 arcsec except 187202091 historical manual stack 90 arcsec. Pixel scale 21 arcsec. Source-centroid distances lack calibrated covariance and do not by themselves exclude close neighbors."
+  },
+  "402782627": {
+    "stacks": [
+      {
+        "sector": 24,
+        "source_path": "[local-path-redacted] 5\\made\\sb1-scale\\diffimg\\402782627\\diff_s24.json",
+        "source_sha256": "9c5ec959c5be1f430c82eb6c3c2712e9b42fcc44f522fb0b22bbe438b08614db",
+        "n_events": 8,
+        "target_pixel": [
+          8,
+          8
+        ],
+        "peak_pixel": [
+          8,
+          7
+        ],
+        "deficit_target_arcsec": 2.2640948225873037,
+        "psf_fractional_residual": 0.2686558136715006,
+        "ap3_fractional_depth": 0.013575851856531394,
+        "adopted_qlp_depth_fraction": 0.014882907272289924,
+        "gaia_limit_G": 18.192544513919753,
+        "cached_n_capable": 2,
+        "n_capable_at_adopted_depth": 1,
+        "capable_and_borderline": [
+          {
+            "source_id": "519229595829824128",
+            "G": 15.951163,
+            "target_sep_arcsec": 38.030687740607895,
+            "cached_intrinsic_required_eclipse_fraction": 0.13831984277285128,
+            "required_fraction_at_adopted_depth": 0.15163699601772437,
+            "deficit_sep_arcsec": 39.42709877208874,
+            "position_px": [
+              6.498698278593041,
+              8.876461289322231
+            ],
+            "borderline": false
+          },
+          {
+            "source_id": "519229217872703872",
+            "G": 18.081375,
+            "target_sep_arcsec": 51.2738815643343,
+            "cached_intrinsic_required_eclipse_fraction": 0.9141006207872974,
+            "required_fraction_at_adopted_depth": 1.00210837010385,
+            "deficit_sep_arcsec": 54.03614531020027,
+            "position_px": [
+              5.445626191555786,
+              8.335845445248241
+            ],
+            "borderline": true
+          }
+        ]
+      }
+    ],
+    "threshold_meaning": "Cached diffstack approximate Gaia-G flux-ratio intrinsic eclipse fraction needed to explain observed blended deficit, scaled linearly to adopted QLP depth. This is not observed pixel fractional loss and ignores TESS color and actual aperture throughput. Capable threshold <=1, borderline to 1.05 included. Configured search radius 60 arcsec except 187202091 historical manual stack 90 arcsec. Pixel scale 21 arcsec. Source-centroid distances lack calibrated covariance and do not by themselves exclude close neighbors."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "T050",
+  "tic": "269941080",
+  "gaia_period_days": 55.202870825084574,
+  "source_packet": "[local-path-redacted]",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "1fcfa5a975df5d36fce8e42a5ad9ca3ed9902b0591dc0be8c8b9c5797f11ba43",
+      "sector": 1
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a68f7311f754db6cfc487f74cfb853d4f3553b9c759d21676515d3da33e7f9d5",
+      "sector": 27
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ef736fe7544b7350d28b40068ba0e435291b79325fd4ca4cdad08e67171f8028",
+      "sector": 92
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 1,
+      "start_btjd": 1325.954306949908,
+      "end_btjd": 1352.870521914087,
+      "n_all": 1282,
+      "n_quality0": 980,
+      "cadence_days": 0.020833156339904235,
+      "max_internal_gap_days": 2.124935487599032
+    },
+    {
+      "sector": 27,
+      "start_btjd": 2036.3007671046,
+      "end_btjd": 2060.5164805313516,
+      "n_all": 3360,
+      "n_quality0": 2814,
+      "cadence_days": 0.0069446182276351465,
+      "max_internal_gap_days": 1.1805794200888613
+    },
+    {
+      "sector": 92,
+      "start_btjd": 3803.1507733204435,
+      "end_btjd": 3828.4840632405826,
+      "n_all": 11201,
+      "n_quality0": 9289,
+      "cadence_days": 0.002315024633844587,
+      "max_internal_gap_days": 3.109072820042911
+    }
+  ],
+  "flag_count": 1,
+  "representative_method": "Maximum screen contrast per sector, up to twelve sectors; all available FITS checked for hash and endpoints.",
+  "events": [
+    {
+      "sector": 27,
+      "seed_btjd": 2047.3010779062663,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 6.208992241874849,
+      "screen_depth_ppt": 18.926313509948223,
+      "core_n": 176,
+      "side_n": 826,
+      "core_deficit_ppt": 16.94098519348475,
+      "side_scatter_ppt": 3.6908033811373118,
+      "local_max_gap_days": 1.1805794200888613,
+      "source_sha256": "a68f7311f754db6cfc487f74cfb853d4f3553b9c759d21676515d3da33e7f9d5",
+      "fit_mid_btjd": 2047.5419722942102,
+      "fit_mid_formal_error_days": 87213.24209524516,
+      "fit_depth_ppt": 20.942503975178937,
+      "fit_duration_days": 2.22624739652603,
+      "fit_slope_per_day": -7.433464604869663e-05
+    }
+  ]
+}

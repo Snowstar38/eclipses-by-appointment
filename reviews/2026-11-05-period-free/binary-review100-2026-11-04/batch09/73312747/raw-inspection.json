@@ -1,0 +1,168 @@
+{
+  "sample_id": "H090",
+  "tic": "73312747",
+  "gaia_period_days": 48.36845552715183,
+  "sectors": [
+    {
+      "sector": 20,
+      "path": "[local-path-redacted]",
+      "sha256": "c770fbfa30698f0e6a4c6e2f1c7122f1e871857bb972e7093e43fdc21d2d9246",
+      "start_btjd": 1842.7858270361166,
+      "end_btjd": 1868.7651581799794,
+      "quality0_n": 1037,
+      "cadence_days": 0.020833481089994166,
+      "gaps_over_0p5d": [
+        [
+          1854.744348551617,
+          1856.7651951881826
+        ]
+      ],
+      "sap_median": 0.999926745891571,
+      "sap_p05_p95": [
+        0.9928812057377011,
+        1.0069663740201993
+      ]
+    },
+    {
+      "sector": 47,
+      "path": "[local-path-redacted]",
+      "sha256": "3dcef1393c9cadbeddb5c1954f7961fed785c9d6ee95effbcc5e5f589e4d75b5",
+      "start_btjd": 2580.4800695929266,
+      "end_btjd": 2606.9035896790206,
+      "quality0_n": 3010,
+      "cadence_days": 0.006944431358988368,
+      "gaps_over_0p5d": [
+        [
+          2592.882922978191,
+          2596.5565141010625
+        ]
+      ],
+      "sap_median": 1.000301480293274,
+      "sap_p05_p95": [
+        0.9945642467760925,
+        1.0140392893120445
+      ]
+    },
+    {
+      "sector": 60,
+      "path": "[local-path-redacted]",
+      "sha256": "1fefb38d474295df576c1d88602539a9cf2f414ef39e710f0e006847bd3dd5a8",
+      "start_btjd": 2938.294562322225,
+      "end_btjd": 2962.5563309386607,
+      "quality0_n": 7908,
+      "cadence_days": 0.0023148381037572108,
+      "gaps_over_0p5d": [
+        [
+          2949.7276256158043,
+          2955.0540420845196
+        ]
+      ],
+      "sap_median": 0.9990788698196411,
+      "sap_p05_p95": [
+        0.9879740984271224,
+        1.012145948618051
+      ]
+    },
+    {
+      "sector": 74,
+      "path": "[local-path-redacted]",
+      "sha256": "b4576ab2a567abb53d53fa2108a50b7b47044f37d60ecc6fad9f7daecbc495ed",
+      "start_btjd": 3312.97277488702,
+      "end_btjd": 3339.572144226536,
+      "quality0_n": 7622,
+      "cadence_days": 0.0023148043378569128,
+      "gaps_over_0p5d": [
+        [
+          3313.870928473974,
+          3316.044556641415
+        ],
+        [
+          3327.5908494485907,
+          3333.7250381671633
+        ]
+      ],
+      "sap_median": 0.99922114610672,
+      "sap_p05_p95": [
+        0.9902064309974815,
+        1.0231548049352222
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "sector": 20,
+      "kind": "brightening",
+      "screen_btjd": 1862.181875522749,
+      "duration_days": 0.12,
+      "screen_contrast": -14.184978833441406,
+      "screen_depth_fraction": -0.003447690418935445,
+      "screen_supported": true,
+      "n_window": 87,
+      "n_core": 3,
+      "n_left": 35,
+      "n_right": 36,
+      "local_baseline_sap": 0.9976241588592529,
+      "core_delta_ppt": 3.600090719227067,
+      "pre_delta_ppt": -0.03226316032234333,
+      "post_delta_ppt": 0.16179377435721065,
+      "pre_post_step_ppt": 0.19405693467952764,
+      "max_internal_gap_days": 0.04166664415265586,
+      "alt_columns": {
+        "KSPSAP_FLUX": {
+          "core": 1.0029247999191284,
+          "side": 1.0000245571136475
+        },
+        "SAP_BKG": {
+          "core": 21.760000228881836,
+          "side": 43.09000015258789
+        },
+        "SAP_X": {
+          "core": 665.6971435546875,
+          "side": 665.6970825195312
+        },
+        "SAP_Y": {
+          "core": 1772.49951171875,
+          "side": 1772.4986572265625
+        }
+      }
+    },
+    {
+      "sector": 47,
+      "kind": "brightening",
+      "screen_btjd": 2590.2301549310646,
+      "duration_days": 0.12,
+      "screen_contrast": -7.600303216914947,
+      "screen_depth_fraction": -0.002878806611318341,
+      "screen_supported": true,
+      "n_window": 265,
+      "n_core": 6,
+      "n_left": 108,
+      "n_right": 111,
+      "local_baseline_sap": 1.007943034172058,
+      "core_delta_ppt": 2.156473637232592,
+      "pre_delta_ppt": -2.5495435433581237,
+      "post_delta_ppt": 2.5215135846543557,
+      "pre_post_step_ppt": 5.071057128012585,
+      "max_internal_gap_days": 0.020833372683682683,
+      "alt_columns": {
+        "KSPSAP_FLUX": {
+          "core": 1.0028772950172424,
+          "side": 0.999939501285553
+        },
+        "SAP_BKG": {
+          "core": -29.610000610351562,
+          "side": -27.780000686645508
+        },
+        "SAP_X": {
+          "core": 1861.4046630859375,
+          "side": 1861.4034423828125
+        },
+        "SAP_Y": {
+          "core": 1754.40283203125,
+          "side": 1754.402099609375
+        }
+      }
+    }
+  ],
+  "bulk_sha256": "597c0c45777e2790de49dec5977c11c3a0f49277d5f27809325b1fd0e5d5bed0"
+}

@@ -1,0 +1,3 @@
+import requests,zipfile,io,hashlib,json
+from pathlib import Path
+B=Path(__file__).parent;p=B/'287035536';u='https://mast.stsci.edu/tesscut/api/v0.1/astrocut';r=requests.get(u,params=dict(ra=220.39906498115454,dec=22.41259683450455,x=9,y=9,units='px',sector=77),timeout=150);r.raise_for_status();z=zipfile.ZipFile(io.BytesIO(r.content));b=z.read(z.namelist()[0]);f=p/'helper-s77-tesscut.fits';f.write_bytes(b);(p/'helper-s77-receipt.json').write_text(json.dumps(dict(url=r.url,status=r.status_code,zip_sha256=hashlib.sha256(r.content).hexdigest(),member=z.namelist()[0],fits_sha256=hashlib.sha256(b).hexdigest(),event=dict(sector=77,screen_btjd=3422.485,screen_duration_days=.24)),indent=2))

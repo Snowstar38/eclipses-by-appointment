@@ -1,0 +1,55 @@
+{
+  "gaia": {
+    "source_id": "6740862492885594624",
+    "nss_solution_type": "SB1",
+    "period": "41.96173398688844",
+    "period_error": "0.02909985",
+    "t_periastron": "-10.542246325982672",
+    "t_periastron_error": "0.47570646",
+    "eccentricity": "0.34484656113797607",
+    "eccentricity_error": "0.020483973",
+    "arg_periastron": "139.42143687587057",
+    "arg_periastron_error": "5.1911354",
+    "semi_amplitude_primary": "23.13762544884263",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "0.62317216",
+    "significance": "37.78879",
+    "ra": "293.7091099193677",
+    "dec": "-36.22521734291636",
+    "parallax": "3.794500374677998",
+    "phot_g_mean_mag": "11.143808",
+    "bp_rp": "0.86120224",
+    "ruwe": "0.96264887",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "results": [
+    {
+      "side": 1,
+      "cycle": 30,
+      "pred_btjd": 1676.4615371205878,
+      "observed_minus_pred_days": -0.10057012058769033,
+      "independent_sigma_components": [
+        0.9001466767131205,
+        0.1447236786020767,
+        -0.33384708701760246,
+        0.47570645999712724
+      ],
+      "diagonal_only_sigma_days": 1.0811843026694983
+    },
+    {
+      "side": 3,
+      "cycle": 31,
+      "pred_btjd": 1690.3500947335215,
+      "observed_minus_pred_days": -13.9891277335214,
+      "independent_sigma_components": [
+        0.9097781886907796,
+        -0.28782646205627316,
+        -0.8317080951542266,
+        0.47570645999712724
+      ],
+      "diagonal_only_sigma_days": 1.3522482821232857
+    }
+  ],
+  "caveat": "edge-on conjunction; periastron time converted from Gaia epoch via +389; diagonal-only errors ignore covariance, not calibrated compatibility test; periastron omega convention may swap labels."
+}

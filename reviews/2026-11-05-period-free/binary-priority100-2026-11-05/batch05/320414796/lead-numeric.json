@@ -1,0 +1,88 @@
+{
+  "sample_id": "T047",
+  "tic": "320414796",
+  "gaia_period_days": 26.735093448239844,
+  "source_packet": "[local-path-redacted]",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "f1f07c820c14c87a07bf9718295c55cd8e4f3ab7282b319948e3ab32b9304f3e",
+      "sector": 7
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "aa2bbdfa857e453ae9430343ba2cb020f16c14990a569a92d5a0bc637bafe61b",
+      "sector": 34
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "6076e215035cb4a40dc8e13cf401262c95cc4516237b701fa826bcbfe4cd83aa",
+      "sector": 61
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "5aa17f6cc05d7744e882152fb6c3e35302d5ec0a8699e6d87b6dbd3a45637d1c",
+      "sector": 88
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 7,
+      "start_btjd": 1491.6830479858243,
+      "end_btjd": 1516.0163477299711,
+      "n_all": 1093,
+      "n_quality0": 1028,
+      "cadence_days": 0.02083331807034483,
+      "max_internal_gap_days": 2.0208283931046935
+    },
+    {
+      "sector": 34,
+      "start_btjd": 2229.460611270386,
+      "end_btjd": 2252.1200630190315,
+      "n_all": 3485,
+      "n_quality0": 2623,
+      "cadence_days": 0.006944370246401377,
+      "max_internal_gap_days": 2.027733128581076
+    },
+    {
+      "sector": 61,
+      "start_btjd": 2964.004249161945,
+      "end_btjd": 2988.09403848792,
+      "n_all": 10713,
+      "n_quality0": 9407,
+      "cadence_days": 0.0023147675149175484,
+      "max_internal_gap_days": 1.483761857843092
+    },
+    {
+      "sector": 88,
+      "start_btjd": 3693.303416708689,
+      "end_btjd": 3716.800695193604,
+      "n_all": 11457,
+      "n_quality0": 9765,
+      "cadence_days": 0.002314762791229441,
+      "max_internal_gap_days": 0.2592542337260966
+    }
+  ],
+  "flag_count": 3,
+  "representative_method": "Maximum screen contrast per sector, up to twelve sectors; all available FITS checked for hash and endpoints.",
+  "events": [
+    {
+      "sector": 7,
+      "seed_btjd": 1496.5789690586962,
+      "screen_duration_days": 0.48,
+      "screen_contrast": 6.375283352684972,
+      "screen_depth_ppt": 8.84895659680296,
+      "core_n": 23,
+      "side_n": 105,
+      "core_deficit_ppt": 5.980935763531314,
+      "side_scatter_ppt": 5.170412113459988,
+      "local_max_gap_days": 0.04166702133647959,
+      "source_sha256": "f1f07c820c14c87a07bf9718295c55cd8e4f3ab7282b319948e3ab32b9304f3e",
+      "fit_mid_btjd": 1496.5640520694426,
+      "fit_mid_formal_error_days": 0.03826465647572723,
+      "fit_depth_ppt": 5.47227613495072,
+      "fit_duration_days": 0.7201750197886789,
+      "fit_slope_per_day": 0.00016476376853617237
+    }
+  ]
+}

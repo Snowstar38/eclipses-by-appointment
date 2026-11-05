@@ -1,0 +1,74 @@
+{
+  "batch": "batch07",
+  "queue_sha256": "7f9f9e51d80b068793e652d799e9eeb5dde0df0ceffc1161402cc3550b5c6d25",
+  "results_sha256": "9d995e43ec38fd9205d962e6517643b8ff66c92828edd1a4bf6d87486e723eef",
+  "manifest_sha256": "065e102a93ef4f3eca1e8f6c43271ec3240e232a2b2b5341d623e2c9278dfcc1",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 112,
+  "decisions": {
+    "T061": {
+      "tic": "174306672",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T062": {
+      "tic": "198415716",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T063": {
+      "tic": "220716821",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T064": {
+      "tic": "196423445",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T065": {
+      "tic": "39019899",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T066": {
+      "tic": "468294703",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T067": {
+      "tic": "255761037",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T068": {
+      "tic": "198238142",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T069": {
+      "tic": "159851783",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T070": {
+      "tic": "160179511",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten reports, final lead audit and independent T061/T069 pixel audits. Required conservative revision of T062/T063/T065/T067: possible single depressions are not refuted by detrending or conditional Gaia point nonreturns. T061 large QLP losses contradicted by active-sky pixel extraction; zero-edge pixels excluded, small residual source unresolved. T068 is positive ramp. T064 repeated large brightenings and valley/step morphology support selected artifact, newer data not precision null. Directly inspected T066 raw panel: screened core retains preceding low branch then rises above it; averaging the later bright level creates the apparent deficit. This supports baseline-flag interpretation rather than claiming a gap alone refutes an eclipse. T069 three aperture troughs remain plausible amid multiple smooth waves, not unique timing/source. T070 s108 nearzero flux is invalid null.",
+  "helper_boundary": "Terra07 independently audited T061 and T069 pixels; lead owns remaining raw/current-sector work. Root requested conservative revisions and read final lead audit; directly inspected T066 as deciding exception.",
+  "accounting": "Physical only; all novelty UNKNOWN; prior ledger/paper unchanged."
+}

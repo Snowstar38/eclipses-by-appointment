@@ -1,0 +1,107 @@
+{
+  "sample_id": "H089",
+  "tic": "58171740",
+  "gaia_period_days": 31.561245406112732,
+  "sectors": [
+    {
+      "sector": 43,
+      "path": "[local-path-redacted]",
+      "sha256": "68fa5e42793da241eff45d52467266110b0c003ba9a0753648b81f1a673c7fa8",
+      "start_btjd": 2474.2483683655405,
+      "end_btjd": 2498.4240239103206,
+      "quality0_n": 2845,
+      "cadence_days": 0.0069450431451514305,
+      "gaps_over_0p5d": [
+        [
+          2484.506241509078,
+          2487.263417849707
+        ]
+      ],
+      "sap_median": 1.0000877380371094,
+      "sap_p05_p95": [
+        0.9981719428837345,
+        1.0015301077175998
+      ]
+    },
+    {
+      "sector": 44,
+      "path": "[local-path-redacted]",
+      "sha256": "dadaaaf426b827d3d6d5ab7dd492056f16c0230f43778e5152b24d90ff462aaa",
+      "start_btjd": 2500.535300252873,
+      "end_btjd": 2524.265771805358,
+      "quality0_n": 2994,
+      "cadence_days": 0.0069448327103600604,
+      "gaps_over_0p5d": [
+        [
+          2511.397104989174,
+          2513.466666900656
+        ]
+      ],
+      "sap_median": 0.9999604225158691,
+      "sap_p05_p95": [
+        0.9970613478860256,
+        1.0025743132438656
+      ]
+    },
+    {
+      "sector": 70,
+      "path": "[local-path-redacted]",
+      "sha256": "0a5612f42053ab62e1d9ba16e6e4d41d17d9c83dc9b7b9ecf23d882fb264c28e",
+      "start_btjd": 3208.801617676443,
+      "end_btjd": 3232.785051395302,
+      "quality0_n": 9053,
+      "cadence_days": 0.002315004884849259,
+      "gaps_over_0p5d": [
+        [
+          3219.589602883189,
+          3222.175453985038
+        ]
+      ],
+      "sap_median": 0.9996795058250427,
+      "sap_p05_p95": [
+        0.9943713029918783,
+        1.0058730470761137
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "sector": 44,
+      "kind": "brightening",
+      "screen_btjd": 2523.0504518245198,
+      "duration_days": 0.12,
+      "screen_contrast": -5.1787672066776596,
+      "screen_depth_fraction": -0.0031092621853634483,
+      "screen_supported": true,
+      "n_window": 280,
+      "n_core": 9,
+      "n_left": 114,
+      "n_right": 117,
+      "local_baseline_sap": 0.9971046447753906,
+      "core_delta_ppt": 3.3434875757980542,
+      "pre_delta_ppt": 0.540181389521166,
+      "post_delta_ppt": -0.5291225108556841,
+      "pre_post_step_ppt": -1.0693039003768388,
+      "max_internal_gap_days": 0.013889415683934203,
+      "alt_columns": {
+        "KSPSAP_FLUX": {
+          "core": 1.0031263828277588,
+          "side": 0.9999614953994751
+        },
+        "SAP_BKG": {
+          "core": 110.33000183105469,
+          "side": 111.18000030517578
+        },
+        "SAP_X": {
+          "core": 1751.34619140625,
+          "side": 1751.343017578125
+        },
+        "SAP_Y": {
+          "core": 159.73196411132812,
+          "side": 159.73019409179688
+        }
+      }
+    }
+  ],
+  "bulk_sha256": "98cbf3b7bfe5205382cf956407ea4066b304ecc4826860eb1691758d31d36bca"
+}

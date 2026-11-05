@@ -1,0 +1,74 @@
+{
+  "batch": "batch02",
+  "queue_sha256": "8970de2a69f90d3381dcf850c9c4a2467d440d81bce41d0dd9fc414c234ad396",
+  "results_sha256": "ee77bfff937542a84200b36958a3e2197d873bb89e09ff1ad67b868a6f796554",
+  "manifest_sha256": "e512a2772c5f1fb01f4f8b6c78e40dc4d9e5baa7629bad8dd3497fc18924dc39",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 136,
+  "decisions": {
+    "T011": {
+      "tic": "355493553",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T012": {
+      "tic": "323458448",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T013": {
+      "tic": "152577827",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T014": {
+      "tic": "313142904",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T015": {
+      "tic": "230006509",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T016": {
+      "tic": "441540331",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T017": {
+      "tic": "292150400",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T018": {
+      "tic": "320592245",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T019": {
+      "tic": "220343379",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T020": {
+      "tic": "196915110",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten reports and lead/helper audits, confirmed T012 alternating deep/shallow clocks and T014 five same-kind events with actual P/2 nulls. Reviewed final four post-helper reversals; independently recomputed 3x3 and 5x5 extractions with substantial target flux, and viewed joint QLP/pixel comparison (root-check02-pixels.*). T011 opposite bright recovery, T016 flat before rise, T018 smooth drift and T019 cusp/step contradict selected localized deficits. Refutations apply to screened claims, not all binarity. Encoding conversion receipts checked. S105 is not claimed as full sensitive null.",
+  "helper_boundary": "Batch02 final four exception pixel checks were lead post-helper; root independently verified. Batch03 helper checked T025/T026, lead owns other bounded review.",
+  "accounting": "Physical outcomes only; novelty UNKNOWN; prior ledger and paper unchanged."
+}

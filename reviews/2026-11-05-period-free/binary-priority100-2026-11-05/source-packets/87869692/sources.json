@@ -1,0 +1,130 @@
+{
+  "queue_row": {
+    "tic": "87869692",
+    "gaia_dr3": "882872210352301568",
+    "gaia_period_days": "32.80745139832254",
+    "gaia_G": "6.919019",
+    "ra_deg": "107.39683879434017",
+    "dec_deg": "25.727869308942015",
+    "nss_type": "AstroSpectroSB1",
+    "queue_group": "repeat_sector_dip",
+    "cached_primary_identity_match": "False",
+    "dip_flag_sectors": "4",
+    "bright_flag_sectors": "4",
+    "known_prior_exact_note": "False",
+    "fold_raw_rank_tier": "",
+    "fold_isolated_window_stat_count": "",
+    "retained_dip_flags": "6",
+    "retained_bright_flags": "6",
+    "best_dip_contrast": "287.6701692753981",
+    "best_dip_depth": "0.05131097489861558",
+    "best_window_btjd": "3243.0812074042683",
+    "best_window_duration_days": "0.24",
+    "best_window_slope_ratio": "0.004182790641142951",
+    "max_bright_contrast": "7.543353463739623",
+    "period_fold_attempted": "False",
+    "period_fold_flag": "False",
+    "old20_24_flag": "not_in_old1674",
+    "fold_best_z": "",
+    "fold_screening_period_days": "",
+    "fold_screening_depth_ppm": "",
+    "files": "4",
+    "usable_files": "4",
+    "failed_files": "0",
+    "dip_sameccd_max_other_targets": "0",
+    "dip_otherccd_max_other_targets": "2",
+    "bright_sameccd_max_other_targets": "0",
+    "output": "bulk-results\\87869692.json",
+    "common_mode_features": "[local-path-redacted]",
+    "priority_rank": "84",
+    "priority_group": "repeat_sector_dip",
+    "priority_band": "B",
+    "within_group_score": "287.6701692753981",
+    "alternate_sector_first_rank": "228",
+    "review_batch": "P009",
+    "physical_review_status": "UNREVIEWED",
+    "novelty_status": "UNKNOWN",
+    "priority_reason": "dip flags in at least two sectors; recurrence unverified",
+    "caution": "common-mode counts are descriptive; inspect actual event",
+    "sample_id": "T084",
+    "sample_stratum": "repeat_sector_dip",
+    "batch": "batch09"
+  },
+  "target": {
+    "gaia": {
+      "source_id": "882872210352301568",
+      "nss_solution_type": "AstroSpectroSB1",
+      "period": "32.80745139832254",
+      "period_error": "0.001544296",
+      "t_periastron": "-3.1060111488818754",
+      "t_periastron_error": "0.21475124",
+      "eccentricity": "0.07545718079104963",
+      "eccentricity_error": "0.0032944402",
+      "arg_periastron": "",
+      "arg_periastron_error": "",
+      "semi_amplitude_primary": "",
+      "semi_amplitude_secondary": "",
+      "goodness_of_fit": "2.919135",
+      "significance": "87.98733",
+      "ra": "107.39683879434017",
+      "dec": "25.727869308942015",
+      "parallax": "39.351526060113926",
+      "phot_g_mean_mag": "6.919019",
+      "bp_rp": "0.8943591",
+      "ruwe": "6.643877",
+      "phot_variable_flag": "VARIABLE",
+      "veb": ""
+    },
+    "control": false,
+    "files": [
+      {
+        "path": "[local-path-redacted]",
+        "sha256": "98c91bbea018556a3eb48f3244df3ed57e1d6ae4d57fb712b943a5f6bc094681"
+      },
+      {
+        "path": "[local-path-redacted]",
+        "sha256": "bd3f02b550789745da9d1eb76a943f8d9dae9a5089f212259a2f707f2ee9f45d"
+      },
+      {
+        "path": "[local-path-redacted]",
+        "sha256": "f5e515cb4b5721948fd7b8d5947069d63a8586c5470c67881c393e0e5d20efab"
+      },
+      {
+        "path": "[local-path-redacted]",
+        "sha256": "31bc85c39eeda558e3358a015edbdfdc877167995e05ed7b572f3ae11b5d3ef8"
+      }
+    ]
+  },
+  "bulk_result": "[local-path-redacted]",
+  "bulk_result_sha256": "da161f95176fa48c682f5ccf1c939d698575de522ec90c6e0f4b1f6ad022ccdc",
+  "fold_result": null,
+  "fold_result_sha256": null,
+  "fold": null,
+  "verified_files": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "98c91bbea018556a3eb48f3244df3ed57e1d6ae4d57fb712b943a5f6bc094681",
+      "sector": 44,
+      "quality0_samples": 2814
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "bd3f02b550789745da9d1eb76a943f8d9dae9a5089f212259a2f707f2ee9f45d",
+      "sector": 45,
+      "quality0_samples": 2804
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "f5e515cb4b5721948fd7b8d5947069d63a8586c5470c67881c393e0e5d20efab",
+      "sector": 71,
+      "quality0_samples": 8199
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "31bc85c39eeda558e3358a015edbdfdc877167995e05ed7b572f3ae11b5d3ef8",
+      "sector": 72,
+      "quality0_samples": 8788
+    }
+  ],
+  "preview_caveat": "Representative raw SAP quality0 plots only; not fitted events, physical decisions or full coverage audits."
+}

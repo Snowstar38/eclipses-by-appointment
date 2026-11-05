@@ -1,0 +1,58 @@
+{
+  "tic": "231694897",
+  "files": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "92075fa870302a38cc79581986244a599c0e040f3cd5cf9adbdbba16a06184b1",
+      "target_pixel_0_based": [
+        5.2184274260281995,
+        5.855771971228183
+      ],
+      "aperture_pixels": 9,
+      "quality_zero_samples": 9912,
+      "time_start": 4152.033053563453,
+      "time_end": 4178.206185932515,
+      "median_net_counts": -0.14734178967773914,
+      "target_measurable": false,
+      "cadence_days": 0.002314980081791873,
+      "relative_flux_mad_ppt": null,
+      "predictions_from_screened_event_and_gaia_period": [
+        {
+          "predicted_btjd": 4164.955861406111,
+          "n_core": 238,
+          "n_side": 778,
+          "core_side_delta_ppt": null,
+          "closest_cadence_days": 0.0006007442907502991
+        }
+      ],
+      "plot": "[local-path-redacted]"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ea82f7ebd860a5d2cfc6586bc51346d71c8dbb15ee69cf9c403321a23abebd42",
+      "target_pixel_0_based": [
+        5.099967752096234,
+        5.891512105948912
+      ],
+      "aperture_pixels": 9,
+      "quality_zero_samples": 9860,
+      "time_start": 4206.212736801898,
+      "time_end": 4233.005468991091,
+      "median_net_counts": 7856.459095001221,
+      "target_measurable": true,
+      "cadence_days": 0.0023149107828430715,
+      "relative_flux_mad_ppt": 3.5875895491371015,
+      "predictions_from_screened_event_and_gaia_period": [
+        {
+          "predicted_btjd": 4222.924233687332,
+          "n_core": 259,
+          "n_side": 843,
+          "core_side_delta_ppt": -0.12075996528038146,
+          "closest_cadence_days": 8.991724553197855e-05
+        }
+      ],
+      "plot": "[local-path-redacted]"
+    }
+  ],
+  "caution": "Target-centered TESSCut aperture uses calibrated pixel FLUX minus a local outer-pixel median. Near-zero target net counts mark unusable sectors, not nulls. Predictions from one screened event and Gaia period are conditional and are not measured eclipse centers."
+}

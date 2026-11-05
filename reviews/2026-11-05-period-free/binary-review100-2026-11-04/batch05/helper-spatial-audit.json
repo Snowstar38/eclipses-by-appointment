@@ -1,0 +1,68 @@
+{
+  "246124257": {
+    "target_xy": [
+      5.102101009433059,
+      5.200084929573925
+    ],
+    "neighbor": {
+      "source_id": "5939588377656341504",
+      "sep_arcsec": 32.5682548173988,
+      "G": 14.354653358459473,
+      "flux_ratio_G": 0.007023064493696878,
+      "required_total_disappearance_fraction_approx": 0.8515508993978697,
+      "pixel_xy": [
+        6.696442886824864,
+        5.287333212564199
+      ]
+    },
+    "relative_shift_xy": [
+      1.5943418773918054,
+      0.08724828299027454
+    ],
+    "fit": {
+      "target": {
+        "rms": 1.1852407723564276,
+        "amplitude": 0.005830559345578315
+      },
+      "neighbor": {
+        "rms": 21.781798867147916,
+        "amplitude": 0.0018316389132833192
+      }
+    },
+    "method": "Compare 7x7 difference image against out-of-event image and its bilinearly shifted copy with free amplitude and constant. Empirical target image includes background and neighboring flux; interpolation is not a calibrated TESS PRF. RMS is descriptive, not a likelihood or exclusion. Same photons as SAP.",
+    "fits_sha256": "967741b7ff88328be9ce8530c456a3c0faa98e4d633caa71ca41d9bec42dfefd"
+  },
+  "313617927": {
+    "target_xy": [
+      5.056848961221442,
+      5.722214130811918
+    ],
+    "neighbor": {
+      "source_id": "2177341612115542144",
+      "sep_arcsec": 19.817376375494774,
+      "G": 14.714372634887695,
+      "flux_ratio_G": 0.017161567231823653,
+      "required_total_disappearance_fraction_approx": 1.9339038752639368,
+      "pixel_xy": [
+        5.493357940759065,
+        6.579657276388261
+      ]
+    },
+    "relative_shift_xy": [
+      0.43650897953762335,
+      0.8574431455763429
+    ],
+    "fit": {
+      "target": {
+        "rms": 2.1304735692257175,
+        "amplitude": 0.03233223666168782
+      },
+      "neighbor": {
+        "rms": 36.178779955954056,
+        "amplitude": 0.022240966842623486
+      }
+    },
+    "method": "Compare 7x7 difference image against out-of-event image and its bilinearly shifted copy with free amplitude and constant. Empirical target image includes background and neighboring flux; interpolation is not a calibrated TESS PRF. RMS is descriptive, not a likelihood or exclusion. Same photons as SAP.",
+    "fits_sha256": "40b6a950cc6fbded307b75089344cb192daa1172065fef05a24417a43208e7bf"
+  }
+}

@@ -1,0 +1,11 @@
+# F017 — TIC 28059397: PROBABLE
+
+**Physical finding.** Two full raw SAP eclipses at 2835.22350 (S56) and 3561.05438 (S83) have similar roughly 14 ppt profiles. Fresh TESSCut difference cubes locate each on the target, 0.066 and 0.091 pixel from its WCS position; a comparably bright star elsewhere in the cutout does not carry the loss. A third partial ingress occurs at the S83 endpoint around 3584.25 to 3584.35. The two full centers differ by 725.830875 d: N=31 gives 23.413899 d and predicts the partial center 3584.4683, with ingress starting roughly 0.22 d before it. N=25 to 30 put the next same-kind center beyond S83, at least 3585.2487 for N=30, so they cannot explain this observed ingress as the same kind. N=32 to 37 predict well-covered extra S83 cores without similar 14 ppt deficits. This supports N=31 if the partial is same-kind, but an opposite-kind interpretation cannot yet be excluded. Gaia SB1 P 23.411672 d agrees broadly but does not supply the photometric cycle count.
+
+**Coverage and evidence.** Verified 2 source FITS and quality-zero positive SAP in cached sectors 56, 83. The current TESSCut sector service returned 200 and lists uncached sectors none. The original bulk flags are screening windows, not fitted centers. Numeric timing/coverage and source SHA-256 receipts: `lead-measurements.json`; same-photon alternative reduction: `lead-alternative.json`; raw and alternative panels are adjacent. Fresh WCS difference measurements and download hashes: `cutouts/pixel-evidence.json`. Independent helper alias audit: `helper-alias.json`; see `../helper-audit.md`. 
+
+**Limits.** The partial third occasion supports recurrence but its missing center leaves kind and orbital period conditional; no precise period or epoch is adopted. QLP KSPSAP is absent for S56/S83; fresh TESSCut provides a spatial alternative extraction of the same photons, not another observing occasion.
+
+**Next check.** Measure a complete next event in an independent pipeline and compare separate eclipse-kind recurrence with source-specific Gaia conjunction timing.
+
+**Novelty.** SCOPED_NONMATCH; no target EB identification in checked tables. This bounded catalogue status is separate from the physical verdict and is not a new-system claim.

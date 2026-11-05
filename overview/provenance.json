@@ -1,5 +1,5 @@
 {
-  "description": "Original 783 rows preserved byte-for-byte; 134 eligible additions joined by exact TIC to actual target coordinate metadata. No coordinate imputation. Hashed inputs use sanitized logical aliases.",
+  "description": "917 prior published points reconciled against accepted baseline: 17 prior-known claims removed, 13 previously accepted additions joined by exact TIC to saved target coordinates, and A74 promoted; 913 included. Earlier source hashes remain historical input receipts.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
@@ -152,7 +152,7 @@
       "sha256": "2df047ed818ed6c184a00203cb52aaf02d1827f2a8dddb03046ec9bef1f79be2"
     }
   },
-  "included": 917,
+  "included": 913,
   "omitted": 0,
   "sky_background": {
     "source": "https://svs.gsfc.nasa.gov/4851/",
@@ -164,8 +164,8 @@
     "transformation": "Pixel-cell Mollweide reprojection; RGB 0.57 source + 0.43 navy; no sky geometry approximation"
   },
   "tiers": {
-    "confirmed": 812,
-    "probable": 105
+    "confirmed": 807,
+    "probable": 106
   },
   "final_additions": {
     "included": 232,
@@ -178,5 +178,35 @@
     "remaining_bright_stratum": 72,
     "brightest_remaining_reviews": 125,
     "remaining_screened_reviews": 134
+  },
+  "baseline_reconciliation": {
+    "accepted_ledger_sha256": "ede0e4dbe95779e510efc64f330d325516fc8bdd1d52991429988833aac449e0",
+    "baseline_delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
+    "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
+    "scientific_review_register_sha256": "9a84f9289e7b017c0e7eded1661149c3e3f5dc8694a31c2a979812629aa34f0b",
+    "systems_csv_sha256": "9368bb21fac20a58a1656a465fbd72b2b161f97dfaca761b1f190d6d768638af",
+    "included": 913,
+    "confirmed": 807,
+    "probable": 106,
+    "coordinate_sources": {
+      "accepted-target-metadata-01": {
+        "sha256": "ee5bbdb8dd99bedeba0a6e3ae7e68053bb0d6483e804d6bf3fd4871598e2140c"
+      },
+      "accepted-target-metadata-02": {
+        "sha256": "bb2a223b1f8875721742661ef0dc88c4facc6b2e54458325eebe34a09a76d1f5"
+      },
+      "accepted-target-metadata-03": {
+        "sha256": "dae5a0e81bb0805876e969a1847d7fcb33d73ca9f0403c3f14a1423cc024d13e"
+      },
+      "accepted-target-metadata-04": {
+        "sha256": "16ee440396b1c08183e1c56730493a78838ae49619bd35096a95d427605975f6"
+      },
+      "accepted-target-metadata-05": {
+        "sha256": "d4597517e59b1c576a1630e0fa94e053aa3d2b89f1727b8439c6d92c0f6823b4"
+      },
+      "accepted-target-metadata-06": {
+        "sha256": "e490c292ffd402fbe2457bcc31ee29a87d8b1377977c6dec4746ab2e0179cefa"
+      }
+    }
   }
 }

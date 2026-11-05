@@ -1,0 +1,11 @@
+# F014 — TIC 236223193: PROBABLE
+
+**Physical finding.** Six clean raw SAP eclipses form two repeating shapes in S41, S55 and S75: one near 2424.617/2812.260/3340.839 and another near 2431.260/2818.863/3347.444. A sparse S15 dip near 1726.468 aligns with the second shape. Each long-baseline spacing is consistent with roughly 35.239 d over 11 and 15 cycles; the two shapes are separated by about 6.60 to 6.64 d, so they are kept as distinct kinds. Bounded integer subharmonic tests find a fully covered S75 P/2-predicted A-kind core at 3358.45 with only 0.76 ppt local loss versus about 24 ppt in the measured eclipses; P/3 and P/4 also have covered extra nulls in S41/S55/S75 (see `lead-alias.json`). KSPSAP reproduces the S41/S55 events. Fresh TESSCut WCS cubes show all six difference peaks on the target across three camera orientations, with difference centroids 0.03 to 0.32 pixel from target WCS. The catalogued VSX EB 38.35 arcsec away has G 16.46 and P 1.1016829 d and cannot simply explain the observed depth or clock. The target Gaia SB2 period is 35.374736 +/- 0.004103 d, about 0.136 d discrepant from this photometric clock.
+
+**Coverage and evidence.** Verified 5 source FITS and quality-zero positive SAP in cached sectors 15, 41, 55, 75, 82. The current TESSCut sector service returned 200 and lists uncached sectors none. The original bulk flags are screening windows, not fitted centers. Numeric timing/coverage and source SHA-256 receipts: `lead-measurements.json`; same-photon alternative reduction: `lead-alternative.json`; raw and alternative panels are adjacent. Fresh WCS difference measurements and download hashes: `cutouts/pixel-evidence.json`. 
+
+**Limits.** The target owns the recurring photometric dips, but the Gaia SB2 orbital association and source-specific conjunction geometry are unresolved. Local fit covariances understate long-baseline timing scatter; the approximate period has no defensible formal error yet.
+
+**Next check.** Obtain source-specific RV/conjunction timing and independent photometry, then reconcile the 35.239 d eclipse clock with the Gaia 35.3747 d SB2 orbit.
+
+**Novelty.** SCOPED_NONMATCH; no target EB identification in checked tables. This bounded catalogue status is separate from the physical verdict and is not a new-system claim.

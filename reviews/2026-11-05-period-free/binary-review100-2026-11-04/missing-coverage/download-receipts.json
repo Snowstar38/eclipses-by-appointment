@@ -1,0 +1,64 @@
+{
+  "request": {
+    "service": "Mast.Caom.Filtered",
+    "format": "json",
+    "params": {
+      "columns": "target_name,sequence_number,dataURL,provenance_name",
+      "filters": [
+        {
+          "paramName": "provenance_name",
+          "values": [
+            "QLP"
+          ]
+        },
+        {
+          "paramName": "target_name",
+          "values": [
+            "231694897",
+            "323818250"
+          ]
+        }
+      ]
+    },
+    "pagesize": 5000,
+    "page": 1
+  },
+  "response_sha256": "e3807f986c6a7d2257a337713b2d6e7f070b089e94718b55217b15c82b2c4d44",
+  "receipts": [
+    {
+      "tic": "231694897",
+      "sector": 105,
+      "utc": "2026-11-05T03:20:11.005191+00:00",
+      "listed_products": [],
+      "status": "no_unique_listed_qlp"
+    },
+    {
+      "tic": "231694897",
+      "sector": 103,
+      "utc": "2026-11-05T03:20:11.005842+00:00",
+      "listed_products": [],
+      "status": "no_unique_listed_qlp"
+    },
+    {
+      "tic": "231694897",
+      "sector": 1,
+      "utc": "2026-11-05T03:20:11.006222+00:00",
+      "listed_products": [],
+      "status": "no_unique_listed_qlp"
+    },
+    {
+      "tic": "323818250",
+      "sector": 10,
+      "utc": "2026-11-05T03:20:11.006607+00:00",
+      "listed_products": [],
+      "status": "no_unique_listed_qlp"
+    },
+    {
+      "tic": "323818250",
+      "sector": 65,
+      "utc": "2026-11-05T03:20:11.006942+00:00",
+      "listed_products": [],
+      "status": "no_unique_listed_qlp"
+    }
+  ]
+}

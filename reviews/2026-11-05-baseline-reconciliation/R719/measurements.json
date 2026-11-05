@@ -1,0 +1,106 @@
+{
+  "tic": "349527829",
+  "gaia_source_id": "3683392166690829056",
+  "screen_period_days": 22.78062037517463,
+  "screen_epoch_btjd": 2559.3644584612425,
+  "screen_duration_days": 0.18,
+  "source_receipts": [
+    {
+      "tic": "349527829",
+      "sector": 46,
+      "uri": "mast:HLSP/qlp/s0046/0000/0003/4952/7829/hlsp_qlp_tess_ffi_s0046-0000000349527829_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:30:22.448458+00:00",
+      "status": "ok",
+      "sha256": "a3f4f9efa82d5fa41dacf2a63139f2c26344fe1455ca886e40f07ffcfaac19ea",
+      "bytes": 218880
+    },
+    {
+      "tic": "349527829",
+      "sector": 91,
+      "uri": "mast:HLSP/qlp/s0091/0000/0003/4952/7829/hlsp_qlp_tess_ffi_s0091-0000000349527829_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:30:22.643920+00:00",
+      "status": "ok",
+      "sha256": "2cb0a9d39a1c08fefac963376696d73480b6093f7b6f9a7169ee9e9101e04eeb",
+      "bytes": 607680
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 46,
+      "first_btjd": 2553.431414498376,
+      "last_btjd": 2578.6491215969213,
+      "cadence_days": 0.006945119062947924,
+      "n": 3060
+    },
+    {
+      "sector": 91,
+      "first_btjd": 3775.4425339580807,
+      "last_btjd": 3799.4648742688214,
+      "cadence_days": 0.0023147187293943716,
+      "n": 6679
+    }
+  ],
+  "events": [
+    {
+      "sector": 46,
+      "cycle": 0,
+      "predicted_btjd": 2559.3644584612425,
+      "mid_btjd": 2559.367529605646,
+      "formal_timing_error_days": 0.0004798090036732354,
+      "timing_error_days": 0.003472559531473962,
+      "timing_usable": true,
+      "depth_ppt": 60.06290855315925,
+      "model_amplitude_ppt": 60.06290855315925,
+      "duration_days": 0.26657359869929387,
+      "ingress_parameter_days": 0.07831852398118283,
+      "oot_scatter_ppt": 1.668391211019333,
+      "n": 196,
+      "cadence_days": 0.006945119062947924,
+      "source_sha256": "a3f4f9efa82d5fa41dacf2a63139f2c26344fe1455ca886e40f07ffcfaac19ea"
+    },
+    {
+      "sector": 91,
+      "cycle": 54,
+      "predicted_btjd": 3789.5179587206726,
+      "mid_btjd": 3789.512598849542,
+      "formal_timing_error_days": 0.0012673212342310914,
+      "timing_error_days": 0.0012673212342310914,
+      "timing_usable": false,
+      "depth_ppt": 60.57496956041587,
+      "model_amplitude_ppt": 60.57496956041587,
+      "duration_days": 0.2641986195853134,
+      "ingress_parameter_days": 0.07978163256016446,
+      "oot_scatter_ppt": 2.91943021809043,
+      "n": 537,
+      "cadence_days": 0.0023147187293943716,
+      "source_sha256": "2cb0a9d39a1c08fefac963376696d73480b6093f7b6f9a7169ee9e9101e04eeb",
+      "timing_exclusion_reason": "Ingress is in a data gap; conditional two-event estimate retained in original fit fields, not a secure orbital ephemeris."
+    }
+  ],
+  "timing_event_count": 1,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 22.780464245257328,
+  "period_error_days": 6.84553583028504e-05,
+  "reference_epoch_btjd": 2559.3675296056485,
+  "epoch_error_days": 0.003472559531473961,
+  "reference_cycle": 0,
+  "reduced_chi_square": null,
+  "timing_residual_days": [
+    -2.7284841053187847e-12,
+    -2.2737367544323206e-12
+  ],
+  "depth_ppt": 60.318939056787556,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "generic_orbital_period_days": null,
+  "generic_orbital_period_error_days": null,
+  "generic_orbital_epoch_btjd": null,
+  "period_status": "Conditional two-event cycle-count ephemeris only; alternative integer counts remain. Generic orbital ephemeris intentionally unestablished.",
+  "conditional_fit_warning": "Original two-event fit fields retained only as a tested conditional hypothesis; second event gap means center also model-dependent. Generic ephemeris is blank.",
+  "physical_verdict": "PLAUSIBLE",
+  "full_review_completion": "COMPLETE",
+  "catalogue_status": "UNKNOWN_INCOMPLETE_SCOPED_CHECKS",
+  "verdict_reason": "Two similar raw eclipse occasions are separated by about1230 d. Several nearby integer-cycle aliases have no sensitive actual coverage null and remain untested. The sector91 ingress is gapped, making its reconstructed center additionally model dependent. Difference imaging and a separate extraction support the target, but do not supply a third observing occasion. The conditional period and formal fit error in saved numeric artifacts are hypotheses, not an established ephemeris; generic orbital fields are blank."
+}

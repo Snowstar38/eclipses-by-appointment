@@ -1,0 +1,74 @@
+{
+  "batch": "batch06",
+  "queue_sha256": "15ce04985be6cf9ef30cd5bca51d1f28654b647f7fad0dea7fc3326fdfe9ed60",
+  "results_sha256": "db3f961bb4d7a31c37b0a2ada25dd34836a011e4097e7920660f7e9202140268",
+  "manifest_sha256": "2dfba29ff90ea26d3f2e59007ccf3dc35c3ad878406260a3eee52b9359390e96",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 104,
+  "decisions": {
+    "T051": {
+      "tic": "288157030",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T052": {
+      "tic": "41975422",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T053": {
+      "tic": "100938468",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T054": {
+      "tic": "198279430",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T055": {
+      "tic": "417309915",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T056": {
+      "tic": "51255152",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T057": {
+      "tic": "280963520",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T058": {
+      "tic": "164669150",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T059": {
+      "tic": "405542204",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T060": {
+      "tic": "180177949",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten reports, helperaudit and finalleadaudit; required T055/T056/T059 reinspection beyond gapped/broad morphology. T055 core equalsprebaseline; postbrightening manufacturesselecteddip andtargetpixelsconfirm. T056 longramp/gapstep/brightening supported bytargetcontaining rawpixels; no calibration/sourceclaim. T059 revisedplausible afteractualtargetpixeldepression, notrefuted merely lackingcontacts. T057 realshortperiodfold, aliases/source/natureunresolved; s99nearzero invalidnull ands9sawtooth notdecisive. T052 strongbackground andinterruptionedge association, explicitlynotdetectorwidecommonsignal (eightcontrolsnegative). T051/T053 steps plusbackground; T054risingshoulder; T058repeatedgapsteps; T060continuous1.03d modulation refuteselectedlongperiodsignal. Newavailability recorded, no unavailableobservations callednull.",
+  "helper_boundary": "Fresh Terra06 audited morphology/background andT057 shortperiod/currentcutout. Lead post-root T055/T056/T059cutouts andT057s9followup separately attributed; root reviewed numericvalidity and finalwrittenfindings without importing moreimages.",
+  "accounting": "Physicalonly; allnoveltyUNKNOWN, ledger/paper unchanged."
+}

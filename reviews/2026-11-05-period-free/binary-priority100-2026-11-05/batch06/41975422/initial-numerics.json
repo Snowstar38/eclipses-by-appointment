@@ -1,0 +1,98 @@
+{
+  "sample_id": "T052",
+  "tic": "41975422",
+  "gaia_period_days": 43.924476646140036,
+  "source_bulk": "[local-path-redacted]",
+  "source_bulk_sha256": "762048558239081cc630f2d3191a2c618570be3022dd1de5edcdfb9b221a1e40",
+  "file_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d261a9515c656d9b0196f7c4c8e1bbf615934cf1b023b3e90110c0371859ef3b",
+      "sector": 3
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "74b30699b136d509b1481e6107cc97a0a4089ad3b51e25985dd03c63433f6c86",
+      "sector": 29
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "51bf8d54756c62d9268037e5ae417a985842639646f42e149c84a040352566c9",
+      "sector": 30
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "f91ccfbe0fd9f01e2041113499ea180cad31f3d7b0218a3293e44b33728b3935",
+      "sector": 69
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ce90042086e0f03a3f4e1075692aab29534cd9192e83c764f2d8a871de377f7d",
+      "sector": 97
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 3,
+      "first": 1381.723495983986,
+      "last": 1409.3690110750038,
+      "n": 1303,
+      "n_quality0": 876,
+      "median_cadence_days": 0.020833123740771953,
+      "max_gap_days": 0.1666650510251202
+    },
+    {
+      "sector": 29,
+      "first": 2088.2435305051335,
+      "last": 2114.4314916667468,
+      "n": 3635,
+      "n_quality0": 2647,
+      "median_cadence_days": 0.006944580616163876,
+      "max_gap_days": 0.9583558467484181
+    },
+    {
+      "sector": 30,
+      "first": 2115.889834539121,
+      "last": 2143.22272713612,
+      "n": 3783,
+      "n_quality0": 2682,
+      "median_cadence_days": 0.006944346873069662,
+      "max_gap_days": 1.0763779640487883
+    },
+    {
+      "sector": 69,
+      "first": 3182.354072770778,
+      "last": 3208.1416245632367,
+      "n": 10068,
+      "n_quality0": 8495,
+      "median_cadence_days": 0.0023148630089053768,
+      "max_gap_days": 0.6597363419555222
+    },
+    {
+      "sector": 97,
+      "first": 3933.6584020340215,
+      "last": 3988.286863580998,
+      "n": 22935,
+      "n_quality0": 18689,
+      "median_cadence_days": 0.0023147619588144153,
+      "max_gap_days": 0.21296382475975406
+    }
+  ],
+  "retained_flag_windows": [
+    {
+      "sector": 69,
+      "kind": "dip",
+      "time": 3193.2722065508206,
+      "duration": 1.6,
+      "depth": 0.02842067181957697,
+      "contrast": 6.12418187635117,
+      "core_samples": 586,
+      "core_quality0": 341,
+      "side_quality0": 1221,
+      "raw_core_median_ppt": 23.61018998389952,
+      "core_first": 3192.4724223707653,
+      "core_last": 3193.9979152835585
+    }
+  ],
+  "note": "Retained windows and Gaia folds are predictions/screening only. Numeric core medians are not fitted eclipse depths."
+}

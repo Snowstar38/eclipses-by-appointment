@@ -1,0 +1,9 @@
+# H044 - TIC 198182954
+
+**Physical verdict: REFUTED. Bounded review: COMPLETE. Catalogue novelty: UNKNOWN.** This is one frozen repeat_sector_dip lead, not a new counted acceptance.
+
+All 42 cached sectors were examined in raw SAP context. The s15/s19/s23 and s74 troughs recur on a roughly several-day wave whose shape, amplitude and phase evolve; many comparable troughs and peaks occur between Gaia SB1 23.37508-d conjunction windows. The s74 3324.49 cutout has a target-centered difference within about 0.60 pixel and an 8.46-ppt broad dimming, so the variability is real at the target but is not an eclipse-shaped contact event. A single faint G20.04 neighbor at 18 arcsec is not a useful explanation for this broad target signal. No eclipse timing, depth, or cycle count is inferred from selected smooth minima.
+
+**Limits and next check.** The selected flags are smooth, evolving short-timescale stellar variability. This does not exclude a separate unrecognized eclipsing system. Characterize the oscillation/rotation signal separately if scientifically useful.
+
+**Evidence and method.** Examined all 42 cached sectors in raw SAP with quality=0, including [representative window data](raw-inspection.json), [raw panels](raw-windows.png), and [full sector / Gaia orbit context](orbit-context.json). Screen windows are predictions, not measured centers. Source [packet](../../source-packets/198182954/sources.json) and the original bulk JSON/FITS SHA-256 values are preserved in raw-inspection.json. [TESSCut receipt](../lead-pixels/198182954/receipt.json) and [difference image](../lead-pixels/198182954/difference.png). Gaia flux ratios are approximate. The central catalogue review could not query four required novelty gates, so UNKNOWN remains regardless of cached primary nonmatch.

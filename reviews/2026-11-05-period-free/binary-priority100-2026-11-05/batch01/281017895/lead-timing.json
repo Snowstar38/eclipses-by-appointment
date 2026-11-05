@@ -1,0 +1,81 @@
+{
+  "sample_id": "T005",
+  "tic": "281017895",
+  "gaia_period_days": 28.02694509640619,
+  "kinds": {
+    "deep": {
+      "event_indices": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "sector": [
+        10,
+        11,
+        64,
+        65
+      ],
+      "mid_btjd": [
+        1577.7953428637095,
+        1605.827571521374,
+        3063.3244889038538,
+        3091.3464271153075
+      ],
+      "cycle": [
+        0,
+        1,
+        53,
+        54
+      ],
+      "period_days": 28.028754137629043,
+      "period_error_days": 7.216228649846618e-05,
+      "epoch_btjd": 1577.7970958850772,
+      "residual_days": [
+        -0.0017530213676764106,
+        0.0017214986678482092,
+        0.0034237244371979614,
+        -0.0033922017378245073
+      ],
+      "cycle_condition": "Integer cycles chosen near Gaia period; uniqueness requires coverage/other-kind checks.",
+      "error_meaning": "2 events: half-cadence or finite formal timing allowance; >=3: residual scatter or cadence floor, no pipeline systematic calibration"
+    },
+    "shallow": {
+      "event_indices": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "sector": [
+        10,
+        11,
+        64,
+        65
+      ],
+      "mid_btjd": [
+        1591.8603536875894,
+        1619.885413289292,
+        3049.3270187583475,
+        3077.317010624902
+      ],
+      "cycle": [
+        0,
+        1,
+        52,
+        53
+      ],
+      "period_days": 28.02786038754149,
+      "period_error_days": 0.0003650861601491166,
+      "epoch_btjd": 1591.8591488201837,
+      "residual_days": [
+        0.0012048674057041353,
+        -0.0015959184331677534,
+        0.019129786006487848,
+        -0.018738734980615845
+      ],
+      "cycle_condition": "Integer cycles chosen near Gaia period; uniqueness requires coverage/other-kind checks.",
+      "error_meaning": "2 events: half-cadence or finite formal timing allowance; >=3: residual scatter or cadence floor, no pipeline systematic calibration"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "H066",
+  "tic": "368903210",
+  "queue_sha256": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+  "bulk_json": "[local-path-redacted]",
+  "bulk_json_sha256": "30ed77f78abec4f86f7ff889c3eece16d69d558bee219882ee057bf02eda9672",
+  "source_packet": "[local-path-redacted]",
+  "source_packet_sha256": "ff3c4bb645b709fcd909ade7f1e3a272ba770a678262b1f8cf923aac71bcaddc",
+  "verified_qlp_fits": [
+    {
+      "sector": 19,
+      "path": "[local-path-redacted]",
+      "sha256": "3fec1d5d734a174672b738889c94b7e6570ec4fc166c5e7072c957687dbae5ea"
+    }
+  ],
+  "selected_screen_flags": [
+    {
+      "sector": 19,
+      "kind": "dip",
+      "screen_center_btjd": 1820.9536195137937,
+      "screen_duration_days": 0.96,
+      "screen_contrast": 5.33126201856802
+    }
+  ],
+  "gaia_orbit": {
+    "source_id": "195281133474312704",
+    "nss_solution_type": "SB2",
+    "period": "26.946144164677033",
+    "period_error": "0.0037255622",
+    "t_periastron": "-9.599231547508827",
+    "t_periastron_error": "0.045730628",
+    "eccentricity": "0.4651073538511051",
+    "eccentricity_error": "0.008615879",
+    "arg_periastron": "9.206502601381642",
+    "arg_periastron_error": "0.7113689",
+    "semi_amplitude_primary": "55.146216843002584",
+    "semi_amplitude_secondary": "78.58838439942438",
+    "goodness_of_fit": "26.958893",
+    "significance": "65.65961",
+    "ra": "80.2672882703167",
+    "dec": "42.504337529512355",
+    "parallax": "2.7927207025104814",
+    "phot_g_mean_mag": "7.739329",
+    "bp_rp": "0.019494534",
+    "ruwe": "1.3515086",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "sector_availability": {
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=80.2672882703167&dec=42.504337529512355",
+    "http_status": 200,
+    "response_sha256": "15168d4706ecc42d80a159fdfcac4d05c7e3d7ac8b0106828ef8e2c29ebcae13",
+    "available_sectors": [
+      19,
+      59
+    ],
+    "uncached_sectors": [
+      59
+    ]
+  },
+  "note": "QLP FITS hashes reverified by inspect_raw.py. Screening windows are not measured event times.",
+  "new_cutout_receipts": [
+    {
+      "tic": "368903210",
+      "sector": 59,
+      "purpose": "uncached-sector check for possible real-event alternative",
+      "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/vopGbr7DMavUFz_F/astrocut_80.2672882703167_42.504337529512355_5.0x5.0px.zip",
+      "http_status": 200,
+      "response_sha256": "7cd139079e800e0314c1303ee8e742805e9239d6735fadf7cdcd8414dfc3e898",
+      "fits_sha256": "a418bcf91d0fa885fb045c805a3211b2f7d032f8612a6ec59264649e29b576b8"
+    }
+  ]
+}

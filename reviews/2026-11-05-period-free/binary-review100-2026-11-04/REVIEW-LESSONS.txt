@@ -1,0 +1,22 @@
+Supervisory lessons from batch01; apply to later batches without expanding scope.
+
+Do not turn retained detector windows directly into physical verdicts. Inspect
+the actual raw context and fold-predicted windows; unflagged eclipses can exist.
+For positive detector artifacts, state the actual gap/step/baseline evidence.
+Do not claim the star cannot be binary merely because its flag is an artifact.
+
+Sensitive nulls require actual cadence coverage/endpoints/internal gaps in
+core and baseline, not quality0/number-of-existing-rows (missing time vanishes
+from that denominator). Baselines overlapping a real event can manufacture
+false nulls. Check representative deciding windows visually.
+
+Two separated events yield a conditional period for every integer cycle count.
+Gaia agreement is useful evidence, not a measurement of cycle uniqueness.
+Bounded actual nulls can test aliases. Partial additional events can also test
+recurrence via ingress/egress bounds even when no precision center can be fit.
+Do not discard a real observing occasion solely because its center is gapped.
+Two events with untested aliases remain plausible under this campaign convention.
+
+All100 catalogue statuses are unknown: four VizieR gates unavailable. Cached
+primary nonmatches and successful Gaia/SIMBAD checks do not establish novelty.
+No need to repeat those failing queries in every physical review.

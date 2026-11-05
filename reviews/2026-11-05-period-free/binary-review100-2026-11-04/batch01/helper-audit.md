@@ -1,0 +1,25 @@
+# Independent helper audit
+
+All 66 cached QLP FITS source SHA-256 hashes matched the bulk receipt; paths, expected and actual hashes, and bulk JSON hashes are in helper-source-receipts.json. helper_flags.py reproduces quality==0 raw SAP panels for every flagged window; these are screen-window centers, not measured event centers. Flags are not evidence of distinct eclipses.
+
+- H001: s81 flag runs into a gap and a large step. Eclipse interpretation insecure.
+- H002: clear deep flat-bottom s27 and s101 events; s103 egress is interrupted. s67/93/102 include broader shallower dips and trends; no assumption of same-kind recurrence for these. TESSCut s27 independent aperture confirms a 35.41 ppt decline in the same photons; 12 Gaia sources within 60 arcsec are too faint under approximate G-flux total-disappearance bound. Difference centroid offset 0.242 pixel; target attribution supported within limitations.
+- H003: s33, s87, s98 dip flags are at gaps/steps and/or variable baseline; no clean same-kind eclipse established by flags.
+- H004: s26 dips are monotonic segments, s80 flag is a gap step; s40/79 show brightenings. No clean same-kind eclipse established by flags.
+- H005: s94 small dip near gap; high common-mode count (206 other CCD targets) is a hint, not proof of artifact. No recurrent eclipse established by flag.
+- H006: s76 broad dip flag accompanies subsequent broad brightening; distinct narrow trough near BTJD 3388.84 has no established same-kind repeat in these flags.
+- H007: s59 dip flag is gap recovery; s74 broad brightening is a different phenomenon.
+- H008: s70 clear deep flat-bottom eclipse; s92 shows ingress around 3814.56–3814.79 and low flux to approximately 3815.3. Egress is not securely observed in quality==0: samples beginning near 3815.2 increasingly carry bit 1073741824 and become unstable, so a center fit requires caution. TESSCut s70 same-photon separate aperture yields 63.97 ppt. Difference centroid 0.036 pixel from target. Bright G=12.153 Gaia neighbor 54.66 arcsec away is in principle capable (G flux ratio 0.505, approximate intrinsic loss 19.1%); WCS difference image peaks at target rather than that neighbor, supporting target attribution without a full PRF deblend. The 10.03 arcsec neighbor is too faint under this approximate bound.
+- H009: s25 flags ride variable trends; s79 dip is at a gap step; no clean same-kind eclipse established by flags.
+- H010: s6 and s34 broad variability, with s34 gap-adjacent; not clean matched events.
+
+Attribution is bounded: Gaia G is not TESS bandpass, aperture inclusion and crowding are approximate; centroid analysis is not independent PRF fitting. Neighbor lists are only checked for H002/H008, the two strong cases; other targets have unresolved source attribution. TESSCut uses the same underlying photons and is an alternative reduction, not an independent observing occasion. The screen-window plots alone cannot exclude unflagged eclipses. No period, timing error, physical verdict or novelty verdict is asserted here; lead evaluates measured timings, aliases, full coverage and geometry. The source-attribution numerical file contains explicit WCS positions and per-neighbor values, raw query and cutout hashes are in their receipts.
+
+
+## Independent cycle-count audit
+
+Lead alias-tests.json compares H002 N=32–38 and H008 N=15–21 using actual quality-zero coverage and depth-sensitive thresholds. Independent raw panels are helper-alias-audit.png and their windows are recorded in helper-alias-audit.json. H002 N34 s13 at 1675.494 is quiet at a few ppt and is a strong null against a 35–40 ppt multi-day repeat. N36 s94 at 3876.524 has a brief gap roughly 0.5–0.7 days before prediction, but most of the event window is quiet; a multi-day deep event would be conspicuous, conditional on timing uncertainty. The automated s103 nulls are unreliable: the actual gap-interrupted deep eclipse contaminates the baseline in both N34 and N36 windows, and N36 has only 54 clean right-side samples. Do not count those as independent clean nulls. These bounded tests and Gaia period favor N35, without proving uniqueness over arbitrary cycle counts or establishing that Gaia orbit belongs to the eclipsing source. Distinguish shallower events from this deep event kind.
+
+H008 alternatives N15–21 have no independent sensitive null apart from the anchor. The s92 event is partial and quality censored, and the adopted center and derived 18-cycle period are conditional; Gaia period agreement does not itself eliminate aliases or establish association. No secure photometric period precision follows from this test.
+
+H006 s75 and s81 windows around the Gaia-period prediction show no matching narrow trough; s81 has a short gap near prediction. These test the assumed Gaia period and phase, not all eclipse periods or nonrepeating variability. The s76 core-side statistic is +4.93 ppt because the local baseline varies and must not be treated as a fitted eclipse depth. This event remains insecure and does not establish recurrence.

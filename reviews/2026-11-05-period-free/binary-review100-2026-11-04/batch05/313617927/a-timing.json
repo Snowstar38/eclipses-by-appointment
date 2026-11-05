@@ -1,0 +1,115 @@
+{
+  "tic": "313617927",
+  "gaia_period_days": 38.43154404731203,
+  "method": "Local quadratic baseline plus Gaussian trough, soft_l1. Approximate, broad asymmetric spots and partial/gapped sectors can bias center.",
+  "a_like_events": [
+    {
+      "sector": 15,
+      "guess_btjd": 1729.9,
+      "center_btjd": 1729.9708926649057,
+      "gaussian_depth_ppt": 27.175199105169174,
+      "width_days": 0.4782250355753176,
+      "n_quality0": 232,
+      "residual_mad_ppt": 3.3337525341805043,
+      "fit_success": true,
+      "center_at_bound": false
+    },
+    {
+      "sector": 17,
+      "guess_btjd": 1768.4,
+      "center_btjd": 1768.4674959867186,
+      "gaussian_depth_ppt": 28.289509408974137,
+      "width_days": 0.4798444426054306,
+      "n_quality0": 199,
+      "residual_mad_ppt": 4.140981950146038,
+      "fit_success": true,
+      "center_at_bound": false
+    },
+    {
+      "sector": 56,
+      "guess_btjd": 2845.5,
+      "center_btjd": 2847.0,
+      "gaussian_depth_ppt": 62.077569735270956,
+      "width_days": 1.9999999999999998,
+      "n_quality0": 2066,
+      "residual_mad_ppt": 5.819050283793328,
+      "fit_success": true,
+      "center_at_bound": true
+    },
+    {
+      "sector": 76,
+      "guess_btjd": 3383.5,
+      "center_btjd": 3382.9034264368343,
+      "gaussian_depth_ppt": 9.370010658810376,
+      "width_days": 0.32109375752844516,
+      "n_quality0": 1995,
+      "residual_mad_ppt": 2.9911059543487744,
+      "fit_success": true,
+      "center_at_bound": false
+    },
+    {
+      "sector": 77,
+      "guess_btjd": 3422.0,
+      "center_btjd": 3421.6583110323454,
+      "gaussian_depth_ppt": 199.99999999999997,
+      "width_days": 1.4435871634967474,
+      "n_quality0": 1669,
+      "residual_mad_ppt": 2.8655070273711587,
+      "fit_success": true,
+      "center_at_bound": false
+    },
+    {
+      "sector": 83,
+      "guess_btjd": 3576.5,
+      "center_btjd": 3575.0292217818815,
+      "gaussian_depth_ppt": 14.354900307784206,
+      "width_days": 0.39046613160729793,
+      "n_quality0": 2064,
+      "residual_mad_ppt": 2.8060640073836156,
+      "fit_success": true,
+      "center_at_bound": true
+    }
+  ],
+  "consecutive_alias_checks": [
+    {
+      "from_sector": 15,
+      "to_sector": 17,
+      "elapsed_days": 38.49660332181293,
+      "gaia_cycle_count": 1,
+      "conditional_period_days": 38.49660332181293,
+      "gaia_minus_elapsed_days": 0.06505927450089644
+    },
+    {
+      "from_sector": 17,
+      "to_sector": 56,
+      "elapsed_days": 1078.5325040132814,
+      "gaia_cycle_count": 28,
+      "conditional_period_days": 38.51901800047433,
+      "gaia_minus_elapsed_days": 2.4492706885446296
+    },
+    {
+      "from_sector": 56,
+      "to_sector": 76,
+      "elapsed_days": 535.9034264368343,
+      "gaia_cycle_count": 14,
+      "conditional_period_days": 38.27881617405959,
+      "gaia_minus_elapsed_days": -2.1381902255341174
+    },
+    {
+      "from_sector": 76,
+      "to_sector": 77,
+      "elapsed_days": 38.75488459551116,
+      "gaia_cycle_count": 1,
+      "conditional_period_days": 38.75488459551116,
+      "gaia_minus_elapsed_days": 0.32334054819912694
+    },
+    {
+      "from_sector": 77,
+      "to_sector": 83,
+      "elapsed_days": 153.37091074953605,
+      "gaia_cycle_count": 4,
+      "conditional_period_days": 38.34272768738401,
+      "gaia_minus_elapsed_days": -0.3552654397120705
+    }
+  ]
+}

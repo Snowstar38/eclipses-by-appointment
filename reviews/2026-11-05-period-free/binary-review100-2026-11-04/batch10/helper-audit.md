@@ -1,0 +1,13 @@
+# Independent helper audit — batch 10
+
+The raw-fold.json files record hash-verified QLP inputs and window counts. Independently inspected SAP windows; helper-windows.py and helper-detail.py reproduce plots. Screening centers are not measured timings.
+
+H093: S35 depth -0.306 ppt; S61 is broad trend and S99 post-gap recovery. H097: S74 low flux is embedded in post-gap recovery; S80 near null but final part of core gapped. H098: S88 broad rising behavior, S90 sampled and null; S36 has gap near core. H100: S86 has 29 core points and 6.78-ppt depression; S58 has 31 core points and -0.22 ppt at exact fold prediction. S86 coincides with ~0.025-pixel SAP_X shift, but this alone cannot distinguish pointing effects from an off-target event. S86 TESSCut difference image is dominated by broad background change; localization unresolved and a single-event interpretation remains plausible.
+
+H094: S33 core 2224.39664–2224.51469 (18 samples), SAP depth 1.405 ppt and KSPSAP 1.228 ppt; S87 core 3688.80647–3688.91989 (35), depth 1.419 ppt, similar feature in DET/SYS_RM. Both shallow against point scatter; no obvious synchronized centroid box or background feature in detail plots. S06 has six core samples but no right baseline. Two weak events remain insecure; aliases and source not established.
+
+TESSCut sector service returned H094 6,33,87,98,107,108,109; H100 18,19,58,59,85,86. Footprint alone is not temporal coverage. H094 5x5 cutouts analyzed in helper-newsectors.py using central 3x3 pixels, quality=0, ±0.06-d core and 0.2–0.5-d sides. S108 prediction 4316.470264 has 52 core samples spanning -0.05824 to +0.05982 d, max gap 0.002315 d, 129/130 side samples, depth -0.018 ppt and side MAD scatter 1.21 ppt. S107 prediction 4274.629988 has 52 core and depth 0.54 ppt with slope and 2.35-ppt scatter. S98 unusably noisy; S109 has no predicted P center. These challenge the exact fixed screening fold, not other cycle counts or uncertain timings. Numeric output helper-newsectors.txt.
+
+TESSCut archive SHA256: H094 s98 9078ba041d6fe95a4832036f6458b485bee19040db1976ab47aff936fb03f869; s107 1585164d66bdc93b4e74cefd49195b229fb5bddc7a1f7776edaa9e49a9d7d04b; s108 f42fbc4bd3ce40ae1813ac4238e8c27ccb6649ba868facff21629c10060133f6; s109 dc69eb48988bcc4f09ac4c727a2a5f8a61f55a21e255ab88d6e5cc1d3f0664f8. H100 s86 35a020f387985c7be692e463bf36394bbf9911ffa1fde8f7e7fce263e58740af. helper-pixel.py compares 31 in-core with 95 adjacent side images; numeric output helper-pixel.txt. No background-corrected source attribution is claimed.
+
+Thanks, [redacted]. It was a pleasure to help examine these cases.

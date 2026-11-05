@@ -1,0 +1,302 @@
+{
+  "tic": "187202091",
+  "historical_period_days": 10.129486656977347,
+  "fitting_period_seed_days": 10.129486656977347,
+  "historical_epoch_btjd": 1824.1723,
+  "search_duration_days": 0.261,
+  "events": [
+    {
+      "sector": 19,
+      "cycle": 0,
+      "predicted_btjd": 1824.1723,
+      "mid_btjd": 1824.1835536039432,
+      "timing_error_days": 0.010416639917821158,
+      "formal_timing_error_days": 0.007867090411932415,
+      "jacobian_condition": 91.76426055040066,
+      "depth_ppt": 14.299837810519831,
+      "extrapolated_amplitude_ppt": 14.299837810519831,
+      "ingress_parameter_days": 0.09091406743851131,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.3343839994449054,
+      "cadence_days": 0.020833279835642315,
+      "oot_scatter_ppt": 3.643356132964227,
+      "resid_rms_ppt": 3.7189551992199776,
+      "n": 74,
+      "fit_shift_days": 0.011253603943309137,
+      "timing_usable": true
+    },
+    {
+      "sector": 59,
+      "cycle": 108,
+      "predicted_btjd": 2918.1568589535536,
+      "mid_btjd": 2918.164811563447,
+      "timing_error_days": 0.0025230649134721905,
+      "formal_timing_error_days": 0.0025230649134721905,
+      "jacobian_condition": 61.15013442255155,
+      "depth_ppt": 20.773942650626438,
+      "extrapolated_amplitude_ppt": 20.773942650626438,
+      "ingress_parameter_days": 0.07455932527267177,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.3313565359631054,
+      "cadence_days": 0.0023148022119130474,
+      "oot_scatter_ppt": 5.597668554691907,
+      "resid_rms_ppt": 4.892223384492448,
+      "n": 660,
+      "fit_shift_days": 0.007952609893365464,
+      "timing_usable": true
+    },
+    {
+      "sector": 59,
+      "cycle": 109,
+      "predicted_btjd": 2928.2863456105306,
+      "mid_btjd": 2928.306326381992,
+      "timing_error_days": 0.0036714377107351947,
+      "formal_timing_error_days": 0.0036714377107351947,
+      "jacobian_condition": 81.21439906111733,
+      "depth_ppt": 18.52876674119971,
+      "extrapolated_amplitude_ppt": 18.52876674119971,
+      "ingress_parameter_days": 0.10439237148931031,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.33109213447966834,
+      "cadence_days": 0.0023148022119130474,
+      "oot_scatter_ppt": 6.2236267283775835,
+      "resid_rms_ppt": 5.612988243780728,
+      "n": 677,
+      "fit_shift_days": 0.019980771461832733,
+      "timing_usable": true
+    },
+    {
+      "sector": 73,
+      "cycle": 145,
+      "predicted_btjd": 3292.9478652617154,
+      "mid_btjd": 3292.7820538225737,
+      "timing_error_days": 0.007575590563932322,
+      "formal_timing_error_days": 0.007575590563932322,
+      "jacobian_condition": 121.09943127133518,
+      "depth_ppt": 16.793318266076763,
+      "extrapolated_amplitude_ppt": 16.793318266076763,
+      "ingress_parameter_days": 0.08226478905544214,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.6720517700213442,
+      "cadence_days": 0.0023147744923335267,
+      "oot_scatter_ppt": 9.281722476621669,
+      "resid_rms_ppt": 7.158661638041278,
+      "n": 582,
+      "fit_shift_days": -0.1658114391416155,
+      "timing_usable": false,
+      "timing_failure_reason": "Curved raw baseline draws trapezoid center away from local dip; excluded from raw trapezoid timing fit."
+    },
+    {
+      "sector": 86,
+      "cycle": 180,
+      "predicted_btjd": 3647.4798982559223,
+      "mid_btjd": 3647.246033302156,
+      "timing_error_days": 0.008387472818645908,
+      "formal_timing_error_days": 0.008387472818645908,
+      "jacobian_condition": 81.25964449921051,
+      "depth_ppt": 29.737635242206107,
+      "extrapolated_amplitude_ppt": 29.737635242206107,
+      "ingress_parameter_days": 0.18229623901302142,
+      "depth_meaning": "Realized central trapezoid model loss d*min(1,w/(2*k)); d is extrapolated if k>w/2.",
+      "duration_days": 0.899115750144993,
+      "cadence_days": 0.002314821992058569,
+      "oot_scatter_ppt": 15.077755984155214,
+      "resid_rms_ppt": 6.968479415463576,
+      "n": 675,
+      "fit_shift_days": -0.23386495376661237,
+      "timing_usable": false,
+      "timing_failure_reason": "Curved raw baseline draws trapezoid center away from local dip; excluded from raw trapezoid timing fit."
+    }
+  ],
+  "sources": [
+    {
+      "tic": "187202091",
+      "sector": 19,
+      "uri": "mast:HLSP/qlp/s0019/0000/0001/8720/2091/hlsp_qlp_tess_ffi_s0019-0000000187202091_tess_v01_llc.fits",
+      "file": "[local-path-redacted]",
+      "fits_ticid": "187202091",
+      "fits_sector": 19,
+      "rows": 1155,
+      "columns": [
+        "TIME",
+        "CADENCENO",
+        "SAP_FLUX",
+        "KSPSAP_FLUX",
+        "KSPSAP_FLUX_ERR",
+        "QUALITY",
+        "ORBITID",
+        "SAP_X",
+        "SAP_Y",
+        "SAP_BKG",
+        "SAP_BKG_ERR",
+        "KSPSAP_FLUX_SML",
+        "KSPSAP_FLUX_LAG"
+      ],
+      "status": "ok",
+      "bytes": 74880,
+      "sha256": "61c5c69bf770055e4e8b0943a8a82f5b5c9afdc10b7c4325301c32a0115e0cd6",
+      "path": "[local-path-redacted]"
+    },
+    {
+      "tic": "187202091",
+      "sector": 59,
+      "uri": "mast:HLSP/qlp/s0059/0000/0001/8720/2091/hlsp_qlp_tess_ffi_s0059-0000000187202091_tess_v01_llc.fits",
+      "file": "[local-path-redacted]",
+      "fits_ticid": "187202091",
+      "fits_sector": 59,
+      "rows": 11142,
+      "columns": [
+        "TIME",
+        "CADENCENO",
+        "SAP_FLUX",
+        "DET_FLUX",
+        "DET_FLUX_ERR",
+        "QUALITY",
+        "ORBITID",
+        "SAP_X",
+        "SAP_Y",
+        "SAP_BKG",
+        "SAP_BKG_ERR",
+        "DET_FLUX_SML",
+        "DET_FLUX_LAG",
+        "SYS_RM_FLUX"
+      ],
+      "status": "ok",
+      "bytes": 679680,
+      "sha256": "ed5d370a637ed01f0ecc957ea3f030c81b7a07960978a525334041bc73c0bf21",
+      "path": "[local-path-redacted]"
+    },
+    {
+      "tic": "187202091",
+      "sector": 73,
+      "uri": "mast:HLSP/qlp/s0073/0000/0001/8720/2091/hlsp_qlp_tess_ffi_s0073-0000000187202091_tess_v01_llc.fits",
+      "file": "[local-path-redacted]",
+      "fits_ticid": "187202091",
+      "fits_sector": 73,
+      "rows": 10358,
+      "columns": [
+        "TIME",
+        "CADENCENO",
+        "SAP_FLUX",
+        "DET_FLUX",
+        "DET_FLUX_ERR",
+        "QUALITY",
+        "ORBITID",
+        "SAP_X",
+        "SAP_Y",
+        "SAP_BKG",
+        "SAP_BKG_ERR",
+        "DET_FLUX_SML",
+        "DET_FLUX_LAG",
+        "SYS_RM_FLUX"
+      ],
+      "status": "ok",
+      "bytes": 630720,
+      "sha256": "10cbbc55e011f030ac5021a9e6fbceff5715c38801a115280471e76c7b5f93d0",
+      "path": "[local-path-redacted]"
+    },
+    {
+      "tic": "187202091",
+      "sector": 86,
+      "uri": "mast:HLSP/qlp/s0086/0000/0001/8720/2091/hlsp_qlp_tess_ffi_s0086-0000000187202091_tess_v01_llc.fits",
+      "file": "[local-path-redacted]",
+      "fits_ticid": "187202091",
+      "fits_sector": 86,
+      "rows": 11207,
+      "columns": [
+        "TIME",
+        "CADENCENO",
+        "SAP_FLUX",
+        "DET_FLUX",
+        "DET_FLUX_ERR",
+        "QUALITY",
+        "ORBITID",
+        "SAP_X",
+        "SAP_Y",
+        "SAP_BKG",
+        "SAP_BKG_ERR",
+        "DET_FLUX_SML",
+        "DET_FLUX_LAG",
+        "SYS_RM_FLUX"
+      ],
+      "status": "ok",
+      "bytes": 682560,
+      "sha256": "7d8b3dd423981dabe874b32a439eafa5842bbf16678a2e94466b0815b5a26e10",
+      "path": "[local-path-redacted]"
+    }
+  ],
+  "epoch_kind": "Selected repeating dip; deeper primary designation unestablished",
+  "timing_event_count": 5,
+  "epoch_error_days": 0.0724285766734627,
+  "period_days": 10.12908636097375,
+  "period_error_days": 0.0005772328809168567,
+  "ephemeris_covariance_days2": [
+    [
+      0.005245898718943666,
+      -3.975773728366815e-05
+    ],
+    [
+      -3.975773728366816e-05,
+      3.3319779881157414e-07
+    ]
+  ],
+  "primary_epoch_btjd": 1824.193319987704,
+  "epoch_cycle": 0,
+  "timing_residual_days": [
+    0.000606580855901484,
+    -0.0038789727177572786,
+    0.008138220706314314
+  ],
+  "reduced_chi_square": 0.9278675814468477,
+  "error_meaning": "Weighted linear fit to rounded historical local-minimum times, with listed heuristic minima widths (0.9-2.16 h); formal covariance conditional on these widths, not calibrated coverage. Curved baselines especially s73/s86 and same-photon processing limit precision.",
+  "depth_ppt": 18.52876674119971,
+  "raw_trapezoid_ephemeris_crosscheck": {
+    "primary_epoch_btjd": 1824.1829470230873,
+    "period_days": 10.129497625121088,
+    "period_error_days": 0.0002645301030637824,
+    "ephemeris_covariance_days2": [
+      [
+        0.0007896080228333054,
+        -7.289399188256909e-06
+      ],
+      [
+        -7.289399188256908e-06,
+        6.997617542693534e-08
+      ]
+    ],
+    "reduced_chi_square": 7.28045586705157
+  },
+  "adopted_timing_source": "Fable 5/made/sb1-scale/persec187-out.txt lines 135-141: local minima remeasured from QLP SAP, independently reproduced here from five rounded midpoints",
+  "adopted_local_minima": [
+    {
+      "sector": 19,
+      "cycle": 0,
+      "mid_btjd": 1824.157,
+      "heuristic_width_hours": 2.16
+    },
+    {
+      "sector": 59,
+      "cycle": 108,
+      "mid_btjd": 2918.102,
+      "heuristic_width_hours": 1.2
+    },
+    {
+      "sector": 59,
+      "cycle": 109,
+      "mid_btjd": 2928.286,
+      "heuristic_width_hours": 0.8999999999999999
+    },
+    {
+      "sector": 73,
+      "cycle": 145,
+      "mid_btjd": 3292.943,
+      "heuristic_width_hours": 1.02
+    },
+    {
+      "sector": 86,
+      "cycle": 180,
+      "mid_btjd": 3647.35,
+      "heuristic_width_hours": 1.6799999999999997
+    }
+  ]
+}

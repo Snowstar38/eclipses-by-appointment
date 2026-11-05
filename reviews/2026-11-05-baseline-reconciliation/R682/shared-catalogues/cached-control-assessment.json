@@ -1,0 +1,121 @@
+{
+  "result": "adequate for TIC 150465032 bounded catalogue novelty gate only",
+  "queue_sha256": "292eec2c110bdaf42f16a1c797dbb6e9e7e4e31179fc7be2839f9040d93c5c17",
+  "tic": "150465032",
+  "gaia_dr3": "5587540216297835136",
+  "parser_source_sha256": "1f5b5e5b353bb36355b0cfe123a5126ed7f1d71086d3c579629e58a20ab1bcca",
+  "same_parser_as_batch01": true,
+  "cached_batch01_positive_controls": [
+    {
+      "catalogue": "vsx",
+      "table": "B/vsx/vsx",
+      "radius_arcsec": 60,
+      "expected_key": "Name",
+      "expected_value": "Gaia DR3 4685168858707787776",
+      "rows": 1,
+      "raw_sha256": "d1f03afda052b3f672140d6fbde8d84f431b34cea53a8ef3df1a31a2b6d6155b",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    },
+    {
+      "catalogue": "asassn",
+      "table": "II/366/catv2021",
+      "radius_arcsec": 60,
+      "expected_key": "TIC",
+      "expected_value": "441157335",
+      "rows": 1,
+      "raw_sha256": "0d268781c5116147bbb0ce8b0fd70f1d4f11fc0cdcf52128796db8461b280096",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    },
+    {
+      "catalogue": "prsa2022",
+      "table": "J/ApJS/258/16/tess-ebs",
+      "radius_arcsec": 5,
+      "expected_key": "TIC",
+      "expected_value": "0185259483",
+      "rows": 1,
+      "raw_sha256": "50f7455c15fbe9bf377e69c2b34c789ab40d5a5cc43bb22d5a0e78a6a4a9f115",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    },
+    {
+      "catalogue": "ijspeert2024",
+      "table": "J/A+A/691/A242/obaf-eb1",
+      "radius_arcsec": 5,
+      "expected_key": "TIC",
+      "expected_value": "80452824",
+      "rows": 1,
+      "raw_sha256": "1136e7a2df6478a0ed6625ff253a8194cc5fa92aa8af4c929f50065a9e410472",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    },
+    {
+      "catalogue": "kostov2025_table3",
+      "table": "J/ApJS/279/50/table3",
+      "radius_arcsec": 5,
+      "expected_key": "TIC",
+      "expected_value": "8636",
+      "rows": 1,
+      "raw_sha256": "dd01cca813ab70693b9b51266820b57b53309b11a168b9958e8ad8d56634c275",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    },
+    {
+      "catalogue": "kostov2025_table4",
+      "table": "J/ApJS/279/50/table4",
+      "radius_arcsec": 5,
+      "expected_key": "TIC",
+      "expected_value": "10507",
+      "rows": 1,
+      "raw_sha256": "0e93709975f03bb689a3aebc3c96f3b8009eaef2ee4fb869ecbbdf7412572a60",
+      "batch01_status": "success",
+      "batch02_fresh_status": "unavailable"
+    }
+  ],
+  "batch02_fresh_controls_success": 0,
+  "target_cone_queries": [
+    {
+      "catalogue": "vsx",
+      "radius_arcsec": 60,
+      "target_rows": 0,
+      "raw_sha256": "77675861706bd204d3135723c30b9bc838f3581945943f121f042978d780e449"
+    },
+    {
+      "catalogue": "asassn",
+      "radius_arcsec": 60,
+      "target_rows": 0,
+      "raw_sha256": "90f8ad44b9cc837426009ad3df579f45b7110335202c5cc2ff1a6902978c7f5f"
+    },
+    {
+      "catalogue": "prsa2022",
+      "radius_arcsec": 5,
+      "target_rows": 0,
+      "raw_sha256": "8b0c2714839644f9aabf36363ae6aa4d9c45c59daf72b156e7de51724ef0172b"
+    },
+    {
+      "catalogue": "ijspeert2024",
+      "radius_arcsec": 5,
+      "target_rows": 0,
+      "raw_sha256": "2c09048ef816a364f9da6213bac6f0f287d3ba03337843ca66124477c2c1eedc"
+    },
+    {
+      "catalogue": "kostov2025_table3",
+      "radius_arcsec": 5,
+      "target_rows": 0,
+      "raw_sha256": "0369249e1d9b4bfa7e815463703e7c4fb60e00d7c64e6fec15702170ed23521c"
+    },
+    {
+      "catalogue": "kostov2025_table4",
+      "radius_arcsec": 5,
+      "target_rows": 0,
+      "raw_sha256": "546b49611a1acd3efe058794db446d57bc1ac901a4b077751bfdc2d4da4be7af"
+    }
+  ],
+  "bulk_gaia_simbad_receipts_verified": 4,
+  "tarrants_mendes": "cached same-parent cross-match and original HTML exact TIC/Gaia scan: no overlap",
+  "heartbeat": "nine locally cached sources: no exact TIC overlap",
+  "chopard": "cached public v1.2.0: no exact TIC/Gaia overlap; embargoed identities unknown",
+  "limits": "bounded scoped nonidentification, not exhaustive literature clearance; no physical verdict",
+  "other_targets": "24668377 known prior EB; 331650047, 384744604, 109560492 incomplete scoped queries"
+}

@@ -1,0 +1,24 @@
+{
+  "tic": "29551987",
+  "deep_pair_period_days": 28.790622349347192,
+  "shallow_pair_period_days": 28.79109036165821,
+  "adopted_rounded_period_days": 28.791,
+  "conservative_period_allowance_days": 0.001,
+  "reference_deep_mid_btjd": 1822.7651,
+  "third_deep_fit_mid_btjd": 3291.0573606623416,
+  "predicted_third_deep_btjd": 3291.0988069296363,
+  "third_residual_days": -0.04144626729475931,
+  "third_fit_conservative_center_allowance_days": 0.05,
+  "third_core_interval_btjd": [
+    3289.9573606623417,
+    3292.1573606623415
+  ],
+  "local_3day_quality0_n": 1180,
+  "local_3day_largest_gap_days": 0.21990528611058835,
+  "local_3day_largest_gap_bounds_btjd": [
+    3292.2699562651037,
+    3292.4898615512143
+  ],
+  "source_sha256": "5d5edd78814db3bab988fe385838622acd51510b75bebedc8e95150c608e7c02",
+  "note": "The 0.05-d center allowance exceeds the 0.041-d disagreement of the third deep fit with the first-two-kind clock. Largest local gap is after the egress; broader-baseline gaps and slope still make a milliday formal fit too optimistic. The 0.001-d period allowance is conservative, not a calibrated 1-sigma error."
+}

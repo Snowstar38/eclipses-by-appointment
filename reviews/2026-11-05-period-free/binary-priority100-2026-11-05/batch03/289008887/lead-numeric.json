@@ -1,0 +1,114 @@
+{
+  "sample_id": "T028",
+  "tic": "289008887",
+  "gaia_period_days": 33.725707050561056,
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "11804066186cd04442e999f0a037e78c9c99c0c285af3a764e6b6698829cc931",
+      "sector": 34
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "dfdff054e49fac69f10af69eb495d119e125ca0ef5912afdc793a223e1e023ff",
+      "sector": 61
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "6e0cdb085559bcd4e5f96d5fc5ca567baf70e4632d45ba29685be0a25bb97077",
+      "sector": 88
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 34,
+      "start_btjd": 2228.758315157599,
+      "end_btjd": 2254.063635845399,
+      "n_all": 3487,
+      "n_quality0": 2804,
+      "cadence_days": 0.006944381001630973,
+      "max_internal_gap_days": 1.0902630787704766
+    },
+    {
+      "sector": 61,
+      "start_btjd": 2962.799653221064,
+      "end_btjd": 2988.2275251722017,
+      "n_all": 10713,
+      "n_quality0": 9105,
+      "cadence_days": 0.0023147799597609264,
+      "max_internal_gap_days": 0.21296181746583898
+    },
+    {
+      "sector": 88,
+      "start_btjd": 3690.152057547594,
+      "end_btjd": 3717.9271971805692,
+      "n_all": 11730,
+      "n_quality0": 11215,
+      "cadence_days": 0.0023147793431235186,
+      "max_internal_gap_days": 0.21064813351767953
+    }
+  ],
+  "events": [
+    {
+      "sector": 34,
+      "screen_btjd": 2246.7999181120313,
+      "screen_duration_days": 1.6,
+      "screen_depth_ppt": 15.229477801921409,
+      "quality0_local_n": 1091,
+      "quality0_core_n": 119,
+      "raw_core_median_deficit_ppt": 14.739784469300798,
+      "raw_side_scatter_ppt": 3.2875972093417936,
+      "first_local_btjd": 2242.751352570224,
+      "last_local_btjd": 2251.598430127481,
+      "local_max_gap_days": 1.1874797761711307,
+      "source_sha256": "11804066186cd04442e999f0a037e78c9c99c0c285af3a764e6b6698829cc931",
+      "fit_mid_btjd": 2246.821028212157,
+      "fit_mid_formal_error_days": 93623.545695472,
+      "fit_depth_ppt": 22.504754770288063,
+      "fit_duration_days": 2.263466946655921,
+      "fit_edge_days": 0.9999999999999996,
+      "fit_slope_per_day": -3.170503896555084e-05
+    },
+    {
+      "sector": 61,
+      "screen_btjd": 2981.632811782318,
+      "screen_duration_days": 1.6,
+      "screen_depth_ppt": 33.35412975628105,
+      "quality0_local_n": 3866,
+      "quality0_core_n": 430,
+      "raw_core_median_deficit_ppt": 27.187351907426383,
+      "raw_side_scatter_ppt": 8.85337831730355,
+      "first_local_btjd": 2976.8342835488934,
+      "last_local_btjd": 2986.431292447742,
+      "local_max_gap_days": 0.21990229131506567,
+      "source_sha256": "dfdff054e49fac69f10af69eb495d119e125ca0ef5912afdc793a223e1e023ff",
+      "fit_mid_btjd": 2981.5843520193134,
+      "fit_mid_formal_error_days": 0.006991030952808989,
+      "fit_depth_ppt": 38.841170913325804,
+      "fit_duration_days": 1.986089820803366,
+      "fit_edge_days": 0.8357823178979498,
+      "fit_slope_per_day": 0.0013351483108547252
+    },
+    {
+      "sector": 88,
+      "screen_btjd": 3696.064113308082,
+      "screen_duration_days": 0.96,
+      "screen_depth_ppt": 20.13250199807748,
+      "quality0_local_n": 2391,
+      "quality0_core_n": 412,
+      "raw_core_median_deficit_ppt": 19.561113479638735,
+      "raw_side_scatter_ppt": 9.663242000256364,
+      "first_local_btjd": 3693.184476767859,
+      "last_local_btjd": 3698.9437401106743,
+      "local_max_gap_days": 0.21759257621715733,
+      "source_sha256": "6e0cdb085559bcd4e5f96d5fc5ca567baf70e4632d45ba29685be0a25bb97077",
+      "fit_mid_btjd": 3696.3003894604262,
+      "fit_mid_formal_error_days": 0.007152278838747287,
+      "fit_depth_ppt": 20.798988167862177,
+      "fit_duration_days": 1.8607615767436432,
+      "fit_edge_days": 0.5764818614624346,
+      "fit_slope_per_day": 0.004213605325123192
+    }
+  ],
+  "method": "Local trapezoid fits to quality-zero raw SAP at period-free retained dip flags. Fits are exploratory, never sufficient for an eclipse verdict or cycle alias. Screen windows are not centers."
+}

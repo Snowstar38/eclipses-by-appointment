@@ -1,0 +1,176 @@
+{
+  "sample_id": "T042",
+  "tic": "255912894",
+  "gaia_period_days": 47.35116416322056,
+  "source_packet": "[local-path-redacted]",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ed4d6219c77a1a47f43bbf37d75d327fa75c4ec1f8862473b07f84a6f504f2f1",
+      "sector": 12
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "99a52cc6c9fa4c80bb0a50cd15a0db446c9ba338c1a1a1f59d76bb9af3e95e06",
+      "sector": 13
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "978aeb5f303187ec1e9db30c3915a1eb8c203ce2d3b8e83dbeb24f58e81219ce",
+      "sector": 39
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "740e79c2ea6d1aab75fad935f0071628d983bd4c718cb4ba8b4c8747ea3a77b2",
+      "sector": 66
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "aad87cefb464dac9970c01231eaeeee12195f882f597650a10d51443e0ecfd3c",
+      "sector": 93
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e6bcd2341f3e286cfd1e7677fcfc562cd41f4755f9a8b682201e5a72fe4045c2",
+      "sector": 100
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e65bf991836f0801897ea1d0d435d9b2ee86d6ee6918bce1ad9b4143f278db48",
+      "sector": 101
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "57354b750ab2acc0b636a368fa484ecc9724a2ba45090ca5d9a76621532a5426",
+      "sector": 102
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "bc1e925da386bb1202601c3557ea8bebd71aeeb211932b2744ec452024aeaaf0",
+      "sector": 103
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 12,
+      "start_btjd": 1627.47299684273,
+      "end_btjd": 1652.4941366663609,
+      "n_all": 1273,
+      "n_quality0": 681,
+      "cadence_days": 0.020833472428080313,
+      "max_internal_gap_days": 4.416704296120088
+    },
+    {
+      "sector": 13,
+      "start_btjd": 1653.9732960831393,
+      "end_btjd": 1682.1185702316793,
+      "n_all": 1319,
+      "n_quality0": 1183,
+      "cadence_days": 0.020832832242604127,
+      "max_internal_gap_days": 1.0833075767097853
+    },
+    {
+      "sector": 39,
+      "start_btjd": 2362.0005682184346,
+      "end_btjd": 2388.9243443622163,
+      "n_all": 3879,
+      "n_quality0": 3287,
+      "cadence_days": 0.006944514242604782,
+      "max_internal_gap_days": 1.895847903540016
+    },
+    {
+      "sector": 66,
+      "start_btjd": 3097.7202665657746,
+      "end_btjd": 3124.222586316343,
+      "n_all": 12154,
+      "n_quality0": 9294,
+      "cadence_days": 0.0023148139412114688,
+      "max_internal_gap_days": 4.497701959226561
+    },
+    {
+      "sector": 93,
+      "start_btjd": 3830.37368033035,
+      "end_btjd": 3854.8829189091975,
+      "n_all": 10744,
+      "n_quality0": 9431,
+      "cadence_days": 0.0023148138384385675,
+      "max_internal_gap_days": 1.9629617418058842
+    },
+    {
+      "sector": 100,
+      "start_btjd": 4074.612182926276,
+      "end_btjd": 4098.477912254609,
+      "n_all": 11173,
+      "n_quality0": 8726,
+      "cadence_days": 0.0023148136956478993,
+      "max_internal_gap_days": 1.747684340909018
+    },
+    {
+      "sector": 101,
+      "start_btjd": 4101.6052197700665,
+      "end_btjd": 4124.947801194955,
+      "n_all": 11015,
+      "n_quality0": 8490,
+      "cadence_days": 0.0023148137024691096,
+      "max_internal_gap_days": 2.768517193819207
+    },
+    {
+      "sector": 102,
+      "start_btjd": 4127.948140214606,
+      "end_btjd": 4151.163406800903,
+      "n_all": 10365,
+      "n_quality0": 8453,
+      "cadence_days": 0.002314813686098205,
+      "max_internal_gap_days": 2.034721247216112
+    },
+    {
+      "sector": 103,
+      "start_btjd": 4152.892584132767,
+      "end_btjd": 4177.362479862931,
+      "n_all": 10959,
+      "n_quality0": 8663,
+      "cadence_days": 0.002314813697921636,
+      "max_internal_gap_days": 2.043980506009575
+    }
+  ],
+  "flag_count": 2,
+  "representative_method": "Maximum screen contrast per sector, up to twelve sectors; all available FITS checked for hash and endpoints.",
+  "events": [
+    {
+      "sector": 13,
+      "seed_btjd": 1678.6603479915611,
+      "screen_duration_days": 0.12,
+      "screen_contrast": 6.683060546428062,
+      "screen_depth_ppt": 4.228672192596039,
+      "core_n": 5,
+      "side_n": 47,
+      "core_deficit_ppt": 4.0771570073105945,
+      "side_scatter_ppt": 0.5679896748042401,
+      "local_max_gap_days": 0.041665417332296784,
+      "source_sha256": "99a52cc6c9fa4c80bb0a50cd15a0db446c9ba338c1a1a1f59d76bb9af3e95e06",
+      "fit_mid_btjd": 1678.658468643345,
+      "fit_mid_formal_error_days": 0.0028368808028428763,
+      "fit_depth_ppt": 4.452274807932773,
+      "fit_duration_days": 0.11879962058512299,
+      "fit_slope_per_day": 0.00020784410876042745
+    },
+    {
+      "sector": 100,
+      "seed_btjd": 4095.394580361241,
+      "screen_duration_days": 0.12,
+      "screen_contrast": 5.212829227357431,
+      "screen_depth_ppt": 3.638190901263716,
+      "core_n": 51,
+      "side_n": 446,
+      "core_deficit_ppt": 3.6483385695419424,
+      "side_scatter_ppt": 1.2073669121830701,
+      "local_max_gap_days": 0.0023148137361204135,
+      "source_sha256": "e6bcd2341f3e286cfd1e7677fcfc562cd41f4755f9a8b682201e5a72fe4045c2",
+      "fit_mid_btjd": 4095.4023910600613,
+      "fit_mid_formal_error_days": 0.0021367816683000238,
+      "fit_depth_ppt": 4.258393126379606,
+      "fit_duration_days": 0.15913976516351352,
+      "fit_slope_per_day": 8.208120574046617e-05
+    }
+  ]
+}

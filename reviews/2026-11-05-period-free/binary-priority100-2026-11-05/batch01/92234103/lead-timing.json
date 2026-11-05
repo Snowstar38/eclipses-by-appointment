@@ -1,0 +1,47 @@
+{
+  "sample_id": "T002",
+  "tic": "92234103",
+  "gaia_period_days": 24.666030638755828,
+  "kinds": {
+    "deep": {
+      "event_indices": [
+        0,
+        1
+      ],
+      "new_sector_event_indices": [
+        0,
+        2
+      ],
+      "supporting_partial_new_index": 1,
+      "sector": [
+        4,
+        31,
+        105,
+        108
+      ],
+      "mid_btjd": [
+        1435.029505617036,
+        2149.0343515147583,
+        4217.183914637461,
+        4315.666774082735
+      ],
+      "cycle": [
+        0,
+        29,
+        113,
+        117
+      ],
+      "period_days": 24.62083098864772,
+      "period_error_days": 5e-05,
+      "epoch_btjd": 1435.029829948057,
+      "residual_days": [
+        -0.00032433102114737267,
+        0.0004228959173815383,
+        0.00018297221140528563,
+        -0.0002815371053657145
+      ],
+      "cycle_condition": "Old 28/30-cycle aliases excluded by sensitive new-sector target-aperture predictions; 29 cycles s4-s31, with two full new events and one partial near S108 start. S108 P/2 null also tested.",
+      "error_meaning": "0.00005 d conservative allowance for QLP versus custom-pixel timing, exceeding formal regression scatter error"
+    }
+  }
+}

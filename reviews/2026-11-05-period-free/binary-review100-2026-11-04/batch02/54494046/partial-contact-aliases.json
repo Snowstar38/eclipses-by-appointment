@@ -1,0 +1,125 @@
+{
+  "tic": "54494046",
+  "contacts": [
+    {
+      "sector": 43,
+      "direction": "ingress",
+      "search_btjd": [
+        2496.6,
+        2498.05
+      ],
+      "baseline_interval_btjd": [
+        2495.0,
+        2496.8
+      ],
+      "baseline_flux": 0.9992262721061707,
+      "quality_zero_search_samples": 204,
+      "fits_sha256": "196721dcc360994c287b979c926edf417e2d56b33fd52c5ebc2cc5db0c6b01a8"
+    },
+    {
+      "sector": 45,
+      "direction": "egress",
+      "search_btjd": [
+        2527.8,
+        2529.3
+      ],
+      "baseline_interval_btjd": [
+        2529.3,
+        2531.0
+      ],
+      "baseline_flux": 1.0022783875465393,
+      "quality_zero_search_samples": 205,
+      "fits_sha256": "0da68148544c418bf4fe5fa300fe6aedf026bb4ec8d45d2597498b685d60f736"
+    },
+    {
+      "sector": 71,
+      "direction": "egress",
+      "search_btjd": [
+        3235.3,
+        3236.5
+      ],
+      "baseline_interval_btjd": [
+        3236.5,
+        3238.0
+      ],
+      "baseline_flux": 1.004076600074768,
+      "quality_zero_search_samples": 501,
+      "fits_sha256": "00e28729527b0c4a35d2d1c7498f5d2720c958ba8693f355842b4b8c7425d99d"
+    },
+    {
+      "sector": 72,
+      "direction": "ingress",
+      "search_btjd": [
+        3262.8,
+        3264.2
+      ],
+      "baseline_interval_btjd": [
+        3262.0,
+        3262.8
+      ],
+      "baseline_flux": 1.0007193088531494,
+      "quality_zero_search_samples": 604,
+      "fits_sha256": "43be728dc99543506ef2687e61f79a323986011e6fc5e5c7551ade765ee0aefb"
+    }
+  ],
+  "levels": [
+    {
+      "relative_flux_level": 0.965,
+      "crossings_btjd": {
+        "43": 2497.5623680128842,
+        "45": 2528.462134058739,
+        "71": 3235.6034914743595,
+        "72": 3263.6179379078003
+      },
+      "s43_to_s72_13_cycles_days": 58.92735153037816,
+      "s45_to_s71_12_cycles_days": 58.9284464513017,
+      "adjacent_aliases_s43_s72_days": [
+        63.837964157909674,
+        54.718254992494
+      ],
+      "adjacent_aliases_s45_s71_days": [
+        64.28557794687458,
+        54.3954890319708
+      ]
+    },
+    {
+      "relative_flux_level": 0.97,
+      "crossings_btjd": {
+        "43": 2497.460505793839,
+        "45": 2528.57449625651,
+        "71": 3235.7250056528023,
+        "72": 3263.5574440129108
+      },
+      "s43_to_s72_13_cycles_days": 58.93053370915938,
+      "s45_to_s71_12_cycles_days": 58.9292091163577,
+      "adjacent_aliases_s43_s72_days": [
+        63.841411518255995,
+        54.72120987279085
+      ],
+      "adjacent_aliases_s45_s71_days": [
+        64.28640994511748,
+        54.39619303048403
+      ]
+    },
+    {
+      "relative_flux_level": 0.975,
+      "crossings_btjd": {
+        "43": 2497.418447158326,
+        "45": 2528.697639333394,
+        "71": 3235.8442887648603,
+        "72": 3263.45431670225
+      },
+      "s43_to_s72_13_cycles_days": 58.92583611876335,
+      "s45_to_s71_12_cycles_days": 58.9288874526222,
+      "adjacent_aliases_s43_s72_days": [
+        63.83632246199363,
+        54.71684782456597
+      ],
+      "adjacent_aliases_s45_s71_days": [
+        64.28605903922421,
+        54.395896110112794
+      ]
+    }
+  ],
+  "caution": "Threshold contacts compare analogous limbs across four raw observing occasions. Broad-event shape and local baselines limit precision; crossing-derived values are alias diagnostics, not a formal eclipse ephemeris."
+}

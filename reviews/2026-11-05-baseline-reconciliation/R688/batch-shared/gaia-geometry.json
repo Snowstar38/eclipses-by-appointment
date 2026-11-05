@@ -1,0 +1,38 @@
+{
+  "source_id": "2204160934098817280",
+  "solution_type": "SB2",
+  "period_days": 20.57874573925095,
+  "period_error_days": 0.000366048,
+  "eccentricity": 0.5159771115027125,
+  "omega_deg": 64.50429871323178,
+  "t_periastron_btjd": 388.2550089297889,
+  "gaia_reference": "Gaia JD2016 offset: BTJD 389",
+  "correlation_order": "P,gamma,K1,K2,e,omega,Tp; lower triangle",
+  "correlation_min_eigenvalue": 0.04133100438116588,
+  "conjunctions": [
+    {
+      "kind": 0,
+      "gaia_predicted_btjd": 1746.85996659437,
+      "gaia_linear_covariance_error_days": 0.021114267738269667,
+      "screening_bls_offset_days": 0.10094458902312908,
+      "screening_bls_offset_phase": 0.004905283844903727
+    },
+    {
+      "kind": 1,
+      "gaia_predicted_btjd": 1739.823788170651,
+      "gaia_linear_covariance_error_days": 0.058610892612834975,
+      "screening_bls_offset_days": 7.137123012742222,
+      "screening_bls_offset_phase": 0.34682011737621127
+    }
+  ],
+  "periastron_relative_phase_of_bls": 0.024718875945438867,
+  "semi_amplitudes_km_s": [
+    73.42280082222779,
+    54.339730396936275
+  ],
+  "mass_ratio_m2_over_m1": 1.3511808079630707,
+  "m1_sin3_solar": 1.1887852905394638,
+  "m2_sin3_solar": 1.6062638693657265,
+  "a_sin_solar_radii": 44.49842723922514,
+  "notes": "Conjunction assumes edge-on; BLS epoch is a screening prediction, not measured eclipse time. Linear covariance uncertainty is descriptive and Gaia-period extrapolation can dominate. Masses are minimum masses, assuming published SB2 velocities."
+}

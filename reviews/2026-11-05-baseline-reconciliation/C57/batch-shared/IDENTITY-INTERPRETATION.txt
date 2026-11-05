@@ -1,0 +1,19 @@
+Two distinct reasons for extending the locally unmatched parent.
+
+Root audit: first128 cohort has125unique counterparts, all125with changed
+DR2/DR3identifiers. All are present in original appointments nss.csv. The old
+Fable5.1/made/appointments/tic.py queries TIC's GAIA field with DR3 IDs directly,
+so the proper DR3->DR2 neighborhood resolves a real cross-release matching gap.
+
+The next512 cohort is different:503unique counterparts, only48changed IDs;
+455equal IDs. Those455 spanG11.554196-11.917648 and are also present in original
+nss.csv. The old tic.py has a separate run-time gmax cutoff even though gaia.py
+queries toG12bydefault. This is consistent with extending the previously
+matched magnitude population, not evidence that all503were lost to ID changes.
+Root has not reconstructed every old runtime invocation, so do not assert the
+precise historical cause for every missing local match.
+
+All identities are independently verified before downloads; no-match, no-data,
+known-prior and physical outcomes remain separate. Neither cohort establishes
+an all-Gaia completeness fraction or a predicted discovery yield. Audit counts
+and source hashes are in identity-gap-audit.json / audit_identity_gap.py.

@@ -1,0 +1,132 @@
+{
+  "sample_id": "H010",
+  "tic": "52919409",
+  "bulk_json_path": "[local-path-redacted]",
+  "bulk_json_sha256": "652d4bb26c3d316aad8fba216ead4e20d415938d81647553a1feb0f26e2072d0",
+  "gaia_period_days": 58.87403917701514,
+  "sectors": [
+    {
+      "sector": 6,
+      "path": "[local-path-redacted]",
+      "sha256": "24ef0cddafc16031a0c81f20e6298857262894bce06db10270b47b53a7a51c9b",
+      "time_start": 1468.4305734773604,
+      "time_end": 1489.993345491298,
+      "n_quality0": 852,
+      "cadence_days": 0.02083358854793005
+    },
+    {
+      "sector": 7,
+      "path": "[local-path-redacted]",
+      "sha256": "fe8db5fe3deb751e20d3dffb50f0a2fdbdcd89593b091c3b135ac81e13f4ba4c",
+      "time_start": 1491.8474908250469,
+      "time_end": 1516.034718814214,
+      "n_quality0": 1012,
+      "cadence_days": 0.020833106872487406
+    },
+    {
+      "sector": 33,
+      "path": "[local-path-redacted]",
+      "sha256": "c739f6f877bc73211601d0bc534decb6430a964b5ddcee0d99546bd24a04969e",
+      "time_start": 2201.8400168392573,
+      "time_end": 2227.5416080621817,
+      "n_quality0": 3430,
+      "cadence_days": 0.006944500294139289
+    },
+    {
+      "sector": 34,
+      "path": "[local-path-redacted]",
+      "sha256": "b01d6c6514a81dacd43f56d72f32afb6d8e2f2b4d44b8bc017fd801c58c258f4",
+      "time_start": 2229.361043188571,
+      "time_end": 2253.1939534300386,
+      "n_quality0": 2931,
+      "cadence_days": 0.006944325276435848
+    },
+    {
+      "sector": 87,
+      "path": "[local-path-redacted]",
+      "sha256": "6b3b37b3e445ef7c29d6a371a2a7cd6ec7e435e8c53a773a5b46cdfb1f4a0acf",
+      "time_start": 3663.775446308772,
+      "time_end": 3689.7084980649047,
+      "n_quality0": 10475,
+      "cadence_days": 0.002314828544967895
+    }
+  ],
+  "representative_flagged_windows": [
+    {
+      "sector": 6,
+      "kind": "dip",
+      "screen_center_btjd": 1487.5141783026088,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 6.146909128798562,
+      "screen_supported": true,
+      "n_window_quality0": 271,
+      "n_core": 38,
+      "n_left": 103,
+      "n_right": 70,
+      "local_baseline_flux": 1.002882957458496,
+      "core_median_delta_ppt": -6.5022111565340435,
+      "side_mad_ppt": 1.2447239632215987
+    },
+    {
+      "sector": 6,
+      "kind": "brightening",
+      "screen_center_btjd": 1485.305833703195,
+      "screen_duration_days": 1.6,
+      "screen_contrast": -5.737183477178498,
+      "screen_supported": true,
+      "n_window_quality0": 305,
+      "n_core": 39,
+      "n_left": 104,
+      "n_right": 103,
+      "local_baseline_flux": 0.999487042427063,
+      "core_median_delta_ppt": 4.373648143763953,
+      "side_mad_ppt": 2.2415021400103483
+    },
+    {
+      "sector": 34,
+      "kind": "dip",
+      "screen_center_btjd": 2240.8192367911197,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 6.614414817841219,
+      "screen_supported": true,
+      "n_window_quality0": 633,
+      "n_core": 59,
+      "n_left": 310,
+      "n_right": 173,
+      "local_baseline_flux": 1.0009324550628662,
+      "core_median_delta_ppt": -10.955548965453143,
+      "side_mad_ppt": 1.873461221018799
+    },
+    {
+      "sector": 34,
+      "kind": "brightening",
+      "screen_center_btjd": 2238.8262215780073,
+      "screen_duration_days": 1.6,
+      "screen_contrast": -6.125222519876694,
+      "screen_supported": true,
+      "n_window_quality0": 746,
+      "n_core": 114,
+      "n_left": 310,
+      "n_right": 138,
+      "local_baseline_flux": 0.9964521527290344,
+      "core_median_delta_ppt": 4.879441200409618,
+      "side_mad_ppt": 2.733255838589707
+    },
+    {
+      "sector": 87,
+      "kind": "brightening",
+      "screen_center_btjd": 3687.4515701181276,
+      "screen_duration_days": 1.6,
+      "screen_contrast": -5.099910499316575,
+      "screen_supported": true,
+      "n_window_quality0": 2216,
+      "n_core": 344,
+      "n_left": 932,
+      "n_right": 397,
+      "local_baseline_flux": 0.9958818554878235,
+      "core_median_delta_ppt": 7.4888115811917455,
+      "side_mad_ppt": 3.1857736999213664
+    }
+  ],
+  "caution": "Screening centers and local core medians are not eclipse timing or fitted depths. Panels use raw SAP_FLUX and QUALITY=0."
+}

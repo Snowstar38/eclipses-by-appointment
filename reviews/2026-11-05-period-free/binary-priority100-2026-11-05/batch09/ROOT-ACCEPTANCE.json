@@ -1,0 +1,74 @@
+{
+  "batch": "batch09",
+  "queue_sha256": "deaf59fb1ee3da2c6332b4ae6da57f386d37fc748db9692420a7013f3ba0e057",
+  "results_sha256": "400be0d882cc6f860f7121da65aa66c7b2613a8c34cc62efa2542810484485d4",
+  "manifest_sha256": "f5f3ed7be84d43b1303ef7d6f0283793c113ebffc54f3515bdabdd5d5d25f798",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 105,
+  "decisions": {
+    "T081": {
+      "tic": "37770031",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T082": {
+      "tic": "390155697",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T083": {
+      "tic": "271053559",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T084": {
+      "tic": "87869692",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T085": {
+      "tic": "122980411",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T086": {
+      "tic": "398402989",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "KNOWN"
+    },
+    "T087": {
+      "tic": "200743349",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T088": {
+      "tic": "287035536",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T089": {
+      "tic": "410314066",
+      "physical_verdict": "CONFIRMED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T090": {
+      "tic": "71294892",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten deciding reports and lead/helper audits, timing, half-alias, T083 shorter-alias, Thiele-Innes and covariance artifacts. T081/T082/T090 real supported short-period trains remain probable with unresolved Gaia association. T083 two B plus A in sector89, shorter 2-5-cycle B alternatives have covered absent events; real repeat is probable, earlier flat state and Gaia connection unresolved, not a proved precession system. T084 retains multiple integer-cycle aliases and saturation limits; T088 different depths/kinds and weak-event capable neighbor prevent a unique clock, both plausible. T085 prior stacked multi-sector PSF/deblended evidence assigns real EB to HJ68B, refuting queued-target attribution; independent final audit checked receipt hash/content. T086/T087/T089 have target-favored valid pixels and supported clocks; P/2 actual coverage addressed. Reconstructed AstroSpectroSB1 orientation from ABFG with CH branch cross-check. Root required full source covariance: T086 +.064+/-.177d, T087 -.193+/-.197d, compatible; T089 +.092+/-.329d. T086 public exact-ID receipt independently audited, known recovery. Conditional timing/linear covariance limitations remain explicit.",
+  "helper_boundary": "Terra09 independently extracted all ten source cutouts. Root-requested alias and orbital covariance followups are lead-owned. Final Terra audit verified T085/T086 prior receipt identities, contents and hashes.",
+  "accounting": "Nine UNKNOWN and T086 KNOWN. No claim ledger, paper or identifiers changed."
+}

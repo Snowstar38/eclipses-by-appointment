@@ -1,0 +1,158 @@
+{
+  "tic": "64701575",
+  "gaia_source_id": "5610990909531532160",
+  "screen_period_days": 21.16201466123575,
+  "screen_epoch_btjd": 1502.9754127176168,
+  "screen_duration_days": 0.18,
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sector": 7,
+      "sha256": "a41e73f836036ad5a3a4e6054b9177b776abee76dc114004fe3280841c02b806"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 33,
+      "sha256": "4a0d3f697d4db2d1ba09c75b16415df3c9006103db5aa12e3b6829cb79d92395"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 34,
+      "sha256": "2b148bde7c1723cdbbad155a9ec288af4977ef25366dad4c89de3ad505b7972d"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 87,
+      "sha256": "37539c351b806956f4fcb7a7648dda0421ef214813529b5846da9f5a2df9ee96"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 88,
+      "sha256": "3561c0cc5546e2c3b40ac0bbbc01dd9dddb4121037f18cdd7fa0872ff5b7ed15"
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 7,
+      "first_btjd": 1491.6814071949116,
+      "last_btjd": 1516.0354030195215,
+      "cadence_days": 0.02083319350504098,
+      "n": 1064
+    },
+    {
+      "sector": 33,
+      "first_btjd": 2201.833493762624,
+      "last_btjd": 2227.3269499223675,
+      "cadence_days": 0.006944555572772515,
+      "n": 3368
+    },
+    {
+      "sector": 34,
+      "first_btjd": 2229.5144486871745,
+      "last_btjd": 2253.423806528698,
+      "cadence_days": 0.006944342582301033,
+      "n": 2973
+    },
+    {
+      "sector": 87,
+      "first_btjd": 3665.4078618574827,
+      "last_btjd": 3689.7044880864996,
+      "cadence_days": 0.0023148448440224456,
+      "n": 8811
+    },
+    {
+      "sector": 88,
+      "first_btjd": 3690.213745048122,
+      "last_btjd": 3717.868368455153,
+      "cadence_days": 0.0023147725182752765,
+      "n": 11236
+    }
+  ],
+  "events": [
+    {
+      "sector": 33,
+      "cycle": 34,
+      "predicted_btjd": 2222.4839111996325,
+      "mid_btjd": 2222.484157687695,
+      "formal_timing_error_days": 0.0001848841811713696,
+      "timing_error_days": 0.0034722777863862575,
+      "timing_usable": true,
+      "depth_ppt": 46.55147273204494,
+      "model_amplitude_ppt": 46.55147273204494,
+      "duration_days": 0.27236463341637585,
+      "ingress_parameter_days": 0.10783714743044731,
+      "oot_scatter_ppt": 0.44273855109877963,
+      "n": 208,
+      "cadence_days": 0.006944555572772515,
+      "source_sha256": "4a0d3f697d4db2d1ba09c75b16415df3c9006103db5aa12e3b6829cb79d92395"
+    },
+    {
+      "sector": 34,
+      "cycle": 35,
+      "predicted_btjd": 2243.6459258608684,
+      "mid_btjd": 2243.6457245403167,
+      "formal_timing_error_days": 0.00018523180321318092,
+      "timing_error_days": 0.0034721712911505165,
+      "timing_usable": true,
+      "depth_ppt": 47.147412955589026,
+      "model_amplitude_ppt": 47.147412955589026,
+      "duration_days": 0.27148631861017425,
+      "ingress_parameter_days": 0.10527583934949283,
+      "oot_scatter_ppt": 0.45296464735093556,
+      "n": 207,
+      "cadence_days": 0.006944342582301033,
+      "source_sha256": "2b148bde7c1723cdbbad155a9ec288af4977ef25366dad4c89de3ad505b7972d"
+    },
+    {
+      "sector": 87,
+      "cycle": 103,
+      "predicted_btjd": 3682.6629228248994,
+      "mid_btjd": 3682.663891130068,
+      "formal_timing_error_days": 0.00028410997195618595,
+      "timing_error_days": 0.0011574224220112228,
+      "timing_usable": true,
+      "depth_ppt": 44.91670279924025,
+      "model_amplitude_ppt": 44.91670279924025,
+      "duration_days": 0.2706690615506784,
+      "ingress_parameter_days": 0.10394615151060098,
+      "oot_scatter_ppt": 1.1219852371913408,
+      "n": 611,
+      "cadence_days": 0.0023148448440224456,
+      "source_sha256": "37539c351b806956f4fcb7a7648dda0421ef214813529b5846da9f5a2df9ee96"
+    },
+    {
+      "sector": 88,
+      "cycle": 104,
+      "predicted_btjd": 3703.8249374861352,
+      "mid_btjd": 3703.826319242164,
+      "formal_timing_error_days": 0.001725815191924679,
+      "timing_error_days": 0.001725815191924679,
+      "timing_usable": true,
+      "depth_ppt": 48.317159799140875,
+      "model_amplitude_ppt": 48.317159799140875,
+      "duration_days": 0.277832227529528,
+      "ingress_parameter_days": 0.10879906039196008,
+      "oot_scatter_ppt": 1.9999788614701586,
+      "n": 470,
+      "cadence_days": 0.0023147725182752765,
+      "source_sha256": "3561c0cc5546e2c3b40ac0bbbc01dd9dddb4121037f18cdd7fa0872ff5b7ed15"
+    }
+  ],
+  "timing_event_count": 4,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 21.16203037634822,
+  "period_error_days": 3.831077908334091e-05,
+  "reference_epoch_btjd": 2222.483919533441,
+  "epoch_error_days": 0.0024726538563407175,
+  "reference_cycle": 34,
+  "reduced_chi_square": 0.022776776643325232,
+  "timing_residual_days": [
+    0.0002381542540206283,
+    -0.00022536947290063836,
+    -0.00012437140048859874,
+    0.00027336434732205817
+  ],
+  "depth_ppt": 46.84944284381699,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics."
+}

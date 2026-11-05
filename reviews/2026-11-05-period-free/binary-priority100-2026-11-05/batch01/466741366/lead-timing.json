@@ -1,0 +1,66 @@
+{
+  "sample_id": "T009",
+  "tic": "466741366",
+  "gaia_period_days": 42.5574901140565,
+  "kinds": {
+    "kind_a": {
+      "event_indices": [
+        0,
+        3,
+        6
+      ],
+      "sector": [
+        37,
+        64,
+        100
+      ],
+      "mid_btjd": [
+        2330.4866535894685,
+        3054.1773043329663,
+        4075.8160756850352
+      ],
+      "cycle": [
+        0,
+        17,
+        41
+      ],
+      "period_days": 42.56896224705711,
+      "period_error_days": 0.00048744022752177834,
+      "epoch_btjd": 2330.4934077593857,
+      "residual_days": [
+        -0.006754169917257968,
+        0.011538373609710106,
+        -0.004784203691997391
+      ],
+      "cycle_condition": "Integer cycles chosen near Gaia period; uniqueness requires coverage/other-kind checks.",
+      "error_meaning": "2 events: half-cadence or finite formal timing allowance; >=3: residual scatter or cadence floor, no pipeline systematic calibration"
+    },
+    "kind_b": {
+      "event_indices": [
+        2,
+        4
+      ],
+      "sector": [
+        64,
+        90
+      ],
+      "mid_btjd": [
+        3044.985478815305,
+        3768.6446930207258
+      ],
+      "cycle": [
+        0,
+        17
+      ],
+      "period_days": 42.56818907090703,
+      "period_error_days": 0.00013991787431379357,
+      "epoch_btjd": 3044.9854788153048,
+      "residual_days": [
+        4.547473508864641e-13,
+        1.3642420526593924e-12
+      ],
+      "cycle_condition": "Integer cycles chosen near Gaia period; uniqueness requires coverage/other-kind checks.",
+      "error_meaning": "2 events: half-cadence or finite formal timing allowance; >=3: residual scatter or cadence floor, no pipeline systematic calibration"
+    }
+  }
+}

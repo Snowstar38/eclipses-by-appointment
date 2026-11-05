@@ -1,0 +1,36 @@
+{
+  "sample_id": "H066",
+  "tic": "368903210",
+  "bulk_json_path": "[local-path-redacted]",
+  "bulk_json_sha256": "30ed77f78abec4f86f7ff889c3eece16d69d558bee219882ee057bf02eda9672",
+  "gaia_period_days": 26.946144164677033,
+  "sectors": [
+    {
+      "sector": 19,
+      "path": "[local-path-redacted]",
+      "sha256": "3fec1d5d734a174672b738889c94b7e6570ec4fc166c5e7072c957687dbae5ea",
+      "time_start": 1817.328539273603,
+      "time_end": 1840.9744714083251,
+      "n_quality0": 829,
+      "cadence_days": 0.020833519540929046
+    }
+  ],
+  "representative_flagged_windows": [
+    {
+      "sector": 19,
+      "kind": "dip",
+      "screen_center_btjd": 1820.9536195137937,
+      "screen_duration_days": 0.96,
+      "screen_contrast": 5.33126201856802,
+      "screen_supported": true,
+      "n_window_quality0": 163,
+      "n_core": 12,
+      "n_left": 62,
+      "n_right": 61,
+      "local_baseline_flux": 0.9999262094497681,
+      "core_median_delta_ppt": -1.341859175065685,
+      "side_mad_ppt": 0.24657006584047875
+    }
+  ],
+  "caution": "Screening centers and local core medians are not eclipse timing or fitted depths. Panels use raw SAP_FLUX and QUALITY=0."
+}

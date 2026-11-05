@@ -1,0 +1,83 @@
+[
+  {
+    "tic": "155346713",
+    "sector": 7,
+    "provenance": "TESS-SPOC",
+    "caom_rows": [
+      {
+        "sequence_number": 7,
+        "dataURL": "mast:HLSP/tess-spoc/s0007/target/0000/0001/5534/6713/hlsp_tess-spoc_tess_phot_0000000155346713-s0007_tess_v1_lc.fits",
+        "provenance_name": "TESS-SPOC",
+        "target_name": "155346713"
+      }
+    ],
+    "status": "ok",
+    "path": "[local-path-redacted]",
+    "sha256": "7776b52ae3b9e117c1edae87ec1199c1f3fde8260ef42186a8ec8891a8aaedcc",
+    "bytes": 146880,
+    "fits_identity": {
+      "TICID": "155346713",
+      "TIC_ID": "None",
+      "SECTOR": "7",
+      "OBJECT": "TIC 155346713",
+      "TELESCOP": "TESS"
+    },
+    "columns": [
+      "TIME",
+      "TIMECORR",
+      "CADENCENO",
+      "SAP_FLUX",
+      "SAP_FLUX_ERR",
+      "SAP_BKG",
+      "SAP_BKG_ERR",
+      "PDCSAP_FLUX",
+      "PDCSAP_FLUX_ERR",
+      "QUALITY",
+      "PSF_CENTR1",
+      "PSF_CENTR1_ERR",
+      "PSF_CENTR2",
+      "PSF_CENTR2_ERR",
+      "MOM_CENTR1",
+      "MOM_CENTR1_ERR",
+      "MOM_CENTR2",
+      "MOM_CENTR2_ERR",
+      "POS_CORR1",
+      "POS_CORR2"
+    ]
+  },
+  {
+    "tic": "155346713",
+    "sector": 7,
+    "provenance": "TGLC",
+    "caom_rows": [
+      {
+        "sequence_number": 7,
+        "dataURL": "mast:HLSP/tglc/s0007/cam2-ccd2/0056/9431/4546/3911/hlsp_tglc_tess_ffi_gaiaid-5694314546391164032-s0007-cam2-ccd2_tess_v1_llc.fits",
+        "provenance_name": "TGLC",
+        "target_name": "155346713"
+      }
+    ],
+    "status": "ok",
+    "path": "[local-path-redacted]",
+    "sha256": "09685f2919461e8e281640f13a3f376f0fae0c8885afe679383fc5b6bd8c6356",
+    "bytes": 48960,
+    "fits_identity": {
+      "TICID": "155346713",
+      "TIC_ID": "None",
+      "SECTOR": "7",
+      "OBJECT": "Gaia DR3 5694314546391164032",
+      "TELESCOP": "TESS"
+    },
+    "columns": [
+      "time",
+      "psf_flux",
+      "aperture_flux",
+      "cal_psf_flux",
+      "cal_aper_flux",
+      "background",
+      "cadence_num",
+      "TESS_flags",
+      "TGLC_flags"
+    ]
+  }
+]

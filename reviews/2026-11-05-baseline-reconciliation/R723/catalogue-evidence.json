@@ -1,0 +1,72 @@
+{
+  "tic": "241479387",
+  "gaia_source_id": "6070539937618487040",
+  "catalogue_status": "UNKNOWN_INCOMPLETE_SCOPED_CHECKS",
+  "scoped_results": [
+    {
+      "tic": "241479387",
+      "catalogue": "vsx",
+      "table": "B/vsx/vsx",
+      "status": "unavailable",
+      "rows": [],
+      "receipt": "receipts\\241479387-vsx.json"
+    },
+    {
+      "tic": "241479387",
+      "catalogue": "asassn",
+      "table": "II/366/catv2021",
+      "status": "unavailable",
+      "rows": [],
+      "receipt": "receipts\\241479387-asassn.json"
+    },
+    {
+      "tic": "241479387",
+      "catalogue": "prsa2022",
+      "table": "J/ApJS/258/16/tess-ebs",
+      "status": "success",
+      "rows": [],
+      "receipt": "receipts\\241479387-prsa2022.json"
+    },
+    {
+      "tic": "241479387",
+      "catalogue": "ijspeert2024",
+      "table": "J/A+A/691/A242/obaf-eb1",
+      "status": "success",
+      "rows": [],
+      "receipt": "receipts\\241479387-ijspeert2024.json"
+    },
+    {
+      "tic": "241479387",
+      "catalogue": "kostov2025_table3",
+      "table": "J/ApJS/279/50/table3",
+      "status": "unavailable",
+      "rows": [],
+      "receipt": "receipts\\241479387-kostov2025_table3.json"
+    },
+    {
+      "tic": "241479387",
+      "catalogue": "kostov2025_table4",
+      "table": "J/ApJS/279/50/table4",
+      "status": "unavailable",
+      "rows": [],
+      "receipt": "receipts\\241479387-kostov2025_table4.json"
+    }
+  ],
+  "live_vsx": [
+    {
+      "tic": "241479387",
+      "gaia_dr3": "6070539937618487040",
+      "url": "https://www.aavso.org/vsx/index.php?view=api.list&ra=206.06768158998938&dec=-49.4295364304687&radius=0.016666666666666666&format=json",
+      "queried_at_utc": "2026-11-05T01:57:22.299075+00:00",
+      "radius_arcsec": 60,
+      "timeout_seconds": 10,
+      "scope": "Direct live VSX list API cone supplement; no magnitude/AUID filter; pagination/truncation limits not independently certified, not full catalogue gate",
+      "status": "success_scoped_supplement",
+      "rows": [],
+      "file": "live-vsx\\241479387.txt",
+      "sha256": "9430149012af1f521d20df8252c0953bbc9bd19f2ed354eaca8d9ef4430ce53f",
+      "bytes": 17
+    }
+  ],
+  "note": "Full-source Prsa/IJspeert nonmatches and exact Gaia/SIMBAD scoped checks do not clear missing ASAS-SN/Kostov; direct VSX explicit empty is a scoped supplement with completeness uncertified. No new-system claim."
+}

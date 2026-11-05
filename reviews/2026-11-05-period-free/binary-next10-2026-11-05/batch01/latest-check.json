@@ -1,0 +1,39 @@
+[
+  {
+    "sample_id": "N005",
+    "tic": "269900850",
+    "sector": 93,
+    "request_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=150.3291522713222&dec=-88.74354334953391&x=11&y=11&units=px&sector=93",
+    "fits_sha256": "06a470b2a3220db4a76be8bc08ec7b3a6a616ba2663b1f2c620cba780c60cc36",
+    "total_rows": 11047,
+    "quality0_rows": 10917,
+    "finite_good_rows": 10917,
+    "target_pixel": [
+      5.351687983823609,
+      5.615021167192054
+    ],
+    "mask_pixels": 9,
+    "first_btjd": 3829.8632157136763,
+    "last_btjd": 3856.041213836972,
+    "n": 10917,
+    "median_flux": 0.6474908753298223,
+    "positive_fraction": 0.9982595951268664,
+    "max_gap_days": 0.2245335518173306
+  },
+  {
+    "sample_id": "N010",
+    "tic": "325817130",
+    "sector": 102,
+    "request_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=209.74935770299015&dec=-65.345521645743&x=11&y=11&units=px&sector=102",
+    "fits_sha256": "f5f77510239c7ebf3d0d4ef145219998f3e3ddbbc3e48c8779674a12a6b1cddc",
+    "total_rows": 10442,
+    "quality0_rows": 10239,
+    "finite_good_rows": 0,
+    "target_pixel": [
+      5.2041360242260986,
+      5.926937780833281
+    ],
+    "mask_pixels": 9,
+    "interpretation": "No valid q0 finite cutout cadences; cannot furnish a sensitive null."
+  }
+]

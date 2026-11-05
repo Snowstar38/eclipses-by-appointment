@@ -1,0 +1,70 @@
+{
+  "sample_id": "T051",
+  "tic": "288157030",
+  "gaia_period_days": 54.69522926315187,
+  "source_bulk": "[local-path-redacted]",
+  "source_bulk_sha256": "11538b9f5165e2614f05fb6a032a0779b95fe99c593494f9dd1abd55768a5871",
+  "file_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "89baeb13d87a03faa184adba67cf727b29f53062ae9ee7a4e6fe08238bc1c7e6",
+      "sector": 6
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e24983686d8de15a0576beef39379d4fa6ec26d67752e07dbbe8674ddad79ece",
+      "sector": 33
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "523bee1191e4898b925d77b0d14bae5acff74bf2b622cafb29bcf888d53cc438",
+      "sector": 87
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 6,
+      "first": 1468.2860485249626,
+      "last": 1490.0362006917885,
+      "n": 992,
+      "n_quality0": 888,
+      "median_cadence_days": 0.020833495989563744,
+      "max_gap_days": 1.1250095010361747
+    },
+    {
+      "sector": 33,
+      "first": 2201.737149219971,
+      "last": 2227.5704955781607,
+      "n": 3495,
+      "n_quality0": 3348,
+      "median_cadence_days": 0.006944448285594262,
+      "max_gap_days": 1.5763893659577661
+    },
+    {
+      "sector": 87,
+      "first": 3663.040609059363,
+      "last": 3689.9410580483745,
+      "n": 11350,
+      "n_quality0": 10166,
+      "median_cadence_days": 0.0023148066038629622,
+      "max_gap_days": 0.21296185200162654
+    }
+  ],
+  "retained_flag_windows": [
+    {
+      "sector": 87,
+      "kind": "dip",
+      "time": 3677.0800734292275,
+      "duration": 0.96,
+      "depth": 0.024684822343543855,
+      "contrast": 6.152828779019494,
+      "core_samples": 391,
+      "core_quality0": 367,
+      "side_quality0": 794,
+      "raw_core_median_ppt": 32.225168047806285,
+      "core_first": 3676.6564644697473,
+      "core_last": 3677.559237905527
+    }
+  ],
+  "note": "Retained windows and Gaia folds are predictions/screening only. Numeric core medians are not fitted eclipse depths."
+}

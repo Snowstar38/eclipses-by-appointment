@@ -1,0 +1,11 @@
+{
+  "key": "simbad",
+  "queue_sha256": "099f6f7c1987846fc066c4e9f8f75516b91c9aef9fc071a2799759bedf6e0697",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "body": "REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+ident.id%2Cbasic.main_id%2Cbasic.otype%2Cbasic.ra%2Cbasic.dec+FROM+ident+JOIN+basic+ON+ident.oidref%3Dbasic.oid+WHERE+ident.id+IN+%28%27Gaia+DR3+198469274814509696%27%2C%27Gaia+DR3+519229595829825152%27%2C%27Gaia+DR3+5199982193069006976%27%2C%27Gaia+DR3+525153146007554816%27%2C%27Gaia+DR3+5356277083791572480%27%29",
+  "queried_at_utc": "2026-11-03T23:57:03.377951+00:00",
+  "status": "success",
+  "sha256": "027ca67ded48b262050e25e89bc889c81464267e62cb8bfc559d8d1bf9a052d4",
+  "file": "raw\\simbad.txt",
+  "bytes": 480
+}

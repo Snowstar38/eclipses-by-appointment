@@ -1,0 +1,50 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2026-11-05T06:09:35 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-05T06:09:35	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F279%2F50%2Ftable4&-c=291.46516629119446+-53.7794275640246&-c.rs=5&-out.max=100&-out.all=&-out.add=_r&-sort=_r	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=291.465166-53.779428,rs=5.	
+#Constraint -sort=_r
+
+#RESOURCE=yCat_22790050
+#Name: J/ApJS/279/50
+#Title: TESS Ten Thousand Catalog: Eclipsing Binaries (Kostov+, 2025)
+#INFO	ivoid=ivo://cds.vizier/j/apjs/279/50	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/apjs/279/50	    IVOID of underlying data collection
+#INFO	creator=Kostov V.B.	    First author or institution
+#INFO	cites=bibcode:2025ApJS..279...50K	    Article or Data origin sources
+#INFO	journal=ApJS	    Journal name
+#INFO	original_date=2025	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/279/50	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier/bb-8q-1j	    Dataset identifier that can be used for citation
+#INFO	publication_date=2026-09-14	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_ApJS_279_50_table4:
+#Name: J/ApJS/279/50/table4
+#Title: Comparison between the correct period measured from TESS and literature periods for 2065 known EBs
+#Column	_r	(F5.3)	Distance from center (291.46516629-53.77942756)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	TIC	(I10)	[10507/1421145304] TESS Input catalog	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F12.8)	Right Ascension, decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F12.8)	[-89/89] Declination, decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Per-TESS	(F9.6)	[0.56/19.6] TESS Period	[ucd=time.period]
+#Column	T0-TESS	(F11.6)	[1325.47/3687.22] TESS T0, BJD-2,457,000	[ucd=time.epoch]
+#Column	Per-Gaia	(F10.6)	[0.2/406.1]? Gaia DR3 period	[ucd=time.period]
+#Column	Ratio1	(F5.2)	[0/6.7]? Gaia vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ASAS	(F9.6)	[0.23/50.61]? ASAS-SN (Rowan+ 2022, J/MNRAS/517/2190) period	[ucd=time.period]
+#Column	Ratio2	(F5.2)	[0/6]? ASAS-SN vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ATLAS	(F10.6)	[0.42/144.81]? ATLAS (Heinze+ 2018, J/AJ/156/241) period	[ucd=time.period]
+#Column	Ratio3	(F5.2)	[0/6]? ATLAS vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-VSX	(F9.6)	[0.25/38]? VSX period	[ucd=time.period]
+#Column	Ratio4	(F5.2)	[0/6]? VSX vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-WISE	(F9.6)	[0.28/4.6]? WISE (Petrosky+ 2021, J/MNRAS/503/3975) period	[ucd=time.period]
+#Column	Ratio5	(F4.1)	[1/6]? WISE vs TESS period ratio	[ucd=time.period;arith.ratio]
+#Column	Per-ZTF	(F9.6)	[0.63/7.66]? ZTF period	[ucd=time.period]
+#Column	Ratio6	(F5.2)	[1/2.33]? ZTF vs TESS period ratio	[ucd=time.period;arith.ratio]

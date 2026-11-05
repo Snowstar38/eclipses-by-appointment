@@ -1,0 +1,161 @@
+{
+  "selection": "Two retained appointment leads, fixed before batch03 full review; no physical or novelty acceptance implied",
+  "source_sha256": {
+    "[local-path-redacted]": "5efdf9a07e9c6e4f0f1caf77aa669c3e39207e5dd7d40d7f05536a508bc08672",
+    "[local-path-redacted]": "5ad728ffe002d5fb866fb62e0b94b27a13c074d51ab2d70d4ace81e4acb2af29",
+    "[local-path-redacted]": "2356a3908db5d2a966f793d9046e891d91155bd4b83e17fcd99c051e959f36c3",
+    "[local-path-redacted]": "88b9786936edef580b355b3d7f6254826bd893daa27ba1a47d9ca191413a8395",
+    "[local-path-redacted]": "a9525ac059b73fc0f0ab9f35f70cdf0ef9b4ee2c44fb84f99081b09cc673fcae",
+    "[local-path-redacted]": "9ced0eb6520816cb10bb02d4ddf5a5c381e3bb29527fbdfbc05e54903e77d203",
+    "[local-path-redacted]": "b30014927e621f3c99f859950db18a8c5aae9336b8800412e662e51a3c81ad10",
+    "[local-path-redacted]": "96a1f9d1263e6df64e728a67be3e4ab79fcb384d82d316eb90d766f0848c6c0c"
+  },
+  "targets": {
+    "167197264": {
+      "gaia_source_id": "1868634515521921152",
+      "screening_jsonl_line_sha256": "865cc63250dbc5bda78bfcf429174ffe0e13e247bc17479274ff3dbca5151d0f",
+      "triage_row": {
+        "tic": "167197264",
+        "gaia_source_id": "1868634515521921152",
+        "gaia_g": "11.546069",
+        "gaia_period_days": "41.80402",
+        "best_kind": "B",
+        "best_sector": "82",
+        "best_center_btjd": "3547.5842",
+        "best_snr": "182.74",
+        "best_depth_ppm": "26242",
+        "screening_cuts": "True",
+        "same_kind_flagged_windows": "2",
+        "null_windows": "0",
+        "z": "",
+        "visual_disposition": "unusual_repeated_signal",
+        "reason": "Broad smooth repeated minima at Gaia period; eclipse versus heartbeat/tidal variation needs full review.",
+        "followup_tier": "later_unusual_review",
+        "screen_plot": "167197264-screen.png"
+      },
+      "raw_fits": [
+        {
+          "sector": 76,
+          "path": "[local-path-redacted]",
+          "sha256": "2406610c696484522d8de4557992a377aad3fb2ab8849bcf3979c0726056af3a",
+          "uri": "mast:HLSP/qlp/s0076/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0076-0000000167197264_tess_v02_llc.fits"
+        },
+        {
+          "sector": 82,
+          "path": "[local-path-redacted]",
+          "sha256": "0a2f67bbf508bf3620ebc5b7b9f54f16c1293541226281fa8049ec54521fe1c2",
+          "uri": "mast:HLSP/qlp/s0082/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0082-0000000167197264_tess_v01_llc.fits"
+        },
+        {
+          "sector": 83,
+          "path": "[local-path-redacted]",
+          "sha256": "d8d311c18a601265b88031066afa4116e6e6caa0e0043850faaa19ab0c598534",
+          "uri": "mast:HLSP/qlp/s0083/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0083-0000000167197264_tess_v01_llc.fits"
+        }
+      ],
+      "screen_plot": {
+        "path": "[local-path-redacted]",
+        "sha256": "f8303c8b70a9b364dfe01e5db0cd4e530a197ad43717b9d305f683dfbfbea441"
+      },
+      "qlp_all_sector_uri": [
+        [
+          15,
+          "mast:HLSP/qlp/s0015/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0015-0000000167197264_tess_v01_llc.fits"
+        ],
+        [
+          55,
+          "mast:HLSP/qlp/s0055/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0055-0000000167197264_tess_v01_llc.fits"
+        ],
+        [
+          56,
+          "mast:HLSP/qlp/s0056/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0056-0000000167197264_tess_v01_llc.fits"
+        ],
+        [
+          75,
+          "mast:HLSP/qlp/s0075/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0075-0000000167197264_tess_v02_llc.fits"
+        ],
+        [
+          76,
+          "mast:HLSP/qlp/s0076/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0076-0000000167197264_tess_v02_llc.fits"
+        ],
+        [
+          82,
+          "mast:HLSP/qlp/s0082/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0082-0000000167197264_tess_v01_llc.fits"
+        ],
+        [
+          83,
+          "mast:HLSP/qlp/s0083/0000/0001/6719/7264/hlsp_qlp_tess_ffi_s0083-0000000167197264_tess_v01_llc.fits"
+        ]
+      ]
+    },
+    "155346713": {
+      "gaia_source_id": "5694314546391164032",
+      "screening_jsonl_line_sha256": "807b9b155eb6e93747aa0e3de12824ee49cf3663662eac89a27f8561e17c4544",
+      "triage_row": {
+        "tic": "155346713",
+        "gaia_source_id": "5694314546391164032",
+        "gaia_g": "11.543583",
+        "gaia_period_days": "33.63348",
+        "best_kind": "A",
+        "best_sector": "88",
+        "best_center_btjd": "3702.3228",
+        "best_snr": "672.71",
+        "best_depth_ppm": "123170",
+        "screening_cuts": "True",
+        "same_kind_flagged_windows": "1",
+        "null_windows": "0",
+        "z": "",
+        "visual_disposition": "credible_single_event",
+        "reason": "One strong deep symmetric event at BTJD 3702.323 in s88 over pulsations; no demonstrated same-kind recurrence in downloaded sectors.",
+        "followup_tier": "later_repeat_search",
+        "screen_plot": "155346713-screen.png"
+      },
+      "raw_fits": [
+        {
+          "sector": 34,
+          "path": "[local-path-redacted]",
+          "sha256": "e1a777f314c0740edc80bda4b77c0cc891a7a340117b841e8b4d3db593317585",
+          "uri": "mast:HLSP/qlp/s0034/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0034-0000000155346713_tess_v01_llc.fits"
+        },
+        {
+          "sector": 61,
+          "path": "[local-path-redacted]",
+          "sha256": "19ac0031dd8501906fefe533bdaf4f115c01223a4dfc98dd72ade1f89b3edf40",
+          "uri": "mast:HLSP/qlp/s0061/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0061-0000000155346713_tess_v01_llc.fits"
+        },
+        {
+          "sector": 88,
+          "path": "[local-path-redacted]",
+          "sha256": "9a747b016f4e9453651ea317e37363f101f24b73538413ed9082cffc2f2f282d",
+          "uri": "mast:HLSP/qlp/s0088/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0088-0000000155346713_tess_v01_llc.fits"
+        }
+      ],
+      "screen_plot": {
+        "path": "[local-path-redacted]",
+        "sha256": "c43f619a321f3e79e7885495fb4b9bf9f97016cdd4db2ffb14601d95fefac0b0"
+      },
+      "qlp_all_sector_uri": [
+        [
+          7,
+          "mast:HLSP/qlp/s0007/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0007-0000000155346713_tess_v01_llc.fits"
+        ],
+        [
+          8,
+          "mast:HLSP/qlp/s0008/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0008-0000000155346713_tess_v01_llc.fits"
+        ],
+        [
+          34,
+          "mast:HLSP/qlp/s0034/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0034-0000000155346713_tess_v01_llc.fits"
+        ],
+        [
+          61,
+          "mast:HLSP/qlp/s0061/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0061-0000000155346713_tess_v01_llc.fits"
+        ],
+        [
+          88,
+          "mast:HLSP/qlp/s0088/0000/0001/5534/6713/hlsp_qlp_tess_ffi_s0088-0000000155346713_tess_v01_llc.fits"
+        ]
+      ]
+    }
+  }
+}

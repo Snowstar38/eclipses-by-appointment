@@ -1,0 +1,14 @@
+# Independent helper audit, T043-T050
+
+These are assessments of the flagged windows in the lead's raw plots, not a claim that any SB1 cannot also eclipse. Numeric checks use quality-zero SAP with |t - screen center| < 2 days; helper-rest.py records cadence gaps, local core samples, and FITS SHA-256 hashes. Duration and one-band raw shape alone do not prove an astrophysical or instrumental cause.
+
+- T043: S78 shows an abrupt level change followed by slow drift rather than a bounded repeatable eclipse. This is positive contrary morphology for this retained flag. It does not exclude a different event elsewhere.
+- T044: S6 has a broad drop and recovery with sparse, noisy samples, a 0.146 d internal gap in the local four-day window, and irregular jumps. A real isolated dip remains possible; the plot alone does not establish an artifact. Treat the eclipse interpretation as uncertain.
+- T045: S101 is predominantly monotonic decline, S104 a broad rise, and S27 includes a substantial gap and level change. S67 also contains a localized dip near a discontinuity, so those slopes do not establish that every feature is nonastrophysical. Distinguish a refuted detector window from the unresolved S67 event.
+- T046: S85 retained window lies on a rising baseline with gaps; the window does not show a self-contained eclipse. This is positive contrary morphology for the flagged dip, not a conclusion about the system as a whole.
+- T047: S7 has smooth adjacent troughs of similar morphology on both sides of the selected trough. A local 0.4-4 cycles/day Lomb-Scargle scan peaks at 1.3315 d (helper-rest-numeric.json); this is a descriptive variability timescale, not an orbital-period fit. These adjacent troughs positively support short-timescale variability as the explanation of this detector window.
+- T048: Only four quality-zero S26 cadences fall within 0.06 d of the seed; two lie approximately 9.6 ppt below the local median, two approximately 1.1 ppt below. Sparse samples cannot secure an eclipse morphology or rule it out; noise-limited plausible candidate.
+- T049: S61 shows a smooth descending wave through the seed and a 1.6713 d local gap, rather than a fully bounded eclipse. That positively undermines the retained window as an isolated event, while the gap precludes a full-shape inference. Newer sectors remain a separate coverage question.
+- T050: S27 shows a broad descent and deep irregular structure, followed by a 1.181 d gap across possible recovery. The morphology cannot securely distinguish an eclipse from variability or a level change; a plausible candidate remains. Examine S92 actual coverage and shape before interpreting a predicted null.
+
+T041/T042 detailed pixel, geometry and morphology findings are in helper-audit.txt. T042 independent aperture is a second reduction of the same photons, not a separate occasion. Close capable Gaia neighbors remain unresolved.

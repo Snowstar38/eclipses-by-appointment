@@ -1,0 +1,70 @@
+[
+  {
+    "sample_id": "T086",
+    "tic": "398402989",
+    "gaia_source_id": "6360777231720947328",
+    "kind": "A",
+    "cycle": 22,
+    "pred_btjd": 1666.1472366476783,
+    "observed_btjd": 1666.2111779481427,
+    "offset_days": 0.06394130046442115,
+    "linear_full_cov_sigma_days": 0.17670983142628072,
+    "offset_sigma": 0.3618434806277091,
+    "diagonal_only_sigma_days": 0.2175376741701384,
+    "jacobian_days_per_unit": {
+      "a_thiele_innes": 0.7595686041258705,
+      "b_thiele_innes": -1.6900508646898325,
+      "f_thiele_innes": 1.351763494110262,
+      "g_thiele_innes": -2.8631971712664592,
+      "eccentricity": -9.3578224142729,
+      "period": 22.045483669949096,
+      "t_periastron": 1.000000000810909
+    },
+    "correlation_min_eigenvalue": 0.06083657401832365,
+    "nss_file_sha256": "77c8d34e0258f3749e77a9906c3363953577cf6a674808af43ec2e722ccc342a",
+    "covariance_indices_0based": [
+      5,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14
+    ],
+    "caution": "Finite-difference linear propagation of Gaia 15-parameter full corr_vec into a fixed-cycle edge-on conjunction. No eclipse-timing measurement error or nonlinear/orbit model systematics included."
+  },
+  {
+    "sample_id": "T087",
+    "tic": "200743349",
+    "gaia_source_id": "4749907416157959424",
+    "kind": "A",
+    "cycle": 66,
+    "pred_btjd": 2135.8462308507405,
+    "observed_btjd": 2135.6536212389174,
+    "offset_days": -0.1926096118231726,
+    "linear_full_cov_sigma_days": 0.19650442598947693,
+    "offset_sigma": -0.9801795092060018,
+    "diagonal_only_sigma_days": 0.2538807951798652,
+    "jacobian_days_per_unit": {
+      "a_thiele_innes": -1.8105457074401834,
+      "b_thiele_innes": 0.76856313084619,
+      "f_thiele_innes": -2.2320397330305197,
+      "g_thiele_innes": 0.7756763512944912,
+      "eccentricity": -3.852809390722106,
+      "period": 66.04704795147094,
+      "t_periastron": 1.000000000755321
+    },
+    "correlation_min_eigenvalue": 0.05064894482432597,
+    "nss_file_sha256": "77c8d34e0258f3749e77a9906c3363953577cf6a674808af43ec2e722ccc342a",
+    "covariance_indices_0based": [
+      5,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14
+    ],
+    "caution": "Finite-difference linear propagation of Gaia 15-parameter full corr_vec into a fixed-cycle edge-on conjunction. No eclipse-timing measurement error or nonlinear/orbit model systematics included."
+  }
+]

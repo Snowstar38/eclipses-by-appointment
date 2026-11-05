@@ -1,0 +1,50 @@
+{
+  "tic": "323818250",
+  "files": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "51877b004a9d77d0495ea1b9096975294b3b2a5e5df56dc3a99b5952145e5e5c",
+      "target_pixel_0_based": [
+        5.357101088207675,
+        5.420291210880214
+      ],
+      "aperture_pixels": 9,
+      "quality_zero_samples": 1150,
+      "time_start": 1569.449947939496,
+      "time_end": 1595.6585723331875,
+      "median_net_counts": -0.10323341784533113,
+      "target_measurable": false,
+      "cadence_days": 0.02083355684317212,
+      "relative_flux_mad_ppt": null,
+      "predictions_from_screened_event_and_gaia_period": [],
+      "plot": "[local-path-redacted]"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "642e20037bb9f2b7593e0a262775b1b5769ea109bad9c4697bb98e963ab85d6e",
+      "target_pixel_0_based": [
+        5.77964901698923,
+        5.340257102070423
+      ],
+      "aperture_pixels": 9,
+      "quality_zero_samples": 11663,
+      "time_start": 3068.7434200295183,
+      "time_end": 3096.5880786456337,
+      "median_net_counts": 0.0880080645729322,
+      "target_measurable": false,
+      "cadence_days": 0.002314794881385751,
+      "relative_flux_mad_ppt": null,
+      "predictions_from_screened_event_and_gaia_period": [
+        {
+          "predicted_btjd": 3070.2200996228144,
+          "n_core": 259,
+          "n_side": 811,
+          "core_side_delta_ppt": null,
+          "closest_cadence_days": 0.00017190495464092237
+        }
+      ],
+      "plot": "[local-path-redacted]"
+    }
+  ],
+  "caution": "Target-centered TESSCut aperture uses calibrated pixel FLUX minus a local outer-pixel median. Near-zero target net counts mark unusable sectors, not nulls. Predictions from one screened event and Gaia period are conditional and are not measured eclipse centers."
+}

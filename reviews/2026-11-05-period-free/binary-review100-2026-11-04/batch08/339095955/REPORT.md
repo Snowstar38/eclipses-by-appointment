@@ -1,0 +1,9 @@
+# H079 — TIC 339095955
+
+**Physical verdict: REFUTED. Bounded review: COMPLETE. Catalogue novelty: UNKNOWN.** This is one frozen period_fold_only lead, not a new counted acceptance.
+
+The s73 3288.88 P/P2 prediction lies in the sector-start recovery and adjacent level step; it is a rising trend rather than a detached 12.8 ppt eclipse. The s19 prediction near 1830.68 has one-sided coverage and structured variability. The s59 prediction lies in a gap. There is no second reliable same-kind event at either 28.04 or 14.03 d.
+
+The search tried P=28.04240 d, predicted depth 12.85 ppt, P2=14.02619 d, predicted depth 12.85 ppt; Gaia SB1 orbital P=28.06574 d is separate spectroscopy, not a measured eclipse period. No reliable photometric period, timing epoch, error, or physical depth is assigned. P and P/2 predicted occasions and quality-filtered raw measurements are in [fold-inspection.json](fold-inspection.json) and [the event panels](fold-predicted-windows.png). Coverage: s19 BTJD 1817.33–1840.97 (903 quality-0 SAP cadences), s59 BTJD 2911.64–2936.64 (9804 quality-0 SAP cadences), s73 BTJD 3285.84–3312.60 (7409 quality-0 SAP cadences). The [full-sector plots](orbit-context.png) and [Gaia geometry estimates](orbit-context.json) provide context; conjunction predictions assume an edge-on orbit and do not establish eclipse timing. TESSCut currently lists 19, 59, 73, 86; unobserved or uncached windows are not called nulls.
+
+**Limits and next check.** The apparent fold depth is dominated by an evolving baseline and gaps; no photometric period is measured. Test any future isolated dip on a continuous baseline. A single reduction of TESS photons does not supply an independent observing occasion. The four central catalogue novelty gates remain unavailable, so UNKNOWN does not mean novel. [Source hashes](source-hashes.json) verify the packet, original bulk/fold results, and every used QLP FITS; the cutout receipts preserve any additional bytes.

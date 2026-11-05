@@ -1,0 +1,150 @@
+{
+  "sample_id": "H076",
+  "tic": "23885936",
+  "gaia_period_days": "29.275618406852885",
+  "fold_trials": {
+    "P": {
+      "P": 29.169935158576322,
+      "snr": 18.91725873125397,
+      "depth": 6481.30097102031,
+      "dur": 0.2,
+      "t0": 2716.393330307543,
+      "grid_low": 29.111296281852884,
+      "grid_high": 29.439940531852887,
+      "grid_count": 1234,
+      "z": 4.535678841709266,
+      "flag": true
+    },
+    "P2": {
+      "P": 14.588299333647448,
+      "snr": 14.497141781242266,
+      "depth": 5439.817213385902,
+      "dur": 0.07200000000000001,
+      "t0": 2701.7893303075425,
+      "grid_low": 14.555648140926442,
+      "grid_high": 14.719970265926444,
+      "grid_count": 1234,
+      "z": 2.9932915349164286,
+      "flag": false
+    }
+  },
+  "files": [
+    {
+      "sector": 51,
+      "path": "[local-path-redacted]",
+      "sha256": "0a173fb4769ab00ce344ac9d622b245618f1833888b672ab6c560a8bd69cb2b5",
+      "start": 2698.877328288495,
+      "end": 2717.4743338171297,
+      "n": 562,
+      "median_cadence_d": 0.013888586571738415
+    },
+    {
+      "sector": 91,
+      "path": "[local-path-redacted]",
+      "sha256": "0b943ae6f0f134fee0eab9de1bbed7e757cbeab503d3b794d7bcfbbf906e12dd",
+      "start": 3775.3265007977707,
+      "end": 3802.6833186556114,
+      "n": 7218,
+      "median_cadence_d": 0.00231483629977447
+    }
+  ],
+  "windows": [
+    {
+      "sector": 51,
+      "trial": "P",
+      "cycle": 0,
+      "predicted_btjd": 2716.393330307543,
+      "duration_days": 0.2,
+      "n_core": 17,
+      "n_left": 34,
+      "n_right": 31,
+      "core_max_gap_days": 0.03472143464887267,
+      "side_max_gap_days": 1.3610803054980352,
+      "sap_core_delta_ppt": -20.40773271636631,
+      "kspsap_core_delta_ppt": -5.878311990505702,
+      "sap_baseline": 0.9831974506378174,
+      "nearest_cadence_days": 0.0023041422496135056
+    },
+    {
+      "sector": 91,
+      "trial": "P",
+      "cycle": 37,
+      "predicted_btjd": 3795.6809311748666,
+      "duration_days": 0.2,
+      "n_core": 103,
+      "n_left": 237,
+      "n_right": 233,
+      "core_max_gap_days": 0.0023148117456912587,
+      "side_max_gap_days": 1.3009239874231753,
+      "sap_core_delta_ppt": 0.158729216812592,
+      "kspsap_core_delta_ppt": null,
+      "sap_baseline": 0.9994238317012787,
+      "nearest_cadence_days": 0.00010441724180054734
+    },
+    {
+      "sector": 51,
+      "trial": "P2",
+      "cycle": 0,
+      "predicted_btjd": 2701.7893303075425,
+      "duration_days": 0.07200000000000001,
+      "n_core": 16,
+      "n_left": 32,
+      "n_right": 36,
+      "core_max_gap_days": 0.03472225364066617,
+      "side_max_gap_days": 1.3194456593519135,
+      "sap_core_delta_ppt": 1.5457546030364089,
+      "kspsap_core_delta_ppt": 0.20385670661737798,
+      "sap_baseline": 0.9830350875854492,
+      "nearest_cadence_days": 0.0022720576607753173
+    },
+    {
+      "sector": 51,
+      "trial": "P2",
+      "cycle": 1,
+      "predicted_btjd": 2716.3776296411897,
+      "duration_days": 0.07200000000000001,
+      "n_core": 17,
+      "n_left": 36,
+      "n_right": 31,
+      "core_max_gap_days": 0.03472143464887267,
+      "side_max_gap_days": 1.3610803054980352,
+      "sap_core_delta_ppt": -19.953242241232516,
+      "kspsap_core_delta_ppt": -5.804342375950289,
+      "sap_baseline": 0.9833198189735413,
+      "nearest_cadence_days": 0.0004920506130474678
+    },
+    {
+      "sector": 91,
+      "trial": "P2",
+      "cycle": 74,
+      "predicted_btjd": 3781.3234809974538,
+      "duration_days": 0.07200000000000001,
+      "n_core": 0,
+      "n_left": 237,
+      "n_right": 0,
+      "core_max_gap_days": null,
+      "side_max_gap_days": 0.002314871391718043,
+      "sap_core_delta_ppt": null,
+      "kspsap_core_delta_ppt": null,
+      "sap_baseline": 0.9992204904556274,
+      "nearest_cadence_days": 0.24912308684042728
+    },
+    {
+      "sector": 91,
+      "trial": "P2",
+      "cycle": 75,
+      "predicted_btjd": 3795.911780331101,
+      "duration_days": 0.07200000000000001,
+      "n_core": 104,
+      "n_left": 237,
+      "n_right": 238,
+      "core_max_gap_days": 0.0023148109744397516,
+      "side_max_gap_days": 1.303238327599047,
+      "sap_core_delta_ppt": -0.03607334109734239,
+      "kspsap_core_delta_ppt": null,
+      "sap_baseline": 0.999652624130249,
+      "nearest_cadence_days": 0.0007363509726019402
+    }
+  ],
+  "method": "QUALITY=0 SAP and KSPSAP local median core \u00b1max(0.12,duration/2) d versus side 0.65\u20131.2 d; predicted times, not measured centers. Missing cadences excluded; n and max gap reported."
+}

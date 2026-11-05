@@ -1,0 +1,104 @@
+{
+  "tic": "95836684",
+  "gaia_source_id": "3989601374727008128",
+  "screen_period_days": 22.499270362619857,
+  "screen_epoch_btjd": 1918.5035196911874,
+  "screen_duration_days": 0.18,
+  "source_receipts": [
+    {
+      "tic": "95836684",
+      "sector": 22,
+      "uri": "mast:HLSP/qlp/s0022/0000/0000/9583/6684/hlsp_qlp_tess_ffi_s0022-0000000095836684_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:31:54.542653+00:00",
+      "status": "ok",
+      "sha256": "dacb44303d6da7229f16572050a37b7d17a031fd1e1c9eb08bf7b590c816c5a4",
+      "bytes": 80640
+    },
+    {
+      "tic": "95836684",
+      "sector": 48,
+      "uri": "mast:HLSP/qlp/s0048/0000/0000/9583/6684/hlsp_qlp_tess_ffi_s0048-0000000095836684_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:31:55.017873+00:00",
+      "status": "ok",
+      "sha256": "d5d1822884c51a0333c865fd434153e9e5f1b79ff89a8beab95b7c3b7e3ca72e",
+      "bytes": 224640
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 22,
+      "first_btjd": 1901.2455165406293,
+      "last_btjd": 1926.4742702736273,
+      "cadence_days": 0.020832979447277467,
+      "n": 900
+    },
+    {
+      "sector": 48,
+      "first_btjd": 2609.3349563077986,
+      "last_btjd": 2635.953545411995,
+      "cadence_days": 0.006944636200159948,
+      "n": 2525
+    }
+  ],
+  "events": [
+    {
+      "sector": 22,
+      "cycle": 0,
+      "predicted_btjd": 1918.5035196911874,
+      "mid_btjd": 1918.5069576299863,
+      "formal_timing_error_days": 0.0001887950405095147,
+      "timing_error_days": 0.010416489723638733,
+      "timing_usable": true,
+      "depth_ppt": 90.860625924673,
+      "model_amplitude_ppt": 90.860625924673,
+      "duration_days": 0.20399791330272088,
+      "ingress_parameter_days": 0.05649548256828733,
+      "oot_scatter_ppt": 0.7409379206825111,
+      "n": 69,
+      "cadence_days": 0.020832979447277467,
+      "source_sha256": "dacb44303d6da7229f16572050a37b7d17a031fd1e1c9eb08bf7b590c816c5a4"
+    },
+    {
+      "sector": 48,
+      "cycle": 31,
+      "predicted_btjd": 2615.980900932403,
+      "mid_btjd": 2615.985576103522,
+      "formal_timing_error_days": 0.00023608077963475948,
+      "timing_error_days": 0.003472318100079974,
+      "timing_usable": true,
+      "depth_ppt": 88.43929335784966,
+      "model_amplitude_ppt": 88.43929335784966,
+      "duration_days": 0.20180645245070444,
+      "ingress_parameter_days": 0.0526103812422433,
+      "oot_scatter_ppt": 1.3538550658828725,
+      "n": 174,
+      "cadence_days": 0.006944636200159948,
+      "source_sha256": "d5d1822884c51a0333c865fd434153e9e5f1b79ff89a8beab95b7c3b7e3ca72e"
+    }
+  ],
+  "timing_event_count": 2,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 22.49931027333981,
+  "period_error_days": 0.00035419332973554317,
+  "reference_epoch_btjd": 1918.5069576299854,
+  "epoch_error_days": 0.010416489723638732,
+  "reference_cycle": 0,
+  "reduced_chi_square": null,
+  "timing_residual_days": [
+    9.094947017729282e-13,
+    2.2737367544323206e-12
+  ],
+  "depth_ppt": 89.64995964126133,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "generic_orbital_period_days": null,
+  "generic_orbital_period_error_days": null,
+  "generic_orbital_epoch_btjd": null,
+  "period_status": "Conditional two-event cycle-count ephemeris only; alternative integer counts remain. Generic orbital ephemeris intentionally unestablished.",
+  "physical_verdict": "PLAUSIBLE",
+  "full_review_completion": "COMPLETE",
+  "catalogue_status": "UNKNOWN_INCOMPLETE_SCOPED_CHECKS",
+  "verdict_reason": "Two deep flat-bottomed raw eclipses are target-centered and survive the separate extraction, but the31-cycle assignment is conditional. Nearby integer counts29,30,32,33 remain without sensitive actual coverage nulls. A half-period null does not resolve these distant integer alternatives. A third independent observing occasion is required; generic orbital fields are blank."
+}

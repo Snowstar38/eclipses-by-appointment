@@ -1,0 +1,129 @@
+{
+  "tic": "95623701",
+  "gaia_source_id": "6022994237355035264",
+  "screen_period_days": 22.41308078552545,
+  "screen_epoch_btjd": 1648.0538711422107,
+  "screen_duration_days": 0.081,
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sector": 12,
+      "sha256": "7e20ed47271c46371455ddd704a36b37af968c0e28443105c3f6813062040c41"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 39,
+      "sha256": "014e183cf6d076ad26f0fffedccce2da7d933fa4eef3ad99b95147328cfdb5cf"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 65,
+      "sha256": "e151fd3bea53ddaeec710cbb29228fe4a4a50769863608930f4d869cb44bb268"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sector": 103,
+      "sha256": "c5498836440d34e2560cd4bb3ca6b09a972653ea3563db06e7eb896569c73c16"
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 12,
+      "first_btjd": 1629.8915349313006,
+      "last_btjd": 1652.8495886020007,
+      "cadence_days": 0.02083295021259346,
+      "n": 611
+    },
+    {
+      "sector": 39,
+      "first_btjd": 2361.953757326914,
+      "last_btjd": 2386.7866685036506,
+      "cadence_days": 0.006944385767155836,
+      "n": 2417
+    },
+    {
+      "sector": 65,
+      "first_btjd": 3068.800166041496,
+      "last_btjd": 3094.1016025359913,
+      "cadence_days": 0.0023148730901993986,
+      "n": 10176
+    },
+    {
+      "sector": 103,
+      "first_btjd": 4152.628673328171,
+      "last_btjd": 4177.422642976745,
+      "cadence_days": 0.002314813697921636,
+      "n": 9075
+    }
+  ],
+  "events": [
+    {
+      "sector": 12,
+      "cycle": 0,
+      "predicted_btjd": 1648.0538711422107,
+      "mid_btjd": 1648.049781046679,
+      "formal_timing_error_days": 6.793549988961749e-05,
+      "timing_error_days": 0.01041647510629673,
+      "timing_usable": true,
+      "depth_ppt": 165.79649035031636,
+      "model_amplitude_ppt": 165.79649035031636,
+      "duration_days": 0.08737053568247137,
+      "ingress_parameter_days": 0.016145539954102638,
+      "oot_scatter_ppt": 0.9831886311846721,
+      "n": 60,
+      "cadence_days": 0.02083295021259346,
+      "source_sha256": "7e20ed47271c46371455ddd704a36b37af968c0e28443105c3f6813062040c41"
+    },
+    {
+      "sector": 39,
+      "cycle": 32,
+      "predicted_btjd": 2365.2724562790254,
+      "mid_btjd": 2365.239473859147,
+      "formal_timing_error_days": 0.0021536836262306728,
+      "timing_error_days": 0.003472192883577918,
+      "timing_usable": true,
+      "depth_ppt": 20.520070398027986,
+      "model_amplitude_ppt": 20.520070398027986,
+      "duration_days": 0.15620686459321678,
+      "ingress_parameter_days": 0.06219250252265712,
+      "oot_scatter_ppt": 2.5526576538751224,
+      "n": 147,
+      "cadence_days": 0.006944385767155836,
+      "source_sha256": "014e183cf6d076ad26f0fffedccce2da7d933fa4eef3ad99b95147328cfdb5cf"
+    },
+    {
+      "sector": 103,
+      "cycle": 112,
+      "predicted_btjd": 4158.318919121061,
+      "mid_btjd": 4158.315640895798,
+      "formal_timing_error_days": 4.604052089743057e-05,
+      "timing_error_days": 0.001157406848960818,
+      "timing_usable": true,
+      "depth_ppt": 154.30114701797888,
+      "model_amplitude_ppt": 154.30114701797888,
+      "duration_days": 0.15816923282712825,
+      "ingress_parameter_days": 0.06439364225553935,
+      "oot_scatter_ppt": 0.81723717218566,
+      "n": 509,
+      "cadence_days": 0.002314813697921636,
+      "source_sha256": "c5498836440d34e2560cd4bb3ca6b09a972653ea3563db06e7eb896569c73c16"
+    }
+  ],
+  "timing_event_count": 3,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "conditional_112_cycle_period_days": 22.413385024330356,
+  "conditional_112_cycle_formal_period_error_days": 0.00014763235215429208,
+  "conditional_112_cycle_reference_epoch_btjd": 1648.0163530885472,
+  "conditional_112_cycle_formal_epoch_error_days": 0.015670457984955324,
+  "conditional_112_cycle_reference_cycle": 0,
+  "conditional_112_cycle_reduced_chi_square": 12.561792948576844,
+  "conditional_112_cycle_residual_days": [
+    0.0334279581318242,
+    -0.005200007971779996,
+    0.00016508225144207245
+  ],
+  "median_selected_event_realized_depth_ppt": 154.30114701797888,
+  "conditional_alias_warning": "The 112-cycle linear fit is conditional on assigning sector-12/103 deep events and sector-39 weak event to one clock. A fully covered sector-65 window is a same-branch clean null; source ownership and alternative integer aliases are unresolved. These formal errors are not ephemeris uncertainties and must not populate generic result fields."
+}

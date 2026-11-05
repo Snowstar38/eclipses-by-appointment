@@ -1,0 +1,54 @@
+{
+  "tic": 155346713,
+  "gaia_dr3_source_id": "5694314546391164032",
+  "gaia_period_days": 33.63348396287843,
+  "method": "QLP QUALITY=0 raw SAP, local linear baseline plus trapezoid; point estimates are descriptive, covariance statistical only",
+  "events": [
+    {
+      "kind": "B",
+      "sector": 7,
+      "center_btjd": 1502.4991802377147,
+      "formal_center_error_days": 0.0006452773261437094,
+      "half_cadence_days": 0.010416856124379592,
+      "depth_ppt": 56.86092935707445,
+      "duration_days": 0.2331848918098388,
+      "ingress_days": 0.055802581638187444,
+      "n_fit_points": 56,
+      "source_sha256": "a2274d04d624e7f38e6527a8643fd7fb52abc80e3479899bf656b77e2f1d52a7",
+      "limitation": "Trapezoid and local linear baseline on pulsating flux; aperture-dependent depth and model-systematic timing not in covariance"
+    },
+    {
+      "kind": "A",
+      "sector": 88,
+      "center_btjd": 3702.328987859443,
+      "formal_center_error_days": 0.0005391334600197626,
+      "half_cadence_days": 0.0011574125044262473,
+      "depth_ppt": 136.59365999015404,
+      "duration_days": 1.02875829547312,
+      "ingress_days": 0.3639790559728974,
+      "n_fit_points": 1285,
+      "source_sha256": "9a747b016f4e9453651ea317e37363f101f24b73538413ed9082cffc2f2f282d",
+      "limitation": "Trapezoid and local linear baseline on pulsating flux; aperture-dependent depth and model-systematic timing not in covariance"
+    }
+  ],
+  "sector7_A_partial": {
+    "first_ingress_btjd_approximately": 1515.75,
+    "last_qlp_q0_btjd": 1516.0358262045845,
+    "last_segment_min_relative_to_preceding_median": 0.8962265735205213,
+    "forecast_center_btjd_from_s88_and_65_gaia_cycles": 1516.1525302723448,
+    "cycle_alias_test": "65 cycles is compatible with a partial ingress, but center and egress are not observed; no photometric same-kind period measured",
+    "source_sha256": "a2274d04d624e7f38e6527a8643fd7fb52abc80e3479899bf656b77e2f1d52a7"
+  },
+  "sector61_B_forecast": {
+    "from_s7_B_plus_44_gaia_cycles_btjd": 2982.3724746043654,
+    "bracketing_q0_btjd": [
+      2982.1925865001117,
+      2982.4124931969723
+    ],
+    "gap_days": 0.21990669686056208,
+    "status": "predicted B core lies within quality-zero cadence gap; not a clean null",
+    "source_sha256": "19ac0031dd8501906fefe533bdaf4f115c01223a4dfc98dd72ade1f89b3edf40"
+  },
+  "same_kind_period_days": null,
+  "same_kind_period_reason": "Only one complete center for each eclipse kind; s7 A is ingress-only; s61 B core falls in a quality-zero gap."
+}

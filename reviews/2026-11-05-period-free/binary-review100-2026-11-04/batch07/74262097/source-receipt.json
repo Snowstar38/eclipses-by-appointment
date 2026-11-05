@@ -1,0 +1,98 @@
+{
+  "sample_id": "H062",
+  "tic": "74262097",
+  "queue_sha256": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+  "bulk_json": "[local-path-redacted]",
+  "bulk_json_sha256": "49724f005609b1429772e5c032eedd714b2cc56bf71fc5f9e33d2b8607f5354d",
+  "source_packet": "[local-path-redacted]",
+  "source_packet_sha256": "e79bacc7d4ab6d204fb9d721397abdbf801f93b7e643dfe279710e55c7be61af",
+  "verified_qlp_fits": [
+    {
+      "sector": 12,
+      "path": "[local-path-redacted]",
+      "sha256": "31f10433d8cb0c73cb9653bb984c7d117406148e07653a1cecf445dbd30b2661"
+    },
+    {
+      "sector": 39,
+      "path": "[local-path-redacted]",
+      "sha256": "4461f65b48ffa8d230dc81a66b254f084ff516af5bf666f3bd6f5e73026fb0f3"
+    },
+    {
+      "sector": 66,
+      "path": "[local-path-redacted]",
+      "sha256": "253f71c240560d4e0b388879e174fa4ef52d24ebb96a007713088df8574ae5da"
+    },
+    {
+      "sector": 93,
+      "path": "[local-path-redacted]",
+      "sha256": "55635403ae07d2c249034dffba80841cb49526e2424aab63da8faf08ec984088"
+    },
+    {
+      "sector": 100,
+      "path": "[local-path-redacted]",
+      "sha256": "2817a20374b7666caf7a52de794bf537dd7d37cd9f173d2767a38c44a295b6d2"
+    },
+    {
+      "sector": 103,
+      "path": "[local-path-redacted]",
+      "sha256": "1f3beb9a22c73bc0dba6e3e6780d36fe76bda1c88d8f3b51742ad446d3074841"
+    },
+    {
+      "sector": 104,
+      "path": "[local-path-redacted]",
+      "sha256": "52cefd662f0d1c485852a0edc12a7f075baa64f05a1056668fdb77544501157c"
+    }
+  ],
+  "selected_screen_flags": [
+    {
+      "sector": 104,
+      "kind": "dip",
+      "screen_center_btjd": 4197.283736594566,
+      "screen_duration_days": 0.96,
+      "screen_contrast": 5.5503740890636895
+    }
+  ],
+  "gaia_orbit": {
+    "source_id": "5919102410114315264",
+    "nss_solution_type": "SB1",
+    "period": "24.217964350636166",
+    "period_error": "0.0063637304",
+    "t_periastron": "-8.620307506964618",
+    "t_periastron_error": "0.3271867",
+    "eccentricity": "0.16421518358620138",
+    "eccentricity_error": "0.023637382",
+    "arg_periastron": "338.3273289587942",
+    "arg_periastron_error": "4.9339366",
+    "semi_amplitude_primary": "12.119114035102625",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "1.0461453",
+    "significance": "48.8548",
+    "ra": "264.8005454894431",
+    "dec": "-57.34826894207473",
+    "parallax": "12.429204747747026",
+    "phot_g_mean_mag": "10.011019",
+    "bp_rp": "1.0294933",
+    "ruwe": "2.107673",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "sector_availability": {
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=264.8005454894431&dec=-57.34826894207473",
+    "http_status": 200,
+    "response_sha256": "fb626d2c4b58695a2c3828d06842c7fdeba57ae0c87cbba1370334aa44d8432d",
+    "available_sectors": [
+      12,
+      13,
+      39,
+      66,
+      93,
+      100,
+      103,
+      104
+    ],
+    "uncached_sectors": [
+      13
+    ]
+  },
+  "note": "QLP FITS hashes reverified by inspect_raw.py. Screening windows are not measured event times."
+}

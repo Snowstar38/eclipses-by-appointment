@@ -1,0 +1,115 @@
+{
+  "sample_id": "H069",
+  "tic": "372317693",
+  "queue_sha256": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+  "bulk_json": "[local-path-redacted]",
+  "bulk_json_sha256": "da063b621c82dbd9a9e34678d05617d4cf6c68a43e600793c950c55e9ee0d93b",
+  "source_packet": "[local-path-redacted]",
+  "source_packet_sha256": "f87dde8c554380a0d3593d2a21af9b4ce735bb0f06cc3b266d95f61ce5193f20",
+  "verified_qlp_fits": [
+    {
+      "sector": 13,
+      "path": "[local-path-redacted]",
+      "sha256": "90f5376733b1f58d91a0f19df03788b96e858f05604076923eab4589122bd9a9"
+    },
+    {
+      "sector": 27,
+      "path": "[local-path-redacted]",
+      "sha256": "ee0aad4fedac5f339367501fc1a6d66f4950fd240b38eabf0dae8bcf2d795cb3"
+    },
+    {
+      "sector": 67,
+      "path": "[local-path-redacted]",
+      "sha256": "c041fd1d1dd23a9b373a3b3492d068192f933059ad0175d022d06974904aba66"
+    },
+    {
+      "sector": 94,
+      "path": "[local-path-redacted]",
+      "sha256": "16cdea07e6ff2485a4b35d912a551331cd1e49048f1ac7662366c685ddacdaa3"
+    },
+    {
+      "sector": 101,
+      "path": "[local-path-redacted]",
+      "sha256": "e97039203ec6a1a2ec166cf00c657ca8c9f936b40587ebf4e8b5efcaeffd62e9"
+    },
+    {
+      "sector": 102,
+      "path": "[local-path-redacted]",
+      "sha256": "17a8d6fbd3bdb005627f381a102fc8b818ea42183cdaccf55a8f469dfbdcec76"
+    },
+    {
+      "sector": 103,
+      "path": "[local-path-redacted]",
+      "sha256": "75f11f39d25933c62ff42535dc4e2fc5eed0d046f5e9d27bc37a8d97482eedb0"
+    },
+    {
+      "sector": 104,
+      "path": "[local-path-redacted]",
+      "sha256": "627afb5904ce5511930bd790b520377cf348fc1f13dd81b2f361779613fdfd21"
+    }
+  ],
+  "selected_screen_flags": [
+    {
+      "sector": 94,
+      "kind": "dip",
+      "screen_center_btjd": 3868.4961343381206,
+      "screen_duration_days": 0.96,
+      "screen_contrast": 9.353459563703845
+    },
+    {
+      "sector": 94,
+      "kind": "dip",
+      "screen_center_btjd": 3874.926702440124,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 6.178434841190755
+    },
+    {
+      "sector": 101,
+      "kind": "brightening",
+      "screen_center_btjd": 4112.8775794804205,
+      "screen_duration_days": 1.6,
+      "screen_contrast": -10.522350764397205
+    }
+  ],
+  "gaia_orbit": {
+    "source_id": "6376536394443224576",
+    "nss_solution_type": "SB1",
+    "period": "45.78377303657543",
+    "period_error": "0.018337239",
+    "t_periastron": "-7.279212040813769",
+    "t_periastron_error": "1.139297",
+    "eccentricity": "0.13854703976738053",
+    "eccentricity_error": "0.017896006",
+    "arg_periastron": "22.194735600225087",
+    "arg_periastron_error": "9.094226",
+    "semi_amplitude_primary": "24.13908445050774",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "0.04398924",
+    "significance": "43.195366",
+    "ra": "315.1836531170646",
+    "dec": "-69.30473129117381",
+    "parallax": "2.6986808888423637",
+    "phot_g_mean_mag": "11.384494",
+    "bp_rp": "0.8601599",
+    "ruwe": "1.1920177",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "sector_availability": {
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=315.1836531170646&dec=-69.30473129117381",
+    "http_status": 200,
+    "response_sha256": "c238155bb22c3fd1ba2292a8765a56856f514c4a02da94e5797a9022d3a31435",
+    "available_sectors": [
+      13,
+      27,
+      67,
+      94,
+      101,
+      102,
+      103,
+      104
+    ],
+    "uncached_sectors": []
+  },
+  "note": "QLP FITS hashes reverified by inspect_raw.py. Screening windows are not measured event times."
+}

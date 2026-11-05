@@ -1,0 +1,441 @@
+{
+  "results_sha256": "5da758cbfdb91da786a1ae8a511e74ee70ab1d0a12a437454c18820bb5d920b4",
+  "older_events_sha256": "ab333c7fbbe2a7be1e1016de6ca6d266600b6c8e02b3886aaf881cb4b7710800",
+  "targets": [
+    {
+      "tic": "24668377",
+      "fit_source": "same_kind_fits.A",
+      "event_kind": "A",
+      "depth_inputs": [
+        [
+          "events[0].depth_ppt",
+          229.39601281088758
+        ],
+        [
+          "events[1].depth_ppt",
+          205.87040070356719
+        ],
+        [
+          "events[2].depth_ppt",
+          180.71348244470067
+        ],
+        [
+          "events[3].depth_ppt",
+          179.1893130671278
+        ]
+      ],
+      "mapping": {
+        "period_days": {
+          "result": "21.552344641",
+          "expected": "21.552344641",
+          "measurement_value": 21.55234464110347,
+          "source": "same_kind_fits.A.period_days",
+          "match": true
+        },
+        "period_error_days": {
+          "result": "0.000040036",
+          "expected": "0.000040036",
+          "measurement_value": 4.003601134949807e-05,
+          "source": "same_kind_fits.A.period_formal_error_days",
+          "match": true
+        },
+        "primary_epoch_btjd": {
+          "result": "2212.550622",
+          "expected": "2212.550622",
+          "measurement_value": 2212.550622171783,
+          "source": "same_kind_fits.A.epoch_btjd",
+          "match": true
+        },
+        "depth_ppt": {
+          "result": "193.29",
+          "expected": "193.29",
+          "measurement_value": 193.29194157413394,
+          "source": "median of events[0].depth_ppt, events[1].depth_ppt, events[2].depth_ppt, events[3].depth_ppt",
+          "match": true
+        }
+      },
+      "report_checks": {
+        "epoch": {
+          "expected_fragment": "BTJD 2212.55062",
+          "match": true
+        },
+        "period": {
+          "expected_fragment": "21.5523446 d",
+          "match": true
+        },
+        "period_error": {
+          "expected_fragment": "0.0000400 d",
+          "match": true
+        },
+        "depth": {
+          "expected_fragment": "central depth is 193.3 ppt",
+          "match": true
+        },
+        "verdict": {
+          "expected_fragment": "Physical verdict: confirmed",
+          "match": true
+        }
+      },
+      "semantic_checks": {
+        "kind_named_in_row": true,
+        "kind_named_in_report": true,
+        "primary_uncertain_when_required": true,
+        "conditional_error": true,
+        "same_photons": true,
+        "realized_depth_and_dilution": true,
+        "catalogue_failures_unknown": true,
+        "crowded_attribution": true,
+        "marginal_gaia": true,
+        "cycle_assumption": true
+      },
+      "measurements_sha256": "442d91bb76bb1856b78523cece8ba5249d9ec1afc142aad2db1767c458e4557f",
+      "report_sha256": "d94409bf2b3bd0304d975f25f6b67559122e484d9f660d4f010a03dc7c01e7ba"
+    },
+    {
+      "tic": "150465032",
+      "fit_source": "same_kind_fits.A",
+      "event_kind": "A",
+      "depth_inputs": [
+        [
+          "events[0].depth_ppt",
+          48.530907202292546
+        ],
+        [
+          "events[1].depth_ppt",
+          47.66477051689184
+        ],
+        [
+          "events[2].depth_ppt",
+          46.261669300528396
+        ]
+      ],
+      "mapping": {
+        "period_days": {
+          "result": "27.652804449",
+          "expected": "27.652804449",
+          "measurement_value": 27.652804448667947,
+          "source": "same_kind_fits.A.period_days",
+          "match": true
+        },
+        "period_error_days": {
+          "result": "0.000050335",
+          "expected": "0.000050335",
+          "measurement_value": 5.0334666573030824e-05,
+          "source": "same_kind_fits.A.period_formal_error_days",
+          "match": true
+        },
+        "primary_epoch_btjd": {
+          "result": "2246.975270",
+          "expected": "2246.975270",
+          "measurement_value": 2246.975269536192,
+          "source": "same_kind_fits.A.epoch_btjd",
+          "match": true
+        },
+        "depth_ppt": {
+          "result": "47.66",
+          "expected": "47.66",
+          "measurement_value": 47.66477051689184,
+          "source": "median of events[0].depth_ppt, events[1].depth_ppt, events[2].depth_ppt",
+          "match": true
+        }
+      },
+      "report_checks": {
+        "epoch": {
+          "expected_fragment": "BTJD 2246.97527",
+          "match": true
+        },
+        "period": {
+          "expected_fragment": "27.6528044 d",
+          "match": true
+        },
+        "period_error": {
+          "expected_fragment": "0.0000503 d",
+          "match": true
+        },
+        "depth": {
+          "expected_fragment": "central depth is 47.7 ppt",
+          "match": true
+        },
+        "verdict": {
+          "expected_fragment": "Physical verdict: confirmed",
+          "match": true
+        }
+      },
+      "semantic_checks": {
+        "kind_named_in_row": true,
+        "kind_named_in_report": true,
+        "primary_uncertain_when_required": true,
+        "conditional_error": true,
+        "same_photons": true,
+        "realized_depth_and_dilution": true,
+        "catalogue_failures_unknown": true,
+        "crowded_attribution": true,
+        "marginal_gaia": true,
+        "cycle_assumption": true
+      },
+      "measurements_sha256": "28a1cfd96ff93ed1518df99f4e0601d729a6a2650de460e0e19638c860664eea",
+      "report_sha256": "58f998d02ecd36dc1f4a4a97a2317de79eaedc724e5a2144d8b499716a60d553"
+    },
+    {
+      "tic": "331650047",
+      "fit_source": "augmented_same_kind_fit",
+      "event_kind": "A",
+      "depth_inputs": [
+        [
+          "events[0].depth_ppt",
+          148.98635897528948
+        ],
+        [
+          "events[1].depth_ppt",
+          148.67617590060064
+        ],
+        [
+          "events[2].depth_ppt",
+          143.20435355994655
+        ],
+        [
+          "older-events.json[0].depth_ppt",
+          144.74057415254973
+        ]
+      ],
+      "mapping": {
+        "period_days": {
+          "result": "25.993614004",
+          "expected": "25.993614004",
+          "measurement_value": 25.993614004061012,
+          "source": "augmented_same_kind_fit.period_days",
+          "match": true
+        },
+        "period_error_days": {
+          "result": "0.000056543",
+          "expected": "0.000056543",
+          "measurement_value": 5.654337506271256e-05,
+          "source": "augmented_same_kind_fit.period_formal_error_days",
+          "match": true
+        },
+        "primary_epoch_btjd": {
+          "result": "2934.130297",
+          "expected": "2934.130297",
+          "measurement_value": 2934.1302973313327,
+          "source": "augmented_same_kind_fit.epoch_btjd",
+          "match": true
+        },
+        "depth_ppt": {
+          "result": "146.71",
+          "expected": "146.71",
+          "measurement_value": 146.7083750265752,
+          "source": "median of events[0].depth_ppt, events[1].depth_ppt, events[2].depth_ppt, older-events.json[0].depth_ppt",
+          "match": true
+        }
+      },
+      "report_checks": {
+        "epoch": {
+          "expected_fragment": "BTJD 2934.13030",
+          "match": true
+        },
+        "period": {
+          "expected_fragment": "25.9936140 d",
+          "match": true
+        },
+        "period_error": {
+          "expected_fragment": "0.0000565 d",
+          "match": true
+        },
+        "depth": {
+          "expected_fragment": "central depth is 146.7 ppt",
+          "match": true
+        },
+        "verdict": {
+          "expected_fragment": "Physical verdict: confirmed",
+          "match": true
+        }
+      },
+      "semantic_checks": {
+        "kind_named_in_row": true,
+        "kind_named_in_report": true,
+        "primary_uncertain_when_required": true,
+        "conditional_error": true,
+        "same_photons": true,
+        "realized_depth_and_dilution": true,
+        "catalogue_failures_unknown": true,
+        "crowded_attribution": true,
+        "marginal_gaia": true,
+        "cycle_assumption": true
+      },
+      "measurements_sha256": "8fb45863e51d12a68940beef7f563093fbd11649e74dc6d675b99dea1ab0aa42",
+      "report_sha256": "8ae6646b1a93fce3d890f8f0408b5bc167571123ea8278796d65513218920714"
+    },
+    {
+      "tic": "384744604",
+      "fit_source": "augmented_same_kind_fit",
+      "event_kind": "A",
+      "depth_inputs": [
+        [
+          "events[0].depth_ppt",
+          41.1534646233471
+        ],
+        [
+          "events[1].depth_ppt",
+          33.90573682473802
+        ],
+        [
+          "older-events.json[1].depth_ppt",
+          38.61124884246831
+        ]
+      ],
+      "mapping": {
+        "period_days": {
+          "result": "54.181328317",
+          "expected": "54.181328317",
+          "measurement_value": 54.18132831702645,
+          "source": "augmented_same_kind_fit.period_days",
+          "match": true
+        },
+        "period_error_days": {
+          "result": "0.000104050",
+          "expected": "0.000104050",
+          "measurement_value": 0.00010405038560339844,
+          "source": "augmented_same_kind_fit.period_formal_error_days",
+          "match": true
+        },
+        "primary_epoch_btjd": {
+          "result": "1680.650755",
+          "expected": "1680.650755",
+          "measurement_value": 1680.6507547357307,
+          "source": "augmented_same_kind_fit.epoch_btjd",
+          "match": true
+        },
+        "depth_ppt": {
+          "result": "38.61",
+          "expected": "38.61",
+          "measurement_value": 38.61124884246831,
+          "source": "median of events[0].depth_ppt, events[1].depth_ppt, older-events.json[1].depth_ppt",
+          "match": true
+        }
+      },
+      "report_checks": {
+        "epoch": {
+          "expected_fragment": "BTJD 1680.65075",
+          "match": true
+        },
+        "period": {
+          "expected_fragment": "54.1813283 d",
+          "match": true
+        },
+        "period_error": {
+          "expected_fragment": "0.0001041 d",
+          "match": true
+        },
+        "depth": {
+          "expected_fragment": "central depth is 38.6 ppt",
+          "match": true
+        },
+        "verdict": {
+          "expected_fragment": "Physical verdict: confirmed",
+          "match": true
+        }
+      },
+      "semantic_checks": {
+        "kind_named_in_row": true,
+        "kind_named_in_report": true,
+        "primary_uncertain_when_required": true,
+        "conditional_error": true,
+        "same_photons": true,
+        "realized_depth_and_dilution": true,
+        "catalogue_failures_unknown": true,
+        "crowded_attribution": true,
+        "marginal_gaia": true,
+        "cycle_assumption": true
+      },
+      "measurements_sha256": "c7b81bacbd6a8a2468ed7ec0d1ae51ae159a4c6eabe2f0957228ba67739e5ac4",
+      "report_sha256": "db99a2899089e061ad78f6a56d18d8045bc5a739e6fc65fd00b1487b630bf1ee"
+    },
+    {
+      "tic": "109560492",
+      "fit_source": "augmented_same_kind_fit",
+      "event_kind": "B",
+      "depth_inputs": [
+        [
+          "events[2].depth_ppt",
+          84.35465478567895
+        ],
+        [
+          "events[3].depth_ppt",
+          78.85951417241951
+        ],
+        [
+          "older-events.json[2].depth_ppt",
+          77.49894272856467
+        ]
+      ],
+      "mapping": {
+        "period_days": {
+          "result": "31.620139366",
+          "expected": "31.620139366",
+          "measurement_value": 31.620139365732133,
+          "source": "augmented_same_kind_fit.period_days",
+          "match": true
+        },
+        "period_error_days": {
+          "result": "0.000066111",
+          "expected": "0.000066111",
+          "measurement_value": 6.611102813245411e-05,
+          "source": "augmented_same_kind_fit.period_formal_error_days",
+          "match": true
+        },
+        "primary_epoch_btjd": {
+          "result": "1495.032156",
+          "expected": "1495.032156",
+          "measurement_value": 1495.032156435274,
+          "source": "augmented_same_kind_fit.epoch_btjd",
+          "match": true
+        },
+        "depth_ppt": {
+          "result": "78.86",
+          "expected": "78.86",
+          "measurement_value": 78.85951417241951,
+          "source": "median of events[2].depth_ppt, events[3].depth_ppt, older-events.json[2].depth_ppt",
+          "match": true
+        }
+      },
+      "report_checks": {
+        "epoch": {
+          "expected_fragment": "BTJD 1495.03216",
+          "match": true
+        },
+        "period": {
+          "expected_fragment": "31.6201394 d",
+          "match": true
+        },
+        "period_error": {
+          "expected_fragment": "0.0000661 d",
+          "match": true
+        },
+        "depth": {
+          "expected_fragment": "central depth is 78.9 ppt",
+          "match": true
+        },
+        "verdict": {
+          "expected_fragment": "Physical verdict: probable",
+          "match": true
+        }
+      },
+      "semantic_checks": {
+        "kind_named_in_row": true,
+        "kind_named_in_report": true,
+        "primary_uncertain_when_required": true,
+        "conditional_error": true,
+        "same_photons": true,
+        "realized_depth_and_dilution": true,
+        "catalogue_failures_unknown": true,
+        "crowded_attribution": true,
+        "marginal_gaia": true,
+        "cycle_assumption": true
+      },
+      "measurements_sha256": "a87b5442bdb485dc6b5255391b7d5cec56b53394031ffce167402d05f8c515c3",
+      "report_sha256": "3fb292d1ab9599b77b4b9acd4b6e10af910bcba8e293ed41eb470b8e92b0b808"
+    }
+  ],
+  "errors": [],
+  "status": "pass"
+}

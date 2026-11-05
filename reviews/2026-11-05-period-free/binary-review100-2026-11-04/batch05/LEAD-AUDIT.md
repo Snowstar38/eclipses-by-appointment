@@ -1,0 +1,12 @@
+# Batch05 lead audit
+
+The sealed queue H041–H050 is unchanged. I verified original bulk-result and used FITS hashes in `inspect_raw.py`, examined representative windows and full raw SAP sector context for all ten, and checked Gaia conjunction geometry where phase elements were present. All selected targets were retained. These are bounded physical reviews, not ten new accepted systems. The independent helper's measurements, source checks, alias review, and final row audit are in `helper-audit.md` and helper-prefixed numeric/script artifacts.
+
+Verdicts: H042 CONFIRMED, H046 PROBABLE, H047 PLAUSIBLE; H041/H043–H045/H048–H050 REFUTED for the selected eclipse interpretations. H043/H044 show real evolving non-eclipse-looking waves, and H049 shows gap-associated level changes; these do not imply the stars can never eclipse. H047 lacks positive contrary evidence strong enough for refutation and remains noise-limited plausible.
+
+H042 has measured raw SAP centers 1729.9242 and 1768.4340 BTJD, with a conditional 38.5098-d separation. The s16 windows for tested n=3–8 integer aliases include well-covered non-events; the n=2 midpoint is a different, deeper eclipse kind. Later sectors show both kinds near the Gaia 38.43154-d orbit. The raw local timing errors are uncalibrated and this is a bounded alias check, not an exhaustive ephemeris. TESSCut recovers a target-centered s15 decrement in an alternate aperture from the same photons. Gaia neighbor flux comparisons are approximate and bandpass dependent.
+
+H046 has a coherent 3.41961896-d alternating deep/shallow clock across six sectors, from 32 selected deep minima spanning 2572 d. TESSCut and the helper's spatial-pattern audit favor the target, but a G14.35 neighbor remains formally flux-capable and Gaia's 42.40901-d SB2 orbit conflicts with this photometric period if assigned to the same pair. The physically interesting hierarchical-system possibility is unproven, so PROBABLE preserves those checks.
+
+All ten reviews are COMPLETE as bounded investigations. Novelty is UNKNOWN because the central four catalogue gates were unavailable. Period/epoch/depth are blank where the raw events do not justify values. H042's period field reports the Gaia orbital context, and H046's values are exploratory photometric estimates without formal errors. `RESULTS.csv` uses uppercase completion and absolute report paths. No shared ledger, paper, other batch, or historical evidence was edited.
+

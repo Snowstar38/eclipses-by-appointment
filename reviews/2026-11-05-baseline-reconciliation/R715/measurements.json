@@ -1,0 +1,152 @@
+{
+  "tic": "122557124",
+  "gaia_source_id": "5063790085781507456",
+  "screen_period_days": 23.19864494135291,
+  "screen_epoch_btjd": 1401.7316332492055,
+  "screen_duration_days": 0.261,
+  "source_receipts": [
+    {
+      "tic": "122557124",
+      "sector": 3,
+      "uri": "mast:HLSP/qlp/s0003/0000/0001/2255/7124/hlsp_qlp_tess_ffi_s0003-0000000122557124_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:25:35.722497+00:00",
+      "status": "ok",
+      "sha256": "bc2f9c4fe2c8ee58cb236d07cc160ed61c3a9b44ef363cea524a8f7a74c63c1b",
+      "bytes": 83520
+    },
+    {
+      "tic": "122557124",
+      "sector": 4,
+      "uri": "mast:HLSP/qlp/s0004/0000/0001/2255/7124/hlsp_qlp_tess_ffi_s0004-0000000122557124_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:25:35.884718+00:00",
+      "status": "ok",
+      "sha256": "dfd3098be1766bb0ffe5bb276034833fc77895bd35836d62143d42c1833516af",
+      "bytes": 69120
+    },
+    {
+      "tic": "122557124",
+      "sector": 30,
+      "uri": "mast:HLSP/qlp/s0030/0000/0001/2255/7124/hlsp_qlp_tess_ffi_s0030-0000000122557124_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:25:36.099406+00:00",
+      "status": "ok",
+      "sha256": "79e90df6326d10949d1e2f4b52bc3b414339255523ab16a39623948e4781a990",
+      "bytes": 221760
+    },
+    {
+      "tic": "122557124",
+      "sector": 97,
+      "uri": "mast:HLSP/qlp/s0097/0000/0001/2255/7124/hlsp_qlp_tess_ffi_s0097-0000000122557124_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:25:36.195857+00:00",
+      "status": "ok",
+      "sha256": "2c83fa3b8b19cdc827b5be4ef87ce9730a2af34dbffe6c1cb2cb34c236271bf8",
+      "bytes": 1388160
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 3,
+      "first_btjd": 1383.78561671814,
+      "last_btjd": 1405.8276172768867,
+      "cadence_days": 0.020833656442164283,
+      "n": 876
+    },
+    {
+      "sector": 4,
+      "first_btjd": 1411.0151108438633,
+      "last_btjd": 1436.139620407458,
+      "cadence_days": 0.020832829972732725,
+      "n": 732
+    },
+    {
+      "sector": 30,
+      "first_btjd": 2115.972818623308,
+      "last_btjd": 2141.1258722097477,
+      "cadence_days": 0.006944533518890239,
+      "n": 2890
+    },
+    {
+      "sector": 97,
+      "first_btjd": 3935.5097329752734,
+      "last_btjd": 3988.2876513102597,
+      "cadence_days": 0.0023148212558226078,
+      "n": 18871
+    }
+  ],
+  "events": [
+    {
+      "sector": 3,
+      "cycle": 0,
+      "predicted_btjd": 1401.7316332492055,
+      "mid_btjd": 1401.731021780826,
+      "formal_timing_error_days": 0.0001120664753350485,
+      "timing_error_days": 0.010416828221082142,
+      "timing_usable": true,
+      "depth_ppt": 196.79822102774057,
+      "model_amplitude_ppt": 196.79822102774057,
+      "duration_days": 0.3261557459570362,
+      "ingress_parameter_days": 0.11100213933402146,
+      "oot_scatter_ppt": 0.6530159845439616,
+      "n": 91,
+      "cadence_days": 0.020833656442164283,
+      "source_sha256": "bc2f9c4fe2c8ee58cb236d07cc160ed61c3a9b44ef363cea524a8f7a74c63c1b"
+    },
+    {
+      "sector": 30,
+      "cycle": 31,
+      "predicted_btjd": 2120.8896264311456,
+      "mid_btjd": 2120.8867231117906,
+      "formal_timing_error_days": 9.521315498890521e-05,
+      "timing_error_days": 0.0034722667594451195,
+      "timing_usable": true,
+      "depth_ppt": 213.68290111505237,
+      "model_amplitude_ppt": 213.68290111505237,
+      "duration_days": 0.323262540406138,
+      "ingress_parameter_days": 0.10818888240494164,
+      "oot_scatter_ppt": 0.9744245554490736,
+      "n": 284,
+      "cadence_days": 0.006944533518890239,
+      "source_sha256": "79e90df6326d10949d1e2f4b52bc3b414339255523ab16a39623948e4781a990"
+    },
+    {
+      "sector": 97,
+      "cycle": 110,
+      "predicted_btjd": 3953.5825767980255,
+      "mid_btjd": 3953.5731141512647,
+      "formal_timing_error_days": 7.316700903796348e-05,
+      "timing_error_days": 0.0011574106279113039,
+      "timing_usable": true,
+      "depth_ppt": 193.55474141220233,
+      "model_amplitude_ppt": 193.55474141220233,
+      "duration_days": 0.32375242524131503,
+      "ingress_parameter_days": 0.10867533274120621,
+      "oot_scatter_ppt": 1.26063889626785,
+      "n": 790,
+      "cadence_days": 0.0023148212558226078,
+      "source_sha256": "2c83fa3b8b19cdc827b5be4ef87ce9730a2af34dbffe6c1cb2cb34c236271bf8"
+    }
+  ],
+  "timing_event_count": 3,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 23.198562379868427,
+  "period_error_days": 4.222416861049863e-05,
+  "reference_epoch_btjd": 1401.731253488234,
+  "epoch_error_days": 0.004401329610373756,
+  "reference_cycle": 0,
+  "reduced_chi_square": 0.0006023015132452843,
+  "timing_residual_days": [
+    -0.00023170740792011202,
+    3.5847635444952175e-05,
+    -1.1224960871913936e-06
+  ],
+  "depth_ppt": 196.79822102774057,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "physical_verdict": "CONFIRMED",
+  "full_review_completion": "COMPLETE",
+  "catalogue_status": "UNKNOWN_INCOMPLETE_SCOPED_CHECKS",
+  "verdict_reason": "Three full raw eclipses across 110 cycles establish a consistent clock; the other integer counts tested fail actual timing or coverage. Deep, flat-bottomed stellar eclipses survive the separate extraction, with a target-centered deficit and no capable Gaia neighbor in the bounded cone. Gaia conjunction is compatible."
+}

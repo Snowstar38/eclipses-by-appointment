@@ -1,0 +1,118 @@
+{
+  "tic": "117930511",
+  "gaia_source_id": "2855177989323312768",
+  "screen_period_days": 20.173683272372077,
+  "screen_epoch_btjd": 2855.2735978433293,
+  "screen_duration_days": 0.261,
+  "source_receipts": [
+    {
+      "tic": "117930511",
+      "sector": 57,
+      "uri": "mast:HLSP/qlp/s0057/0000/0001/1793/0511/hlsp_qlp_tess_ffi_s0057-0000000117930511_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:22:55.136092+00:00",
+      "status": "ok",
+      "sha256": "ee110be1333a7041fcc9a8a1d94c260a2f6f905e5dbc570db4a580c40b2bea69",
+      "bytes": 659520
+    },
+    {
+      "tic": "117930511",
+      "sector": 84,
+      "uri": "mast:HLSP/qlp/s0084/0000/0001/1793/0511/hlsp_qlp_tess_ffi_s0084-0000000117930511_tess_v01_llc.fits",
+      "path": "[local-path-redacted]",
+      "utc": "2026-11-05T01:22:55.375888+00:00",
+      "status": "ok",
+      "sha256": "b652e3f74218bd870e138f2a39772fbbd9a3b50c761a9210210b988dd05f7e5b",
+      "bytes": 659520
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 57,
+      "first_btjd": 2853.392778290057,
+      "last_btjd": 2882.068258950376,
+      "cadence_days": 0.002314773500984302,
+      "n": 10270
+    },
+    {
+      "sector": 84,
+      "first_btjd": 3584.6017194271312,
+      "last_btjd": 3610.3073705374363,
+      "cadence_days": 0.0023147851165958855,
+      "n": 9144
+    }
+  ],
+  "events": [
+    {
+      "sector": 57,
+      "cycle": 0,
+      "predicted_btjd": 2855.2735978433293,
+      "mid_btjd": 2855.2466057280085,
+      "formal_timing_error_days": 0.0003079192744959525,
+      "timing_error_days": 0.001157386750492151,
+      "timing_usable": true,
+      "depth_ppt": 42.94505354648425,
+      "model_amplitude_ppt": 42.94505354648425,
+      "duration_days": 0.43441264755671183,
+      "ingress_parameter_days": 0.08003879088816916,
+      "oot_scatter_ppt": 1.3577925746874617,
+      "n": 902,
+      "cadence_days": 0.002314773500984302,
+      "source_sha256": "ee110be1333a7041fcc9a8a1d94c260a2f6f905e5dbc570db4a580c40b2bea69"
+    },
+    {
+      "sector": 57,
+      "cycle": 1,
+      "predicted_btjd": 2875.4472811157016,
+      "mid_btjd": 2875.421213653095,
+      "formal_timing_error_days": 0.0003126875370736039,
+      "timing_error_days": 0.001157386750492151,
+      "timing_usable": true,
+      "depth_ppt": 42.35158849495838,
+      "model_amplitude_ppt": 42.35158849495838,
+      "duration_days": 0.4311597399551595,
+      "ingress_parameter_days": 0.0785736841857733,
+      "oot_scatter_ppt": 1.3842921896277383,
+      "n": 810,
+      "cadence_days": 0.002314773500984302,
+      "source_sha256": "ee110be1333a7041fcc9a8a1d94c260a2f6f905e5dbc570db4a580c40b2bea69"
+    },
+    {
+      "sector": 84,
+      "cycle": 37,
+      "predicted_btjd": 3601.699878921096,
+      "mid_btjd": 3601.6849551419045,
+      "formal_timing_error_days": 0.0003081461314041679,
+      "timing_error_days": 0.0011573925582979427,
+      "timing_usable": true,
+      "depth_ppt": 41.71618502271597,
+      "model_amplitude_ppt": 41.71618502271597,
+      "duration_days": 0.43287147899289496,
+      "ingress_parameter_days": 0.07835281367888694,
+      "oot_scatter_ppt": 1.3484747889143243,
+      "n": 902,
+      "cadence_days": 0.0023147851165958855,
+      "source_sha256": "b652e3f74218bd870e138f2a39772fbbd9a3b50c761a9210210b988dd05f7e5b"
+    }
+  ],
+  "timing_event_count": 3,
+  "epoch_kind": "Selected repeating eclipse; primary/secondary identity assessed separately",
+  "depth_meaning": "Median realized central loss of fitted trapezoid d*min(1,w/(2*k)); model amplitude separately retained.",
+  "period_days": 20.174001586587558,
+  "period_error_days": 3.8824914966624485e-05,
+  "reference_epoch_btjd": 2855.2469047442546,
+  "epoch_error_days": 0.0008296763643228398,
+  "reference_cycle": 0,
+  "reduced_chi_square": 0.13730542676620555,
+  "timing_residual_days": [
+    -0.00029901624611738953,
+    0.0003073222528655606,
+    -8.306089512188919e-06
+  ],
+  "depth_ppt": 42.35158849495838,
+  "timing_error_meaning": "Linear same-kind event fit, individual max(formal center covariance, half cadence), scatter-inflated covariance if reduced chi square > 1; excludes uncalibrated model/pipeline systematics.",
+  "physical_verdict": "PROBABLE",
+  "full_review_completion": "COMPLETE",
+  "catalogue_status": "KNOWN_PRIOR_EB_POSITIONALLY_ASSOCIATED",
+  "verdict_reason": "Three same-kind raw events include consecutive sector-57 eclipses. The difference image favors the target; the one marginal G-band capable neighbor lies 30.77 arcsec away and would require a roughly 94% intrinsic eclipse under optimistic throughput. The broad TESS PSF overlaps that neighbor at roughly1.5 pixels, so target-like centroid and morphology do not decisively exclude it. Attribution remains unresolved. The measured eclipse clock differs from the prior VSX clock; this does not make the star a new system."
+}

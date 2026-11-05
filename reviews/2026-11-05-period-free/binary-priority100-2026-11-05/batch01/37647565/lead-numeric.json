@@ -1,0 +1,102 @@
+{
+  "sample_id": "T008",
+  "tic": "37647565",
+  "gaia_period_days": 44.44072332467665,
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "2f4da47be03925bbd283d2cce25651b2a717d0447b92c2c10dbccf7f62e1c4d8",
+      "sector": 8
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a9e7ee26a97acd38e0efc5cec563d5e297469ea0688fbdb723279fd78457370d",
+      "sector": 35
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "06cc7190a2dde4028a005735a7eb3bff5e8091dab73327f9ed566d9fcc810ff6",
+      "sector": 62
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d821e3ae4878b7d5dc81f61b0dc32ef4b8d1866066eaee987d6c9c0905fe2b49",
+      "sector": 89
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "1f7dcd43dffafe730f4b8ccdc7fa2b7ea8d63edd263d4936fe48d8472c672764",
+      "sector": 99
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 8,
+      "start_btjd": 1517.3691045444027,
+      "end_btjd": 1541.9942301527194,
+      "n_all": 963,
+      "n_quality0": 747,
+      "cadence_days": 0.020833455266028977,
+      "max_internal_gap_days": 3.2916762539928186
+    },
+    {
+      "sector": 35,
+      "start_btjd": 2254.9939169368386,
+      "end_btjd": 2279.979922963193,
+      "n_all": 3349,
+      "n_quality0": 1983,
+      "cadence_days": 0.006944414579265867,
+      "max_internal_gap_days": 1.4444328663607848
+    },
+    {
+      "sector": 62,
+      "start_btjd": 2988.440367433262,
+      "end_btjd": 3014.1554262477507,
+      "n_all": 10708,
+      "n_quality0": 9648,
+      "cadence_days": 0.0023147923975557205,
+      "max_internal_gap_days": 0.3009277632413614
+    },
+    {
+      "sector": 89,
+      "start_btjd": 3718.1376952610435,
+      "end_btjd": 3746.9476081789808,
+      "n_all": 11425,
+      "n_quality0": 11042,
+      "cadence_days": 0.0023147951394548727,
+      "max_internal_gap_days": 1.9490405192482285
+    },
+    {
+      "sector": 99,
+      "start_btjd": 4063.016711551575,
+      "end_btjd": 4073.7808389729707,
+      "n_all": 4560,
+      "n_quality0": 3093,
+      "cadence_days": 0.002314876845048275,
+      "max_internal_gap_days": 0.21296897059573894
+    }
+  ],
+  "events": [
+    {
+      "sector": 62,
+      "screen_btjd": 3002.4137292396963,
+      "screen_duration_days": 1.6,
+      "screen_depth_ppt": 145.68236146365055,
+      "quality0_local_n": 3427,
+      "quality0_core_n": 347,
+      "raw_core_median_deficit_ppt": 124.34028759616511,
+      "raw_side_scatter_ppt": 1.8096240685337113,
+      "first_local_btjd": 2997.6140040204305,
+      "last_local_btjd": 3007.213443012687,
+      "local_max_gap_days": 1.5995199072917785,
+      "source_sha256": "06cc7190a2dde4028a005735a7eb3bff5e8091dab73327f9ed566d9fcc810ff6",
+      "fit_mid_btjd": 3002.4041101637417,
+      "fit_mid_formal_error_days": 122129.36067476832,
+      "fit_depth_ppt": 301.1692330681278,
+      "fit_duration_days": 1.5836586428868413,
+      "fit_edge_days": 0.7925608331394817,
+      "fit_slope_per_day": 0.00018273514819290904
+    }
+  ],
+  "method": "Local trapezoid fits to quality-zero raw SAP at period-free retained dip flags. Fits are exploratory, never sufficient for an eclipse verdict or cycle alias. Screen windows are not centers."
+}

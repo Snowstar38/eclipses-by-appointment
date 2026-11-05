@@ -1,0 +1,8 @@
+T061 independent pixel audit
+
+TESSCut sector 84, 11x11, is clipped: rows y=7..10 are zero; target (5.172,5.941), bright Gaia neighbor (6.223,6.336) are at detector edge. The two sources blend, and their PSFs are truncated. A lowest-pixel sky estimate would be invalid. The data nevertheless contain substantial stellar flux, and an active-sky region x=3..7,y=0..2 shows a substantial brightening at each putative event. All differences use quality-zero cadences and the precise windows in helper-s84-background.json.
+
+At BTJD 3585.72..3585.95, sky rises from 162.54 to 213.17 counts/pixel, while the sky-corrected 4x3 aperture containing both stars changes by -0.042% (QLP SAP -15.07%). At 3599.05..3599.55, sky rises 145.92 to 234.52 counts/pixel; corrected aperture changes -0.408% (QLP SAP -24.11%). Baselines and aperture positions are recorded in helper-s84-background.json and its reproducible helper_background061.py. Difference images show broad common sky rises; no positive difference image centroid exists, and the reported zero-pixel peak is an edge tie, not a source position. The sky estimator uses active pixels only; this is not a claim to resolve a small signal between the two stars.
+
+The enormous QLP troughs are positively contradicted by raw pixel data and correlate with sky. They cannot establish eclipses, though residual mmag variability and the physical binary itself remain unresolved. Background-corrected aperture is an independent extraction of the same observing occasion, not an independent event. Pixel and QLP input SHA256s and retrieval receipt are saved; the FITS is the unmodified archive cutout. Inspect helper-s84-background.png and helper-s84-difference.png.
+

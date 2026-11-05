@@ -1,0 +1,142 @@
+{
+  "sample_id": "H082",
+  "tic": "155173365",
+  "gaia_period_days": 50.25736495982085,
+  "sectors": [
+    {
+      "sector": 16,
+      "path": "[local-path-redacted]",
+      "sha256": "72f38a26d0bb2443956d17ceebbdf4d9ada54dcfc12e81e557400191d7d7b416",
+      "start_btjd": 1739.1811377126744,
+      "end_btjd": 1759.743894491422,
+      "quality0_n": 697,
+      "cadence_days": 0.020833541754086582,
+      "gaps_over_0p5d": [
+        [
+          1745.5354268147871,
+          1746.7021118482382
+        ],
+        [
+          1747.2229531021837,
+          1751.9521933869526
+        ]
+      ],
+      "sap_median": 0.9999106526374817,
+      "sap_p05_p95": [
+        0.9870696912686354,
+        1.0059692113308778
+      ]
+    },
+    {
+      "sector": 17,
+      "path": "[local-path-redacted]",
+      "sha256": "4c84ede54d09e0bc7187d285eff2ba2013b43a115570423b7c319b90e6413125",
+      "start_btjd": 1766.1814076638561,
+      "end_btjd": 1787.868499088854,
+      "quality0_n": 722,
+      "cadence_days": 0.020832860621567306,
+      "gaps_over_0p5d": [
+        [
+          1772.8479979805193,
+          1778.472914449351
+        ]
+      ],
+      "sap_median": 0.999863862991333,
+      "sap_p05_p95": [
+        0.9987466834440819,
+        1.0009571007500955
+      ]
+    },
+    {
+      "sector": 57,
+      "path": "[local-path-redacted]",
+      "sha256": "89659659e14ee18803b9f0ef124d497fe202f9939bcbbcdb68bf8fe7a58549b8",
+      "start_btjd": 2853.410063815266,
+      "end_btjd": 2882.062480335567,
+      "quality0_n": 10257,
+      "cadence_days": 0.0023147796059674874,
+      "gaps_over_0p5d": [
+        [
+          2863.2827284432074,
+          2867.514169267471
+        ]
+      ],
+      "sap_median": 1.000119686126709,
+      "sap_p05_p95": [
+        0.9872503400634022,
+        1.0122995914471373
+      ]
+    },
+    {
+      "sector": 83,
+      "path": "[local-path-redacted]",
+      "sha256": "9c3fd73b82aa2ad9ba9c8d97726eb393d767bdad32878f6c08613cbf141d3d63",
+      "start_btjd": 3559.4426444799037,
+      "end_btjd": 3584.338909237707,
+      "quality0_n": 10382,
+      "cadence_days": 0.002314850469247176,
+      "gaps_over_0p5d": [],
+      "sap_median": 1.0000233054161072,
+      "sap_p05_p95": [
+        0.9937325448140488,
+        1.0055743944890354
+      ]
+    },
+    {
+      "sector": 84,
+      "path": "[local-path-redacted]",
+      "sha256": "b7f531a48fedd895f84c11ccce49ecf1df8ae6723ec3353a16420966b0b8242b",
+      "start_btjd": 3584.6259467255454,
+      "end_btjd": 3610.289998749817,
+      "quality0_n": 10020,
+      "cadence_days": 0.0023147814426920377,
+      "gaps_over_0p5d": [
+        [
+          3595.579616126674,
+          3597.547186012337
+        ]
+      ],
+      "sap_median": 1.0007413625717163,
+      "sap_p05_p95": [
+        0.9772485067292036,
+        1.0161027439874581
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "sector": 84,
+      "kind": "brightening",
+      "screen_btjd": 3605.2484495226304,
+      "duration_days": 0.48,
+      "screen_contrast": -8.04641184789933,
+      "screen_depth_fraction": -0.0039023119853274224,
+      "screen_supported": true,
+      "n_window": 865,
+      "n_core": 103,
+      "n_left": 298,
+      "n_right": 298,
+      "local_baseline_sap": 0.9970123469829559,
+      "core_delta_ppt": 2.957328236053547,
+      "pre_delta_ppt": -2.4011048184916506,
+      "post_delta_ppt": 1.3238105381321308,
+      "pre_post_step_ppt": 3.7249153566237143,
+      "max_internal_gap_days": 0.0023147714764490956,
+      "alt_columns": {
+        "SAP_BKG": {
+          "core": -150.1199951171875,
+          "side": -193.26499938964844
+        },
+        "SAP_X": {
+          "core": 880.7211303710938,
+          "side": 880.7207336425781
+        },
+        "SAP_Y": {
+          "core": 1358.9322509765625,
+          "side": 1358.931884765625
+        }
+      }
+    }
+  ],
+  "bulk_sha256": "98ee65b76e9c5a5dea7ea541dd3217efc7a9bc0817c1804539159990727d21e0"
+}

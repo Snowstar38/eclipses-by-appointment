@@ -1,0 +1,97 @@
+{
+  "deep_partial_btjd_interval": [
+    1645.5,
+    1647.0
+  ],
+  "deep_full_btjd_interval": [
+    3846.1,
+    3846.5
+  ],
+  "shallow_full_btjd_interval": [
+    2370.9,
+    2371.3
+  ],
+  "shallow_partial_btjd_interval": [
+    3120.6,
+    3121.4
+  ],
+  "deep_aliases": [
+    {
+      "cycles": 43,
+      "period_min_days": 51.141860465116274,
+      "period_max_days": 51.18604651162791
+    },
+    {
+      "cycles": 44,
+      "period_min_days": 49.97954545454545,
+      "period_max_days": 50.02272727272727
+    },
+    {
+      "cycles": 45,
+      "period_min_days": 48.86888888888889,
+      "period_max_days": 48.91111111111111
+    },
+    {
+      "cycles": 86,
+      "period_min_days": 25.570930232558137,
+      "period_max_days": 25.593023255813954
+    },
+    {
+      "cycles": 88,
+      "period_min_days": 24.989772727272726,
+      "period_max_days": 25.011363636363637
+    },
+    {
+      "cycles": 90,
+      "period_min_days": 24.434444444444445,
+      "period_max_days": 24.455555555555556
+    }
+  ],
+  "shallow_aliases": [
+    {
+      "cycles": 14,
+      "period_min_days": 53.52142857142855,
+      "period_max_days": 53.607142857142854
+    },
+    {
+      "cycles": 15,
+      "period_min_days": 49.95333333333331,
+      "period_max_days": 50.03333333333333
+    },
+    {
+      "cycles": 16,
+      "period_min_days": 46.83124999999998,
+      "period_max_days": 46.90625
+    },
+    {
+      "cycles": 28,
+      "period_min_days": 26.760714285714275,
+      "period_max_days": 26.803571428571427
+    },
+    {
+      "cycles": 30,
+      "period_min_days": 24.976666666666656,
+      "period_max_days": 25.016666666666666
+    },
+    {
+      "cycles": 32,
+      "period_min_days": 23.41562499999999,
+      "period_max_days": 23.453125
+    }
+  ],
+  "intersections": [
+    {
+      "deep_cycles": 44,
+      "shallow_cycles": 15,
+      "shared_period_min_days": 49.97954545454545,
+      "shared_period_max_days": 50.02272727272727
+    },
+    {
+      "deep_cycles": 88,
+      "shallow_cycles": 30,
+      "shared_period_min_days": 24.989772727272726,
+      "shared_period_max_days": 25.011363636363637
+    }
+  ],
+  "interpretation": "Conservative approximate center intervals. Near-50-day k44/k15 intersection is supported. Near-25-day harmonic k88/k30 also intersects numerically; it predicts a deep-kind occurrence at the observed S39 shallow event, so stable distinct eclipse kinds disfavor it. Morphology evolution could weaken this exclusion. External Gaia/VSX clocks are corroboration, not measured cycle counts."
+}

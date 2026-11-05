@@ -1,0 +1,60 @@
+{
+  "queue_sha256": "292eec2c110bdaf42f16a1c797dbb6e9e7e4e31179fc7be2839f9040d93c5c17",
+  "targets": 5,
+  "positive_controls": [
+    {
+      "table": "B/vsx/vsx",
+      "status": "unavailable",
+      "expected_key": "Name",
+      "expected_value": "Gaia DR3 4685168858707787776",
+      "old_control_sha256": "93d9dcd4134a4d034c87d03a78c7e0625880ca188506f1d78600abdc1b73fa61",
+      "receipt": "[local-path-redacted]"
+    },
+    {
+      "table": "II/366/catv2021",
+      "status": "unavailable",
+      "expected_key": "TIC",
+      "expected_value": "441157335",
+      "old_control_sha256": "7ea11d1ac644b3a001d101007fb6786b74a80c5a28fabd34a02fa1f87cffe105",
+      "receipt": "[local-path-redacted]"
+    },
+    {
+      "table": "J/ApJS/258/16/tess-ebs",
+      "status": "unavailable",
+      "expected_key": "TIC",
+      "expected_value": "0185259483",
+      "old_control_sha256": "b676303cd12a832440ddb10c87fd214028f5ff770b5401545f54333aa243c8f5",
+      "receipt": "[local-path-redacted]"
+    },
+    {
+      "table": "J/A+A/691/A242/obaf-eb1",
+      "status": "unavailable",
+      "expected_key": "TIC",
+      "expected_value": "80452824",
+      "old_control_sha256": "cb682694226c0aa4bb9c6a3287011111f46cd9cd5ef671ba79afb337ba8ae434",
+      "receipt": "[local-path-redacted]"
+    },
+    {
+      "table": "J/ApJS/279/50/table3",
+      "status": "unavailable",
+      "expected_key": "TIC",
+      "expected_value": "8636",
+      "old_control_sha256": "48881c937ef87fdc1dc70e06057f2275ffefa925e4dc4b70fa52652e114b4a43",
+      "receipt": "[local-path-redacted]"
+    },
+    {
+      "table": "J/ApJS/279/50/table4",
+      "status": "unavailable",
+      "expected_key": "TIC",
+      "expected_value": "10507",
+      "old_control_sha256": "39456cc6e4e43e891a0a1f854f0c448f7b05431b7c526b6fd4d4249835d044f5",
+      "receipt": "[local-path-redacted]"
+    }
+  ],
+  "positive_controls_success": 0,
+  "raw_receipts_verified": 21,
+  "unavailable_receipts": 13,
+  "gaia_nss_full_rows": 5,
+  "matrix_rows": 5,
+  "matrix_complete": 1
+}

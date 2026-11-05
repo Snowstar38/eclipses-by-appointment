@@ -1,0 +1,176 @@
+TIC 402940895  search P 16.438711 t0 1632.2402  dur 0.261 d | Gaia P 16.448138 +/- 0.00486
+  (search P - Gaia P)/err = -1.94 sigma
+
+0) sectors (30-min bins): n, span, point-to-point rms, 1-d-smoothed rms (activity), bkg/flux range
+  s012: n  920  BTJD 1626.43-1652.18  p2p  1967 ppm  slow 5-95%  39.9 ppt  bkg -356.252-1181.487
+  s039: n 1034  BTJD 2362.04-2386.81  p2p  1949 ppm  slow 5-95%  28.5 ppt  bkg -161.123-260.611
+  s066: n 1128  BTJD 3097.73-3124.22  p2p  1960 ppm  slow 5-95%  27.3 ppt  bkg -385.197-7974.802
+  s093: n 1047  BTJD 3830.56-3854.98  p2p  1941 ppm  slow 5-95%  47.8 ppt  bkg -138.725-555.577
+  s101: n  783  BTJD 4101.61-4122.74  p2p 121313 ppm  slow 5-95% 1707.2 ppt  bkg 31502.935-32530.551
+  s102: n  471  BTJD 4127.91-4146.97  p2p 74880 ppm  slow 5-95% 1578.0 ppt  bkg 35590.446-35750.573
+  s103: n  667  BTJD 4152.93-4177.35  p2p 72074 ppm  slow 5-95% 2489.1 ppt  bkg 35077.966-35511.082
+  garbage-sector cut (p2p > 5x median 1967 ppm): [101, 102, 103] -> excluded from every measurement below (listed in the window table only)
+
+1-2) per-window at the search ephemeris (linear local baseline; core |dt|<0.13 d, oot 0.4-1.25 d each side)
+  sec  cycle   tc        depth_lin  depth_flat  base_rms  n_core n_L n_R | sector null: med  sd_emp  z_emp  pctile
+  s012    0  1632.240      5361       7097      2736     13  38  40 |   +134   1022  +5.12  100.0  (n_null 556)
+  s012    1  1648.679      6850       6249      1619      9  39  27 |   +134   1022  +6.57  100.0  (n_null 556)
+  s039   45  2371.982      7885       7748      1625     13  40  41 |    -56   1207  +6.58  100.0  (n_null 718)
+  s066   90  3111.724   unmeasurable (bins in window 37, core 0)
+  s093  134  3835.027      6570       6669      1986     12  41  41 |   -162    914  +7.37   99.3  (n_null 603)
+  s093  135  3851.466      7286       7947      1948     13  41  41 |   -162    914  +8.15   99.3  (n_null 603)
+  s101  151  4114.486   EXCLUDED (garbage sector)
+  s102  152  4130.924   EXCLUDED (garbage sector)
+  s103  154  4163.802   EXCLUDED (garbage sector)
+
+3) stacked window depth vs empirical floor (equal-weight mean over windows)
+  [good sectors] on-phase stack: mean +6790 ppm, median +6850 ppm, 5 windows
+     off-phase null (161 phases 0.10-0.90, n_win >= 3): median +47, robust sd 527 ppm, max +2172 (phase 0.900)
+     -> on-phase = +12.8 sigma_emp; p_emp = 0.0000 (0 of 161 off phases >= on); on / off-max = 3.13
+  [drop s012] on-phase stack: mean +7247 ppm, median +7286 ppm, 3 windows
+     off-phase null (161 phases 0.10-0.90, n_win >= 3): median +16, robust sd 580 ppm, max +3565 (phase 0.900)
+     -> on-phase = +12.5 sigma_emp; p_emp = 0.0000 (0 of 161 off phases >= on); on / off-max = 2.03
+  [drop s039] on-phase stack: mean +6517 ppm, median +6710 ppm, 4 windows
+     off-phase null (123 phases 0.10-0.90, n_win >= 3): median +30, robust sd 645 ppm, max +2945 (phase 0.900)
+     -> on-phase = +10.1 sigma_emp; p_emp = 0.0000 (0 of 123 off phases >= on); on / off-max = 2.21
+  [drop s066] on-phase stack: mean +6790 ppm, median +6850 ppm, 5 windows
+     off-phase null (86 phases 0.10-0.90, n_win >= 3): median -4, robust sd 474 ppm, max +2172 (phase 0.900)
+     -> on-phase = +14.3 sigma_emp; p_emp = 0.0000 (0 of 86 off phases >= on); on / off-max = 3.13
+  [drop s093] on-phase stack: mean +6699 ppm, median +6850 ppm, 3 windows
+     off-phase null (159 phases 0.10-0.90, n_win >= 3): median +101, robust sd 614 ppm, max +1694 (phase 0.145)
+     -> on-phase = +10.7 sigma_emp; p_emp = 0.0000 (0 of 159 off phases >= on); on / off-max = 3.95
+  phase 0.500 stack (P/2 alias test: a dip here would mean P = 8.2194): +779 ppm, n 4 (+1.4 sigma_emp)
+  jackknife drop-one on-phase mean: +6517..+7148 ppm (full +6790); min single window +5361, all > 0: True
+  depth stability: windows 5.4, 6.8, 7.9, 6.6, 7.3 ppt; median 6.85, relMAD 0.095, min/max 0.68
+  scrambled-epoch null (5 windows each redrawn from its own sector, 20000 stacks): median -3, robust sd 526, 99.9th pct +2850, max +3407 ppm
+     -> on-phase mean +6790 = +12.9 sigma_emp; p_emp 0.00000 (0/20000)
+     chance that all 5 redrawn windows reach >= 5361 ppm (the weakest real window): 0.00000
+
+4) stacked profile, local-linear baseline, +-1.25 d, 0.05 d bins (excl s102/s103)
+  -1.225   -0.48 +/- 0.94 ppt  
+  -1.175   -0.35 +/- 0.68 ppt  
+  -1.125   -1.05 +/- 0.64 ppt  
+  -1.075   +0.70 +/- 0.82 ppt  #
+  -1.025   -0.33 +/- 0.57 ppt  
+  -0.975   +0.10 +/- 0.57 ppt  
+  -0.925   -0.32 +/- 0.71 ppt  
+  -0.875   +1.15 +/- 0.43 ppt  #
+  -0.825   +0.51 +/- 0.54 ppt  #
+  -0.775   -1.78 +/- 0.53 ppt  
+  -0.725   -0.28 +/- 0.56 ppt  
+  -0.675   +0.26 +/- 0.66 ppt  
+  -0.625   +0.42 +/- 0.76 ppt  
+  -0.575   +0.07 +/- 0.70 ppt  
+  -0.525   +1.18 +/- 0.54 ppt  #
+  -0.475   +0.63 +/- 0.59 ppt  #
+  -0.425   +0.46 +/- 0.40 ppt  
+  -0.375   +0.23 +/- 0.82 ppt  
+  -0.325   +0.40 +/- 0.98 ppt  
+  -0.275   +3.54 +/- 1.18 ppt  ####
+  -0.225   +3.19 +/- 0.95 ppt  ###
+  -0.175   +6.18 +/- 0.74 ppt  ######
+  -0.125   +6.99 +/- 0.95 ppt  #######
+  -0.075   +6.73 +/- 0.83 ppt  #######
+  -0.025   +6.59 +/- 0.62 ppt  #######
+  +0.025   +6.55 +/- 0.94 ppt  #######
+  +0.075   +7.29 +/- 0.85 ppt  #######
+  +0.125   +6.99 +/- 0.65 ppt  #######
+  +0.175   +5.37 +/- 1.20 ppt  #####
+  +0.225   +1.95 +/- 1.16 ppt  ##
+  +0.275   +2.66 +/- 1.17 ppt  ###
+  +0.325   +1.54 +/- 1.08 ppt  ##
+  +0.375   +1.54 +/- 0.99 ppt  ##
+  +0.425   -0.08 +/- 0.76 ppt  
+  +0.475   +1.04 +/- 0.70 ppt  #
+  +0.525   -0.58 +/- 0.75 ppt  
+  +0.575   -0.40 +/- 0.62 ppt  
+  +0.625   -0.31 +/- 0.75 ppt  
+  +0.675   -1.06 +/- 0.71 ppt  
+  +0.725   +0.87 +/- 0.53 ppt  #
+  +0.775   -0.55 +/- 0.61 ppt  
+  +0.825   -0.80 +/- 0.63 ppt  
+  +0.875   +0.09 +/- 0.82 ppt  
+  +0.925   +0.39 +/- 0.79 ppt  
+  +0.975   -0.34 +/- 0.62 ppt  
+  +1.025   -1.66 +/- 0.68 ppt  
+  +1.075   +0.73 +/- 0.52 ppt  #
+  +1.125   -0.32 +/- 0.55 ppt  
+  +1.175   +0.02 +/- 0.48 ppt  
+  +1.225   -0.21 +/- 0.65 ppt  
+  profile depth 7.29 ppt, FWHM ~0.40 d (9.6 h, 0.024 phase); bins below half-depth: -0.175..+0.175
+  oot (|dt|>0.5) bins: rms 711 ppm, max |dev| 1776 ppm
+
+4b) wide raw profile (no detrend, per-window median-normalised), +-4 d, 0.25 d bins
+  -3.875   -5.21 +/- 2.45 ppt
+  -3.625  -11.09 +/- 2.51 ppt
+  -3.375   -5.92 +/- 1.95 ppt
+  -3.125   -5.49 +/- 1.83 ppt
+  -2.875   -6.14 +/- 1.61 ppt
+  -2.625   -6.06 +/- 1.50 ppt
+  -2.375   -5.02 +/- 1.36 ppt
+  -2.125   -3.35 +/- 1.18 ppt
+  -1.875   -3.99 +/- 1.07 ppt
+  -1.625   +0.19 +/- 0.79 ppt
+  -1.375   -1.31 +/- 0.81 ppt
+  -1.125   -1.21 +/- 0.70 ppt
+  -0.875   -0.95 +/- 0.65 ppt
+  -0.625   -0.30 +/- 0.66 ppt
+  -0.375   +0.04 +/- 0.47 ppt
+  -0.125   +4.41 +/- 0.49 ppt
+  +0.125   +4.92 +/- 0.71 ppt
+  +0.375   +0.85 +/- 0.71 ppt
+  +0.625   +0.01 +/- 0.72 ppt
+  +0.875   +0.75 +/- 0.91 ppt
+  +1.125   +1.18 +/- 0.98 ppt
+  +1.375   +0.59 +/- 1.12 ppt
+  +1.625   +4.79 +/- 1.51 ppt
+  +1.875   +3.31 +/- 1.58 ppt
+  +2.125   +4.69 +/- 1.88 ppt
+  +2.375   +6.27 +/- 2.07 ppt
+  +2.625   +5.58 +/- 2.39 ppt
+  +2.875   +6.88 +/- 2.57 ppt
+  +3.125  +12.88 +/- 3.04 ppt
+  +3.375   +1.82 +/- 3.24 ppt
+  +3.625   +1.68 +/- 4.97 ppt
+  +3.875   -1.38 +/- 5.53 ppt
+
+5) per-window time of minimum (depth maximised over tc offset +-0.4 d, 0.005 d step)
+  s012 cyc    0: t_min  1632.075  (O-C vs search eph  -3.96 h, +/-2.22 h)  depth at min   5699 ppm
+  s012 cyc    1: t_min  1648.684  (O-C vs search eph  +0.12 h, +/-3.78 h)  depth at min   6863 ppm
+  s039 cyc   45: t_min  2371.992  (O-C vs search eph  +0.24 h, +/-1.50 h)  depth at min   8091 ppm
+  s093 cyc  134: t_min  3835.087  (O-C vs search eph  +1.44 h, +/-1.80 h)  depth at min   6710 ppm
+  s093 cyc  135: t_min  3851.281  (O-C vs search eph  -4.44 h, +/-2.70 h)  depth at min   7447 ppm
+  local linear refit (5 minima, cycles 0..135 = 135 cycles):
+    P_fit = 16.43920 +/- 0.00096 d   T0 = 1632.1758   rms O-C 2.54 h, chi2/dof 5.4/3
+    (P_fit - P_gaia)/sqrt(eG^2+ef^2) = -1.80 sigma; vs search P: +0.52 sigma_fit
+    s012 cyc    0  2019.40  O-C  -2.41 h  (-0.0061 phase)
+    s012 cyc    1  2019.45  O-C  +1.65 h  (+0.0042 phase)
+    s039 cyc   45  2021.43  O-C  +1.25 h  (+0.0032 phase)
+    s093 cyc  134  2025.43  O-C  +1.40 h  (+0.0036 phase)
+    s093 cyc  135  2025.48  O-C  -4.49 h  (-0.0114 phase)
+    quadratic O-C term: -0.602 mh/cyc^2 ; chi2 5.4 -> 4.0 (dof 3 -> 2)
+  Gaia P error alone drifts a conjunction by 0.66 d = 0.040 phase (1 sigma) over the TESS span; search-vs-Gaia P difference accumulates 1.27 d
+
+5b) stack + floor re-run at the local refit ephemeris
+  on +6710 ppm (5 win); null median +40, sd 597, max +2275 -> +11.2 sigma_emp, p_emp 0.0000
+
+6) out-of-dip modulation per sector: f = a + b*t + A*sin(2pi(t-T0)/P + phi)  (|dt from any conj| > 0.5 d)
+   phase_min = orbital phase of the sinusoid's minimum (0 = dip)
+  s012: semi-amp 16.15 ppt  phase_min 0.838  slope +0.267 ppt/d  (span 25.8 d = 1.57 cycles)
+  s039: semi-amp  6.64 ppt  phase_min 0.839  slope -0.028 ppt/d  (span 24.8 d = 1.51 cycles)
+  s066: semi-amp  8.93 ppt  phase_min 0.331  slope -0.066 ppt/d  (span 26.5 d = 1.61 cycles)
+  s093: semi-amp 18.15 ppt  phase_min 0.198  slope -0.744 ppt/d  (span 24.4 d = 1.49 cycles)
+
+7) systematics check at each dip: core-minus-oot median of SAP_BKG (native units) and SAP_X/SAP_Y (millipix), raw cadence; z = shift / (oot robust sd / sqrt(n_core))
+  s012 cyc    0: dip 5.4 ppt | SAP_BKG  +192.015 (z  +2.1)  SAP_X   -0.5 mpx (z  -0.4)  SAP_Y   +0.6 mpx (z  +0.3)
+       empirical centroid floor (246 off-ephemeris windows): X z_emp  -0.3 (pct  37.0)  Y z_emp  +0.3 (pct  62.6)
+  s012 cyc    1: dip 6.8 ppt | SAP_BKG   +97.090 (z  +1.2)  SAP_X   -1.0 mpx (z  -2.1)  SAP_Y   -1.5 mpx (z  -2.5)
+       empirical centroid floor (246 off-ephemeris windows): X z_emp  -0.7 (pct  23.6)  Y z_emp  -1.1 (pct  21.5)
+  s039 cyc   45: dip 7.9 ppt | SAP_BKG    +3.090 (z  +0.2)  SAP_X   -2.3 mpx (z  -5.4)  SAP_Y   -0.5 mpx (z  -1.4)
+       empirical centroid floor (327 off-ephemeris windows): X z_emp  -2.7 (pct   8.6)  Y z_emp  -0.4 (pct  31.5)
+  s093 cyc  134: dip 6.6 ppt | SAP_BKG   -10.110 (z  -1.1)  SAP_X   -1.1 mpx (z  -3.5)  SAP_Y   -1.1 mpx (z  -3.8)
+       empirical centroid floor (267 off-ephemeris windows): X z_emp  -1.3 (pct  14.2)  Y z_emp  -0.6 (pct  33.3)
+  s093 cyc  135: dip 7.3 ppt | SAP_BKG   -21.930 (z  -2.4)  SAP_X   -1.1 mpx (z  -1.7)  SAP_Y   -2.1 mpx (z  -1.6)
+       empirical centroid floor (267 off-ephemeris windows): X z_emp  -1.3 (pct  14.2)  Y z_emp  -1.0 (pct  27.7)
+
+done

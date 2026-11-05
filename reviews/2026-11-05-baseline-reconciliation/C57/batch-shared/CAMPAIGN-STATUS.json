@@ -1,0 +1,104 @@
+{
+  "cohorts": [
+    {
+      "cohort": "pilot48",
+      "complete": true,
+      "selected_science": 48,
+      "selected_controls": 4,
+      "completed_science": 48,
+      "science_outcomes": {
+        "ok": 48
+      },
+      "flagged_science": 3,
+      "controls_run": 4,
+      "controls_recovered": 3
+    },
+    {
+      "cohort": "next256",
+      "complete": true,
+      "selected_science": 256,
+      "selected_controls": 4,
+      "completed_science": 256,
+      "science_outcomes": {
+        "ok": 256
+      },
+      "flagged_science": 21,
+      "controls_run": 4,
+      "controls_recovered": 3
+    },
+    {
+      "cohort": "remaining_cached",
+      "complete": true,
+      "selected_science": 744,
+      "selected_controls": 4,
+      "completed_science": 744,
+      "science_outcomes": {
+        "ok": 744
+      },
+      "flagged_science": 75,
+      "controls_run": 4,
+      "controls_recovered": 3
+    },
+    {
+      "cohort": "resolved125",
+      "complete": true,
+      "selected_science": 124,
+      "selected_controls": 5,
+      "completed_science": 124,
+      "science_outcomes": {
+        "ok": 124
+      },
+      "flagged_science": 12,
+      "controls_run": 5,
+      "controls_recovered": 4
+    },
+    {
+      "cohort": "unmatched512",
+      "complete": true,
+      "selected_science": 502,
+      "selected_controls": 4,
+      "completed_science": 502,
+      "science_outcomes": {
+        "ok": 490,
+        "no_usable_data": 12
+      },
+      "flagged_science": 58,
+      "controls_run": 4,
+      "controls_recovered": 3
+    }
+  ],
+  "unique_completed_science": 1674,
+  "unique_controls": 5,
+  "unique_recovered_controls": 4,
+  "repeated_control_statistics_identical": true,
+  "accepted_claims": 913,
+  "accepted_claim_tiers": {
+    "confirmed": 807,
+    "probable": 106
+  },
+  "physical_systems": 959,
+  "source_hashes": {
+    "pilot48": {
+      "pilot.json": "0fb52f4fd07409d8f44cc67b29cb22af648533efddbe440a1840d335147e7956",
+      "screening.jsonl": "e7780f078ce8d79d74727576da31d9f0637f950a6f53cb9ac855b53685ea0b19"
+    },
+    "next256": {
+      "pilot.json": "addda5a7f59aa7e04f4cf34a28f057db2a271a5ffa891c9cdab7de0229950774",
+      "screening.jsonl": "487a775a2e9a074e202b4daa2d93f121ddae8cce6d3d5f80ed6a1871c89d0c47"
+    },
+    "remaining_cached": {
+      "pilot.json": "3b6f3dba82f0b07f97c3a646fe34028b6cd73e50a7647f028f3b32c08f63fc6b",
+      "screening.jsonl": "7e4cfe67e4b0e5a5ae4b34a1bbff342d724c19690f9203b5fcbef13e912f13b3"
+    },
+    "resolved125": {
+      "pilot.json": "84ad7dd154f91454b2140bed24d4e2fd250d16f7aaa93cad191caf0bda6a8a00",
+      "screening.jsonl": "8c51daaa1128855c6669e7deccd0d244f8f1ee2bb43e698eb2d117d805e76d8a"
+    },
+    "unmatched512": {
+      "pilot.json": "8315336b26e6e5ef7c852a777d2f0edd5321858a6e151bf1e2f58234caa5085a",
+      "screening.jsonl": "d0fc257b270534bca409e69f06df42e1570b6704279c33a52065f2568d56a0e4"
+    }
+  },
+  "ledger_sha256": "ede0e4dbe95779e510efc64f330d325516fc8bdd1d52991429988833aac449e0",
+  "caveat": "Adaptive follow-up, distinct cohorts and repeated control runs; not an occurrence-rate sample or calibrated completeness. Flags are not accepted eclipsing binaries. Original public paper remains unchanged."
+}

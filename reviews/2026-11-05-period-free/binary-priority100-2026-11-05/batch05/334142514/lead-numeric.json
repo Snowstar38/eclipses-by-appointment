@@ -1,0 +1,88 @@
+{
+  "sample_id": "T049",
+  "tic": "334142514",
+  "gaia_period_days": 25.309588081722758,
+  "source_packet": "[local-path-redacted]",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a716dc20d37bd4471e1b73d680d8e7050aedec2a968d453a7a5c60037b639416",
+      "sector": 7
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "081cacc1d480922bc58a8df307cc88b35f2e456534826aaffc74c89b6ba5e5f5",
+      "sector": 34
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a9a88dc0ce22bc1e98575831dae9f3700b914a1a0cbcb2771eec94d4b82c2d56",
+      "sector": 61
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "6b6362aa7c6a402aa1a1ee8f2acfd4847a4c4b51cc891aaccbb9646602754972",
+      "sector": 88
+    }
+  ],
+  "coverage": [
+    {
+      "sector": 7,
+      "start_btjd": 1491.661151238962,
+      "end_btjd": 1516.0362548450573,
+      "n_all": 1093,
+      "n_quality0": 1053,
+      "cadence_days": 0.020833429047115715,
+      "max_internal_gap_days": 1.8958371097457984
+    },
+    {
+      "sector": 34,
+      "start_btjd": 2229.5567940073606,
+      "end_btjd": 2252.3969631720192,
+      "n_all": 3489,
+      "n_quality0": 2804,
+      "cadence_days": 0.006944415501038748,
+      "max_internal_gap_days": 1.9166528165001182
+    },
+    {
+      "sector": 61,
+      "start_btjd": 2964.0402712449823,
+      "end_btjd": 2987.665009943031,
+      "n_all": 10713,
+      "n_quality0": 9105,
+      "cadence_days": 0.0023147894669364177,
+      "max_internal_gap_days": 1.6712758738385673
+    },
+    {
+      "sector": 88,
+      "start_btjd": 3690.2144167527804,
+      "end_btjd": 3717.8692922351347,
+      "n_all": 11730,
+      "n_quality0": 11215,
+      "cadence_days": 0.002314797654889844,
+      "max_internal_gap_days": 0.29397827098046037
+    }
+  ],
+  "flag_count": 1,
+  "representative_method": "Maximum screen contrast per sector, up to twelve sectors; all available FITS checked for hash and endpoints.",
+  "events": [
+    {
+      "sector": 61,
+      "seed_btjd": 2974.7740451452432,
+      "screen_duration_days": 1.6,
+      "screen_contrast": 6.313156944617038,
+      "screen_depth_ppt": 15.473237277418782,
+      "core_n": 487,
+      "side_n": 2795,
+      "core_deficit_ppt": 22.992554854258884,
+      "side_scatter_ppt": 32.647873384797094,
+      "local_max_gap_days": 1.6712758738385673,
+      "source_sha256": "a9a88dc0ce22bc1e98575831dae9f3700b914a1a0cbcb2771eec94d4b82c2d56",
+      "fit_mid_btjd": 2974.7844687452807,
+      "fit_mid_formal_error_days": 21367.064365367,
+      "fit_depth_ppt": 16.907920531610742,
+      "fit_duration_days": 3.0707237712540354,
+      "fit_slope_per_day": -0.007362634637835687
+    }
+  ]
+}

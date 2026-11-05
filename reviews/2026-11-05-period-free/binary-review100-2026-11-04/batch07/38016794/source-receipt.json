@@ -1,0 +1,81 @@
+{
+  "sample_id": "H065",
+  "tic": "38016794",
+  "queue_sha256": "d64da138a6db4649b0ab8dfe45b414a5ea6bd51750c41390d7e354082babcc26",
+  "bulk_json": "[local-path-redacted]",
+  "bulk_json_sha256": "e0385a0d64ad8e8d451c9f6d91e4ba31ac57727dfda0182aa669b5afd8394d5b",
+  "source_packet": "[local-path-redacted]",
+  "source_packet_sha256": "4ec7b31c95d38dfa34732fb70aa62373a43eb4e8ed3bb606227d642eb7e6d22d",
+  "verified_qlp_fits": [
+    {
+      "sector": 5,
+      "path": "[local-path-redacted]",
+      "sha256": "a6b0cf8438cd17a50fb85fdb44096c031be9ed45fe2dc1a9d3a563f481d88d88"
+    },
+    {
+      "sector": 32,
+      "path": "[local-path-redacted]",
+      "sha256": "ab8c9b2d95f56963a964942f316904c469becbb1b01a207006968f3fc788e89c"
+    },
+    {
+      "sector": 98,
+      "path": "[local-path-redacted]",
+      "sha256": "646b821d6765cd98a6d83c116f985339b39e95e27b8010413897cadedab701c4"
+    }
+  ],
+  "selected_screen_flags": [
+    {
+      "sector": 98,
+      "kind": "dip",
+      "screen_center_btjd": 4002.0690077506792,
+      "screen_duration_days": 0.24,
+      "screen_contrast": 6.662512751222265
+    },
+    {
+      "sector": 98,
+      "kind": "dip",
+      "screen_center_btjd": 3995.5411509207347,
+      "screen_duration_days": 0.24,
+      "screen_contrast": 5.088506103777755
+    }
+  ],
+  "gaia_orbit": {
+    "source_id": "3199385189639870848",
+    "nss_solution_type": "SB1",
+    "period": "23.532531525328608",
+    "period_error": "0.0036175132",
+    "t_periastron": "-0.10704805492864221",
+    "t_periastron_error": "0.16036372",
+    "eccentricity": "0.2076522756762386",
+    "eccentricity_error": "0.012041443",
+    "arg_periastron": "323.942079183918",
+    "arg_periastron_error": "2.9186313",
+    "semi_amplitude_primary": "18.030321091399504",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "1.2968615",
+    "significance": "87.34216",
+    "ra": "67.50794876600655",
+    "dec": "-6.009392357997531",
+    "parallax": "9.501858295059716",
+    "phot_g_mean_mag": "9.636883",
+    "bp_rp": "0.8166475",
+    "ruwe": "3.0348682",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "sector_availability": {
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=67.50794876600655&dec=-6.009392357997531",
+    "http_status": 200,
+    "response_sha256": "5b42c732b163a2c0ea497aee68a3dad36e528230d5f90e867dd111d2d8b680ac",
+    "available_sectors": [
+      5,
+      32,
+      98,
+      109
+    ],
+    "uncached_sectors": [
+      109
+    ]
+  },
+  "note": "QLP FITS hashes reverified by inspect_raw.py. Screening windows are not measured event times."
+}

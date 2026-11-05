@@ -1,0 +1,51 @@
+{
+  "tic": "255912894",
+  "eclipse_kind": "selected narrow dip; primary identity not established",
+  "cycle_assignment": "0,30,51,52; S13 to S100 51 cycles, S102 one after S100",
+  "events": [
+    {
+      "sector": 13,
+      "cycle": 0,
+      "center": 1678.658468643345,
+      "formal": 0.0028368808028428763,
+      "cadence": 0.0208333333,
+      "adopted_error_days": 0.01041666665
+    },
+    {
+      "sector": 66,
+      "cycle": 30,
+      "center": 3100.2737468969226,
+      "formal": 0.003026936584074861,
+      "cadence": 0.0023148148,
+      "adopted_error_days": 0.003026936584074861
+    },
+    {
+      "sector": 100,
+      "cycle": 51,
+      "center": 4095.4023910600613,
+      "formal": 0.0021367816683000238,
+      "cadence": 0.0023148148,
+      "adopted_error_days": 0.0021367816683000238
+    },
+    {
+      "sector": 102,
+      "cycle": 52,
+      "center": 4142.788865157356,
+      "formal": 0.0023691777952566453,
+      "cadence": 0.0023148148,
+      "adopted_error_days": 0.0023691777952566453
+    }
+  ],
+  "primary_epoch_btjd": 1678.660676172859,
+  "epoch_error_days": 0.006130721731201827,
+  "period_days": 47.38708831247206,
+  "period_formal_error_days": 0.0001298257369986632,
+  "reduced_chi_square": 0.0515033440583299,
+  "residual_days": [
+    -0.002207529513952977,
+    0.0004213499018987932,
+    0.00021095112742841593,
+    -0.0004032640499644913
+  ],
+  "error_meaning": "Weighted linear clock; each center error max(trapezoid covariance, half QLP cadence), scatter inflated if chi2/dof > 1. No instrumental/systematic timing calibration. The cycle count is independently tested with actual covered nulls in lead-alias.json."
+}

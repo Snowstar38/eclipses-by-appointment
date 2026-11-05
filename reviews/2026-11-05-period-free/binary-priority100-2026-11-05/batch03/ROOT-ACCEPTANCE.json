@@ -1,0 +1,74 @@
+{
+  "batch": "batch03",
+  "queue_sha256": "b59ff135cb621b3e2a97ba745657d0d365b63d65601cb08bba023aa695251e5b",
+  "results_sha256": "cdac20f61cfb11fb6f1aa63999b94f52f883fef237cb7b4607f1965dee1866ac",
+  "manifest_sha256": "549977611d02402b76d8f3170cd64264bc2e30344a575e445b6973c5c193c184",
+  "rows": 10,
+  "accepted": true,
+  "manifest_files_verified": 98,
+  "decisions": {
+    "T021": {
+      "tic": "260625051",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T022": {
+      "tic": "250686128",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T023": {
+      "tic": "466271646",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T024": {
+      "tic": "313275336",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T025": {
+      "tic": "219765764",
+      "physical_verdict": "PLAUSIBLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T026": {
+      "tic": "341688154",
+      "physical_verdict": "PROBABLE",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T027": {
+      "tic": "288608943",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T028": {
+      "tic": "289008887",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T029": {
+      "tic": "147088723",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    },
+    "T030": {
+      "tic": "208247699",
+      "physical_verdict": "REFUTED",
+      "full_review_completion": "COMPLETE",
+      "novelty_status": "UNKNOWN"
+    }
+  },
+  "root_review": "Read all ten reports, lead/helper audits, T026 timing/alias receipts and T024 source/coverage data. T026 four same-kind events support measured clock; tested half/third and integer aliases, but capable 0.317-pixel neighbor remains unresolved, so probable. T024/T025 remain plausible without secure recurrence; nearzero omitted cutouts are invalid nulls. Read positive gap/step and continuous-wave evidence for refutations; directly inspected T022 raw window to verify rise dominates rather than localized eclipse. Corrected T024 wording: eight cached sectors through74, no newer sector, not no sector after26. No verdict change.",
+  "helper_boundary": "Batch02 final four exception pixel checks were lead post-helper; root independently verified. Batch03 helper checked T025/T026, lead owns other bounded review.",
+  "accounting": "Physical outcomes only; novelty UNKNOWN; prior ledger and paper unchanged."
+}
