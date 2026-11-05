@@ -1,0 +1,47 @@
+Gaia: P 4.800815 +- 0.001208, Tp(BTJD) 387.1998 +- 0.3127, e 0.274, w 92.2
+Gaia conjunction phases after periastron: A 0.9966  B 0.4895
+s009: 864 q=0 cadences of 1154 finite; t 1544.39-1568.41; cycles from Gaia Tp 243; smear n*sP = 0.294 d = 0.061 phase; pt-pt rms 2497 ppm; median bkg -18
+s010: 925 q=0 cadences of 1211 finite; t 1571.20-1595.41; cycles from Gaia Tp 249; smear n*sP = 0.301 d = 0.063 phase; pt-pt rms 1824 ppm; median bkg 104
+s036: 2735 q=0 cadences of 3477 finite; t 2281.98-2305.05; cycles from Gaia Tp 397; smear n*sP = 0.480 d = 0.100 phase; pt-pt rms 2893 ppm; median bkg -31
+s037: 2807 q=0 cadences of 3477 finite; t 2311.21-2332.50; cycles from Gaia Tp 403; smear n*sP = 0.487 d = 0.101 phase; pt-pt rms 2541 ppm; median bkg 33
+s062: 10007 q=0 cadences of 10837 finite; t 2989.27-3013.90; cycles from Gaia Tp 545; smear n*sP = 0.658 d = 0.137 phase; pt-pt rms 4395 ppm; median bkg -53
+s063: 10280 q=0 cadences of 11190 finite; t 3014.42-3039.13; cycles from Gaia Tp 550; smear n*sP = 0.664 d = 0.138 phase; pt-pt rms 4496 ppm; median bkg -23
+s089: 11061 q=0 cadences of 11424 finite; t 3718.18-3746.92; cycles from Gaia Tp 697; smear n*sP = 0.842 d = 0.175 phase; pt-pt rms 4318 ppm; median bkg -14
+s090: 10760 q=0 cadences of 11574 finite; t 3747.44-3774.85; cycles from Gaia Tp 703; smear n*sP = 0.849 d = 0.177 phase; pt-pt rms 4851 ppm; median bkg -8
+17 segments
+
+Per-sector fold on Gaia ephemeris (60 bins, 3-bin smoothed; ppt relative to median out-of-pulse):
+ sec   hump phase  hump ppt   dip phase  dip ppt   pk-tr ppt   bin err ppm
+    9   -0.225     +3.76     -0.075    -6.17    9.92       662
+   10   -0.208     +3.45     -0.075    -6.28    9.73       530
+   36   -0.242     +3.78     -0.092    -7.66    11.44       523
+   37   +0.058     +4.05     -0.092    -7.34    11.39       451
+   62   +0.058     +3.94     -0.125    -7.07    11.01       358
+   63   -0.258     +4.20     -0.125    -7.14    11.33       373
+   89   +0.009     +5.07     -0.142    -8.01    13.09       340
+   90   -0.292     +3.96     -0.142    -7.26    11.22       385
+  all   +0.025     +3.80     -0.125    -6.83    10.64       166
+all-fold local maxima (phase, ppt): [(-0.258, 3.31), (0.025, 3.8), (0.392, -1.15), (0.442, -1.08)]
+all-fold local minima (phase, ppt): [(-0.125, -6.83), (0.358, -1.27), (0.408, -1.15), (0.475, -1.33)]
+
+residual amplitude spectrum (all), median 36.0 ppm; top peaks:
+   f 4.4711 c/d  = 21.465 f_orb   amp 1216 ppm
+   f 13.6092 c/d  = 65.335 f_orb   amp 1099 ppm
+   f 13.6406 c/d  = 65.486 f_orb   amp 727 ppm
+   f 12.8087 c/d  = 61.492 f_orb   amp 675 ppm
+   f 0.6266 c/d  = 3.008 f_orb   amp 492 ppm
+   f 0.1409 c/d  = 0.676 f_orb   amp 463 ppm
+   f 0.8363 c/d  = 4.015 f_orb   amp 453 ppm
+   f 0.4169 c/d  = 2.001 f_orb   amp 448 ppm
+
+residual amplitude spectrum (s62-90 (200s)), median 40.7 ppm; top peaks:
+   f 4.4710 c/d  = 21.464 f_orb   amp 1332 ppm
+   f 13.6104 c/d  = 65.341 f_orb   amp 1128 ppm
+   f 13.6406 c/d  = 65.486 f_orb   amp 702 ppm
+   f 12.8087 c/d  = 61.492 f_orb   amp 692 ppm
+   f 0.1421 c/d  = 0.682 f_orb   amp 476 ppm
+   f 0.1676 c/d  = 0.805 f_orb   amp 470 ppm
+   f 0.6269 c/d  = 3.010 f_orb   amp 466 ppm
+   f 4.5261 c/d  = 21.729 f_orb   amp 466 ppm
+
+raw detrended spectrum at orbital harmonics (ppm): [(1, 481), (2, 2493), (3, 2215), (4, 1340), (5, 781), (6, 370), (7, 36), (8, 79)]

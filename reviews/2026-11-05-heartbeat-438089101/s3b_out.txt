@@ -1,0 +1,29 @@
+start: beam_Pfree e 0.2647 w 84.68 i 60.6 P 4.800079 Bm 4.455e-04 chi2/dof 2.328
+jackknife -s009: e 0.2652 w 84.76 i 60.5 S 2.542e-03 Bm 4.75e-04 (K1 71) P 4.800077
+jackknife -s010: e 0.2642 w 84.56 i 60.8 S 2.547e-03 Bm 4.69e-04 (K1 70) P 4.800097
+jackknife -s036: e 0.2623 w 87.07 i 59.7 S 2.600e-03 Bm 3.59e-04 (K1 54) P 4.800093
+jackknife -s037: e 0.2647 w 83.89 i 61.5 S 2.477e-03 Bm 4.59e-04 (K1 69) P 4.800066
+jackknife -s062: e 0.2650 w 84.26 i 60.2 S 2.576e-03 Bm 4.13e-04 (K1 62) P 4.800081
+jackknife -s063: e 0.2651 w 83.90 i 61.6 S 2.456e-03 Bm 5.34e-04 (K1 80) P 4.800081
+jackknife -s089: e 0.2637 w 84.66 i 59.8 S 2.543e-03 Bm 3.35e-04 (K1 50) P 4.800063
+jackknife -s090: e 0.2665 w 84.11 i 60.5 S 2.514e-03 Bm 5.17e-04 (K1 77) P 4.800072
+jackknife sigma: e 0.003046, w 2.556, i 1.767, S 0.0001189, Bm 0.0001759, P 2.981e-05, tp 0.01583
+sector s009 alone: e 0.250 w 261.7 i 61.5 S 2.31e-03 Bm 2.47e-04 (K1 37)
+sector s010 alone: e 0.271 w 85.5 i 57.9 S 2.34e-03 Bm 1.79e-04 (K1 27)
+sector s036 alone: e 0.251 w 56.2 i 57.7 S 2.95e-03 Bm 1.70e-03 (K1 254)
+sector s037 alone: e 0.260 w 89.3 i 55.6 S 2.93e-03 Bm 3.28e-04 (K1 49)
+sector s062 alone: e 0.262 w 87.0 i 63.7 S 2.27e-03 Bm 6.26e-04 (K1 93)
+sector s063 alone: e 0.263 w 88.3 i 56.2 S 2.93e-03 Bm 1.80e-05 (K1 3)
+sector s089 alone: e 0.265 w 85.4 i 63.8 S 2.54e-03 Bm 9.45e-04 (K1 141)
+sector s090 alone: e 0.253 w -92.4 i 61.2 S 2.68e-03 Bm 3.13e-05 (K1 5)
+bootstrap over 48 passages, 200 resamples: e 0.003953, w 2.142, i 2.159, S 0.0001496, Bm 0.0001755, P 1.82e-05, tp 0.01586
+bootstrap 16/50/84: e 0.2598/0.2642/0.2677; w 83.24/85.51/87.32; i 58.13/59.93/62.16; S 0.002403/0.002576/0.002708; Bm 0.0002169/0.000395/0.0005714; P 4.8/4.8/4.8; tp 387/387/387
+emcee (errors x sqrt(2.33)): acceptance 0.55; e 0.2646 +- 0.0030; w 84.78 +- 0.93; i 60.7 +- 0.9; P 4.800079 +- 0.000017; tp 387.0025 +- 0.0118
+linear terms at best (cov x infl): S 2.531e-03 +- 2.5e-05; Bm 4.455e-04 +- 4.1e-05
+beaming factor vs Teff (blackbody, 600-1000 nm photon-weighted): 6500 K 3.06, 7500 K 2.74, 9000 K 2.41, 10000 K 2.25, 12000 K 2.01, 14000 K 1.84
+K1-equivalent of best Bm 4.455e-04 vs Teff: 6500 K 44, 7500 K 49, 9000 K 55, 10000 K 59, 12000 K 67, 14000 K 72 km/s
+Bm FIXED at Gaia K1 x factor(7500 K) = 2.92e-04: e 0.2648 w 84.38 i 60.9 chi2 20160 (free-Bm best 20129; delta +31)
+Bm FIXED at Gaia K1 x factor(12000 K) = 2.14e-04: e 0.2650 w 84.21 i 61.1 chi2 20200 (free-Bm best 20129; delta +70)
+prewhitening frequencies (from 0.02-d bins): 4.4712, 13.6092, 12.8088, 13.6434, 4.5220, 0.3099
+after prewhitening: e 0.2646 w 84.79 i 60.3 S 2.541e-03 Bm 4.444e-04 (K1 66.4) P 4.800079 chi2/dof 1.578
+pure tide bootstrap (100): e sd 0.0048, w(mod180) sd 2.67, i sd 2.7

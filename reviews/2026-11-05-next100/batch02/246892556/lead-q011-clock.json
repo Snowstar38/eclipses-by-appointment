@@ -1,0 +1,352 @@
+{
+  "tic": "246892556",
+  "sources": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "be40b0ed98a00afd8cc0871ba742933ee69fbc5a57c86d4f280f7eaaf676f9a3"
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "37a4996b7cc945f9899ccb2e185d82f5251370a25a8bd9d22853ba6a8aecc13e"
+    }
+  ],
+  "events": [
+    {
+      "sector": 29,
+      "screen_guess_btjd": 2089.59,
+      "measured_minimum_btjd": 2089.5918059518317,
+      "core_depth_ppt": 6.537127379555699,
+      "local_side_mad_ppt": 0.2821900298384073,
+      "n_core": 7,
+      "n_side": 59,
+      "cycle_index_at_6p55d": 0,
+      "ephemeris_residual_minutes": -0.5139552817126969
+    },
+    {
+      "sector": 29,
+      "screen_guess_btjd": 2096.15,
+      "measured_minimum_btjd": 2096.1544580663012,
+      "core_depth_ppt": 6.264668014690268,
+      "local_side_mad_ppt": 0.17641651550084828,
+      "n_core": 11,
+      "n_side": 61,
+      "cycle_index_at_6p55d": 1,
+      "ephemeris_residual_minutes": 7.391763350387919
+    },
+    {
+      "sector": 29,
+      "screen_guess_btjd": 2109.27,
+      "measured_minimum_btjd": 2109.2587648140643,
+      "core_depth_ppt": 6.607166188166702,
+      "local_side_mad_ppt": 0.25342093850890574,
+      "n_core": 8,
+      "n_side": 61,
+      "cycle_index_at_6p55d": 3,
+      "ephemeris_residual_minutes": -7.033172278825077
+    },
+    {
+      "sector": 69,
+      "screen_guess_btjd": 3184.64,
+      "measured_minimum_btjd": 3184.639892317819,
+      "core_depth_ppt": 6.785088047229561,
+      "local_side_mad_ppt": 0.5237791999584788,
+      "n_core": 31,
+      "n_side": 168,
+      "cycle_index_at_6p55d": 167,
+      "ephemeris_residual_minutes": 2.404935661252239
+    },
+    {
+      "sector": 69,
+      "screen_guess_btjd": 3191.19,
+      "measured_minimum_btjd": 3191.2002385774235,
+      "core_depth_ppt": 6.559343148136841,
+      "local_side_mad_ppt": 0.5977747692551533,
+      "n_core": 31,
+      "n_side": 241,
+      "cycle_index_at_6p55d": 168,
+      "ephemeris_residual_minutes": 6.990223287793924
+    },
+    {
+      "sector": 69,
+      "screen_guess_btjd": 3197.74,
+      "measured_minimum_btjd": 3197.746649697159,
+      "core_depth_ppt": 6.459189640560886,
+      "local_side_mad_ppt": 0.48817228774273086,
+      "n_core": 31,
+      "n_side": 242,
+      "cycle_index_at_6p55d": 169,
+      "ephemeris_residual_minutes": -8.491090497482219
+    },
+    {
+      "sector": 69,
+      "screen_guess_btjd": 3204.32,
+      "measured_minimum_btjd": 3204.3091883863763,
+      "core_depth_ppt": 6.651603097273115,
+      "local_side_mad_ppt": 0.5717338295332819,
+      "n_core": 31,
+      "n_side": 242,
+      "cycle_index_at_6p55d": 170,
+      "ephemeris_residual_minutes": -0.748704228317365
+    }
+  ],
+  "photometric_step_days": 6.557162032086155,
+  "step_epoch_btjd": 2089.592162865222,
+  "step_fit_rms_minutes": 5.752936402634301,
+  "aliases_tested": [
+    "P/2 extra windows",
+    "P step",
+    "2P same-kind alternative"
+  ],
+  "window_tests": [
+    {
+      "center_btjd": 2092.870743881265,
+      "sector": 29,
+      "covered": true,
+      "coverage": {
+        "core": {
+          "n": 17,
+          "largest_gap_days": 0.006944604294858436,
+          "first_btjd": 2092.814111452596,
+          "last_btjd": 2092.92522511255
+        },
+        "left": {
+          "n": 37,
+          "largest_gap_days": 0.020833826718899218,
+          "first_btjd": 2092.3766012306246,
+          "last_btjd": 2092.689108562576
+        },
+        "right": {
+          "n": 30,
+          "largest_gap_days": 0.021898113642691897,
+          "first_btjd": 2093.0571725587565,
+          "last_btjd": 2093.348845767622
+        }
+      },
+      "loss_ppt": 0.11051963232944934,
+      "side_mad_ppt": 0.299397354355966,
+      "test": "half_step_extra",
+      "j": 1
+    },
+    {
+      "center_btjd": 2099.427905913351,
+      "sector": 29,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 0,
+          "largest_gap_days": 0.11999999999989086,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "left": {
+          "n": 31,
+          "largest_gap_days": 0.020833656996728678,
+          "first_btjd": 2098.9461716287537,
+          "last_btjd": 2099.2447873712836
+        },
+        "right": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        }
+      },
+      "test": "half_step_extra",
+      "j": 3
+    },
+    {
+      "center_btjd": 2102.706486929394,
+      "sector": 29,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 0,
+          "largest_gap_days": 0.11999999999989086,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "left": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "right": {
+          "n": 35,
+          "largest_gap_days": 0.020833568611124065,
+          "first_btjd": 2102.8906809670334,
+          "last_btjd": 2103.2031844246944
+        }
+      },
+      "test": "half_step_extra",
+      "j": 4
+    },
+    {
+      "center_btjd": 2105.985067945437,
+      "sector": 29,
+      "covered": true,
+      "coverage": {
+        "core": {
+          "n": 15,
+          "largest_gap_days": 0.013888948546991742,
+          "first_btjd": 2105.925425967402,
+          "last_btjd": 2106.036537550333
+        },
+        "left": {
+          "n": 35,
+          "largest_gap_days": 0.02777791546213848,
+          "first_btjd": 2105.487923895453,
+          "last_btjd": 2105.793480934307
+        },
+        "right": {
+          "n": 38,
+          "largest_gap_days": 0.020833406827023282,
+          "first_btjd": 2106.1684825275534,
+          "last_btjd": 2106.474039202091
+        }
+      },
+      "loss_ppt": -0.17127273558097048,
+      "side_mad_ppt": 0.4035949007210662,
+      "test": "half_step_extra",
+      "j": 5
+    },
+    {
+      "center_btjd": 2102.706486929394,
+      "sector": 29,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 0,
+          "largest_gap_days": 0.11999999999989086,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "left": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "right": {
+          "n": 35,
+          "largest_gap_days": 0.020833568611124065,
+          "first_btjd": 2102.8906809670334,
+          "last_btjd": 2103.2031844246944
+        }
+      },
+      "test": "full_step",
+      "j": 2
+    },
+    {
+      "center_btjd": 2102.706486929394,
+      "sector": 29,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 0,
+          "largest_gap_days": 0.11999999999989086,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "left": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "right": {
+          "n": 35,
+          "largest_gap_days": 0.020833568611124065,
+          "first_btjd": 2102.8906809670334,
+          "last_btjd": 2103.2031844246944
+        }
+      },
+      "test": "double_step",
+      "j": 1
+    },
+    {
+      "center_btjd": 3187.916803239653,
+      "sector": 69,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 52,
+          "largest_gap_days": 0.002314871274847974,
+          "first_btjd": 3187.8575757451576,
+          "last_btjd": 3187.975634165459
+        },
+        "left": {
+          "n": 138,
+          "largest_gap_days": 0.0023148736127041047,
+          "first_btjd": 3187.417749990105,
+          "last_btjd": 3187.734887550904
+        },
+        "right": {
+          "n": 44,
+          "largest_gap_days": 0.2199125653619376,
+          "first_btjd": 3188.0983222959107,
+          "last_btjd": 3188.4154593904204
+        }
+      },
+      "test": "half_step_extra",
+      "j": 335
+    },
+    {
+      "center_btjd": 3194.473965271739,
+      "sector": 69,
+      "covered": false,
+      "coverage": {
+        "core": {
+          "n": 0,
+          "largest_gap_days": 0.11999999999989086,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "left": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        },
+        "right": {
+          "n": 0,
+          "largest_gap_days": 0.3200000000001637,
+          "first_btjd": null,
+          "last_btjd": null
+        }
+      },
+      "test": "half_step_extra",
+      "j": 337
+    },
+    {
+      "center_btjd": 3201.031127303825,
+      "sector": 69,
+      "covered": true,
+      "coverage": {
+        "core": {
+          "n": 44,
+          "largest_gap_days": 0.006944483478037,
+          "first_btjd": 3200.9735328273446,
+          "last_btjd": 3201.089274217541
+        },
+        "left": {
+          "n": 132,
+          "largest_gap_days": 0.00694448928697966,
+          "first_btjd": 3200.531400439076,
+          "last_btjd": 3200.8508469211797
+        },
+        "right": {
+          "n": 121,
+          "largest_gap_days": 0.01361020216563702,
+          "first_btjd": 3201.2119600581896,
+          "last_btjd": 3201.5175171016595
+        }
+      },
+      "loss_ppt": 0.1363688535088509,
+      "side_mad_ppt": 0.6241743321602852,
+      "test": "half_step_extra",
+      "j": 339
+    }
+  ],
+  "note": "Window losses are local SAP metrics, not an orbital fit. A 2P orbit can alternate indistinguishable eclipse kinds; source-specific Gaia orbit remains a separate hypothesis."
+}

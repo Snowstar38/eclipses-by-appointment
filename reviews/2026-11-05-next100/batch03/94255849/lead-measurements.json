@@ -1,0 +1,222 @@
+{
+  "sample_id": "Q027",
+  "tic": "94255849",
+  "gaia": {
+    "source_id": "5368647379859461504",
+    "nss_solution_type": "SB1",
+    "period": "43.59494324588608",
+    "period_error": "0.011994529",
+    "t_periastron": "18.027629815756825",
+    "t_periastron_error": "1.6579784",
+    "eccentricity": "0.05995407693496184",
+    "eccentricity_error": "0.019129904",
+    "arg_periastron": "242.31844821060233",
+    "arg_periastron_error": "14.100614",
+    "semi_amplitude_primary": "24.28430050574694",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "2.8708844",
+    "significance": "64.10572",
+    "ra": "176.949689033494",
+    "dec": "-53.024812843283684",
+    "parallax": "2.771718123273905",
+    "phot_g_mean_mag": "10.163191",
+    "bp_rp": "0.75556946",
+    "ruwe": "9.187978",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a5cccb1498d1552399e60d6c416c9968787a42cb5ec59d3bdd411fbe3e641c23",
+      "sector": 10,
+      "quality0_samples": 870
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "a6a07b3a04fb987734a5139c3a53a2ae6a11be16183d302d47059f7854dca421",
+      "sector": 64,
+      "quality0_samples": 10673
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "49541e42c752a002364afe0f8ffe19864ef9db575ab4da0e3351d7fca00370d0",
+      "sector": 99,
+      "quality0_samples": 7296
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "d3a72fd7edb059b3889e975e4d25a6e759303be6d18226ad572712f479172d57",
+      "sector": 100,
+      "quality0_samples": 8063
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "dfab98f2cf7a5e5238d2d78bee4194696be2c960ba51993fde2c07f9b956fe1a",
+      "sector": 101,
+      "quality0_samples": 8216
+    }
+  ],
+  "bulk_result": "[local-path-redacted]",
+  "bulk_sha256": "d7a656ed6b7ef9b0dabcf8ae8a21d6357931d489c6e501ff4f5ca8691dc2034c",
+  "coverage": [
+    {
+      "sector": 10,
+      "start": 1571.7229153976843,
+      "end": 1595.639768834641,
+      "quality0_positive": 870,
+      "cadence_days": 0.02083349032704973,
+      "gaps_over_0p2_days": [
+        [
+          1578.63971102393,
+          1578.8897145215476
+        ],
+        [
+          1580.5147343907981,
+          1580.7439033745877
+        ],
+        [
+          1581.7230779063489,
+          1584.868925565172
+        ]
+      ]
+    },
+    {
+      "sector": 64,
+      "start": 3041.1761472541725,
+      "end": 3067.6204990872343,
+      "quality0_positive": 10673,
+      "cadence_days": 0.0023148109662542993,
+      "gaps_over_0p2_days": [
+        [
+          3048.1160121651656,
+          3048.3359203190153
+        ],
+        [
+          3054.710920642567,
+          3055.354436637131
+        ],
+        [
+          3062.220117090165,
+          3062.4400217480343
+        ]
+      ]
+    },
+    {
+      "sector": 99,
+      "start": 4046.1512524622663,
+      "end": 4070.9954929909636,
+      "quality0_positive": 7296,
+      "cadence_days": 0.002314967704933224,
+      "gaps_over_0p2_days": [
+        [
+          4052.6169677111093,
+          4052.878559046551
+        ],
+        [
+          4055.7190223715284,
+          4063.027383045038
+        ],
+        [
+          4067.1781210458903,
+          4067.4281372106216
+        ]
+      ]
+    },
+    {
+      "sector": 100,
+      "start": 4074.5094235082934,
+      "end": 4098.273301029682,
+      "quality0_positive": 8063,
+      "cadence_days": 0.002314813695193152,
+      "gaps_over_0p2_days": [
+        [
+          4085.1228443034606,
+          4088.0163614239036
+        ],
+        [
+          4092.5742296224944,
+          4094.3311732410793
+        ]
+      ]
+    },
+    {
+      "sector": 101,
+      "start": 4101.604317940855,
+      "end": 4124.935325297011,
+      "quality0_positive": 8216,
+      "cadence_days": 0.0023148137024691096,
+      "gaps_over_0p2_days": [
+        [
+          4107.044130084816,
+          4107.273296663941
+        ],
+        [
+          4111.826535213433,
+          4114.861255983761
+        ],
+        [
+          4120.041809069146,
+          4120.264031195662
+        ]
+      ]
+    }
+  ],
+  "screen_flagged_dips": [
+    {
+      "sector": 10,
+      "screen_center_btjd": 1588.4106123400072,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 1588.4142892400582,
+      "formal_center_error_days": 0.0014647333981013695,
+      "depth_ppt": 4.572824433901516,
+      "fit_width_days": 0.26871628521076607,
+      "fit_ingress_days": 0.08840698191340876,
+      "noise_ppt": 0.21097543367670593,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 1588.2799310974528,
+      "core_end_btjd": 1588.5486473826636,
+      "raw_flux_median": 1.0000075101852417,
+      "points": 65,
+      "source_sha256": "a5cccb1498d1552399e60d6c416c9968787a42cb5ec59d3bdd411fbe3e641c23"
+    },
+    {
+      "sector": 100,
+      "screen_center_btjd": 4075.5071082026207,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 4075.502275612701,
+      "formal_center_error_days": 0.0016847417471037161,
+      "depth_ppt": 3.7219263912464706,
+      "fit_width_days": 0.26624536163652046,
+      "fit_ingress_days": 0.08766103216247541,
+      "noise_ppt": 0.6218277766201961,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 4075.3691529318826,
+      "core_end_btjd": 4075.6353982935193,
+      "raw_flux_median": 1.000488519668579,
+      "points": 623,
+      "source_sha256": "d3a72fd7edb059b3889e975e4d25a6e759303be6d18226ad572712f479172d57"
+    },
+    {
+      "sector": 101,
+      "screen_center_btjd": 4119.324216818722,
+      "screen_duration_days": 0.96,
+      "measured_center_btjd": 4119.390693300544,
+      "formal_center_error_days": 0.008222980083914764,
+      "depth_ppt": 5.603065090134413,
+      "fit_width_days": 1.4997490250343706,
+      "fit_ingress_days": 0.45423157369898265,
+      "noise_ppt": 1.3795915512394545,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 4118.640818788026,
+      "core_end_btjd": 4120.140567813061,
+      "raw_flux_median": 1.0003445148468018,
+      "points": 1760,
+      "source_sha256": "dfab98f2cf7a5e5238d2d78bee4194696be2c960ba51993fde2c07f9b956fe1a"
+    }
+  ],
+  "fit_caveat": "Local trapezoids are screening measurements; event kinds, alias nulls, and source ownership require separate review."
+}

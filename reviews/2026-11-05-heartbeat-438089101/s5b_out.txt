@@ -1,0 +1,20 @@
+f_orb = 0.2083299 +- 1.3e-06 c/d (light-curve P 4.800079 +- 3.0e-05)
+strong modes (simultaneous nonlinear fit):
+  f 4.471077 +- 6.6e-06 c/d  amp 1203 ppm  n = 21.4615 +- 0.0001
+  f 13.609195 +- 8.3e-06 c/d  amp 1021 ppm  n = 65.3252 +- 0.0004
+  f 12.811494 +- 1.2e-05 c/d  amp 679 ppm  n = 61.4962 +- 0.0004
+  f 13.646154 +- 1.3e-05 c/d  amp 594 ppm  n = 65.5026 +- 0.0004
+  f 13.618120 +- 1.6e-05 c/d  amp 530 ppm  n = 65.3681 +- 0.0004
+  f 4.526196 +- 2.1e-05 c/d  amp 370 ppm  n = 21.7261 +- 0.0002
+combination / sideband search among strong modes (|f_i +- f_j - m f_orb| within 3 sigma, |m| <= 10):
+   f2 - f3 = 0.83466 = 4.006 f_orb
+
+harmonic-flagged peaks, free frequency fit on prewhitened residuals:
+  n0  74: free f 15.416442 +- 3.0e-05 (start 15.416412); amp 260 ppm; n = 74.0001 +- 0.0005 -> +0.3 sigma from 74
+  n0  69: free f 14.374770 +- 3.2e-05 (start 14.374762); amp 246 ppm; n = 69.0000 +- 0.0005 -> +0.1 sigma from 69
+  n0   7: free f 1.458321 +- 3.9e-05 (start 1.458309); amp 204 ppm; n = 7.0001 +- 0.0002 -> +0.3 sigma from 7
+  n0   6: free f 1.250074 +- 4.3e-05 (start 1.249979); amp 182 ppm; n = 6.0005 +- 0.0002 -> +2.1 sigma from 6
+  n0   2: free f 0.416280 +- 3.9e-05 (start 0.416660); amp 201 ppm; n = 1.9982 +- 0.0002 -> -9.6 sigma from 2
+  n0   3: free f 0.624777 +- 1.6e-04 (start 0.624990); amp 48 ppm; n = 2.9990 +- 0.0008 -> -1.3 sigma from 3
+  n0   4: free f 0.833427 +- 6.4e-05 (start 0.833320); amp 122 ppm; n = 4.0005 +- 0.0003 -> +1.7 sigma from 4
+  n0   5: free f 1.041451 +- 6.7e-05 (start 1.041649); amp 118 ppm; n = 4.9990 +- 0.0003 -> -3.0 sigma from 5

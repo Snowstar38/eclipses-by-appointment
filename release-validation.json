@@ -6,36 +6,47 @@
     "probable": 113
   },
   "scientific_register": 830,
-  "period_free_reviews": 250,
+  "period_free_reviews": 350,
   "added_period_free_claims": 8,
   "archives": {
     "2026-11-05-baseline-reconciliation": 3473,
     "2026-11-05-claim-adjudication": 91,
+    "2026-11-05-heartbeat-438089101": 49,
+    "2026-11-05-next100": 1451,
     "2026-11-05-period-free": 3315
   },
-  "markdown_links": 679,
-  "json_files": 2777,
-  "python_files": 1369,
+  "markdown_links": 699,
+  "json_files": 3490,
+  "python_files": 1557,
   "pdfs": {
     "paper.pdf": {
-      "pages": 189,
-      "sha256": "1f751023d8ab4a55ab3d0becef542d6b2ca77cce9c98cf9afd63f9bc6088f897"
+      "pages": 191,
+      "sha256": "bdf9f3870abe4152fd8c7d38972ec169730ddcb49752f693fae15341eaf51ae3"
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "c25e6bf167bf17375f17f28304513b5c8f1f2759631cc0ab9782108db7924c58"
+      "sha256": "2a59f619d8c60d109e87297d2d7915f13a578f42e27da86fa9c1ac5eb675f661"
     },
     "supplement-5-period-free-review.pdf": {
-      "pages": 82,
-      "sha256": "2df0c11fe39908838e6be077527ae5ab36151f20d75b278c0447c821df56b4a0"
+      "pages": 113,
+      "sha256": "4bea34197b3211be52675bda8aea3db4d6702ddc44a94670331c1d6bb888cad6"
     }
   },
   "candidate_claim_decisions": {
     "accepted": 8,
-    "pending_catalogue": 41
+    "pending_catalogue": 36,
+    "later_known_recoveries": 5
   },
   "unchanged_sealed_review_artifacts": 698,
-  "visual_quality": "PASS: final manuscript, supplement, guide and overview samples; final paper hash independently rechecked.",
-  "selection_verification": "PASS: complete frozen score/selection records retained unchanged.",
-  "publication_status": "Validated release with eight accepted additions and 41 candidates pending unavailable catalogue gates."
+  "visual_quality": "PASS: bounded independent inspection of changed pages and overview; scope and hashes in final visual audit.",
+  "publication_status": "350 reviewed candidates, explicit physical/catalogue adjudication, and ten physically confirmed heartbeats plus one candidate. Accepted eclipsing claims remain 921 (808 confirmed, 113 probable).",
+  "physical_adjudication": {
+    "Q080": "PROBABLE at batch freeze -> PLAUSIBLE after adversarial review; original evidence preserved"
+  },
+  "heartbeat_systems": {
+    "physically_confirmed": 10,
+    "candidate": 1,
+    "new_review_tic": "438089101",
+    "eclipsing_claims_added": 0
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "query": "SELECT source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',107.9357811849,-22.4416859984,0.03)) AND phot_g_mean_mag<18",
+  "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "sha256": "cfd815be157400ef76d6fa4e2bbcdc74655e69c31efaa5cc25f265ff6d150e66",
+  "bytes": 3848
+}

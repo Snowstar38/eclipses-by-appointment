@@ -1,0 +1,25 @@
+import csv,json,hashlib
+from pathlib import Path
+B=Path(__file__).resolve().parent;R=B.parent
+q=list(csv.DictReader((B/'queue.csv').open(encoding='utf8',newline='')))
+rows=[]
+for r in q:
+ sid=r['sample_id'];p=R/'tap-recovery'/f'vsx-{sid}.json';rows.append(dict(sample_id=sid,tic=r['tic'],receipt_path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),retrieved_date='2026-11-05',interpretation={'Q072':'Exact-position SRD variable, not EB class','Q077':'EW 57.7 arcsec away; off-target source','Q078':'Exact-position generic VAR, not EB class; other E entries distant','Q079':'Exact-position ESD|EC EB, KNOWN','Q080':'Exact-position ESD|ED EB, KNOWN'}.get(sid,'No exact EB identification in direct receipt')))
+(B/'lead-catalogue-audit.json').write_text(json.dumps(rows,indent=2)+'\n')
+with (B/'off-target-leads.csv').open('w',encoding='utf8',newline='') as f:
+ w=csv.DictWriter(f,fieldnames=['queued_sample_id','queued_tic','off_target_gaia_dr3','off_target_vsx_name','vsx_type','vsx_period_days','separation_from_target_arcsec','evidence','follow_up']);w.writeheader();w.writerow(dict(queued_sample_id='Q077',queued_tic='270523058',off_target_gaia_dr3='2126300770519521024',off_target_vsx_name='ASASSN-V J193328.10+440008.5',vsx_type='EW',vsx_period_days='0.641235',separation_from_target_arcsec='57.7',evidence='S14 eclipse difference centroid 5.05 arcsec from Gaia neighbor; 52.33 arcsec from queued target; raw S82 clock 0.641193 d',follow_up='Retain as known off-target EB; no queued-target claim'))
+text='''# Batch08 lead audit
+
+The exact sealed Q071–Q080 queue was reviewed from all 109 cached FITS files. The representative raw SAP context and local cadence series were generated first for all ten; selected windows were checked against actual cadence endpoints, internal gaps and baselines. `LEAD-SOURCE-HASHES.json` verifies FITS, packet and detector hashes. No source or queue substitutions were made.
+
+Q079 is the strongest target-centered EB: twelve independently observed flat-bottomed raw eclipses yield a 28.342736-d same-kind clock across 90 cycles, with neighboring cycles removing long-baseline integer ambiguity. The S13 WCS loss is target-centered, the Gaia SB1 period and nominal conjunction agree, and VSX has an exact-position ESD|EC entry. A successful MAST TIC fallback finds no catalogued capable neighbor: the largest T-band flux ratio within 90 arcsec is below 0.0008, versus a ~0.035 primary loss. Actual fully covered half-phase S63/S94/S96 windows have broad 12-18 ppt minima, not the recurring flat-bottom 35-ppt primary; the P/2 identical-event alias fails. A 2P alternating-kind photometric interpretation remains possible from the primary timing alone, while Gaia spectroscopy supports P. DET_FLUX suppression is documented alongside SYS_RM_FLUX retention. Unresolved sources are a residual limitation.
+
+Q080 is a known exact-position EB and has repeated broad troughs near the Gaia 33.382-d conjunction branch. S7/S34 FFI 3x3 extractions preserve the losses, and WCS difference positions favor the target against capable catalogued neighbors. S7/S34 approximate measured centers are 1501.440/2235.630 BTJD, whose separation permits both 22 Gaia cycles and 11 cycles at 2P. Later S87/S88 shapes/gaps do not resolve the alias. The physical grade is probable while the exact historical VSX EB identity is known.
+
+Q077's 0.641-d alternating minima are a real EB signal from the offset, capable Gaia/VSX neighbor, not from the queued target. It is preserved separately in `off-target-leads.csv`. Q078 has an ~0.693-d repeated V signal in multiple sectors, with source ownership unresolved against a 13.1-arcsec neighbor whose difference-centroid offset is 0.30 pixel and T-band ratio 0.05; the exact-position VSX generic variable entry does not make it a known EB. Q075's two same-sector S99 dips are plausible only, with offset difference centroids and no unique cycle count. A bright 49-arcsec neighbor at WCS (6.93,2.98) lies near the common difference peak (6,3) and is ~3.5 times the target T-band flux, so source ownership remains unproved.
+
+Q071–Q074 and Q076 selected flags are explained by actual gaps, segment steps, waves or irregular morphology in the raw context; these verdicts refute the selected eclipse evidence, not all stellar binarity. Q072 has an exact-position VSX SRD variable, and Q080 an exact-position historical EB despite ambiguous screening flags. The direct VSX receipts were recovered on 2026-11-05 and hashed in `lead-catalogue-audit.json`; positive exact-position EB matches are KNOWN, while generic variables or nonmatches remain UNKNOWN for EB novelty.
+
+The helper independently examined Q075/Q077/Q078/Q079/Q080 pixels and Gaia neighbors where responses succeeded; see `helper-audit.md` and `helper-numeric.json`. Centroids are descriptive and cannot replace PRF fitting. The paper, public repository, root acceptance and shared catalogue files were not edited.
+'''
+(B/'LEAD-AUDIT.md').write_text(text,encoding='utf8')

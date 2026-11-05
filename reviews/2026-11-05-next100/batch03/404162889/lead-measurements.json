@@ -1,0 +1,210 @@
+{
+  "sample_id": "Q030",
+  "tic": "404162889",
+  "gaia": {
+    "source_id": "6671273165012162432",
+    "nss_solution_type": "SB1",
+    "period": "45.64150838961766",
+    "period_error": "0.052369945",
+    "t_periastron": "22.09652414208116",
+    "t_periastron_error": "4.446789",
+    "eccentricity": "0.12792666725413407",
+    "eccentricity_error": "0.041906644",
+    "arg_periastron": "134.57842633017358",
+    "arg_periastron_error": "36.181797",
+    "semi_amplitude_primary": "12.548661122359576",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "0.005082705",
+    "significance": "14.902827",
+    "ra": "296.49146789799886",
+    "dec": "-48.203593188042106",
+    "parallax": "3.293805976424597",
+    "phot_g_mean_mag": "11.310229",
+    "bp_rp": "0.7936077",
+    "ruwe": "1.166449",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "b475f9fa7365beda3abeb66bec892f9953cc7ecb79fb2bb25c22e4b3ac466084",
+      "sector": 13,
+      "quality0_samples": 1057
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "84b0ba54bcc01bf1afe757c40e1500f460bf4ec965f734d33638c4eee0694313",
+      "sector": 27,
+      "quality0_samples": 2759
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e96f8e894abf3d9747bab082748f4565d158ed0ec4807f0e72e82b7e118d6f80",
+      "sector": 67,
+      "quality0_samples": 8269
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "1d70cc78c128b4ff5af67fa78ad2ed304adacc7b45b7e4530427dd8079aa7c76",
+      "sector": 94,
+      "quality0_samples": 8834
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "ec7499cc2c6665d2587cc22089b62b75f2d9004cf50e4594370e9bfd988d7873",
+      "sector": 104,
+      "quality0_samples": 8635
+    }
+  ],
+  "bulk_result": "[local-path-redacted]",
+  "bulk_sha256": "54ea2d78774390e9c01eb24ef8a887a7bd89c96a393d88ae04aa55ad0d98852a",
+  "coverage": [
+    {
+      "sector": 13,
+      "start": 1657.7241536222848,
+      "end": 1682.1410612929355,
+      "quality0_positive": 1057,
+      "cadence_days": 0.02083345693051797,
+      "gaps_over_0p2_days": [
+        [
+          1667.6826969913996,
+          1669.2035450487585
+        ]
+      ]
+    },
+    {
+      "sector": 27,
+      "start": 2036.3006235908206,
+      "end": 2060.4392714722844,
+      "quality0_positive": 2759,
+      "cadence_days": 0.00694441676967017,
+      "gaps_over_0p2_days": [
+        [
+          2047.9950596169713,
+          2049.182547750762
+        ]
+      ]
+    },
+    {
+      "sector": 67,
+      "start": 3126.6797321978415,
+      "end": 3150.830136457248,
+      "quality0_positive": 8269,
+      "cadence_days": 0.002314817008027603,
+      "gaps_over_0p2_days": [
+        [
+          3133.1172982654616,
+          3133.3372064861087
+        ],
+        [
+          3136.4390643028028,
+          3140.5061977465734
+        ],
+        [
+          3147.707511552098,
+          3147.9274150422634
+        ]
+      ]
+    },
+    {
+      "sector": 94,
+      "start": 3856.4442230276077,
+      "end": 3880.9372522768895,
+      "quality0_positive": 8834,
+      "cadence_days": 0.002314817171281902,
+      "gaps_over_0p2_days": [
+        [
+          3862.3239430839226,
+          3862.567000478019
+        ],
+        [
+          3867.6248777563274,
+          3869.523022127834
+        ],
+        [
+          3875.793827874684,
+          3876.0415099217385
+        ]
+      ]
+    },
+    {
+      "sector": 104,
+      "start": 4179.110134247642,
+      "end": 4204.22817780805,
+      "quality0_positive": 8635,
+      "cadence_days": 0.0023148136933741625,
+      "gaps_over_0p2_days": [
+        [
+          4184.797631484825,
+          4185.075409128204
+        ],
+        [
+          4190.941147025105,
+          4193.848553062659
+        ],
+        [
+          4197.982810370976,
+          4198.218921363311
+        ]
+      ]
+    }
+  ],
+  "screen_flagged_dips": [
+    {
+      "sector": 94,
+      "screen_center_btjd": 3869.5241795373167,
+      "screen_duration_days": 1.6,
+      "measured_center_btjd": 3869.4485640295584,
+      "formal_center_error_days": null,
+      "depth_ppt": 27.144707085688967,
+      "fit_width_days": 1.1790856397946328,
+      "fit_ingress_days": 0.49999999999999994,
+      "noise_ppt": 1.3531062483117047,
+      "fit_singular": true,
+      "fit_boundary": true,
+      "core_start_btjd": 3868.859021209661,
+      "core_end_btjd": 3870.0381068494557,
+      "raw_flux_median": 1.0005266666412354,
+      "points": 1338,
+      "source_sha256": "1d70cc78c128b4ff5af67fa78ad2ed304adacc7b45b7e4530427dd8079aa7c76"
+    },
+    {
+      "sector": 94,
+      "screen_center_btjd": 3875.1144375984727,
+      "screen_duration_days": 1.6,
+      "measured_center_btjd": 3875.1063237667818,
+      "formal_center_error_days": 0.008157020535790524,
+      "depth_ppt": 4.115810058321032,
+      "fit_width_days": 1.499999999999639,
+      "fit_ingress_days": 0.1574021413463276,
+      "noise_ppt": 1.202168808770892,
+      "fit_singular": false,
+      "fit_boundary": true,
+      "core_start_btjd": 3874.3563237667818,
+      "core_end_btjd": 3875.8563237667818,
+      "raw_flux_median": 1.0014536380767822,
+      "points": 1467,
+      "source_sha256": "1d70cc78c128b4ff5af67fa78ad2ed304adacc7b45b7e4530427dd8079aa7c76"
+    },
+    {
+      "sector": 104,
+      "screen_center_btjd": 4197.304569950298,
+      "screen_duration_days": 0.96,
+      "measured_center_btjd": 4197.327792300986,
+      "formal_center_error_days": 0.008365257769177077,
+      "depth_ppt": 4.519898522342589,
+      "fit_width_days": 1.4999999999999998,
+      "fit_ingress_days": 0.22461171783296896,
+      "noise_ppt": 1.5341231497294432,
+      "fit_singular": false,
+      "fit_boundary": true,
+      "core_start_btjd": 4196.577792300986,
+      "core_end_btjd": 4198.077792300986,
+      "raw_flux_median": 0.9941676259040833,
+      "points": 1651,
+      "source_sha256": "ec7499cc2c6665d2587cc22089b62b75f2d9004cf50e4594370e9bfd988d7873"
+    }
+  ],
+  "fit_caveat": "Local trapezoids are screening measurements; event kinds, alias nulls, and source ownership require separate review."
+}

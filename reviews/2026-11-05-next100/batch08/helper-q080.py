@@ -1,0 +1,11 @@
+import numpy as np,io,zipfile,json,hashlib
+from pathlib import Path
+from astropy.io import fits
+from astropy.wcs import WCS
+import matplotlib;matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+b=Path(__file__).parent;D=b/'99243741';out=[]
+for sec,ep in [(7,1501.431718),(34,2235.618882)]:
+ p=D/f'helper-tesscut-s{sec}.zip';z=zipfile.ZipFile(p);h=fits.open(io.BytesIO(z.read(z.namelist()[0])));a=h[1].data;t=np.array(a['TIME']);f=np.array(a['FLUX']);q=np.array(a['QUALITY']);w=WCS(h[2].header);x,y=w.all_world2pix(107.9357811849,-22.4416859984,0);yy,xx=np.indices((11,11));d=t-ep;good=np.isfinite(t)&(q==0);inside=good&(abs(d)<.35);outside=good&(abs(d)>.8)&(abs(d)<1.5);diff=np.nanmedian(f[outside],axis=0)-np.nanmedian(f[inside],axis=0);bg=np.nanmedian(diff[(xx<2)|(xx>8)|(yy<2)|(yy>8)]);pos=np.maximum(diff-bg,0);pos[(xx<2)|(xx>8)|(yy<2)|(yy>8)]=0;cen=[float((pos*xx).sum()/pos.sum()),float((pos*yy).sum()/pos.sum())];peak=np.unravel_index(np.nanargmax(diff),diff.shape);targetmask=(abs(xx-round(float(x)))<=1)&(abs(yy-round(float(y)))<=1);sky=(xx<2)|(xx>8)|(yy<2)|(yy>8);ts=np.nansum(f[:,targetmask],axis=1)-targetmask.sum()*np.nanmedian(f[:,sky],axis=1);times=t[good & (abs(d)<2.5)];gaps=np.diff(times); cadence=np.median(np.diff(t[good]));o={'sector':sec,'screen_center':ep,'target_xy':[float(x),float(y)],'centroid_xy':cen,'peak_xy':[int(peak[1]),int(peak[0])],'n_in':int(inside.sum()),'n_out':int(outside.sum()),'relative_loss':float(1-np.nanmedian(ts[inside])/np.nanmedian(ts[outside])),'local_gaps_over_3cad':[[float(times[i]),float(times[i+1])] for i in np.where(gaps>3*cadence)[0]],'cadence':float(cadence),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()};out.append(o);np.savetxt(D/f'helper-diff-s{sec}.csv',diff,delimiter=',')
+ fig,axs=plt.subplots(1,2,figsize=(11,4));axs[0].plot(d[good],ts[good]/np.nanmedian(ts[outside]),'.',ms=2);axs[0].set_xlim(-2.5,2.5);axs[0].axvspan(-.35,.35,color='r',alpha=.1);axs[0].set_title(f'S{sec}: 3x3 sky-subtracted');axs[1].imshow(diff,origin='lower');axs[1].plot(x,y,'rx');axs[1].plot(*cen,'w+');axs[1].set_title('Out minus in; x target, + centroid');fig.tight_layout();fig.savefig(D/f'helper-s{sec}.png',dpi=140);plt.close(fig)
+(D/'helper-numeric.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=2))

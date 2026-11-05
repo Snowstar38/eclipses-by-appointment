@@ -1,0 +1,200 @@
+{
+  "sample_id": "Q003",
+  "tic": "355363510",
+  "gaia": {
+    "source_id": "6642708780635500544",
+    "nss_solution_type": "SB1",
+    "period": "36.26816409178392",
+    "period_error": "0.0077756373",
+    "t_periastron": "0.047496879905985195",
+    "t_periastron_error": "1.5099659",
+    "eccentricity": "0.06121308521416517",
+    "eccentricity_error": "0.015068824",
+    "arg_periastron": "33.52428579710085",
+    "arg_periastron_error": "15.271767",
+    "semi_amplitude_primary": "18.447824472634398",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "0.46788338",
+    "significance": "58.35074",
+    "ra": "297.5759974881397",
+    "dec": "-52.246873161357925",
+    "parallax": "6.260981488035675",
+    "phot_g_mean_mag": "9.921154",
+    "bp_rp": "0.6495743",
+    "ruwe": "1.6115073",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "deb70392482da7272f2c14f389492d6fa2a4a09fe355abea8122ce0bde4ffb7d",
+      "sector": 13,
+      "quality0_samples": 1094
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "9025a3fb667e8ef98b464a7f9c5c6bf12b3fe7bf46948face8dc85ab3d2c211d",
+      "sector": 27,
+      "quality0_samples": 3278
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "465c7277383e6f6e19bd20b9e8db704fbfeb8f322938569ab82ad1113ebbe362",
+      "sector": 67,
+      "quality0_samples": 8269
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "e139e4fbe4b63d481845f0d1d3c0a4660d727fb4c716941808dbb1a2a3f5b01f",
+      "sector": 94,
+      "quality0_samples": 8834
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "14d6224a72bb379f05323056717dc77e565c9a6aa8e13007947b08fa8095a821",
+      "sector": 104,
+      "quality0_samples": 8635
+    }
+  ],
+  "bulk_result": "[local-path-redacted]",
+  "bulk_sha256": "931cd803731b74b85cf82e88f46f20bd70fce03160d06d471bdb3bde0068699c",
+  "coverage": [
+    {
+      "sector": 13,
+      "start": 1653.9738901297394,
+      "end": 1682.1200454449458,
+      "quality0_positive": 1094,
+      "cadence_days": 0.02083346641757089,
+      "gaps_over_0p2_days": [
+        [
+          1654.7864118695804,
+          1655.0364184236191
+        ],
+        [
+          1657.2448084736288,
+          1657.4739808515467
+        ],
+        [
+          1667.6825194944622,
+          1668.682529644751
+        ]
+      ]
+    },
+    {
+      "sector": 27,
+      "start": 2036.2934996121191,
+      "end": 2060.5154817342996,
+      "quality0_positive": 3278,
+      "cadence_days": 0.006944410683217939,
+      "gaps_over_0p2_days": [
+        [
+          2047.9948771153095,
+          2049.175421108207
+        ]
+      ]
+    },
+    {
+      "sector": 67,
+      "start": 3126.679537588463,
+      "end": 3150.829937775397,
+      "quality0_positive": 8269,
+      "cadence_days": 0.0023148160698838183,
+      "gaps_over_0p2_days": [
+        [
+          3133.117100078733,
+          3133.3370081915555
+        ],
+        [
+          3136.4388645376603,
+          3140.5059963338617
+        ],
+        [
+          3147.7073118081944,
+          3147.927215369989
+        ]
+      ]
+    },
+    {
+      "sector": 94,
+      "start": 3856.4440282198047,
+      "end": 3880.9370521216165,
+      "quality0_positive": 8834,
+      "cadence_days": 0.0023148164600570453,
+      "gaps_over_0p2_days": [
+        [
+          3862.3237441058977,
+          3862.566801379513
+        ],
+        [
+          3867.624676533806,
+          3869.5228200740003
+        ],
+        [
+          3875.7936260825327,
+          3876.0413081930974
+        ]
+      ]
+    },
+    {
+      "sector": 104,
+      "start": 4179.110137678583,
+      "end": 4204.22818123899,
+      "quality0_positive": 8635,
+      "cadence_days": 0.0023148136933741625,
+      "gaps_over_0p2_days": [
+        [
+          4184.797634915765,
+          4185.075412559145
+        ],
+        [
+          4190.941150456046,
+          4193.8485564936
+        ],
+        [
+          4197.982813801917,
+          4198.2189247942515
+        ]
+      ]
+    }
+  ],
+  "screen_flagged_dips": [
+    {
+      "sector": 94,
+      "screen_center_btjd": 3874.8897009153147,
+      "screen_duration_days": 1.6,
+      "measured_center_btjd": 3875.094102051388,
+      "formal_center_error_days": 0.0037068331226270696,
+      "depth_ppt": 6.106195708350132,
+      "fit_width_days": 1.4999999999999998,
+      "fit_ingress_days": 0.18845296552804458,
+      "noise_ppt": 0.7465356874457767,
+      "fit_singular": false,
+      "fit_boundary": true,
+      "core_start_btjd": 3874.344102051388,
+      "core_end_btjd": 3875.844102051388,
+      "raw_flux_median": 1.001947283744812,
+      "points": 1467,
+      "source_sha256": "e139e4fbe4b63d481845f0d1d3c0a4660d727fb4c716941808dbb1a2a3f5b01f"
+    },
+    {
+      "sector": 104,
+      "screen_center_btjd": 4196.9851290875395,
+      "screen_duration_days": 1.6,
+      "measured_center_btjd": 4197.3849641766565,
+      "formal_center_error_days": 0.008112277484605275,
+      "depth_ppt": 3.6047151185944273,
+      "fit_width_days": 1.4999941197459579,
+      "fit_ingress_days": 0.4322398911101301,
+      "noise_ppt": 0.8381492432120661,
+      "fit_singular": false,
+      "fit_boundary": true,
+      "core_start_btjd": 4196.634967116784,
+      "core_end_btjd": 4198.134961236529,
+      "raw_flux_median": 1.0009976625442505,
+      "points": 1648,
+      "source_sha256": "14d6224a72bb379f05323056717dc77e565c9a6aa8e13007947b08fa8095a821"
+    }
+  ],
+  "fit_caveat": "Local trapezoids are screening measurements; event kinds, alias nulls, and source ownership require separate review."
+}

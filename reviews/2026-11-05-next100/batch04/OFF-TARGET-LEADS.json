@@ -1,0 +1,34 @@
+[
+  {
+    "queued_sample_id": "Q036",
+    "queued_tic": "250561084",
+    "queued_gaia_dr3": "358526934817572608",
+    "off_target_gaia_dr3": "358527789513614336",
+    "off_target_ra_deg": 31.72583458789421,
+    "off_target_dec_deg": 50.74872579645119,
+    "off_target_G": 15.339438,
+    "angular_separation_arcsec": 28.85427,
+    "off_target_to_queued_G_flux_ratio": 0.0281492,
+    "off_target_conditional_photometric_period_days": 6.146393212206782,
+    "off_target_diagnostic_eclipse_centers_btjd": [
+      1792.52262,
+      1798.66425,
+      1804.80804,
+      1810.95895,
+      3618.00141,
+      3624.14759,
+      3630.28896
+    ],
+    "spatial_evidence": "Sky-corrected local difference maps in S18 and S85 peak at neighbor WCS pixel y7,x5; disjoint neighbor-side strips lose 37.69/39.99 e/s versus target-side 8.43/4.00 e/s. Similar WCS orientation and PRF overlap limit precision, but repeated spatial pattern favors neighbor.",
+    "evidence_files": [
+      "250561084/lead-timing.json",
+      "250561084/lead-alias-geometry.json",
+      "helper-Q036-cutout-series.json",
+      "helper-pixels.json",
+      "helper-Q036-s018-local-difference.png",
+      "helper-Q036-s085-local-difference.png"
+    ],
+    "novelty_status": "UNKNOWN",
+    "public_claim": false
+  }
+]

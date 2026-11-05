@@ -1,12 +1,7 @@
 {
-  "ledger_sha256": "ede0e4dbe95779e510efc64f330d325516fc8bdd1d52991429988833aac449e0",
+  "ledger_sha256": "d027ac3c10eb3ce4542f3d026d193faffcb2f808f72c871c790bcc56f5d2005c",
   "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
   "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
-  "published": {
-    "all": 917,
-    "confirmed": 812,
-    "probable": 105
-  },
   "accepted": {
     "all": 921,
     "confirmed": 808,
@@ -46,18 +41,18 @@
   },
   "map_sha256": "8c5e1cd692dd84f78bfeb77c2eb66461f30410517e09bae7da7cdbb18766e579",
   "period_free_reviews": {
-    "reviewed": 250,
-    "confirmed": 22,
-    "probable": 33,
-    "plausible": 48,
-    "refuted_selected_signals": 138,
-    "non_eclipse_variable": 4,
+    "reviewed": 350,
+    "confirmed": 28,
+    "probable": 36,
+    "plausible": 65,
+    "refuted_selected_signals": 211,
+    "non_eclipse_variable": 5,
     "unresolved": 5,
     "new_claims_added": 8,
-    "selection": "mixed initial stratified 100 plus 150 prioritized dip leads",
+    "selection": "mixed initial stratified 100 plus 250 prioritized dip leads",
     "confirmed_probable_claim_dispositions": {
-      "known": 6,
-      "pending_catalogue": 41,
+      "known": 13,
+      "pending_catalogue": 43,
       "accepted": 8
     }
   },
@@ -69,5 +64,28 @@
     "near_edge_on_astrometric_orbit": 4,
     "period_free_dip_screening": 8
   },
-  "claim_decision_sha256": "fa915c3b3791a93e3815233c857a415687f5ff7ccb124d5e35d6e47092b30862"
+  "claim_decision_sha256": "974c1257ddb4e42fbe2670e428d8ec94e3ef472d45b390035a6243b3d339111c",
+  "prior_publication_before_reconciliation": {
+    "all": 917,
+    "confirmed": 812,
+    "probable": 105
+  },
+  "later_catalogue_updates": {
+    "earlier_pending_now_known": 5,
+    "receipt": "reviews/2026-11-05-next100/catalogue-updates.csv",
+    "counted_claims_changed": 0
+  },
+  "heartbeat_systems": {
+    "physically_confirmed": 10,
+    "candidate": 1,
+    "also_eclipsing": 1,
+    "newly_reviewed_tic": "438089101",
+    "newly_reviewed_supplementary_catalogue_checks": "ASAS-SN, SB9 and WDS unavailable; no added eclipsing claim"
+  },
+  "latest_review_campaign": {
+    "reviewed": 100,
+    "added_claims": 0,
+    "decision_sha256": "96ff07dc43fbf8ef9865d00e3279e2127703f6299ccba26e8a29958b45e3b868",
+    "ledger_sha256": "d027ac3c10eb3ce4542f3d026d193faffcb2f808f72c871c790bcc56f5d2005c"
+  }
 }

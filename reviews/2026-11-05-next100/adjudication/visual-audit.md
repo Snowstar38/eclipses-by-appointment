@@ -1,0 +1,5 @@
+# Final PDF visual audit
+
+PASS on the inspected representative pages. Rendered pages cover the abstract and continuation, catalogue-scope methods, mixed-review results, heartbeat text and table, conclusions overview, supplement guide, and volume 5 opening plus Q044 and Q095 entries. No clipping, overlap, broken table rows or problematic page transitions were observed in this sample. The inspection is bounded; it does not cover every page or independently validate all links or scientific claims. PDF hashes and page numbers are recorded in `visual-audit.json`.
+
+The public overview image was inspected at original resolution. The headline and manuscript inset both show 921; the sky map, captions and light-curve inset are legible without overlap. The manuscript thumbnail is cropped at the bottom and does not show the complete abstract. The visual review did not independently count map points or verify coordinates. SHA-256: `f50ccc497ae462fcc23c53616a5fdec9fb0ca1e5e098864bd3d996013b99399c`.

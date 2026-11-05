@@ -1,0 +1,238 @@
+{
+  "sample_id": "Q002",
+  "tic": "72747845",
+  "gaia": {
+    "source_id": "5116265446446549120",
+    "nss_solution_type": "SB1",
+    "period": "59.621102295409855",
+    "period_error": "0.010403552",
+    "t_periastron": "-24.285292533325766",
+    "t_periastron_error": "4.944032",
+    "eccentricity": "0.009485382255353768",
+    "eccentricity_error": "0.0066354363",
+    "arg_periastron": "279.3528660034614",
+    "arg_periastron_error": "29.724209",
+    "semi_amplitude_primary": "13.148915110921367",
+    "semi_amplitude_secondary": "",
+    "goodness_of_fit": "-2.4816086",
+    "significance": "188.18213",
+    "ra": "34.766320735661004",
+    "dec": "-28.92354077285808",
+    "parallax": "2.9871635856548617",
+    "phot_g_mean_mag": "7.832788",
+    "bp_rp": "1.3287206",
+    "ruwe": "1.1150236",
+    "phot_variable_flag": "NOT_AVAILABLE",
+    "veb": ""
+  },
+  "source_receipts": [
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "400bd418453cd10594b98d57cd110b650e00c5d90526be1a391c0cc4abf07b79",
+      "sector": 3,
+      "quality0_samples": 876
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "c35f57068986cfd50c2d2da123d52143666ef61ebaac765142f7dadf34a1f018",
+      "sector": 30,
+      "quality0_samples": 2803
+    },
+    {
+      "path": "[local-path-redacted]",
+      "sha256": "18176a6ef9debfcd6c5940b15449482f250d7ff4bcce866f9df6f2b24f288e6b",
+      "sector": 97,
+      "quality0_samples": 18693
+    }
+  ],
+  "bulk_result": "[local-path-redacted]",
+  "bulk_sha256": "8c21ffcb01621800a6ed22e789848ffa76eaa0f3522b8632e203567e20fe73c0",
+  "coverage": [
+    {
+      "sector": 3,
+      "start": 1383.7860049568112,
+      "end": 1405.8279383106064,
+      "quality0_positive": 876,
+      "cadence_days": 0.020833597873433973,
+      "gaps_over_0p2_days": [
+        [
+          1385.7860565676053,
+          1385.9943948229786
+        ],
+        [
+          1394.5362068588488,
+          1397.0362402243302
+        ],
+        [
+          1404.5779417208792,
+          1404.8071079345546
+        ]
+      ]
+    },
+    {
+      "sector": 30,
+      "start": 2115.9732014991455,
+      "end": 2141.278946697039,
+      "quality0_positive": 2803,
+      "cadence_days": 0.006944514688939307,
+      "gaps_over_0p2_days": [
+        [
+          2127.042826394666,
+          2130.2720252981144
+        ],
+        [
+          2135.8137079399917,
+          2136.980370053324
+        ]
+      ]
+    },
+    {
+      "sector": 97,
+      "start": 3935.5170727835693,
+      "end": 3988.2855251571764,
+      "quality0_positive": 18693,
+      "cadence_days": 0.0023148117631990317,
+      "gaps_over_0p2_days": [
+        [
+          3940.7163105044683,
+          3940.959372824457
+        ],
+        [
+          3946.857642513978,
+          3949.1423964049236
+        ],
+        [
+          3954.079969014407,
+          3954.3299717917603
+        ],
+        [
+          3960.5174920255618,
+          3962.679521563641
+        ],
+        [
+          3967.3554341603294,
+          3967.6633026710597
+        ],
+        [
+          3974.7511616805787,
+          3976.836764653485
+        ],
+        [
+          3980.4177090437233,
+          3982.0334115093174
+        ]
+      ]
+    }
+  ],
+  "screen_flagged_dips": [
+    {
+      "sector": 3,
+      "screen_center_btjd": 1404.5571084248236,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 1404.529339735752,
+      "formal_center_error_days": 0.021870346442199356,
+      "depth_ppt": 1.3755407523064154,
+      "fit_width_days": 0.36892656178192557,
+      "fit_ingress_days": 0.1427974142482321,
+      "noise_ppt": 0.33945220758119216,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 1404.3448764548612,
+      "core_end_btjd": 1404.713803016643,
+      "raw_flux_median": 0.9975609183311462,
+      "points": 59,
+      "source_sha256": "400bd418453cd10594b98d57cd110b650e00c5d90526be1a391c0cc4abf07b79"
+    },
+    {
+      "sector": 3,
+      "screen_center_btjd": 1392.515347756657,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 1392.5618393926106,
+      "formal_center_error_days": 0.06239722821656074,
+      "depth_ppt": 0.882853858874559,
+      "fit_width_days": 0.4486907347465948,
+      "fit_ingress_days": 0.1481443496007492,
+      "noise_ppt": 0.6066831721460471,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 1392.3374940252374,
+      "core_end_btjd": 1392.7861847599838,
+      "raw_flux_median": 1.0025328397750854,
+      "points": 57,
+      "source_sha256": "400bd418453cd10594b98d57cd110b650e00c5d90526be1a391c0cc4abf07b79"
+    },
+    {
+      "sector": 3,
+      "screen_center_btjd": 1385.6818874105602,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 1385.693223522955,
+      "formal_center_error_days": 0.019304493818243965,
+      "depth_ppt": 1.8451997057743117,
+      "fit_width_days": 0.45611581295973547,
+      "fit_ingress_days": 0.1671689363255039,
+      "noise_ppt": 0.4617197236693876,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 1385.4651656164751,
+      "core_end_btjd": 1385.9212814294347,
+      "raw_flux_median": 0.9969807267189026,
+      "points": 59,
+      "source_sha256": "400bd418453cd10594b98d57cd110b650e00c5d90526be1a391c0cc4abf07b79"
+    },
+    {
+      "sector": 3,
+      "screen_center_btjd": 1397.3487440451956,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 1397.3516904635374,
+      "formal_center_error_days": 0.003433956543298601,
+      "depth_ppt": 1.5561762047091983,
+      "fit_width_days": 0.4848977834461751,
+      "fit_ingress_days": 0.23561189814257652,
+      "noise_ppt": 0.09967480542202564,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 1397.1092415718142,
+      "core_end_btjd": 1397.5941393552605,
+      "raw_flux_median": 1.0051743388175964,
+      "points": 50,
+      "source_sha256": "400bd418453cd10594b98d57cd110b650e00c5d90526be1a391c0cc4abf07b79"
+    },
+    {
+      "sector": 30,
+      "screen_center_btjd": 2120.112183891634,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 2120.121843056937,
+      "formal_center_error_days": 0.005295167901842694,
+      "depth_ppt": 1.3057894647627473,
+      "fit_width_days": 0.3387688079726748,
+      "fit_ingress_days": 0.1150015119607412,
+      "noise_ppt": 0.33231097487123024,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 2119.9524586529506,
+      "core_end_btjd": 2120.2912274609234,
+      "raw_flux_median": 0.9998705387115479,
+      "points": 195,
+      "source_sha256": "c35f57068986cfd50c2d2da123d52143666ef61ebaac765142f7dadf34a1f018"
+    },
+    {
+      "sector": 97,
+      "screen_center_btjd": 3944.387696136924,
+      "screen_duration_days": 0.24,
+      "measured_center_btjd": 3944.38474304866,
+      "formal_center_error_days": 0.006139186811616833,
+      "depth_ppt": 1.004029011892822,
+      "fit_width_days": 0.3658570487870359,
+      "fit_ingress_days": 0.0922141858764561,
+      "noise_ppt": 0.5936104274521616,
+      "fit_singular": false,
+      "fit_boundary": false,
+      "core_start_btjd": 3944.2018145242664,
+      "core_end_btjd": 3944.5676715730533,
+      "raw_flux_median": 0.9993347525596619,
+      "points": 623,
+      "source_sha256": "18176a6ef9debfcd6c5940b15449482f250d7ff4bcce866f9df6f2b24f288e6b"
+    }
+  ],
+  "fit_caveat": "Local trapezoids are screening measurements; event kinds, alias nulls, and source ownership require separate review."
+}

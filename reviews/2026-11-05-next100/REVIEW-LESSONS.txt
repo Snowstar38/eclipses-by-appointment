@@ -1,0 +1,30 @@
+Supervisory lessons from batch01; apply to later batches without expanding scope.
+
+Do not turn retained detector windows directly into physical verdicts. Inspect
+the actual raw context and fold-predicted windows; unflagged eclipses can exist.
+For positive detector artifacts, state the actual gap/step/baseline evidence.
+Do not claim the star cannot be binary merely because its flag is an artifact.
+
+Sensitive nulls require actual cadence coverage/endpoints/internal gaps in
+core and baseline, not quality0/number-of-existing-rows (missing time vanishes
+from that denominator). Baselines overlapping a real event can manufacture
+false nulls. Check representative deciding windows visually.
+
+Two separated events yield a conditional period for every integer cycle count.
+Gaia agreement is useful evidence, not a measurement of cycle uniqueness.
+Bounded actual nulls can test aliases. Partial additional events can also test
+recurrence via ingress/egress bounds even when no precision center can be fit.
+Do not discard a real observing occasion solely because its center is gapped.
+Two events with untested aliases remain plausible under this campaign convention.
+
+All100 catalogue statuses are unknown: four VizieR gates unavailable. Cached
+primary nonmatches and successful Gaia/SIMBAD checks do not establish novelty.
+No need to repeat those failing queries in every physical review.
+
+Additional lessons: current TESSCut WCS footprint can have near-zero target flux; not a sensitive null. Center integer-pixel masks explicitly (fractional abs<=1 selects2 not3). Corrected-flux suppression/centroid correlation alone is not artifact proof; inspect raw shape, actual gaps and spatial difference flux. Two same-kind events alone do not establish cycle count; partial occasions may constrain. Do not adopt Gaia period as a measured eclipse period. No period/flux/slope/common-mode rank threshold is a physical verdict. Very large contrast may be pathological; verify normalized baseline and raw flux. Catalogue gates must be checked for this queue; previous100 unknown statuses do not transfer automatically.
+
+Batch04 refinements: zero-valued detector-edge pixels can invalidate a lowest-pixel background estimator even when the target itself has flux. An invalid reduction cannot provide a null. Distinguish partial flat-core coverage from a fully covered core; endpoints matter. A reference to no newer sectors means none beyond the cached set, not none after the candidate event.
+
+Final priority100 lessons: single opposite-kind events cannot impose half-phase on eccentric systems. ABFG can encode missing explicit inclination/omega; examine source-specific geometry when deciding. Gaussian period accumulation alone is not full conjunction uncertainty. Sparse two-deep-event aliases require bounded neighboring integer-cycle tests; unsupported adopted periods stay blank. Same photons do not create extra observing occasions. Catalogue statuses must be established for this exact queue.
+
+Next10 lessons: actual measured source-specific conjunction timing is required for a geometry claim; agreement with Gaia period or eccentricity alone is insufficient. Two kinds need separate recurrence checks. Three equally spaced long-baseline events can retain integer aliases; distinguish supported photometric recurrence from adopted orbital clock. Multiple clear same-kind occasions can support PROBABLE with unknown orbital period; two sparse ones remain PLAUSIBLE under current campaign convention. This narrower photometric cycle-uniqueness standard need not overturn historical Gaia-supported confirmations. Source ownership cannot rest on blended fractional-pixel depth ratios alone for close capable neighbors. Singular/bound-hitting fits cannot furnish precision errors. Verify actual finite positive target flux and valid sky, not positivefraction alone. Near-zero or detector-edge cutouts do not provide nulls. Check UTF8 generators as well as outputs with tools/ctlbytes.py mojibake. Exclude ROOT-ACCEPTANCE.json from leaf manifests.
