@@ -1,0 +1,35 @@
+{
+  "purpose": "Two public prose corrections; sealed private reports unchanged",
+  "source_artifacts": {
+    "T002_new_timing": "[local path omitted]",
+    "T002_clock": "[local path omitted]",
+    "T076_raw_events": "[local path omitted]",
+    "T076_clock": "[local path omitted]"
+  },
+  "deciding_values": {
+    "T002": "BTJD 4291.0461207754315 is a fit to a partial sector-entry event (local data start 4290.994767190107); lead-timing.json uses new event indices 0 and 2 (BTJD 4217.183914637461 and 4315.666774082735) as four-center clock members and index 1 only as partial support.",
+    "T076": "lead-numeric.json has shallower events BTJD 1328.660099986059 (259.96 ppt), 1672.6331879543495 (262.93 ppt), 3127.9008608322565 (271.76 ppt); BTJD 3145.3622140913894 is selected deep A (360.26 ppt, cycle 68)."
+  },
+  "changed_reports": [
+    {
+      "file": "binary-priority100-2026-11-05/batch01/92234103/REPORT.md",
+      "source_sha256_unchanged": "e1c34354406d273451020cf31a1f235066009e92d800902d69ec12e89453e269",
+      "export_sha256_before": "e1c34354406d273451020cf31a1f235066009e92d800902d69ec12e89453e269",
+      "export_sha256_after": "f305358c89cefe34d0b088fb5e5bcc72d833e71f3c00428f0076545f315f81b8"
+    },
+    {
+      "file": "binary-priority100-2026-11-05/batch08/325469795/REPORT.md",
+      "source_sha256_unchanged": "faf7a0857cc94bac2fbd0e64d7e87930e105c89e5b79f851241b50811b77696b",
+      "export_sha256_before": "51e29c6b3fbb1bee21a7df86a5858fdcb1320e1d156aa1ea22826d4ab0e23e4d",
+      "export_sha256_after": "6c6f469a2a641a48a9b71d27e2c3fdd3628798f67afaf4b61b9ddd40152f2ce1"
+    }
+  ],
+  "public_manifest": "[local path omitted]",
+  "public_manifest_sha256_after": "4d331ddfed2f0c099b94fdaef608b80a50d99f23a23996d02358f12a4ed0f8ca",
+  "source_artifact_sha256": {
+    "T002_new_timing": "fbf3877a339f8030846a9ccacd7cc2f42095e4d2be0a87bb743122b833d7186c",
+    "T002_clock": "eca7da376abe8bdc1d69ca86bcb0347327001ff1dd0811e3053644ca797441c4",
+    "T076_raw_events": "6e8405559d54c1477a1dc0148f260b32473fb54cb0f747f7b1155f94eaf7c3d2",
+    "T076_clock": "3d8f4bfa75dabd31259116f58d5e744195af96775cbfc7481f23fcee439159cc"
+  }
+}

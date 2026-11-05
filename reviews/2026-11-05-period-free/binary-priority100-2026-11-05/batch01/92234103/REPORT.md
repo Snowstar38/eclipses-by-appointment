@@ -14,9 +14,9 @@ Source FITS checked by SHA-256; 2 cached sectors, 2 retained dip windows re-exam
 | 31 | 2149.036 | 2149.0344 | 82.8 | finite |
 
 New sector-105/108 target-centered 3x3 raw-pixel events (not QLP rows):
-- S105 center 4217.18391, depth 126.5 ppt, baseline 4585 counts; S108 4291 event begins near sector edge and is supporting timing only.
-- S108 center 4291.04612, depth 125.0 ppt, baseline 5059 counts; S108 4291 event begins near sector edge and is supporting timing only.
-- S108 center 4315.66677, depth 126.9 ppt, baseline 5030 counts; S108 4291 event begins near sector edge and is supporting timing only.
+- S105 center 4217.18391, depth 126.5 ppt, baseline 4585 counts; included in the four-center clock.
+- S108 partial event near sector entry has descriptive fitted center 4291.04612, depth 125.0 ppt and baseline 5059 counts; it supports recurrence but is excluded from the four-center clock.
+- S108 center 4315.66677, depth 126.9 ppt, baseline 5030 counts; included in the four-center clock.
 - P/2 predicted BTJD 4303.3596: 104 quality-zero core cadences, 151/150 flanks, -0.25 ppt versus ~127-ppt events. S107 target aperture has ~0.6-count baseline and is not a sensitive null.
 - Gaia nearest conjunction at new S108 center differs by -7.63 d / 2.70 d linear sigma (-2.83 sigma). Source-specific covariance does not remove the timing tension.
 `lead-newsector-coverage.json` records all 28/29/30-cycle predictions with core endpoints, internal gaps, flank counts, aperture flux and source hashes; only sensitive nulls were used to reject aliases.

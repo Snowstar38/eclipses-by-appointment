@@ -1,5 +1,5 @@
 {
-  "description": "917 prior published points reconciled against accepted baseline: 17 prior-known claims removed, 13 previously accepted additions joined by exact TIC to saved target coordinates, and A74 promoted; 913 included. Earlier source hashes remain historical input receipts.",
+  "description": "Current 921-system map: reconciled 913-system baseline plus eight accepted period-free dip systems. Coordinates use exact target identities; probable unresolved blends remain explicitly qualified.",
   "inputs": {
     "objects.csv": {
       "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
@@ -208,5 +208,13 @@
         "sha256": "e490c292ffd402fbe2457bcc31ee29a87d8b1377977c6dec4746ab2e0179cefa"
       }
     }
+  },
+  "current_claim_review": {
+    "accepted": 8,
+    "confirmed": 1,
+    "probable": 7,
+    "scope": "Eight scoped catalogue nonmatches accepted with physical/source limitations; 41 remain unknown.",
+    "decision_sha256": "fa915c3b3791a93e3815233c857a415687f5ff7ccb124d5e35d6e47092b30862",
+    "map_sha256": "8c5e1cd692dd84f78bfeb77c2eb66461f30410517e09bae7da7cdbb18766e579"
   }
 }

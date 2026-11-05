@@ -8,17 +8,18 @@
     "probable": 105
   },
   "accepted": {
-    "all": 913,
-    "confirmed": 807,
-    "probable": 106
+    "all": 921,
+    "confirmed": 808,
+    "probable": 113
   },
   "operation": {
     "prior_known_removals": 17,
     "accepted_additions": 13,
-    "A74_probable_to_confirmed": 1
+    "A74_probable_to_confirmed": 1,
+    "later_eligible_dip_additions": 8
   },
-  "scientific_register_rows": 822,
-  "reviewed_R_rows": 724,
+  "scientific_register_rows": 830,
+  "reviewed_R_rows": 732,
   "post_R675": {
     "rows": 49,
     "physical": {
@@ -36,13 +37,14 @@
   "counted_scientific_method": {
     "Gaia spectroscopic-orbit period fold": 693,
     "conjunction_windows": 22,
-    "Gaia spectroscopic conjunction windows": 2
+    "Gaia spectroscopic conjunction windows": 2,
+    "Period-free dip screening": 8
   },
   "counted_scientific_tier": {
-    "CONFIRMED": 622,
-    "PROBABLE": 95
+    "CONFIRMED": 623,
+    "PROBABLE": 102
   },
-  "map_sha256": "9368bb21fac20a58a1656a465fbd72b2b161f97dfaca761b1f190d6d768638af",
+  "map_sha256": "8c5e1cd692dd84f78bfeb77c2eb66461f30410517e09bae7da7cdbb18766e579",
   "period_free_reviews": {
     "reviewed": 250,
     "confirmed": 22,
@@ -51,14 +53,21 @@
     "refuted_selected_signals": 138,
     "non_eclipse_variable": 4,
     "unresolved": 5,
-    "new_claims_added": 0,
-    "selection": "mixed initial stratified 100 plus 150 prioritized dip leads"
+    "new_claims_added": 8,
+    "selection": "mixed initial stratified 100 plus 150 prioritized dip leads",
+    "confirmed_probable_claim_dispositions": {
+      "known": 6,
+      "pending_catalogue": 41,
+      "accepted": 8
+    }
   },
   "scope": "Current accounting; historical reports and supplements preserve their original labels. Physical classification is separate from catalogue novelty and unique inclusion.",
   "accepted_all_method_totals": {
     "spectroscopic_conjunction": 107,
     "Gaia_period_fold": 798,
     "nearby_M_dwarf_selected": 4,
-    "near_edge_on_astrometric_orbit": 4
-  }
+    "near_edge_on_astrometric_orbit": 4,
+    "period_free_dip_screening": 8
+  },
+  "claim_decision_sha256": "fa915c3b3791a93e3815233c857a415687f5ff7ccb124d5e35d6e47092b30862"
 }

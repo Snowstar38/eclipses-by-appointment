@@ -23,7 +23,7 @@ Gaia NSS reports P = 26.491788040 d. The edge-on conjunction calculation uses th
 
 The comparable photometric period (selected P) is 26.459431 d; difference from Gaia is -11.9 Gaia formal period sigmas. The period and conjunction tests are source-specific evidence, not a universal sigma threshold. Formal Gaia errors may omit systematics; the mismatch does not identify its cause.
 
-Adjacent deep A events in sectors 93, 94 and 95 at BTJD 3833.307, 3859.767 and 3886.226 secure the 26.459-d same-kind interval. Shallower B events near BTJD 1328.660, 3127.901 and 3145.362 occupy a different phase; they are not counted as A minima.
+Adjacent deep A events in sectors 93, 94 and 95 at BTJD 3833.307, 3859.767 and 3886.226 secure the 26.459-d same-kind interval. Shallower B events near BTJD 1328.660, 1672.633 and 3127.901 occupy a different phase; they are not counted as A minima.
 
 Bounded shorter-harmonic checks (`lead-alias-checks.json`) test predicted interleaving same-kind events in actual quality-zero windows, with time-bin core coverage and local side baselines. Representative covered windows (coverage fractions are shown explicitly):
 

@@ -1,0 +1,7 @@
+# Claim adjudication, 2026-11-05
+
+The 49 candidate rows were checked against the paper's physical and scoped catalogue standards. Eight are accepted additions (one confirmed, seven probable; R725-R732); 41 remain pending catalogue clearance. The existing 913-system baseline is preserved. See [claim adjudication](../../claim-adjudication.csv) for row decisions and links to public physical reports. Catalogue status is distinct from source ownership and Gaia-orbit association. Unavailable queries are unknown, not nonmatches.
+
+[Catalogue coverage](catalogues/coverage.csv) records the gates per target; [catalogue report](catalogues/REPORT.md) explains the evidence, including nearby or non-EB variables. The `proof/` directory contains 32 successful target-specific VizieR responses, campaign Gaia and SIMBAD files and receipts. The [independent exact-identity audit](catalogue-independent-audit/REPORT.md) records cached literature checks across all 49, with their scope and limitations. The two eligibility reports preserve individual limitations and next actions. The correction receipt records two corrections in the earlier exported reports. Raw reductions of the same TESS photons do not constitute independent observing occasions.
+
+[Manifest](manifest.json) records source and exported SHA-256 values. Local paths were removed from text exports; source hashes retain provenance even where sanitization changes bytes. Authors and contributors of the underlying reviews remain credited in those reports.
