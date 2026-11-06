@@ -1,0 +1,18 @@
+[
+  {
+    "tic": "159860053",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',325.60041951055,-36.4207445949676,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "d7d4314774c0ec679554a7fe90cad4df5917d9fca173fdc596649811f5490f7c",
+    "n": 72
+  },
+  {
+    "tic": "162437782",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',169.753253424321,-46.1206890260788,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "32ad905d810b3ba8fa50d34c9e325ac3dc0447c06f6adf36a9d0a0fc1110bd19",
+    "n": 299
+  }
+]

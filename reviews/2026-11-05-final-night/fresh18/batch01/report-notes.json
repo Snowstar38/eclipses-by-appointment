@@ -1,0 +1,58 @@
+{
+  "22559994": {
+    "tier": "PROBABLE",
+    "reason": "Four well-resolved detached eclipse profiles comprise two deep same-kind events in S64/S100 and two shallower same-kind events in S37/S101. The two kinds each recur; their alternating depth is not counted as additional same-kind recurrence. The deep profiles lose about 17-22% and the shallow profiles about 8% of local SAP flux. Sector-dependent dilution explains some depth differences but is not fitted here.",
+    "timing": "The deep span is 1036.694969 d over an adopted 22 cycles; the shallow span 1790.654283 d over 38 cycles independently agrees to 0.00066 d. Neighboring integer counts for the deep pair fail the shallow span. Timing alone also permits a 94.244997 d family and shorter rational families; the bounded shorter-alias null tests reject P/2 through P/6. The 47.12 d assignment is favored by Gaia but is not a unique timing-only orbital solution.",
+    "limits": "Repeated target-region eclipses are secure. Gaia orbital association has persistent 2.2-2.8 local linear-sigma offsets, and a 94.245 d timing family remains. Close unresolved companions and changing dilution remain possible.",
+    "next": "Obtain a new resolved same-kind eclipse and radial velocities; test the 47/94 d orbital alternatives and Gaia epoch geometry."
+  },
+  "65684549": {
+    "tier": "PROBABLE",
+    "reason": "A train of compact resolved dips repeats throughout S59, S73 and S86, separated by approximately 1.137 d. Individual depths change with sector and baseline quality. These are discrete contact-shaped deficits rather than a smooth tidal wave.",
+    "timing": "The 1.13719 d recurrence is measured from ten representative dips spanning three sectors. Within-sector cadence and dozens of repeated events anchor this clock; the 0.008 d timing RMS is larger than formal fit errors. This is an eclipse recurrence, and a twice-longer orbital period with similar opposite eclipses is not excluded. The train cannot be the selected 20.825 d Gaia orbit: many cycles occur inside a single Gaia period.",
+    "limits": "The 6.46 arcsec G=9.82 neighbor is 7.33 times the target G-band flux and easily capable of supplying the eclipse loss. TESS alone may not resolve which member is eclipsing. Gaia association fails. The separately extracted 3x3 aperture dilutes the train strongly in the bright blended PSF; small repeated deficits remain but do not discriminate ownership.",
+    "next": "Resolve target and 6.46 arcsec neighbor during one short-clock eclipse; determine which star owns the train and search that source's known-variable identity."
+  },
+  "70554665": {
+    "tier": "CONFIRMED",
+    "reason": "Three compact matching approximately 1% dips occur in S97 (two adjacent occurrences) and S104. Contacts and both wings are resolved; S104 has less distant post-event coverage but retains immediate recovery.",
+    "timing": "Two S97 events separated by 29.4245 d directly anchor adjacent recurrence. The S104 event lies nine adopted cycles after the first. A measured 29.4224 d clock has 0.00086 d unweighted residual RMS. Representative covered P/2 through P/6 predicted events have no comparable deficit.",
+    "limits": "QLP timing model is approximate and same-photon independent extraction retains spacecraft background trends. No calibrated system-wide period uncertainty or unresolved-companion exclusion is claimed.",
+    "next": "Obtain a further eclipse with independent observing equipment and refine the ephemeris."
+  },
+  "93330962": {
+    "tier": "PLAUSIBLE",
+    "reason": "A narrow S32 dip at BTJD 2184.092 is supported by raw SAP and a separately extracted aperture. The nominal S98 lead instead lies in broad orbit-scale detector/baseline structure and does not provide a matching resolved repeat. S87 is a broad background disturbance.",
+    "timing": "Only one credible narrow eclipse-like event is retained. Its source-specific Gaia conjunction offset is about 0.82 d against a 0.75 d local covariance uncertainty, which is compatible but cannot establish recurrence. No photometric period or error is reported.",
+    "limits": "Single event; no established same-kind recurrence. Source attribution is less precise than for deep events. New S107 cutout has near-zero/no-stellar-PSF data and cannot act as a sensitive null. S108/S109 contain broad spacecraft-shaped variability; no convincing narrow repeat is established.",
+    "next": "Obtain a second complete narrow dip with source localization, then test integer cycles with actual coverage."
+  },
+  "111230893": {
+    "tier": "CONFIRMED",
+    "reason": "S34, S61 and S87 show matching flat-bottom/steep-contact approximately 6% dips with resolved wings. S88 contains a partial fourth event cut by a gap and is retained as corroboration, not as a fitted midpoint.",
+    "timing": "Three complete same-kind events span 34 and 66 cycles at 21.69427 d; unweighted timing residual RMS is 0.00054 d. The adopted cycle clock matches source-specific Gaia conjunction evolution. Covered P/2 through P/6 windows contain no comparable eclipse.",
+    "limits": "The partial S88 event supplies no usable midpoint. Epoch-dependent instrumental timing offsets and dilution are not precision-calibrated.",
+    "next": "Measure another complete eclipse and refine the orbital ephemeris with radial velocities."
+  },
+  "122766753": {
+    "tier": "REFUTED",
+    "reason": "Many compact resolved dips recur in S19, S59, S73 and S86. Sparse S19 sampling alone would be weak, but the dense later sectors establish repeated narrow morphology. The train's event spacing is about 2.2093 d. The selected target is not retained as the eclipsing source: four event-local difference images locate the positive deficit on the 19.74 arcsec neighbor rather than the target.",
+    "timing": "Nine representative events fit a 2.20928 d recurrence with 0.0034 d residual RMS. Several consecutive same-looking events within one sector constrain the short clock. A twice-longer orbital period with nearly similar opposite eclipses remains possible. Neither recurrence is the selected 27.6256 d Gaia orbit; isolated conjunction coincidences are not orbital association.",
+    "limits": "REFUTED_SOURCE for the selected Gaia/TIC target. Four separate S59 event-local differences all peak at pixel (4,5); their centroids are approximately 0.04-0.20 pixel from Gaia DR3 201206302856438528 and about one pixel from the target. This repeated local PSF displacement is stronger evidence than an unresolved-blend possibility. The phase-stack image is structured and gives a conflicting centroid; because stacking spans variable backgrounds and broad baseline states, it is not accepted as a reliable localization and does not override four consistent clean local event differences. A calibrated PRF fit or second orientation could test this adjudication, but target attribution is refuted within the bounded representative evidence. The neighbor remains a separate characterization lead, with no independent source/novelty review or claim substituted into this queue.",
+    "next": "Perform a separate identity, catalogue and PRF/resolved-photometry review of neighbor Gaia DR3 201206302856438528; establish its true orbital period without silently relabeling the selected target."
+  },
+  "140777703": {
+    "tier": "CONFIRMED",
+    "reason": "Eight sectors contain compact matching dips, including densely sampled S53/S59/S60/S73/S79/S86 occurrences. The S19/S25 samples are sparse and carry a cadence floor rather than precision weight. Modern event depths are approximately 1.2%.",
+    "timing": "A 25.0675 d same-kind clock fits eight representative occurrences across 72 cycles. Residual RMS 0.016 d reflects the older sparse sampling and is not converted into an unwarranted uniform period error. Covered P/2 through P/6 windows exclude comparable short-alias eclipses.",
+    "limits": "Two unresolved close Gaia neighbors are faint in G-band, but color-dependent dilution is not measured. TESSCut aperture background artifacts away from the eclipse remain; they do not replace the raw-SAP event evidence.",
+    "next": "Obtain a complete high-resolution eclipse and improve the ephemeris using the dense modern events."
+  },
+  "156747165": {
+    "tier": "CONFIRMED",
+    "reason": "S40 and S80 contain matching deep roughly 5.5% eclipses. Separate shallow roughly 1% eclipses recur in S53 and S80. Each kind therefore repeats on distinct observing occasions; the two S80 conjunctions alone are not treated as recurrence.",
+    "timing": "The deep span 1098.727193 d over 29 cycles gives 37.88714 d. The shallow span 719.846121 d over 19 cycles agrees within 0.00963 d. Neighboring integer counts fail the shallow span. A real S26 covered P/2 window at BTJD 2032.1208 has 12 quality-zero samples and -0.143 ppt deficit against 0.757 ppt scatter, excluding an extra deep event. Covered P/3 through P/6 windows similarly lack deep eclipses.",
+    "limits": "Deep-pair formal fit covariance has no residual degrees of freedom; no precision total period error is reported. Difference imaging needs removal of a nearly uniform background change, and close faint companions remain unresolved.",
+    "next": "Obtain another complete deep eclipse to improve the period and resolve small QLP timing systematics."
+  }
+}

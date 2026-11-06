@@ -1,0 +1,46 @@
+{
+  "457228352": {
+    "verdict": "PLAUSIBLE",
+    "association": "UNESTABLISHED_ALIASES_GAIA_DISFAVORED",
+    "reason": "Raw S6 and S32 contain clean approximately9-10ppt eclipse-shaped events at1483.29086 and2194.62680BTJD. Their711.33594d separation has many unexcluded integer-cycle alternatives. The trial20-cycle35.566797d clock is only an alias, not an adopted period.",
+    "limitations": "Many integer-cycle clocks between5d and the711.34d event separation remain; narrow observing blocks do not decide them. Divisor tests refute some short aliases but do not establish uniqueness. The later event is10.80d from the nearest nominal Gaia conjunction versus local propagated sigma2.06d; source-orbit association is disfavored. Two-event resemblance alone cannot promote it.",
+    "next": "Measure another source-resolved eclipse and discriminate integer cycle counts."
+  },
+  "469894984": {
+    "verdict": "C",
+    "association": "GAIA_CONSISTENT_TARGET_ATTRIBUTED",
+    "reason": "Four representative same-kind raw events occur in S17,S56,S83,S84 at1767.089131,2846.468807,3566.052785,3606.029197BTJD, with about50-52ppt trapezoid depths and0.288d duration. Free timing gives39.976960789d using cycles0,27,45,46; residuals are at most0.00123d. Divisors2-6 predict clean covered nulls. In the bounded integer scan from5d through the1838.94d event separation only the39.97696d family fits all timings and avoids clean nulls.",
+    "limitations": "Representative four-event timing, no exhaustive all-sector eclipse fit. The formal clock uncertainty and heuristic0.0001d allowance retain separate meanings. Gaia conjunction offsets1.15-3.17d have local covariance errors1.16-2.61d, broadly compatible. Custom TESScut reduction and stable background-aware localization support target attribution. Empirical centroid stability is not a calibrated PRF astrometric uncertainty, and G-based flux capability is approximate.",
+    "next": "Retain another source-resolved same-kind timing and refine the ephemeris.",
+    "helper_summary": "Independent7x7 TESScut S83 custom3x3 background-subtracted reduction reproduces39.6ppt loss. Background-aware difference Gaussian centroid is0.167-0.175pixel from target over five core/side variants, versus1.191-1.208pixel from capable Gaia2197843380808747904 (4.57% G flux,1.06pixel target separation). These empirical localization tests favor target ownership and distinguish the capable neighbor. Other closer Gaia neighbors individually contribute <=1.24% G flux under equal-throughput approximation. TESS/G colors, unknown blends and uncalibrated centroid errors remain limits."
+  },
+  "235650919": {
+    "verdict": "PLAUSIBLE",
+    "association": "UNESTABLISHED_SINGLE",
+    "reason": "S53 contains a localized approximately8-11ppt depression near2746.400BTJD, superposed on substantial slower variability. Earlier S26/S40 and noisy S80 do not demonstrate a same-kind repeat in full-sector inspection.",
+    "limitations": "One credible local event; variable baseline and sparse cadence. Exact Gaia-period predictions fall in insufficiently covered windows; no measured free clock is available. Gaia geometry is compatible within broad covariance but does not establish recurrence or host.",
+    "next": "Obtain a second source-resolved event on a measured clock."
+  },
+  "248308520": {
+    "verdict": "P",
+    "association": "GAIA_CONSISTENT_HOST_UNCERTAIN",
+    "reason": "Full-sector inspection recovered a second approximately14ppt S55 event at2818.46073BTJD besides the selected2797.28093BTJD event. Matching shape/depth and21.179806d separation support recurrence near Gaia21.136496d. The first starts at the sector edge and lacks pre-event baseline; its symmetric fit is explicitly unusable for precision timing. The second is resolved. Divisors2-6 predict covered clean nulls; the next assumed Gaia-period window in S81 is insufficiently covered.",
+    "limitations": "Only one same-kind interval and a truncated first ingress/baseline. The21.179806d period is approximate, with a heuristic0.02d allowance rather than calibrated error; no long-baseline precision ephemeris. Broad Gaia timing covariance7.45-7.52d allows the approximately4.3d nominal offset. Independent extraction confirms recurrence; close capable/approximately capable0.47pixel neighbor prevents definitive ownership.",
+    "next": "Observe another complete source-resolved eclipse and refine the approximate period.",
+    "helper_summary": "Independent7x7 TESScut S55 custom3x3 reduction confirms both matching troughs, with a23.4ppt full-event loss. Background-aware Gaussian difference includes11.10counts uniform sky offset; target separation0.046-0.093pixel under five window variants versus0.414-0.434pixel from the close Gaia neighbor0.47pixel from target. That neighbor has1.86% G flux versus2.34% blended custom-aperture loss; unknown TESS/G colors and relative throughput prevent a strict capability exclusion. Localization favors target but the close blend and uncalibrated centroid errors retain host uncertainty. First event starts0.126d before the trial center and lacks a clean prebaseline; independent aperture confirms an eclipse-shaped trough with comparable depth, not a precision midpoint."
+  },
+  "252997246": {
+    "verdict": "PLAUSIBLE",
+    "association": "UNESTABLISHED_SINGLE",
+    "reason": "S60 shows a well-resolved flat-bottomed approximately12ppt eclipse-shaped depression centered2959.82655BTJD. S20/S47 contain shallow edge excursions rather than demonstrated same-kind repeats.",
+    "limitations": "One complete event and no measured period. Existing usable sectors supply no additional well-covered same-kind predicted eclipse under the selection clock. Gaia consistency within broad covariance is only compatibility, not proof.",
+    "next": "Observe a second complete event and establish its clock and source."
+  },
+  "403139386": {
+    "verdict": "PLAUSIBLE",
+    "association": "UNESTABLISHED_SINGLE",
+    "reason": "S73 shows a resolved deep approximately85ppt V-shaped event centered3288.10224BTJD on a slowly variable baseline. S59/S86 have broad variability and large gaps rather than demonstrated same-kind repeats. A current inventory added S19, explicitly tested using a small TESScut.",
+    "limitations": "Only one eclipse. The S19 cutout has no detectable stellar PSF and near-zero negative median pixels: its normalized aperture plot is invalid and cannot provide a null or recurrence. The attempt is explicitly unavailable/noise-limited. Gaia offset1.48d versus sigma1.96d is compatible but does not measure an orbital clock.",
+    "next": "Obtain another source-resolved deep event and discriminate free periods."
+  }
+}

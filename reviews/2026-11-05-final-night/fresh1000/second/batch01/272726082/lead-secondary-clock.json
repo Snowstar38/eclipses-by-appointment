@@ -1,0 +1,83 @@
+{
+  "same_kind": "shallow opposite conjunction",
+  "times_btjd": [
+    2869.1329143011494,
+    3589.3902246557254,
+    3634.403974531128
+  ],
+  "cycles": [
+    0.0,
+    16.0,
+    17.0
+  ],
+  "period_d": 45.0160050173228,
+  "epoch_btjd": 2869.1329826387832,
+  "residuals_d": [
+    -6.833763382019242e-05,
+    0.001161739777217008,
+    -0.0010934021429420682
+  ],
+  "note": "S84 andS85 are consecutive same-kind shallow eclipses. This is a separate clock from deep primaries; it does not treat opposite conjunction as same-kind recurrence.",
+  "alias_secondary_timing_tests": [
+    {
+      "label": "measured",
+      "period_d": 45.01584602398308,
+      "secondary_residuals_d": [
+        0.0,
+        0.003773970846737029,
+        0.0016778222661741893
+      ],
+      "secondary_timing_compatible": true
+    },
+    {
+      "label": "integer20",
+      "period_d": 90.03173464547312,
+      "secondary_residuals_d": [
+        0.0,
+        0.0034331907910427617,
+        -45.014551579279555
+      ],
+      "secondary_timing_compatible": false
+    },
+    {
+      "label": "integer25",
+      "period_d": 72.0253877163785,
+      "secondary_residuals_d": [
+        0.0,
+        0.003433190790929075,
+        -27.008204650185007
+      ],
+      "secondary_timing_compatible": false
+    },
+    {
+      "label": "integer30",
+      "period_d": 60.021156430315415,
+      "secondary_residuals_d": [
+        0.0,
+        0.0034331907910427617,
+        -15.003973364121862
+      ],
+      "secondary_timing_compatible": false
+    },
+    {
+      "label": "integer40",
+      "period_d": 45.01586732273656,
+      "secondary_residuals_d": [
+        0.0,
+        0.0034331907910427617,
+        0.0013157434569848192
+      ],
+      "secondary_timing_compatible": true
+    },
+    {
+      "label": "integer50",
+      "period_d": 36.01269385818925,
+      "secondary_residuals_d": [
+        0.0,
+        0.003433190790929075,
+        9.004489208004202
+      ],
+      "secondary_timing_compatible": false
+    }
+  ]
+}

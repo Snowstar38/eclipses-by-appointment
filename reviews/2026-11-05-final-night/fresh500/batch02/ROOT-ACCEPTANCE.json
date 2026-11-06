@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "manifest_file": "BATCH-SEAL.json",
+  "manifest_sha256": "f8ca838b46cf031346a626127145060bae9dfa157286f78c9c4b4dac7e0984d2",
+  "targets": 8,
+  "physical_decisions": {
+    "170402154": "PROBABLE",
+    "200925588": "REFUTED",
+    "293514968": "CONFIRMED",
+    "313271160": "PLAUSIBLE",
+    "319472502": "REFUTED",
+    "325813358": "REFUTED",
+    "332915881": "CONFIRMED",
+    "372172730": "PLAUSIBLE"
+  },
+  "accepted_claim_tics": [
+    "170402154",
+    "293514968",
+    "332915881"
+  ],
+  "known_tics": [],
+  "catalogue_directory": "fresh500/shared-catalogues",
+  "method": "faint_band",
+  "population": "Gaia spectroscopic binaries G11.5-12 P20-60d; frozen extra500-target sample",
+  "review": "Root read lead/helper audits and exact result rows. E012 five usable deep timings exclude boundary S32 and distinguish faint short-period known neighbor; E017 adjacent and distant events support measured clock and geometry within3sigma, confirmed. E010 genuine target eclipses retain nonlinear Gaia conjunction tension as probable. Later independent batch03 helper reran E010/E017 with nominal-epoch unwrapping and reports identical numeric outputs, clearing a modulo-boundary concern; correction receipts retained separately. E013 quality-compromised S64 is not clean alias support; E018 retains longer integer alternatives, both plausible. E011/E014 positive off-target deficits and E016 noise refute selected patterns. All8 completed without substitutions; manifest/spatial checks required."
+}

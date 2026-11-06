@@ -1,0 +1,190 @@
+{
+  "sample_id": "Z006",
+  "tic": "95324628",
+  "gaia_period_d": 56.12410134043646,
+  "gaia_dr3": "4239611700214875904",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\bulk-results\\95324628.json",
+  "bulk_sha256": "953beb280c49f0dd484f19289d77636a706c4c1587983cd652e7038dca7c1734",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\95324628_s054.fits",
+      "sha256": "58bc10d18278c0bf9a2e6a1915dd0d9ad86c44018b3293653779ff5e646b8bdc",
+      "sector": 54
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\95324628_s081.fits",
+      "sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a",
+      "sector": 81
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 54,
+      "first_btjd": 2770.015733329902,
+      "last_btjd": 2796.057305532064,
+      "n": 987,
+      "median_cadence_d": 0.013888684568655663,
+      "header": {
+        "TICID": 95324628,
+        "SECTOR": 54,
+        "RA_OBJ": 295.665374047,
+        "DEC_OBJ": 0.337692220543
+      },
+      "flags": [
+        {
+          "sector": 54,
+          "screen_btjd": 2787.8560480165797,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 177.06307711349723,
+          "raw_minimum_btjd": 2787.8352149611487,
+          "raw_minimum_depth_ppt": 379.82551525962725,
+          "raw_median_core_depth_ppt": 191.91041066211446,
+          "n_window": 135,
+          "n_core": 15,
+          "first_btjd": 2786.960226270391,
+          "last_btjd": 2788.751869042384,
+          "max_gap_d": 0.03472176601007959,
+          "baseline_sap": 0.999781996011734,
+          "kspsap_baseline": 1.0002012252807617,
+          "source_sha256": "58bc10d18278c0bf9a2e6a1915dd0d9ad86c44018b3293653779ff5e646b8bdc"
+        }
+      ]
+    },
+    {
+      "sector": 81,
+      "first_btjd": 3506.5789301775226,
+      "last_btjd": 3533.1202496228225,
+      "n": 9076,
+      "median_cadence_d": 0.002314780996130139,
+      "header": {
+        "TICID": 95324628,
+        "SECTOR": 81,
+        "RA_OBJ": 295.665374047,
+        "DEC_OBJ": 0.337692220543
+      },
+      "flags": [
+        {
+          "sector": 81,
+          "screen_btjd": 3523.1251424679926,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 171.25199408142367,
+          "raw_minimum_btjd": 3523.1459754041553,
+          "raw_minimum_depth_ppt": 390.4444954650581,
+          "raw_median_core_depth_ppt": 159.1820172327344,
+          "n_window": 777,
+          "n_core": 103,
+          "first_btjd": 3522.2270103747915,
+          "last_btjd": 3524.0232726129498,
+          "max_gap_d": 0.0023147762517510273,
+          "baseline_sap": 0.9988506138324738,
+          "kspsap_baseline": null,
+          "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+        },
+        {
+          "sector": 81,
+          "screen_btjd": 3512.7479292047724,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 170.04188690953936,
+          "raw_minimum_btjd": 3512.79191049008,
+          "raw_minimum_depth_ppt": 389.63206152075446,
+          "raw_median_core_depth_ppt": 152.76651130773013,
+          "n_window": 682,
+          "n_core": 103,
+          "first_btjd": 3511.8497843408027,
+          "last_btjd": 3513.646072732477,
+          "max_gap_d": 0.2222209747751549,
+          "baseline_sap": 0.9988654851913452,
+          "kspsap_baseline": null,
+          "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+        },
+        {
+          "sector": 81,
+          "screen_btjd": 3525.8125838240376,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 144.55831014462072,
+          "raw_minimum_btjd": 3525.849619959991,
+          "raw_minimum_depth_ppt": 214.83091469303906,
+          "raw_median_core_depth_ppt": 157.3662638024177,
+          "n_window": 682,
+          "n_core": 103,
+          "first_btjd": 3524.914456809192,
+          "last_btjd": 3526.710709470732,
+          "max_gap_d": 0.22221665454299,
+          "baseline_sap": 0.9983270764350891,
+          "kspsap_baseline": null,
+          "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+        }
+      ]
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 54,
+      "screen_btjd": 2787.8560480165797,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 177.06307711349723,
+      "raw_minimum_btjd": 2787.8352149611487,
+      "raw_minimum_depth_ppt": 379.82551525962725,
+      "raw_median_core_depth_ppt": 191.91041066211446,
+      "n_window": 135,
+      "n_core": 15,
+      "first_btjd": 2786.960226270391,
+      "last_btjd": 2788.751869042384,
+      "max_gap_d": 0.03472176601007959,
+      "baseline_sap": 0.999781996011734,
+      "kspsap_baseline": 1.0002012252807617,
+      "source_sha256": "58bc10d18278c0bf9a2e6a1915dd0d9ad86c44018b3293653779ff5e646b8bdc"
+    },
+    {
+      "sector": 81,
+      "screen_btjd": 3523.1251424679926,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 171.25199408142367,
+      "raw_minimum_btjd": 3523.1459754041553,
+      "raw_minimum_depth_ppt": 390.4444954650581,
+      "raw_median_core_depth_ppt": 159.1820172327344,
+      "n_window": 777,
+      "n_core": 103,
+      "first_btjd": 3522.2270103747915,
+      "last_btjd": 3524.0232726129498,
+      "max_gap_d": 0.0023147762517510273,
+      "baseline_sap": 0.9988506138324738,
+      "kspsap_baseline": null,
+      "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+    },
+    {
+      "sector": 81,
+      "screen_btjd": 3512.7479292047724,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 170.04188690953936,
+      "raw_minimum_btjd": 3512.79191049008,
+      "raw_minimum_depth_ppt": 389.63206152075446,
+      "raw_median_core_depth_ppt": 152.76651130773013,
+      "n_window": 682,
+      "n_core": 103,
+      "first_btjd": 3511.8497843408027,
+      "last_btjd": 3513.646072732477,
+      "max_gap_d": 0.2222209747751549,
+      "baseline_sap": 0.9988654851913452,
+      "kspsap_baseline": null,
+      "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+    },
+    {
+      "sector": 81,
+      "screen_btjd": 3525.8125838240376,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 144.55831014462072,
+      "raw_minimum_btjd": 3525.849619959991,
+      "raw_minimum_depth_ppt": 214.83091469303906,
+      "raw_median_core_depth_ppt": 157.3662638024177,
+      "n_window": 682,
+      "n_core": 103,
+      "first_btjd": 3524.914456809192,
+      "last_btjd": 3526.710709470732,
+      "max_gap_d": 0.22221665454299,
+      "baseline_sap": 0.9983270764350891,
+      "kspsap_baseline": null,
+      "source_sha256": "6936f8317d05b11050e5d08b06421487ff0beb1f5b3b7899a416611b49a9116a"
+    }
+  ]
+}

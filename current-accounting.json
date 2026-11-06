@@ -1,11 +1,11 @@
 {
-  "ledger_sha256": "d027ac3c10eb3ce4542f3d026d193faffcb2f808f72c871c790bcc56f5d2005c",
+  "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
   "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
   "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
   "accepted": {
-    "all": 921,
-    "confirmed": 808,
-    "probable": 113
+    "all": 1031,
+    "confirmed": 869,
+    "probable": 162
   },
   "operation": {
     "prior_known_removals": 17,
@@ -13,58 +13,60 @@
     "A74_probable_to_confirmed": 1,
     "later_eligible_dip_additions": 8
   },
-  "scientific_register_rows": 830,
-  "reviewed_R_rows": 732,
+  "scientific_register_rows": 936,
+  "reviewed_R_rows": 822,
   "post_R675": {
-    "rows": 49,
+    "rows": 163,
     "physical": {
-      "confirmed": 18,
-      "probable": 23,
+      "confirmed": 79,
+      "probable": 76,
       "plausible": 8
     },
     "novelty": {
-      "new_claim": 12,
+      "new_claim": 130,
       "not_claim_eligible": 7,
-      "known_prior_recovery": 22,
-      "pending_novelty": 8
+      "known_prior_recovery": 25,
+      "pending_novelty": 1
     }
   },
   "counted_scientific_method": {
-    "Gaia spectroscopic-orbit period fold": 693,
+    "Gaia spectroscopic-orbit period fold": 699,
     "conjunction_windows": 22,
     "Gaia spectroscopic conjunction windows": 2,
-    "Period-free dip screening": 8
+    "Period-free dip screening": 46,
+    "Faint-band conjunction and raw-event screening": 66
   },
   "counted_scientific_tier": {
-    "CONFIRMED": 623,
-    "PROBABLE": 102
+    "CONFIRMED": 684,
+    "PROBABLE": 151
   },
-  "map_sha256": "8c5e1cd692dd84f78bfeb77c2eb66461f30410517e09bae7da7cdbb18766e579",
+  "map_sha256": "9d8fc628286780ca52d9be94e3cb2235858b20cc12447f465f6f06e81a25dc78",
   "period_free_reviews": {
-    "reviewed": 350,
-    "confirmed": 28,
-    "probable": 36,
-    "plausible": 65,
-    "refuted_selected_signals": 211,
+    "reviewed": 380,
+    "confirmed": 29,
+    "probable": 37,
+    "plausible": 69,
+    "refuted_selected_signals": 235,
     "non_eclipse_variable": 5,
     "unresolved": 5,
-    "new_claims_added": 8,
-    "selection": "mixed initial stratified 100 plus 250 prioritized dip leads",
+    "new_claims_added": 46,
+    "selection": "Initial stratified100, prioritized250, prospective recurrence/contrast20, and visual follow-up of the remaining664 multi-sector leads; exact cohorts and nonreviews retained.",
     "confirmed_probable_claim_dispositions": {
-      "known": 13,
-      "pending_catalogue": 43,
-      "accepted": 8
+      "known": 19,
+      "pending_source_attribution": 1,
+      "accepted": 46
     }
   },
   "scope": "Current accounting; historical reports and supplements preserve their original labels. Physical classification is separate from catalogue novelty and unique inclusion.",
   "accepted_all_method_totals": {
     "spectroscopic_conjunction": 107,
-    "Gaia_period_fold": 798,
+    "Gaia_period_fold": 804,
     "nearby_M_dwarf_selected": 4,
     "near_edge_on_astrometric_orbit": 4,
-    "period_free_dip_screening": 8
+    "period_free_dip_screening": 46,
+    "faint_band_conjunction_and_raw_event": 66
   },
-  "claim_decision_sha256": "974c1257ddb4e42fbe2670e428d8ec94e3ef472d45b390035a6243b3d339111c",
+  "claim_decision_sha256": "2c12aa8ea1996dade4ad1747224c5abc29cd75a6f8fcf147b3bc7a76ab71a3f1",
   "prior_publication_before_reconciliation": {
     "all": 917,
     "confirmed": 812,
@@ -83,9 +85,251 @@
     "newly_reviewed_supplementary_catalogue_checks": "ASAS-SN, SB9 and WDS unavailable; no added eclipsing claim"
   },
   "latest_review_campaign": {
+    "scope": "Current final-night revision, including controlled catalogue recovery and new physical reviews.",
+    "reviewed": 168,
+    "count_change_from_prior_publication": 110,
+    "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
+    "receipt": "reviews/2026-11-05-final-night/README.md"
+  },
+  "literature_corrections": {
+    "removed_claims": [
+      "R706",
+      "R725",
+      "R727"
+    ],
+    "physical_tiers_unchanged": true,
+    "receipt": "reviews/2026-11-05-literature-corrections/corrections.csv",
+    "prior_count": 921,
+    "current_baseline": 918
+  },
+  "catalogue_recovery": {
+    "accepted_additions": 45,
+    "confirmed": 19,
+    "probable": 26,
+    "known_recoveries": 4,
+    "source_holds": 2,
+    "receipt": "reviews/2026-11-05-catalogue-recovery/README.md"
+  },
+  "recurrence_pilot": {
+    "reviewed": 20,
+    "added_claims": 0,
+    "arms": {
+      "recurrence": {
+        "REFUTED": 9,
+        "PLAUSIBLE": 1
+      },
+      "contrast": {
+        "REFUTED": 9,
+        "PLAUSIBLE": 1
+      }
+    },
+    "receipt": "reviews/2026-11-05-recurrence-pilot/README.md"
+  },
+  "faint_band": {
+    "scope": "Current cumulative frozen cohorts, with availability and full-review outcomes distinct.",
+    "selected": 2500,
+    "usable_qlp": 2420,
+    "full_reviews": 138,
+    "added_claims": 66,
+    "confirmed_added": 42,
+    "probable_added": 24,
+    "cohorts": [
+      {
+        "name": "fresh-band",
+        "selected": 100,
+        "mapped": 100,
+        "qlp_available": 100,
+        "screen_completed": true,
+        "science_targets_with_downloads": 100,
+        "download_status_including_controls": {
+          "success": 474
+        }
+      },
+      {
+        "name": "fresh-band-next400",
+        "selected": 400,
+        "mapped": 395,
+        "qlp_available": 385,
+        "screen_completed": true,
+        "science_targets_with_downloads": 385,
+        "download_status_including_controls": {
+          "success": 1899
+        }
+      },
+      {
+        "name": "fresh-band-next1000",
+        "selected": 1000,
+        "mapped": 989,
+        "qlp_available": 970,
+        "screen_completed": true,
+        "science_targets_with_downloads": 970,
+        "download_status_including_controls": {
+          "success": 4664
+        }
+      },
+      {
+        "name": "fresh-band-extra500",
+        "selected": 500,
+        "mapped": 492,
+        "qlp_available": 480,
+        "screen_completed": true,
+        "science_targets_with_downloads": 480,
+        "download_status_including_controls": {
+          "success": 2340
+        }
+      },
+      {
+        "name": "fresh-band-reserve500",
+        "selected": 500,
+        "mapped": 493,
+        "qlp_available": 485,
+        "screen_completed": true,
+        "science_targets_with_downloads": 485,
+        "download_status_including_controls": {
+          "success": 2276
+        }
+      }
+    ],
+    "receipt": "reviews/2026-11-05-final-night/README.md"
+  },
+  "final_night_batches": [
+    {
+      "batch": "visual10",
+      "reviewed": 10,
+      "claims_added": 2,
+      "receipt": "reviews/2026-11-05-final-night/visual10/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh18/batch01",
+      "reviewed": 8,
+      "claims_added": 6,
+      "receipt": "reviews/2026-11-05-final-night/fresh18/batch01/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh18/batch02",
+      "reviewed": 7,
+      "claims_added": 5,
+      "receipt": "reviews/2026-11-05-final-night/fresh18/batch02/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/first/batch01",
+      "reviewed": 8,
+      "claims_added": 6,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/first/batch01/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/second/batch01",
+      "reviewed": 8,
+      "claims_added": 4,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/second/batch01/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/first/batch02",
+      "reviewed": 7,
+      "claims_added": 4,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/first/batch02/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/second/batch02",
+      "reviewed": 7,
+      "claims_added": 4,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/second/batch02/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/first/batch03",
+      "reviewed": 8,
+      "claims_added": 1,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/first/batch03/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/second/batch03",
+      "reviewed": 8,
+      "claims_added": 4,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/second/batch03/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh500/batch01",
+      "reviewed": 7,
+      "claims_added": 5,
+      "receipt": "reviews/2026-11-05-final-night/fresh500/batch01/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh500/batch02",
+      "reviewed": 8,
+      "claims_added": 3,
+      "receipt": "reviews/2026-11-05-final-night/fresh500/batch02/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh500/batch03",
+      "reviewed": 8,
+      "claims_added": 3,
+      "receipt": "reviews/2026-11-05-final-night/fresh500/batch03/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh500/batch04",
+      "reviewed": 6,
+      "claims_added": 2,
+      "receipt": "reviews/2026-11-05-final-night/fresh500/batch04/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/first/batch04",
+      "reviewed": 8,
+      "claims_added": 1,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/first/batch04/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "fresh1000/second/batch04",
+      "reviewed": 6,
+      "claims_added": 2,
+      "receipt": "reviews/2026-11-05-final-night/fresh1000/second/batch04/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "reserve500/batch01",
+      "reviewed": 8,
+      "claims_added": 5,
+      "receipt": "reviews/2026-11-05-final-night/reserve500/batch01/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "reserve500/batch02",
+      "reviewed": 7,
+      "claims_added": 4,
+      "receipt": "reviews/2026-11-05-final-night/reserve500/batch02/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "reserve500/batch03",
+      "reviewed": 8,
+      "claims_added": 3,
+      "receipt": "reviews/2026-11-05-final-night/reserve500/batch03/ROOT-ACCEPTANCE.json"
+    },
+    {
+      "batch": "reserve500/batch04",
+      "reviewed": 2,
+      "claims_added": 0,
+      "receipt": "reviews/2026-11-05-final-night/reserve500/batch04/ROOT-ACCEPTANCE.json"
+    }
+  ],
+  "active_A_method_allocation": {
+    "scope": "Unchanged active A catalogue; allocation derived from frozen pre-session whole-sample method totals minus that snapshot's counted scientific rows.",
+    "counts": {
+      "spectroscopic_conjunction": 83,
+      "Gaia_period_fold": 105,
+      "nearby_M_dwarf_selected": 4,
+      "near_edge_on_astrometric_orbit": 4
+    },
+    "baseline_accounting_sha256": "85d5fb42d9624a57b04a8ff4fbbaf7d5fe994e1cd6e47ade5c0faf51f89fd3d9",
+    "baseline_scientific_sha256": "fd81b3a7d9cd97b3608de9ddb2c25b6c93e6d783107ca1312297821f7cfb3d0c"
+  },
+  "historical_next100_campaign": {
     "reviewed": 100,
     "added_claims": 0,
     "decision_sha256": "96ff07dc43fbf8ef9865d00e3279e2127703f6299ccba26e8a29958b45e3b868",
-    "ledger_sha256": "d027ac3c10eb3ce4542f3d026d193faffcb2f808f72c871c790bcc56f5d2005c"
+    "ledger_sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528",
+    "scope": "Historical next100 campaign before this revision; not current cumulative totals."
+  },
+  "highest_R_identifier": 838,
+  "review_population_baseline": {
+    "scope": "Frozen reviewed identity population before final-night catalogue recovery and new physical reviews",
+    "rows": 1317,
+    "sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528"
   }
 }

@@ -1,0 +1,105 @@
+{
+  "scope": "Seven source groups as canonical methods2.7; bounded exact-identity/cone checks, not exhaustive priority.",
+  "central_target": {
+    "tic": "382672776",
+    "label": "E019",
+    "scope": "pending",
+    "ra": 215.969243105958,
+    "dec": -62.019387876182,
+    "catalogues": {
+      "vsx": {
+        "status": "success",
+        "matches": [
+          {
+            "_r": "37.14",
+            "OID": "5325652",
+            "Name": "Gaia DR3 5854347497433048448",
+            "V": "0",
+            "RAJ2000": "215.95981",
+            "DEJ2000": "-62.01007",
+            "Type": "L",
+            "l_max": "",
+            "max": "17.850",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "18.590",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "",
+            "u_Period": "",
+            "Sp": ""
+          },
+          {
+            "_r": "14.92",
+            "OID": "10646302",
+            "Name": "Gaia DR3 5854335750712394112",
+            "V": "0",
+            "RAJ2000": "215.97203",
+            "DEJ2000": "-62.02332",
+            "Type": "L",
+            "l_max": "",
+            "max": "19.270",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "19.500",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "",
+            "u_Period": "",
+            "Sp": ""
+          }
+        ],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\vsx-382672776.tsv"
+      },
+      "asassn": {
+        "status": "success",
+        "matches": [],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\asassn-382672776.tsv"
+      },
+      "table3": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d"
+      },
+      "table4": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677"
+      }
+    }
+  },
+  "local_tables": {
+    "tic": "382672776",
+    "scope": "pending",
+    "label": "E019",
+    "prsa": [],
+    "ijspeert": [
+      {
+        "TIC": "382672899",
+        "GaiaDR3": "5854335746401121024",
+        "RAJ2000": "215.99484874358",
+        "DEJ2000": "-62.02810316865"
+      }
+    ]
+  },
+  "seal": "../shared-catalogues/ROOT-CATALOGUE-SEAL.json",
+  "literature_adjudication": {
+    "scope": "244 locally fetched e-print sources; exact identifiers, not exhaustive literature search",
+    "prior_EB": [
+      "58598386"
+    ],
+    "RV_contradiction": {
+      "tic": "430689383",
+      "gaia": "2000733415898027264",
+      "arxiv": "2603.20371",
+      "source_sha256": "838447d246a87cfa1f56d1bf0b8ee24908a7cbbae3d8903bcf2875877fe8715d",
+      "finding": "Source-specific item rejects the Gaia 53.80d orbital solution after three APF spectra showing no velocity change over20d at about4km/s precision. Adjacent item names a DIFFERENT eclipsing binary; do not misattribute. This is an orbital-association warning, not a prior EB identification."
+    }
+  }
+}

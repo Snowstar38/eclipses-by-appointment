@@ -1,0 +1,152 @@
+{
+  "request_url": "https://gaia.ari.uni-heidelberg.de/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2CDISTANCE%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CPOINT%28%27ICRS%27%2C104.410822069%2C-39.5401377345%29%29%2A3600+AS+sep+FROM+gaiadr3.gaia_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C104.410822069%2C-39.5401377345%2C0.0166667%29%29",
+  "response_sha256": "e6dafff6a5a1c8c2d9a49dbcd20e344c7338fd95b3f04cff37033b5a086af239",
+  "target_G": 11.928539,
+  "target_gaia": "5564100037135889024",
+  "neighbors_sorted": [
+    {
+      "source_id": "5564100037135888512",
+      "sep_arcsec": 41.12107199654629,
+      "G": 14.561807,
+      "relative_G_flux": 0.08844897410208843,
+      "idealized_required_intrinsic_loss": 0.01749488424325147,
+      "wcs_xy": [
+        6.4779847497804,
+        3.9984313360818664
+      ]
+    },
+    {
+      "source_id": "5564100071495624960",
+      "sep_arcsec": 58.37442793441721,
+      "G": 15.731956,
+      "relative_G_flux": 0.030104623491452605,
+      "idealized_required_intrinsic_loss": 0.048645641551824575,
+      "wcs_xy": [
+        5.51088408720818,
+        3.0542107809744286
+      ]
+    },
+    {
+      "source_id": "5564100037135888384",
+      "sep_arcsec": 16.650383189133198,
+      "G": 17.303669,
+      "relative_G_flux": 0.0070786102397730095,
+      "idealized_required_intrinsic_loss": 0.20226054392038362,
+      "wcs_xy": [
+        4.964482760578632,
+        5.79008119022155
+      ]
+    },
+    {
+      "source_id": "5564099281220064384",
+      "sep_arcsec": 35.966560121453945,
+      "G": 17.77191,
+      "relative_G_flux": 0.0045988749431668564,
+      "idealized_required_intrinsic_loss": 0.31055382762545175,
+      "wcs_xy": [
+        4.050035464063482,
+        5.973215638238802
+      ]
+    },
+    {
+      "source_id": "5564099281221643904",
+      "sep_arcsec": 36.08662184850298,
+      "G": 18.083588,
+      "relative_G_flux": 0.0034512816311989066,
+      "idealized_required_intrinsic_loss": 0.4133440504426122,
+      "wcs_xy": [
+        4.039009322993463,
+        5.845281256204789
+      ]
+    },
+    {
+      "source_id": "5564100032837628544",
+      "sep_arcsec": 26.889014751066117,
+      "G": 18.09821,
+      "relative_G_flux": 0.0034051135588805542,
+      "idealized_required_intrinsic_loss": 0.41892908083128777,
+      "wcs_xy": [
+        4.655356479803448,
+        5.179413173349086
+      ]
+    },
+    {
+      "source_id": "5564100032837634304",
+      "sep_arcsec": 20.895259204015037,
+      "G": 18.507282,
+      "relative_G_flux": 0.002336161163958017,
+      "idealized_required_intrinsic_loss": 0.6099670811583142,
+      "wcs_xy": [
+        6.40554554156299,
+        5.067784354932781
+      ]
+    },
+    {
+      "source_id": "5564099311283122688",
+      "sep_arcsec": 54.16260974585416,
+      "G": 18.615171,
+      "relative_G_flux": 0.0021151793601739575,
+      "idealized_required_intrinsic_loss": 0.6735444152343613,
+      "wcs_xy": [
+        3.389387819525229,
+        4.820551051843078
+      ]
+    },
+    {
+      "source_id": "5564100037134312704",
+      "sep_arcsec": 11.018732658605,
+      "G": 19.062897,
+      "relative_G_flux": 0.00140041514867176,
+      "idealized_required_intrinsic_loss": 1.0165921832519256,
+      "wcs_xy": [
+        6.273598167353149,
+        5.900270836025518
+      ]
+    },
+    {
+      "source_id": "5564100037135888896",
+      "sep_arcsec": 12.073211068078136,
+      "G": 19.601902,
+      "relative_G_flux": 0.0008524222947854169,
+      "idealized_required_intrinsic_loss": 1.6692102523981192,
+      "wcs_xy": [
+        6.0901095079467344,
+        5.355841258977135
+      ]
+    },
+    {
+      "source_id": "5564099723599980032",
+      "sep_arcsec": 49.92330856947434,
+      "G": 19.679674,
+      "relative_G_flux": 0.0007934982988045184,
+      "idealized_required_intrinsic_loss": 1.7930577369522327,
+      "wcs_xy": [
+        7.990674344082242,
+        6.613405138168423
+      ]
+    },
+    {
+      "source_id": "5564100032837637248",
+      "sep_arcsec": 38.14322375832942,
+      "G": 19.793253,
+      "relative_G_flux": 0.0007146845604410019,
+      "idealized_required_intrinsic_loss": 1.990635164552335,
+      "wcs_xy": [
+        4.876357095130964,
+        4.240594119243204
+      ]
+    },
+    {
+      "source_id": "5564100037134311552",
+      "sep_arcsec": 2.1114491234339163,
+      "G": 20.54902,
+      "relative_G_flux": 0.00035629325435607373,
+      "idealized_required_intrinsic_loss": 3.9915622581696066,
+      "wcs_xy": [
+        5.821952681660855,
+        5.9009041803658935
+      ]
+    }
+  ],
+  "note": "Idealized required intrinsic loss uses Gaia G flux ratio and observed aperture loss assuming target and neighbor fully captured and no other flux. Approximate only: Gaia G differs from TESS band, aperture throughput and additional stars change budget. Missing Gaia sources or unresolved companions not excluded."
+}

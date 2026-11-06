@@ -1,0 +1,75 @@
+{
+  "request_url": "https://gaia.ari.uni-heidelberg.de/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2CDISTANCE%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CPOINT%28%27ICRS%27%2C82.9528609708%2C-38.1650810598%29%29%2A3600+AS+sep+FROM+gaiadr3.gaia_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C82.9528609708%2C-38.1650810598%2C0.0166667%29%29",
+  "response_sha256": "500d76a4f923732efb9a22ce77abc4d11095c5f4e5c937ad260ed02505ee1305",
+  "target_G": 11.830393,
+  "target_gaia": "4809169065671083264",
+  "neighbors_sorted": [
+    {
+      "source_id": "4809168859512651136",
+      "sep_arcsec": 45.77159690383715,
+      "G": 15.241171,
+      "relative_G_flux": 0.04322040179999392,
+      "idealized_required_intrinsic_loss": 0.22264391432297548,
+      "wcs_xy": [
+        3.3952506576257644,
+        4.196337368617913
+      ]
+    },
+    {
+      "source_id": "4809168825152915584",
+      "sep_arcsec": 55.15537060996796,
+      "G": 15.387485,
+      "relative_G_flux": 0.03777141023780744,
+      "idealized_required_intrinsic_loss": 0.2534323548841304,
+      "wcs_xy": [
+        3.580050902372782,
+        7.73974017568986
+      ]
+    },
+    {
+      "source_id": "4809169031311345920",
+      "sep_arcsec": 21.07154019513163,
+      "G": 15.709603,
+      "relative_G_flux": 0.028074756616641206,
+      "idealized_required_intrinsic_loss": 0.3377786943072454,
+      "wcs_xy": [
+        5.70306799087275,
+        6.427347436610354
+      ]
+    },
+    {
+      "source_id": "4809168649057636352",
+      "sep_arcsec": 53.13156035516147,
+      "G": 16.358837,
+      "relative_G_flux": 0.015439114924931963,
+      "idealized_required_intrinsic_loss": 0.6066735286030237,
+      "wcs_xy": [
+        6.99091182741797,
+        7.444415200383379
+      ]
+    },
+    {
+      "source_id": "4809169031311347712",
+      "sep_arcsec": 53.72669169697829,
+      "G": 17.389194,
+      "relative_G_flux": 0.005976949686613914,
+      "idealized_required_intrinsic_loss": 1.5525013506424081,
+      "wcs_xy": [
+        6.036156285672245,
+        8.00759928276056
+      ]
+    },
+    {
+      "source_id": "4809169065671083136",
+      "sep_arcsec": 4.536681871700312,
+      "G": 18.945517,
+      "relative_G_flux": 0.0014254447867927485,
+      "idealized_required_intrinsic_loss": 6.4802502724093065,
+      "wcs_xy": [
+        5.0143306582965685,
+        5.523956595282103
+      ]
+    }
+  ],
+  "note": "Idealized required intrinsic loss uses Gaia G flux ratio and observed aperture loss assuming target and neighbor fully captured and no other flux. Approximate only: Gaia G differs from TESS band, aperture throughput and additional stars change budget. Missing Gaia sources or unresolved companions not excluded."
+}

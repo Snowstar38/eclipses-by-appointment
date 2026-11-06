@@ -1,0 +1,201 @@
+{
+  "sample_id": "E007",
+  "tic": "149477061",
+  "gaia_period_d": 56.979446767033025,
+  "gaia_dr3": "4660070646084855168",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\bulk-results\\149477061.json",
+  "bulk_sha256": "835538cec7f2cfdf99e674055a4ba6aeb9b7af11326dc7b43c7c04cbcb515372",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s001.fits",
+      "sha256": "02847c665850bba5ce234bdcf883034c0451751f16e5a1558834837963628afd",
+      "sector": 1
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s002.fits",
+      "sha256": "3c434c2b88ccd69f85a040ae3dc5f48f25455b98fc621790f31029de208a6d58",
+      "sector": 2
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s090.fits",
+      "sha256": "7416df911f1db35ba36b127ba71869bd2fb906c0620b3281d7b5992096feabb2",
+      "sector": 90
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s093.fits",
+      "sha256": "7c0a14b3dc9daf7f8c3c526b15d71593e18496048e1c8edd955df059be9c7ce2",
+      "sector": 93
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s094.fits",
+      "sha256": "e5fad58a30c3ecad1e90db442e538ee68569f28018ab2dc1409466ecaa6a870e",
+      "sector": 94
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s095.fits",
+      "sha256": "af8502be2b8c1cbac080368fd1b58c04afd8701194ea072f28f738d64b948854",
+      "sector": 95
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s096.fits",
+      "sha256": "781559aafc82d9b2c2111fcb99ae593210d18baeae16880af9df749d5e0204cf",
+      "sector": 96
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-extra500\\data\\149477061_s098.fits",
+      "sha256": "7e581fd26411524738448785d599d9d6196d6d1c391432012d4db3103c88a513",
+      "sector": 98
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 1,
+      "first_btjd": 1325.6568800010352,
+      "last_btjd": 1353.1152985294802,
+      "n": 993,
+      "median_cadence_d": 0.020833416257119097,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 1,
+        "RA_OBJ": 85.37646,
+        "DEC_OBJ": -65.48181
+      },
+      "flags": []
+    },
+    {
+      "sector": 2,
+      "first_btjd": 1354.240301440055,
+      "last_btjd": 1381.4070333060774,
+      "n": 1026,
+      "median_cadence_d": 0.02083340360331931,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 2,
+        "RA_OBJ": 85.37646,
+        "DEC_OBJ": -65.48181
+      },
+      "flags": [
+        {
+          "sector": 2,
+          "screen_btjd": 1357.6778160978024,
+          "screen_duration_d": 0.48,
+          "screen_depth_ppt": 4.180515741820656,
+          "raw_minimum_btjd": 1357.823650048476,
+          "raw_minimum_depth_ppt": 5.637298084822162,
+          "raw_median_core_depth_ppt": 4.173515778498116,
+          "n_window": 126,
+          "n_core": 22,
+          "first_btjd": 1356.2403097882473,
+          "last_btjd": 1359.09448852696,
+          "max_gap_d": 0.0833336629580117,
+          "baseline_sap": 0.9990149140357971,
+          "kspsap_baseline": 1.0000104904174805,
+          "source_sha256": "3c434c2b88ccd69f85a040ae3dc5f48f25455b98fc621790f31029de208a6d58"
+        }
+      ]
+    },
+    {
+      "sector": 90,
+      "first_btjd": 3747.397270879189,
+      "last_btjd": 3774.973607450166,
+      "n": 11148,
+      "median_cadence_d": 0.0023148114473769965,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 90,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    },
+    {
+      "sector": 93,
+      "first_btjd": 3830.455124148728,
+      "last_btjd": 3855.00380469126,
+      "n": 9585,
+      "median_cadence_d": 0.0023148230795868585,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 93,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    },
+    {
+      "sector": 94,
+      "first_btjd": 3857.506122953724,
+      "last_btjd": 3880.7168497763,
+      "n": 8077,
+      "median_cadence_d": 0.002314823985670955,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 94,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    },
+    {
+      "sector": 95,
+      "first_btjd": 3883.7168556317815,
+      "last_btjd": 3906.615076360747,
+      "n": 7619,
+      "median_cadence_d": 0.002314822427706531,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 95,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    },
+    {
+      "sector": 96,
+      "first_btjd": 3909.916009570023,
+      "last_btjd": 3933.027171881992,
+      "n": 7634,
+      "median_cadence_d": 0.0023148197869886644,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 96,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    },
+    {
+      "sector": 98,
+      "first_btjd": 3995.254019310249,
+      "last_btjd": 4045.8556927452323,
+      "n": 12052,
+      "median_cadence_d": 0.0023148053460317897,
+      "header": {
+        "TICID": 149477061,
+        "SECTOR": 98,
+        "RA_OBJ": 85.3764830365,
+        "DEC_OBJ": -65.481800104
+      },
+      "flags": []
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 2,
+      "screen_btjd": 1357.6778160978024,
+      "screen_duration_d": 0.48,
+      "screen_depth_ppt": 4.180515741820656,
+      "raw_minimum_btjd": 1357.823650048476,
+      "raw_minimum_depth_ppt": 5.637298084822162,
+      "raw_median_core_depth_ppt": 4.173515778498116,
+      "n_window": 126,
+      "n_core": 22,
+      "first_btjd": 1356.2403097882473,
+      "last_btjd": 1359.09448852696,
+      "max_gap_d": 0.0833336629580117,
+      "baseline_sap": 0.9990149140357971,
+      "kspsap_baseline": 1.0000104904174805,
+      "source_sha256": "3c434c2b88ccd69f85a040ae3dc5f48f25455b98fc621790f31029de208a6d58"
+    }
+  ]
+}

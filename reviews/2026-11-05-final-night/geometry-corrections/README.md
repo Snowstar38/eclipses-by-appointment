@@ -1,0 +1,9 @@
+# Fixed-cycle Gaia uncertainty correction
+
+The independent review of fresh500/batch03 found that the Monte Carlo helper used in batches01/02 reduced the base conjunction epoch modulo the orbital period before adding a fixed cycle number. Draws crossing the epoch boundary must instead be unwrapped about the nominal base conjunction before fixed-cycle propagation. Without that step a small tail can be displaced by one orbit.
+
+The independent helper reran the earlier targets with this correction. Batch02 E010 and E017 outputs are numerically unchanged. Batch01 E001 and E005 matched-conjunction probabilities remain compatible with Gaia (two-sided sign tails 0.2579–0.4390 and 0.4768/0.7226 respectively), so their confirmed tiers remain. E006/E007 remain plausible because their clocks are unresolved, independent of this covariance calculation.
+
+For batch01 E008, the corrected primary-event two-sided tails are 0.00090 and 0.00082, compared with 0.00318 and 0.00312 from the uncorrected primitive. The event offsets remain about 1.44/1.49 days. The correction strengthens the unresolved Gaia association tension; the probable tier remains. The final batch01 helper audit already quoted corrected values, while its original primitive script/JSON were not updated. This receipt identifies that inconsistency explicitly; those frozen original artifacts are preserved.
+
+Corrected implementation and independent rerun artifacts are under ../fresh500/batch03/: lead_nonlinear_gaia.py, audit-batch01-nonlinear.json and audit-batch02-nonlinear.json. The final batch manifest and source/export provenance pin their bytes. These Gaussian-covariance, edge-on, fixed-cycle diagnostics are conditional uncertainty calculations, not independent observations or calibrated event probabilities. No accepted count or physical tier changed from this correction.

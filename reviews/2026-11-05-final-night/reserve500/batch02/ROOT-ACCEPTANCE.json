@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "manifest_file": "BATCH-SEAL.json",
+  "manifest_sha256": "e6c08bda1b59cdd7007e23635d038608b5fd317714a39ca62fa388916313d63a",
+  "targets": 7,
+  "physical_decisions": {
+    "175736093": "CONFIRMED",
+    "187242860": "REFUTED",
+    "281540788": "PROBABLE",
+    "298092295": "REFUTED",
+    "298976044": "CONFIRMED",
+    "308091169": "REFUTED",
+    "403192875": "CONFIRMED"
+  },
+  "accepted_claim_tics": [
+    "175736093",
+    "281540788",
+    "298976044",
+    "403192875"
+  ],
+  "known_tics": [],
+  "catalogue_directory": "reserve500/shared-catalogues",
+  "method": "faint_band",
+  "population": "Gaia spectroscopic binaries G11.5-12 P20-60d; frozen reserve500-target sample",
+  "review": "Root read exact results, independent physical and final freeze audits. RS017 has three same-kind events, independent aperture recovery and compatible geometry. RS009 and RS015 are accepted under the existing explicitly Gaia-assisted clock standard: two resolved same-kind events with target-centered independent aperture recovery, all alternative positive integer cycle families incompatible with source Gaia period, and compatible conditional conjunction epoch. Photometry alone retains aliases; conditioned geometry is not independent confirmation and period errors are conditional. RS013 real target-localized repeated eclipses retains probable tier because paired conjunction interval rejects Gaia geometry at about4.26sigma; both kinds localized separately. RS010 and RS016 are positive off-target signals, latter a known EB neighbor, no target claims. RS014 refutes selected instrumental pattern only. No criterion changed for count goal."
+}

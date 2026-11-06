@@ -1,52 +1,54 @@
 {
   "status": "PASS",
-  "counted": 921,
+  "utc": "2026-11-06T05:48:01.827222+00:00",
+  "counted": 1031,
   "tiers": {
-    "confirmed": 808,
-    "probable": 113
+    "confirmed": 869,
+    "probable": 162
   },
-  "scientific_register": 830,
-  "period_free_reviews": 350,
-  "added_period_free_claims": 8,
-  "archives": {
-    "2026-11-05-baseline-reconciliation": 3473,
-    "2026-11-05-claim-adjudication": 91,
-    "2026-11-05-heartbeat-438089101": 49,
-    "2026-11-05-next100": 1451,
-    "2026-11-05-period-free": 3315
-  },
-  "markdown_links": 699,
-  "json_files": 3490,
-  "python_files": 1557,
+  "scientific_register": 936,
+  "period_free_reviews": 380,
+  "faint_band_reviews": 138,
+  "scope": "Current ledger/map/register joins, scoped provenance, current prose, local links, PDF count/link privacy, and overview build provenance. Scientific confidence and catalogue limitations remain in individual reviews. External HTTP links are not checked by this gate.",
+  "checks": 117789,
+  "warnings": [
+    "reviews\\2026-11-05-faint-band\\fresh-review\\shared-catalogues\\kebc-search.html: upstream capture; root-relative remote navigation not checked",
+    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh18\\batch01\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html",
+    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh1000\\second\\batch04\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html",
+    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh1000\\first\\batch04\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html"
+  ],
   "pdfs": {
+    "historical-draft-2026-10-14.pdf": {
+      "pages": 57,
+      "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
+    },
     "paper.pdf": {
-      "pages": 191,
-      "sha256": "bdf9f3870abe4152fd8c7d38972ec169730ddcb49752f693fae15341eaf51ae3"
+      "pages": 212,
+      "sha256": "31d87206ae40c90a48839d90dd08454d4f07e06364264d8fb4ec6b168b1f89fe"
+    },
+    "supplement-1-original-and-early-reviews.pdf": {
+      "pages": 1187,
+      "sha256": "abe62ed8d19664fc372ee3a9a52bc1642f0d8a47f79866272a8ca6f4ab339b59"
+    },
+    "supplement-2-comparison-and-bright-stratum.pdf": {
+      "pages": 762,
+      "sha256": "bbd736c94c61b615d4fab8a07c10ffdb10099606f8f248358c038a10ad295b8d"
+    },
+    "supplement-3-bright-followup-and-other-evidence.pdf": {
+      "pages": 504,
+      "sha256": "f2faaab50660a786de7a1c93fc6174686085ad9b401f9c2f8776c0cd9463bd6c"
+    },
+    "supplement-4-screened-completion-and-other-evidence.pdf": {
+      "pages": 820,
+      "sha256": "23bd8b66bbb3833648346f9c0183b92314e215cd1d2dc45a9bb994339a8d414f"
+    },
+    "supplement-5-period-free-review.pdf": {
+      "pages": 158,
+      "sha256": "f904d4c78f8478429e939f91fd72b6c92e5490ad7744b9500f813511b0d211ce"
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "2a59f619d8c60d109e87297d2d7915f13a578f42e27da86fa9c1ac5eb675f661"
-    },
-    "supplement-5-period-free-review.pdf": {
-      "pages": 113,
-      "sha256": "4bea34197b3211be52675bda8aea3db4d6702ddc44a94670331c1d6bb888cad6"
+      "sha256": "15711bf98373a3445788aea09193045937c59276a9eabc4a64d785c1ff838e79"
     }
-  },
-  "candidate_claim_decisions": {
-    "accepted": 8,
-    "pending_catalogue": 36,
-    "later_known_recoveries": 5
-  },
-  "unchanged_sealed_review_artifacts": 698,
-  "visual_quality": "PASS: bounded independent inspection of changed pages and overview; scope and hashes in final visual audit.",
-  "publication_status": "350 reviewed candidates, explicit physical/catalogue adjudication, and ten physically confirmed heartbeats plus one candidate. Accepted eclipsing claims remain 921 (808 confirmed, 113 probable).",
-  "physical_adjudication": {
-    "Q080": "PROBABLE at batch freeze -> PLAUSIBLE after adversarial review; original evidence preserved"
-  },
-  "heartbeat_systems": {
-    "physically_confirmed": 10,
-    "candidate": 1,
-    "new_review_tic": "438089101",
-    "eclipsing_claims_added": 0
   }
 }

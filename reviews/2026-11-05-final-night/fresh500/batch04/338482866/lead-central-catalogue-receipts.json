@@ -1,0 +1,108 @@
+{
+  "seven_source_scope": "VSX,SIMBAD primary,GaiaDR3 EB,Prsa,IJspeert,Kostov vetted3/4,ASAS-SN",
+  "target_receipt": {
+    "tic": "338482866",
+    "label": "E033",
+    "scope": "pending",
+    "ra": 283.386581274863,
+    "dec": 17.3398275438326,
+    "catalogues": {
+      "vsx": {
+        "status": "success",
+        "matches": [
+          {
+            "_r": "49.01",
+            "OID": "7228300",
+            "Name": "Gaia DR3 4511191106649635328",
+            "V": "0",
+            "RAJ2000": "283.37473",
+            "DEJ2000": "17.33226",
+            "Type": "ROT",
+            "l_max": "",
+            "max": "15.620",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "15.680",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "7.719300000000",
+            "u_Period": "",
+            "Sp": "K"
+          },
+          {
+            "_r": "46.53",
+            "OID": "9837550",
+            "Name": "Gaia DR3 4511191274134267520",
+            "V": "0",
+            "RAJ2000": "283.39719",
+            "DEJ2000": "17.33179",
+            "Type": "ROT",
+            "l_max": "",
+            "max": "16.720",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "16.760",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "4.229580000000",
+            "u_Period": "",
+            "Sp": "K"
+          },
+          {
+            "_r": "52.18",
+            "OID": "9837551",
+            "Name": "Gaia DR3 4511191312807884672",
+            "V": "0",
+            "RAJ2000": "283.40118",
+            "DEJ2000": "17.33586",
+            "Type": "ROT",
+            "l_max": "",
+            "max": "17.790",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "17.870",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "1.478220000000",
+            "u_Period": "",
+            "Sp": ""
+          }
+        ],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\vsx-338482866.tsv"
+      },
+      "asassn": {
+        "status": "success",
+        "matches": [],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\asassn-338482866.tsv"
+      },
+      "table3": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d"
+      },
+      "table4": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677"
+      }
+    }
+  },
+  "local_tables": {
+    "tic": "338482866",
+    "scope": "pending",
+    "label": "E033",
+    "prsa": [],
+    "ijspeert": []
+  },
+  "shared_root_seal": "../shared-catalogues/ROOT-CATALOGUE-SEAL.json",
+  "novelty_adjudication": "No prior target EB found in scoped shared checks; this is not exhaustive priority proof."
+}

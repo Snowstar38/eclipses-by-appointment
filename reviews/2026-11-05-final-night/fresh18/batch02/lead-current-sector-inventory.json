@@ -1,0 +1,78 @@
+[
+  {
+    "tic": "159860053",
+    "checked_utc": "2026-11-06T03:30:01.952466+00:00",
+    "qlp_all_sectors": [
+      28,
+      68
+    ],
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=325.60041951055&dec=-36.4207445949676",
+    "status": 200,
+    "response_sha256": "4c6194c295550590721021009f165e2ad8a2abb80bb18e0f097a4e7e4539d86f",
+    "response": {
+      "results": [
+        {
+          "sectorName": "tess-s0001-1-1",
+          "sector": "0001",
+          "camera": "1",
+          "ccd": "1"
+        },
+        {
+          "sectorName": "tess-s0028-1-1",
+          "sector": "0028",
+          "camera": "1",
+          "ccd": "1"
+        },
+        {
+          "sectorName": "tess-s0068-1-1",
+          "sector": "0068",
+          "camera": "1",
+          "ccd": "1"
+        },
+        {
+          "sectorName": "tess-s0106-1-4",
+          "sector": "0106",
+          "camera": "1",
+          "ccd": "4"
+        }
+      ]
+    },
+    "tesscut_sectors": [
+      1,
+      28,
+      68,
+      106
+    ]
+  },
+  {
+    "tic": "332686088",
+    "checked_utc": "2026-11-06T03:30:04.291294+00:00",
+    "qlp_all_sectors": [
+      58,
+      85
+    ],
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=20.9293545196152&dec=54.46469854753",
+    "status": 200,
+    "response_sha256": "517a072d2f6a07d21534b237debd78cba8f26e8d2d2c81a2d9e5fe4965f9bcac",
+    "response": {
+      "results": [
+        {
+          "sectorName": "tess-s0058-2-3",
+          "sector": "0058",
+          "camera": "2",
+          "ccd": "3"
+        },
+        {
+          "sectorName": "tess-s0085-2-3",
+          "sector": "0085",
+          "camera": "2",
+          "ccd": "3"
+        }
+      ]
+    },
+    "tesscut_sectors": [
+      58,
+      85
+    ]
+  }
+]

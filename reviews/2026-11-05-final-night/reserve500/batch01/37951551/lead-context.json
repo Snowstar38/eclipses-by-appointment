@@ -1,0 +1,106 @@
+{
+  "sample_id": "RS002",
+  "tic": "37951551",
+  "gaia_period_d": 48.366199351193885,
+  "gaia_dr3": "3178691590530845184",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-reserve500\\bulk-results\\37951551.json",
+  "bulk_sha256": "4e2d3211ecab9a776afe2a0e9611c769ac540b402add1f938b7a52a89cd77ce5",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-reserve500\\data\\37951551_s005.fits",
+      "sha256": "e6113b9192e3f22cc9a2e2c43212ff1887ca40fd26bc417be68a8f69ce17cd1e",
+      "sector": 5
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-reserve500\\data\\37951551_s032.fits",
+      "sha256": "c0c1f81a82c819ca17c4215b5ce6589c6343a0f80fe654abb8a05716be7850f2",
+      "sector": 32
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-reserve500\\data\\37951551_s098.fits",
+      "sha256": "cc3e7ab2ca9e8c98ea1ba8a6bfadc1eb0ed525ad7f8b2150d7eb2e7da1f5a57f",
+      "sector": 98
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 5,
+      "first_btjd": 1438.1199295213266,
+      "last_btjd": 1463.4531235268657,
+      "n": 1075,
+      "median_cadence_d": 0.020833218805478282,
+      "header": {
+        "TICID": 37951551,
+        "SECTOR": 5,
+        "RA_OBJ": 66.8738428898,
+        "DEC_OBJ": -11.5603712147
+      },
+      "flags": [
+        {
+          "sector": 5,
+          "screen_btjd": 1462.161491311188,
+          "screen_duration_d": 0.48,
+          "screen_depth_ppt": 3.9940374933867817,
+          "raw_minimum_btjd": 1462.1406585083314,
+          "raw_minimum_depth_ppt": 5.337221377233692,
+          "raw_median_core_depth_ppt": 4.09556188183835,
+          "n_window": 132,
+          "n_core": 23,
+          "first_btjd": 1460.7240258122058,
+          "last_btjd": 1463.4531235268657,
+          "max_gap_d": 0.020832863882105812,
+          "baseline_sap": 1.0025159120559692,
+          "kspsap_baseline": 0.9999367594718933,
+          "source_sha256": "e6113b9192e3f22cc9a2e2c43212ff1887ca40fd26bc417be68a8f69ce17cd1e"
+        }
+      ]
+    },
+    {
+      "sector": 32,
+      "first_btjd": 2174.3001953290577,
+      "last_btjd": 2199.5012278758677,
+      "n": 3256,
+      "median_cadence_d": 0.006944353861399577,
+      "header": {
+        "TICID": 37951551,
+        "SECTOR": 32,
+        "RA_OBJ": 66.8738428898,
+        "DEC_OBJ": -11.5603712147
+      },
+      "flags": []
+    },
+    {
+      "sector": 98,
+      "first_btjd": 3995.2538943134796,
+      "last_btjd": 4045.8591766605136,
+      "n": 12659,
+      "median_cadence_d": 0.002314777731498907,
+      "header": {
+        "TICID": 37951551,
+        "SECTOR": 98,
+        "RA_OBJ": 66.8738428898,
+        "DEC_OBJ": -11.5603712147
+      },
+      "flags": []
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 5,
+      "screen_btjd": 1462.161491311188,
+      "screen_duration_d": 0.48,
+      "screen_depth_ppt": 3.9940374933867817,
+      "raw_minimum_btjd": 1462.1406585083314,
+      "raw_minimum_depth_ppt": 5.337221377233692,
+      "raw_median_core_depth_ppt": 4.09556188183835,
+      "n_window": 132,
+      "n_core": 23,
+      "first_btjd": 1460.7240258122058,
+      "last_btjd": 1463.4531235268657,
+      "max_gap_d": 0.020832863882105812,
+      "baseline_sap": 1.0025159120559692,
+      "kspsap_baseline": 0.9999367594718933,
+      "source_sha256": "e6113b9192e3f22cc9a2e2c43212ff1887ca40fd26bc417be68a8f69ce17cd1e"
+    }
+  ]
+}

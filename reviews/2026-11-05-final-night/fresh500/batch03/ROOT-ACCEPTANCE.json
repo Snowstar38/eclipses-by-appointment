@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "manifest_file": "BATCH-SEAL.json",
+  "manifest_sha256": "77b6d4fc311ad3efd60d677283fa32941a7268896a496ff93d923ec3480e45af",
+  "targets": 8,
+  "physical_decisions": {
+    "382672776": "CONFIRMED",
+    "398556213": "PLAUSIBLE",
+    "399027834": "CONFIRMED",
+    "430689383": "PLAUSIBLE",
+    "433082845": "PLAUSIBLE",
+    "451669009": "CONFIRMED",
+    "1511057635": "PLAUSIBLE",
+    "12878982": "PLAUSIBLE"
+  },
+  "accepted_claim_tics": [
+    "382672776",
+    "399027834",
+    "451669009"
+  ],
+  "known_tics": [],
+  "catalogue_directory": "fresh500/shared-catalogues",
+  "method": "faint_band",
+  "population": "Gaia spectroscopic binaries G11.5-12 P20-60d; frozen extra500-target sample",
+  "review": "Root read lead/helper final audits, exact rows, source adjudication and deciding reports. E019 repeated target eclipses spatially distinguish the known EB2.55pixels away. E021/E025 close capable neighbors were investigated using Gaussian+plane deficit fits and temporal resampling, favoring target by0.036 versus0.669/0.490pixels; this is bounded spatial discrimination, not brightness-only exclusion or a calibrated PRF/WCS posterior. Their repeat clocks and Gaia checks support confirmed, retaining E0212.5sigma tension within3sigma. Five others remain plausible: aliases unresolved, E023 published RV rejection respected, E027 newS107 repeat does not resolve integer cycles and invalidS3 is not a null. Final numeric/source hashes independently verified. Cross-batch epoch-unwrapping correction retained under geometry-corrections; no prior tier changed."
+}

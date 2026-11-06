@@ -1,0 +1,64 @@
+{
+  "seven_source_scope": "VSX,SIMBAD primary,GaiaDR3 EB,Prsa,IJspeert,Kostov vetted3/4,ASAS-SN",
+  "target_receipt": {
+    "tic": "12319637",
+    "label": "E001",
+    "scope": "pending",
+    "ra": 32.8039743920073,
+    "dec": 63.5327077794623,
+    "catalogues": {
+      "vsx": {
+        "status": "success",
+        "matches": [
+          {
+            "_r": "55.94",
+            "OID": "2786846",
+            "Name": "Gaia DR3 514772003900116992",
+            "V": "0",
+            "RAJ2000": "32.79361",
+            "DEJ2000": "63.51787",
+            "Type": "E",
+            "l_max": "",
+            "max": "12.650",
+            "u_max": "",
+            "n_max": "G",
+            "f_min": "",
+            "l_min": "",
+            "min": "12.710",
+            "u_min": "",
+            "n_min": "G",
+            "l_Period": "",
+            "Period": "1.766840000000",
+            "u_Period": "",
+            "Sp": "B"
+          }
+        ],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\vsx-12319637.tsv"
+      },
+      "asassn": {
+        "status": "success",
+        "matches": [],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\asassn-12319637.tsv"
+      },
+      "table3": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d"
+      },
+      "table4": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677"
+      }
+    }
+  },
+  "local_tables": {
+    "tic": "12319637",
+    "scope": "pending",
+    "label": "E001",
+    "prsa": [],
+    "ijspeert": []
+  },
+  "shared_root_seal": "../shared-catalogues/ROOT-CATALOGUE-SEAL.json",
+  "novelty_adjudication": "VSX EB55.94arcsec has P1.76684d, distinct from25.0127d target clock and centered deficit; not prior target EB."
+}

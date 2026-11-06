@@ -1,0 +1,16 @@
+[
+  {
+    "tic": "147413927",
+    "query": "SELECT source_id,ra,dec,phot_g_mean_mag,DISTANCE(POINT('ICRS',ra,dec),POINT('ICRS',163.21764583099278,-47.70130734349548))*3600 AS sep_arcsec FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',163.21764583099278,-47.70130734349548,0.0333333333)) ORDER BY sep_arcsec",
+    "status": 200,
+    "sha256": "fdbb7129b19a02eb121a5f3dded92b4e965a300754cb1c8bdcead2944965a670",
+    "rows": 175
+  },
+  {
+    "tic": "265066551",
+    "query": "SELECT source_id,ra,dec,phot_g_mean_mag,DISTANCE(POINT('ICRS',ra,dec),POINT('ICRS',347.36321314194146,68.42988151080459))*3600 AS sep_arcsec FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',347.36321314194146,68.42988151080459,0.0333333333)) ORDER BY sep_arcsec",
+    "status": 200,
+    "sha256": "c36f743c34a851bbe532d209c4146b8366c4aec5d2be30311a22a45a1c06dc28",
+    "rows": 134
+  }
+]

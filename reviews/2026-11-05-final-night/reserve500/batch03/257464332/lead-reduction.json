@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "sector": 94,
+      "center_btjd": 3874.921272755963,
+      "duration_d": 2.419344555502274,
+      "source_sha256": "f9123d7d4b026693860e989460ca997c5fe085b623d3896f52067882ef4e3386",
+      "kind": "candidate",
+      "reductions": {
+        "SAP_FLUX": {
+          "depth_ppt": 5.1578300708555735,
+          "side_rms_ppt": 1.3302267953991476,
+          "n_core": 131,
+          "n_left": 832,
+          "n_right": 836
+        }
+      }
+    },
+    {
+      "sector": 94,
+      "center_btjd": 3856.8556038993675,
+      "duration_d": 0.3201566962857005,
+      "source_sha256": "f9123d7d4b026693860e989460ca997c5fe085b623d3896f52067882ef4e3386",
+      "kind": "candidate",
+      "reductions": {
+        "SAP_FLUX": {
+          "status": "insufficient"
+        }
+      }
+    }
+  ],
+  "note": "KSPSAP and SAP use same QLP photons; no independent observation or independent aperture asserted. Local linear sideband interpolation."
+}

@@ -1,0 +1,30 @@
+{
+  "accepted": true,
+  "manifest_file": "BATCH-SEAL.json",
+  "manifest_sha256": "af983708e13beef0c1190dd47bf0706be89844f3f58476ca2bec3971ce618891",
+  "targets": 8,
+  "physical_decisions": {
+    "353624054": "REFUTED",
+    "355095704": "CONFIRMED",
+    "357128110": "CONFIRMED",
+    "371308305": "REFUTED",
+    "381290484": "CONFIRMED",
+    "418062110": "PROBABLE",
+    "437230472": "PLAUSIBLE",
+    "442807330": "PROBABLE"
+  },
+  "accepted_claim_tics": [
+    "355095704",
+    "357128110",
+    "381290484",
+    "418062110"
+  ],
+  "known_tics": [],
+  "held_tics": [
+    "442807330"
+  ],
+  "catalogue_directory": "fresh1000/second/shared-catalogues",
+  "method": "faint_band",
+  "population": "Gaia spectroscopic binaries G11.5-12 P20-60d; frozen next1000-target sample",
+  "review": "Root read both audits and all exact rows. Three confirmed have coherent same-kind recurrence, localized source, alias checks and Gaia-compatible geometry. Z122 secondary clock and covered half-period nulls resolve primary sparse aliases. Root required Z123 downgrade to probable because3.71sigma Gaia period tension remains unresolved; lead concurred and resealed. Z126 real eclipses remain probable with mandatory4.927arcsec known-EB ownership hold, not counted. Z125 two clear losses leave many integer aliases and remain plausible. Z118/Z121 positive off-target deficits refute selected targets without substitute discovery. Original alternate schema normalized for publication without changing measurements. Hash and spatial checks remain required."
+}

@@ -1,0 +1,17 @@
+# Lead audit: fresh second / batch04
+
+Exact six frozen rows Z127-Z132 completed without substitution. Final outcomes: one C (Z128), one P (Z130), four PLAUSIBLE (Z127, Z129, Z131, Z132). Completion is COMPLETE_BOUNDED independently of physical tier. No ledger or public edits.
+
+The lead read candidate-review-delegation.txt and the current canonical sec_methods.html, personally inspected all six local raw-SAP context panels and all supplied full-sector plots, checked current sector availability, source identity/header hashes, representative event timings, same-kind aliases, conditional coverage, QLP reduction sensitivity and source-specific Gaia geometry. The helper independently audited deciding raw events and small TESScut extractions, background-aware localization, Gaia neighbors and window sensitivity. Validated existing source receipts were reused. This is a bounded representative review, not an exhaustive all-event/all-sector fit or an independent-code replication.
+
+Z128 has four matching raw events, a measured 39.976960789 d clock (cycles 0,27,45,46), independent custom aperture recovery and stable target-centered deficit distinguished from the capable neighbor. Z130 has two same-sector matching events, one partial, with an approximate 21.179806086 d interval; first-event lack of prebaseline prevents precision timing. Custom aperture confirms both troughs, but close Gaia blending leaves ownership uncertain, so P. Heuristic period allowances are explicitly not calibrated errors.
+
+Z127 has two real-looking events but many surviving integer aliases, and Gaia association is disfavored. It remains plausible despite a tested provisional alias. Z129, Z131 and Z132 retain only one demonstrated credible event. No missing/flagged/noisy window is treated as a null. Z132's newly available S19 was tested with a small cutout; no stellar PSF and near-zero negative median pixels make normalized aperture photometry invalid. That completed attempt is unavailable/noise-limited, not a refutation of the S73 event. The illustrative normalized S19 plot is explicitly invalid for physical interpretation.
+
+Alias audit requires timing compatibility within 0.04 d and sufficient core/sideband coverage before a clean null. Binned-scatter thresholds, underlying native scatter, ambiguous windows, masks and source hashes are preserved. Z128's shorter divisors fail real covered nulls; only its measured family survives timing and clean-null tests in the bounded integer scan. Z127 retains many aliases, including longer ones; no unique period is adopted.
+
+Gaia uses source-specific SB1 covariance with correctly indexed lower triangle P,gamma,K,e,omega,Tp. A nonlinear 100000-draw sensitivity check (seed 50701) retains physical P/e draws and aligns conjunction branches. Gaia consistency is model compatibility and does not prove the eclipse host. Alternative pipelines/custom apertures use the same TESS photons.
+
+Catalogue novelty is separate: root-owned sealed second/shared-catalogues receipts are reused with hashes; no exact prior EB identity is assigned to these six in that scope. Successful nonmatches are bounded by their searches; failures remain unknown. The four plausible rows are excluded from claims. C/P physical outcomes still require root acceptance before integration.
+
+Optional contributor note: Ambiguous aliases, incomplete event timing and unavailable old-sector data remain explicit scientific outcomes.

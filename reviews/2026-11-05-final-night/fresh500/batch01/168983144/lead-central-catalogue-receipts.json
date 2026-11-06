@@ -1,0 +1,41 @@
+{
+  "seven_source_scope": "VSX,SIMBAD primary,GaiaDR3 EB,Prsa,IJspeert,Kostov vetted3/4,ASAS-SN",
+  "target_receipt": {
+    "tic": "168983144",
+    "label": "E009",
+    "scope": "pending",
+    "ra": 126.295751795197,
+    "dec": -2.72144140987519,
+    "catalogues": {
+      "vsx": {
+        "status": "success",
+        "matches": [],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\vsx-168983144.tsv"
+      },
+      "asassn": {
+        "status": "success",
+        "matches": [],
+        "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh500\\shared-catalogues\\cones\\asassn-168983144.tsv"
+      },
+      "table3": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d"
+      },
+      "table4": {
+        "status": "success",
+        "matches": [],
+        "bulk_sha256": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677"
+      }
+    }
+  },
+  "local_tables": {
+    "tic": "168983144",
+    "scope": "pending",
+    "label": "E009",
+    "prsa": [],
+    "ijspeert": []
+  },
+  "shared_root_seal": "../shared-catalogues/ROOT-CATALOGUE-SEAL.json",
+  "novelty_adjudication": "No target prior EB found in shared scoped checks."
+}

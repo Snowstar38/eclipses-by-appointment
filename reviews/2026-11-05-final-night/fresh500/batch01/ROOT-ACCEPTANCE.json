@@ -1,0 +1,27 @@
+{
+  "accepted": true,
+  "manifest_file": "BATCH-SEAL.json",
+  "manifest_sha256": "e3ba9d856415f0b5cf72db9e18d4a42b4e2df2607dba858b82b75f175d08b2de",
+  "targets": 7,
+  "physical_decisions": {
+    "12319637": "CONFIRMED",
+    "55662895": "CONFIRMED",
+    "141428309": "CONFIRMED",
+    "144157102": "PLAUSIBLE",
+    "149477061": "PLAUSIBLE",
+    "149847663": "PROBABLE",
+    "168983144": "CONFIRMED"
+  },
+  "accepted_claim_tics": [
+    "12319637",
+    "55662895",
+    "141428309",
+    "149847663",
+    "168983144"
+  ],
+  "known_tics": [],
+  "catalogue_directory": "fresh500/shared-catalogues",
+  "method": "faint_band",
+  "population": "Gaia spectroscopic binaries G11.5-12 P20-60d; frozen extra500-target sample",
+  "review": "Root read independent audit, lead notes, exact rows and all deciding report summaries. Four confirmed satisfy bounded recurrence/source/Gaia checks: E004 broad timings use explicit heuristic allowance and spatially exclude bright neighbor; E005 separate primary and secondary clocks eliminate aliases; E009 eclipse timing retains photometric integer ambiguity, with source-specific Gaia spectroscopy and conjunction geometry selecting35.6411d, explicitly not photometric uniqueness. E001 nearby knownEB has different clock and displaced position. E008 nonlinear Gaia primary tension retains probable. E006 unusable gap-cut timing and many aliases, E007 singleton remain plausible. Exact seven rows, no substitution. Alternate result schema normalized preserving source receipts; integration checks manifest and spatial uniqueness."
+}

@@ -1,0 +1,34 @@
+{
+  "gaia_eb": {
+    "url": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+    "query": "SELECT * FROM gaiadr3.vari_eclipsing_binary WHERE source_id IN (5800475623873553024,3940600303300942592,5619683923342333440,3925963363993879552,2136228982558752768,4513913222577935872,1975255807333826432,2201238397831169280,4876816415491696512)",
+    "utc": "2026-11-06T02:59:58.844978+00:00",
+    "status": "success",
+    "rows": 0,
+    "sha256": "932a90fda674128d3814dfddb176671109df0307594f6929593a8a43d0863bc4"
+  },
+  "gaia_summary": {
+    "url": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+    "query": "SELECT * FROM gaiadr3.vari_summary WHERE source_id IN (5800475623873553024,3940600303300942592,5619683923342333440,3925963363993879552,2136228982558752768,4513913222577935872,1975255807333826432,2201238397831169280,4876816415491696512)",
+    "utc": "2026-11-06T02:59:58.845459+00:00",
+    "status": "success",
+    "rows": 0,
+    "sha256": "25f2c5e1a5fed75a9bbf54427a420a432d3fb087c5d7c724fa27dbc4983545e8"
+  },
+  "gaia_nss": {
+    "url": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+    "query": "SELECT * FROM gaiadr3.nss_two_body_orbit WHERE source_id IN (5800475623873553024,3940600303300942592,5619683923342333440,3925963363993879552,2136228982558752768,4513913222577935872,1975255807333826432,2201238397831169280,4876816415491696512)",
+    "utc": "2026-11-06T02:59:58.845779+00:00",
+    "status": "success",
+    "rows": 9,
+    "sha256": "03262a524d891e58be8a641768eb8edb7dc4742944d2aa88aefdc8b52a035bda"
+  },
+  "simbad": {
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "query": "SELECT ident.id,basic.main_id,basic.otype,basic.ra,basic.dec FROM ident JOIN basic ON ident.oidref=basic.oid WHERE ident.id IN ('Gaia DR3 5800475623873553024','Gaia DR3 3940600303300942592','Gaia DR3 5619683923342333440','Gaia DR3 3925963363993879552','Gaia DR3 2136228982558752768','Gaia DR3 4513913222577935872','Gaia DR3 1975255807333826432','Gaia DR3 2201238397831169280','Gaia DR3 4876816415491696512')",
+    "utc": "2026-11-06T02:59:58.846080+00:00",
+    "status": "success",
+    "rows": 9,
+    "sha256": "a08ed271cd778230711eff5b106158d3f1440f442282caa2eac9b8fb2e0525a5"
+  }
+}

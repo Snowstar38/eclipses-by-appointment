@@ -1,0 +1,31 @@
+{
+  "request_url": "https://gaia.ari.uni-heidelberg.de/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2CDISTANCE%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CPOINT%28%27ICRS%27%2C272.424834883%2C12.0147158645%29%29%2A3600+AS+sep+FROM+gaiadr3.gaia_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C272.424834883%2C12.0147158645%2C0.0166667%29%29",
+  "response_sha256": "bcb25a65964796b667694dc841b6a9a15f62d6eac02dd27248b94d5f29534ea2",
+  "target_G": 11.718269,
+  "target_gaia": "4495351743976888192",
+  "neighbors_sorted": [
+    {
+      "source_id": "4495351748277122432",
+      "sep_arcsec": 25.07334887078675,
+      "G": 12.523268,
+      "relative_G_flux": 0.47643142561477275,
+      "idealized_required_intrinsic_loss": 0.1434487962504703,
+      "wcs_xy": [
+        2.3017462012878456,
+        4.555198567463717
+      ]
+    },
+    {
+      "source_id": "4495351679557640064",
+      "sep_arcsec": 24.46108831862388,
+      "G": 15.361407,
+      "relative_G_flux": 0.03489352140123881,
+      "idealized_required_intrinsic_loss": 1.372887326366132,
+      "wcs_xy": [
+        3.1422016851645873,
+        2.4875251867023893
+      ]
+    }
+  ],
+  "note": "Idealized required intrinsic loss uses Gaia G flux ratio and observed aperture loss assuming target and neighbor fully captured and no other flux. Approximate only: Gaia G differs from TESS band, aperture throughput and additional stars change budget. Missing Gaia sources or unresolved companions not excluded."
+}

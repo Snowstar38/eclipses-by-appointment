@@ -1,0 +1,55 @@
+{
+  "exact_queue": true,
+  "n": 7,
+  "tiers": {
+    "CONFIRMED": 4,
+    "PLAUSIBLE": 2,
+    "PROBABLE": 1
+  },
+  "results_sha256": "bc873734204c7e5e4323e7e6479db6b3b50593a79761c9660aebf30f37b61c93",
+  "clocks_sha256": "5e371f99362859ad7fd7da5c0c902127b0096c187599830c1e3dac1f427e3f55",
+  "checks": [
+    {
+      "tic": "12319637",
+      "tier": "CONFIRMED",
+      "report_sha256": "5b3190d189f130948a77aa49f6aaec289946ef2317d4132e6d7d4b8115649907",
+      "clock_matches": true
+    },
+    {
+      "tic": "55662895",
+      "tier": "CONFIRMED",
+      "report_sha256": "f0851e6b4c80904b8b066d77d505e735a4eaf561e1621c1c437596736a5d1331",
+      "clock_matches": true
+    },
+    {
+      "tic": "141428309",
+      "tier": "CONFIRMED",
+      "report_sha256": "7167d3f6723ad3f1bf70b831f3e4ec74e91820e14f7bd53c1a8e14d14ebd2659",
+      "clock_matches": true
+    },
+    {
+      "tic": "144157102",
+      "tier": "PLAUSIBLE",
+      "report_sha256": "388a1f8c486a2ffa15d84d25747a8f5f1e751ae863c6a2c66d83b54e5e01c444",
+      "clock_matches": "blank by unresolved clock"
+    },
+    {
+      "tic": "149477061",
+      "tier": "PLAUSIBLE",
+      "report_sha256": "fe6461a7761c9d1c34717eed4ac8fb34afd6ab133167996992f34c89ed91ee00",
+      "clock_matches": "blank by unresolved clock"
+    },
+    {
+      "tic": "149847663",
+      "tier": "PROBABLE",
+      "report_sha256": "852629891228e382d8ba32071a520a2e48c18bc9e025cf0d2061deb80464cf98",
+      "clock_matches": true
+    },
+    {
+      "tic": "168983144",
+      "tier": "CONFIRMED",
+      "report_sha256": "8c5bb30a1aa4691ff6c822b0a9b4e8e02ee1f56ef52e203f88bda9d0d0f271ff",
+      "clock_matches": true
+    }
+  ]
+}

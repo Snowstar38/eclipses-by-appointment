@@ -1,0 +1,11 @@
+# Independent helper audit record
+
+This prose record is written by the Sol lead from the fresh Terra helper's delivered findings. The underlying audit scripts, numeric JSON, plots and final hash receipt were written by the helper. No new helper analysis is implied by this summary.
+
+The helper independently inspected raw full-sector contexts and deciding pixels. E029 S6 was compact near the target; the newly available S107 predicted event at BTJD 4275.58 was a convincing bounded approximately 7-8 ppt eclipse, distinct from the broad spacecraft bowl. Independent local linear detrending of S108 gave an 8.57 ppt dip. Difference peaks were the target pixels in both detector orientations. Because two nearby G14.61/G14.72 stars could in principle supply blended deficits, the helper performed per-pixel trend removal and bounded Gaussian-plus-plane image fits with 200 independently resampled core/side-frame sets for each later sector. All 200 bootstrap fits in each sector were closer to the target than either capable neighbor. Model and uncalibrated-astrometry limits remain; this does not exclude unresolved companions.
+
+E034 S93 showed a compact target-centered deficit and a flat-bottom eclipse. The helper found the clock arithmetic and explicit joint-Gaia alias caveats consistent. E031 S11 was a real bounded event; the gap-cut later event remains without a usable midpoint. E032's image clearly favored the northern deficit and exact neighbor adjudication. E028 has no secure discrete event above sparse noise; E033's selected interpretation is smooth broad variability rather than a demonstrated compact eclipse.
+
+The helper independently confirmed E029 S87 and E031 S65/S102 have near-zero featureless images with no target PSF, despite many quality-zero samples. They are unavailable evidence, not nulls. See audit-unusable-images.json.
+
+The helper final hash receipt verifies all 22 cached QLP FITS and six extra FITS against recorded SHA256, and freezes 20 deciding artifacts including all six reports, RESULTS, clocks, aliases and geometry. Its final message explicitly stated no further edits. Follow-up for a prose note could not restart because the team was at its agent-thread limit, so this attributed lead transcript summary preserves the already completed helper findings. No frozen artifact was altered after the helper freeze.

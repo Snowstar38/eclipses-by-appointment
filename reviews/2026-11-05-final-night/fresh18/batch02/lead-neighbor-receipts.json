@@ -1,0 +1,54 @@
+[
+  {
+    "tic": "159860053",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='gea.esac.esa.int', port=443): Read timed out. (read timeout=40)",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',325.60041951055,-36.4207445949676,0.05))"
+  },
+  {
+    "tic": "162437782",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='gea.esac.esa.int', port=443): Read timed out. (read timeout=40)",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',169.753253424321,-46.1206890260788,0.05))"
+  },
+  {
+    "tic": "167461087",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',319.34950113055,41.7842112691442,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "73346cc0375a8f519273fcbd2be5cafe0865234c3fc6310ff335bb8853860d85",
+    "n": 1374
+  },
+  {
+    "tic": "277772867",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',343.472866102295,-68.0948576599877,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "71edb14799d81f80dde54d74adb2043188574ad8c367d899c8a605307ffdf72b",
+    "n": 61
+  },
+  {
+    "tic": "332686088",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',20.9293545196152,54.46469854753,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "973cb43a81908ea9fbc99e1d5bf1759acb1e84e598e8ce8753f3d4a5f206cbbf",
+    "n": 249
+  },
+  {
+    "tic": "436205524",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',306.598115295394,25.137166477941,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "c74db3d1ba45a45fe168e372a5c2d7c5642413156406fe9fa18e55a5d7ee2f87",
+    "n": 983
+  },
+  {
+    "tic": "440995465",
+    "status": "success",
+    "query": "select source_id,ra,dec,phot_g_mean_mag from gaiadr3.gaia_source where 1=contains(point('ICRS',ra,dec),circle('ICRS',197.164761483304,-60.9067056069139,0.05))",
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "sha256": "4d46afac91448453634bc3f899c4ed3915f4d1d2e45e0e2f553215bb2ce88465",
+    "n": 1801
+  }
+]

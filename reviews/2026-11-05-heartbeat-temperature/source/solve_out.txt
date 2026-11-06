@@ -1,0 +1,38 @@
+table rows used: 31, Teff 5550..10700
+
+observed colors:
+  BP-RP  +0.607 +- 0.020   reddening slope 1.280/E(B-V)
+  G-Ks   +1.044 +- 0.030   reddening slope 2.204/E(B-V)
+  V-Ks   +1.203 +- 0.043   reddening slope 2.858/E(B-V)
+  J-Ks   +0.199 +- 0.038   reddening slope 0.511/E(B-V)
+
+[free fit] best: Teff 7025 K, E(B-V) 0.135, chi2 0.78 (4 colors, 2 params)
+  Teff 1-sig [6700, 7675]  2-sig [6375, 8200];  E(B-V) 1-sig [0.065, 0.238]
+    BP-RP  obs +0.607  model +0.605  pull +0.1
+    G-Ks   obs +1.044  model +1.045  pull -0.0
+    V-Ks   obs +1.203  model +1.203  pull +0.0
+    J-Ks   obs +0.199  model +0.232  pull -0.9
+
+[E pinned to Schlegel 0.555] best: Teff 10700 K, E(B-V) 0.555, chi2 45.16 (4 colors, 2 params)
+  Teff 1-sig [10700, 16000]  2-sig [10675, 16000];  E(B-V) 1-sig [0.555, 0.555]
+    BP-RP  obs +0.607  model +0.591  pull +0.8
+    G-Ks   obs +1.044  model +1.120  pull -2.5
+    V-Ks   obs +1.203  model +1.465  pull -6.0
+    J-Ks   obs +0.199  model +0.250  pull -1.3
+[control inject T=9000 E=0.400] recovered T=9000 E=0.400 chi2min=0.0000
+[control inject T=12000 E=0.555] recovered T=10700 E=0.555 chi2min=0.0000
+[control inject T=7500 E=0.250] recovered T=7500 E=0.250 chi2min=0.0000
+
+distance 1431 pc (DR3 plx), mu = 10.779
+Teff    E(fit BP-RP)  A_G    M_G    BC_G    L/Lsun   R/Rsun   [E needed for R=5.0]
+ 7000   0.131        0.320  +1.008  +0.075     29.0    3.66   [0.407]
+ 7500   0.222        0.543  +0.786  +0.075     35.6    3.54   [0.529]
+ 8000   0.311        0.761  +0.567  +0.033     45.3    3.50   [0.627]
+ 8500   0.376        0.919  +0.409  -0.021     55.1    3.42   [0.712]
+ 9000   0.441        1.078  +0.250  -0.095     68.3    3.40   [0.784]
+ 9500   0.487        1.191  +0.137  -0.180     81.9    3.34   [0.845]
+10000   0.520        1.272  +0.056  -0.286     97.3    3.29   [0.893]
+11000   0.568        1.389  -0.061  -0.435    124.3    3.07   [1.001]
+12000   0.568        1.389  -0.061  -0.435    124.3    2.58   [1.156]
+
+joint best fit: Teff 7025, E 0.135 -> A_G 0.330, M_G +0.998, L 29.3 Lsun, R 3.65 Rsun

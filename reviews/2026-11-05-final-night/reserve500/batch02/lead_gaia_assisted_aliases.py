@@ -1,0 +1,15 @@
+import json,csv,math,numpy as np
+from pathlib import Path
+b=Path(__file__).resolve().parent
+cl=json.loads((b/'lead-clocks.json').read_text());gg=json.loads((b/'lead-gaia-covariance.json').read_text());nss={r['source_id']:r for r in csv.DictReader((b.parent/'shared-catalogues/gaia_nss-pending.csv').open())};q={r['tic']:r for r in csv.DictReader((b/'queue.csv').open())};out={}
+for tic in ('175736093','298976044'):
+ c=cl[tic];g=gg[tic];dt=max(c['times'])-min(c['times']);pg=g['gaia_period_d'];pe=g['gaia_period_error_d'];N=c['cycles'][-1];timing=c['formal_period_error_d']*N
+ # All positive same-kind integer cycle counts: only the interval below can meet the 3sigma Gaia period range.
+ low=math.ceil((dt-3*timing)/(pg+3*pe));high=math.floor((dt+3*timing)/(pg-3*pe));poss=list(range(low,high+1));neighbors=[]
+ for n in (N-1,N,N+1):neighbors.append({'cycles':n,'period_d':dt/n,'gaia_period_difference_sigma':(dt/n-pg)/pe})
+ r=nss[q[tic]['gaia_dr3']];v=np.array([float(r[x]) for x in ('period','eccentricity','arg_periastron','t_periastron')]);s=np.array([float(r[x+'_error']) for x in ('period','eccentricity','arg_periastron','t_periastron')]);co=np.eye(6);i,j=np.tril_indices(6,-1);co[i,j]=[float(x) for x in r['corr_vec'].strip('{}').split(',')];co[j,i]=co[i,j];co=co[np.ix_([0,3,4,5],[0,3,4,5])];C=s[:,None]*co*s[None,:]
+ # Analytic Gaussian conditioning on the observed two-event period, preserving P-e-omega-Tp covariance.
+ obsP=dt/N;ep=timing/N;var=C[0,0]+ep**2;mean=v+C[:,0]*(obsP-v[0])/var;cov=C-np.outer(C[:,0],C[0,:])/var;rng=np.random.default_rng(50703);draw=rng.multivariate_normal(mean,cov,200000);draw=draw[(draw[:,1]>=0)&(draw[:,1]<1)&(draw[:,0]>0)];k=0 if tic=='175736093' else 1;nu=(np.pi/2 if k==0 else 3*np.pi/2)-np.radians(draw[:,2]);E=2*np.arctan2(np.sqrt(1-draw[:,1])*np.sin(nu/2),np.sqrt(1+draw[:,1])*np.cos(nu/2));base=389+draw[:,3]+np.mod(E-draw[:,1]*np.sin(E),2*np.pi)*draw[:,0]/(2*np.pi)
+ vn=(np.pi/2 if k==0 else 3*np.pi/2)-np.radians(v[2]);en=2*np.arctan2(np.sqrt(1-v[1])*np.sin(vn/2),np.sqrt(1+v[1])*np.cos(vn/2));nom=389+v[3]+np.mod(en-v[1]*np.sin(en),2*np.pi)*v[0]/(2*np.pi);base+=np.round((nom-base)/draw[:,0])*draw[:,0];cyc=round((c['times'][0]-nom)/v[0]);res=c['times'][0]-(base+cyc*draw[:,0]);out[tic]={'gaia_assisted':True,'dt_d':dt,'all_positive_integer_3sigma_compatible_cycle_counts':poss,'nearest_alternatives':neighbors,'same_conjunction_kind':k,'conditioned_epoch_residual_quantiles_d':np.quantile(res,[.00135,.025,.5,.975,.99865]).tolist(),'conditioned_two_sided_tail':float(2*min(np.mean(res<0),np.mean(res>0))),'draw_valid':len(draw),'seed':50703,'note':'Integer exclusion is analytic over every positive integer N under the same-kind source-orbit hypothesis. This uses the Gaia period and covariance; it is not an independent photometric alias resolution or independent Gaia confirmation. Raw coverage aliases remain in the separate audit. Timing allowance from the two-event WLS period error times N, retaining individual cadence/2 or .003d floors.'};assert poss==[N]
+(b/'lead-gaia-assisted-aliases.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=2))
+

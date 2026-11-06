@@ -1,0 +1,120 @@
+{
+  "query": "SELECT source_id,ra,dec,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',204.499703492522,63.2893949917715,0.035))",
+  "endpoint": "https://gaia.ari.uni-heidelberg.de/tap/sync",
+  "sha256": "3033a1c100a424ede6555b6deb142ec04460e46ed2bfdbf9055058803f9a7872",
+  "neighbors": [
+    {
+      "source_id": "1665387248495634432",
+      "ra": "204.4441970359553",
+      "dec": "63.272558758915785",
+      "phot_g_mean_mag": "14.177509",
+      "separation_arcsec": 108.35494543502703,
+      "relative_G_flux": 0.10060676858349606
+    },
+    {
+      "source_id": "1665388554166100736",
+      "ra": "204.48653568037668",
+      "dec": "63.2876523268367",
+      "phot_g_mean_mag": "21.384045",
+      "separation_arcsec": 22.211793441230633,
+      "relative_G_flux": 0.0001318295592227403
+    },
+    {
+      "source_id": "1665388584229668224",
+      "ra": "204.49970713788076",
+      "dec": "63.28933106786687",
+      "phot_g_mean_mag": "11.684077",
+      "separation_arcsec": 0.23020164376455637,
+      "relative_G_flux": 1.0
+    },
+    {
+      "source_id": "1665388760324122752",
+      "ra": "204.46226064275086",
+      "dec": "63.28652092362424",
+      "phot_g_mean_mag": "16.96159",
+      "separation_arcsec": 61.46501327240864,
+      "relative_G_flux": 0.0077445252488424045
+    },
+    {
+      "source_id": "1665388824747937280",
+      "ra": "204.43686060389854",
+      "dec": "63.30684554656216",
+      "phot_g_mean_mag": "20.408108",
+      "separation_arcsec": 119.52915829944888,
+      "relative_G_flux": 0.0003238825873513616
+    },
+    {
+      "source_id": "1665387003681797120",
+      "ra": "204.506200438805",
+      "dec": "63.25616485545667",
+      "phot_g_mean_mag": "19.860163",
+      "separation_arcsec": 120.08954493921196,
+      "relative_G_flux": 0.0005364949026511215
+    },
+    {
+      "source_id": "1665387042337203456",
+      "ra": "204.46299788938543",
+      "dec": "63.26062915001402",
+      "phot_g_mean_mag": "19.92907",
+      "separation_arcsec": 119.38097529985326,
+      "relative_G_flux": 0.0005035038549867587
+    },
+    {
+      "source_id": "1665388652949246208",
+      "ra": "204.53693556957163",
+      "dec": "63.304105100022035",
+      "phot_g_mean_mag": "18.040907",
+      "separation_arcsec": 80.21260517604723,
+      "relative_G_flux": 0.0028659459789805585
+    },
+    {
+      "source_id": "1665388657244908160",
+      "ra": "204.53094678719094",
+      "dec": "63.3055883506246",
+      "phot_g_mean_mag": "14.9789715",
+      "separation_arcsec": 77.1644834350002,
+      "relative_G_flux": 0.048088607344217375
+    },
+    {
+      "source_id": "1665388687309122304",
+      "ra": "204.5192122006188",
+      "dec": "63.30771671501539",
+      "phot_g_mean_mag": "19.748117",
+      "separation_arcsec": 73.12329618641685,
+      "relative_G_flux": 0.0005948178597657556
+    },
+    {
+      "source_id": "1665388691604646656",
+      "ra": "204.48610854731882",
+      "dec": "63.30877874705433",
+      "phot_g_mean_mag": "17.493795",
+      "separation_arcsec": 73.1669164674604,
+      "relative_G_flux": 0.0047436517688683455
+    },
+    {
+      "source_id": "1665388790388199168",
+      "ra": "204.47108105139745",
+      "dec": "63.30556729118077",
+      "phot_g_mean_mag": "21.628363",
+      "separation_arcsec": 74.39556763285314,
+      "relative_G_flux": 0.00010526538907215933
+    },
+    {
+      "source_id": "1665388790388201088",
+      "ra": "204.45426734322857",
+      "dec": "63.31166896668461",
+      "phot_g_mean_mag": "21.665943",
+      "separation_arcsec": 108.79044338210664,
+      "relative_G_flux": 0.00010168422899345243
+    },
+    {
+      "source_id": "1665388790388201216",
+      "ra": "204.4493412794974",
+      "dec": "63.310882657464084",
+      "phot_g_mean_mag": "19.59469",
+      "separation_arcsec": 112.36122760321513,
+      "relative_G_flux": 0.0006851013132403034
+    }
+  ],
+  "note": "G-band brightness ratios are contextual, not direct comparisons of intrinsic neighbor depth to diluted pixel loss."
+}

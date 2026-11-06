@@ -1,155 +1,14 @@
 {
-  "description": "Current 921-system map: reconciled 913-system baseline plus eight accepted period-free dip systems. Coordinates use exact target identities; probable unresolved blends remain explicitly qualified.",
+  "description": "Current 1031-system accepted map; exact TIC identities, with probable source/geometry limitations retained in reports.",
   "inputs": {
-    "objects.csv": {
-      "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
-    },
     "scientific-review-register.csv": {
-      "sha256": "57bc081467bdc9927bf4424ceb622a2cd7a870171faa2161a4551df539fb38ca"
+      "sha256": "85e56141f5ca29cfb0442bd6b2b40705f906d37c503303d016270c7133b484ac"
     },
-    "target-metadata-01.json": {
-      "sha256": "0702b3c81ceafa50cf44de10747ee1560a4500df6e644e6c4f19527ec1cb51d8"
+    "overview/systems.csv": {
+      "sha256": "9d8fc628286780ca52d9be94e3cb2235858b20cc12447f465f6f06e81a25dc78"
     },
-    "target-metadata-02.json": {
-      "sha256": "af2ae8bc43993af990cdb88e1a43c5e1a7efcfc45d94f6776464bc540b4518d2"
-    },
-    "target-metadata-03.json": {
-      "sha256": "9c43d9e0d94a41defe0fee22b8fe70d15eed68a65b57e750faf5925e94861e55"
-    },
-    "target-metadata-04.json": {
-      "sha256": "b3bd851cbf1650ea743464b7ce82fb55992fb495e824470004b2fb292c1a3b53"
-    },
-    "target-metadata-05.json": {
-      "sha256": "d6f9b26be67cb9aae5f223770294a380aa6d8360920acfbea1ef5f411c56bd7e"
-    },
-    "target-metadata-06.json": {
-      "sha256": "221b42ac596bb08d0624d9b84d1e424c5ed1aa74dcaa87c8557a7bc2fd5f428e"
-    },
-    "target-metadata-07.json": {
-      "sha256": "d3ac6fda82c11d85734eb56e1d71d0ad4b92248407ac875622837640fb2023f9"
-    },
-    "target-metadata-08.json": {
-      "sha256": "63aa70dc71b0b95cf1fb4ced53a70426913e57488fc50b42cc5276e0163346b8"
-    },
-    "target-metadata-09.json": {
-      "sha256": "f35eaea58a20c02ad6a9aa9d6c4e2c2401dbdec7330735485af6137f4716c065"
-    },
-    "target-metadata-10.json": {
-      "sha256": "af2adc10190b75df0ad98aa798adb1a093259d2d17cd8c7f4c24d97141ee3244"
-    },
-    "target-metadata-11.json": {
-      "sha256": "4d81b78e3002d6eacbe10109480810f17355d0d053f1417b7a88e00451549ce0"
-    },
-    "target-metadata-12.json": {
-      "sha256": "4a1f2bec0f7c59caa1fad74f07d8dd2a4d993fa04e5cfb1e1428c8340cf66641"
-    },
-    "target-metadata-13.json": {
-      "sha256": "7d6b6a0ecc7b101f01e6848a86742c544239c782b89d38fe3ae802ae7318ab06"
-    },
-    "target-metadata-14.json": {
-      "sha256": "a643475e858828a1ace2efc84fb69d5650facc4a3bbbce0c26f4ebd1906ff868"
-    },
-    "target-metadata-15.json": {
-      "sha256": "3648c3cbcec9858632711a47534d060e42c4d12a3b136a3b7276ef1e12e871f2"
-    },
-    "target-metadata-16.json": {
-      "sha256": "9bbe8c61bc0653e54aae2e7d34c12efab4bdf02adf81db5ccbe8d4ee58b46384"
-    },
-    "target-metadata-17.json": {
-      "sha256": "9bbe8c61bc0653e54aae2e7d34c12efab4bdf02adf81db5ccbe8d4ee58b46384"
-    },
-    "target-metadata-18.json": {
-      "sha256": "0a504c2174212a296dc4deb6521f69a699c6496b750a5b75cde877cf765558f4"
-    },
-    "target-metadata-19.json": {
-      "sha256": "0a504c2174212a296dc4deb6521f69a699c6496b750a5b75cde877cf765558f4"
-    },
-    "target-metadata-20.json": {
-      "sha256": "a33d9dfdaf6e12c67e02c5fe5d709a5c65bffb41e0280ed082c6925e85c88fa4"
-    },
-    "target-metadata-21.json": {
-      "sha256": "468235c6369aec98e4e87102976d34c3216b75ba3817164f88d5a7400324a239"
-    },
-    "target-metadata-22.json": {
-      "sha256": "808dd76a322a41a2544759528a579feccf2b257f9894a3b0f431e75cb03eb549"
-    },
-    "target-metadata-23.json": {
-      "sha256": "f4f833845f21f1423f1cf01e97676c11a3cd07e6ed687b86dba8c6cbc1bea3d7"
-    },
-    "target-metadata-24.json": {
-      "sha256": "e23a2b813ee300c146cd4d0ec18c4adf76f74f8249ce61d062bf487a956650b7"
-    },
-    "target-metadata-25.json": {
-      "sha256": "e58263551794b0ec0b369f8231be3cc808c24dff240f4c48387d3ef4bf2a8441"
-    },
-    "target-metadata-26.json": {
-      "sha256": "e80c392474c83d84768c8ce8c75e5edff278eb36b24acc322d43b89fc5800a66"
-    },
-    "target-metadata-27.json": {
-      "sha256": "37c8cf1180058a700688598ee2663db62e0e1c996dc11d73b7487776e5b80dea"
-    },
-    "target-metadata-28.json": {
-      "sha256": "37c8cf1180058a700688598ee2663db62e0e1c996dc11d73b7487776e5b80dea"
-    },
-    "target-metadata-29.json": {
-      "sha256": "9e49e66d5afcbaac8992937f6d52ba3ea592b051d5c9d0c14e9b71d4b31ec941"
-    },
-    "gap40-results.csv": {
-      "sha256": "a9351cb6340d3b0629fd0321536f1bb67358ffe09ca2b569e883cb68325d2ce0"
-    },
-    "gap40-target-metadata.json": {
-      "sha256": "d5c3161163df2c6ddb1c7cf8aafb71ad3448f31853fb5ffdefdcf593fd966e75"
-    },
-    "period-pilot-results.csv": {
-      "sha256": "761608b77c2d3601f3b47a60b93101b73624049722b16cfa44e39a19e620040b"
-    },
-    "period-pilot-target-metadata.json": {
-      "sha256": "798d4c2fe450abf44914b0c048280228f4f078a482d9e57a9f142e71698a896b"
-    },
-    "gap40-shared-target-metadata.json": {
-      "sha256": "d7103e4e72104ca9831e1b9521868554850a2ef78bbff5f9a802fd1b7d7d804f"
-    },
-    "magnitude60-results.csv": {
-      "sha256": "51b3241215d04b91e7ad1c3476fe29935f6f2c3c91102678deebda4911724f0d"
-    },
-    "magnitude60-target-metadata.json": {
-      "sha256": "9016823f693737f6e796361b841ca270bc78470fe10b7ec36638c8a46ca7ee1d"
-    },
-    "magnitude60-accepted-counts.json": {
-      "sha256": "59e5fb6cdb0785d8c5868a8ab659bdec4647b4923c3fec6c0ac07e4068337951"
-    },
-    "magnitude60b-results.csv": {
-      "sha256": "ba7f77048330d7d806f29df9712ce06ca69a82986fba700a2f438c9709007b55"
-    },
-    "magnitude60b-target-metadata.json": {
-      "sha256": "da50481c6f8391dc5a8587f447b168c172a6f3ddadf935722a0b37a110d00b0d"
-    },
-    "magnitude60b-accepted-counts.json": {
-      "sha256": "a7132e6537d6cd677e0ba342f3a7cf0764c13aa777fd8bde2284a7b896ef6961"
-    },
-    "bright73-results.csv": {
-      "sha256": "3403521080e191ea41c1379ad8f7c2cc370fdf61a6aac3042e7e12f3bbdd1dcc"
-    },
-    "bright73-target-metadata.json": {
-      "sha256": "edb12e6ff8ba0d83ab16dacf4d68bdf791b494ee71fc932dd29e4148e079eb85"
-    },
-    "bright73-accepted-counts.json": {
-      "sha256": "4450e3df077aa5896609e3b2c8f7d0bea452f9e077d16146c0375ef20eea7ace"
-    },
-    "bright100-session-results.csv": {
-      "sha256": "8d7d3143e9b471cbabfacedbd698d404a58b8a9ed4a16a3d4898ad8878c4a096"
-    },
-    "bright100-target-metadata.json": {
-      "sha256": "61f5e58806db98a0bbbbdd2ceea773fb7ff2e0610a95a2858965f3bc52050d2b"
-    },
-    "bright-next-target-metadata.json": {
-      "sha256": "f99065e47159f17305bd5e2c23fc96200d95099f7a4e02dbcdf684cd70c5f145"
-    },
-    "remaining136-results.csv": {
-      "sha256": "7f7f565b79c39d4ae737d7d0646488e8e13b8822db5e0612554b631bb0e01c61"
-    },
-    "remaining136-target-metadata.json": {
-      "sha256": "2df047ed818ed6c184a00203cb52aaf02d1827f2a8dddb03046ec9bef1f79be2"
+    "current-accounting.json": {
+      "sha256": "037b43bd40672b1847c216f2a307fe3c4c46b6d543dd1e7be5e0039f3af82421"
     }
   },
   "included": 913,
@@ -216,5 +75,162 @@
     "scope": "Eight scoped catalogue nonmatches accepted with physical/source limitations; 41 remain unknown.",
     "decision_sha256": "fa915c3b3791a93e3815233c857a415687f5ff7ccb124d5e35d6e47092b30862",
     "map_sha256": "8c5e1cd692dd84f78bfeb77c2eb66461f30410517e09bae7da7cdbb18766e579"
-  }
+  },
+  "historical_input_snapshot": {
+    "scope": "Archived inputs from the earlier map; current map additions use per-queue identity receipts.",
+    "description": "Current 921-system map: reconciled 913-system baseline plus eight accepted period-free dip systems. Coordinates use exact target identities; probable unresolved blends remain explicitly qualified.",
+    "inputs": {
+      "objects.csv": {
+        "sha256": "86e1c5f6759ff7794536bcb8c1c4018023b2b508bb2ae28e9026cb17a64b899d"
+      },
+      "scientific-review-register.csv": {
+        "sha256": "57bc081467bdc9927bf4424ceb622a2cd7a870171faa2161a4551df539fb38ca"
+      },
+      "target-metadata-01.json": {
+        "sha256": "0702b3c81ceafa50cf44de10747ee1560a4500df6e644e6c4f19527ec1cb51d8"
+      },
+      "target-metadata-02.json": {
+        "sha256": "af2ae8bc43993af990cdb88e1a43c5e1a7efcfc45d94f6776464bc540b4518d2"
+      },
+      "target-metadata-03.json": {
+        "sha256": "9c43d9e0d94a41defe0fee22b8fe70d15eed68a65b57e750faf5925e94861e55"
+      },
+      "target-metadata-04.json": {
+        "sha256": "b3bd851cbf1650ea743464b7ce82fb55992fb495e824470004b2fb292c1a3b53"
+      },
+      "target-metadata-05.json": {
+        "sha256": "d6f9b26be67cb9aae5f223770294a380aa6d8360920acfbea1ef5f411c56bd7e"
+      },
+      "target-metadata-06.json": {
+        "sha256": "221b42ac596bb08d0624d9b84d1e424c5ed1aa74dcaa87c8557a7bc2fd5f428e"
+      },
+      "target-metadata-07.json": {
+        "sha256": "d3ac6fda82c11d85734eb56e1d71d0ad4b92248407ac875622837640fb2023f9"
+      },
+      "target-metadata-08.json": {
+        "sha256": "63aa70dc71b0b95cf1fb4ced53a70426913e57488fc50b42cc5276e0163346b8"
+      },
+      "target-metadata-09.json": {
+        "sha256": "f35eaea58a20c02ad6a9aa9d6c4e2c2401dbdec7330735485af6137f4716c065"
+      },
+      "target-metadata-10.json": {
+        "sha256": "af2adc10190b75df0ad98aa798adb1a093259d2d17cd8c7f4c24d97141ee3244"
+      },
+      "target-metadata-11.json": {
+        "sha256": "4d81b78e3002d6eacbe10109480810f17355d0d053f1417b7a88e00451549ce0"
+      },
+      "target-metadata-12.json": {
+        "sha256": "4a1f2bec0f7c59caa1fad74f07d8dd2a4d993fa04e5cfb1e1428c8340cf66641"
+      },
+      "target-metadata-13.json": {
+        "sha256": "7d6b6a0ecc7b101f01e6848a86742c544239c782b89d38fe3ae802ae7318ab06"
+      },
+      "target-metadata-14.json": {
+        "sha256": "a643475e858828a1ace2efc84fb69d5650facc4a3bbbce0c26f4ebd1906ff868"
+      },
+      "target-metadata-15.json": {
+        "sha256": "3648c3cbcec9858632711a47534d060e42c4d12a3b136a3b7276ef1e12e871f2"
+      },
+      "target-metadata-16.json": {
+        "sha256": "9bbe8c61bc0653e54aae2e7d34c12efab4bdf02adf81db5ccbe8d4ee58b46384"
+      },
+      "target-metadata-17.json": {
+        "sha256": "9bbe8c61bc0653e54aae2e7d34c12efab4bdf02adf81db5ccbe8d4ee58b46384"
+      },
+      "target-metadata-18.json": {
+        "sha256": "0a504c2174212a296dc4deb6521f69a699c6496b750a5b75cde877cf765558f4"
+      },
+      "target-metadata-19.json": {
+        "sha256": "0a504c2174212a296dc4deb6521f69a699c6496b750a5b75cde877cf765558f4"
+      },
+      "target-metadata-20.json": {
+        "sha256": "a33d9dfdaf6e12c67e02c5fe5d709a5c65bffb41e0280ed082c6925e85c88fa4"
+      },
+      "target-metadata-21.json": {
+        "sha256": "468235c6369aec98e4e87102976d34c3216b75ba3817164f88d5a7400324a239"
+      },
+      "target-metadata-22.json": {
+        "sha256": "808dd76a322a41a2544759528a579feccf2b257f9894a3b0f431e75cb03eb549"
+      },
+      "target-metadata-23.json": {
+        "sha256": "f4f833845f21f1423f1cf01e97676c11a3cd07e6ed687b86dba8c6cbc1bea3d7"
+      },
+      "target-metadata-24.json": {
+        "sha256": "e23a2b813ee300c146cd4d0ec18c4adf76f74f8249ce61d062bf487a956650b7"
+      },
+      "target-metadata-25.json": {
+        "sha256": "e58263551794b0ec0b369f8231be3cc808c24dff240f4c48387d3ef4bf2a8441"
+      },
+      "target-metadata-26.json": {
+        "sha256": "e80c392474c83d84768c8ce8c75e5edff278eb36b24acc322d43b89fc5800a66"
+      },
+      "target-metadata-27.json": {
+        "sha256": "37c8cf1180058a700688598ee2663db62e0e1c996dc11d73b7487776e5b80dea"
+      },
+      "target-metadata-28.json": {
+        "sha256": "37c8cf1180058a700688598ee2663db62e0e1c996dc11d73b7487776e5b80dea"
+      },
+      "target-metadata-29.json": {
+        "sha256": "9e49e66d5afcbaac8992937f6d52ba3ea592b051d5c9d0c14e9b71d4b31ec941"
+      },
+      "gap40-results.csv": {
+        "sha256": "a9351cb6340d3b0629fd0321536f1bb67358ffe09ca2b569e883cb68325d2ce0"
+      },
+      "gap40-target-metadata.json": {
+        "sha256": "d5c3161163df2c6ddb1c7cf8aafb71ad3448f31853fb5ffdefdcf593fd966e75"
+      },
+      "period-pilot-results.csv": {
+        "sha256": "761608b77c2d3601f3b47a60b93101b73624049722b16cfa44e39a19e620040b"
+      },
+      "period-pilot-target-metadata.json": {
+        "sha256": "798d4c2fe450abf44914b0c048280228f4f078a482d9e57a9f142e71698a896b"
+      },
+      "gap40-shared-target-metadata.json": {
+        "sha256": "d7103e4e72104ca9831e1b9521868554850a2ef78bbff5f9a802fd1b7d7d804f"
+      },
+      "magnitude60-results.csv": {
+        "sha256": "51b3241215d04b91e7ad1c3476fe29935f6f2c3c91102678deebda4911724f0d"
+      },
+      "magnitude60-target-metadata.json": {
+        "sha256": "9016823f693737f6e796361b841ca270bc78470fe10b7ec36638c8a46ca7ee1d"
+      },
+      "magnitude60-accepted-counts.json": {
+        "sha256": "59e5fb6cdb0785d8c5868a8ab659bdec4647b4923c3fec6c0ac07e4068337951"
+      },
+      "magnitude60b-results.csv": {
+        "sha256": "ba7f77048330d7d806f29df9712ce06ca69a82986fba700a2f438c9709007b55"
+      },
+      "magnitude60b-target-metadata.json": {
+        "sha256": "da50481c6f8391dc5a8587f447b168c172a6f3ddadf935722a0b37a110d00b0d"
+      },
+      "magnitude60b-accepted-counts.json": {
+        "sha256": "a7132e6537d6cd677e0ba342f3a7cf0764c13aa777fd8bde2284a7b896ef6961"
+      },
+      "bright73-results.csv": {
+        "sha256": "3403521080e191ea41c1379ad8f7c2cc370fdf61a6aac3042e7e12f3bbdd1dcc"
+      },
+      "bright73-target-metadata.json": {
+        "sha256": "edb12e6ff8ba0d83ab16dacf4d68bdf791b494ee71fc932dd29e4148e079eb85"
+      },
+      "bright73-accepted-counts.json": {
+        "sha256": "4450e3df077aa5896609e3b2c8f7d0bea452f9e077d16146c0375ef20eea7ace"
+      },
+      "bright100-session-results.csv": {
+        "sha256": "8d7d3143e9b471cbabfacedbd698d404a58b8a9ed4a16a3d4898ad8878c4a096"
+      },
+      "bright100-target-metadata.json": {
+        "sha256": "61f5e58806db98a0bbbbdd2ceea773fb7ff2e0610a95a2858965f3bc52050d2b"
+      },
+      "bright-next-target-metadata.json": {
+        "sha256": "f99065e47159f17305bd5e2c23fc96200d95099f7a4e02dbcdf684cd70c5f145"
+      },
+      "remaining136-results.csv": {
+        "sha256": "7f7f565b79c39d4ae737d7d0646488e8e13b8822db5e0612554b631bb0e01c61"
+      },
+      "remaining136-target-metadata.json": {
+        "sha256": "2df047ed818ed6c184a00203cb52aaf02d1827f2a8dddb03046ec9bef1f79be2"
+      }
+    }
+  },
+  "coordinate_receipts": "Per-target source and catalogue receipts in reviews/2026-11-05-catalogue-recovery, reviews/2026-11-05-faint-band and reviews/2026-11-05-final-night."
 }

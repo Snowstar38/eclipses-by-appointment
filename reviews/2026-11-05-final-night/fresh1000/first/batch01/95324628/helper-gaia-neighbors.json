@@ -1,0 +1,20 @@
+{
+  "request_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2CDISTANCE%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CPOINT%28%27ICRS%27%2C295.665374047%2C0.337692220543%29%29%2A3600+AS+sep+FROM+gaiadr3.gaia_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C295.665374047%2C0.337692220543%2C0.0166667%29%29",
+  "response_sha256": "dbe96d138941d57c117acb3083871005e9525ee9e0fae96e6cc0ade7a5fd364b",
+  "target_G": 11.914187,
+  "target_gaia": "4239611700214875904",
+  "neighbors_sorted": [
+    {
+      "source_id": "4239611494056445184",
+      "sep_arcsec": 2.9488495436487523,
+      "G": 17.68521,
+      "relative_G_flux": 0.004915761456042367,
+      "idealized_required_intrinsic_loss": 58.7612164743534,
+      "wcs_xy": [
+        5.598187916297088,
+        6.030242954094083
+      ]
+    }
+  ],
+  "note": "Idealized required intrinsic loss uses Gaia G flux ratio and observed aperture loss assuming target and neighbor fully captured and no other flux. Approximate only: Gaia G differs from TESS band, aperture throughput and additional stars change budget. Missing Gaia sources or unresolved companions not excluded."
+}

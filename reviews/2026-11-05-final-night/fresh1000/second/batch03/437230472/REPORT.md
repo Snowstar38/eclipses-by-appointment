@@ -1,0 +1,19 @@
+# Z125: TIC 437230472 / Gaia DR3 3549439073100013312
+
+Physical tier: **PLAUSIBLE**. Bounded review: **complete**. Addition eligibility: **False**, subject to root acceptance and sealed catalogue reconciliation.
+
+S9 andS100 contain genuine broad flat-bottomed losses, whileS63 is a step andS90 is sloped variability, excluded from eclipse timings. FreshS100 custom aperture retains47ppt and is0.082pixel from target. Two events2524.782d apart leave many tested integer-cycle alternatives;47.637395d is a conditional53-cycle example, not a resolved period. It differs strongly from47.189d Gaia orbit. Physical recurrence/association is unresolved despite credible morphology; not counted.
+
+Representative raw events: 4 screen windows inspected across 5 QLP files. The raw SAP morphology image and numeric series are retained. Quality==0, finite positive flux is used; gaps and unsuitable windows do not count as clean nulls. KSPSAP is plotted when available but can suppress broad eclipses.
+
+Timing summary: conditional selected clock 47.637394599 d, epoch 1551.5908465 BTJD, local formal period error 0.0002 d, residual maximum 0.00000 d. Error floors per midpoint: cadence/2 and0.002d. These are local fit errors and cycle-conditional, not posterior precision or guaranteed prediction errors. Duration 1.7007d and depth 29.42ppt are selected raw-fit descriptors. For437 the period/error are explicitly unresolved-alias descriptors. Distinct conjunction kinds are never counted as same-kind repeats.
+
+Coverage audit: selected measured clock has 3 actually usable predicted windows and 0 clean nulls. Divisors2..6 and all first-to-last integer alternatives over5..100d (0.6..100d for short clocks) are tested against same-kind timing tolerance0.04d and covered windows. Core coverage>=75%, at least3 core/side samples, gap limit max(3cadence,0.2duration); null threshold max(15% selected depth,4noise/sqrt(N)). Timing-incompatible alternatives are excluded before flux evaluation; missing/flagged coverage is unknown. Full tests retained.
+
+Attribution/alternative reduction: custom7x7 TESScut data, core inside0.25duration and sidebands0.75-2duration, background-subtracted3x3 aperture. This reuses TESS photons; it is a reduction check, not an independent observation. Positive-deficit centroids and Gaussian fits are descriptive, not calibrated exclusion radii. Neighbor G-flux capability estimates are approximate TESS proxies; required intrinsic neighbor loss is not compared directly with blended pixel loss. Source-specific spatial evidence determines attribution.
+
+Gaia geometry: source-specific SB1 linear covariance propagated with fixed local cycle and edge-on conjunction assumptions. Mass function 0.21222 solar masses; e=0.0117. Long resolved durations and stellar-eclipse depths are physically plausible where morphology is accepted. Gaia association is separate from physical eclipse classification; no inclination or full posterior is claimed.
+
+Catalogue: uses sealed second/shared-catalogues receipts (VSX, ASAS-SN, vetted EB tables, Gaia, SIMBAD, Kepler/TOI bounded checks) retained in lead-central-catalogue-receipts.json. Successful scoped nonmatches are not exhaustive novelty proof; failures remain unknown. Known-neighbor hold explicitly overrides addition eligibility for442807330.
+
+Limitations/next check: Find a third same-kind eclipse to resolve integer aliases and Gaia association. Representative bounded review is not exhaustive all-event/all-sector characterization. Lead visually inspected all eight raw-context panels and deciding localization panels, plus437 freshS100. Helper audit is retained separately when available. Source FITS hashes validated against frozen parent population and TIC/sector headers, exact nested Gaia G/identity verified. Scripts, measurements, images and receipts are sealed in final manifest; no ledger or public files edited.

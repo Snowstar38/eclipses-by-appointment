@@ -1,0 +1,106 @@
+{
+  "sample_id": "Z101",
+  "tic": "238407344",
+  "gaia_period_d": 44.988923547295855,
+  "gaia_dr3": "2860943278543099648",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\bulk-results\\238407344.json",
+  "bulk_sha256": "f800f9a853cb71a8b6d82e4e0210498bf748d179993ad3817616a196cb488e27",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\238407344_s017.fits",
+      "sha256": "8f54d4c94f08a5ce015b57b6b74458ea9bf8115775ba5931db780e2d35ab2c8d",
+      "sector": 17
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\238407344_s057.fits",
+      "sha256": "e8e9a3ac9c5c3f0808c8cb0dd46b0372939a851b03ab329ea38030481d256700",
+      "sector": 57
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\238407344_s084.fits",
+      "sha256": "bf42867473567fa3656f0d996c1fb65c266bd72c6316f10a5a034d0f514c3df9",
+      "sector": 84
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 17,
+      "first_btjd": 1766.5993445157887,
+      "last_btjd": 1788.1613511513128,
+      "n": 640,
+      "median_cadence_d": 0.02083274637698196,
+      "header": {
+        "TICID": 238407344,
+        "SECTOR": 17,
+        "RA_OBJ": 1.33885656635,
+        "DEC_OBJ": 29.127130743
+      },
+      "flags": []
+    },
+    {
+      "sector": 57,
+      "first_btjd": 2853.392784662018,
+      "last_btjd": 2882.068305833815,
+      "n": 10270,
+      "median_cadence_d": 0.0023147769065872126,
+      "header": {
+        "TICID": 238407344,
+        "SECTOR": 57,
+        "RA_OBJ": 1.33885656635,
+        "DEC_OBJ": 29.127130743
+      },
+      "flags": []
+    },
+    {
+      "sector": 84,
+      "first_btjd": 3584.60172643135,
+      "last_btjd": 3610.3074140931226,
+      "n": 9144,
+      "median_cadence_d": 0.0023147884385252837,
+      "header": {
+        "TICID": 238407344,
+        "SECTOR": 84,
+        "RA_OBJ": 1.33885656635,
+        "DEC_OBJ": 29.127130743
+      },
+      "flags": [
+        {
+          "sector": 84,
+          "screen_btjd": 3585.92349197767,
+          "screen_duration_d": 0.96,
+          "screen_depth_ppt": 10.437495034455125,
+          "raw_minimum_btjd": 3585.749879936067,
+          "raw_minimum_depth_ppt": 31.269869930355853,
+          "raw_median_core_depth_ppt": 9.92067819517417,
+          "n_window": 1808,
+          "n_core": 415,
+          "first_btjd": 3584.60172643135,
+          "last_btjd": 3588.803132813794,
+          "max_gap_d": 0.01157411941267128,
+          "baseline_sap": 1.0002261400222778,
+          "kspsap_baseline": null,
+          "source_sha256": "bf42867473567fa3656f0d996c1fb65c266bd72c6316f10a5a034d0f514c3df9"
+        }
+      ]
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 84,
+      "screen_btjd": 3585.92349197767,
+      "screen_duration_d": 0.96,
+      "screen_depth_ppt": 10.437495034455125,
+      "raw_minimum_btjd": 3585.749879936067,
+      "raw_minimum_depth_ppt": 31.269869930355853,
+      "raw_median_core_depth_ppt": 9.92067819517417,
+      "n_window": 1808,
+      "n_core": 415,
+      "first_btjd": 3584.60172643135,
+      "last_btjd": 3588.803132813794,
+      "max_gap_d": 0.01157411941267128,
+      "baseline_sap": 1.0002261400222778,
+      "kspsap_baseline": null,
+      "source_sha256": "bf42867473567fa3656f0d996c1fb65c266bd72c6316f10a5a034d0f514c3df9"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2026-11-06T04:18:33 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-06T04:18:33	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=B%2Fvsx%2Fvsx&-c=211.691256904247+-41.6419977620563&-c.rs=60&-out.max=500&-out.all=&-out.add=_r	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=211.691257-41.641998,rs=60.	
+#Constraint -out.add=_r
+
+#RESOURCE=yCat_102027
+#Name: B/vsx
+#Title: AAVSO International Variable Star Index VSX (Watson+, 2006-)
+#INFO	ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/b/vsx	    IVOID of underlying data collection
+#INFO	creator=Watson C.	    First author or institution
+#INFO	cites=bibcode:2006SASS...25...47W	    Article or Data origin sources
+#INFO	journal=SASS	    Journal name
+#INFO	original_date=2006	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/B/vsx	    Dataset landing page
+#INFO	publication_date=2026-10-19	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	B_vsx_vsx:
+#Name: B/vsx/vsx
+#Title: Variable Star indeX, Version 2026-10-18 (\originalcolumnnames)
+#Column	_r	(F5.2)	Distance from center (211.69126-41.64200)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	OID	(I8)	Internal identifier, can be used to link out to the VSX database (1)	[ucd=meta.id]
+#Column	Name	(A30)	Variable star identifier	[ucd=meta.id;meta.main]
+#Column	V	(I1)	Variability flag (2) (VarFlag)	[ucd=src.var]
+#Column	RAJ2000	(F9.5)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Type	(A30)	? Variability type, ariability type, as in GCVS catalog Variability type (see details of VSX type list)	[ucd=src.class]
+#Column	l_max	(A1)	? Limit flag on max (LimitFlagOnMax)	[ucd=meta.code.error;src.var.amplitude]
+#Column	max	(F7.3)	[-6.0/25.2]? Magnitude at maximum, or amplitude (MagMax)	[ucd=src.var.amplitude]
+#Column	u_max	(A1)	? Uncertainty flag on max (MaxUncertaintyFlag)	[ucd=meta.code.error;src.var.amplitude]
+#Column	n_max	(A10)	? Passband on max magnitude (4) (MaxPassband)	[ucd=meta.note;src.var.amplitude]
+#Column	f_min	(A1)	? Flag to indicate an amplitude (MinIsAmplitude)	[ucd=meta.code;src.var.amplitude]
+#Column	l_min	(A1)	? Limit flag on min (LimitFlagOnMin)	[ucd=meta.code.error;src.var.amplitude]
+#Column	min	(F7.3)	[-0.02/28.0]? Magnitude at minimum, or amplitude (MagMin)	[ucd=src.var.amplitude]
+#Column	u_min	(A1)	? Uncertainty flag on min (MinUncertaintyFlag)	[ucd=meta.code.error;src.var.amplitude]
+#Column	n_min	(A8)	? Passband on min magnitude (MinPassband)	[ucd=meta.note;src.var.amplitude]
+#Column	l_Period	(A1)	? Limit flag on period (3) (LimitFlagOnPeriod)	[ucd=time.period]
+#Column	Period	(F19.12)	[0.0/27400.0]? Period of the variable in days	[ucd=time.period]
+#Column	u_Period	(A1)	? Uncertainty flag on Period (3) (PeriodUncertaintyFlag)	[ucd=meta.code.error]
+#Column	Sp	(A29)	? Spectral type (SpectralType)	[ucd=src.spType]

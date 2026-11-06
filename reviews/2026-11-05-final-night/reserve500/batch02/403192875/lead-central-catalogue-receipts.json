@@ -1,0 +1,385 @@
+{
+  "tic": "403192875",
+  "central_path": "[workspace]/Astra\\made\\final-night-2026-11-05\\reserve500\\shared-catalogues",
+  "source_sha256": {
+    "target-results.json": "8aabdf692ec7415b661b050e84eede84b65607c1109b7656557cf0b004ab94f2",
+    "local-table-matches-60arcsec.json": "3fea043bd3b6cc7d5bc4ff2da3a52c7ca8a3b366b5f0fcaa973cb53eb7e40ffc",
+    "literature-adjudication.json": "5265a627ec6a550e1b0e34db503f0793a95a65491378bf69abc2cc9d9636a365",
+    "ROOT-CATALOGUE-SEAL.json": "6f9a624208fb3a42868cc060ab14a03bed586ebdcbba143461898dd1d2460e14",
+    "kebc-toi-matches.json": "5d7360aee94c2a1ef7fb82cab55e779ef20c9e299b8742a723e002612080bcac"
+  },
+  "receipts": {
+    "target-results.json": [
+      {
+        "tic": "403192875",
+        "label": "RS017",
+        "scope": "pending",
+        "ra": 337.60767220106,
+        "dec": -55.1240548468023,
+        "catalogues": {
+          "vsx": {
+            "status": "success",
+            "matches": [
+              {
+                "_r": "0.02",
+                "OID": "8119591",
+                "Name": "Gaia DR3 6505393724082679552",
+                "V": "0",
+                "RAJ2000": "337.60767",
+                "DEJ2000": "-55.12405",
+                "Type": "RS",
+                "l_max": "",
+                "max": "11.970",
+                "u_max": "",
+                "n_max": "G",
+                "f_min": "",
+                "l_min": "",
+                "min": "12.040",
+                "u_min": "",
+                "n_min": "G",
+                "l_Period": "",
+                "Period": "",
+                "u_Period": "",
+                "Sp": "K"
+              }
+            ],
+            "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\reserve500\\shared-catalogues\\cones\\vsx-403192875.tsv"
+          },
+          "asassn": {
+            "status": "success",
+            "matches": [],
+            "receipt": "[workspace]/Astra\\made\\final-night-2026-11-05\\reserve500\\shared-catalogues\\cones\\asassn-403192875.tsv"
+          },
+          "table3": {
+            "status": "success",
+            "matches": [],
+            "bulk_sha256": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d"
+          },
+          "table4": {
+            "status": "success",
+            "matches": [],
+            "bulk_sha256": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677"
+          }
+        }
+      }
+    ],
+    "local-table-matches-60arcsec.json": [
+      {
+        "tic": "403192875",
+        "scope": "pending",
+        "label": "RS017",
+        "prsa": [],
+        "ijspeert": []
+      }
+    ],
+    "literature-adjudication.json": {
+      "scope": "244 locally fetched e-prints, exact27TIC/Gaia IDs only; bounded not exhaustive",
+      "target_identifier_hits": 0,
+      "non_EB_prior_classifications": {
+        "37951551": "VSX ROT",
+        "160166846": "VSX RS and ASASSN ROT; morphology/source review still required",
+        "308091169": "VSX RS; nearby known Prsa EB requires ownership discrimination",
+        "403192875": "VSX RS"
+      },
+      "known_prior_excluded_before_review": [
+        "271927028",
+        "265469420"
+      ]
+    },
+    "ROOT-CATALOGUE-SEAL.json": {
+      "verified_cone_files": 54,
+      "files": {
+        "asassn-vizier.cfa.harvard.edu-post.tsv": "c9f7b1a671432250383e79ce9a47c8162cd54418c606ef6723ca0cd559aaccd4",
+        "cites.json": "66ea2331887e2e75e355f7e8c8a50653f4e99b119eac483560bd96dc3ac497ec",
+        "claims.json": "6631d17e6a7ee4a185634498ce2b97b78fe882477e0dd39699f0dd558877f09e",
+        "cone-receipts.json": "0c8959e714c1dbb866ec29fb055daf938b1dd07edb1eec36baf0e8c54fc701e0",
+        "cones/asassn-100826297.tsv": "13639d7944b8bfc10038cec1891237b117619879d4007b95d5ef164288f6f215",
+        "cones/asassn-132999153.tsv": "f746d5aedd98688d27ba8bcb5f07a0102110a4c8e47a8f1f124387142faf07d1",
+        "cones/asassn-138351298.tsv": "aa8ff1e2b2a73f191fa4b54fb77008b03b173ffc2c4ddf0d33acd12cc05c52c1",
+        "cones/asassn-15527953.tsv": "df4706d9dd1d8770a925b57a967bde607fd88d015d77292298526e2bcaa2d800",
+        "cones/asassn-15994632.tsv": "628d8f9110aadae0276eb399bd0224c25c49bf93ac1928b0777ba8b53829273e",
+        "cones/asassn-160166846.tsv": "4193655db4c5a054551c82dbecef67f99cb0f163c39df2084d2eff26834bd4e0",
+        "cones/asassn-165828134.tsv": "934dd402967e0a1c9514d67a51f399a45e0f9781e2594381e12ce0a08ad6836f",
+        "cones/asassn-175736093.tsv": "e306cecedf7d4d31c2797a8d86757a50b725cb364fb6229d0778d130665b0b48",
+        "cones/asassn-187242860.tsv": "0b10bdfb4e07a909b24d3373d9b2aa1743ecfa10b971e241ac88541e578e6bc9",
+        "cones/asassn-257464332.tsv": "dfe4dc9e4ad90834e2bce9e4cf79b147d23ffca7a30b2ebe508a29b69e286348",
+        "cones/asassn-265469420.tsv": "46418cfed16f4bcb916ed8e79c2590b0ac980c7cf63ca7c894223a9c4fae585a",
+        "cones/asassn-271927028.tsv": "3b7e69b1d8ab8ccda34c7b4527b1bf3c79d25898017dfb03bc1bed9b04b4a448",
+        "cones/asassn-281540788.tsv": "579f725615fcd343b3840fbeb66a21c9e637af18c506a0c71f601e8ed3033a67",
+        "cones/asassn-296080348.tsv": "e8acf3c8066c4ae4c59c62c5031b92eae74d1f5507714f7dff7a00dea3e0d4e5",
+        "cones/asassn-298092295.tsv": "e45eeecaa18a11a5a915782296915287f9f0adabdb7dc5db2eb2b841cab0cfb5",
+        "cones/asassn-298976044.tsv": "2f1f8f2a63efba5077b28db179d3bf9fb15dd22c9800e8ca1e22c70d9963bd99",
+        "cones/asassn-308091169.tsv": "5e1b8d928405250ca67d0d701e4798a9e9e8edcf05a0d3f3638abf71d6207a5c",
+        "cones/asassn-352725084.tsv": "6793503e7a974c7ff7e64e2aa8eb0b5b22478c5b6c14fa00f8333d914e8b5bea",
+        "cones/asassn-37951551.tsv": "1e1662e8478d6a46ad99b2ac245ac3d3a951728c2f7819089cf83c041bc95ac7",
+        "cones/asassn-394405964.tsv": "e0fa83c235dcd7ba802e577da8557ea79276f88d6b05b876638e05b6dd5b84ce",
+        "cones/asassn-403192875.tsv": "56ba5494c979d45a1781c25248a0e2837a4b936844f969605e2a89eb53fc2955",
+        "cones/asassn-408996985.tsv": "2f3efecfcc8039916dea25003b6c89480bf3fad9872c78bda0556a2e890131e3",
+        "cones/asassn-455100744.tsv": "954e9d85aa6aaa9e1bbc78ce074d07207f084e6a0c17569f29d484270278cd9b",
+        "cones/asassn-467460090.tsv": "1c57981482137fa29dfbc530a02b23f17bdf6d4c26f539e562ad112c41bf33a4",
+        "cones/asassn-467864145.tsv": "7db56844bb2aca95955a5167be151ebcff8e7ced53ed5a42a6c4fc5d1451f1f4",
+        "cones/asassn-93104494.tsv": "576011274c0eedeebc6824235c2d37896f41c5404aba3e8d929814465bc2c649",
+        "cones/asassn-97279198.tsv": "6a9591a59c64e78f8ea12bfc2056c93cf7b78c7dcc18dfa4fc309dff8ee8dd05",
+        "cones/vsx-100826297.tsv": "89aab63a918ba63c3037fb4f6d10983914c88e924ff0432a0e9f847dce196277",
+        "cones/vsx-132999153.tsv": "edb3cf3e9efcef518f0fa204aed920d54d6088f6077f6cf83521a26f533b53cf",
+        "cones/vsx-138351298.tsv": "40d5512dc01893e83c6d9ea731f613bb400d4327e13190f79faefc61cf26cba0",
+        "cones/vsx-15527953.tsv": "c066360f01310c8f89382ace31ed5da8554e48ac506cc4d29b9de25bf9fc638b",
+        "cones/vsx-15994632.tsv": "4000e16917bed68c3702089a2d792b324bc8c045b6d582e54165f6f8e1aade0a",
+        "cones/vsx-160166846.tsv": "f62daed3300ab1956904291f30b12a500de87b6e0e17cd41405ee6de47d50b60",
+        "cones/vsx-165828134.tsv": "dad1e03379a3011aa0207191a4e115550e3c29670b2773edb5c69245596ac502",
+        "cones/vsx-175736093.tsv": "ecaeb1b0fda47d08bd53c1ac62dc7f3ef75c045753d22712e5bce235127b56be",
+        "cones/vsx-187242860.tsv": "86726fd168192c7670d961348fa0e78a6081e8043527f93fdb0cc1765412a964",
+        "cones/vsx-257464332.tsv": "53466b054cd4541cb8c76b00d6fc323cdebc67cc502040bc3b74aef1deedfdf1",
+        "cones/vsx-265469420.tsv": "eb703b31a75fceef8358caaad1c1f417d1e651346d990149d25ce811caa25d39",
+        "cones/vsx-271927028.tsv": "ed34d53053be7959aa2aa9eb51645922e91273a6a37b9d6020721ff2751bf331",
+        "cones/vsx-281540788.tsv": "fe7288bc83b65a4eaf80cffa967dc7947409e0fdfe4d72e75a560b0ba01d9b9c",
+        "cones/vsx-296080348.tsv": "0bde9a65e320908e1765590b079120a57acaa1acac5a606cef84ba55a3e40deb",
+        "cones/vsx-298092295.tsv": "edc84f75a93131e6b25cdc9e01e2caf6f90e9a561bcb7469a15e42ae76030972",
+        "cones/vsx-298976044.tsv": "8563752077fa6ae2c6da159b1a4e2b7ed3e7f4f8d55caa05c47449468999c80c",
+        "cones/vsx-308091169.tsv": "f86d4253f34487705d51275dde7e141d8dfbba7d9d77d07c6cf221d76102edac",
+        "cones/vsx-352725084.tsv": "ea22f2f6abf0f358a8d338ebdd3ab9af124fbdd44b58b09fca42f1ba86b51066",
+        "cones/vsx-37951551.tsv": "6808c3f82afd3f0ea58fc6587490e7b7e692768d84c64ff98f14b5c1d27d082a",
+        "cones/vsx-394405964.tsv": "fc426376f037821dadddcd3d4affd2ece909405580e442e11d9b51492396947d",
+        "cones/vsx-403192875.tsv": "e3b27706c7a2cb8281ed031bc6d641d37409fc5f1a91a8273cb97ceca0f65821",
+        "cones/vsx-408996985.tsv": "0dfe422d58962f6097d161cbfd5c6196347d79eda7b453091c11f90861288a95",
+        "cones/vsx-455100744.tsv": "aa2b14480d57cb98a85e0cf23fdbd1c2b1b20839cb2b97d4f97d7e8407dd4570",
+        "cones/vsx-467460090.tsv": "2286a5b0498c2e664efe226e48f268d904b1c32dc05261add460297204d0c597",
+        "cones/vsx-467864145.tsv": "1caceb4f73b386053b13703deef1921f61c405b87fb05ebf0c25c1480f2fddef",
+        "cones/vsx-93104494.tsv": "f32960ec171377f61ca098ba41eef90224b3cc5a7c35b1ad4955d8b2e1f9c478",
+        "cones/vsx-97279198.tsv": "1f52c6d9b104f33c378dd84c9f82cbb174d8f8de09077dafd5f0fb567422b3c7",
+        "cones.py": "9445e6a25ae6be83eb0ee9614494bcc63e997644f0ae86e976cd027ee1fc4b10",
+        "gaia_eb-pending.csv": "932a90fda674128d3814dfddb176671109df0307594f6929593a8a43d0863bc4",
+        "gaia_nss-pending.csv": "fb6ad743c127457f82bb074d6bb4849c6ec075a567477963ec3831a1ef0e4767",
+        "gaia_summary-pending.csv": "9788feb978874c68d8cff1da7b10c0b2f85846940d8b0718587e468af3702be1",
+        "grep-out.txt": "3961b14f42cd49111df74980930f8f8861727e22233593f39b7c08f6db3b5877",
+        "grep_sources.py": "00fd77f75b712ca064aab42027ecb5352ca5c1f46f70d1abc2fad4cc61dc2f95",
+        "kebc-all-enabled-campaigns.csv": "3041adc63fde4a02b39e782b75783dccaad3e9b5b44006a9f1617c4eeae2d38a",
+        "kebc-receipt.json": "dbe0fce1e2ce90798f5840a44e3707e8a71c6d1865b4fbe30205ce0e7d383b93",
+        "kebc-toi-matches.json": "5d7360aee94c2a1ef7fb82cab55e779ef20c9e299b8742a723e002612080bcac",
+        "known-neighbor-alerts.json": "0a18efa139c49a46174bebe1527f7c2cecfcea79268024c0ebd1021b252f7944",
+        "kostov3-vizier.cfa.harvard.edu-post.tsv": "316dc2c650369940947e848d342c7f5997f51f314cef9fbcfc375b3e531c1ab3",
+        "kostov4-vizier.cfa.harvard.edu-post.tsv": "4e74cafbc451a929ca3a7f1f4b375f623bde7e2554a237ea98d9f4026bbf8202",
+        "literature-adjudication.json": "5265a627ec6a550e1b0e34db503f0793a95a65491378bf69abc2cc9d9636a365",
+        "literature-run.txt": "c57c13eeb72fc5eaa65baf209058dc7fa2af3380ef657d86bc57655b28b2a29d",
+        "local-table-matches-60arcsec.json": "3fea043bd3b6cc7d5bc4ff2da3a52c7ca8a3b366b5f0fcaa973cb53eb7e40ffc",
+        "local_tables.py": "0d3fe69548be2093286e8abe6c59e00007ee656b1cd652eea923d292dc1206eb",
+        "local_tables_60.py": "ffc298ee2eb4e907841ec7510b38346486cabbdb951fc25acc962d37a905266e",
+        "parse_results.py": "33e71bd6043982f9d520c73487bf53259dc17e8bbdb85561c4054bd05478653a",
+        "pending-gaia-simbad-receipts.json": "fd925d3ea321b817cc2ef08cd686a622117c9569c2e186a749ef420fb878c292",
+        "pending_gaia.py": "623bb019df624e40dd8b898512be410a00d127c74e0c072af0c0594b8dad281b",
+        "post.py": "5cd4e262ac1e792c1ef1fe7f7539c8c0afdabcf19a0ff7c07569f3d2c307fa75",
+        "simbad-pending.csv": "ba437f953d2ee488364b074ae27b9cf30743f71f725eed17471eb0a08e872b98",
+        "table3-bulk.tsv": "f981222a7919dadf808f74863792ea515ef9f71e29c9298d93500ecb9481261d",
+        "table4-bulk.tsv": "19ea34679045137276ce7114f548a99d61f52c1e11e625bfa12bd21b577ab677",
+        "target-results.json": "8aabdf692ec7415b661b050e84eede84b65607c1109b7656557cf0b004ab94f2",
+        "targets.json": "c6dae6a1ee7972e67b1d1258b80881817e06ca59da9578ca1e6414280deea103",
+        "toi.csv": "c1b81440e6f9b4af0f553e28eac6b349323e3ca24fe58569297aab3dacf231a9",
+        "vizier-controls-post.json": "0dace640f8a84a5b9b659a3179a121b386baad7bf7b3c5d4d428722de5e54029",
+        "vsx-vizier.cfa.harvard.edu-post.tsv": "cd6f1ab8126020a587ad6f6ae591c04bc32cc493423035f19ccae9ad6d6eae02"
+      },
+      "scope": "Successful target queries and exact archived full-table checks; positive controls and bounded KEBC/literature scope retained. No exhaustive priority assertion."
+    },
+    "kebc-toi-matches.json": {
+      "utc": "2026-11-06T05:17:51.623903+00:00",
+      "kebc_rows": 3584,
+      "campaigns": [
+        "K2C0",
+        "K2C1",
+        "K2C2",
+        "K2C3",
+        "K2C4",
+        "K2C5",
+        "K2E",
+        "Kepler"
+      ],
+      "positive_control": [
+        {
+          "InCat": "True",
+          "KIC": "2697935",
+          "camp": "Kepler",
+          "period": "21.5133595",
+          "period_err": "0.0001029",
+          "bjd0": "55008.469440",
+          "bjd0_err": "-1",
+          "morph": "-1.00",
+          "RA": "287.4679",
+          "DEC": "37.9666",
+          "GLon": "69.1922",
+          "GLat": "12.9530",
+          "kmag": "10.6300",
+          "Teff": "4883.0000",
+          "SC": "False",
+          "": ""
+        }
+      ],
+      "kebc_sha256": "3041adc63fde4a02b39e782b75783dccaad3e9b5b44006a9f1617c4eeae2d38a",
+      "toi_sha256": "c1b81440e6f9b4af0f553e28eac6b349323e3ca24fe58569297aab3dacf231a9",
+      "scope": "KEBC included catalogue entries and enabled campaigns only; TOI whole list reused from earlier same-night retrieval. No claim of exhaustive literature completeness.",
+      "targets": [
+        {
+          "tic": "15527953",
+          "label": "RS001",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "37951551",
+          "label": "RS002",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "93104494",
+          "label": "RS003",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "97279198",
+          "label": "RS004",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "100826297",
+          "label": "RS005",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "138351298",
+          "label": "RS006",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "160166846",
+          "label": "RS007",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "165828134",
+          "label": "RS008",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "175736093",
+          "label": "RS009",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "187242860",
+          "label": "RS010",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "265469420",
+          "label": "RS011",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "271927028",
+          "label": "RS012",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "281540788",
+          "label": "RS013",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "298092295",
+          "label": "RS014",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "298976044",
+          "label": "RS015",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "308091169",
+          "label": "RS016",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "403192875",
+          "label": "RS017",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "408996985",
+          "label": "RS018",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "455100744",
+          "label": "RS019",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "467460090",
+          "label": "RS020",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "467864145",
+          "label": "RS021",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "15994632",
+          "label": "RS022",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "132999153",
+          "label": "RS023",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "257464332",
+          "label": "RS024",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "296080348",
+          "label": "RS025",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "352725084",
+          "label": "RS026",
+          "kebc_60arcsec": [],
+          "toi": []
+        },
+        {
+          "tic": "394405964",
+          "label": "RS027",
+          "kebc_60arcsec": [],
+          "toi": []
+        }
+      ]
+    }
+  },
+  "scope": "Seven source groups in methods2.7; source-specific nearby entries adjudicated separately. Success is scoped; unavailable remains unknown. Generic RS variability is not prior eclipsing classification."
+}

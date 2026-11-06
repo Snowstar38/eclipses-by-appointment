@@ -1,0 +1,87 @@
+[
+  {
+    "tic": "34308477",
+    "checked_utc": "2026-11-06T04:00:53.120092+00:00",
+    "qlp_all_sectors": [
+      5,
+      32
+    ],
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=62.3029432066381&dec=-9.29486187352812",
+    "status": 200,
+    "response_sha256": "65413693f9f724f20bedafe7831bbaa64b6b094eb73ed860e01412ffb07970ed",
+    "response": {
+      "results": [
+        {
+          "sectorName": "tess-s0005-1-1",
+          "sector": "0005",
+          "camera": "1",
+          "ccd": "1"
+        },
+        {
+          "sectorName": "tess-s0032-2-4",
+          "sector": "0032",
+          "camera": "2",
+          "ccd": "4"
+        },
+        {
+          "sectorName": "tess-s0109-1-2",
+          "sector": "0109",
+          "camera": "1",
+          "ccd": "2"
+        }
+      ]
+    },
+    "tesscut_sectors": [
+      5,
+      32,
+      109
+    ]
+  },
+  {
+    "tic": "92872537",
+    "checked_utc": "2026-11-06T04:00:53.680695+00:00",
+    "qlp_all_sectors": [
+      1,
+      28,
+      68,
+      95
+    ],
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=317.734914101821&dec=-32.6177122629287",
+    "status": 200,
+    "response_sha256": "e7505a64b66f30c3a9be877d9210db59be0b232fd6ac182bfde56e6c11e148d2",
+    "response": {
+      "results": [
+        {
+          "sectorName": "tess-s0001-1-4",
+          "sector": "0001",
+          "camera": "1",
+          "ccd": "4"
+        },
+        {
+          "sectorName": "tess-s0028-1-4",
+          "sector": "0028",
+          "camera": "1",
+          "ccd": "4"
+        },
+        {
+          "sectorName": "tess-s0068-1-4",
+          "sector": "0068",
+          "camera": "1",
+          "ccd": "4"
+        },
+        {
+          "sectorName": "tess-s0095-1-4",
+          "sector": "0095",
+          "camera": "1",
+          "ccd": "4"
+        }
+      ]
+    },
+    "tesscut_sectors": [
+      1,
+      28,
+      68,
+      95
+    ]
+  }
+]

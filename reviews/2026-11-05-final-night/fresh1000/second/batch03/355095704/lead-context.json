@@ -1,0 +1,176 @@
+{
+  "sample_id": "Z119",
+  "tic": "355095704",
+  "gaia_period_d": 43.322889980035185,
+  "gaia_dr3": "6774723186115387136",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\bulk-results\\355095704.json",
+  "bulk_sha256": "0cc9f39473ca7d1b299867de9100d54cafe389f0a5ba9d7acae973b2160ef3c6",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\355095704_s001.fits",
+      "sha256": "3b5f921041ba785c658d77fdd05fbf3900ced48e8341a1a9b30002f69acc5566",
+      "sector": 1
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\355095704_s027.fits",
+      "sha256": "81c600dde2bd49d990b1bf5da9038a87cc7a191d111a2c2ebcccc1051e9053a4",
+      "sector": 27
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\355095704_s095.fits",
+      "sha256": "3d57587e2c15fb919dcd83596893346ea15dc56a18b3900fa3111c99fa663f1e",
+      "sector": 95
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 1,
+      "first_btjd": 1325.4122999483502,
+      "last_btjd": 1352.8910011998867,
+      "n": 1000,
+      "median_cadence_d": 0.020833142522860726,
+      "header": {
+        "TICID": 355095704,
+        "SECTOR": 1,
+        "RA_OBJ": 314.661572,
+        "DEC_OBJ": -38.765498
+      },
+      "flags": [
+        {
+          "sector": 1,
+          "screen_btjd": 1343.6621088056277,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 16.117240233236686,
+          "raw_minimum_btjd": 1343.7037744126649,
+          "raw_minimum_depth_ppt": 20.772461514785512,
+          "raw_median_core_depth_ppt": 17.1291822224946,
+          "n_window": 76,
+          "n_core": 8,
+          "first_btjd": 1342.7662978800429,
+          "last_btjd": 1344.557919003926,
+          "max_gap_d": 0.08333122191311304,
+          "baseline_sap": 1.0000313520431519,
+          "kspsap_baseline": 1.0000404119491577,
+          "source_sha256": "3b5f921041ba785c658d77fdd05fbf3900ced48e8341a1a9b30002f69acc5566"
+        }
+      ]
+    },
+    {
+      "sector": 27,
+      "first_btjd": 2036.3004852028248,
+      "last_btjd": 2060.516135965198,
+      "n": 2834,
+      "median_cadence_d": 0.006944595012100763,
+      "header": {
+        "TICID": 355095704,
+        "SECTOR": 27,
+        "RA_OBJ": 314.661593498,
+        "DEC_OBJ": -38.7655149628
+      },
+      "flags": [
+        {
+          "sector": 27,
+          "screen_btjd": 2036.5366035694462,
+          "screen_duration_d": 0.12,
+          "screen_depth_ppt": 17.113187972690458,
+          "raw_minimum_btjd": 2036.522714256654,
+          "raw_minimum_depth_ppt": 22.048611887577117,
+          "raw_median_core_depth_ppt": 18.0497401360995,
+          "n_window": 142,
+          "n_core": 16,
+          "first_btjd": 2036.3004852028248,
+          "last_btjd": 2037.4324636837273,
+          "max_gap_d": 0.020833978029259015,
+          "baseline_sap": 0.9995314478874207,
+          "kspsap_baseline": 0.9999940395355225,
+          "source_sha256": "81c600dde2bd49d990b1bf5da9038a87cc7a191d111a2c2ebcccc1051e9053a4"
+        }
+      ]
+    },
+    {
+      "sector": 95,
+      "first_btjd": 3883.7292631002724,
+      "last_btjd": 3906.6640820609673,
+      "n": 7682,
+      "median_cadence_d": 0.0023147807064560766,
+      "header": {
+        "TICID": 355095704,
+        "SECTOR": 95,
+        "RA_OBJ": 314.661593498,
+        "DEC_OBJ": -38.7655149628
+      },
+      "flags": [
+        {
+          "sector": 95,
+          "screen_btjd": 3898.462924864003,
+          "screen_duration_d": 0.24,
+          "screen_depth_ppt": 11.039628719302307,
+          "raw_minimum_btjd": 3898.4907021381564,
+          "raw_minimum_depth_ppt": 20.604507683899765,
+          "raw_median_core_depth_ppt": 12.956048632808525,
+          "n_window": 759,
+          "n_core": 101,
+          "first_btjd": 3897.564791891249,
+          "last_btjd": 3899.3610557297225,
+          "max_gap_d": 0.006944304403987189,
+          "baseline_sap": 1.001520812511444,
+          "kspsap_baseline": null,
+          "source_sha256": "3d57587e2c15fb919dcd83596893346ea15dc56a18b3900fa3111c99fa663f1e"
+        }
+      ]
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 1,
+      "screen_btjd": 1343.6621088056277,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 16.117240233236686,
+      "raw_minimum_btjd": 1343.7037744126649,
+      "raw_minimum_depth_ppt": 20.772461514785512,
+      "raw_median_core_depth_ppt": 17.1291822224946,
+      "n_window": 76,
+      "n_core": 8,
+      "first_btjd": 1342.7662978800429,
+      "last_btjd": 1344.557919003926,
+      "max_gap_d": 0.08333122191311304,
+      "baseline_sap": 1.0000313520431519,
+      "kspsap_baseline": 1.0000404119491577,
+      "source_sha256": "3b5f921041ba785c658d77fdd05fbf3900ced48e8341a1a9b30002f69acc5566"
+    },
+    {
+      "sector": 27,
+      "screen_btjd": 2036.5366035694462,
+      "screen_duration_d": 0.12,
+      "screen_depth_ppt": 17.113187972690458,
+      "raw_minimum_btjd": 2036.522714256654,
+      "raw_minimum_depth_ppt": 22.048611887577117,
+      "raw_median_core_depth_ppt": 18.0497401360995,
+      "n_window": 142,
+      "n_core": 16,
+      "first_btjd": 2036.3004852028248,
+      "last_btjd": 2037.4324636837273,
+      "max_gap_d": 0.020833978029259015,
+      "baseline_sap": 0.9995314478874207,
+      "kspsap_baseline": 0.9999940395355225,
+      "source_sha256": "81c600dde2bd49d990b1bf5da9038a87cc7a191d111a2c2ebcccc1051e9053a4"
+    },
+    {
+      "sector": 95,
+      "screen_btjd": 3898.462924864003,
+      "screen_duration_d": 0.24,
+      "screen_depth_ppt": 11.039628719302307,
+      "raw_minimum_btjd": 3898.4907021381564,
+      "raw_minimum_depth_ppt": 20.604507683899765,
+      "raw_median_core_depth_ppt": 12.956048632808525,
+      "n_window": 759,
+      "n_core": 101,
+      "first_btjd": 3897.564791891249,
+      "last_btjd": 3899.3610557297225,
+      "max_gap_d": 0.006944304403987189,
+      "baseline_sap": 1.001520812511444,
+      "kspsap_baseline": null,
+      "source_sha256": "3d57587e2c15fb919dcd83596893346ea15dc56a18b3900fa3111c99fa663f1e"
+    }
+  ]
+}

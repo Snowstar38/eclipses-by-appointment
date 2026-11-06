@@ -1,0 +1,125 @@
+{
+  "sample_id": "Z108",
+  "tic": "280692653",
+  "gaia_period_d": 54.8663379786091,
+  "gaia_dr3": "490489564469187072",
+  "bulk_result": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\bulk-results\\280692653.json",
+  "bulk_sha256": "88db3723d7a0ba595eef9489b16510d8ea59dd1ec9c950b2572e428ed984fb54",
+  "source": [
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\280692653_s019.fits",
+      "sha256": "c49a3f292cc67e701ec7ba3d9f78ca96730af24b65ee5f7fab06d2fe2092ef75",
+      "sector": 19
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\280692653_s059.fits",
+      "sha256": "5762644ebc962ce610bf07780b3280b48092a2f1733fa158f0d5f48312be3239",
+      "sector": 59
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\280692653_s073.fits",
+      "sha256": "1902c49ebc490ad3cae4a7634dd810445196929b295cad98718fce2ed7397031",
+      "sector": 73
+    },
+    {
+      "path": "[workspace]/Astra\\made\\final-night-2026-11-05\\fresh-band-next1000\\data\\280692653_s086.fits",
+      "sha256": "f95f79ccf1fc05a4ecc46566e11dec45f39079463180bf34c18aae5c4a6166ac",
+      "sector": 86
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 19,
+      "first_btjd": 1817.3273139645014,
+      "last_btjd": 1840.9730349085921,
+      "n": 903,
+      "median_cadence_d": 0.020833295380043637,
+      "header": {
+        "TICID": 280692653,
+        "SECTOR": 19,
+        "RA_OBJ": 63.8439826312,
+        "DEC_OBJ": 67.514137587
+      },
+      "flags": [
+        {
+          "sector": 19,
+          "screen_btjd": 1822.744016570617,
+          "screen_duration_d": 0.12,
+          "screen_depth_ppt": 6.218697702064957,
+          "raw_minimum_btjd": 1822.744016570617,
+          "raw_minimum_depth_ppt": 9.080132265579355,
+          "raw_median_core_depth_ppt": 7.284404668116973,
+          "n_window": 85,
+          "n_core": 5,
+          "first_btjd": 1821.8481804513021,
+          "last_btjd": 1823.6398515340773,
+          "max_gap_d": 0.04166681837705255,
+          "baseline_sap": 1.0001224875450134,
+          "kspsap_baseline": 1.0001748204231262,
+          "source_sha256": "c49a3f292cc67e701ec7ba3d9f78ca96730af24b65ee5f7fab06d2fe2092ef75"
+        }
+      ]
+    },
+    {
+      "sector": 59,
+      "first_btjd": 2911.604544648912,
+      "last_btjd": 2936.6577001097694,
+      "n": 9916,
+      "median_cadence_d": 0.0023148048821894918,
+      "header": {
+        "TICID": 280692653,
+        "SECTOR": 59,
+        "RA_OBJ": 63.8439826312,
+        "DEC_OBJ": 67.514137587
+      },
+      "flags": []
+    },
+    {
+      "sector": 73,
+      "first_btjd": 3285.8405380786603,
+      "last_btjd": 3312.604011060263,
+      "n": 7409,
+      "median_cadence_d": 0.002314785414682774,
+      "header": {
+        "TICID": 280692653,
+        "SECTOR": 73,
+        "RA_OBJ": 63.8439826312,
+        "DEC_OBJ": 67.514137587
+      },
+      "flags": []
+    },
+    {
+      "sector": 86,
+      "first_btjd": 3636.5055048386253,
+      "last_btjd": 3662.804184851407,
+      "n": 6006,
+      "median_cadence_d": 0.002314831498097192,
+      "header": {
+        "TICID": 280692653,
+        "SECTOR": 86,
+        "RA_OBJ": 63.8439826312,
+        "DEC_OBJ": 67.514137587
+      },
+      "flags": []
+    }
+  ],
+  "flag_events": [
+    {
+      "sector": 19,
+      "screen_btjd": 1822.744016570617,
+      "screen_duration_d": 0.12,
+      "screen_depth_ppt": 6.218697702064957,
+      "raw_minimum_btjd": 1822.744016570617,
+      "raw_minimum_depth_ppt": 9.080132265579355,
+      "raw_median_core_depth_ppt": 7.284404668116973,
+      "n_window": 85,
+      "n_core": 5,
+      "first_btjd": 1821.8481804513021,
+      "last_btjd": 1823.6398515340773,
+      "max_gap_d": 0.04166681837705255,
+      "baseline_sap": 1.0001224875450134,
+      "kspsap_baseline": 1.0001748204231262,
+      "source_sha256": "c49a3f292cc67e701ec7ba3d9f78ca96730af24b65ee5f7fab06d2fe2092ef75"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "request_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2CDISTANCE%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CPOINT%28%27ICRS%27%2C131.523862028%2C-27.5528178711%29%29%2A3600+AS+sep+FROM+gaiadr3.gaia_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C131.523862028%2C-27.5528178711%2C0.0166667%29%29",
+  "response_sha256": "54615f07501b3cb09b36b1528687a83a2d1fdc49bca2f82615cb3e49ff38ab69",
+  "target_G": 11.807946,
+  "target_gaia": "5645992831406897408",
+  "neighbors_sorted": [
+    {
+      "source_id": "5645992762687421440",
+      "sep_arcsec": 14.487021695858065,
+      "G": 14.271151,
+      "relative_G_flux": 0.10344702370306148,
+      "idealized_required_intrinsic_loss": 0.31094648835701444,
+      "wcs_xy": [
+        5.939294445161636,
+        5.133435016376273
+      ]
+    },
+    {
+      "source_id": "5645992797047151872",
+      "sep_arcsec": 39.84467537517126,
+      "G": 14.959237,
+      "relative_G_flux": 0.0548887827896427,
+      "idealized_required_intrinsic_loss": 0.5602414574979867,
+      "wcs_xy": [
+        7.0178876909062495,
+        6.936726716650655
+      ]
+    },
+    {
+      "source_id": "5645992831406898944",
+      "sep_arcsec": 11.818410871370954,
+      "G": 16.008257,
+      "relative_G_flux": 0.020886977552615118,
+      "idealized_required_intrinsic_loss": 1.4248010709891505,
+      "wcs_xy": [
+        4.956854402372851,
+        5.835654043450062
+      ]
+    },
+    {
+      "source_id": "5645992831406901888",
+      "sep_arcsec": 18.53926315066467,
+      "G": 16.02441,
+      "relative_G_flux": 0.02057853245049943,
+      "idealized_required_intrinsic_loss": 1.4457200289555052,
+      "wcs_xy": [
+        4.626672246908833,
+        5.53449799737853
+      ]
+    }
+  ],
+  "note": "Idealized required intrinsic loss uses Gaia G flux ratio and observed aperture loss assuming target and neighbor fully captured and no other flux. Approximate only: Gaia G differs from TESS band, aperture throughput and additional stars change budget. Missing Gaia sources or unresolved companions not excluded."
+}
