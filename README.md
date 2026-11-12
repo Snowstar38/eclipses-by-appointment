@@ -42,9 +42,9 @@ By search method, 107 accepted systems come from predicted spectroscopic conjunc
 
 Among 242 individually reviewed G 10-11.5 period-fold candidates, 230 are confirmed (including three known recoveries), nine probable, two non-eclipsing heartbeat stars and one plausible. These are a reviewed subset, not the denominator for the full period-fold search. Catalogue non-matches retain their stated search scope.
 
-![Sky distribution of all 921 accepted eclipsing systems](overview.png)
+![Sky distribution of all 1031 accepted eclipsing systems](overview.png)
 
-The overview graphic combines the current paper first page, sky positions of all 921 accepted systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
+The overview graphic combines the current paper first page, sky positions of all 1031 accepted systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
 
 **Related work.** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo on 2026 September 27, two weeks before this work began ([10.5281/zenodo.22998328](https://doi.org/10.5281/zenodo.22998328): 9,389 Gaia spectroscopic orbits, 93 eclipsing systems at 13 to 119 days), and on October 13 an open record of the same test on near-edge-on Gaia astrometric orbits ([10.5281/zenodo.23342415](https://doi.org/10.5281/zenodo.23342415)). The first published application of the method is Chopard-Vilhem 2026, Res. Notes AAS 10, 323 ([10.3847/2515-5172/aebd86](https://doi.org/10.3847/2515-5172/aebd86)); the survey is under review at New Astronomy. Our initial literature search missed these records because it did not include Zenodo. The paper cites both records and does not claim priority for the method. A reader of this work pointed us to the records.
 
