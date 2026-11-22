@@ -1,11 +1,11 @@
 {
-  "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
+  "ledger_sha256": "9d42893cb7e2fc9fcf5961b7fafd7b97829f3b99719635eb6e290eefb1329ef8",
   "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
   "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
   "accepted": {
-    "all": 1031,
-    "confirmed": 869,
-    "probable": 162
+    "all": 1138,
+    "confirmed": 957,
+    "probable": 181
   },
   "operation": {
     "prior_known_removals": 17,
@@ -13,34 +13,38 @@
     "A74_probable_to_confirmed": 1,
     "later_eligible_dip_additions": 8
   },
-  "scientific_register_rows": 936,
-  "reviewed_R_rows": 822,
+  "scientific_register_rows": 1043,
+  "reviewed_R_rows": 945,
   "post_R675": {
-    "rows": 163,
+    "rows": 270,
     "physical": {
-      "confirmed": 79,
-      "probable": 76,
+      "confirmed": 167,
+      "probable": 95,
       "plausible": 8
     },
     "novelty": {
-      "new_claim": 130,
+      "new_claim": 150,
       "not_claim_eligible": 7,
       "known_prior_recovery": 25,
-      "pending_novelty": 1
+      "pending_novelty": 1,
+      "prior_machine_candidate_validation": 87
     }
   },
   "counted_scientific_method": {
-    "Gaia spectroscopic-orbit period fold": 699,
+    "Gaia spectroscopic-orbit period fold": 700,
     "conjunction_windows": 22,
-    "Gaia spectroscopic conjunction windows": 2,
+    "Gaia spectroscopic conjunction windows": 20,
     "Period-free dip screening": 46,
-    "Faint-band conjunction and raw-event screening": 66
+    "Faint-band conjunction and raw-event screening": 66,
+    "Photometric screening of Gaia radial-velocity scatter targets": 84,
+    "Archival photometric screening of short Gaia spectroscopic orbits": 3,
+    "Difference-image attribution of field variability": 1
   },
   "counted_scientific_tier": {
-    "CONFIRMED": 684,
-    "PROBABLE": 151
+    "CONFIRMED": 772,
+    "PROBABLE": 170
   },
-  "map_sha256": "9d8fc628286780ca52d9be94e3cb2235858b20cc12447f465f6f06e81a25dc78",
+  "map_sha256": "84280b2a6d9bcd53335814327c66361abfff19ea2d97d7dcc871de59832350b8",
   "period_free_reviews": {
     "reviewed": 380,
     "confirmed": 29,
@@ -59,14 +63,17 @@
   },
   "scope": "Current accounting; historical reports and supplements preserve their original labels. Physical classification is separate from catalogue novelty and unique inclusion.",
   "accepted_all_method_totals": {
-    "spectroscopic_conjunction": 107,
-    "Gaia_period_fold": 804,
+    "spectroscopic_conjunction": 125,
+    "Gaia_period_fold": 805,
     "nearby_M_dwarf_selected": 4,
     "near_edge_on_astrometric_orbit": 4,
     "period_free_dip_screening": 46,
-    "faint_band_conjunction_and_raw_event": 66
+    "faint_band_conjunction_and_raw_event": 66,
+    "RV_scatter_selected_photometric_screening": 84,
+    "archival_short_orbit_photometric_screening": 3,
+    "localized_periodic_field_source": 1
   },
-  "claim_decision_sha256": "2c12aa8ea1996dade4ad1747224c5abc29cd75a6f8fcf147b3bc7a76ab71a3f1",
+  "claim_decision_sha256": "d6a80ed6d7a026a1c4ed5fa6a24ff33b32591c3893a8d29449a1ba2753268da8",
   "prior_publication_before_reconciliation": {
     "all": 917,
     "confirmed": 812,
@@ -85,11 +92,31 @@
     "newly_reviewed_supplementary_catalogue_checks": "ASAS-SN, SB9 and WDS unavailable; no added eclipsing claim"
   },
   "latest_review_campaign": {
-    "scope": "Current final-night revision, including controlled catalogue recovery and new physical reviews.",
-    "reviewed": 168,
-    "count_change_from_prior_publication": 110,
-    "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
-    "receipt": "reviews/2026-11-05-final-night/README.md"
+    "date": "2026-11-22",
+    "reviewed_fields": 352,
+    "main_queue_fields": 287,
+    "periodic_extension_fields": 65,
+    "distinct_counted_hosts": 107,
+    "count_change_from_prior_publication": 107,
+    "counts_by_prior": {
+      "no_earlier_eclipse_candidate_in_scoped_checks": {
+        "confirmed": 15,
+        "probable": 5
+      },
+      "previously_unvetted_machine_candidate": {
+        "confirmed": 73,
+        "probable": 14
+      }
+    },
+    "numbered_reviews": {
+      "first": "R839",
+      "last": "R945"
+    },
+    "ledger_sha256": "9d42893cb7e2fc9fcf5961b7fafd7b97829f3b99719635eb6e290eefb1329ef8",
+    "receipt": "reviews/2026-11-22-eclipse-review/index.md",
+    "host_register": "reviews/2026-11-22-eclipse-review/host-stars.csv",
+    "field_register": "reviews/2026-11-22-eclipse-review/field-outcomes.csv",
+    "scope": "106 additions are named queue targets and one is a different source localized in a reviewed field. Named survey candidates and separate eclipse follow-ups remain outside this addition."
   },
   "literature_corrections": {
     "removed_claims": [
@@ -326,10 +353,51 @@
     "ledger_sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528",
     "scope": "Historical next100 campaign before this revision; not current cumulative totals."
   },
-  "highest_R_identifier": 838,
+  "highest_R_identifier": 945,
   "review_population_baseline": {
     "scope": "Frozen reviewed identity population before final-night catalogue recovery and new physical reviews",
     "rows": 1317,
     "sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528"
-  }
+  },
+  "historical_2026_11_05": {
+    "accepted": {
+      "all": 1031,
+      "confirmed": 869,
+      "probable": 162
+    },
+    "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
+    "scientific_register_sha256": "85e56141f5ca29cfb0442bd6b2b40705f906d37c503303d016270c7133b484ac",
+    "scientific_register_rows": 936,
+    "numbered_R_rows": 838,
+    "claim_adjudication_sha256": "2c12aa8ea1996dade4ad1747224c5abc29cd75a6f8fcf147b3bc7a76ab71a3f1",
+    "map_sha256": "9d8fc628286780ca52d9be94e3cb2235858b20cc12447f465f6f06e81a25dc78",
+    "latest_review_campaign": {
+      "scope": "Current final-night revision, including controlled catalogue recovery and new physical reviews.",
+      "reviewed": 168,
+      "count_change_from_prior_publication": 110,
+      "ledger_sha256": "0194a7d70eadf1341803b3c0373063d3b959d61fdf1652ba185098be317defcf",
+      "receipt": "reviews/2026-11-05-final-night/README.md"
+    },
+    "post_R675": {
+      "rows": 163,
+      "physical": {
+        "confirmed": 79,
+        "probable": 76,
+        "plausible": 8
+      },
+      "novelty": {
+        "new_claim": 130,
+        "not_claim_eligible": 7,
+        "known_prior_recovery": 25,
+        "pending_novelty": 1
+      }
+    },
+    "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
+    "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28"
+  },
+  "ledger_file": "accepted-systems.csv",
+  "ledger_scope": "One row per counted host. Historical rows retain their published identifiers and tiers. Gaia DR3 is blank where the previous accepted ledger supplied no identifier.",
+  "historical_digest_scope": "The delta_sha256 and identity_accounting_sha256 fields describe the earlier baseline reconciliation.",
+  "scientific_register_sha256": "658557bb451480b9d7110c5eb5b07850b5c18432f6e53de0d36be6e91d3850ec",
+  "claim_decision_scope": "The adjudication register covers selected review campaigns. The accepted-systems ledger supplies the complete counted roster."
 }

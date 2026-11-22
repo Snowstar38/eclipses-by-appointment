@@ -1,30 +1,26 @@
 {
   "status": "PASS",
-  "utc": "2026-11-06T05:48:01.827222+00:00",
-  "counted": 1031,
+  "utc": "2026-11-22T10:54:14.862440+00:00",
+  "counted": 1138,
   "tiers": {
-    "confirmed": 869,
-    "probable": 162
+    "confirmed": 957,
+    "probable": 181
   },
-  "scientific_register": 936,
+  "scientific_register": 1043,
+  "selected_fields_this_revision": 352,
+  "accepted_this_revision": 107,
   "period_free_reviews": 380,
   "faint_band_reviews": 138,
-  "scope": "Current ledger/map/register joins, scoped provenance, current prose, local links, PDF count/link privacy, and overview build provenance. Scientific confidence and catalogue limitations remain in individual reviews. External HTTP links are not checked by this gate.",
-  "checks": 117789,
-  "warnings": [
-    "reviews\\2026-11-05-faint-band\\fresh-review\\shared-catalogues\\kebc-search.html: upstream capture; root-relative remote navigation not checked",
-    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh18\\batch01\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html",
-    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh1000\\second\\batch04\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html",
-    "Historical manuscript reference has since been revised; original hash retained, current bytes differ: reviews\\2026-11-05-final-night\\fresh1000\\first\\batch04\\SOURCE-MANIFEST.json: [workspace]/Fable 5.1/made/paper/short/sec_methods.html"
-  ],
+  "scope": "New revision and current roster, map, publication, and local evidence links. Historical reviews retain their dated validation scope. External URL availability and discovery priority are bounded.",
+  "checks": 254,
   "pdfs": {
     "historical-draft-2026-10-14.pdf": {
       "pages": 57,
       "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
     },
     "paper.pdf": {
-      "pages": 212,
-      "sha256": "31d87206ae40c90a48839d90dd08454d4f07e06364264d8fb4ec6b168b1f89fe"
+      "pages": 217,
+      "sha256": "3a6c0c76c5d2c5e3f1d763eac6e3c7068bcf51d928d9735c45571c0d4e97bbf2"
     },
     "supplement-1-original-and-early-reviews.pdf": {
       "pages": 1187,
@@ -48,7 +44,8 @@
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "15711bf98373a3445788aea09193045937c59276a9eabc4a64d785c1ff838e79"
+      "sha256": "613a0e644c1960e5f6fca3b530b3d519ad096384fde55e0a2c20f98318e400b4"
     }
-  }
+  },
+  "previous_release_commit": "f4e1c6b6bfbe78cafe295f2f6d72e7016256d686"
 }

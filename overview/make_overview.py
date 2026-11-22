@@ -28,9 +28,9 @@ assert np.all(np.isfinite(ra)) and np.all((0 <= ra) & (ra < 360))
 assert np.all(np.isfinite(dec)) and np.all(abs(dec) <= 90)
 with pymupdf.open(args.paper) as pdf:
     page0 = pdf[0]
-    headline = re.search(r"Eclipses by Appointment:\s*(\d+)\s+Eclipsing Systems", page0.get_text())
+    headline = re.search(r"Eclipses by Appointment:\s*([\d,]+)\s+Eclipsing Systems", page0.get_text())
     assert headline, "Paper first-page system-count headline not found"
-    assert int(headline.group(1)) == len(rows), "Paper headline and map sample count disagree"
+    assert int(headline.group(1).replace(",", "")) == len(rows), "Paper headline and map sample count disagree"
     # Original image was rendered to a width of 1785 pixels before cropping.
     pix = page0.get_pixmap(matrix=pymupdf.Matrix(1785/page0.rect.width, 1785/page0.rect.width), alpha=False)
     paper_image = Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
