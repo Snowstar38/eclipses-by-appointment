@@ -1,26 +1,34 @@
 {
   "status": "PASS",
-  "utc": "2026-11-22T10:54:14.862440+00:00",
-  "counted": 1138,
+  "utc": "2026-11-23T10:31:47.414356+00:00",
+  "counted": 1894,
   "tiers": {
-    "confirmed": 957,
-    "probable": 181
+    "confirmed": 1463,
+    "probable": 431
   },
-  "scientific_register": 1043,
-  "selected_fields_this_revision": 352,
-  "accepted_this_revision": 107,
+  "scientific_register": 1799,
+  "reviewed_stars_this_revision": 1161,
+  "accepted_this_revision": 756,
+  "accepted_this_revision_by_search": {
+    "SPOC two-minute threshold-crossing events not promoted to objects of interest": 211,
+    "TESS-SPOC full-frame threshold-crossing events not promoted to objects of interest": 302,
+    "Spectroscopic binaries from ground-based surveys (LAMOST, APOGEE, GALAH, RAVE, Gaia-ESO)": 243
+  },
   "period_free_reviews": 380,
   "faint_band_reviews": 138,
   "scope": "New revision and current roster, map, publication, and local evidence links. Historical reviews retain their dated validation scope. External URL availability and discovery priority are bounded.",
-  "checks": 254,
+  "checks": 68,
+  "warnings": [
+    "wording: paper.html uses ['new eclipsing', 'new eclipsing'] in changed lines (house style: 'not in the sources checked')"
+  ],
   "pdfs": {
     "historical-draft-2026-10-14.pdf": {
       "pages": 57,
       "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
     },
     "paper.pdf": {
-      "pages": 217,
-      "sha256": "3a6c0c76c5d2c5e3f1d763eac6e3c7068bcf51d928d9735c45571c0d4e97bbf2"
+      "pages": 253,
+      "sha256": "5646add8774f112e451759743a86a163a8703129d10355e2d1ac2b8ee4bec9fe"
     },
     "supplement-1-original-and-early-reviews.pdf": {
       "pages": 1187,
@@ -44,8 +52,8 @@
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "613a0e644c1960e5f6fca3b530b3d519ad096384fde55e0a2c20f98318e400b4"
+      "sha256": "620a4cdf4d95b557665c69ca96eb0daa01333b9999ca8854e4af4158e8148a63"
     }
   },
-  "previous_release_commit": "f4e1c6b6bfbe78cafe295f2f6d72e7016256d686"
+  "previous_release_commit": "3664cdec5898e3ad79c4ea6be58d7291c40903b3"
 }

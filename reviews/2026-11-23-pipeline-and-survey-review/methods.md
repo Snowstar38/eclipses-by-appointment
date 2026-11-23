@@ -1,0 +1,42 @@
+# Methods and data dictionary
+
+## Searches
+
+Two of the searches start from the TESS pipelines' own detections. A **threshold-crossing event** is a periodic signal that the SPOC or TESS-SPOC pipeline detected in a light curve. Most are never promoted to TESS objects of interest. For each event the pipeline supplied a trial period, depth and duration. Every one of these was re-measured here from the photometry; the pipeline's values only chose where to look.
+
+- **SPOC two-minute threshold-crossing events not promoted to objects of interest.** The SPOC two-minute search read all 342,199 threshold-crossing events in 133 public SPOC data-validation runs (68,624 stars). Eclipse-like signals on stars that are not TESS or community objects of interest, not in Prša et al. (2022) and not in this catalogue were passed through the catalogue screen; 2,775 remained, and the light curves of the 1,528 best ranked were re-measured before the per-object review. 299 stars were reviewed individually.
+- **TESS-SPOC full-frame threshold-crossing events not promoted to objects of interest.** The TESS-SPOC full-frame search read the 82,217 threshold-crossing events of sectors 40–56 (17 of the 51 sectors with full-frame data-validation products; 40,539 stars), excluding stars with any two-minute event. After the same screens 1,213 remained, and 483 light curves were re-measured before the per-object review. 348 stars were reviewed individually.
+- **Spectroscopic binaries from ground-based surveys (LAMOST, APOGEE, GALAH, RAVE, Gaia-ESO).** The ground-survey search took 32,465 spectroscopic-binary entries from LAMOST, APOGEE, GALAH, RAVE and Gaia-ESO, kept 25,523 stars with TESS magnitude below 13.5 and without a Gaia DR3 orbit under 60 d (those were searched earlier in this work), and searched two TESS-QLP sectors of each for eclipses. Of 2,187 stars with a flagged signal, 923 survived a numeric vet and a catalogue screen. 517 were reviewed individually.
+
+The unvetted machine-learning table of Kostov et al. (2025, table 2), about 900,000 targets, supplies identifiers only: TIC, position and magnitude. It gives no period, depth or epoch, and no star entered this review because of it. A star in that table, or classified as eclipsing by the Gaia DR3 variability classifier and nowhere else, is counted as a prior machine-selected candidate, and the review is a validation of that flag.
+
+## Review
+
+Each star was re-measured over all available TESS sectors (at most eight well-spread sectors for stars with more) in photometry independent of the detecting pipeline. The period comes from a blind search of the new photometry and from the individual eclipse times; the doubled period was tested from alternate-eclipse depths and timing and a search for a secondary eclipse. Difference images in up to three sectors were compared with the target and with every Gaia DR3 source within 90 arcseconds bright enough to produce the eclipse. A second look came from ZTF, ASAS-SN Sky Patrol or Gaia DR3 epoch photometry folded on the new ephemeris, or from a second TESS reduction.
+
+- **Confirmed**: a repeating discrete eclipse in that photometry; a period from the eclipses themselves; difference images in at least two sectors favouring the target over every Gaia DR3 source within 60 arcseconds bright enough to supply the depth; and a second look, either a ground-survey detection at the predicted phase or two independent TESS reductions.
+- **Probable**: a real repeating eclipse with one named limitation, given in the `limitation` column.
+- Smooth, contact-like and ellipsoidal variables are excluded. Two equal minima per orbit at periods under 0.5 d are never above candidate.
+
+The catalogue check covers the seven source groups of the paper's Methods (VSX, SIMBAD, Gaia DR3 eclipsing binaries, Prša et al. 2022, IJspeert et al. 2024, the vetted tables of Kostov et al. 2025 and ASAS-SN), the Gaia DR3 non-single-star tables, TESS and community objects of interest, K2 eclipsing-binary catalogues by position for stars near the ecliptic, the SuperWASP false-positive catalogue of Schanche et al. (2019), and this catalogue by TIC and by position within 5 arcseconds.
+
+## Limitations
+
+- **Second look.** Of the 506 confirmed systems, 316 have a ground-survey detection at the predicted phase. The others rest on two independent TESS reductions.
+- **Catalogue gate.** The SuperWASP false-positive catalogue of Schanche et al. (2019, MNRAS 488, 4905) was missing from the first gates and alone removed 36 stars that the other checks had passed. It is applied to every row here.
+- **Literature depth.** SIMBAD object types and paper titles, and abstracts where available, were read. No full paper texts were read.
+- **Periods.** Of the confirmed systems, 83 list an alternative period at a factor of two (`period_alternative_days`).
+- **Attribution.** TESS pixels are 21 arcseconds. "On target" excludes capable neighbours beyond about 10 arcseconds; closer companions cannot be excluded.
+- **Visual inspection.** Every star was also assessed visually. A diagnostic sheet of the light curve by sector, the folds at the period and at twice the period, and the individual eclipses was drawn for 1,140 stars and read blind, without the numeric outcome. Where that reading and the numeric review disagreed, or the reading was unsure (253 stars), a second reviewer adjudicated from the sheet. Where the reviewer questioned a period or a noisy sector hid the eclipses, the period was refitted from individual eclipses and the star judged again on a cleaned sheet (50 stars). Of the 756 systems added, 624 were accepted by the numeric review and the first reading together and 132 after adjudication; 72 of these had failed the numeric shape test, which rejected some plain detached eclipses, and are listed as probable or confirmed on the visual evidence. Twenty-eight periods come from the refit, and eight were doubled on the cleaned sheet. Stars whose difference images place the eclipse on a neighbour (107) are not added under the target.
+- No historical search establishes absolute priority.
+
+## Tables
+
+- A **TIC** or **Gaia DR3 source ID** is an identifier. Import those fields as text so spreadsheet software preserves every digit. Positions are in decimal degrees on ICRS.
+- `adopted_epoch_btjd` is BJD on the TDB time scale minus 2,457,000, at a primary eclipse. `adopted_period_days` is the adopted period; `period_alternative_days`, when filled, is the other period at a factor of two that the photometry does not exclude, and `period_resolution` records the test. Values carry working precision, not calibrated timing errors.
+- `depth_ppt` is the primary eclipse depth in parts per thousand of the measured flux, diluted by any blended light; `duration_h` is in hours. `secondary_phase` and `secondary_depth_ppt` describe a secondary eclipse where one was found.
+- `n_events_prim` counts measured primary eclipses and `n_sectors` the TESS sectors used. `attribution` summarises the difference images. `ground_survey_detection` lists the surveys that see the eclipse at the predicted phase. `superwasp_schanche2019` is blank when the star is not in that table.
+- `search` names the search that found the system and `publication_group` its earlier eclipse evidence; `prior_eclipse_status` states which machine lists apply. `reason` is the reviewer's summary and `limitation` restates the limits in plain words. `visual_review` says whether the first reading of the diagnostic sheet agreed with the numeric review or the star was adjudicated; `numeric_tier` is the tier before the visual review; `period_source` says whether the period is the numeric review's or was refitted from individual eclipses after the visual review.
+- `reviewed-stars.csv` has one row per star and search reviewed. `lane_tier` is the numeric review's outcome before the visual review (confirmed, probable, candidate or refuted) and `outcome` says whether the star was added, under which ID, or why not.
+
+[Host table](host-stars.csv) · [Review summary](index.md)
