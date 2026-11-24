@@ -20,7 +20,7 @@ The first three and the fifth use only the Python standard library; the fourth n
 
 Script: [`nov23_columns.py`](nov23_columns.py). Rows: [`nov23-column-flags.csv`](nov23-column-flags.csv).
 
-**The second release passes its own rules.** All 101 rows added in the second release (99 ground-survey binaries and two refitted pipeline rows; 4 confirmed, 97 probable) pass the tier checks of the earlier audit's `rule_checks.py` (PR #2). The only flags are informational words in the visual notes (spot, ellipsoidal).
+**The second release passes its own rules.** All 101 rows added in the second release (99 ground-survey binaries and two refitted pipeline rows; 4 confirmed, 97 probable) pass the tier checks of the earlier audit's `rule_checks.py` (in `reviews/2026-11-24-audit-of-nov23-additions/`). The only flags are informational words in the visual notes (spot, ellipsoidal).
 
 **(a) Fifteen rows adopt twice the period but record no secondary eclipse.** In these rows `period_resolution` says the alternate dips are unequal, or odd and even eclipses differ in timing, so 2P is adopted. That means a second, different eclipse was measured, yet `secondary_phase` and `secondary_depth_ppt` are blank. Seven are confirmed (R1131, R1433, R1443, R1457, R1474, R1475, R1515). In several the visual note describes the secondary directly, for example R1013 ("17% secondary at phase 0.5") and R1732 ("somewhat shallower secondary").
 *Suggested fix:* fill the secondary columns from the alternate-dip measurement the period test already made.
