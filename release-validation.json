@@ -1,25 +1,72 @@
 {
   "status": "PASS",
-  "utc": "2026-11-24T03:52:30.925445+00:00",
-  "counted": 1993,
+  "utc": "2026-11-24T23:01:23.831486+00:00",
+  "counted": 2010,
   "tiers": {
-    "confirmed": 1463,
-    "probable": 530
+    "confirmed": 1477,
+    "probable": 533
   },
-  "scientific_register": 1898,
-  "reviewed_stars_this_revision": 1567,
-  "accepted_this_revision": 855,
+  "scientific_register": 1915,
+  "reviewed_stars_this_revision": 24,
+  "accepted_this_revision": 17,
   "accepted_this_revision_by_search": {
-    "SPOC two-minute threshold-crossing events not promoted to objects of interest": 211,
-    "TESS-SPOC full-frame threshold-crossing events not promoted to objects of interest": 302,
-    "Spectroscopic binaries from ground-based surveys (LAMOST, APOGEE, GALAH, RAVE, Gaia-ESO)": 342
+    "Gaia epoch photometry at spectroscopic conjunctions": 13,
+    "Gaia epoch photometry with wider eclipse windows": 4
   },
   "period_free_reviews": 380,
   "faint_band_reviews": 138,
-  "scope": "New revision and current roster, map, publication, and local evidence links. Historical reviews retain their dated validation scope. External URL availability and discovery priority are bounded.",
-  "checks": 68,
-  "warnings": [
-    "wording: paper.html uses ['new eclipsing', 'new eclipsing'] in changed lines (house style: 'not in the sources checked')"
+  "previous_release_commit": "ebaf0144e2fffb696c8ef41dfe9445c04dc4a4a3",
+  "checks": 49,
+  "check_details": [
+    "Release retains the public parent",
+    "Only release paths changed",
+    "Previous records preserved: accepted-systems.csv",
+    "17 distinct additions: accepted-systems.csv",
+    "Previous records preserved: scientific-review-register.csv",
+    "17 distinct additions: scientific-review-register.csv",
+    "Previous records preserved: claim-adjudication.csv",
+    "17 distinct additions: claim-adjudication.csv",
+    "Previous records preserved: overview/systems.csv",
+    "17 distinct additions: overview/systems.csv",
+    "All 24 reviews accounted for",
+    "All 17 accepted hosts accounted for",
+    "Exact identifiers in accepted-systems.csv",
+    "Exact identifiers in scientific-review-register.csv",
+    "Exact identifiers in claim-adjudication.csv",
+    "Exact identifiers in overview/systems.csv",
+    "Exact identifiers in reviews/2026-11-24-gaia-epoch-review/host-stars.csv",
+    "Published timings and tiers agree with local review",
+    "2,010 unique catalogue TICs",
+    "Map IDs and tiers match catalogue",
+    "Physical tiers",
+    "Adjudication source hash for R1803",
+    "Adjudication source hash for R1804",
+    "Adjudication source hash for R1805",
+    "Adjudication source hash for R1806",
+    "Adjudication source hash for R1807",
+    "Adjudication source hash for R1808",
+    "Adjudication source hash for R1809",
+    "Adjudication source hash for R1810",
+    "Adjudication source hash for R1811",
+    "Adjudication source hash for R1812",
+    "Adjudication source hash for R1813",
+    "Adjudication source hash for R1814",
+    "Adjudication source hash for R1815",
+    "Adjudication source hash for R1816",
+    "Adjudication source hash for R1817",
+    "Adjudication source hash for R1818",
+    "Adjudication source hash for R1819",
+    "Current accounting",
+    "Overview image dimensions",
+    "New HTML link reviews/2026-11-24-shared-stars/spectroscopic-overlap.csv",
+    "New HTML link #m-nov24",
+    "New HTML link reviews/2026-11-24-shared-stars/a73-events.csv",
+    "Release count in paper.pdf",
+    "No local file links in paper.pdf",
+    "Appendix contains all new IDs",
+    "Credit appears in typeset paper",
+    "Supplement points to current release",
+    "No local file links in supplement.pdf"
   ],
   "pdfs": {
     "historical-draft-2026-10-14.pdf": {
@@ -27,8 +74,8 @@
       "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
     },
     "paper.pdf": {
-      "pages": 259,
-      "sha256": "d41d354a6cb5cfc9dc4ce8e7ac3c77f387924ea9eb057caafd13f3da97b34420"
+      "pages": 262,
+      "sha256": "e37df504227ee235b2d63538a87fb004ea71ffdfe1191f2e3f7bfa995cf1deb8"
     },
     "supplement-1-original-and-early-reviews.pdf": {
       "pages": 1187,
@@ -52,8 +99,9 @@
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "67cbe36d123ea2d8919febce9c4a548681508ac0e74e175d8d37c0790167d72d"
+      "sha256": "918f29a3dd701a43c5c4fb4d8f0a58f57380132e4659fbe874c299ecce1d6980"
     }
   },
-  "previous_release_commit": "3664cdec5898e3ad79c4ea6be58d7291c40903b3"
+  "warnings": [],
+  "scope": "Current release identities, tiers, measured ephemerides, evidence tables, cross-register consistency, map and rendered documents. Catalogue priority is bounded by the sources examined."
 }
