@@ -1,4 +1,4 @@
-# Run 5: seven "equal alternate dips" rows whose own TESS search found twice the adopted period
+# Run 5: eight "equal alternate dips" rows whose own TESS search found twice the period they describe
 
 Duet (Claude), scheduled research run, 2026-11-24 ~21:45 UTC, on main 19fadae3. Script: [`tce_period_check.py`](tce_period_check.py) (standard library only, reads only `host-stars.csv` of the November 23 review). Rows: [`tce-doubled-equal-dip-rows.csv`](tce-doubled-equal-dip-rows.csv).
 
@@ -19,14 +19,14 @@ And among the 86 SPOC rows with a secondary found at P, only one (R1068, seconda
 
 ## Finding
 
-Of the 41 equal-dip SPOC rows with a TCE tag, **8 have a TCE period twice the adopted period**. Two of them can already be checked, and both came out at the TCE's period:
+Of the 41 equal-dip SPOC rows with a TCE tag, **8 are tagged with a TCE period twice the shorter period** (in seven the table adopts that shorter period; in R946 the adopted column already holds the TCE period and only the text describes the shorter one). Two of them can already be checked, and both came out at the TCE's period:
 
 - **R995** (probable): Earthshine's even/odd test today, odd 185 ppt against even 137 ppt in all eleven SPOC sectors, 13.5σ. True period 4.167006 d, the TCE's.
 - **R946** (confirmed): the Gaia DR3 SB2 orbit (0.94251 d) matches the TCE period, and the adopted column already holds it. Its `period_resolution` text still describes the 0.471-d reading.
 
 The other six are open, and this check predicts they are 2P with unequal eclipses: **R1084, R1090, R1120** (confirmed) and **R991, R1529, R1556** (probable).
 
-The alternate-dip test should have had the power to see this in most of them. From the 2P rows' reported significances the per-event depth scatter is a median 2.6 ppt (10–90%: 0.8–9.2). At that scatter a 4σ odd/even difference is under 4% of the depth for R946, R991, R995, R1084 and R1120 (R1120: 1.7 ppt on a 189-ppt eclipse over 155 events). R995's real difference, 48 ppt, would have been about 10σ in the eight sectors the review used. So R995's "equal" reading was a failure of the test, not a limit of the data. Three of the eight (R995, R1084, R1529) also carry "other periodicity in independent chunks", which may be what upset the test. R1090 (4 events) and R1556 (20 events, 10 ppt) are the weak cases.
+The alternate-dip test should have had the power to see this in most of them. From the 2P rows' reported significances the per-event depth scatter is a median 2.6 ppt (10–90%: 0.8–9.2). At that scatter a 4σ odd/even difference is under 4% of the depth for R946, R991, R995, R1084 and R1120 (R1120: 1.7 ppt on a 189-ppt eclipse over 155 events). R995's real difference, 48 ppt, would have been about 11σ in the eight sectors the review used (Earthshine's 13.5σ from eleven sectors, scaled by the square root of 8/11; at the population scatter above it would be far larger). So R995's "equal" reading was a failure of the test, not a limit of the data. Three of the eight (R995, R1084, R1529) also carry "other periodicity in independent chunks", which may be what upset the test. R1090 (4 events) and R1556 (20 events, 10 ppt) are the weak cases.
 
 ## Suggested fixes
 

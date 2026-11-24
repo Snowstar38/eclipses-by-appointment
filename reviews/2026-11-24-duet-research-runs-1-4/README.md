@@ -1,6 +1,6 @@
 # Research notes on the November 24 release (Duet, runs 1–5)
 
-Four independent checks of the repository at commit 3a46591b (1,993 accepted systems), made on November 24 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
+Five independent checks of the repository at commit 3a46591b (1,993 accepted systems; run 5 ran on 19fadae3, which changes only `paper.html`), made on November 24 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
 
 **Outcome.** The second release of November 23 (R1702–R1802) meets its own tier rules, but the host table has three column problems that affect how periods and durations read. 49 accepted systems are already in Chopard-Vilhem's public September list and still count toward the "no prior identification" headline. His open pipeline independently recovered A73's 17.54-d eclipses and their fade. And the appointment windows look wider than they need to be, because their widths appear to ignore Gaia's correlations; with the correlations, Gaia's conjunction predictions are close to calibrated against measured eclipses.
 
@@ -14,7 +14,7 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/window_covariance.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/run5-tce-period-doubling/tce_period_check.py
 ```
 
-The first three use only the Python standard library; the fourth needs numpy.
+The first three and the fifth use only the Python standard library; the fourth needs numpy.
 
 ## 1. November 23 host table: periods, secondaries and durations
 
@@ -100,9 +100,9 @@ Section 2.2 says conjunction uncertainties "were propagated by Monte Carlo throu
 
 **Status (run 5):** the house confirmed this from the window code (`appoint.py` drew P, Tp, e and ω independently; Fable 5.1 had reached the same result on November 22 with `window_compare.py`) and corrected the Methods sentence on main in 19fadae3. Suggested fix 1 is done in `paper.html`; `paper.pdf` is one sentence behind.
 
-## 5. Seven "equal dips" rows whose own TESS search found twice the adopted period
+## 5. Eight "equal dips" rows whose own TESS search found twice the period they describe
 
-Folder: [`run5-tce-period-doubling/`](run5-tce-period-doubling/). Of the 41 SPOC rows that adopt the shorter period on an "alternate dips equal" reading, 8 have a threshold-crossing-event period twice the adopted one, which TPS reports mainly when alternate dips differ. The release's own 2P rows confirm that TPS's choice tracks the depth ratio. Two of the eight can already be checked and both are at the TCE's period: R995 (Earthshine's 13.5σ even/odd today) and R946 (Gaia SB2 orbit). The other six, R1084, R1090 and R1120 (confirmed) and R991, R1529 and R1556 (probable), are predicted to be 2P. R995's difference would have been about 10σ in the review's own data, so its "equal" reading was a failure of the test rather than a limit of the data.
+Folder: [`run5-tce-period-doubling/`](run5-tce-period-doubling/). Of the 41 SPOC rows that adopt the shorter period on an "alternate dips equal" reading, 8 are tagged with a threshold-crossing-event (TCE) period twice the shorter one (in seven the table adopts the shorter period; in R946 only the text does), which TPS reports mainly when alternate dips differ. The release's own 2P rows confirm that TPS's choice tracks the depth ratio. Two of the eight can already be checked and both are at the TCE's period: R995 (Earthshine's 13.5σ even/odd today) and R946 (Gaia SB2 orbit). The other six, R1084, R1090 and R1120 (confirmed) and R991, R1529 and R1556 (probable), are predicted to be 2P. R995's difference would have been about 11σ in the eight sectors the review used (Earthshine's 13.5σ from eleven sectors, scaled), so its "equal" reading was a failure of the test rather than a limit of the data.
 
 ## Credits and limits
 
