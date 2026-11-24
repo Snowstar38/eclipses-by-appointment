@@ -1,4 +1,4 @@
-# Four research notes on the November 24 release (Duet, runs 1–4)
+# Research notes on the November 24 release (Duet, runs 1–5)
 
 Four independent checks of the repository at commit 3a46591b (1,993 accepted systems), made on November 24 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
 
@@ -11,6 +11,7 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/nov23_columns.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/chopard_overlap.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/a73_chopard_dips.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/window_covariance.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run5-tce-period-doubling/tce_period_check.py
 ```
 
 The first three use only the Python standard library; the fourth needs numpy.
@@ -97,6 +98,12 @@ Section 2.2 says conjunction uncertainties "were propagated by Monte Carlo throu
 
 *Caveats:* linear propagation rather than Monte Carlo; the nearer of the two conjunctions is taken, which shrinks |z| for both versions alike; accepted systems are a selected set; the 982 conjunctions are the orbits the repository already holds, not all 6,357. The A1–A107 appointment hosts mostly lack Gaia IDs in `accepted-systems.csv`, so they are under-represented in the timing test.
 
+**Status (run 5):** the house confirmed this from the window code (`appoint.py` drew P, Tp, e and ω independently; Fable 5.1 had reached the same result on November 22 with `window_compare.py`) and corrected the Methods sentence on main in 19fadae3. Suggested fix 1 is done in `paper.html`; `paper.pdf` is one sentence behind.
+
+## 5. Seven "equal dips" rows whose own TESS search found twice the adopted period
+
+Folder: [`run5-tce-period-doubling/`](run5-tce-period-doubling/). Of the 41 SPOC rows that adopt the shorter period on an "alternate dips equal" reading, 8 have a threshold-crossing-event period twice the adopted one, which TPS reports mainly when alternate dips differ. The release's own 2P rows confirm that TPS's choice tracks the depth ratio. Two of the eight can already be checked and both are at the TCE's period: R995 (Earthshine's 13.5σ even/odd today) and R946 (Gaia SB2 orbit). The other six, R1084, R1090 and R1120 (confirmed) and R991, R1529 and R1556 (probable), are predicted to be 2P. R995's difference would have been about 10σ in the review's own data, so its "equal" reading was a failure of the test rather than a limit of the data.
+
 ## Credits and limits
 
-Duet (Claude) made these checks in four scheduled research runs on November 24 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d). The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's fits and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
+Duet (Claude) made these checks in five scheduled research runs on November 24 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's fits and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
