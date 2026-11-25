@@ -1,4 +1,4 @@
-# Research notes on the November 24 release (Duet, runs 1–7)
+# Research notes on the November 24 release (Duet, runs 1–8)
 
 Six independent checks of the repository at commit 3a46591b (1,993 accepted systems; run 5 ran on 19fadae3, which changes only `paper.html`, and run 6 on a71bd9f5, with the November 23 host table unchanged), made on November 24 and 25 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
 
@@ -20,7 +20,9 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/r10
 python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/tertiary_orbits.py
 ```
 
-The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library. Finding 7's N-body scripts need rebound and numpy; see that folder's README.
+Run 8's scripts take input and output paths; the commands are in [`run8-gaia-conjunctions/README.md`](run8-gaia-conjunctions/README.md).
+
+The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library. Finding 7's N-body scripts need rebound and numpy; see that folder's README. Finding 8's scripts use the standard library, except its p-values (SciPy) and 8(c) (NumPy, SciPy, Astropy).
 
 ## 1. November 23 host table: periods, secondaries and durations
 
@@ -128,6 +130,15 @@ Folder: [`run7-temperature-and-r1003/`](run7-temperature-and-r1003/), built on F
 - **(c) R755 is the catalogue's second system whose eclipses appeared during TESS.** Its 300.8-d Gaia orbit (e = 0.26) is a stable tertiary; the third-body timing scale is hours, so the paper's ±0.05 d prediction windows are too narrow. Seven other November 23 rows have Gaia orbits 40–900 times their eclipse period; R1000 and R1549 are the best places to look for eclipse-timing variations.
 - **(d) N-body models.** A73 is unstable at Gaia's outer eccentricity of 0.41 within 3–110 years and stable at ≤ 0.2. With e_out = 0.10–0.15, a 0.3–0.4 M☉ tertiary and a mutual inclination ≲ 6°, the model reproduces Figure 4's secondary-phase swing, single-cycle periods and fade. R755's eclipses switch on or off within 2–6 years at 6–20° with 3–11 h timing wander, and a two-eclipse prediction misses by about a day after two years.
 
+## 8. Which conjunction eclipses, and Gaia orbits that cannot host their eclipses
+
+Folder: [`run8-gaia-conjunctions/`](run8-gaia-conjunctions/), from the repository's `gaia-geometry.json` files, Gaia NSS copies and review tables.
+
+- **(a) Gaia's ω predicts which eclipse TESS sees.** In 438 of 491 accepted systems with unambiguous timing, the primary eclipse falls on the conjunction where Gaia's visible star is eclipsed (random would be 50:50). The exceptions have evolved visible stars or companions nearly as massive (their share rises from 2% to 71% with mass ratio and radius), or eccentric orbits where only the near-periastron conjunction eclipses. Durations agree with the observed conjunction's geometry. In the probable Gaia-fold tier about 15% (68% range 5–26%) look mis-associated. Figure: `conjunction-kind.svg`; a 28-row check list for light curves: `kind0-check-list.csv`. Gaia eccentricities below about 0.1 at periods under 8 d are mostly noise.
+- **(b) Six Gaia orbits cannot host their eclipses.** Of 615 accepted systems with both periods, 600 match. Of the 12 that don't, R732, R753, R757, R788, R792 and R798 are dynamically excluded as the inner pair of the Gaia orbit (Mardling–Aarseth); R731, R739, R778, R785 and R790 are allowed triples, and R969 is a clear one.
+- **(c) Unconfirmed single dips near the ecliptic.** "Plausible" verdicts are twice as common within 20° of the ecliptic (13 of 36 against 56 of 344, p = 0.006), but only 1.8σ once TESS coverage is allowed for. The accepted count does not look contaminated; 14 signals are listed in order for a moving-object check.
+- **(d) R490.** The largest Gaia mass function in the sample (1.29 M☉) and a primary eclipse on the companion's conjunction point to a giant with a hot, probably B-type companion; a good spectroscopy target.
+
 ## Credits and limits
 
-Duet (Claude) made these checks in seven scheduled research runs on November 24 and 25 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. Fable 5 made the temperature join and the R1003 light-curve measurements used in finding 7. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's and Fable 5's measurements and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
+Duet (Claude) made these checks in eight scheduled research runs on November 24 and 25 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. Fable 5 made the temperature join and the R1003 light-curve measurements used in finding 7. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's and Fable 5's measurements and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
