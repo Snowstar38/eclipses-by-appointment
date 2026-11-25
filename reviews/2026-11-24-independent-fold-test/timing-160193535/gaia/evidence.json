@@ -1,0 +1,81 @@
+{
+  "source_id": "1727862804856539264",
+  "gaia_nss_table": "gaiadr3.nss_two_body_orbit",
+  "query_file": "gaia_nss.csv",
+  "gaia_source_file": "gaia_source.csv",
+  "gaia_tap": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "table_documentation": "https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_non--single_stars_tables/ssec_dm_nss_two_body_orbit.html",
+  "period_days": 12.132610710650706,
+  "period_error_days": 0.0010372915,
+  "t_periastron_offset_days": -4.857552499771692,
+  "t_periastron_error_days": 0.05601547,
+  "periastron_btjd_approx": 1384.1424475002284,
+  "tess_gaia_coordinate_separation_arcsec_epoch_unpropagated": 0.1594332280466426,
+  "events": [
+    {
+      "sector": 19,
+      "btjd_min_cadence": 1821.4293242820484,
+      "depth_ppt": 162.29150970349292,
+      "gaia_phase": 0.04227377030603208,
+      "sigma_phase_upper_bound": 0.0076984102144329
+    },
+    {
+      "sector": 19,
+      "btjd_min_cadence": 1829.9294049685407,
+      "depth_ppt": 197.52917602355592,
+      "gaia_phase": 0.7428715962158705,
+      "sigma_phase_upper_bound": 0.007758308630945745
+    },
+    {
+      "sector": 19,
+      "btjd_min_cadence": 1838.5752715744654,
+      "depth_ppt": 161.44279521618498,
+      "gaia_phase": 0.45548546079284336,
+      "sigma_phase_upper_bound": 0.007819234372497721
+    },
+    {
+      "sector": 26,
+      "btjd_min_cadence": 2018.5711927838913,
+      "depth_ppt": 196.07105979810436,
+      "gaia_phase": 0.2911976996611898,
+      "sigma_phase_upper_bound": 0.00908763064505881
+    },
+    {
+      "sector": 26,
+      "btjd_min_cadence": 2027.2170167595884,
+      "depth_ppt": 161.44003123715078,
+      "gaia_phase": 0.00380805054859934,
+      "sigma_phase_upper_bound": 0.009148556086203859
+    },
+    {
+      "sector": 60,
+      "btjd_min_cadence": 2944.6117894722656,
+      "depth_ppt": 201.10151238899144,
+      "gaia_phase": 0.6177706668002827,
+      "sigma_phase_upper_bound": 0.01561325874367081
+    },
+    {
+      "sector": 60,
+      "btjd_min_cadence": 2961.762085849886,
+      "depth_ppt": 195.8823743805733,
+      "gaia_phase": 0.03134081972413583,
+      "sigma_phase_upper_bound": 0.015734113548893765
+    },
+    {
+      "sector": 86,
+      "btjd_min_cadence": 3639.2209465949677,
+      "depth_ppt": 162.8171853060788,
+      "gaia_phase": 0.8691878340002575,
+      "sigma_phase_upper_bound": 0.02050803446892818
+    },
+    {
+      "sector": 86,
+      "btjd_min_cadence": 3647.7118162158836,
+      "depth_ppt": 199.8077465952992,
+      "gaia_phase": 0.5690264609383462,
+      "sigma_phase_upper_bound": 0.020567867976852183
+    }
+  ],
+  "method": "Unbinned minimum cadence per visually selected dip; not fitted mid-eclipse. Phase=(BTJD - (1389+t_periastron))/period mod 1. Gaussian 1-sigma conservative linear upper bound (sigma_T0 + N sigma_P)/P, retaining neither covariance nor timing errors. BTJD=BJD_TDB-2457000, Gaia reference J2016.0 approximately JD2457389.0; time-scale differences negligible for this comparison.",
+  "caveat": "Gaia SB2 is spectroscopic with no inclination or eclipse ephemeris; arbitrary two fixed phases tested. Formal errors and approximate separation do not establish source identity or extraction origin; TESS pixel blending possible. Gaia fit goodness-of-fit is high; published period could be wrong or aliased."
+}
