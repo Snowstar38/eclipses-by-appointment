@@ -1,0 +1,755 @@
+{
+ "tic": "102982448",
+ "gaia_dr3": "5415780625835217024",
+ "ra_deg": 156.14791667,
+ "dec_deg": -43.24830556,
+ "tmag": 12.2428,
+ "claim": "Eclipsing system confirmed. Unequal spacing between primary and secondary minima distinguishes the adopted orbital cycle.",
+ "spectroscopic_prior": "Traven et al. 2020, GALAH double-lined spectra",
+ "previous_machine_flag": "Kostov 2025 unvetted table 2",
+ "initial_project_signal": "Fable 5.2 ground-SB QLP search, 2026-11-22",
+ "followup": "Astra follow-up, 2026-11-24. Search for well-bracketed dips in raw and detrended TESS data, independent of the earlier period.",
+ "refit": {
+  "P": 8.92259365797383,
+  "snr": 281.10411021115834,
+  "dur": 0.10075,
+  "depth": 0.04152672978762669,
+  "t0": 1550.310062936208,
+  "alias_snr": 223.89074099564857,
+  "P_alt": 8.922142210236586
+ },
+ "secondary_fit": {
+  "phase": 0.5400000000000004,
+  "snr": 116.91931983177291,
+  "depth_ppt": 22.648087065752055
+ },
+ "morphology": {
+  "chi2_trap": 567.2204119183847,
+  "chi2_sin": 7473.664162434503,
+  "dBIC_sin_minus_trap": 6895.847115783022,
+  "n_bins": 200,
+  "trap_depth": 0.045517352043811084,
+  "trap_width_phase": 0.01415257813663958,
+  "trap_ingress_frac": 0.3,
+  "trap_sec_phase": 0.5400000000000004,
+  "trap_sec_depth": 0.02201748567955168,
+  "trap_sec_width": 0.01354987177881351,
+  "ooe_ellip_ptp": 7.460347709540175e-05,
+  "ooe_1harm_ptp": 9.909498654029121e-05,
+  "ooe_rms": 0.0002703770535707243,
+  "ooe_redchi2": 1.5807994139110133,
+  "n_ooe_bins": 192
+ },
+ "sectors": [
+  {
+   "sector": 9,
+   "survey": "TESS-SPOC",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0009%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0009_tess_v1_lc.fits",
+   "raw_sha256": "ba013257606782bb8e603aa6028e9c06c8146c8c8593b3bae81a85308f8e03b7",
+   "cadences": 1032
+  },
+  {
+   "sector": 36,
+   "survey": "TESS-SPOC",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0036%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0036_tess_v1_lc.fits",
+   "raw_sha256": "5edcc66855c16566d18380a8c361c998d9434c2197ef33e3d7cd37ee51e6adb7",
+   "cadences": 3032
+  },
+  {
+   "sector": 63,
+   "survey": "QLP",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Fqlp%2Fs0063%2F0000%2F0001%2F0298%2F2448%2Fhlsp_qlp_tess_ffi_s0063-0000000102982448_tess_v01_llc.fits",
+   "raw_sha256": "8702f379a6533e6cf0420556cb61fac284eadbdffe16ce1948003f4b9f5626bd",
+   "cadences": 3455
+  },
+  {
+   "sector": 90,
+   "survey": "QLP",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Fqlp%2Fs0090%2F0000%2F0001%2F0298%2F2448%2Fhlsp_qlp_tess_ffi_s0090-0000000102982448_tess_v01_llc.fits",
+   "raw_sha256": "626be4e8c13225cb923165fb3955a1c0d7d47ebfe46189eb462078adf65a474c",
+   "cadences": 3758
+  },
+  {
+   "sector": 99,
+   "survey": "QLP",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Fqlp%2Fs0099%2F0000%2F0001%2F0298%2F2448%2Fhlsp_qlp_tess_ffi_s0099-0000000102982448_tess_v01_llc.fits",
+   "raw_sha256": "21d5156f488f6b3c783e454a883ef762399434e96f41c41e7c88ce513b306a47",
+   "cadences": 2376
+  },
+  {
+   "sector": 100,
+   "survey": "QLP",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Fqlp%2Fs0100%2F0000%2F0001%2F0298%2F2448%2Fhlsp_qlp_tess_ffi_s0100-0000000102982448_tess_v01_llc.fits",
+   "raw_sha256": "3aaeb9e9950a4c838d1e4f1705dc4fae755d1beb63509df8e6a54c79b2af7dad",
+   "cadences": 2686
+  }
+ ],
+ "events": [
+  {
+   "event": "primary",
+   "sector": 9,
+   "cycle": 0,
+   "raw_depth_ppt": 45.903,
+   "detrended_depth_ppt": 48.994,
+   "local_snr": 84.2,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 9,
+   "cycle": 1,
+   "raw_depth_ppt": 48.088,
+   "detrended_depth_ppt": 51.069,
+   "local_snr": 90.49,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 9,
+   "cycle": 2,
+   "raw_depth_ppt": 48.116,
+   "detrended_depth_ppt": 49.84,
+   "local_snr": 88.31,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 9,
+   "cycle": -1,
+   "raw_depth_ppt": 24.411,
+   "detrended_depth_ppt": 25.289,
+   "local_snr": 44.81,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 9,
+   "cycle": 0,
+   "raw_depth_ppt": 23.557,
+   "detrended_depth_ppt": 24.935,
+   "local_snr": 44.18,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 9,
+   "cycle": 1,
+   "raw_depth_ppt": 22.393,
+   "detrended_depth_ppt": 24.604,
+   "local_snr": 39.14,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 36,
+   "cycle": 83,
+   "raw_depth_ppt": 49.098,
+   "detrended_depth_ppt": 52.804,
+   "local_snr": 60.67,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 36,
+   "cycle": 84,
+   "raw_depth_ppt": 51.205,
+   "detrended_depth_ppt": 55.567,
+   "local_snr": 66.58,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 36,
+   "cycle": 82,
+   "raw_depth_ppt": 20.629,
+   "detrended_depth_ppt": 22.937,
+   "local_snr": 27.48,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 36,
+   "cycle": 83,
+   "raw_depth_ppt": 24.513,
+   "detrended_depth_ppt": 25.202,
+   "local_snr": 28.11,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 36,
+   "cycle": 84,
+   "raw_depth_ppt": 24.016,
+   "detrended_depth_ppt": 26.883,
+   "local_snr": 30.54,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 63,
+   "cycle": 165,
+   "raw_depth_ppt": 46.048,
+   "detrended_depth_ppt": 46.314,
+   "local_snr": 44.55,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 63,
+   "cycle": 166,
+   "raw_depth_ppt": 45.301,
+   "detrended_depth_ppt": 45.148,
+   "local_snr": 45.52,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 63,
+   "cycle": 164,
+   "raw_depth_ppt": 21.255,
+   "detrended_depth_ppt": 21.153,
+   "local_snr": 21.32,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 63,
+   "cycle": 166,
+   "raw_depth_ppt": 21.305,
+   "detrended_depth_ppt": 20.761,
+   "local_snr": 20.93,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 90,
+   "cycle": 247,
+   "raw_depth_ppt": 45.895,
+   "detrended_depth_ppt": 45.275,
+   "local_snr": 44.09,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 90,
+   "cycle": 248,
+   "raw_depth_ppt": 47.494,
+   "detrended_depth_ppt": 47.14,
+   "local_snr": 43.79,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 90,
+   "cycle": 249,
+   "raw_depth_ppt": 47.125,
+   "detrended_depth_ppt": 46.17,
+   "local_snr": 44.96,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 90,
+   "cycle": 246,
+   "raw_depth_ppt": 22.358,
+   "detrended_depth_ppt": 21.819,
+   "local_snr": 21.25,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 90,
+   "cycle": 247,
+   "raw_depth_ppt": 20.07,
+   "detrended_depth_ppt": 20.857,
+   "local_snr": 20.31,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 90,
+   "cycle": 248,
+   "raw_depth_ppt": 21.422,
+   "detrended_depth_ppt": 21.379,
+   "local_snr": 20.82,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 99,
+   "cycle": 280,
+   "raw_depth_ppt": 43.017,
+   "detrended_depth_ppt": 42.878,
+   "local_snr": 59.39,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 99,
+   "cycle": 282,
+   "raw_depth_ppt": 41.735,
+   "detrended_depth_ppt": 41.781,
+   "local_snr": 57.87,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 99,
+   "cycle": 280,
+   "raw_depth_ppt": 19.848,
+   "detrended_depth_ppt": 19.827,
+   "local_snr": 27.46,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 100,
+   "cycle": 283,
+   "raw_depth_ppt": 43.033,
+   "detrended_depth_ppt": 42.952,
+   "local_snr": 56.64,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 100,
+   "cycle": 284,
+   "raw_depth_ppt": 45.094,
+   "detrended_depth_ppt": 45.787,
+   "local_snr": 60.38,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 100,
+   "cycle": 283,
+   "raw_depth_ppt": 21.796,
+   "detrended_depth_ppt": 21.437,
+   "local_snr": 28.27,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 100,
+   "cycle": 284,
+   "raw_depth_ppt": 19.889,
+   "detrended_depth_ppt": 20.368,
+   "local_snr": 22.81,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 100,
+   "cycle": 285,
+   "raw_depth_ppt": 22.389,
+   "detrended_depth_ppt": 21.452,
+   "local_snr": 28.29,
+   "passes_depth_check": true
+  }
+ ],
+ "difference_images": [
+  {
+   "sector": 9,
+   "phase": "primary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0009%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0009_tess_v1_tp.fits",
+   "sha256": "7c07f1fcf1575b9d8f08f88e80ff069fe7f3b6da6f7e967271c87351806cb397",
+   "status": "on_target",
+   "events": 3,
+   "signal_to_noise": 60.11907553709968,
+   "centroid_offset_arcsec": 3.8891255672400327,
+   "number_of_capable_neighbours": 3,
+   "unresolved_capable": [],
+   "neighbour_comparisons": [
+    {
+     "source_id": "5415780625835216000",
+     "sep_as": 56.85156701489349,
+     "dG": 2.2161004999999996,
+     "chi2": 20773.728246517938,
+     "amp": -1.271726227120873,
+     "is_target": false,
+     "free_offset_as": 62.602165522973955
+    },
+    {
+     "source_id": "5415780282237827840",
+     "sep_as": 86.21288066119818,
+     "dG": 3.7440820000000006,
+     "chi2": 20869.424197055356,
+     "amp": -1.0592936796698287,
+     "is_target": false,
+     "free_offset_as": 90.1160243944179
+    },
+    {
+     "source_id": "5415780690257221120",
+     "sep_as": 50.78999975682069,
+     "dG": 3.3802280000000007,
+     "chi2": 21024.460165243443,
+     "amp": 1.0940819830599198,
+     "is_target": false,
+     "free_offset_as": 47.64603893549749
+    }
+   ]
+  },
+  {
+   "sector": 9,
+   "phase": "secondary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0009%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0009_tess_v1_tp.fits",
+   "sha256": "7c07f1fcf1575b9d8f08f88e80ff069fe7f3b6da6f7e967271c87351806cb397",
+   "status": "on_target",
+   "events": 3,
+   "signal_to_noise": 42.176152621594,
+   "centroid_offset_arcsec": 3.8341627912456624,
+   "number_of_capable_neighbours": 9,
+   "unresolved_capable": [],
+   "neighbour_comparisons": [
+    {
+     "source_id": "5415780694554693248",
+     "sep_as": 18.8728112439893,
+     "dG": 4.540587999999998,
+     "chi2": 7465.162395733805,
+     "amp": 5.0983090919665015,
+     "is_target": false,
+     "free_offset_as": 15.789844691119981
+    },
+    {
+     "source_id": "5415780690257221120",
+     "sep_as": 50.78999975682069,
+     "dG": 3.3802280000000007,
+     "chi2": 8890.954921101213,
+     "amp": 0.8455361611529302,
+     "is_target": false,
+     "free_offset_as": 47.41687184584561
+    },
+    {
+     "source_id": "5415780694554693376",
+     "sep_as": 52.940204335381296,
+     "dG": 4.171491999999999,
+     "chi2": 8913.328954847017,
+     "amp": 0.8790500592540195,
+     "is_target": false,
+     "free_offset_as": 49.54189050642968
+    },
+    {
+     "source_id": "5415780655897461888",
+     "sep_as": 70.2704098363741,
+     "dG": 4.502681999999998,
+     "chi2": 9405.510155144775,
+     "amp": -0.32279698062910855,
+     "is_target": false,
+     "free_offset_as": 69.96778350963814
+    },
+    {
+     "source_id": "5415780282237827840",
+     "sep_as": 86.21288066119818,
+     "dG": 3.7440820000000006,
+     "chi2": 9497.028075110815,
+     "amp": -0.2901667851328899,
+     "is_target": false,
+     "free_offset_as": 89.22763412305068
+    },
+    {
+     "source_id": "5415780763274174336",
+     "sep_as": 86.078970451016,
+     "dG": 4.253313999999998,
+     "chi2": 9498.992040182771,
+     "amp": -0.20566359963934364,
+     "is_target": false,
+     "free_offset_as": 88.50663100845485
+    }
+   ]
+  },
+  {
+   "sector": 36,
+   "phase": "primary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0036%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0036_tess_v1_tp.fits",
+   "sha256": "2ab7defdf0407ce15ba8901584c0710a680dcee183ef46c86c3ea2a0bab9c8b7",
+   "status": "on_target",
+   "events": 2,
+   "signal_to_noise": 80.40260314941406,
+   "centroid_offset_arcsec": 1.9780222486255712,
+   "number_of_capable_neighbours": 3,
+   "unresolved_capable": [],
+   "neighbour_comparisons": [
+    {
+     "source_id": "5415780282237827840",
+     "sep_as": 86.21288066119818,
+     "dG": 3.7440820000000006,
+     "chi2": 13621.013345200618,
+     "amp": -1.8737748225516442,
+     "is_target": false,
+     "free_offset_as": 89.09499670805965
+    },
+    {
+     "source_id": "5415780690257221120",
+     "sep_as": 50.78999975682069,
+     "dG": 3.3802280000000007,
+     "chi2": 13646.698794907968,
+     "amp": 1.3669126637108036,
+     "is_target": false,
+     "free_offset_as": 50.89388478146743
+    },
+    {
+     "source_id": "5415780625835216000",
+     "sep_as": 56.85156701489349,
+     "dG": 2.2161004999999996,
+     "chi2": 13663.529104376003,
+     "amp": -0.8894009360278649,
+     "is_target": false,
+     "free_offset_as": 57.87449898809181
+    }
+   ]
+  },
+  {
+   "sector": 36,
+   "phase": "secondary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0036%2Ftarget%2F0000%2F0001%2F0298%2F2448%2Fhlsp_tess-spoc_tess_phot_0000000102982448-s0036_tess_v1_tp.fits",
+   "sha256": "2ab7defdf0407ce15ba8901584c0710a680dcee183ef46c86c3ea2a0bab9c8b7",
+   "status": "on_target",
+   "events": 3,
+   "signal_to_noise": 47.56351856732429,
+   "centroid_offset_arcsec": 1.6280677511939103,
+   "number_of_capable_neighbours": 9,
+   "unresolved_capable": [],
+   "neighbour_comparisons": [
+    {
+     "source_id": "5415780694554693248",
+     "sep_as": 18.8728112439893,
+     "dG": 4.540587999999998,
+     "chi2": 11082.80400295201,
+     "amp": 13.024229528068107,
+     "is_target": false,
+     "free_offset_as": 18.547035429948348
+    },
+    {
+     "source_id": "5415780763274175360",
+     "sep_as": 88.73662236718668,
+     "dG": 4.201421999999999,
+     "chi2": 15055.9383501923,
+     "amp": 0.37003240610401544,
+     "is_target": false,
+     "free_offset_as": 88.64374856617475
+    },
+    {
+     "source_id": "5415780763274174336",
+     "sep_as": 86.078970451016,
+     "dG": 4.253313999999998,
+     "chi2": 15087.231326771993,
+     "amp": 0.31596426598277055,
+     "is_target": false,
+     "free_offset_as": 86.31445556450856
+    },
+    {
+     "source_id": "5415780690257221120",
+     "sep_as": 50.78999975682069,
+     "dG": 3.3802280000000007,
+     "chi2": 15584.37650839197,
+     "amp": 0.5113796236090653,
+     "is_target": false,
+     "free_offset_as": 49.5637822911914
+    },
+    {
+     "source_id": "5415780694554693376",
+     "sep_as": 52.940204335381296,
+     "dG": 4.171491999999999,
+     "chi2": 15590.126819206156,
+     "amp": 0.42412933764105537,
+     "is_target": false,
+     "free_offset_as": 51.63446821207333
+    },
+    {
+     "source_id": "5415780655897461888",
+     "sep_as": 70.2704098363741,
+     "dG": 4.502681999999998,
+     "chi2": 15598.162290772658,
+     "amp": 0.18247798988238645,
+     "is_target": false,
+     "free_offset_as": 71.69169865031859
+    }
+   ]
+  }
+ ],
+ "ground_photometry": [
+  {
+   "survey": "ASASSN_V",
+   "n_in": 1,
+   "n_out": 170,
+   "result": "no_in_eclipse_points",
+   "median_mag": 12.95111927469084,
+   "n": 174
+  },
+  {
+   "survey": "ASASSN_g",
+   "n_in": 3,
+   "n_out": 943,
+   "nights_in": 3,
+   "depth_frac": 0.04106158402682292,
+   "sigma": 4.575490180456512,
+   "frac_in_3sig": 0.6666666666666666,
+   "out_rms_mag": 0.013786240030630555,
+   "result": "eclipse_seen",
+   "median_mag": 13.227257948646145,
+   "n": 967
+  }
+ ],
+ "catalogues": {
+  "VizieR_confirmed_EB_30as": "",
+  "VizieR_nearby_EB_90as": "",
+  "VizieR_machine_list": "J/ApJS/279/50/table2:102982448::P=:0.1as",
+  "VSX_current": {
+   "VSXObjects": []
+  },
+  "TOI": "",
+  "CTOI": "",
+  "Prsa": "",
+  "Gaia_exact_ID": {
+   "nss_two_body_orbit": [],
+   "vari_classifier_result": [],
+   "vari_eclipsing_binary": []
+  },
+  "SIMBAD_5as": {
+   "within_5as": [
+    {
+     "oid": "17113414",
+     "main_id": "UCAC4 234-046166",
+     "otype": "*",
+     "nbref": "2",
+     "ra": "156.14790072153127",
+     "dec": "-43.24831737588028",
+     "aliases": [
+      {
+       "id": "Gaia DR2 5415780625835217024"
+      },
+      {
+       "id": "2MASS J10243549-4314539"
+      },
+      {
+       "id": "UCAC4 234-046166"
+      },
+      {
+       "id": "WISE J102435.48-431453.7"
+      },
+      {
+       "id": "WISEA J102435.48-431453.8"
+      },
+      {
+       "id": "GALAH 160123002601063"
+      },
+      {
+       "id": "Gaia DR3 5415780625835217024"
+      }
+     ],
+     "bibliography": [
+      {
+       "bibcode": "2018MNRAS.478.4513B",
+       "title": "The GALAH Survey: second data release."
+      },
+      {
+       "bibcode": "2021MNRAS.506..150B",
+       "title": "The GALAH+ survey: Third data release."
+      }
+     ]
+    }
+   ]
+  },
+  "SuperWASP_FP": []
+ },
+ "links": {
+  "VSX_current": "https://www.aavso.org/vsx/index.php?view=api.list&ra=156.14791667&dec=-43.24830556&radius=0.008333333333333333&format=json",
+  "SIMBAD": "https://simbad.cds.unistra.fr/simbad/sim-coo?Coord=156.14791667+-43.24830556&Radius=5&Radius.unit=arcsec",
+  "Gaia_DR3": "https://gea.esac.esa.int/archive/",
+  "Kostov_table2": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J%2FApJS%2F279%2F50%2Ftable2&TIC=102982448",
+  "ASAS-SN": "https://asas-sn.osu.edu/skypatrol",
+  "ZTF": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+156.14791667+-43.24830556+0.0006&BANDNAME=g%2Cr&FORMAT=csv&BAD_CATFLAGS_MASK=32768",
+  "spectroscopic_prior": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/638/A145/catalog",
+  "Villanova": "https://tessebs.villanova.edu/0102982448"
+ },
+ "prior_crosschecks": {
+  "Villanova": {
+   "tic": "102982448",
+   "complete": true,
+   "exact": false,
+   "listed": "",
+   "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+  },
+  "spectroscopic_eclipsing_binary_compilation": [],
+  "ADS_queries": {
+   "query": "full:\"2MASS J10243549-4314539\" OR full:\"APASS 20449098\" OR full:\"AllWISE J102435.48-431453.8\" OR full:\"GALAH 160123002601063\" OR full:\"Gaia DR2 5415780625835217024\" OR full:\"Gaia DR3 5415780625835217024\" OR full:\"TIC 102982448\" OR full:\"UCAC4 234-046166\" OR full:\"WISE J102435.48-431453.7\" OR full:\"WISEA J102435.48-431453.8\"",
+   "numFound": 0,
+   "docs": []
+  },
+  "ADS_positive_control_num_found": 465,
+  "IJspeert2021": {
+   "success": true,
+   "members": []
+  },
+  "IJspeert2024": {
+   "success": true,
+   "members": []
+  },
+  "tic": "102982448",
+  "gaia_dr3": "5415780625835217024",
+  "tang_2025": {
+   "source": "https://content.cld.iop.org/journals/1538-3881/170/6/356/revision1/ajae18c4t1_mrt.txt",
+   "survey_TICs": 514,
+   "member": false,
+   "raw_sha256": "23209b19205be8daca5a9c1728eeb3be43023d35b44055fae8e5bbfe290163f6"
+  },
+  "public_within_30as": [],
+  "Chopard_Vilhem_prior_identifiers": []
+ },
+ "initial_unphased_events": [
+  {
+   "sector": 9,
+   "mid": 1546.2233879097303,
+   "depth": 0.020566685634548776,
+   "width": 0.10416525553666732
+  },
+  {
+   "sector": 9,
+   "mid": 1550.3151000308042,
+   "depth": 0.040542655158787966,
+   "width": 0.1249984876022373
+  },
+  {
+   "sector": 9,
+   "mid": 1555.1418009747426,
+   "depth": 0.02454532778210705,
+   "width": 0.10416375399706711
+  },
+  {
+   "sector": 9,
+   "mid": 1559.236084877843,
+   "depth": 0.043292655573168304,
+   "width": 0.12499753432036785
+  },
+  {
+   "sector": 9,
+   "mid": 1564.0684713845221,
+   "depth": 0.02133279025701995,
+   "width": 0.12499682863501592
+  },
+  {
+   "sector": 9,
+   "mid": 1568.1600938168383,
+   "depth": 0.04215218601552806,
+   "width": 0.14582884774820204
+  },
+  {
+   "sector": 36,
+   "mid": 2286.794243483448,
+   "depth": 0.026264313424690044,
+   "width": 0.10416420704730088
+  },
+  {
+   "sector": 36,
+   "mid": 2290.888095067808,
+   "depth": 0.046882431246558554,
+   "width": 0.12499707619833687
+  },
+  {
+   "sector": 36,
+   "mid": 2304.6406237850606,
+   "depth": 0.02372842441764078,
+   "width": 0.12499536643424479
+  }
+ ]
+}

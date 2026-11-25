@@ -1,81 +1,58 @@
 {
   "status": "PASS",
-  "utc": "2026-11-24T23:01:23.831486+00:00",
-  "counted": 2010,
+  "canonical_review_id_tic_tier_sha256": "6b4e03a9f74733497a33b92508c088630aecf28fce8f1973048f98afacfea966",
+  "identity_hash_format": "UTF-8 tab-separated review_id, TIC, tier with LF per row, sorted lexically by tuple",
+  "utc": "2026-11-24T23:59:29.247063+00:00",
+  "counted": 2036,
   "tiers": {
-    "confirmed": 1477,
-    "probable": 533
+    "confirmed": 1493,
+    "probable": 543
   },
-  "scientific_register": 1915,
-  "reviewed_stars_this_revision": 24,
-  "accepted_this_revision": 17,
-  "accepted_this_revision_by_search": {
-    "Gaia epoch photometry at spectroscopic conjunctions": 13,
-    "Gaia epoch photometry with wider eclipse windows": 4
+  "previous_release_commit": "a9e7e28c39962b04a737dc435e7209484a9ab174",
+  "previous_count": 2010,
+  "prior_identifications_removed": 9,
+  "removed_review_ids": {
+    "R1804": "284210588",
+    "R1806": "417030993",
+    "R1807": "138829403",
+    "R1808": "259746816",
+    "R1809": "443331650",
+    "R1811": "178414920",
+    "R1812": "470993218",
+    "R1814": "325802598",
+    "R1815": "467902321"
   },
-  "period_free_reviews": 380,
-  "faint_band_reviews": 138,
-  "previous_release_commit": "ebaf0144e2fffb696c8ef41dfe9445c04dc4a4a3",
-  "checks": 49,
-  "check_details": [
-    "Release retains the public parent",
-    "Only release paths changed",
-    "Previous records preserved: accepted-systems.csv",
-    "17 distinct additions: accepted-systems.csv",
-    "Previous records preserved: scientific-review-register.csv",
-    "17 distinct additions: scientific-review-register.csv",
-    "Previous records preserved: claim-adjudication.csv",
-    "17 distinct additions: claim-adjudication.csv",
-    "Previous records preserved: overview/systems.csv",
-    "17 distinct additions: overview/systems.csv",
-    "All 24 reviews accounted for",
-    "All 17 accepted hosts accounted for",
-    "Exact identifiers in accepted-systems.csv",
-    "Exact identifiers in scientific-review-register.csv",
-    "Exact identifiers in claim-adjudication.csv",
-    "Exact identifiers in overview/systems.csv",
-    "Exact identifiers in reviews/2026-11-24-gaia-epoch-review/host-stars.csv",
-    "Published timings and tiers agree with local review",
-    "2,010 unique catalogue TICs",
-    "Map IDs and tiers match catalogue",
-    "Physical tiers",
-    "Adjudication source hash for R1803",
-    "Adjudication source hash for R1804",
-    "Adjudication source hash for R1805",
-    "Adjudication source hash for R1806",
-    "Adjudication source hash for R1807",
-    "Adjudication source hash for R1808",
-    "Adjudication source hash for R1809",
-    "Adjudication source hash for R1810",
-    "Adjudication source hash for R1811",
-    "Adjudication source hash for R1812",
-    "Adjudication source hash for R1813",
-    "Adjudication source hash for R1814",
-    "Adjudication source hash for R1815",
-    "Adjudication source hash for R1816",
-    "Adjudication source hash for R1817",
-    "Adjudication source hash for R1818",
-    "Adjudication source hash for R1819",
-    "Current accounting",
-    "Overview image dimensions",
-    "New HTML link reviews/2026-11-24-shared-stars/spectroscopic-overlap.csv",
-    "New HTML link #m-nov24",
-    "New HTML link reviews/2026-11-24-shared-stars/a73-events.csv",
-    "Release count in paper.pdf",
-    "No local file links in paper.pdf",
-    "Appendix contains all new IDs",
-    "Credit appears in typeset paper",
-    "Supplement points to current release",
-    "No local file links in supplement.pdf"
+  "accepted_this_revision": 35,
+  "additions_by_lane": {
+    "gaia": 5,
+    "ground": 8,
+    "neighbours": 2,
+    "spoc": 4,
+    "ffi": 16
+  },
+  "scientific_register": 1950,
+  "unique_scope": "Comparison to the previous release, including nine documented prior identifications.",
+  "checks": [
+    "Exact parent, allowed changed paths and canonical Git blobs",
+    "Historical catalogue and map unchanged except nine documented exclusions",
+    "Historical scientific register and adjudications preserve identifiers and physical tiers",
+    "Every new catalogue, map, scientific and claim row matches the keyed expansion host table",
+    "Each new evidence path exists, and each updated adjudication hashes its canonical source report",
+    "Map and ledger positions and tiers match for additions; all counted IDs and tiers agree",
+    "Reference hashes and totals agree with the current accounting and updated map provenance",
+    "Local links and live repository links newly introduced in current documents resolve inside this release",
+    "Typeset paper count, physical totals, new review and TIC identifiers, prior credits and PDF links",
+    "Supplement references this expansion and its earlier IJspeert matches"
   ],
+  "local_links_checked": 68,
   "pdfs": {
     "historical-draft-2026-10-14.pdf": {
       "pages": 57,
       "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
     },
     "paper.pdf": {
-      "pages": 262,
-      "sha256": "e37df504227ee235b2d63538a87fb004ea71ffdfe1191f2e3f7bfa995cf1deb8"
+      "pages": 264,
+      "sha256": "7f0c2b1440a5d6a148e72d966f7be97e73aad51701079bc6ab8ed0400a5f9522"
     },
     "supplement-1-original-and-early-reviews.pdf": {
       "pages": 1187,
@@ -99,9 +76,8 @@
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "918f29a3dd701a43c5c4fb4d8f0a58f57380132e4659fbe874c299ecce1d6980"
+      "sha256": "ed452ad6a091a7f3d2a0e1ccf3b559730b4ce7a6a289ec5ddb5cf7beb16e86fd"
     }
   },
-  "warnings": [],
-  "scope": "Current release identities, tiers, measured ephemerides, evidence tables, cross-register consistency, map and rendered documents. Catalogue priority is bounded by the sources examined."
+  "scope": "Publication counts and evidence integrity. Per-host records describe physical and prior-catalogue limitations."
 }

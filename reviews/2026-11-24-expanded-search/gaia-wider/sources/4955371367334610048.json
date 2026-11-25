@@ -1,0 +1,4601 @@
+{
+ "gaia_dr3": "4955371367334610048",
+ "tic": "100100827",
+ "photometry": {
+  "tic": "100100827",
+  "match": "exact Gaia identifier",
+  "available": [
+   2,
+   3,
+   29,
+   30,
+   69,
+   96,
+   103,
+   104,
+   105,
+   106
+  ],
+  "selected": [
+   2,
+   30,
+   103,
+   106
+  ],
+  "products": [
+   {
+    "sector": 2,
+    "uri": "mast:TESS/product/tess2018234235059-s0002-0000000100100827-0121-s_lc.fits",
+    "filename": "tess2018234235059-s0002-0000000100100827-0121-s_lc.fits",
+    "sha256": "9e83d10406a7ee0274409cd19f39857abbadfbe907e0a1f033d18c00136b0c7b",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2018234235059-s0002-0000000100100827-0121-s_lc.fits"
+   },
+   {
+    "sector": 30,
+    "uri": "mast:TESS/product/tess2020266004630-s0030-0000000100100827-0195-s_lc.fits",
+    "filename": "tess2020266004630-s0030-0000000100100827-0195-s_lc.fits",
+    "sha256": "9700ddc79f8cd2e7527b50c4f0268c2597d00eda73f9b785d7a93909cf02ad26",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2020266004630-s0030-0000000100100827-0195-s_lc.fits"
+   },
+   {
+    "sector": 103,
+    "uri": "mast:TESS/product/tess2026111101500-s0103-0000000100100827-0305-s_lc.fits",
+    "filename": "tess2026111101500-s0103-0000000100100827-0305-s_lc.fits",
+    "sha256": "99c20a20c8a1027528f6974f30a6e48a38070083bdb9d7155bcd3eeff98274db",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2026111101500-s0103-0000000100100827-0305-s_lc.fits"
+   },
+   {
+    "sector": 106,
+    "uri": "mast:TESS/product/tess2026192185000-s0106-0000000100100827-0308-s_lc.fits",
+    "filename": "tess2026192185000-s0106-0000000100100827-0308-s_lc.fits",
+    "sha256": "48473a3c9637fbd675aaedfa9797e87dedfd2e4beffed3ca59d89910d0306c8d",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2026192185000-s0106-0000000100100827-0308-s_lc.fits"
+   }
+  ]
+ },
+ "fit": {
+  "source_id": "4955371367334610048",
+  "tic": "100100827",
+  "period_days": "0.9414519234850756",
+  "epoch_btjd": "1354.4591771068133",
+  "covered_btjd": "2136.804979",
+  "width_days": "0.07004525346916643",
+  "depth_ppt": "9.991",
+  "n_events": "95",
+  "strong_events": "92",
+  "strong_sectors": "4",
+  "sectors": "2|30|103|106",
+  "shape_prominence": "99.26",
+  "which_conjunction": "A",
+  "offset_hours": "-1.245724362644978",
+  "offset_sigma": "-1.0246996302879863"
+ },
+ "nearby_public": {
+  "identifier": "R166",
+  "separation_arcsec": "3887.41"
+ },
+ "events": [
+  {
+   "cycle": "0",
+   "sector": "2",
+   "mid_btjd": "1354.463686",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2837",
+   "noise_ppt": "0.1892",
+   "strong": "True"
+  },
+  {
+   "cycle": "1",
+   "sector": "2",
+   "mid_btjd": "1355.395737",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4204",
+   "noise_ppt": "0.0742",
+   "strong": "True"
+  },
+  {
+   "cycle": "2",
+   "sector": "2",
+   "mid_btjd": "1356.340249",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.8116",
+   "noise_ppt": "0.3175",
+   "strong": "True"
+  },
+  {
+   "cycle": "3",
+   "sector": "2",
+   "mid_btjd": "1357.284455",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.4053",
+   "noise_ppt": "0.2019",
+   "strong": "True"
+  },
+  {
+   "cycle": "4",
+   "sector": "2",
+   "mid_btjd": "1358.227707",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.6482",
+   "noise_ppt": "0.2476",
+   "strong": "True"
+  },
+  {
+   "cycle": "5",
+   "sector": "2",
+   "mid_btjd": "1359.171656",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7105",
+   "noise_ppt": "0.1587",
+   "strong": "True"
+  },
+  {
+   "cycle": "6",
+   "sector": "2",
+   "mid_btjd": "1360.104425",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5944",
+   "noise_ppt": "0.3226",
+   "strong": "True"
+  },
+  {
+   "cycle": "7",
+   "sector": "2",
+   "mid_btjd": "1361.048437",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.6215",
+   "noise_ppt": "0.2522",
+   "strong": "True"
+  },
+  {
+   "cycle": "8",
+   "sector": "2",
+   "mid_btjd": "1361.99213",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3831",
+   "noise_ppt": "0.2247",
+   "strong": "True"
+  },
+  {
+   "cycle": "9",
+   "sector": "2",
+   "mid_btjd": "1362.936121",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5593",
+   "noise_ppt": "0.1847",
+   "strong": "True"
+  },
+  {
+   "cycle": "10",
+   "sector": "2",
+   "mid_btjd": "1363.868945",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3443",
+   "noise_ppt": "0.1629",
+   "strong": "True"
+  },
+  {
+   "cycle": "11",
+   "sector": "2",
+   "mid_btjd": "1364.812634",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3424",
+   "noise_ppt": "0.2821",
+   "strong": "True"
+  },
+  {
+   "cycle": "12",
+   "sector": "2",
+   "mid_btjd": "1365.75649",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.615",
+   "noise_ppt": "0.4134",
+   "strong": "True"
+  },
+  {
+   "cycle": "13",
+   "sector": "2",
+   "mid_btjd": "1366.700798",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2375",
+   "noise_ppt": "0.2344",
+   "strong": "True"
+  },
+  {
+   "cycle": "16",
+   "sector": "2",
+   "mid_btjd": "1369.520875",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.5135",
+   "noise_ppt": "0.202",
+   "strong": "True"
+  },
+  {
+   "cycle": "17",
+   "sector": "2",
+   "mid_btjd": "1370.464816",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.7393",
+   "noise_ppt": "0.2642",
+   "strong": "True"
+  },
+  {
+   "cycle": "18",
+   "sector": "2",
+   "mid_btjd": "1371.408746",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4656",
+   "noise_ppt": "0.295",
+   "strong": "True"
+  },
+  {
+   "cycle": "19",
+   "sector": "2",
+   "mid_btjd": "1372.341409",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5129",
+   "noise_ppt": "0.2797",
+   "strong": "True"
+  },
+  {
+   "cycle": "20",
+   "sector": "2",
+   "mid_btjd": "1373.284956",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7345",
+   "noise_ppt": "0.156",
+   "strong": "True"
+  },
+  {
+   "cycle": "21",
+   "sector": "2",
+   "mid_btjd": "1374.229041",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.8409",
+   "noise_ppt": "0.3164",
+   "strong": "True"
+  },
+  {
+   "cycle": "22",
+   "sector": "2",
+   "mid_btjd": "1375.173171",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4308",
+   "noise_ppt": "0.1348",
+   "strong": "True"
+  },
+  {
+   "cycle": "23",
+   "sector": "2",
+   "mid_btjd": "1376.117718",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5585",
+   "noise_ppt": "0.3635",
+   "strong": "True"
+  },
+  {
+   "cycle": "24",
+   "sector": "2",
+   "mid_btjd": "1377.049389",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.6193",
+   "noise_ppt": "0.2116",
+   "strong": "True"
+  },
+  {
+   "cycle": "25",
+   "sector": "2",
+   "mid_btjd": "1377.99354",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5813",
+   "noise_ppt": "0.2482",
+   "strong": "True"
+  },
+  {
+   "cycle": "26",
+   "sector": "2",
+   "mid_btjd": "1378.93736",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.545",
+   "noise_ppt": "0.2719",
+   "strong": "True"
+  },
+  {
+   "cycle": "27",
+   "sector": "2",
+   "mid_btjd": "1379.881402",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4639",
+   "noise_ppt": "0.187",
+   "strong": "True"
+  },
+  {
+   "cycle": "28",
+   "sector": "2",
+   "mid_btjd": "1380.819174",
+   "core_bins": "6",
+   "base_bins": "20",
+   "depth_ppt": "10.5487",
+   "noise_ppt": "0.2467",
+   "strong": "True"
+  },
+  {
+   "cycle": "809",
+   "sector": "30",
+   "mid_btjd": "2116.09066",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.1444",
+   "noise_ppt": "0.2175",
+   "strong": "True"
+  },
+  {
+   "cycle": "810",
+   "sector": "30",
+   "mid_btjd": "2117.034456",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.5344",
+   "noise_ppt": "0.1121",
+   "strong": "True"
+  },
+  {
+   "cycle": "811",
+   "sector": "30",
+   "mid_btjd": "2117.978404",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5598",
+   "noise_ppt": "0.1356",
+   "strong": "True"
+  },
+  {
+   "cycle": "812",
+   "sector": "30",
+   "mid_btjd": "2118.922323",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3751",
+   "noise_ppt": "0.2671",
+   "strong": "True"
+  },
+  {
+   "cycle": "813",
+   "sector": "30",
+   "mid_btjd": "2119.854806",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5846",
+   "noise_ppt": "0.1783",
+   "strong": "True"
+  },
+  {
+   "cycle": "814",
+   "sector": "30",
+   "mid_btjd": "2120.798795",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.9352",
+   "noise_ppt": "0.2693",
+   "strong": "True"
+  },
+  {
+   "cycle": "815",
+   "sector": "30",
+   "mid_btjd": "2121.742654",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7472",
+   "noise_ppt": "0.2822",
+   "strong": "True"
+  },
+  {
+   "cycle": "816",
+   "sector": "30",
+   "mid_btjd": "2122.686673",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.0129",
+   "noise_ppt": "0.2684",
+   "strong": "True"
+  },
+  {
+   "cycle": "817",
+   "sector": "30",
+   "mid_btjd": "2123.63002",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4851",
+   "noise_ppt": "0.2601",
+   "strong": "True"
+  },
+  {
+   "cycle": "818",
+   "sector": "30",
+   "mid_btjd": "2124.562933",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5319",
+   "noise_ppt": "0.275",
+   "strong": "True"
+  },
+  {
+   "cycle": "819",
+   "sector": "30",
+   "mid_btjd": "2125.506721",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.5585",
+   "noise_ppt": "0.3128",
+   "strong": "True"
+  },
+  {
+   "cycle": "820",
+   "sector": "30",
+   "mid_btjd": "2126.450582",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.4761",
+   "noise_ppt": "0.3036",
+   "strong": "True"
+  },
+  {
+   "cycle": "821",
+   "sector": "30",
+   "mid_btjd": "2127.372226",
+   "core_bins": "2",
+   "base_bins": "10",
+   "depth_ppt": "1.4064",
+   "noise_ppt": "0.5522",
+   "strong": "False"
+  },
+  {
+   "cycle": "824",
+   "sector": "30",
+   "mid_btjd": "2130.230925",
+   "core_bins": "3",
+   "base_bins": "10",
+   "depth_ppt": "2.2647",
+   "noise_ppt": "0.6983",
+   "strong": "False"
+  },
+  {
+   "cycle": "825",
+   "sector": "30",
+   "mid_btjd": "2131.159058",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.8321",
+   "noise_ppt": "0.1779",
+   "strong": "True"
+  },
+  {
+   "cycle": "826",
+   "sector": "30",
+   "mid_btjd": "2132.10232",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2264",
+   "noise_ppt": "0.2371",
+   "strong": "True"
+  },
+  {
+   "cycle": "827",
+   "sector": "30",
+   "mid_btjd": "2133.034976",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7334",
+   "noise_ppt": "0.221",
+   "strong": "True"
+  },
+  {
+   "cycle": "828",
+   "sector": "30",
+   "mid_btjd": "2133.978957",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7315",
+   "noise_ppt": "0.3721",
+   "strong": "True"
+  },
+  {
+   "cycle": "829",
+   "sector": "30",
+   "mid_btjd": "2134.923049",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7176",
+   "noise_ppt": "0.4843",
+   "strong": "True"
+  },
+  {
+   "cycle": "830",
+   "sector": "30",
+   "mid_btjd": "2135.866974",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4064",
+   "noise_ppt": "0.2169",
+   "strong": "True"
+  },
+  {
+   "cycle": "831",
+   "sector": "30",
+   "mid_btjd": "2136.804979",
+   "core_bins": "6",
+   "base_bins": "20",
+   "depth_ppt": "10.0484",
+   "noise_ppt": "0.3563",
+   "strong": "True"
+  },
+  {
+   "cycle": "832",
+   "sector": "30",
+   "mid_btjd": "2137.743029",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5651",
+   "noise_ppt": "0.2044",
+   "strong": "True"
+  },
+  {
+   "cycle": "833",
+   "sector": "30",
+   "mid_btjd": "2138.687013",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.8766",
+   "noise_ppt": "0.1681",
+   "strong": "True"
+  },
+  {
+   "cycle": "834",
+   "sector": "30",
+   "mid_btjd": "2139.631087",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.8231",
+   "noise_ppt": "0.1992",
+   "strong": "True"
+  },
+  {
+   "cycle": "835",
+   "sector": "30",
+   "mid_btjd": "2140.574901",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5266",
+   "noise_ppt": "0.3142",
+   "strong": "True"
+  },
+  {
+   "cycle": "836",
+   "sector": "30",
+   "mid_btjd": "2141.508609",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2089",
+   "noise_ppt": "0.5757",
+   "strong": "True"
+  },
+  {
+   "cycle": "2974",
+   "sector": "103",
+   "mid_btjd": "4154.339714",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.247",
+   "noise_ppt": "0.2436",
+   "strong": "True"
+  },
+  {
+   "cycle": "2975",
+   "sector": "103",
+   "mid_btjd": "4155.283613",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3267",
+   "noise_ppt": "0.3428",
+   "strong": "True"
+  },
+  {
+   "cycle": "2976",
+   "sector": "103",
+   "mid_btjd": "4156.216138",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.21",
+   "noise_ppt": "0.29",
+   "strong": "True"
+  },
+  {
+   "cycle": "2977",
+   "sector": "103",
+   "mid_btjd": "4157.160025",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.8834",
+   "noise_ppt": "0.2855",
+   "strong": "True"
+  },
+  {
+   "cycle": "2978",
+   "sector": "103",
+   "mid_btjd": "4158.104107",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.498",
+   "noise_ppt": "0.3443",
+   "strong": "True"
+  },
+  {
+   "cycle": "2980",
+   "sector": "103",
+   "mid_btjd": "4159.980678",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2765",
+   "noise_ppt": "0.1835",
+   "strong": "True"
+  },
+  {
+   "cycle": "2981",
+   "sector": "103",
+   "mid_btjd": "4160.924564",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.6311",
+   "noise_ppt": "0.2101",
+   "strong": "True"
+  },
+  {
+   "cycle": "2982",
+   "sector": "103",
+   "mid_btjd": "4161.868708",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.622",
+   "noise_ppt": "0.1511",
+   "strong": "True"
+  },
+  {
+   "cycle": "2983",
+   "sector": "103",
+   "mid_btjd": "4162.812338",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5199",
+   "noise_ppt": "0.2528",
+   "strong": "True"
+  },
+  {
+   "cycle": "2984",
+   "sector": "103",
+   "mid_btjd": "4163.756186",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.488",
+   "noise_ppt": "0.1357",
+   "strong": "True"
+  },
+  {
+   "cycle": "2987",
+   "sector": "103",
+   "mid_btjd": "4166.58012",
+   "core_bins": "5",
+   "base_bins": "11",
+   "depth_ppt": "3.6021",
+   "noise_ppt": "1.477",
+   "strong": "False"
+  },
+  {
+   "cycle": "2988",
+   "sector": "103",
+   "mid_btjd": "4167.520805",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.6198",
+   "noise_ppt": "0.3404",
+   "strong": "True"
+  },
+  {
+   "cycle": "2989",
+   "sector": "103",
+   "mid_btjd": "4168.458595",
+   "core_bins": "6",
+   "base_bins": "20",
+   "depth_ppt": "10.2158",
+   "noise_ppt": "0.2207",
+   "strong": "True"
+  },
+  {
+   "cycle": "2990",
+   "sector": "103",
+   "mid_btjd": "4169.397325",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.3299",
+   "noise_ppt": "0.155",
+   "strong": "True"
+  },
+  {
+   "cycle": "2991",
+   "sector": "103",
+   "mid_btjd": "4170.340782",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.5259",
+   "noise_ppt": "0.1506",
+   "strong": "True"
+  },
+  {
+   "cycle": "2992",
+   "sector": "103",
+   "mid_btjd": "4171.283968",
+   "core_bins": "5",
+   "base_bins": "19",
+   "depth_ppt": "10.2386",
+   "noise_ppt": "0.5405",
+   "strong": "True"
+  },
+  {
+   "cycle": "2993",
+   "sector": "103",
+   "mid_btjd": "4172.227928",
+   "core_bins": "5",
+   "base_bins": "13",
+   "depth_ppt": "10.4508",
+   "noise_ppt": "0.1298",
+   "strong": "True"
+  },
+  {
+   "cycle": "2994",
+   "sector": "103",
+   "mid_btjd": "4173.166345",
+   "core_bins": "6",
+   "base_bins": "20",
+   "depth_ppt": "10.5067",
+   "noise_ppt": "0.1232",
+   "strong": "True"
+  },
+  {
+   "cycle": "2995",
+   "sector": "103",
+   "mid_btjd": "4174.104192",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.387",
+   "noise_ppt": "0.2191",
+   "strong": "True"
+  },
+  {
+   "cycle": "2996",
+   "sector": "103",
+   "mid_btjd": "4175.048427",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.6119",
+   "noise_ppt": "0.1681",
+   "strong": "True"
+  },
+  {
+   "cycle": "2997",
+   "sector": "103",
+   "mid_btjd": "4175.992197",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.2737",
+   "noise_ppt": "0.2059",
+   "strong": "True"
+  },
+  {
+   "cycle": "2998",
+   "sector": "103",
+   "mid_btjd": "4176.935849",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4929",
+   "noise_ppt": "0.2899",
+   "strong": "True"
+  },
+  {
+   "cycle": "3061",
+   "sector": "106",
+   "mid_btjd": "4236.243429",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.6347",
+   "noise_ppt": "0.1267",
+   "strong": "True"
+  },
+  {
+   "cycle": "3062",
+   "sector": "106",
+   "mid_btjd": "4237.187533",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.4534",
+   "noise_ppt": "0.1586",
+   "strong": "True"
+  },
+  {
+   "cycle": "3063",
+   "sector": "106",
+   "mid_btjd": "4238.155371",
+   "core_bins": "2",
+   "base_bins": "20",
+   "depth_ppt": "8.9172",
+   "noise_ppt": "0.2323",
+   "strong": "True"
+  },
+  {
+   "cycle": "3064",
+   "sector": "106",
+   "mid_btjd": "4239.063629",
+   "core_bins": "5",
+   "base_bins": "17",
+   "depth_ppt": "10.6138",
+   "noise_ppt": "0.3322",
+   "strong": "True"
+  },
+  {
+   "cycle": "3065",
+   "sector": "106",
+   "mid_btjd": "4240.012297",
+   "core_bins": "6",
+   "base_bins": "10",
+   "depth_ppt": "9.5511",
+   "noise_ppt": "0.2444",
+   "strong": "True"
+  },
+  {
+   "cycle": "3066",
+   "sector": "106",
+   "mid_btjd": "4240.952255",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.4657",
+   "noise_ppt": "0.1517",
+   "strong": "True"
+  },
+  {
+   "cycle": "3067",
+   "sector": "106",
+   "mid_btjd": "4241.895812",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5911",
+   "noise_ppt": "0.179",
+   "strong": "True"
+  },
+  {
+   "cycle": "3068",
+   "sector": "106",
+   "mid_btjd": "4242.838678",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.7232",
+   "noise_ppt": "0.1904",
+   "strong": "True"
+  },
+  {
+   "cycle": "3069",
+   "sector": "106",
+   "mid_btjd": "4243.77127",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5421",
+   "noise_ppt": "0.2448",
+   "strong": "True"
+  },
+  {
+   "cycle": "3070",
+   "sector": "106",
+   "mid_btjd": "4244.714869",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.5172",
+   "noise_ppt": "0.1543",
+   "strong": "True"
+  },
+  {
+   "cycle": "3071",
+   "sector": "106",
+   "mid_btjd": "4245.658994",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.6551",
+   "noise_ppt": "0.1706",
+   "strong": "True"
+  },
+  {
+   "cycle": "3072",
+   "sector": "106",
+   "mid_btjd": "4246.603306",
+   "core_bins": "5",
+   "base_bins": "21",
+   "depth_ppt": "10.7532",
+   "noise_ppt": "0.3224",
+   "strong": "True"
+  },
+  {
+   "cycle": "3076",
+   "sector": "106",
+   "mid_btjd": "4250.367222",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.1156",
+   "noise_ppt": "0.3365",
+   "strong": "True"
+  },
+  {
+   "cycle": "3077",
+   "sector": "106",
+   "mid_btjd": "4251.311426",
+   "core_bins": "5",
+   "base_bins": "18",
+   "depth_ppt": "10.4463",
+   "noise_ppt": "0.2182",
+   "strong": "True"
+  },
+  {
+   "cycle": "3078",
+   "sector": "106",
+   "mid_btjd": "4252.244215",
+   "core_bins": "5",
+   "base_bins": "10",
+   "depth_ppt": "10.3865",
+   "noise_ppt": "0.1778",
+   "strong": "True"
+  },
+  {
+   "cycle": "3081",
+   "sector": "106",
+   "mid_btjd": "4255.075785",
+   "core_bins": "5",
+   "base_bins": "16",
+   "depth_ppt": "10.4079",
+   "noise_ppt": "0.2984",
+   "strong": "True"
+  },
+  {
+   "cycle": "3082",
+   "sector": "106",
+   "mid_btjd": "4256.013652",
+   "core_bins": "6",
+   "base_bins": "20",
+   "depth_ppt": "10.3469",
+   "noise_ppt": "0.1273",
+   "strong": "True"
+  },
+  {
+   "cycle": "3083",
+   "sector": "106",
+   "mid_btjd": "4256.952175",
+   "core_bins": "5",
+   "base_bins": "20",
+   "depth_ppt": "10.694",
+   "noise_ppt": "0.2374",
+   "strong": "True"
+  },
+  {
+   "cycle": "3084",
+   "sector": "106",
+   "mid_btjd": "4257.895968",
+   "core_bins": "5",
+   "base_bins": "15",
+   "depth_ppt": "10.8253",
+   "noise_ppt": "0.2168",
+   "strong": "True"
+  },
+  {
+   "cycle": "3086",
+   "sector": "106",
+   "mid_btjd": "4259.78382",
+   "core_bins": "5",
+   "base_bins": "15",
+   "depth_ppt": "10.3214",
+   "noise_ppt": "0.2197",
+   "strong": "True"
+  }
+ ],
+ "raw_event_depths": [
+  {
+   "sector": "2",
+   "cycle": "0",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.188",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "1",
+   "phase": "0",
+   "core": "49",
+   "depth_ppt": "10.378",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "2",
+   "phase": "0",
+   "core": "49",
+   "depth_ppt": "10.414",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "3",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.365",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "4",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.274",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "5",
+   "phase": "0",
+   "core": "43",
+   "depth_ppt": "10.427",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "6",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.124",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "7",
+   "phase": "0",
+   "core": "49",
+   "depth_ppt": "10.375",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "8",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.169",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "9",
+   "phase": "0",
+   "core": "47",
+   "depth_ppt": "10.31",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "10",
+   "phase": "0",
+   "core": "48",
+   "depth_ppt": "10.382",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "11",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.267",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "12",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.25",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "13",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.308",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "16",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.198",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "17",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.33",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "18",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.356",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "19",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.163",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "20",
+   "phase": "0",
+   "core": "47",
+   "depth_ppt": "10.084",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "21",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.483",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "22",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.401",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "23",
+   "phase": "0",
+   "core": "40",
+   "depth_ppt": "10.527",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "24",
+   "phase": "0",
+   "core": "49",
+   "depth_ppt": "10.214",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "25",
+   "phase": "0",
+   "core": "47",
+   "depth_ppt": "10.444",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "26",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.348",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "27",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.135",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "28",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.377",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "0",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.2",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "1",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.258",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "2",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.059",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "3",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.303",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "4",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.208",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "5",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.396",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "6",
+   "phase": "0.25",
+   "core": "48",
+   "depth_ppt": "-0.133",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "7",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.24",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "8",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.242",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "9",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.229",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "10",
+   "phase": "0.25",
+   "core": "44",
+   "depth_ppt": "-0.174",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "11",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.183",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "12",
+   "phase": "0.25",
+   "core": "46",
+   "depth_ppt": "-0.255",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "13",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.2",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "15",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.249",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "16",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.119",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "17",
+   "phase": "0.25",
+   "core": "43",
+   "depth_ppt": "-0.419",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "18",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.073",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "19",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.016",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "20",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.082",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "21",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.154",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "22",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.239",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "23",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.203",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "24",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.215",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "25",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.189",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "26",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.189",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "27",
+   "phase": "0.25",
+   "core": "48",
+   "depth_ppt": "-0.411",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "28",
+   "phase": "0.25",
+   "core": "46",
+   "depth_ppt": "0.025",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "-1",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.039",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "0",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.068",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "1",
+   "phase": "0.75",
+   "core": "49",
+   "depth_ppt": "-0.202",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "2",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.211",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "3",
+   "phase": "0.75",
+   "core": "46",
+   "depth_ppt": "-0.377",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "4",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.19",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "5",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.348",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "6",
+   "phase": "0.75",
+   "core": "49",
+   "depth_ppt": "-0.201",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "7",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.311",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "8",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.382",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "9",
+   "phase": "0.75",
+   "core": "42",
+   "depth_ppt": "-0.363",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "10",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.039",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "11",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.083",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "12",
+   "phase": "0.75",
+   "core": "48",
+   "depth_ppt": "-0.046",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "15",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.295",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "16",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "0.089",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "17",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.65",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "18",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.11",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "19",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.12",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "20",
+   "phase": "0.75",
+   "core": "48",
+   "depth_ppt": "-0.335",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "21",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.164",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "22",
+   "phase": "0.75",
+   "core": "48",
+   "depth_ppt": "-0.352",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "23",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.129",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "24",
+   "phase": "0.75",
+   "core": "49",
+   "depth_ppt": "-0.049",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "25",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.28",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "26",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "0.051",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "2",
+   "cycle": "27",
+   "phase": "0.75",
+   "core": "48",
+   "depth_ppt": "-0.23",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "809",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.497",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "810",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.34",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "811",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.347",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "812",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.267",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "813",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.354",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "814",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.602",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "815",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.431",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "816",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.238",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "817",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.361",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "818",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.384",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "819",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.042",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "820",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.314",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "825",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.583",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "826",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.211",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "827",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.42",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "828",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.583",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "829",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.5",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "830",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.415",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "831",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "9.802",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "832",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.323",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "833",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.628",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "834",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.334",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "835",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.478",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "836",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.161",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "809",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "0.011",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "810",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.245",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "811",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.286",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "812",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.033",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "813",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.145",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "814",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.025",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "815",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.446",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "816",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.456",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "817",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.258",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "818",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.293",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "819",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.242",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "820",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "0.015",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "824",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.216",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "825",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.281",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "826",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.251",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "827",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.096",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "828",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.164",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "829",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.027",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "830",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.173",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "831",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.289",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "832",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.198",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "833",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.327",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "834",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.147",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "835",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "0.044",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "809",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.192",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "810",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "0.002",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "811",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.309",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "812",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.135",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "813",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.152",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "814",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.308",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "815",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.101",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "816",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.009",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "817",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.127",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "818",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.33",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "819",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.123",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "820",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.211",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "824",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.052",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "825",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.298",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "826",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.124",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "827",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.65",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "828",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.09",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "829",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.298",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "830",
+   "phase": "0.75",
+   "core": "47",
+   "depth_ppt": "-0.357",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "831",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.163",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "832",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.168",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "833",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.201",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "834",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.086",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "30",
+   "cycle": "835",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.19",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2974",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.24",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2975",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.274",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2976",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.35",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2977",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.372",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2978",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.262",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2980",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.295",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2981",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.5",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2982",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.382",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2983",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.324",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2984",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.294",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2988",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.261",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2989",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.39",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2990",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.534",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2991",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "9.952",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2992",
+   "phase": "0",
+   "core": "27",
+   "depth_ppt": "10.137",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2993",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.074",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2994",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.468",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2995",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.39",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2996",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.419",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2997",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.331",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2998",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.207",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2973",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "0.195",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2974",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.234",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2975",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.351",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2976",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.065",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2977",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.183",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2978",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.199",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2979",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "0.033",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2980",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.178",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2981",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.287",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2982",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.205",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2983",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.311",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2984",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.214",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2987",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.196",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2988",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.48",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2989",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.134",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2990",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.597",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2991",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.039",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2993",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.171",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2994",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "0.115",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2995",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.342",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2996",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "0.092",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2997",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.217",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2998",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.101",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2973",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.265",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2974",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.178",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2975",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.191",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2976",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.146",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2977",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.119",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2978",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "0.081",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2979",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.34",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2980",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.308",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2981",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.019",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2982",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.256",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2983",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.171",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2987",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.351",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2988",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "0.021",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2989",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.302",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2990",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.454",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2991",
+   "phase": "0.75",
+   "core": "32",
+   "depth_ppt": "-0.638",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2993",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.259",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2994",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.167",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2995",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "0.005",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2996",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.055",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "103",
+   "cycle": "2997",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.213",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3061",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.269",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3062",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.281",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3063",
+   "phase": "0",
+   "core": "9",
+   "depth_ppt": "9.222",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3064",
+   "phase": "0",
+   "core": "44",
+   "depth_ppt": "10.37",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3066",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.318",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3067",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.16",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3068",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.342",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3069",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.506",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3070",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.19",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3071",
+   "phase": "0",
+   "core": "49",
+   "depth_ppt": "10.296",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3072",
+   "phase": "0",
+   "core": "42",
+   "depth_ppt": "10.502",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3076",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.043",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3077",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.285",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3081",
+   "phase": "0",
+   "core": "51",
+   "depth_ppt": "10.393",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3082",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.199",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3083",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.305",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3084",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.293",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3086",
+   "phase": "0",
+   "core": "50",
+   "depth_ppt": "10.216",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3060",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.168",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3061",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.108",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3062",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.193",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3063",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.089",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3064",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.135",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3066",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.072",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3067",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.064",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3068",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.185",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3069",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.224",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3070",
+   "phase": "0.25",
+   "core": "49",
+   "depth_ppt": "-0.226",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3071",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.193",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3072",
+   "phase": "0.25",
+   "core": "38",
+   "depth_ppt": "-0.112",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3076",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.145",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3077",
+   "phase": "0.25",
+   "core": "14",
+   "depth_ppt": "-0.018",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3081",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.202",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3082",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.214",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3083",
+   "phase": "0.25",
+   "core": "51",
+   "depth_ppt": "-0.219",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3084",
+   "phase": "0.25",
+   "core": "43",
+   "depth_ppt": "-0.264",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3085",
+   "phase": "0.25",
+   "core": "50",
+   "depth_ppt": "-0.264",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3086",
+   "phase": "0.25",
+   "core": "47",
+   "depth_ppt": "-0.037",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3060",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.175",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3061",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.212",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3062",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.162",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3063",
+   "phase": "0.75",
+   "core": "49",
+   "depth_ppt": "-0.197",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3064",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.289",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3065",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.058",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3066",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.223",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3067",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.416",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3068",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.183",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3069",
+   "phase": "0.75",
+   "core": "49",
+   "depth_ppt": "-0.101",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3070",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.248",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3071",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "0.002",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3076",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.219",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3077",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.017",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3081",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.325",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3082",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.236",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3083",
+   "phase": "0.75",
+   "core": "51",
+   "depth_ppt": "-0.01",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3084",
+   "phase": "0.75",
+   "core": "48",
+   "depth_ppt": "-0.33",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "106",
+   "cycle": "3085",
+   "phase": "0.75",
+   "core": "50",
+   "depth_ppt": "-0.223",
+   "column": "SAP_FLUX"
+  }
+ ],
+ "pixel_checks": [
+  {
+   "sector": 103,
+   "period": 0.9414519234850756,
+   "epoch": 1354.4591771068133,
+   "width_days": 0.07004525346916643,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0103/0000/0001/0010/0827/tess2026111101500-s0103-0000000100100827-0305-s_tp.fits",
+   "sha256": "3980dfcff7eae453aae52bc15b66eac50024ec98f9b7423c9e5506a7e1a5bed1",
+   "status": "ok",
+   "camera": 4,
+   "ccd": 3,
+   "n_events": 21,
+   "n_in": 618,
+   "diff_snr": 139.42438492063354,
+   "psf_sigma_px": 0.7931681327145329,
+   "wcs_shift_px": [
+    -0.014353240807049718,
+    0.07377416044370048
+   ],
+   "free_offset_target_as": 3.557766361360225,
+   "chi2_free": 9225.459078732565,
+   "chi2_target": 10325.329213210107,
+   "amp_target": 123.14932380734818,
+   "n_capable": 2,
+   "hyp": [
+    {
+     "source_id": "4955371436054085888",
+     "sep_as": 73.018,
+     "dG": 3.971254,
+     "chi2": 42077.75261469267,
+     "amp": -0.4242941268483647,
+     "is_target": false,
+     "free_offset_as": 78.30096029511057
+    },
+    {
+     "source_id": "4931352192228727552",
+     "sep_as": 81.722,
+     "dG": 4.6297440000000005,
+     "chi2": 42100.08337515631,
+     "amp": 0.26263577097215063,
+     "is_target": false,
+     "free_offset_as": 86.3823820369937
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 31752.423401482563,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=24.3544669330396&dec=-45.6777908467995&x=9&y=9&sector=103"
+  },
+  {
+   "sector": 106,
+   "period": 0.9414519234850756,
+   "epoch": 1354.4591771068133,
+   "width_days": 0.07004525346916643,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0106/0000/0001/0010/0827/tess2026192185000-s0106-0000000100100827-0308-s_tp.fits",
+   "sha256": "a984960a734de28c69b782cf434dafd0fe69ed36ce546de9b656ff8acfd2544c",
+   "status": "ok",
+   "camera": 2,
+   "ccd": 1,
+   "n_events": 18,
+   "n_in": 536,
+   "diff_snr": 222.64999869032454,
+   "psf_sigma_px": 0.8653113252055114,
+   "wcs_shift_px": [
+    -0.0028898965934877055,
+    0.04624173422009809
+   ],
+   "free_offset_target_as": 2.757013130475285,
+   "chi2_free": 9842.21014812897,
+   "chi2_target": 12001.003521847255,
+   "amp_target": 93.49179531036303,
+   "n_capable": 2,
+   "hyp": [
+    {
+     "source_id": "4931352192228727552",
+     "sep_as": 81.722,
+     "dG": 4.6297440000000005,
+     "chi2": 77818.48973172891,
+     "amp": 0.8310938636766814,
+     "is_target": false,
+     "free_offset_as": 83.89421591161742
+    },
+    {
+     "source_id": "4955371436054085888",
+     "sep_as": 73.018,
+     "dG": 3.971254,
+     "chi2": 77866.87004246877,
+     "amp": 0.7082397410359951,
+     "is_target": false,
+     "free_offset_as": 76.75216076685626
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 65817.48620988167,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=24.3544669330396&dec=-45.6777908467995&x=9&y=9&sector=106"
+  },
+  {
+   "sector": 2,
+   "period": 0.9414519234850756,
+   "epoch": 1354.4591771068133,
+   "width_days": 0.07004525346916643,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0002/0000/0001/0010/0827/tess2018234235059-s0002-0000000100100827-0121-s_tp.fits",
+   "sha256": "e85db6d4f2630330921709c2e0fdc5c4d4628c25fd02d59f5f42960c94399599",
+   "status": "ok",
+   "camera": 2,
+   "ccd": 2,
+   "n_events": 27,
+   "n_in": 793,
+   "diff_snr": 143.86235636528409,
+   "psf_sigma_px": 0.9100795578635502,
+   "wcs_shift_px": [
+    -0.06247030517823885,
+    0.05055400602760167
+   ],
+   "free_offset_target_as": 5.741029967336217,
+   "chi2_free": 25022.444677984444,
+   "chi2_target": 30931.20716240834,
+   "amp_target": 84.12132549980042,
+   "n_capable": 2,
+   "hyp": [
+    {
+     "source_id": "4931352192228727552",
+     "sep_as": 81.722,
+     "dG": 4.6297440000000005,
+     "chi2": 81017.91571129157,
+     "amp": 1.2959882606801403,
+     "is_target": false,
+     "free_offset_as": 83.16658722865459
+    },
+    {
+     "source_id": "4955371436054085888",
+     "sep_as": 73.018,
+     "dG": 3.971254,
+     "chi2": 81489.33222601871,
+     "amp": 0.6938315983377855,
+     "is_target": false,
+     "free_offset_as": 75.33987415597463
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 50086.70854888323,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=24.3544669330396&dec=-45.6777908467995&x=9&y=9&sector=2"
+  },
+  {
+   "sector": 30,
+   "period": 0.9414519234850756,
+   "epoch": 1354.4591771068133,
+   "width_days": 0.07004525346916643,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0030/0000/0001/0010/0827/tess2020266004630-s0030-0000000100100827-0195-s_tp.fits",
+   "sha256": "bf033338f8ec8c0bbec405caa5813f1cb3bd51fa406943efce60f05326ca96bc",
+   "status": "ok",
+   "camera": 2,
+   "ccd": 1,
+   "n_events": 24,
+   "n_in": 725,
+   "diff_snr": 90.38726439388479,
+   "psf_sigma_px": 0.839415014962244,
+   "wcs_shift_px": [
+    -0.027717997304285643,
+    0.06332078413244192
+   ],
+   "free_offset_target_as": 3.7791841681789586,
+   "chi2_free": 6555.736351975729,
+   "chi2_target": 7770.071498493499,
+   "amp_target": 113.12349388774437,
+   "n_capable": 2,
+   "hyp": [
+    {
+     "source_id": "4955371436054085888",
+     "sep_as": 73.018,
+     "dG": 3.971254,
+     "chi2": 31552.648114490887,
+     "amp": 0.6804972786086187,
+     "is_target": false,
+     "free_offset_as": 75.22398585444074
+    },
+    {
+     "source_id": "4931352192228727552",
+     "sep_as": 81.722,
+     "dG": 4.6297440000000005,
+     "chi2": 31664.067952343376,
+     "amp": -0.010699663849595316,
+     "is_target": false,
+     "free_offset_as": 86.53428679498381
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 23782.576615997386,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=24.3544669330396&dec=-45.6777908467995&x=9&y=9&sector=30"
+  }
+ ],
+ "catalogues": {
+  "tic": "100100827",
+  "gaia_dr3": "4955371367334610048",
+  "eb_hits_30as": "",
+  "other_var_30as": "B/vsx/vsx:WASP-18:EP:P=0.941452990000:0.5as ; I/358/vclassre:4955371367334610048:EP:P=:0.0as:sameID",
+  "eb_nearby_30_90as": "J/ApJS/258/16/tess-ebs:0100100827::P=0.9414549:0.5as ; J/ApJS/258/16/tess-ebs:0100100829::P=0.9419795:83.4as",
+  "kostov_table2_machine": "",
+  "prsa_local": "0.9414549156684436",
+  "simbad_main_id": "HD  10069c",
+  "simbad_otype": "Pl",
+  "simbad_nbref": "9",
+  "simbad_sep": "0.5",
+  "simbad_other_30as": "",
+  "simbad_bib_eclipse_titles": "",
+  "simbad_bib_binary_titles_n": 1,
+  "toi": "185.01",
+  "ctoi": "",
+  "house": "",
+  "source_catalogue_note": "",
+  "vsx_api_error": "405 Client Error: Not Allowed for url: https://vsx.aavso.org/index.php?view=api.list&ra=24.3544669330396&dec=-45.6777908467995&radius=0.008333333333333333&format=json"
+ },
+ "current_vsx": null,
+ "direct_vsx_url": "https://www.aavso.org/vsx/index.php?view=api.list&ra=24.3544669330396&dec=-45.6777908467995&radius=0.0125&format=json",
+ "supplement": {
+  "gd": "4955371367334610048",
+  "tic": "100100827",
+  "gaia": "4955371367334610048",
+  "vari_eclipsing_binary": [],
+  "vari_classifier_result": [
+   {
+    "source_id": 4955371367334610048,
+    "best_class_name": "EP",
+    "best_class_score": 1.0
+   }
+  ],
+  "nss_two_body_orbit": [
+   {
+    "source_id": 4955371367334610048,
+    "nss_solution_type": "SB1",
+    "period": 0.9414684606070756
+   }
+  ],
+  "public_matches": [],
+  "superwasp_matches": [],
+  "theo_matches": []
+ },
+ "live_villanova": {
+  "tic": "100100827",
+  "complete": true,
+  "exact": true,
+  "listed": "100100827",
+  "sha256": "c3819747ee03a4de64832109a7964988d03f92a360ccd3753d9bac285db80721",
+  "details": [
+   [
+    "1",
+    "True",
+    "1355.4059419738815",
+    "0.0197439454395862",
+    "0.9414549156684436",
+    "0.0000006588270820007125",
+    "0.537",
+    "Feb. 26, 2025, 6:05 a.m.",
+    "wp,pfPolyfit width of the primary eclipse",
+    "ws,pfPolyfit width of the secondary eclipse",
+    "dp,pfPolyfit depth of the primary eclipse",
+    "ds,pfPolyfit depth of the secondary eclipse",
+    "φp,pfPolyfit phase of the primary eclipse",
+    "φs,pfPolyfit phase of the secondary eclipse",
+    "wp,2g2-gaussian width of the primary eclipse",
+    "ws,2g2-gaussian width of the secondary eclipse",
+    "dp,2g2-gaussian depth of the primary eclipse",
+    "ds,2g2-gaussian depth of the secondary eclipse",
+    "φp,2g2-gaussian phase of the primary eclipse",
+    "φs,2g2-gaussian phase of the secondary eclipse"
+   ]
+  ]
+ },
+ "simbad_cross_identification": {
+  "complete": true,
+  "tic": "100100827",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J01372503-4540404",
+   "APASS 22141898",
+   "AllWISE J013725.05-454040.1",
+   "Gaia DR2 4955371367334610048",
+   "HIP 7562",
+   "TYC 8040-00072-1",
+   "TYC 8040-72-1",
+   "UCAC4 222-001504"
+  ],
+  "objects": {
+   "HD  10069": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J01372503-4540404",
+     "Gaia DR2 4955371367334610048",
+     "HIP 7562",
+     "TYC 8040-72-1"
+    ],
+    "simbad_ids": "TIC 100100827|TOI-185|RAVE J013725.0-454040|HIP 7562|Gaia DR3 4955371367334610048|2MASS J01372503-4540404|SPOCS 2511|CD-46   449|CPC  0   759|CPD-46   168|GEN# +1.00010069|GSC 08040-00072|HD  10069|HIC   7562|PPM 306061|SAO 215585|TYC 8040-72-1|UBV    1689|[CS62] E1  13|Gaia DR2 4955371367334610048|WASP-18|Gaia DR1 4955371363037611136|WASP-18A|DTARPS-S 116",
+    "references": {
+     "2019A&A...628A...9C": "Atmospheric characterization of the ultra-hot Jupiter MASCARA-2b/KELT-20b. Detection of CaII, FeII, NaI, and the Balmer series of H (H{alpha}, H{beta}, and H{gamma}) with high-dispersion transit spectroscopy.",
+     "2019MNRAS.487.4208D": "Modelling atmospheric escape and Mg II near-ultraviolet absorption of the highly irradiated hot Jupiter WASP-12b.",
+     "2016A&A...585A...5B": "Age consistency between exoplanet hosts and field stars.",
+     "1993yCat.3135....0C": "VizieR Online Data Catalog: Henry Draper Catalogue and Extension, published in Ann. Harvard Obs. 91-100 (1918-1925)",
+     "2019AJ....158..141Z": "Two new HATNet hot Jupiters around A stars and the first glimpse at the occurrence rate of hot Jupiters from TESS.",
+     "2020AJ....160...88W": "Exploring the atmospheric dynamics of the extreme ultrahot Jupiter KELT-9b using TESS photometry.",
+     "2020MNRAS.496.3870P": "Assessing spectra and thermal inversions due to TiO in hot Jupiter atmospheres.",
+     "2020AJ....160..133M": "TOI 694b and TIC 220568520b: two low-mass companions near the hydrogen-burning mass limit orbiting Sun-like stars.",
+     "2020ApJS..250...20C": "A search for rotation periods in 1000 TESS objects of interest.",
+     "2020AJ....160...83S": "The sixth Data Release of the Radial Velocity Experiment (RAVE). II. Stellar atmospheric parameters, chemical abundances, and distances.",
+     "2018ApJS..239...14J": "Revised exoplanet radii and habitability using Gaia data release 2.",
+     "2020AJ....160..155W": "Systematic phase curve study of known transiting systems from year one of the TESS mission.",
+     "2020MNRAS.497.3911L": "Orbital period modulation in hot Jupiter systems.",
+     "2019AJ....158..190H": "Hot Jupiters are destroyed by tides while their host stars are on the main sequence.",
+     "2020A&A...643A.169K": "More planetary candidates from K2 Campaign 5 using TRAN_K2.",
+     "2020A&A...644A..67S": "Ca II H&K stellar activity parameter: a proxy for extreme ultraviolet stellar fluxes.",
+     "2019MNRAS.490.3158C": "A catalogue of stellar diameters and fluxes for mid-infrared interferometry.",
+     "2021MNRAS.500.2711B": "Tidally induced stellar oscillations: converting modelled oscillations excited by hot Jupiters into observables.",
+     "2021A&A...645A.146L": "Three-dimensional continuum radiative transfer of polarized radiation in exoplanetary atmospheres.",
+     "2021A&A...646A.171C": "Formation and dynamics of water clouds on temperate sub-Neptunes: the example of K2-18b.",
+     "2022AJ....163..175W": "TESS Revisits WASP-12: Updated Orbital Decay Rate and Constraints on Atmospheric Variability.",
+     "2020ApJS..247...11R": "Radial velocity photon limits for the dwarf stars of spectral classes F-M.",
+     "2021MNRAS.502.2331B": "Polarization of hot Jupiter systems: a likely detection of stellar activity and a possible detection of planetary polarization.",
+     "2021ApJ...910L..19C": "When the peas jump around the pod: how stellar clustering affects the observed correlations between planet properties in multiplanet systems.",
+     "2021ApJS..254...13G": "Allesfitter: flexible star and exoplanet inference from photometry and radial velocity.",
+     "2021A&A...649A..44H": "Cloud property trends in hot and ultra-hot giant gas planets (WASP-43b, WASP-103b, WASP-121b, HAT-P-7b, and WASP-18b).",
+     "2021AJ....162..192Z": "SOAR TESS survey. II. The impact of stellar companions on planetary populations.",
+     "2022A&A...667A.127M": "Planet-star interactions with precise transit timing III. Entering the regime of dynamical tides,.",
+     "2021A&A...654A.137L": "The evolution of lithium in FGK dwarf stars. The lithium-rotation connection and the Li desert.",
+     "2020ApJ...890...23L": "Current population statistics do not favor photoevaporation over core-powered mass loss as the dominant cause of the exoplanet radius gap.",
+     "2013AJ....146..134K": "The radial velocity experiment (RAVE): fourth data release.",
+     "2022A&A...660A.123M": "Physically-motivated basis functions for temperature maps of exoplanets.",
+     "2020A&A...639A..35H": "The correlation between photometric variability and radial velocity jitter. Based on TESS and HARPS observations.",
+     "2017AJ....153...75K": "The Radial Velocity Experiment (RAVE): fifth data release.",
+     "2021AJ....162..127W": "Visible-light phase curves from the second Year of the TESS primary mission.",
+     "2021A&A...653A.104B": "The GAPS Programme at TNG. XXXI. The WASP-33 system revisited with HARPS-N.",
+     "2021ApJS..254...42B": "The Hipparcos-Gaia Catalog of Accelerations: Gaia EDR3 edition.",
+     "2020A&A...636A..74T": "Public HARPS radial velocity database corrected for systematic errors.",
+     "2021MNRAS.508.5514G": "Is the orbit of the exoplanet WASP-43b really decaying? TESS and MuSCAT2 observations confirm no detection.",
+     "2022ApJS..259...62I": "TESS Transit Timing of Hundreds of Hot Jupiters.",
+     "2022A&A...663A..55L": "Polarimetric investigation of selected cloud compositions in exoplanetary atmospheres.",
+     "2021ApJ...909..115C": "Planets Across Space and Time (PAST). I. Characterizing the memberships of Galactic components and stellar ages: revisiting the kinematic methods and applying to planet host stars.",
+     "2022MNRAS.515.1328D": "HD 28109 hosts a trio of transiting Neptunian planets including a near-resonant pair, confirmed by ASTEP from Antarctica.",
+     "2022A&A...668A.114R": "Measuring the orbit shrinkage rate of hot Jupiters due to tides.",
+     "2022PASP..134h2001A": "Stellar Obliquities in Exoplanetary Systems.",
+     "2022MNRAS.513..102C": "The TESS Triple-9 Catalog: 999 uniformly vetted exoplanet candidates.",
+     "2019MNRAS.490.5088M": "Search for stellar companions of exoplanet host stars by exploring the second ESA-Gaia data release.",
+     "2022ApJ...937L..41C": "Life on Exoplanets in the Habitable Zone of M Dwarfs?",
+     "2022MNRAS.516.2913A": "The effects of non-linearities on tidal flows in the convective envelopes of rotating stars and planets in exoplanetary systems.",
+     "2023AJ....165...91B": "The Roasting Marshmallows Program with IGRINS on Gemini South I: Composition and Climate of the Ultrahot Jupiter WASP-18 b.",
+     "2023A&A...671A.122H": "Exoplanet weather and climate regimes with clouds and thermal ionospheres A model grid study in support of large-scale observational campaigns.",
+     "2023A&A...671A.171W": "PySME Spectroscopy Made Easier.",
+     "2023AJ....165..200S": "Planetary Parameters, XUV Environments, and Mass-loss Rates for Nearby Gaseous Planets with X-Ray-detected Host Stars.",
+     "2021ApJ...912..123J": "Temperature and distance dependence of tidal circularization in close binaries: a catalog of eclipsing binaries in the southern hemisphere observed by the TESS satellite.",
+     "2023A&A...672A.107Y": "CRIRES^+^ detection of CO emissions lines and temperature inversions on the dayside of WASP-18b and WASP-76b.",
+     "2023A&A...673A..61P": "The X-ray activity of F stars with hot Jupiters: KELT-24 versus WASP-18.",
+     "2022ApJS..258...16P": "TESS Eclipsing Binary stars. I. Short-cadence observations of 4584 eclipsing binaries in sectors 1-26.",
+     "2022RNAAS...6..155P": "Chemical Abundances for 25 JWST Exoplanet Host Stars with KeckSpec.",
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2019A&A...623A..72K": "Stellar and substellar companions of nearby stars from Gaia DR2. Binarity from proper motion anomaly.",
+     "1997A&A...323L..49P": "The Hipparcos Catalogue.",
+     "2007A&A...474..653V": "Validation of the new Hipparcos reduction.",
+     "2018MNRAS.477L..21M": "Pre-discovery transits of the exoplanets WASP-18b and WASP-33b from Hipparcos.",
+     "2023MNRAS.519.3723M": "Limb darkening measurements from {\\em TESS} and {\\em Kepler} light curves of transiting exoplanets.",
+     "2023Natur.620..292C": "A broadband thermal emission spectrum of the ultra-hot Jupiter WASP-18b.",
+     "2022A&A...663A.161M": "Ariel stellar characterisation. I. Homogeneous stellar parameters of 187 FGK planet host stars: Description and validation of the method.",
+     "2024MNRAS.531...35M": "Comparing transit spectroscopy pipelines at the catalogue level: evidence for systematic differences.",
+     "2023A&A...677A.187O": "Impact of hot exozodiacal dust on the polarimetric analysis of close-in exoplanets.",
+     "2023ApJS..269...31E": "Exploring the Ability of Hubble Space Telescope WFC3 G141 to Uncover Trends in Populations of Exoplanet Atmospheres through a Homogeneous Transmission Survey of 70 Gaseous Planets.",
+     "1987A&AS...71..413M": "UBV Photoelectric Photometry Catalogue (1986): I. The Original data.",
+     "2023AJ....166..266R": "Evidence for Low-level Dynamical Excitation in Near-resonant Exoplanet Systems.",
+     "2024ApJ...960...50W": "Orbital Decay of Hot Jupiters due to Weakly Nonlinear Tidal Dissipation.",
+     "2024A&A...687A.187L": "Equilibrium tides and magnetic activity in stars with close-by massive planets The intriguing case of WASP-18.",
+     "2024AJ....167...89Z": "Dynamical Architectures of S-type Transiting Planets in Binaries. I. Target Selection Using Hipparcos and Gaia Proper Motion Anomalies.",
+     "2024A&A...682A.136C": "The GAPS Programme at TNG LI. Investigating the correlations between transiting system parameters and host chromospheric activity.",
+     "2024A&A...684A..78B": "Evidence of apsidal motion and a possible co-moving companion star detected in the WASP-19 system.",
+     "2022MNRAS.513.4380I": "Tidal star-planet interaction and its observed impact on stellar activity in planet-hosting wide binary systems.",
+     "2022A&A...663A...4S": "Assessment of [Fe/H] determinations for FGK stars in spectroscopic surveys.",
+     "2024A&A...685A.131B": "Star-spot activity, orbital obliquity, transmission spectrum, physical properties, and transit time variations of the HATS-2 planetary system.",
+     "2024MNRAS.534..843G": "Do anomalously dense hot Jupiters orbit stealth binary stars?",
+     "2014ASPC..485..223B": "The JMMC stellar diameters catalog v2 (JSDC): a new release based on SearchCal improvements",
+     "2024MNRAS.534.3893V": "A regularization technique to precisely infer limb darkening using transit measurements: can we estimate stellar surface magnetic fields?",
+     "2024MNRAS.535.2512A": "Constraining planetary albedo of {\\em JWST} targets in the {\\em TESS} bandpass, using {\\em TESS, HST}, and {\\em Spitzer} eclipse depth observations.",
+     "2022MNRAS.516...75B": "Exploring the dependence of hot Jupiter occurrence rates on stellar mass with TESS.",
+     "2024A&A...684A..28L": "The evolution of lithium in FGK dwarf stars Influence of planets and Galactic migration.",
+     "2024ApJ...976...32B": "Comparative Planetology of Magnetic Effects in Ultrahot Jupiters: Trends in High-resolution Spectroscopy.",
+     "2024A&A...688A.193D": "Ariel stellar characterisation II. Chemical abundances of carbon, nitrogen, and oxygen for 181 planet-host FGK dwarf stars.",
+     "2023AJ....166...72S": "Variability of Known Exoplanet Host Stars Observed by TESS.",
+     "2025A&A...694A.233B": "Characterising WASP-43b's interior structure: Unveiling tidal decay and apsidal motion.",
+     "2024AJ....167..126R": "The Orbital Geometries and Stellar Obliquities of Exoplanet-hosting Multistar Systems.",
+     "2025A&A...699A.150D": "Dark skies of the slightly eccentric WASP-18 b from its optical-to-infrared dayside emission.",
+     "2022MNRAS.516.6145P": "Comprehensive Bayesian modelling of tidal circularization in open cluster binaries part I: M 35, NGC 6819, and NGC 188.",
+     "2023AJ....166..176C": "The Eclipse-mapping Null Space: Comparing Theoretical Predictions with Observed Maps.",
+     "2009Natur.460.1098H": "An orbital period of 0.94 days for the hot-Jupiter planet WASP-18b.",
+     "2016ApJS..225...32B": "Spectral properties of cool stars: extended abundance analysis of 1,617 planet-search stars.",
+     "2019AJ....158..243P": "A search for multiplanet systems with TESS using a Bayesian N-body retrieval and machine learning.",
+     "1962RGOB...49....3C": "Standard magnitudes in the E regions.",
+     "2009ApJ...707..167S": "Physical properties of the 0.94-Day period transiting planetary system  WASP-18.",
+     "2010ApJ...708..224H": "WASP-19b: the shortest period transiting exoplanet yet discovered.",
+     "2009MNRAS.398.1827S": "A SuperWASP search for additional transiting planets in 24 known systems.",
+     "2010A&A...512A..77L": "Hot Jupiters and the evolution of stellar angular momentum.",
+     "2010ApJ...718L.145W": "Hot stars with hot jupiters have high obliquities.",
+     "2010A&A...516A..33E": "An improved method for estimating the masses of stars with transiting  planets.",
+     "2010ApJ...719..602S": "Evidence of possible spin-orbit misalignment along the line of sight in  transiting exoplanet systems.",
+     "2010ApJ...720.1569K": "A correlation between stellar activity and hot Jupiter emission spectra.",
+     "2010MNRAS.404.1849B": "On internal wave breaking and tidal dissipation near the centre of a  solar-type star.",
+     "2010PASP..122.1465M": "WASP-32b: a transiting hot Jupiter planet orbiting a lithium-poor,  solar-type star.",
+     "2010ApJ...725.1995M": "Tidal evolution of close-in planets.",
+     "2010ARA&A..48..631S": "Exoplanet atmospheres.",
+     "2019A&A...631A.111A": "Does magnetic field impact tidal dynamics inside the convective zone of low-mass stars along their evolution?",
+     "2010MNRAS.408.1680S": "High-precision photometry by telescope defocusing - III. The transiting  planetary system WASP-2.",
+     "2010MNRAS.408.1689S": "Homogeneous studies of transiting extrasolar planets - III. Additional  planets and stellar models.",
+     "2011A&A...527L..11H": "The retrograde orbit of the HAT-P-6b exoplanet.",
+     "2011ApJ...731....1S": "Detection of brown dwarf like objects in the core of NGC 3603.",
+     "2011A&A...529A..50L": "Constraining tidal dissipation in F-type main-sequence stars: the case of  CoRoT-11.",
+     "2011A&A...532A...3S": "The corona and companion of CoRoT-2a. Insights from X-rays and optical  spectroscopy.",
+     "2021AJ....162..263H": "A uniform search for nearby planetary companions to hot Jupiters in TESS data reveals hot Jupiters are still lonely.",
+     "2022MNRAS.509.1447M": "The ultra-hot-Jupiter KELT-16 b: dynamical evolution and atmospheric properties.",
+     "2011ApJ...742...35N": "Spitzer secondary eclipses of WASP-18b.",
+     "2011A&A...533A..83B": "SOPHIE velocimetry of Kepler transit candidates. III. KOI-423b: an 18  M_Jup_ transiting companion around an F7IV star.",
+     "2011A&A...534L...6T": "The time dependence of hot Jupiters' orbital inclinations.",
+     "2011A&A...535L...7H": "WASP-43b: the closest-orbiting hot Jupiter.",
+     "2011MNRAS.414.1278P": "Determining eccentricities of transiting planets: a divide in the  mass--period plane.",
+     "2011A&A...535A.116D": "Prospecting transit duration variations in extrasolar planetary systems.",
+     "2010MNRAS.405.2037W": "Orbital period variations of hot jupiters caused by the Applegate effect.",
+     "2011MNRAS.415..605B": "Are falling planets spinning up their host stars?",
+     "2012ApJ...746..111T": "Warm Spitzer observations of three hot exoplanets: XO-4b, HAT-P-6b, and  HAT-P-8b.",
+     "2011MNRAS.417.2166S": "Homogeneous studies of transiting extrasolar planets -- IV. Thirty  systems with space-based light curves.",
+     "2011MNRAS.418.1039M": "UBV(RI)_C_ photometry of transiting planet hosting stars.",
+     "2012A&A...540A..82K": "Evidence for enhanced chromospheric Ca II H and K emission in stars with  close-in extrasolar planets.",
+     "2011MNRAS.418.1822W": "On the eccentricity distribution of short-period single-planet systems.",
+     "2011MNRAS.411..435B": "Bayesian inference of stellar parameters and interstellar extinction  using parallaxes and multiband photometry.",
+     "2012ApJ...754..137M": "On the detectability of star-planet interaction.",
+     "2012A&A...544A..23L": "Star-planet magnetic interaction and activity in late-type stars with  close-in planets.",
+     "2012ApJ...757...18A": "Obliquities of hot Jupiter host stars: evidence for tidal interactions  and primordial misalignments.",
+     "2012ApJ...757..161T": "Improved spectroscopic parameters for transiting planet hosts.",
+     "2012MNRAS.423.1503B": "Rossiter-McLaughlin effect measurements for WASP-16, WASP-25 and WASP-31.",
+     "2012MNRAS.422.3151H": "Observational constraints on tidal effects using orbital eccentricities.",
+     "2012ApJ...760..139B": "Analysis of spin-orbit alignment in the WASP-32, WASP-38, and  HAT-P-27/WASP-40 systems.",
+     "2012MNRAS.426.1291S": "Homogeneous studies of transiting extrasolar planets - V. New results for 38 planets.",
+     "2013MNRAS.428.2645M": "Spitzer 3.6 and 4.5{mu}m full-orbit light curves of WASP-18.",
+     "2013ApJ...766....9S": "An ultraviolet investigation of activity on exoplanet host stars.",
+     "2013ApJ...766L..20F": "Absorbing gas around the WASP-12 planetary system.",
+     "2013A&A...551A..73F": "WASP-54b, WASP-56b, and WASP-57b: three new sub-Jupiter mass planets from  SuperWASP.",
+     "2013A&A...551A..80T": "WASP-80b: a gas giant transiting a cool dwarf.",
+     "2013MNRAS.428.3164D": "Accurate spectroscopic parameters of WASP planet host stars.",
+     "2013A&A...552A..82G": "WASP-64b and WASP-72b: two new transiting highly irradiated giant  planets.",
+     "2013MNRAS.430.3422A": "Thermal emission at 3.6-8 {mu}m from WASP-19b: a hot Jupiter without a  stratosphere orbiting an active star.",
+     "2013MNRAS.432..693M": "Warm Spitzer occultation photometry of WASP-26b at 3.6 and 4.5 {mu}m.",
+     "2013A&A...558A.106M": "New and updated stellar parameters for 90 transit hosts. The effect of  the surface gravity.",
+     "2012A&A...546A..61D": "Radial velocities for the HIPPARCOS-Gaia Hundred-Thousand-Proper-Motion  project.",
+     "2014ApJ...785..126K": "Friends of hot Jupiters. I. A radial velocity search for massive, long-period companions to close-in gas giant planets.",
+     "2014ApJ...786..102V": "Tidal dissipation and obliquity evolution in hot Jupiter systems.",
+     "2014ApJ...787..131Z": "Stars get dizzy after lunch.",
+     "2012MNRAS.427..343M": "Fundamental parameters and infrared excesses of Hipparcos stars.",
+     "2014MNRAS.439L..61T": "Colour-magnitude diagrams of transiting Exoplanets - I. Systems with parallaxes.",
+     "2013A&A...552A.119S": "Magnetic energy fluxes in sub-Alfvenic planet star and moon planet  interactions.",
+     "2014A&A...567A.128P": "No X-rays from WASP-18. Implications for its age, activity, and the influence of its massive hot Jupiter.",
+     "2014MNRAS.440.1470B": "WTS-2 b: a hot Jupiter orbiting near its tidal destruction radius around a K dwarf.",
+     "2013A&A...551L...8P": "Chromospheric activity as age indicator. An L-shaped  chromospheric-activity versus age diagram.",
+     "2014A&A...572L...6L": "On the correlation between stellar chromospheric flux and the surface gravity of close-in planets.",
+     "2014A&A...572A..95M": "Correcting the spectroscopic surface gravity using transits and asteroseismology. No significant effect on temperatures or metallicities with ARES and MOOG in local thermodynamic equilibrium.",
+     "2014ARA&A..52..171O": "Tidal dissipation in stars and giant planets.",
+     "2014MNRAS.444..776S": "High-precision photometry by telescope defocussing - VI. WASP-24, WASP-25 and WASP-26.",
+     "2013A&A...556A.150S": "SWEET-Cat: a catalogue of parameters for Stars With ExoplanETs. I. New  atmospheric parameters and masses for 48 stars with planets.",
+     "2014MNRAS.444..711T": "Colour-magnitude diagrams of transiting Exoplanets - II. A larger sample from photometric distances.",
+     "2015A&A...574A..39D": "Evolution of angular-momentum-losing exoplanetary systems. Revisiting Darwin stability.",
+     "2015ApJ...799..163M": "A comprehensive statistical assessment of star-planet interaction.",
+     "2015ApJ...800..138N": "Friends of hot jupiters. II. No correspondence between Hot-Jupiter spin-orbit misalignment and the incidence of directly imaged stellar companions.",
+     "2015ApJ...801...54R": "On the nature of rapidly rotating single evolved stars.",
+     "2015A&A...575A..18B": "Revising the ages of planet-hosting stars.",
+     "2015A&A...575A..85B": "Improved parameters of seven Kepler giant companions characterized with SOPHIE and HARPS-N.",
+     "2014MNRAS.444.3592D": "Determining stellar macroturbulence using asteroseismic rotational velocities from Kepler.",
+     "2015A&A...576A..42S": "High-energy irradiation and mass loss rates of hot Jupiters in the solar neighborhood.",
+     "2015MNRAS.446.2560M": "Limits on low-frequency radio emission from southern exoplanets with the Murchison Widefield Array.",
+     "2015MNRAS.447..711S": "High-precision photometry by telescope defocusing - VII. The ultrashort period planet WASP-103.",
+     "2015ApJ...805...52P": "FUV variability of HD 189733. Is the star accreting material from its hot Jupiter?",
+     "2014Sci...346..838S": "Thermal structure of an exoplanet atmosphere from phase-resolved emission spectroscopy.",
+     "2015A&A...576A..69D": "Li abundances in F stars: planets, rotation, and Galactic evolution.",
+     "2015ApJ...811..122W": "3.6 and 4.5 M phase curves of the highly irradiated eccentric hot Jupiter WASP-14b.",
+     "2017MNRAS.465.3693H": "WASP-South transiting exoplanets: WASP-130b, WASP-131b, WASP-132b, WASP-139b, WASP-140b, WASP-141b and WASP-142b.",
+     "2024A&A...688A..45M": "ExoplANETS-A: A virtual observatory database for host stars and planetary systems The effect of XUV on planet atmospheres.",
+     "2015ApJ...814..148P": "Friends of hot jupiters. III. An infrared spectroscopic search for low-mass stellar companions.",
+     "1978MSS...C02....0H": "Catalogue of two dimentional spectral types for the HD stars, Vol. 2",
+     "2015ApJ...815..111S": "Magnetic games between a planet and its host star: the key role of topology.",
+     "2015ApJ...815..118F": "Far-UV spectroscopy of the planet-hosting star WASP-13: high-energy irradiance, distance, age, planetary mass-loss rate, and circumstellar environment.",
+     "2016A&A...586A..75S": "Simulating the escaping atmospheres of hot gas planets in the solar neighborhood.",
+     "2016ApJ...818..160Z": "Constraining the radiation and plasma environment of the Kepler circumbinary habitable-zone planets.",
+     "2018ApJ...862...66W": "A Chandra/LETGS survey of main-sequence stars.",
+     "2018AJ....156...28A": "Reassessing exoplanet light curves with a thermal model.",
+     "2017MNRAS.470.2054C": "Dynamical tides in exoplanetary systems containing hot Jupiters: confronting theory and observations.",
+     "2015MNRAS.454.3002Z": "Secondary eclipse observations for seven hot-Jupiters from the Anglo-Australian Telescope.",
+     "2016ApJ...823...29A": "Spin-orbit alignment for three transiting hot jupiters: WASP-103b, WASP-87b, and WASP-66b.",
+     "2016MNRAS.456.2766A": "Magnetospheres of hot Jupiters: hydrodynamic models and ultraviolet absorption.",
+     "2018ApJ...853...37S": "Evidence of an upper bound on the masses of planets and its implications for giant planet formation.",
+     "2016A&A...591A.118S": "The PASTEL catalogue: 2016 version.",
+     "2018AJ....156...82C": "Quantifying the observational effort required for the radial velocity characterization of TESS planets.",
+     "2016A&A...592A.143F": "Is the activity level of HD 80606 influenced by its eccentric planet?",
+     "2018AJ....155..113F": "Suppressed far-UV stellar activity and low planetary mass loss in the WASP-18 system.",
+     "2018A&A...610A..81L": "Close-by planets and flares in their host stars.",
+     "2016AJ....152..127P": "HATS-18b: an extreme short-period massive transiting planet spinning up its star.",
+     "2016ApJ...833..140S": "Assessing magnetic torques and energy fluxes in close-in star-planet systems.",
+     "2017AJ....153...97O": "KELT-16b: a highly irradiated, ultra-short period hot Jupiter nearing tidal disruption.",
+     "2017ApJ...836L..24W": "Searching for rapid orbital decay of WASP-18b.",
+     "2017MNRAS.466..738S": "SALT observations of the chromospheric activity of transiting planet hosts: mass-loss and star-planet interactions.",
+     "2018ApJ...856..155G": "Giant planets: good neighbors for habitable worlds?",
+     "2018MNRAS.474.4264M": "A survey of eight hot Jupiters in secondary eclipse using WIRCam at CFHT.",
+     "2018A&A...612A.111G": "The atmospheric parameters of FGK stars using wavelet analysis of CORALIE spectra.",
+     "2018MNRAS.477..175O": "Constraining planetary migration and tidal dissipation with coeval hot Jupiters.",
+     "2018MNRAS.476.2542C": "Hierarchical Bayesian calibration of tidal orbit decay rates among hot Jupiters.",
+     "2017A&A...602A.107B": "The GAPS Programme with HARPS-N at TNG. XIV. Investigating giant planet migration history via improved eccentricity and mass determination for 231 transiting planets.",
+     "2016PASP..128f4401T": "WASP-120 b, WASP-122 b, AND WASP-123 b: three newly discovered planets from the WASP-South survey.",
+     "2016PASP..128i4401S": "Transiting exoplanet studies and community targets for JWST's Early Release Science program.",
+     "2020ApJ...890L...7S": "GJ 1252 b: a 1.2 R_{\\Earth}_ planet transiting an M3 dwarf at 20.4 pc.",
+     "2019MNRAS.489.1995B": "Mass loss from the exoplanet WASP-12b inferred from Spitzer phase curves.",
+     "2018ApJS..239...16F": "Far-ultraviolet activity levels of F, G, K, and M dwarf exoplanet host stars.",
+     "2020ApJ...889...54M": "An apparently eccentric orbit of the exoplanet WASP-12 b as a radial velocity signature of planetary-induced tides in the host star.",
+     "2020MNRAS.491.1243P": "Discarding orbital decay in WASP-19b after one decade of transit observations.",
+     "2023AJ....165..261R": "Warm Jupiters Beyond the Tidal Synchronization Limit may Exhibit a Wide Range of Secondary Eclipse Depths.",
+     "2021A&A...646A..77G": "Stellar chromospheric activity of 1674 FGK stars from the AMBRE-HARPS sample. I. A catalogue of homogeneous chromospheric activity.",
+     "2022MNRAS.514.2259S": "The need for a public forecast of stellar activity to optimize exoplanet radial velocity detections and transmission spectroscopy.",
+     "2022MNRAS.513.3444B": "Constraints on TESS albedos for five hot Jupiters.",
+     "2021ApJ...923..242G": "Why is it so hot in here? Exploring population trends in Spitzer thermal emission observations of hot Jupiters using planet-specific, self-consistent atmospheric models.",
+     "2021A&A...645A...7K": "Determining the true mass of radial-velocity exoplanets with Gaia. Nine planet candidates in the brown dwarf or stellar regime and 27 confirmed planets.",
+     "2018A&A...609A.116R": "Empirical photometric calibration of the Gaia red clump: Colours, effective temperature, and absolute magnitude.",
+     "2018AJ....156..293B": "The polarization of the planet-hosting WASP-18 system.",
+     "2017A&A...603A..30S": "Observational evidence for two distinct giant planet populations.",
+     "2017AJ....153..136S": "Accurate empirical radii and masses of planets and their host stars with Gaia parallaxes.",
+     "2019MNRAS.483.1574C": "The rotationally modulated polarization of {xi} Boo A.",
+     "2018PASP..130k4402B": "The Transiting Exoplanet Community Early Release Science program for JWST.",
+     "2019ApJ...872..113F": "Time-variable electromagnetic star-planet interaction: the TRAPPIST-1 system as an exemplary case.",
+     "2020AJ....159..104W": "TESS phase curve of the hot Jupiter WASP-19b.",
+     "2018A&A...615A..76S": "Spectroscopic Parameters and atmosphEric ChemIstriEs of Stars (SPECIES). I. Code description and dwarf stars catalogue.",
+     "2019A&A...623A..45C": "An estimate of the k_2_ Love number of WASP-18Ab from its radial velocity measurements.",
+     "2018AcA....68..371M": "Planet-Star Interactions with Precise Transit Timing. I. The Refined Orbital Decay Rate for WASP-12 b and Initial Constraints for HAT-P-23 b, KELT-1 b, KELT-16 b, WASP-33 b and WASP-103 b.",
+     "2020AJ....159..137G": "Statistical characterization of hot Jupiter atmospheres using Spitzer's secondary eclipses.",
+     "2020AJ....159..150P": "The continuing search for evidence of tidal orbital decay of hot Jupiters.",
+     "2020A&A...634A..75B": "Improving transit characterisation with Gaussian process modelling of stellar variability.",
+     "2020AJ....159..194V": "A statistical search for star-planet interaction in the ultraviolet using GALEX.",
+     "2020AJ....159..232G": "H- and dissociation in ultra-hot Jupiters: a retrieval case study of WASP-18b.",
+     "2019A&A...625A.136A": "Climate of an ultra hot Jupiter. Spectroscopic phase curve of WASP-18b with HST/WFC3.",
+     "2019A&A...625A.145K": "Transit-period search from single-event space-based data: the role of wide-field surveys.",
+     "2019MNRAS.485.4967F": "A high binary fraction for the most massive close-in giant planets and brown dwarf desert members.",
+     "2019A&A...626A.133H": "Sparkling nights and very hot days on WASP-18b: the formation of clouds and the emergence of an ionosphere.",
+     "2019AJ....157..178S": "TESS full orbital phase curve of the WASP-18b system.",
+     "2019PASP..131h5001K": "Detection limits of exoplanetary atmospheres with 2-m class telescopes.",
+     "2019PASP..131h5002B": "An international survey of front-end receivers and observing performance of telescopes for radio astronomy.",
+     "2020MNRAS.493..126M": "NGTS-10b: the shortest period hot Jupiter yet discovered.",
+     "2020A&A...636A..98C": "TraMoS. V. Updated ephemeris and multi-epoch monitoring of the hot Jupiters WASP-18Ab, WASP-19b, and WASP-77Ab.",
+     "2026AJ....171..345L": "TTV-not-so-fast: Uniqueness and Degeneracy in Perturbing Planet Parameters.",
+     "2022MNRAS.512L..60H": "The flaring TESS Objects of Interest: flare rates for all two-minute cadence TESS planet candidates.",
+     "2025MNRAS.542.1923P": "The tidal interaction of an orbiting giant planet with a star near the Kraft break: the excitation of {\\em r}-modes and the retention of orbital and spin angular momenta misalignment.",
+     "2025ApJ...993...78S": "In Search of Decay: An Analysis of Transit Times of Hot Jupiters in Main-sequence and Post-main-sequence Systems.",
+     "2026ApJS..284...57S": "JWST Exoplanetary Worlds and Elemental Survey (JEWELS). II. Condensation Temperature Trends and Galactic Chemical Evolution in JWST Planet-hosting Stars.",
+     "2024AJ....167..203M": "DIAmante TESS AutoRegressive Planet Search (DTARPS). II. Hundreds of New TESS Candidate Exoplanets.",
+     "2024AJ....168..271M": "DIAmante TESS AutoRegressive Planet Search (DTARPS). III. Understanding the DTARPS-S Candidate Transiting Planet Catalogs.",
+     "2025MNRAS.544.3647V": "Eclipse mapping with {\\em Ariel}: future prospects for a population-level mapping survey.",
+     "2024A&A...691A..53S": "SWEET-Cat: A view on the planetary mass-radius relation.",
+     "2026ApJS..282...37S": "JWST Exoplanetary Worlds and Elemental Survey (JEWELS). I. High-precision Chemical Abundances of 20 FGK Planet-hosting Stars from JWST Cycle 2.",
+     "2025A&A...699A.100D": "The {\\em Gaia} spectroscopic catalogue of exoplanets and host stars.",
+     "2025MNRAS.539.3741M": "Benchmark stars for mean stellar density and surface gravity estimates of solar-type stars.",
+     "2025ApJS..276...29L": "Ultraviolet Photometry and Habitable Zones of over 2700 Planet-hosting Stars.",
+     "2026ApJ..1008L..29W": "Distinct {\\em e}-{\\em λ} Trends in Three Gas-giant Mass Regimes.",
+     "2026AJ....172...77N": "Orbit Refinement of WASP-18 b and Evidence Against the Existence of WASP-18 c.",
+     "2024MNRAS.527.3183M": "{\\em Gaia} search for (sub)stellar companions of exoplanet hosts.",
+     "2026ApJ..1004..233O": "Detection of CO, H_2_O, and OH in WASP-18 b with JWST/NIRISS Using Direct-extracted Spectra and Cross Correlation."
+    }
+   }
+  }
+ },
+ "ads": {
+  "aliases": [
+   "2MASS J01372503-4540404",
+   "APASS 22141898",
+   "AllWISE J013725.05-454040.1",
+   "CD-46 449",
+   "CPC 0 759",
+   "CPD-46 168",
+   "DTARPS-S 116",
+   "GEN# +1.00010069",
+   "GSC 08040-00072",
+   "Gaia DR1 4955371363037611136",
+   "Gaia DR2 4955371367334610048",
+   "Gaia DR3 4955371367334610048",
+   "HD 10069",
+   "HIC 7562",
+   "HIP 7562",
+   "PPM 306061",
+   "RAVE J013725.0-454040",
+   "SPOCS 2511",
+   "TIC 100100827",
+   "TOI-185",
+   "TYC 8040-00072-1",
+   "TYC 8040-72-1",
+   "UBV 1689",
+   "UCAC4 222-001504",
+   "WASP-18",
+   "WASP-18A",
+   "[CS62] E1 13"
+  ],
+  "query": "full:\"2MASS J01372503-4540404\" OR full:\"APASS 22141898\" OR full:\"AllWISE J013725.05-454040.1\" OR full:\"CD-46 449\" OR full:\"CPC 0 759\" OR full:\"CPD-46 168\" OR full:\"DTARPS-S 116\" OR full:\"GEN# +1.00010069\" OR full:\"GSC 08040-00072\" OR full:\"Gaia DR1 4955371363037611136\" OR full:\"Gaia DR2 4955371367334610048\" OR full:\"Gaia DR3 4955371367334610048\" OR full:\"HD 10069\" OR full:\"HIC 7562\" OR full:\"HIP 7562\" OR full:\"PPM 306061\" OR full:\"RAVE J013725.0-454040\" OR full:\"SPOCS 2511\" OR full:\"TIC 100100827\" OR full:\"TOI-185\" OR full:\"TYC 8040-00072-1\" OR full:\"TYC 8040-72-1\" OR full:\"UBV 1689\" OR full:\"UCAC4 222-001504\" OR full:\"WASP-18\" OR full:\"WASP-18A\" OR full:\"[CS62] E1 13\"",
+  "count": 378,
+  "documents": [
+   {
+    "bibcode": "2019AJ....157..178S",
+    "title": [
+     "TESS Full Orbital Phase Curve of the WASP-18b System"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2014A&A...567A.128P",
+    "title": [
+     "No X-rays from WASP-18. Implications for its age, activity, and the influence of its massive hot Jupiter"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2026AJ....172...77N",
+    "title": [
+     "Orbit Refinement of WASP-18 b and Evidence Against the Existence of WASP-18 c"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2025A&A...699A.150D",
+    "title": [
+     "Dark skies of the slightly eccentric WASP-18 b from its optical-to-infrared dayside emission"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2019AJ....158..243P",
+    "title": [
+     "A Search for Multiplanet Systems with TESS Using a Bayesian N-body Retrieval and Machine Learning"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2013MNRAS.428.2645M",
+    "title": [
+     "Spitzer 3.6 and 4.5 μm full-orbit light curves of WASP-18"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2009ApJ...707..167S",
+    "title": [
+     "Physical Properties of the 0.94-Day Period Transiting Planetary System WASP-18"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2020AcA....70....1M",
+    "title": [
+     "Planet-Star Interactions with Precise Transit Timing. II. The Radial-Velocity Tides and a Tighter Constraint on the Orbital Decay Rate in the WASP-18 System"
+    ],
+    "publisher": "PWN"
+   },
+   {
+    "bibcode": "2022A&A...668A.114R",
+    "title": [
+     "Measuring the orbit shrinkage rate of hot Jupiters due to tides"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2018AJ....155..113F",
+    "title": [
+     "Suppressed Far-UV Stellar Activity and Low Planetary Mass Loss in the WASP-18 System"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2021ApJS..254...13G",
+    "title": [
+     "Allesfitter: Flexible Star and Exoplanet Inference from Photometry and Radial Velocity"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2024A&A...687A.187L",
+    "title": [
+     "Equilibrium tides and magnetic activity in stars with close-by massive planets. The intriguing case of WASP-18"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2014Ap&SS.354...21F",
+    "title": [
+     "Searching for a gas cloud surrounding the WASP-18 planetary system"
+    ],
+    "publisher": "Springer"
+   },
+   {
+    "bibcode": "2023AJ....165...91B",
+    "title": [
+     "The Roasting Marshmallows Program with IGRINS on Gemini South I: Composition and Climate of the Ultrahot Jupiter WASP-18 b"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2023A&A...673A..61P",
+    "title": [
+     "The X-ray activity of F stars with hot Jupiters: KELT-24 versus WASP-18"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2018AJ....156..293B",
+    "title": [
+     "The Polarization of the Planet-Hosting WASP-18 System"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2012ApJ...754..137M",
+    "title": [
+     "On the Detectability of Star-Planet Interaction"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2026A&A...708A..84B",
+    "title": [
+     "Inhomogeneous magnetic coupling in exoplanets: The stop and go of WASP-18 b's atmospheric flows"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2020yCat..36360098C",
+    "title": [
+     "VizieR Online Data Catalog: WASP-18A, WASP-19, WASP-77A photometry (Cortes-Zuleta+, 2020)"
+    ],
+    "publisher": "CDS"
+   },
+   {
+    "bibcode": "2025asi..confP..25N",
+    "title": [
+     "Updated Ephemeris of WASP-18 b and Investigation Into the Existence of WASP-18 c"
+    ]
+   },
+   {
+    "bibcode": "2009Natur.460.1098H",
+    "title": [
+     "An orbital period of 0.94days for the hot-Jupiter planet WASP-18b"
+    ],
+    "publisher": "Springer"
+   },
+   {
+    "bibcode": "2017ApJ...836L..24W",
+    "title": [
+     "Searching for Rapid Orbital Decay of WASP-18b"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2026ApJ..1004..233O",
+    "title": [
+     "Detection of CO, H<SUB>2</SUB>O, and OH in WASP-18 b with JWST/NIRISS Using Direct-extracted Spectra and Cross Correlation"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2011MNRAS.415..605B",
+    "title": [
+     "Are falling planets spinning up their host stars?"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2020ApJS..250...20C",
+    "title": [
+     "A Search for Rotation Periods in 1000 TESS Objects of Interest"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2019A&A...623A..45C",
+    "title": [
+     "An estimate of the k<SUB>2</SUB> Love number of WASP-18Ab from its radial velocity measurements"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2019MNRAS.485.4967F",
+    "title": [
+     "A high binary fraction for the most massive close-in giant planets and brown dwarf desert members"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2024EPSC...17..217D",
+    "title": [
+     "Reflected light and dayside emission from the phase curves of the ultra-hot Jupiter WASP-18 b"
+    ]
+   },
+   {
+    "bibcode": "2024AJ....167..203M",
+    "title": [
+     "DIAmante TESS AutoRegressive Planet Search (DTARPS). II. Hundreds of New TESS Candidate Exoplanets"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2020AJ....160..155W",
+    "title": [
+     "Systematic Phase Curve Study of Known Transiting Systems from Year One of the TESS Mission"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2022hst..prop17090P",
+    "title": [
+     "Anchoring the Energy Budget of the Keystone Jwst ERS Ultra-Hot Target WASP-18 B"
+    ]
+   },
+   {
+    "bibcode": "2014MNRAS.440.1470B",
+    "title": [
+     "WTS-2 b: a hot Jupiter orbiting near its tidal destruction radius around a K dwarf"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2025yCat..36990150D",
+    "title": [
+     "VizieR Online Data Catalog: Dark skies of the slightly eccentric WASP-18 b (Deline+, 2025)"
+    ],
+    "publisher": "CDS"
+   },
+   {
+    "bibcode": "2010xmm..prop..156G",
+    "title": [
+     "Preliminary detection of the X-ray emission from WASP18"
+    ]
+   },
+   {
+    "bibcode": "2012MNRAS.422.1761A",
+    "title": [
+     "The radial velocity signature of tides raised in stars hosting exoplanets"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2022MNRAS.513.3444B",
+    "title": [
+     "Constraints on TESS albedos for five hot Jupiters"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2014yCat..35670128P",
+    "title": [
+     "VizieR Online Data Catalog: X-ray sources in WASP-18 field (Pillitteri+, 2014)"
+    ],
+    "publisher": "CDS"
+   },
+   {
+    "bibcode": "2025EGUGA..2716871B",
+    "title": [
+     "Analysing Magnetic Drag in the Atmosphere of WASP-18 b Using ExoRad"
+    ]
+   },
+   {
+    "bibcode": "2017AJ....153..136S",
+    "title": [
+     "Accurate Empirical Radii and Masses of Planets and Their Host Stars with Gaia Parallaxes"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2012ApJ...757...18A",
+    "title": [
+     "Obliquities of Hot Jupiter Host Stars: Evidence for Tidal Interactions and Primordial Misalignments"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2020AJ....159..150P",
+    "title": [
+     "The Continuing Search for Evidence of Tidal Orbital Decay of Hot Jupiters"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2022A&A...667A.127M",
+    "title": [
+     "Planet-star interactions with precise transit timing. III. Entering the regime of dynamical tides"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2026ApJ..1007..161B",
+    "title": [
+     "Metal Oxide Clusters in Gas-giant Exoplanet Atmospheres"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2020yCat.120700001M",
+    "title": [
+     "VizieR Online Data Catalog: WASP-18 Photometric timeseries and timing data (Maciejewski+, 2020)"
+    ],
+    "publisher": "CDS"
+   },
+   {
+    "bibcode": "2017xmm..prop...38P",
+    "title": [
+     "No X-rays from WASP-18. Really?"
+    ]
+   },
+   {
+    "bibcode": "2026AJ....171..345L",
+    "title": [
+     "TTV-not-so-fast: Uniqueness and Degeneracy in Perturbing Planet Parameters"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2017MNRAS.470.2054C",
+    "title": [
+     "Dynamical tides in exoplanetary systems containing hot Jupiters: confronting theory and observations"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2018MNRAS.476.2542C",
+    "title": [
+     "Hierarchical Bayesian calibration of tidal orbit decay rates among hot Jupiters"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2024MNRAS.534.3893V",
+    "title": [
+     "A regularization technique to precisely infer limb darkening using transit measurements: can we estimate stellar surface magnetic fields?"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2010ApJ...723.1829S",
+    "title": [
+     "ERRATUM: \"Physical Properties of the 0.94 Day Period Transiting Planetary System WASP-18\" <A href=\"/abs/2009ApJ...707..167S\">(2009, ApJ, 707, 167)</A>"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2020A&A...636A..98C",
+    "title": [
+     "TraMoS. V. Updated ephemeris and multi-epoch monitoring of the hot Jupiters WASP-18Ab, WASP-19b, and WASP-77Ab"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2018AJ....156...28A",
+    "title": [
+     "Reassessing Exoplanet Light Curves with a Thermal Model"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2012cxo..prop.3541P",
+    "title": [
+     "Fast and Furious: X-Rays and UV from the WASP-18 System."
+    ]
+   },
+   {
+    "bibcode": "2011IAUS..276..267B",
+    "title": [
+     "Do falling planets cause stellar spin-up?"
+    ]
+   },
+   {
+    "bibcode": "2026EGUGA..2810046B",
+    "title": [
+     "How Anisotropic Magnetic Drag Shapes the Atmospheric Circulation of WASP-18 b"
+    ]
+   },
+   {
+    "bibcode": "2010MNRAS.404.1849B",
+    "title": [
+     "On internal wave breaking and tidal dissipation near the centre of a solar-type star"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2021A&A...645A.146L",
+    "title": [
+     "Three-dimensional continuum radiative transfer of polarized radiation in exoplanetary atmospheres"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2022eas..conf.2497E",
+    "title": [
+     "The curious case of WASP-18b"
+    ]
+   },
+   {
+    "bibcode": "2019MNRAS.489..941P",
+    "title": [
+     "Estimating dayside effective temperatures of hot Jupiters and associated uncertainties through Gaussian process regression"
+    ],
+    "publisher": "OUP"
+   },
+   {
+    "bibcode": "2018OEJV..187...12B",
+    "title": [
+     "Automation of processing and photometric data analysis for transiting exoplanets observed with ESO NIR instrument HAWK-I"
+    ]
+   },
+   {
+    "bibcode": "2013prpl.conf2K057P",
+    "title": [
+     "Study of the X-ray Emission of Stars with Hot Jupiters."
+    ]
+   },
+   {
+    "bibcode": "2021R&QE...63..656S",
+    "title": [
+     "Search for Exoplanets: Status 2020"
+    ]
+   },
+   {
+    "bibcode": "2022yCat..22600003C",
+    "title": [
+     "VizieR Online Data Catalog: 25 hot-Jupiter properties from HST &amp; Spitzer (Changeat+, 2022)"
+    ],
+    "publisher": "CDS"
+   },
+   {
+    "bibcode": "2011ESS.....2.4402M",
+    "title": [
+     "Spitzer Lightcurves of WASP-18"
+    ]
+   },
+   {
+    "bibcode": "2022EPSC...16.1180G",
+    "title": [
+     "Studying exoplanet orbits &amp; dynamics with allesfitter"
+    ]
+   },
+   {
+    "bibcode": "2011EPJWC..1106001C",
+    "title": [
+     "ASTEP: Towards the detection and characterization of exoplanets from Dome C"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2023A&A...674A..34G",
+    "title": [
+     "Gaia Data Release 3. Stellar multiplicity, a teaser for the hidden treasure"
+    ],
+    "publisher": "EDP"
+   },
+   {
+    "bibcode": "2012AAS...22050503M",
+    "title": [
+     "A Non-detection Of Star-Planet Interaction In The Extreme Wasp-18 System"
+    ]
+   },
+   {
+    "bibcode": "2024tkas.confE..28S",
+    "title": [
+     "On deciphering stellar surface magnetic fields using precision limb darkening measurements"
+    ]
+   },
+   {
+    "bibcode": "2022Ap.....65..414E",
+    "title": [
+     "WASP-18b Secondary Eclipses Revisited Using TESS Observation"
+    ],
+    "publisher": "Springer"
+   },
+   {
+    "bibcode": "2023Natur.620..292C",
+    "title": [
+     "A broadband thermal emission spectrum of the ultra-hot Jupiter WASP-18b"
+    ],
+    "publisher": "Springer"
+   },
+   {
+    "bibcode": "2023ApJS..269...31E",
+    "title": [
+     "Exploring the Ability of Hubble Space Telescope WFC3 G141 to Uncover Trends in Populations of Exoplanet Atmospheres through a Homogeneous Transmission Survey of 70 Gaseous Planets"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2018ApJ...855L..30A",
+    "title": [
+     "H<SUP>-</SUP> Opacity and Water Dissociation in the Dayside Atmosphere of the Very Hot Gas Giant WASP-18b"
+    ],
+    "publisher": "IOP"
+   },
+   {
+    "bibcode": "2019xmm..prop...45P",
+    "title": [
+     "Disruption of coronal activity due to a massive hot Jupiter."
+    ]
+   },
+   {
+    "bibcode": "2022ApJS..260....3C",
+    "title": [
+     "Five Key Exoplanet Questions Answered via the Analysis of 25 Hot-Jupiter Atmospheres in Eclipse"
+    ],
+    "publisher": "IOP"
+   }
+  ],
+  "complete": true
+ },
+ "additional_tables": {
+  "spectroscopic_catalogue_280_matches": [],
+  "tang_2025_514_matches": []
+ },
+ "ijspeert_eb_rows_within_90arcsec_or_matching_id": [
+  {
+   "year": "2024",
+   "tic": "100100827",
+   "source_id": "4955371367334610048",
+   "separation_arcsec": 0.521,
+   "eclipse_period_days": "",
+   "score": "4.0"
+  }
+ ],
+ "pipeline": {
+  "local_signals": [
+   {
+    "file": "signals-all.csv.gz",
+    "period": "0.941452"
+   }
+  ],
+  "mast_dvr_uris": [
+   "mast:HLSP/tess-spoc/s0069/target/0000/0001/0010/0827/hlsp_tess-spoc_tess_phot_0000000100100827-s0069-s0069_tess_v1_dvr.xml",
+   "mast:TESS/product/tess2018206190142-s0001-s0003-0000000100100827-00129_dvr.xml",
+   "mast:TESS/product/tess2018206190142-s0001-s0036-0000000100100827-00471_dvr.xml",
+   "mast:TESS/product/tess2018206190142-s0001-s0069-0000000100100827-00810_dvr.xml",
+   "mast:TESS/product/tess2018206190142-s0001-s0096-0000000100100827-01071_dvr.xml",
+   "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00109_dvr.xml",
+   "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00372_dvr.xml",
+   "mast:TESS/product/tess2018263124740-s0003-s0003-0000000100100827-00405_dvr.xml",
+   "mast:TESS/product/tess2018267104341-s0003-s0003-0000000100100827-00126_dvr.xml",
+   "mast:TESS/product/tess2020239173514-s0029-s0029-0000000100100827-00382_dvr.xml",
+   "mast:TESS/product/tess2020267090513-s0030-s0030-0000000100100827-00394_dvr.xml",
+   "mast:TESS/product/tess2023237202031-s0069-s0069-0000000100100827-00803_dvr.xml",
+   "mast:TESS/product/tess2025232062523-s0096-s0096-0000000100100827-01048_dvr.xml",
+   "mast:TESS/product/tess2026111123513-s0103-s0103-0000000100100827-01130_dvr.xml",
+   "mast:TESS/product/tess2026138015512-s0104-s0104-0000000100100827-01137_dvr.xml",
+   "mast:TESS/product/tess2026164215111-s0105-s0105-0000000100100827-01146_dvr.xml",
+   "mast:TESS/product/tess2026192221110-s0106-s0106-0000000100100827-01162_dvr.xml"
+  ],
+  "mast_signals": [
+   {
+    "uri": "mast:HLSP/tess-spoc/s0069/target/0000/0001/0010/0827/hlsp_tess-spoc_tess_phot_0000000100100827-s0069-s0069_tess_v1_dvr.xml",
+    "period": "0.94151866",
+    "epoch": "3182.7543872235688",
+    "sha256": "383b0e728416b6fb34179018f77502f8c25d14f462164533403c006af709d735"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0069/target/0000/0001/0010/0827/hlsp_tess-spoc_tess_phot_0000000100100827-s0069-s0069_tess_v1_dvr.xml",
+    "period": "0.9416297",
+    "epoch": "3183.2277666340005",
+    "sha256": "383b0e728416b6fb34179018f77502f8c25d14f462164533403c006af709d735"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0003-0000000100100827-00129_dvr.xml",
+    "period": "0.94149005",
+    "epoch": "1354.4533669007449",
+    "sha256": "6842cd26dd4bdb695cb7a6c964068a30f59a58273e49cad0b373857318a8c7e8"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0003-0000000100100827-00129_dvr.xml",
+    "period": "0.94149005",
+    "epoch": "1354.924200118529",
+    "sha256": "6842cd26dd4bdb695cb7a6c964068a30f59a58273e49cad0b373857318a8c7e8"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0036-0000000100100827-00471_dvr.xml",
+    "period": "0.9414488",
+    "epoch": "1354.4547327995124",
+    "sha256": "3c19aa3c2fd2133eb1fe17d765be051fab35dbe8c7367e02e8f350927497e749"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0036-0000000100100827-00471_dvr.xml",
+    "period": "0.9414488",
+    "epoch": "1354.9255659331254",
+    "sha256": "3c19aa3c2fd2133eb1fe17d765be051fab35dbe8c7367e02e8f350927497e749"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0069-0000000100100827-00810_dvr.xml",
+    "period": "0.9414568",
+    "epoch": "1354.451955254824",
+    "sha256": "918fdff0393a76d7a701702da0c325dba2230f5e74ebff8a11224e9213d78627"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0069-0000000100100827-00810_dvr.xml",
+    "period": "0.9414484",
+    "epoch": "1354.9311220357329",
+    "sha256": "918fdff0393a76d7a701702da0c325dba2230f5e74ebff8a11224e9213d78627"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0096-0000000100100827-01071_dvr.xml",
+    "period": "0.94145215",
+    "epoch": "1354.456121922484",
+    "sha256": "4afb0c75c29f0fd6e691a4cad1407826971217cd26346d923b7c9787ad191b0f"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0096-0000000100100827-01071_dvr.xml",
+    "period": "0.94145215",
+    "epoch": "1354.9269553680729",
+    "sha256": "4afb0c75c29f0fd6e691a4cad1407826971217cd26346d923b7c9787ad191b0f"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018206190142-s0001-s0096-0000000100100827-01071_dvr.xml",
+    "period": "0.31381774",
+    "epoch": "1354.2915385499111",
+    "sha256": "4afb0c75c29f0fd6e691a4cad1407826971217cd26346d923b7c9787ad191b0f"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00109_dvr.xml",
+    "period": "0.941643",
+    "epoch": "1354.4519780121968",
+    "sha256": "47693a7c76954620f1cbe7decc2c473dc07d3a8572856bc042c7d5fa71778a92"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00109_dvr.xml",
+    "period": "0.941643",
+    "epoch": "1354.9228112299809",
+    "sha256": "47693a7c76954620f1cbe7decc2c473dc07d3a8572856bc042c7d5fa71778a92"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00372_dvr.xml",
+    "period": "0.941643",
+    "epoch": "1354.4505661446576",
+    "sha256": "24bfdee616c5a2b980724a66a7f5ada64502da6c31fd577b1f70cc17da0cad7d"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018235142541-s0002-s0002-0000000100100827-00372_dvr.xml",
+    "period": "0.941643",
+    "epoch": "1354.9241770685162",
+    "sha256": "24bfdee616c5a2b980724a66a7f5ada64502da6c31fd577b1f70cc17da0cad7d"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018263124740-s0003-s0003-0000000100100827-00405_dvr.xml",
+    "period": "0.94173896",
+    "epoch": "1382.693610530293",
+    "sha256": "fb76b7a9ae3a57d758605465e126eddd588b63c1b309fcf7cb7ee816a5db2df2"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018263124740-s0003-s0003-0000000100100827-00405_dvr.xml",
+    "period": "0.9411834",
+    "epoch": "1382.2297218289896",
+    "sha256": "fb76b7a9ae3a57d758605465e126eddd588b63c1b309fcf7cb7ee816a5db2df2"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018267104341-s0003-s0003-0000000100100827-00126_dvr.xml",
+    "period": "0.94172657",
+    "epoch": "1386.4603034988986",
+    "sha256": "fb8e7b4793f8f9277194a2d5e6145a7dcad9a4229dcf15b7107147240901b7ec"
+   },
+   {
+    "uri": "mast:TESS/product/tess2018267104341-s0003-s0003-0000000100100827-00126_dvr.xml",
+    "period": "0.94172657",
+    "epoch": "1385.9894702810375",
+    "sha256": "fb8e7b4793f8f9277194a2d5e6145a7dcad9a4229dcf15b7107147240901b7ec"
+   },
+   {
+    "uri": "mast:TESS/product/tess2020239173514-s0029-s0029-0000000100100827-00382_dvr.xml",
+    "period": "0.9417195",
+    "epoch": "2088.7835856385923",
+    "sha256": "104a2210c41db4954946b867ebbebd84b87e0b84f3d8662fbbfcf75b71f39cb6"
+   },
+   {
+    "uri": "mast:TESS/product/tess2020239173514-s0029-s0029-0000000100100827-00382_dvr.xml",
+    "period": "0.9417195",
+    "epoch": "2088.311363622323",
+    "sha256": "104a2210c41db4954946b867ebbebd84b87e0b84f3d8662fbbfcf75b71f39cb6"
+   },
+   {
+    "uri": "mast:TESS/product/tess2020267090513-s0030-s0030-0000000100100827-00394_dvr.xml",
+    "period": "0.94128925",
+    "epoch": "2116.0919067251334",
+    "sha256": "f70e6ef48a161c73b68c77c9b9a47ce472e689d701db0bfd1ad05813577cdbf9"
+   },
+   {
+    "uri": "mast:TESS/product/tess2020267090513-s0030-s0030-0000000100100827-00394_dvr.xml",
+    "period": "0.94184476",
+    "epoch": "2116.554406518878",
+    "sha256": "f70e6ef48a161c73b68c77c9b9a47ce472e689d701db0bfd1ad05813577cdbf9"
+   },
+   {
+    "uri": "mast:TESS/product/tess2023237202031-s0069-s0069-0000000100100827-00803_dvr.xml",
+    "period": "0.9415008",
+    "epoch": "3182.7539242608473",
+    "sha256": "e59ff5f04a1085fc80c8da4c6666b01431ea97a1616fe76ec3d84a9b1b2c3c7c"
+   },
+   {
+    "uri": "mast:TESS/product/tess2023237202031-s0069-s0069-0000000100100827-00803_dvr.xml",
+    "period": "0.9415008",
+    "epoch": "3183.2247573761924",
+    "sha256": "e59ff5f04a1085fc80c8da4c6666b01431ea97a1616fe76ec3d84a9b1b2c3c7c"
+   },
+   {
+    "uri": "mast:TESS/product/tess2025232062523-s0096-s0096-0000000100100827-01048_dvr.xml",
+    "period": "0.9415232",
+    "epoch": "3908.6142425402927",
+    "sha256": "020b8a7114fca9e59f5edee49f5dd4057e7209581e13c38426af20922924a918"
+   },
+   {
+    "uri": "mast:TESS/product/tess2025232062523-s0096-s0096-0000000100100827-01048_dvr.xml",
+    "period": "0.9415232",
+    "epoch": "3908.144798315038",
+    "sha256": "020b8a7114fca9e59f5edee49f5dd4057e7209581e13c38426af20922924a918"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026111123513-s0103-s0103-0000000100100827-01130_dvr.xml",
+    "period": "0.94156295",
+    "epoch": "4152.455793803155",
+    "sha256": "84e344d180fd1c55767b15a56baca267f29aed53eff9c723b1ae55026b754fcc"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026111123513-s0103-s0103-0000000100100827-01130_dvr.xml",
+    "period": "0.94156295",
+    "epoch": "4152.925238021032",
+    "sha256": "84e344d180fd1c55767b15a56baca267f29aed53eff9c723b1ae55026b754fcc"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026138015512-s0104-s0104-0000000100100827-01137_dvr.xml",
+    "period": "0.9411806",
+    "epoch": "4178.819670079922",
+    "sha256": "0aa8382f09c826dd7c2a5b6da0ba1ab6916f14aa44084becb4b69c7b0533986f"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026138015512-s0104-s0104-0000000100100827-01137_dvr.xml",
+    "period": "0.9411806",
+    "epoch": "4179.290503190334",
+    "sha256": "0aa8382f09c826dd7c2a5b6da0ba1ab6916f14aa44084becb4b69c7b0533986f"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026164215111-s0105-s0105-0000000100100827-01146_dvr.xml",
+    "period": "0.9413062",
+    "epoch": "4206.118268132824",
+    "sha256": "6b2a02f2122c3fd9b1a0f9af376b731d634b2496b471d9b94388ac29bdb727bc"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026164215111-s0105-s0105-0000000100100827-01146_dvr.xml",
+    "period": "0.9413062",
+    "epoch": "4205.644657246259",
+    "sha256": "6b2a02f2122c3fd9b1a0f9af376b731d634b2496b471d9b94388ac29bdb727bc"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026192221110-s0106-s0106-0000000100100827-01162_dvr.xml",
+    "period": "0.9412124",
+    "epoch": "4234.3626990128905",
+    "sha256": "749d0c92a3d8aa3ba905bc4f3678b7670863ad938ee4d81351cdcb4b8b45dc41"
+   },
+   {
+    "uri": "mast:TESS/product/tess2026192221110-s0106-s0106-0000000100100827-01162_dvr.xml",
+    "period": "0.9412124",
+    "epoch": "4233.890477019813",
+    "sha256": "749d0c92a3d8aa3ba905bc4f3678b7670863ad938ee4d81351cdcb4b8b45dc41"
+   }
+  ]
+ }
+}

@@ -1,0 +1,482 @@
+{
+ "gaia_dr3": "2689625378226213632",
+ "tic": "387416384",
+ "photometry": {
+  "tic": "387416384",
+  "match": "exact Gaia identifier",
+  "available": [
+   55,
+   82
+  ],
+  "selected": [
+   55,
+   82
+  ],
+  "products": [
+   {
+    "sector": 55,
+    "uri": "mast:HLSP/qlp/s0055/0000/0003/8741/6384/hlsp_qlp_tess_ffi_s0055-0000000387416384_tess_v01_llc.fits",
+    "filename": "hlsp_qlp_tess_ffi_s0055-0000000387416384_tess_v01_llc.fits",
+    "sha256": "c766c814deb692bb2604384c9a9b9a47a8f5e8c7c225d010255be4631f11d26d",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/qlp/s0055/0000/0003/8741/6384/hlsp_qlp_tess_ffi_s0055-0000000387416384_tess_v01_llc.fits"
+   },
+   {
+    "sector": 82,
+    "uri": "mast:HLSP/qlp/s0082/0000/0003/8741/6384/hlsp_qlp_tess_ffi_s0082-0000000387416384_tess_v01_llc.fits",
+    "filename": "hlsp_qlp_tess_ffi_s0082-0000000387416384_tess_v01_llc.fits",
+    "sha256": "fddc18ef05bf9a525f7f26c3f781527fb48ad1f00a38caf156c41875e527e24f",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/qlp/s0082/0000/0003/8741/6384/hlsp_qlp_tess_ffi_s0082-0000000387416384_tess_v01_llc.fits"
+   }
+  ]
+ },
+ "fit": {
+  "source_id": "2689625378226213632",
+  "tic": "387416384",
+  "period_days": "15.311298022492178",
+  "epoch_btjd": "2800.6194866586725",
+  "covered_btjd": "3535.620365",
+  "width_days": "1.1365607141962417",
+  "depth_ppt": "13.142",
+  "n_events": "4",
+  "strong_events": "4",
+  "strong_sectors": "2",
+  "sectors": "55|82",
+  "shape_prominence": "190.81",
+  "which_conjunction": "B",
+  "offset_hours": "30.554629572445265",
+  "offset_sigma": "0.9835533656227712"
+ },
+ "nearby_public": {
+  "identifier": "R1140",
+  "separation_arcsec": "534.13"
+ },
+ "events": [
+  {
+   "cycle": "0",
+   "sector": "55",
+   "mid_btjd": "2800.742074",
+   "core_bins": "80",
+   "base_bins": "281",
+   "depth_ppt": "19.5959",
+   "noise_ppt": "0.277",
+   "strong": "True"
+  },
+  {
+   "cycle": "1",
+   "sector": "55",
+   "mid_btjd": "2815.83792",
+   "core_bins": "77",
+   "base_bins": "309",
+   "depth_ppt": "23.8015",
+   "noise_ppt": "0.4097",
+   "strong": "True"
+  },
+  {
+   "cycle": "48",
+   "sector": "82",
+   "mid_btjd": "3535.620365",
+   "core_bins": "81",
+   "base_bins": "237",
+   "depth_ppt": "5.7472",
+   "noise_ppt": "0.7684",
+   "strong": "True"
+  },
+  {
+   "cycle": "49",
+   "sector": "82",
+   "mid_btjd": "3550.889206",
+   "core_bins": "82",
+   "base_bins": "312",
+   "depth_ppt": "10.8726",
+   "noise_ppt": "0.6784",
+   "strong": "True"
+  }
+ ],
+ "raw_event_depths": [
+  {
+   "sector": "55",
+   "cycle": "0",
+   "phase": "0",
+   "core": "126",
+   "depth_ppt": "157.248",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "55",
+   "cycle": "1",
+   "phase": "0",
+   "core": "122",
+   "depth_ppt": "159.833",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "55",
+   "cycle": "1",
+   "phase": "0.25",
+   "core": "118",
+   "depth_ppt": "71.713",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "55",
+   "cycle": "0",
+   "phase": "0.75",
+   "core": "118",
+   "depth_ppt": "-64.292",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "82",
+   "cycle": "48",
+   "phase": "0",
+   "core": "491",
+   "depth_ppt": "89.175",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "82",
+   "cycle": "49",
+   "phase": "0",
+   "core": "491",
+   "depth_ppt": "158.295",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "82",
+   "cycle": "48",
+   "phase": "0.25",
+   "core": "394",
+   "depth_ppt": "91.824",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "82",
+   "cycle": "49",
+   "phase": "0.25",
+   "core": "491",
+   "depth_ppt": "80.759",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "82",
+   "cycle": "48",
+   "phase": "0.75",
+   "core": "491",
+   "depth_ppt": "-7.503",
+   "column": "SAP_FLUX"
+  }
+ ],
+ "pixel_checks": [
+  {
+   "sector": 55,
+   "period": 15.311298022492178,
+   "epoch": 2800.6194866586725,
+   "width_days": 1.1365607141962417,
+   "source": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/-vUfyUA2ZvZMphdL/astrocut_318.52508533842547_0.32001564806161675_9.0x9.0px.zip",
+   "sha256": "107d4633582872a0b6c06dcedabea7dfb1b4d864be62e2e8ea34b6bb2c256263",
+   "status": "ok",
+   "camera": 1,
+   "ccd": 3,
+   "n_events": 2,
+   "n_in": 196,
+   "diff_snr": 134.02728271484375,
+   "psf_sigma_px": 0.7981348206438559,
+   "wcs_shift_px": [
+    -0.09708901358878472,
+    0.07619760653128092
+   ],
+   "free_offset_target_as": 2.0838908543213086,
+   "chi2_free": 1904.8215848322593,
+   "chi2_target": 2256.2435087358203,
+   "amp_target": 93.61187648805041,
+   "n_capable": 5,
+   "hyp": [
+    {
+     "source_id": "2689625416881242240",
+     "sep_as": 84.941,
+     "dG": 4.222269000000001,
+     "chi2": 35328.21511796607,
+     "amp": -9.056776317426987,
+     "is_target": false,
+     "free_offset_as": 87.0647058583436
+    },
+    {
+     "source_id": "2689625653104577792",
+     "sep_as": 87.861,
+     "dG": 4.024099000000001,
+     "chi2": 35411.56569244045,
+     "amp": -8.092224390960231,
+     "is_target": false,
+     "free_offset_as": 89.53109293110167
+    },
+    {
+     "source_id": "2689625550025366784",
+     "sep_as": 59.065,
+     "dG": 4.208065000000001,
+     "chi2": 35577.28720064446,
+     "amp": -4.158594277523056,
+     "is_target": false,
+     "free_offset_as": 59.183273240891246
+    },
+    {
+     "source_id": "2689625446946139776",
+     "sep_as": 50.199,
+     "dG": 4.013203000000001,
+     "chi2": 35636.615556170385,
+     "amp": -1.3601593786046595,
+     "is_target": false,
+     "free_offset_as": 52.130447993982166
+    },
+    {
+     "source_id": "2689625451240980736",
+     "sep_as": 48.594,
+     "dG": 4.524531000000001,
+     "chi2": 35643.69966300721,
+     "amp": -0.046584044651499096,
+     "is_target": false,
+     "free_offset_as": 49.6405130622706
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 33071.971609230255,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=318.52508533842547&dec=0.32001564806161675&x=9&y=9&sector=55"
+  },
+  {
+   "sector": 82,
+   "period": 15.311298022492178,
+   "epoch": 2800.6194866586725,
+   "width_days": 1.1365607141962417,
+   "source": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/JxcDQQDHqO3tYTdl/astrocut_318.52508533842547_0.32001564806161675_9.0x9.0px.zip",
+   "sha256": "6685c411b80103a23daeade2080598c13ee22ef0973f4b4d205dde5827a53ca7",
+   "status": "ok",
+   "camera": 1,
+   "ccd": 3,
+   "n_events": 2,
+   "n_in": 589,
+   "diff_snr": 84.94783020019531,
+   "psf_sigma_px": 0.7516628959681415,
+   "wcs_shift_px": [
+    0.03718683046906875,
+    0.11840503873210559
+   ],
+   "free_offset_target_as": 0.9372463483062488,
+   "chi2_free": 409.8896724573123,
+   "chi2_target": 435.48595548597757,
+   "amp_target": 80.10811446651421,
+   "n_capable": 5,
+   "hyp": [
+    {
+     "source_id": "2689625416881242240",
+     "sep_as": 84.941,
+     "dG": 4.222269000000001,
+     "chi2": 13255.06246937546,
+     "amp": -8.749123333212436,
+     "is_target": false,
+     "free_offset_as": 87.40160179925753
+    },
+    {
+     "source_id": "2689625653104577792",
+     "sep_as": 87.861,
+     "dG": 4.024099000000001,
+     "chi2": 13326.211069920464,
+     "amp": -7.62793230755876,
+     "is_target": false,
+     "free_offset_as": 89.08051017848109
+    },
+    {
+     "source_id": "2689625550025366784",
+     "sep_as": 59.065,
+     "dG": 4.208065000000001,
+     "chi2": 13391.718287054273,
+     "amp": -2.757211340830374,
+     "is_target": false,
+     "free_offset_as": 61.68020421596789
+    },
+    {
+     "source_id": "2689625446946139776",
+     "sep_as": 50.199,
+     "dG": 4.013203000000001,
+     "chi2": 13396.45671746796,
+     "amp": -2.2791334786053348,
+     "is_target": false,
+     "free_offset_as": 50.930374984065566
+    },
+    {
+     "source_id": "2689625451240980736",
+     "sep_as": 48.594,
+     "dG": 4.524531000000001,
+     "chi2": 13406.416952186393,
+     "amp": 0.4752500242611394,
+     "is_target": false,
+     "free_offset_as": 49.90123874956634
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 12819.576513889482,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=318.52508533842547&dec=0.32001564806161675&x=9&y=9&sector=82"
+  }
+ ],
+ "catalogues": {
+  "tic": "387416384",
+  "gaia_dr3": "2689625378226213632",
+  "eb_hits_30as": "",
+  "other_var_30as": "B/vsx/vsx:QX Aqr:CWA:P=15.285000000000:0.2as ; II/366/catv2021:J211406.03+001912.4:CWA:P=1.5272e+01:0.3as:sameID ; I/358/vclassre:2689625378226213632:CEP:P=:0.0as:sameID ; J/ApJS/249/18/table2:ZTFJ211406.01+001912.1:CEPII:P=15.2793443:0.1as",
+  "eb_nearby_30_90as": "",
+  "kostov_table2_machine": "",
+  "prsa_local": "",
+  "simbad_main_id": "V* QX Aqr",
+  "simbad_otype": "WV*",
+  "simbad_nbref": "9",
+  "simbad_sep": "0.1",
+  "simbad_other_30as": "",
+  "simbad_bib_eclipse_titles": "",
+  "simbad_bib_binary_titles_n": 1,
+  "toi": "",
+  "ctoi": "",
+  "house": "",
+  "source_catalogue_note": "",
+  "vsx_api": {
+   "VSXObjects": {
+    "VSXObject": [
+     {
+      "Name": "QX Aqr",
+      "AUID": "000-BJD-532",
+      "RA2000": "318.52508",
+      "Declination2000": "0.32006",
+      "ProperMotionRA": "-4.2000",
+      "ProperMotionDec": "-1.9000",
+      "VariabilityType": "CWA",
+      "Period": "15.285",
+      "Epoch": "2454710.3",
+      "RiseDuration": "58",
+      "MaxMag": "11.89 V",
+      "MinMag": "12.85 V",
+      "Category": "Variable",
+      "OID": "120797",
+      "Constellation": "Aqr"
+     }
+    ]
+   }
+  }
+ },
+ "current_vsx": {
+  "VSXObjects": {
+   "VSXObject": [
+    {
+     "Name": "QX Aqr",
+     "AUID": "000-BJD-532",
+     "RA2000": "318.52508",
+     "Declination2000": "0.32006",
+     "ProperMotionRA": "-4.2000",
+     "ProperMotionDec": "-1.9000",
+     "VariabilityType": "CWA",
+     "Period": "15.285",
+     "Epoch": "2454710.3",
+     "RiseDuration": "58",
+     "MaxMag": "11.89 V",
+     "MinMag": "12.85 V",
+     "Category": "Variable",
+     "OID": "120797",
+     "Constellation": "Aqr"
+    }
+   ]
+  }
+ },
+ "direct_vsx_url": "https://www.aavso.org/vsx/index.php?view=api.list&ra=318.52508533842547&dec=0.32001564806161675&radius=0.0125&format=json",
+ "supplement": {
+  "gd": "2689625378226213632",
+  "tic": "387416384",
+  "gaia": "2689625378226213632",
+  "vari_eclipsing_binary": [],
+  "vari_classifier_result": [
+   {
+    "source_id": 2689625378226213632,
+    "best_class_name": "CEP",
+    "best_class_score": 0.6437435150146484
+   }
+  ],
+  "nss_two_body_orbit": [
+   {
+    "source_id": 2689625378226213632,
+    "nss_solution_type": "SB1",
+    "period": 15.276353685433355
+   }
+  ],
+  "public_matches": [],
+  "superwasp_matches": [],
+  "theo_matches": []
+ },
+ "live_villanova": {
+  "tic": "387416384",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "simbad_cross_identification": {
+  "complete": true,
+  "tic": "387416384",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J21140602+0019122",
+   "APASS 36069310",
+   "AllWISE J211406.02+001912.2",
+   "Gaia DR2 2689625378226213632",
+   "UCAC4 452-118184"
+  ],
+  "objects": {
+   "V* QX Aqr": {
+    "object_type": "WV*",
+    "matched_aliases": [
+     "2MASS J21140602+0019122",
+     "Gaia DR2 2689625378226213632"
+    ],
+    "simbad_ids": "TIC 387416384|ZTF J211406.01+001912.1|Gaia DR3 2689625378226213632|ASAS J211406+0019.2|UCAC3 181-270767|USNO-B1.0 0903-00559264|2MASS J21140602+0019122|NSVS  14375306|V* QX Aqr|CRTS J211406.0+001912|Gaia DR2 2689625378226213632",
+    "references": {
+     "2021Ap.....64...27G": "Investigations of the periodic variables in the Catalina and LINEAR database.",
+     "2020ApJS..249...18C": "The Zwicky Transient Facility catalog of periodic variable stars.",
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2025A&A...697A..30N": "Period-luminosity relations for Galactic Type II Cepheids in the Sloan bands.",
+     "2008JAVSO..36...29W": "On the connection between CWA and RVA stars.",
+     "2009AJ....137.4598S": "Photometry of type II Cepheid candidates from the northern part of the  All Sky Automated Survey.",
+     "2009AJ....138..466H": "Automated variable star classification using the Northern Sky Variability  Survey.",
+     "2013AJ....146...61S": "Type II Cepheid candidates. IV. Objects from the Northern Sky Variability Survey.",
+     "2014ApJS..213....9D": "The Catalina surveys periodic variable star catalog."
+    }
+   }
+  }
+ },
+ "ads": {
+  "aliases": [
+   "2MASS J21140602+0019122",
+   "APASS 36069310",
+   "ASAS J211406+0019.2",
+   "AllWISE J211406.02+001912.2",
+   "CRTS J211406.0+001912",
+   "Gaia DR2 2689625378226213632",
+   "Gaia DR3 2689625378226213632",
+   "NSVS 14375306",
+   "TIC 387416384",
+   "UCAC3 181-270767",
+   "UCAC4 452-118184",
+   "USNO-B1.0 0903-00559264",
+   "ZTF J211406.01+001912.1"
+  ],
+  "query": "full:\"2MASS J21140602+0019122\" OR full:\"APASS 36069310\" OR full:\"ASAS J211406+0019.2\" OR full:\"AllWISE J211406.02+001912.2\" OR full:\"CRTS J211406.0+001912\" OR full:\"Gaia DR2 2689625378226213632\" OR full:\"Gaia DR3 2689625378226213632\" OR full:\"NSVS 14375306\" OR full:\"TIC 387416384\" OR full:\"UCAC3 181-270767\" OR full:\"UCAC4 452-118184\" OR full:\"USNO-B1.0 0903-00559264\" OR full:\"ZTF J211406.01+001912.1\"",
+  "count": 0,
+  "documents": [],
+  "complete": true
+ },
+ "additional_tables": {
+  "spectroscopic_catalogue_280_matches": [],
+  "tang_2025_514_matches": []
+ },
+ "ijspeert_eb_rows_within_90arcsec_or_matching_id": [],
+ "pipeline": {
+  "local_signals": [],
+  "mast_dvr_uris": [],
+  "mast_signals": []
+ }
+}

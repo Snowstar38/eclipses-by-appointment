@@ -1,0 +1,957 @@
+{
+ "gaia_dr3": "37947483466430976",
+ "tic": "434159772",
+ "photometry": {
+  "tic": "434159772",
+  "match": "exact Gaia identifier",
+  "available": [
+   5,
+   42,
+   43,
+   44,
+   70,
+   71
+  ],
+  "selected": [
+   5,
+   43,
+   44,
+   71
+  ],
+  "products": [
+   {
+    "sector": 5,
+    "uri": "mast:HLSP/tess-spoc/s0005/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0005_tess_v1_lc.fits",
+    "filename": "hlsp_tess-spoc_tess_phot_0000000434159772-s0005_tess_v1_lc.fits",
+    "sha256": "8cb0e01ce0eff4bd948b4d61b27b9a6412b8cfd345bedb774e6c178bbbfdac53",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/tess-spoc/s0005/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0005_tess_v1_lc.fits"
+   },
+   {
+    "sector": 43,
+    "uri": "mast:TESS/product/tess2021258175143-s0043-0000000434159772-0214-s_lc.fits",
+    "filename": "tess2021258175143-s0043-0000000434159772-0214-s_lc.fits",
+    "sha256": "f2633085aa882df6757dc665e11c6712fd595cb233f4115e261f12942248aa0f",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2021258175143-s0043-0000000434159772-0214-s_lc.fits"
+   },
+   {
+    "sector": 44,
+    "uri": "mast:TESS/product/tess2021284114741-s0044-0000000434159772-0215-s_lc.fits",
+    "filename": "tess2021284114741-s0044-0000000434159772-0215-s_lc.fits",
+    "sha256": "fa67730b303754b7c19aa0ea97d2607445d69ba18af6bb8cfd2909581493d383",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2021284114741-s0044-0000000434159772-0215-s_lc.fits"
+   },
+   {
+    "sector": 71,
+    "uri": "mast:HLSP/tess-spoc/s0071/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0071_tess_v1_lc.fits",
+    "filename": "hlsp_tess-spoc_tess_phot_0000000434159772-s0071_tess_v1_lc.fits",
+    "sha256": "bc220f088a6b8efd07de3dfa2567fc8995b6839dff49b966ad53a164059a452f",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/tess-spoc/s0071/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0071_tess_v1_lc.fits"
+   }
+  ]
+ },
+ "fit": {
+  "source_id": "37947483466430976",
+  "tic": "434159772",
+  "period_days": "7.2144125415330365",
+  "epoch_btjd": "1439.6778377773908",
+  "covered_btjd": "2507.416451",
+  "width_days": "0.08657610277835773",
+  "depth_ppt": "227.862",
+  "n_events": "14",
+  "strong_events": "13",
+  "strong_sectors": "4",
+  "sectors": "5|43|44|71",
+  "shape_prominence": "1429.72",
+  "which_conjunction": "A",
+  "offset_hours": "-0.6572572317381855",
+  "offset_sigma": "-0.21327235460592872"
+ },
+ "nearby_public": {
+  "identifier": "R1373",
+  "separation_arcsec": "11972.43"
+ },
+ "events": [
+  {
+   "cycle": "0",
+   "sector": "5",
+   "mid_btjd": "1439.680096",
+   "core_bins": "4",
+   "base_bins": "17",
+   "depth_ppt": "257.3284",
+   "noise_ppt": "0.4464",
+   "strong": "True"
+  },
+  {
+   "cycle": "1",
+   "sector": "5",
+   "mid_btjd": "1446.899236",
+   "core_bins": "5",
+   "base_bins": "15",
+   "depth_ppt": "211.5909",
+   "noise_ppt": "0.4611",
+   "strong": "True"
+  },
+  {
+   "cycle": "2",
+   "sector": "5",
+   "mid_btjd": "1454.113614",
+   "core_bins": "4",
+   "base_bins": "17",
+   "depth_ppt": "258.1019",
+   "noise_ppt": "0.2847",
+   "strong": "True"
+  },
+  {
+   "cycle": "3",
+   "sector": "5",
+   "mid_btjd": "1461.324336",
+   "core_bins": "4",
+   "base_bins": "17",
+   "depth_ppt": "256.1159",
+   "noise_ppt": "0.3776",
+   "strong": "True"
+  },
+  {
+   "cycle": "144",
+   "sector": "43",
+   "mid_btjd": "2478.557611",
+   "core_bins": "6",
+   "base_bins": "26",
+   "depth_ppt": "259.2954",
+   "noise_ppt": "0.3255",
+   "strong": "True"
+  },
+  {
+   "cycle": "146",
+   "sector": "43",
+   "mid_btjd": "2492.98697",
+   "core_bins": "6",
+   "base_bins": "24",
+   "depth_ppt": "248.2639",
+   "noise_ppt": "0.8198",
+   "strong": "True"
+  },
+  {
+   "cycle": "147",
+   "sector": "44",
+   "mid_btjd": "2500.205689",
+   "core_bins": "4",
+   "base_bins": "13",
+   "depth_ppt": "2.9074",
+   "noise_ppt": "0.7392",
+   "strong": "False"
+  },
+  {
+   "cycle": "148",
+   "sector": "44",
+   "mid_btjd": "2507.416451",
+   "core_bins": "6",
+   "base_bins": "24",
+   "depth_ppt": "259.0985",
+   "noise_ppt": "0.2438",
+   "strong": "True"
+  },
+  {
+   "cycle": "149",
+   "sector": "44",
+   "mid_btjd": "2514.627751",
+   "core_bins": "6",
+   "base_bins": "26",
+   "depth_ppt": "255.4919",
+   "noise_ppt": "0.5243",
+   "strong": "True"
+  },
+  {
+   "cycle": "150",
+   "sector": "44",
+   "mid_btjd": "2521.843406",
+   "core_bins": "7",
+   "base_bins": "24",
+   "depth_ppt": "249.4808",
+   "noise_ppt": "0.6011",
+   "strong": "True"
+  },
+  {
+   "cycle": "249",
+   "sector": "71",
+   "mid_btjd": "3236.06922",
+   "core_bins": "6",
+   "base_bins": "25",
+   "depth_ppt": "258.3713",
+   "noise_ppt": "0.5584",
+   "strong": "True"
+  },
+  {
+   "cycle": "250",
+   "sector": "71",
+   "mid_btjd": "3243.280454",
+   "core_bins": "6",
+   "base_bins": "25",
+   "depth_ppt": "256.9984",
+   "noise_ppt": "0.4368",
+   "strong": "True"
+  },
+  {
+   "cycle": "251",
+   "sector": "71",
+   "mid_btjd": "3250.499425",
+   "core_bins": "6",
+   "base_bins": "24",
+   "depth_ppt": "256.0366",
+   "noise_ppt": "0.2679",
+   "strong": "True"
+  },
+  {
+   "cycle": "252",
+   "sector": "71",
+   "mid_btjd": "3257.710491",
+   "core_bins": "6",
+   "base_bins": "26",
+   "depth_ppt": "257.5049",
+   "noise_ppt": "0.2699",
+   "strong": "True"
+  }
+ ],
+ "raw_event_depths": [
+  {
+   "sector": "5",
+   "cycle": "0",
+   "phase": "0",
+   "core": "4",
+   "depth_ppt": "255.894",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "1",
+   "phase": "0",
+   "core": "5",
+   "depth_ppt": "210.18",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "2",
+   "phase": "0",
+   "core": "4",
+   "depth_ppt": "255.519",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "3",
+   "phase": "0",
+   "core": "4",
+   "depth_ppt": "253.694",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "0",
+   "phase": "0.25",
+   "core": "4",
+   "depth_ppt": "0.627",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "1",
+   "phase": "0.25",
+   "core": "4",
+   "depth_ppt": "-0.096",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "2",
+   "phase": "0.25",
+   "core": "4",
+   "depth_ppt": "0.355",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "3",
+   "phase": "0.25",
+   "core": "4",
+   "depth_ppt": "-0.08",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "0",
+   "phase": "0.75",
+   "core": "4",
+   "depth_ppt": "-0.797",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "1",
+   "phase": "0.75",
+   "core": "4",
+   "depth_ppt": "-0.059",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "5",
+   "cycle": "2",
+   "phase": "0.75",
+   "core": "5",
+   "depth_ppt": "0.183",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "144",
+   "phase": "0",
+   "core": "62",
+   "depth_ppt": "256.664",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "146",
+   "phase": "0",
+   "core": "54",
+   "depth_ppt": "247.643",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "144",
+   "phase": "0.25",
+   "core": "63",
+   "depth_ppt": "0.111",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "145",
+   "phase": "0.25",
+   "core": "63",
+   "depth_ppt": "-0.132",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "146",
+   "phase": "0.25",
+   "core": "63",
+   "depth_ppt": "-0.224",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "143",
+   "phase": "0.75",
+   "core": "63",
+   "depth_ppt": "-0.147",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "144",
+   "phase": "0.75",
+   "core": "63",
+   "depth_ppt": "0.072",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "145",
+   "phase": "0.75",
+   "core": "63",
+   "depth_ppt": "-0.219",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "146",
+   "phase": "0.75",
+   "core": "63",
+   "depth_ppt": "-0.249",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "148",
+   "phase": "0",
+   "core": "62",
+   "depth_ppt": "254.481",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "149",
+   "phase": "0",
+   "core": "63",
+   "depth_ppt": "254.797",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "150",
+   "phase": "0",
+   "core": "63",
+   "depth_ppt": "251.673",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "147",
+   "phase": "0.25",
+   "core": "62",
+   "depth_ppt": "-0.238",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "148",
+   "phase": "0.25",
+   "core": "62",
+   "depth_ppt": "-0.012",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "149",
+   "phase": "0.25",
+   "core": "62",
+   "depth_ppt": "0.403",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "150",
+   "phase": "0.25",
+   "core": "62",
+   "depth_ppt": "-0.162",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "147",
+   "phase": "0.75",
+   "core": "62",
+   "depth_ppt": "0.04",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "149",
+   "phase": "0.75",
+   "core": "62",
+   "depth_ppt": "-0.187",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "249",
+   "phase": "0",
+   "core": "36",
+   "depth_ppt": "253.695",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "250",
+   "phase": "0",
+   "core": "37",
+   "depth_ppt": "257.984",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "251",
+   "phase": "0",
+   "core": "36",
+   "depth_ppt": "251.673",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "252",
+   "phase": "0",
+   "core": "35",
+   "depth_ppt": "245.443",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "249",
+   "phase": "0.25",
+   "core": "38",
+   "depth_ppt": "0.316",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "250",
+   "phase": "0.25",
+   "core": "37",
+   "depth_ppt": "0.086",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "251",
+   "phase": "0.25",
+   "core": "38",
+   "depth_ppt": "-0.501",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "249",
+   "phase": "0.75",
+   "core": "38",
+   "depth_ppt": "-0.435",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "251",
+   "phase": "0.75",
+   "core": "37",
+   "depth_ppt": "0.078",
+   "column": "SAP_FLUX"
+  }
+ ],
+ "pixel_checks": [
+  {
+   "sector": 43,
+   "period": 7.2144125415330365,
+   "epoch": 1439.6778377773908,
+   "width_days": 0.08657610277835773,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0043/0000/0004/3415/9772/tess2021258175143-s0043-0000000434159772-0214-s_tp.fits",
+   "sha256": "0bdf8684049dd2473564a973bf399fc9090cf600ec68b8594f1cc31e1caabdce",
+   "status": "ok",
+   "camera": 3,
+   "ccd": 2,
+   "n_events": 2,
+   "n_in": 68,
+   "diff_snr": 508.8294982910156,
+   "psf_sigma_px": 0.7620996432204884,
+   "wcs_shift_px": [
+    -0.07944001308105408,
+    -0.02586136870008184
+   ],
+   "free_offset_target_as": 0.2692357262722086,
+   "chi2_free": 6916.267052175311,
+   "chi2_target": 6970.23097812618,
+   "amp_target": 764.7759580509306,
+   "n_capable": 0,
+   "hyp": [],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": null,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=56.392845662247254&dec=13.159193541703969&x=9&y=9&sector=43"
+  },
+  {
+   "sector": 44,
+   "period": 7.2144125415330365,
+   "epoch": 1439.6778377773908,
+   "width_days": 0.08657610277835773,
+   "source": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0044/0000/0004/3415/9772/tess2021284114741-s0044-0000000434159772-0215-s_tp.fits",
+   "sha256": "41cfe1edd126fa959bdc0fade556f85be46abdb76ae2bc15af3c61283bb609b0",
+   "status": "ok",
+   "camera": 1,
+   "ccd": 1,
+   "n_events": 3,
+   "n_in": 111,
+   "diff_snr": 113.40976995293542,
+   "psf_sigma_px": 0.6727804800682756,
+   "wcs_shift_px": [
+    -0.03537747030574001,
+    0.05684242438923441
+   ],
+   "free_offset_target_as": 8.894656666891056,
+   "chi2_free": 70185.45512914273,
+   "chi2_target": 85411.63060502996,
+   "amp_target": 1204.135525212318,
+   "n_capable": 0,
+   "hyp": [],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": null,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=56.392845662247254&dec=13.159193541703969&x=9&y=9&sector=44"
+  },
+  {
+   "sector": 5,
+   "period": 7.2144125415330365,
+   "epoch": 1439.6778377773908,
+   "width_days": 0.08657610277835773,
+   "source": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0005%2Ftarget%2F0000%2F0004%2F3415%2F9772%2Fhlsp_tess-spoc_tess_phot_0000000434159772-s0005_tess_v1_tp.fits",
+   "sha256": "ed6e5eed3657ad7ba81ec11beb6a205bf9e94054f143f8df8c3fc614ebd604b6",
+   "status": "ok",
+   "camera": 1,
+   "ccd": 4,
+   "n_events": 4,
+   "n_in": 9,
+   "diff_snr": 42.84048155118427,
+   "psf_sigma_px": 0.781728566647047,
+   "wcs_shift_px": [
+    -0.04961270225286858,
+    0.020834700894625694
+   ],
+   "free_offset_target_as": 7.58915330144582,
+   "chi2_free": 9840.325895232581,
+   "chi2_target": 10479.46908233526,
+   "amp_target": 676.5119086407689,
+   "n_capable": 0,
+   "hyp": [],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": null,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=56.392845662247254&dec=13.159193541703969&x=9&y=9&sector=5"
+  },
+  {
+   "sector": 71,
+   "period": 7.2144125415330365,
+   "epoch": 1439.6778377773908,
+   "width_days": 0.08657610277835773,
+   "source": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0071%2Ftarget%2F0000%2F0004%2F3415%2F9772%2Fhlsp_tess-spoc_tess_phot_0000000434159772-s0071_tess_v1_tp.fits",
+   "sha256": "21107539bcf4cdc929bc35cadaa007f49215f0b2ed54e0e22194afdf52bd1924",
+   "status": "ok",
+   "camera": 2,
+   "ccd": 4,
+   "n_events": 4,
+   "n_in": 85,
+   "diff_snr": 135.84451638217743,
+   "psf_sigma_px": 0.7172734912927203,
+   "wcs_shift_px": [
+    0.03932619293501287,
+    -0.013455710063672717
+   ],
+   "free_offset_target_as": 6.361239163451726,
+   "chi2_free": 65694.66832725401,
+   "chi2_target": 77212.98396072332,
+   "amp_target": 1339.8037230310565,
+   "n_capable": 0,
+   "hyp": [],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": null,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=56.392845662247254&dec=13.159193541703969&x=9&y=9&sector=71"
+  }
+ ],
+ "catalogues": {
+  "tic": "434159772",
+  "gaia_dr3": "37947483466430976",
+  "eb_hits_30as": "B/vsx/vsx:EPIC 210386880:EA:P=7.215576560000:0.4as",
+  "other_var_30as": "I/358/vclassre:37947483466430976:SOLAR_LIKE:P=:0.0as:sameID",
+  "eb_nearby_30_90as": "",
+  "kostov_table2_machine": "",
+  "prsa_local": "",
+  "simbad_main_id": "TYC  664-1300-1",
+  "simbad_otype": "SB*",
+  "simbad_nbref": "6",
+  "simbad_sep": "0.4",
+  "simbad_other_30as": "",
+  "simbad_bib_eclipse_titles": "2016A&A...594A.100B: New planetary and eclipsing binary candidates from campaigns 1-6 of the K2 mission. || 2022ApJS..259...50S: New Pulsating Stars Detected in EA-type Eclipsing-binary Systems Based on TESS Data.",
+  "simbad_bib_binary_titles_n": 4,
+  "toi": "",
+  "ctoi": "",
+  "house": "",
+  "source_catalogue_note": "",
+  "vsx_api_error": "405 Client Error: Not Allowed for url: https://vsx.aavso.org/index.php?view=api.list&ra=56.392845662247254&dec=13.159193541703969&radius=0.008333333333333333&format=json"
+ },
+ "current_vsx": null,
+ "direct_vsx_url": "https://www.aavso.org/vsx/index.php?view=api.list&ra=56.392845662247254&dec=13.159193541703969&radius=0.0125&format=json",
+ "supplement": {
+  "gd": "37947483466430976",
+  "tic": "434159772",
+  "gaia": "37947483466430976",
+  "vari_eclipsing_binary": [],
+  "vari_classifier_result": [
+   {
+    "source_id": 37947483466430976,
+    "best_class_name": "SOLAR_LIKE",
+    "best_class_score": 0.265472412109375
+   }
+  ],
+  "nss_two_body_orbit": [
+   {
+    "source_id": 37947483466430976,
+    "nss_solution_type": "SB1",
+    "period": 7.214675231529811
+   }
+  ],
+  "public_matches": [],
+  "superwasp_matches": [],
+  "theo_matches": []
+ },
+ "live_villanova": {
+  "tic": "434159772",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "simbad_cross_identification": {
+  "complete": true,
+  "tic": "434159772",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J03453431+1309330",
+   "APASS 40736116",
+   "AllWISE J034534.29+130933.1",
+   "Gaia DR2 37947483466430976",
+   "TYC 0664-01300-1",
+   "TYC 664-1300-1",
+   "UCAC4 516-006437"
+  ],
+  "objects": {
+   "TYC  664-1300-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J03453431+1309330",
+     "Gaia DR2 37947483466430976",
+     "TYC  664-1300-1",
+     "UCAC4 516-006437"
+    ],
+    "simbad_ids": "TYC  664-1300-1|EPIC 210386883|Gaia DR2 37947483466430976|UCAC4 516-006437|UCAC4 516-006436|2MASS J03453431+1309330|WISE J034534.28+130933.1|WISEA J034534.29+130933.1|Gaia DR3 37947483466430976|EPIC 210386880|TIC 434159772",
+    "references": {
+     "2019ApJS..244...43Z": "Unbiased distribution of binary parameters from LAMOST and Kepler observations.",
+     "2016ApJS..224....2H": "The K2 ecliptic plane input catalog (EPIC) and stellar classifications of 138,600 targets in campaigns 1-8.",
+     "2022ApJS..259...50S": "New Pulsating Stars Detected in EA-type Eclipsing-binary Systems Based on TESS Data.",
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2023A&A...672A.176P": "Mass-ratio distribution of contact binary stars.",
+     "2016A&A...594A.100B": "New planetary and eclipsing binary candidates from campaigns 1-6 of the K2 mission."
+    }
+   }
+  }
+ },
+ "ads": {
+  "aliases": [
+   "2MASS J03453431+1309330",
+   "APASS 40736116",
+   "AllWISE J034534.29+130933.1",
+   "EPIC 210386880",
+   "EPIC 210386883",
+   "Gaia DR2 37947483466430976",
+   "Gaia DR3 37947483466430976",
+   "TIC 434159772",
+   "TYC 0664-01300-1",
+   "TYC 664-1300-1",
+   "UCAC4 516-006436",
+   "UCAC4 516-006437",
+   "WISE J034534.28+130933.1",
+   "WISEA J034534.29+130933.1"
+  ],
+  "query": "full:\"2MASS J03453431+1309330\" OR full:\"APASS 40736116\" OR full:\"AllWISE J034534.29+130933.1\" OR full:\"EPIC 210386880\" OR full:\"EPIC 210386883\" OR full:\"Gaia DR2 37947483466430976\" OR full:\"Gaia DR3 37947483466430976\" OR full:\"TIC 434159772\" OR full:\"TYC 0664-01300-1\" OR full:\"TYC 664-1300-1\" OR full:\"UCAC4 516-006436\" OR full:\"UCAC4 516-006437\" OR full:\"WISE J034534.28+130933.1\" OR full:\"WISEA J034534.29+130933.1\"",
+  "count": 0,
+  "documents": [],
+  "complete": true
+ },
+ "additional_tables": {
+  "spectroscopic_catalogue_280_matches": [],
+  "tang_2025_514_matches": []
+ },
+ "ijspeert_eb_rows_within_90arcsec_or_matching_id": [],
+ "pipeline": {
+  "local_signals": [
+   {
+    "file": "signals-all.csv.gz",
+    "period": "7.21389"
+   },
+   {
+    "file": "signals-all.csv.gz",
+    "period": "36.0708"
+   },
+   {
+    "file": "signals-all.csv.gz",
+    "period": "15.0802"
+   },
+   {
+    "file": "s0042.csv.gz",
+    "period": "14.430549"
+   },
+   {
+    "file": "s0042.csv.gz",
+    "period": "14.430549"
+   },
+   {
+    "file": "s0043.csv.gz",
+    "period": "14.43055"
+   },
+   {
+    "file": "s0043.csv.gz",
+    "period": "7.214336"
+   },
+   {
+    "file": "s0044.csv.gz",
+    "period": "7.2151437"
+   },
+   {
+    "file": "s0044.csv.gz",
+    "period": "14.43055"
+   }
+  ],
+  "mast_dvr_uris": [
+   "mast:HLSP/tess-spoc/s0042/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0042-s0042_tess_v1_dvr.xml",
+   "mast:HLSP/tess-spoc/s0043/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0043-s0043_tess_v1_dvr.xml",
+   "mast:HLSP/tess-spoc/s0044/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0044-s0044_tess_v1_dvr.xml",
+   "mast:HLSP/tess-spoc/s0070/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0070-s0070_tess_v1_dvr.xml",
+   "mast:HLSP/tess-spoc/s0071/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0071-s0071_tess_v1_dvr.xml",
+   "mast:TESS/product/tess2021233042500-s0042-s0042-0000000434159772-00517_dvr.xml",
+   "mast:TESS/product/tess2021233042500-s0042-s0043-0000000434159772-00523_dvr.xml",
+   "mast:TESS/product/tess2021233042500-s0042-s0046-0000000434159772-00550_dvr.xml",
+   "mast:TESS/product/tess2021259155059-s0043-s0043-0000000434159772-00522_dvr.xml",
+   "mast:TESS/product/tess2021285162058-s0044-s0044-0000000434159772-00536_dvr.xml"
+  ],
+  "mast_signals": [
+   {
+    "uri": "mast:HLSP/tess-spoc/s0042/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0042-s0042_tess_v1_dvr.xml",
+    "period": "14.430549",
+    "epoch": "2449.700092251345",
+    "sha256": "abbb250a1a55b4c1fdf959b194d47fc6d9741b7cbdf248920d84fb516ce5767c"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0042/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0042-s0042_tess_v1_dvr.xml",
+    "period": "14.430549",
+    "epoch": "2453.3056486640853",
+    "sha256": "abbb250a1a55b4c1fdf959b194d47fc6d9741b7cbdf248920d84fb516ce5767c"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0043/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0043-s0043_tess_v1_dvr.xml",
+    "period": "14.43055",
+    "epoch": "2478.5584141100844",
+    "sha256": "c797dc2c45fbf4ba8897263b74d027130327e8f37be711ec05d5afecaab0f3ba"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0043/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0043-s0043_tess_v1_dvr.xml",
+    "period": "7.214336",
+    "epoch": "2474.951468803318",
+    "sha256": "c797dc2c45fbf4ba8897263b74d027130327e8f37be711ec05d5afecaab0f3ba"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0044/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0044-s0044_tess_v1_dvr.xml",
+    "period": "7.2151437",
+    "epoch": "2500.1959016183014",
+    "sha256": "eb30223e18d70a96359be7c8b3bdc46916da375a27df1a07ff454be8ccc0ae45"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0044/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0044-s0044_tess_v1_dvr.xml",
+    "period": "14.43055",
+    "epoch": "2503.805624698789",
+    "sha256": "eb30223e18d70a96359be7c8b3bdc46916da375a27df1a07ff454be8ccc0ae45"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0070/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0070-s0070_tess_v1_dvr.xml",
+    "period": "14.435179",
+    "epoch": "3214.4210394086476",
+    "sha256": "e84fc15a99826878727f9ed5e0cbdc584678394f83e968975257917b7e32b750"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0070/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0070-s0070_tess_v1_dvr.xml",
+    "period": "7.21296",
+    "epoch": "3210.8180318099726",
+    "sha256": "e84fc15a99826878727f9ed5e0cbdc584678394f83e968975257917b7e32b750"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0071/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0071-s0071_tess_v1_dvr.xml",
+    "period": "7.215275",
+    "epoch": "3236.0633909239186",
+    "sha256": "e99207535da6c565022b5d5a3742cd194a9181b01d37f487d0bbfbc1811767f8"
+   },
+   {
+    "uri": "mast:HLSP/tess-spoc/s0071/target/0000/0004/3415/9772/hlsp_tess-spoc_tess_phot_0000000434159772-s0071-s0071_tess_v1_dvr.xml",
+    "period": "14.428234",
+    "epoch": "3239.672185628567",
+    "sha256": "e99207535da6c565022b5d5a3742cd194a9181b01d37f487d0bbfbc1811767f8"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0042-0000000434159772-00517_dvr.xml",
+    "period": "7.2124968",
+    "epoch": "2449.7028686103286",
+    "sha256": "ac0cfe79e4aabc1301e6c43af5d303ccabb468ba5945fef0fd58d395c18d3ad3"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0042-0000000434159772-00517_dvr.xml",
+    "period": "14.426382",
+    "epoch": "2453.3118947065495",
+    "sha256": "ac0cfe79e4aabc1301e6c43af5d303ccabb468ba5945fef0fd58d395c18d3ad3"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0042-0000000434159772-00517_dvr.xml",
+    "period": "14.926382",
+    "epoch": "2448.9292578596664",
+    "sha256": "ac0cfe79e4aabc1301e6c43af5d303ccabb468ba5945fef0fd58d395c18d3ad3"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0043-0000000434159772-00523_dvr.xml",
+    "period": "14.427771",
+    "epoch": "2449.701479722747",
+    "sha256": "5e2d7cb93831eab39402bb4efd458905872eda069b591fdd30df79596cc9c826"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0043-0000000434159772-00523_dvr.xml",
+    "period": "3.6069427",
+    "epoch": "2449.700785278625",
+    "sha256": "5e2d7cb93831eab39402bb4efd458905872eda069b591fdd30df79596cc9c826"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0043-0000000434159772-00523_dvr.xml",
+    "period": "7.2111077",
+    "epoch": "2453.141061454599",
+    "sha256": "5e2d7cb93831eab39402bb4efd458905872eda069b591fdd30df79596cc9c826"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0046-0000000434159772-00550_dvr.xml",
+    "period": "7.213886",
+    "epoch": "2449.701479772269",
+    "sha256": "2836f373b30689fb44f69edb633dcc738c533307c82a1412f2c203728b01fbff"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0046-0000000434159772-00550_dvr.xml",
+    "period": "7.213886",
+    "epoch": "2453.309811514159",
+    "sha256": "2836f373b30689fb44f69edb633dcc738c533307c82a1412f2c203728b01fbff"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0046-0000000434159772-00550_dvr.xml",
+    "period": "36.070816",
+    "epoch": "2449.4292576701096",
+    "sha256": "2836f373b30689fb44f69edb633dcc738c533307c82a1412f2c203728b01fbff"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021233042500-s0042-s0046-0000000434159772-00550_dvr.xml",
+    "period": "7.222219",
+    "epoch": "2449.045230061688",
+    "sha256": "2836f373b30689fb44f69edb633dcc738c533307c82a1412f2c203728b01fbff"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021259155059-s0043-s0043-0000000434159772-00522_dvr.xml",
+    "period": "7.215275",
+    "epoch": "2478.555633349547",
+    "sha256": "e8667012223c2cbbcc95851a901e4b7898ff037ad42acc0c0009449631091d74"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021259155059-s0043-s0043-0000000434159772-00522_dvr.xml",
+    "period": "7.213886",
+    "epoch": "2474.951468272486",
+    "sha256": "e8667012223c2cbbcc95851a901e4b7898ff037ad42acc0c0009449631091d74"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021259155059-s0043-s0043-0000000434159772-00522_dvr.xml",
+    "period": "14.43055",
+    "epoch": "2479.1327164283593",
+    "sha256": "e8667012223c2cbbcc95851a901e4b7898ff037ad42acc0c0009449631091d74"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021285162058-s0044-s0044-0000000434159772-00536_dvr.xml",
+    "period": "7.22083",
+    "epoch": "2500.184790506428",
+    "sha256": "905bfe5d2add82623ac14f68d0fad03952201a40ecd496a0806ba57cbb5ec804"
+   },
+   {
+    "uri": "mast:TESS/product/tess2021285162058-s0044-s0044-0000000434159772-00536_dvr.xml",
+    "period": "14.42916",
+    "epoch": "2503.8056222428045",
+    "sha256": "905bfe5d2add82623ac14f68d0fad03952201a40ecd496a0806ba57cbb5ec804"
+   }
+  ]
+ }
+}

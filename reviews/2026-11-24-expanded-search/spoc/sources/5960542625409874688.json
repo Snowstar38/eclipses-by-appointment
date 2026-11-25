@@ -1,0 +1,828 @@
+{
+ "tic": "262335479",
+ "gaia_dr3": "5960542625409874688",
+ "ra_deg": 264.36153995017,
+ "dec_deg": -41.2354307526314,
+ "status": "probable",
+ "note": "Primary and secondary localize to this star in two TESS reductions. Only sector 104 supplies a usable independent FFI fold.",
+ "credit": {
+  "source_tic": "262335479",
+  "aperture_tic": "262335479",
+  "spoc_tce_id": "00262335479-01",
+  "spoc_runs": "s0104-s0104",
+  "prior_signal": "SPOC threshold-crossing event at TIC 262335479; no earlier eclipse interpretation found in the recorded checks."
+ },
+ "archive_aperture_difference_images": [
+  {
+   "sector": 104,
+   "url": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0104/0000/0002/6233/5479/tess2026137223500-s0104-0000000262335479-0306-s_tp.fits",
+   "sha256": "0f92d205ddfc8b90ae361c1159b7b9fe261a579f65e5beeae071c9347df7e8ae",
+   "primary": {
+    "status": "ok",
+    "camera": 1,
+    "ccd": 3,
+    "n_events": 7,
+    "n_in": 315,
+    "diff_snr": 91.07817045006006,
+    "psf_sigma_px": 0.7658907990841478,
+    "wcs_shift_px": [
+     0.02474273128205626,
+     0.18562063248063262
+    ],
+    "free_offset_target_as": 3.53220211584707,
+    "chi2_free": 1888.2121787979902,
+    "chi2_target": 2346.2595551984996,
+    "amp_target": 77.905904416276,
+    "n_capable": 13,
+    "hyp": [
+     {
+      "source_id": "5960542629711601536",
+      "sep_as": 10.08185450785327,
+      "dG": 3.4504140000000003,
+      "chi2": 4866.3673763745755,
+      "amp": 43.9081803897546,
+      "is_target": false,
+      "free_offset_as": 8.741424700437815
+     },
+     {
+      "source_id": "5960542629782468224",
+      "sep_as": 20.65630247311542,
+      "dG": 1.3125679999999988,
+      "chi2": 7231.465550754278,
+      "amp": 34.19404917133059,
+      "is_target": false,
+      "free_offset_as": 18.014169129251414
+     },
+     {
+      "source_id": "5960542629782460416",
+      "sep_as": 33.94035077305495,
+      "dG": 3.298874999999999,
+      "chi2": 10350.426869422852,
+      "amp": 20.111566021371168,
+      "is_target": false,
+      "free_offset_as": 31.889098542448124
+     },
+     {
+      "source_id": "5960545584719990016",
+      "sep_as": 19.991415307687426,
+      "dG": 3.847956999999999,
+      "chi2": 11707.135962187802,
+      "amp": 19.958696006941945,
+      "is_target": false,
+      "free_offset_as": 24.23708692922472
+     },
+     {
+      "source_id": "5960542625411309568",
+      "sep_as": 23.939365086107664,
+      "dG": 3.2076460000000004,
+      "chi2": 12327.029057829142,
+      "amp": 12.590303017656197,
+      "is_target": false,
+      "free_offset_as": 26.252602054597222
+     },
+     {
+      "source_id": "5960542595422713088",
+      "sep_as": 56.64150703556807,
+      "dG": 3.201796999999999,
+      "chi2": 13547.334319807798,
+      "amp": 8.855914250438454,
+      "is_target": false,
+      "free_offset_as": 56.051146115612426
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 2520.107821176076,
+    "verdict": "on_target"
+   },
+   "secondary": {
+    "status": "ok",
+    "camera": 1,
+    "ccd": 3,
+    "n_events": 4,
+    "n_in": 181,
+    "diff_snr": 42.29601021972031,
+    "psf_sigma_px": 0.7636961697722584,
+    "wcs_shift_px": [
+     0.02264752186049411,
+     0.20196113013129208
+    ],
+    "free_offset_target_as": 1.146363117404111,
+    "chi2_free": 612.132896697079,
+    "chi2_target": 627.6617678795849,
+    "amp_target": 18.33400179165909,
+    "n_capable": 47,
+    "hyp": [
+     {
+      "source_id": "5960542629711601536",
+      "sep_as": 10.08185450785327,
+      "dG": 3.4504140000000003,
+      "chi2": 1411.517533776858,
+      "amp": 14.26781737008144,
+      "is_target": false,
+      "free_offset_as": 9.807464652809053
+     },
+     {
+      "source_id": "5960542625411285888",
+      "sep_as": 10.326068232876011,
+      "dG": 4.471589,
+      "chi2": 1461.1299726623554,
+      "amp": 14.270256960968947,
+      "is_target": false,
+      "free_offset_as": 10.666680628799444
+     },
+     {
+      "source_id": "5960542629782468224",
+      "sep_as": 20.65630247311542,
+      "dG": 1.3125679999999988,
+      "chi2": 2390.529452228845,
+      "amp": 6.945224731640456,
+      "is_target": false,
+      "free_offset_as": 20.432488995599847
+     },
+     {
+      "source_id": "5960542629711554560",
+      "sep_as": 23.4953921130875,
+      "dG": 4.495459,
+      "chi2": 2539.178568476267,
+      "amp": 5.9985320978344685,
+      "is_target": false,
+      "free_offset_as": 23.39554320405552
+     },
+     {
+      "source_id": "5960542629782484224",
+      "sep_as": 21.321728952627524,
+      "dG": 5.335370000000001,
+      "chi2": 2754.547742575001,
+      "amp": 6.623455418206953,
+      "is_target": false,
+      "free_offset_as": 22.0015996816435
+     },
+     {
+      "source_id": "5960542629782460416",
+      "sep_as": 33.94035077305495,
+      "dG": 3.298874999999999,
+      "chi2": 2818.237460722242,
+      "amp": 4.716881180335936,
+      "is_target": false,
+      "free_offset_as": 34.30292435285314
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 783.8557658972732,
+    "verdict": "on_target"
+   }
+  }
+ ],
+ "host_centered_FFI": [
+  {
+   "sector": 104,
+   "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/mPP1NxIo1VDlCtI8/astrocut_264.36153995017_-41.2354307526314_13.0x13.0px.zip",
+   "sha256": "7f958fefb8212f2c3ea18cfdac5b21ee6c1a3e3573945a83aaccd605859c9bdf",
+   "primary_diff": {
+    "status": "ok",
+    "camera": 1,
+    "ccd": 3,
+    "n_events": 7,
+    "n_in": 189,
+    "diff_snr": 84.9350611708416,
+    "psf_sigma_px": 0.7627633209663035,
+    "wcs_shift_px": [
+     0.025969183908375708,
+     0.17237485936360059
+    ],
+    "free_offset_target_as": 3.2208862934201994,
+    "chi2_free": 871.7830499306325,
+    "chi2_target": 1139.1763857555572,
+    "amp_target": 79.01683848837851,
+    "n_capable": 17,
+    "hyp": [
+     {
+      "source_id": "5960542629711601536",
+      "sep_as": 10.08185450785327,
+      "dG": 3.4504140000000003,
+      "chi2": 4178.858768430885,
+      "amp": 43.645803903378074,
+      "is_target": false,
+      "free_offset_as": 9.16623073172167
+     },
+     {
+      "source_id": "5960542629782468224",
+      "sep_as": 20.65630247311542,
+      "dG": 1.3125679999999988,
+      "chi2": 5183.349995194334,
+      "amp": 36.955628490567776,
+      "is_target": false,
+      "free_offset_as": 18.36412784014721
+     },
+     {
+      "source_id": "5960542629782460416",
+      "sep_as": 33.94035077305495,
+      "dG": 3.298874999999999,
+      "chi2": 8233.310203636363,
+      "amp": 21.896579608710432,
+      "is_target": false,
+      "free_offset_as": 32.22028825941172
+     },
+     {
+      "source_id": "5960542625411309568",
+      "sep_as": 23.939365086107664,
+      "dG": 3.2076460000000004,
+      "chi2": 9263.66469399295,
+      "amp": 12.744617756683034,
+      "is_target": false,
+      "free_offset_as": 25.771252313014685
+     },
+     {
+      "source_id": "5960545584719990016",
+      "sep_as": 19.991415307687426,
+      "dG": 3.847956999999999,
+      "chi2": 9439.447103449189,
+      "amp": 24.674493799368452,
+      "is_target": false,
+      "free_offset_as": 24.038828841474142
+     },
+     {
+      "source_id": "5960542556696305024",
+      "sep_as": 50.06156996931974,
+      "dG": 3.9206284999999994,
+      "chi2": 10293.892690841269,
+      "amp": 14.848812038050404,
+      "is_target": false,
+      "free_offset_as": 49.17073688692255
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 3039.682382675328,
+    "verdict": "on_target"
+   },
+   "secondary_diff": {
+    "status": "ok",
+    "camera": 1,
+    "ccd": 3,
+    "n_events": 4,
+    "n_in": 108,
+    "diff_snr": 41.86193798129168,
+    "psf_sigma_px": 0.7618210215206095,
+    "wcs_shift_px": [
+     0.023996768430350528,
+     0.18916728407155706
+    ],
+    "free_offset_target_as": 1.2612231739781272,
+    "chi2_free": 509.26462157861096,
+    "chi2_target": 525.4646416724895,
+    "amp_target": 17.219549316690536,
+    "n_capable": 64,
+    "hyp": [
+     {
+      "source_id": "5960542629711601536",
+      "sep_as": 10.08185450785327,
+      "dG": 3.4504140000000003,
+      "chi2": 1163.5263338324123,
+      "amp": 14.097704852888008,
+      "is_target": false,
+      "free_offset_as": 9.84416058140945
+     },
+     {
+      "source_id": "5960542625411285888",
+      "sep_as": 10.326068232876011,
+      "dG": 4.471589,
+      "chi2": 1184.6255398895328,
+      "amp": 12.764722317444674,
+      "is_target": false,
+      "free_offset_as": 10.763130482557747
+     },
+     {
+      "source_id": "5960542629782481024",
+      "sep_as": 11.429578538269793,
+      "dG": 5.822448999999999,
+      "chi2": 1417.7389479132944,
+      "amp": 10.40901763327022,
+      "is_target": false,
+      "free_offset_as": 12.228030874621465
+     },
+     {
+      "source_id": "5960542629782468224",
+      "sep_as": 20.65630247311542,
+      "dG": 1.3125679999999988,
+      "chi2": 2170.3577740733103,
+      "amp": 7.791803694573934,
+      "is_target": false,
+      "free_offset_as": 20.336570553372606
+     },
+     {
+      "source_id": "5960542629782484224",
+      "sep_as": 21.321728952627524,
+      "dG": 5.335370000000001,
+      "chi2": 2187.9964431369685,
+      "amp": 5.79068240661277,
+      "is_target": false,
+      "free_offset_as": 22.10286300051641
+     },
+     {
+      "source_id": "5960545584719990016",
+      "sep_as": 19.991415307687426,
+      "dG": 3.847956999999999,
+      "chi2": 2308.133717481735,
+      "amp": 3.3273444200386746,
+      "is_target": false,
+      "free_offset_as": 22.179996091087087
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 638.0616921599228,
+    "verdict": "on_target"
+   },
+   "phase_bin_centres": "(i+0.5)/160",
+   "fold_flux_normalized_to_1000": [
+    959.603,
+    960.323,
+    967.232,
+    978.484,
+    990.323,
+    998.775,
+    999.966,
+    1000.226,
+    999.883,
+    999.638,
+    999.745,
+    999.643,
+    999.816,
+    999.799,
+    999.898,
+    1000.318,
+    999.793,
+    1001.043,
+    1000.321,
+    999.683,
+    1000.468,
+    999.909,
+    1000.2,
+    1000.121,
+    999.63,
+    999.835,
+    999.858,
+    1000.09,
+    999.956,
+    999.121,
+    1000.213,
+    999.969,
+    999.936,
+    999.808,
+    1000.061,
+    1000.228,
+    1000.048,
+    1000.407,
+    999.585,
+    998.86,
+    999.882,
+    1000.344,
+    1000.234,
+    998.953,
+    1000.326,
+    1000.415,
+    1000.733,
+    1000.317,
+    1000.237,
+    1001.097,
+    1000.445,
+    1000.399,
+    999.481,
+    999.888,
+    999.355,
+    999.261,
+    999.375,
+    999.416,
+    999.923,
+    1000.446,
+    1000.642,
+    1001.097,
+    1000.162,
+    1001.686,
+    1001.193,
+    1001.478,
+    1000.66,
+    1000.829,
+    1000.919,
+    1000.773,
+    1000.306,
+    1000.642,
+    1000.065,
+    999.865,
+    1001.048,
+    999.522,
+    996.645,
+    993.039,
+    990.995,
+    991.291,
+    991.769,
+    993.37,
+    996.513,
+    998.685,
+    999.722,
+    1000.44,
+    999.868,
+    998.424,
+    999.087,
+    999.294,
+    999.984,
+    999.688,
+    999.676,
+    1000.667,
+    999.81,
+    999.767,
+    999.836,
+    1000.285,
+    999.457,
+    999.397,
+    1000.016,
+    999.577,
+    999.397,
+    999.379,
+    999.586,
+    999.975,
+    1000.582,
+    999.926,
+    999.832,
+    999.544,
+    1000.183,
+    999.843,
+    1000.649,
+    1000.925,
+    1000.735,
+    1000.735,
+    1000.414,
+    1000.0,
+    999.778,
+    998.868,
+    1000.673,
+    1000.116,
+    999.872,
+    1000.031,
+    1000.659,
+    1000.516,
+    999.992,
+    1000.362,
+    999.949,
+    999.431,
+    999.809,
+    1000.615,
+    999.642,
+    999.717,
+    1000.581,
+    999.776,
+    999.595,
+    1000.69,
+    999.892,
+    1000.563,
+    1000.158,
+    1000.445,
+    1000.291,
+    1000.378,
+    1000.389,
+    1001.039,
+    1000.461,
+    1000.407,
+    1000.51,
+    1000.077,
+    999.998,
+    999.962,
+    999.537,
+    1000.342,
+    1000.685,
+    1000.943,
+    995.693,
+    986.306,
+    973.478,
+    964.635
+   ]
+  }
+ ],
+ "all_FFI_sector_status": [
+  {
+   "sector": 104,
+   "primary": "on_target",
+   "error": null
+  },
+  {
+   "sector": 12,
+   "primary": null,
+   "error": "zero-size array to reduction operation minimum which has no identity"
+  }
+ ],
+ "host_fixed_aperture_radius_pixels": 1.5,
+ "photometry_cycle_reference": {
+  "period_d": 3.34358,
+  "epoch_btjd": 4179.886150195659,
+  "duration_h": 2.5076850000000004
+ },
+ "primary_events": [
+  {
+   "sector": 104,
+   "cycle": 0,
+   "expected_mid_btjd": 4179.88615,
+   "depth_ppt": 36.286,
+   "snr": 54.16
+  },
+  {
+   "sector": 104,
+   "cycle": 1,
+   "expected_mid_btjd": 4183.22973,
+   "depth_ppt": 39.403,
+   "snr": 64.11
+  },
+  {
+   "sector": 104,
+   "cycle": 2,
+   "expected_mid_btjd": 4186.57331,
+   "depth_ppt": 38.311,
+   "snr": 75.17
+  },
+  {
+   "sector": 104,
+   "cycle": 3,
+   "expected_mid_btjd": 4189.91689,
+   "depth_ppt": 35.336,
+   "snr": 66.53
+  },
+  {
+   "sector": 104,
+   "cycle": 5,
+   "expected_mid_btjd": 4196.60405,
+   "depth_ppt": 37.33,
+   "snr": 41.07
+  },
+  {
+   "sector": 104,
+   "cycle": 6,
+   "expected_mid_btjd": 4199.94763,
+   "depth_ppt": 38.007,
+   "snr": 71.09
+  },
+  {
+   "sector": 104,
+   "cycle": 7,
+   "expected_mid_btjd": 4203.29121,
+   "depth_ppt": 38.925,
+   "snr": 59.21
+  }
+ ],
+ "secondary_events": [
+  {
+   "sector": 104,
+   "cycle": 0,
+   "expected_mid_btjd": 4181.540526,
+   "depth_ppt": 9.534,
+   "snr": 18.09
+  },
+  {
+   "sector": 104,
+   "cycle": 2,
+   "expected_mid_btjd": 4188.227686,
+   "depth_ppt": 8.687,
+   "snr": 19.32
+  },
+  {
+   "sector": 104,
+   "cycle": 4,
+   "expected_mid_btjd": 4194.914846,
+   "depth_ppt": 9.213,
+   "snr": 17.74
+  },
+  {
+   "sector": 104,
+   "cycle": 6,
+   "expected_mid_btjd": 4201.602006,
+   "depth_ppt": 7.227,
+   "snr": 13.82
+  }
+ ],
+ "host_archive_timing": {
+  "input_period": 3.34358,
+  "local_BLS": {
+   "P": 3.3435799999999998,
+   "snr": 272.5155249153519,
+   "dur": 0.1316534625,
+   "depth": 0.025126019342683492,
+   "t0": 4179.9056583374,
+   "alias_snr": 236.62452631658797,
+   "P_alt": 3.329914359139143
+  },
+  "products": [
+   {
+    "sector": 104,
+    "filename": "tess2026137223500-s0104-0000000262335479-0306-s_lc.fits",
+    "sha256": "56138c0385efa94656e70eb6cd765ba4d18baab3af74e1f4a6113c7e4021954a"
+   }
+  ],
+  "events": [
+   {
+    "sector": 104,
+    "cycle": 0,
+    "mid_btjd": 4179.90404413654,
+    "depth_ppt": 26.578
+   },
+   {
+    "sector": 104,
+    "cycle": 1,
+    "mid_btjd": 4183.248269537141,
+    "depth_ppt": 27.618
+   },
+   {
+    "sector": 104,
+    "cycle": 2,
+    "mid_btjd": 4186.591368724273,
+    "depth_ppt": 26.615
+   },
+   {
+    "sector": 104,
+    "cycle": 3,
+    "mid_btjd": 4189.93568731285,
+    "depth_ppt": 26.57
+   },
+   {
+    "sector": 104,
+    "cycle": 5,
+    "mid_btjd": 4196.622671172941,
+    "depth_ppt": 26.469
+   },
+   {
+    "sector": 104,
+    "cycle": 6,
+    "mid_btjd": 4199.966062511403,
+    "depth_ppt": 27.04
+   },
+   {
+    "sector": 104,
+    "cycle": 7,
+    "mid_btjd": 4203.309495396875,
+    "depth_ppt": 26.679
+   }
+  ],
+  "event_clock": {
+   "period_days": 3.3436215836979915,
+   "epoch_btjd": 4179.904382969039,
+   "period_statistical_se_days": 5.0716673242480747e-05,
+   "n_used": 7,
+   "n_total": 7,
+   "timing_rms_min": 0.39864988025055204
+  }
+ },
+ "supplementary_catalogues": {
+  "ijspeert2021": [],
+  "ijspeert2024": [],
+  "spectroscopic_2026": [],
+  "Schanche2019": [],
+  "house": [],
+  "gaia_exact": [],
+  "toi": false,
+  "ctoi": false,
+  "HEASARC_VSX": {
+   "source": "HEASARC aavsovsx",
+   "control": "bet Lyr",
+   "raw": "heasarc-vsx-fe72bce86e96.xml.gz",
+   "matches": []
+  }
+ },
+ "prior_credit": "SPOC threshold-crossing event at TIC 262335479; no earlier eclipse interpretation found in the recorded checks.",
+ "broader_queries": {
+  "simbad_aliases": [
+   "2MASS J17372676-4114075",
+   "APASS 21574731",
+   "AllWISE J173726.76-411407.6",
+   "CD-41 11843",
+   "Gaia DR2 5960542625409874688",
+   "Gaia DR3 5960542625409874688",
+   "HD 324011",
+   "TIC 262335479",
+   "TYC 7888-05113-1",
+   "TYC 7888-5113-1",
+   "UCAC4 244-127872"
+  ],
+  "simbad_cross": {
+   "complete": true,
+   "tic": "262335479",
+   "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+   "aliases": [
+    "2MASS J17372676-4114075",
+    "APASS 21574731",
+    "AllWISE J173726.76-411407.6",
+    "Gaia DR2 5960542625409874688",
+    "TYC 7888-05113-1",
+    "TYC 7888-5113-1",
+    "UCAC4 244-127872"
+   ],
+   "objects": {
+    "HD 324011": {
+     "object_type": "*",
+     "matched_aliases": [
+      "2MASS J17372676-4114075",
+      "Gaia DR2 5960542625409874688",
+      "TYC 7888-5113-1"
+     ],
+     "simbad_ids": "TIC 262335479|Gaia DR3 5960542625409874688|CD-41 11843|HD 324011|2MASS J17372676-4114075|TYC 7888-5113-1|Gaia DR2 5960542625409874688",
+     "references": {
+      "2019MNRAS.490.3158C": "A catalogue of stellar diameters and fluxes for mid-infrared interferometry.",
+      "2014ASPC..485..223B": "The JMMC stellar diameters catalog v2 (JSDC): a new release based on SearchCal improvements",
+      "1995A&AS..110..367N": "The Henry Draper Extension Charts: A catalogue of accurate positions, proper motions, magnitudes and spectral types of 86933 stars."
+     }
+    }
+   }
+  },
+  "ads": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"2MASS J17372676-4114075\" OR full:\"APASS 21574731\" OR full:\"AllWISE J173726.76-411407.6\" OR full:\"CD-41 11843\" OR full:\"Gaia DR2 5960542625409874688\" OR full:\"Gaia DR3 5960542625409874688\" OR full:\"HD 324011\" OR full:\"TIC 262335479\" OR full:\"TYC 7888-05113-1\" OR full:\"TYC 7888-5113-1\" OR full:\"UCAC4 244-127872\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      }
+     ]
+    }
+   ],
+   "complete": true
+  },
+  "Tang_2025_TIC_match": false,
+  "Tang_2025_TIC_count": 514,
+  "Tang_table_sha256": "23209b19205be8daca5a9c1728eeb3be43023d35b44055fae8e5bbfe290163f6",
+  "eleven_positional_catalogues": [
+   "B/vsx/vsx",
+   "II/366/catv2021",
+   "I/358/vclassre",
+   "I/358/veb",
+   "J/ApJS/249/18/table2",
+   "J/AJ/156/241/table4",
+   "J/ApJS/279/50/table2",
+   "J/ApJS/279/50/table3",
+   "J/ApJS/279/50/table4",
+   "J/A+A/691/A242/obaf-eb1",
+   "J/ApJS/258/16/tess-ebs"
+  ],
+  "live_villanova_tic_match": false,
+  "villanova_query": {
+   "url": "https://tessebs.villanova.edu/",
+   "retrieved": "2026-11-24",
+   "pages": 46,
+   "n_unique_tics": 4578,
+   "page_sha256": {
+    "1": "b67d523fe28516a0c9abedb9c6332918805a679596357384f5b7ee60e8277993",
+    "2": "9fcb628e10e7ca6eefd1a79a4b009fa30946aa65d1273f26510503bdd6a576be",
+    "3": "7ed31e3757352b8a5d019b78a0783e35375fe7aabf29f6d45df8d4ebf1012146",
+    "4": "d1fffa802dca2051380d2d9dfd2b7610664e158499f459b74e2e0fd6db9c4165",
+    "5": "60ddab68c0b3d4f83dc76bff91106af3f15b141784698325548581b32473d562",
+    "6": "2dfac2b2c3999c365011bc7cf589a7fc619f169ccecac5a2135b2103851b326c",
+    "7": "4d347ef224e62eada1e9e048ae3c428998311cb01c7bd5348e52849a20a90e32",
+    "8": "7e7b4ff96d5c0989d812a82710b9285562c40fd2a9c954add08da46c2961e0ec",
+    "9": "f2bef611b9a80009de6aeccbe84e3d66efa9a0d7b12e0c1e998f9a7a57577fed",
+    "10": "59aba04a78838a02f1e876daa913aeb2c62c7785cfa4f5ba9b58a7f015c1969e",
+    "11": "8a367f1d9edbae8d23df454a19b2bb386574eba46fe1cff4e528b5475504b989",
+    "12": "8f0eff2d48387780df45c137b948134ce786a3e5c742c2beb6c5df3ae29968e7",
+    "13": "2d975d756b4566c37254b34fe8b516274479946c4300613cdb346bc18fc53eb3",
+    "14": "f92930751de2138f88589f704624bdaa56afca108a620ba89d20f47dcfd36b1f",
+    "15": "d7b61d6a43b6bdd0e6d3fcaea03f4ecf14a4a0b24349f24d09d4ad6ad792ec81",
+    "16": "af6feb3988c56ec8adbb7712a519203665cd2fe2b08f280219848e869fd3a91e",
+    "17": "a026f8a1eb271f86c324a61bbe6fa4b76220aa36b726ac5507733706bcd9ab6d",
+    "18": "6cb53bc01ac5a4a88475132f48453ae5d0d0ad9edd27b48b54f7ba7ca42e51f5",
+    "19": "b2b3d3c6521fd3c61b44d54cddb796b93f7b928546924f1c23298a994e10780a",
+    "20": "ff6bd78aacf714ff1edf3e1e95d377ec39a92ccc60d2c91236c3333c3e943c8c",
+    "21": "eb6f9bce7e1a577bebb89fac4912c85c0c596b8cd20d9050ca8a6b6221179e63",
+    "22": "c383044004eac5dbd31ae520e5f2b2240ad3a25c6743262cdcd646ad71eb2f35",
+    "23": "d478c67107fd1b11c45a859a70c1b04067bca13f78d9ec296a4fa5565fef7a1e",
+    "24": "c6ca36196802147561a898e15f493b7655e0295dc5852af6cde3ee1e7944199f",
+    "25": "7e16ab2dd0ddb2e9a4ee5160459291c3a716b60d8184ccb2b0b9d43afd2149e9",
+    "26": "a21540c8b44a342ecf3bdfa1832c9c2416cc203d70153c9866dfe8f75e082c33",
+    "27": "e27e23620640e2da9b28ec8f83533a7df1df4d3bbe48090562ecdaf7c72f5aa0",
+    "28": "82ce96b80e800682dda743fc0aee4b7f106369068891cbc28501dcb6c5443c81",
+    "29": "65ef9d93672c8b82a46dded4086d47af51d0b13881387186ade7a241db77905c",
+    "30": "e1eb171ef633e0002adc119950362f40c8c022db48fb7ba2aa59622861533fdb",
+    "31": "3c74b77202aa7a341f54283f02c217e42ec6714b0e39f29b0932fbfde2490516",
+    "32": "d1b1bac9893c62f47f9afcd8a98d199fbfe30c4ec9d875c265f75cbb2b06804b",
+    "33": "e0f40e0386ce8000018d0ddb47e6dff669e6c8d1e70da024d02d0bea58bbdb4f",
+    "34": "56c731836146c8b6b5ef90c6da7c2fc6bbb8f63c98f5c31b2e56c9a2b66f799d",
+    "35": "1f44e64ad26316c02ecfab0899af51521033d6c29db7708ab4aedf4c2be1ae72",
+    "36": "2fc834482cd101ac282ebf76ccccad826b5147ceaf3872f64065528965548321",
+    "37": "d9f03d2ff5ceae41336215e1bef3ecd81441470a9f2df8a4948968f5220463c2",
+    "38": "51e297d349ff5b126174503be7d4972314384f4e018f579e65ee3780af17e591",
+    "39": "152b8868c0b7681e4223f05f8703c5f436d8ab9c0de1bff227348833e421a4ec",
+    "40": "3cdd25cc15756e57bccaa0929568a0695c52003a6783354a116e6d58ba34a05c",
+    "41": "abce19cf1730003b1754f5728405c16c902f385e308167a5067a49d1939f4ec4",
+    "42": "d0b179c22726f09ee928a7730eb82e0f2d2db97be3e424c4245f19e72a9d1227",
+    "43": "a247a43bc49f5fa145c9fed15f7e1948220fe544c981f0cdea2dada8beb7141f",
+    "44": "168b745dc985963dab5588a20c3564925f095c90251b4bee243de3233d340df2",
+    "45": "2c2a0a9f4ef27b58ff187bb725adb89e9b0b71b39faab991e82a02445233406f",
+    "46": "308db2445b0e0295fb711e8051fd7d72fca34dc3f6eb1072a56845d8a67def3d"
+   }
+  }
+ },
+ "catalogue_matches_within_30as": []
+}

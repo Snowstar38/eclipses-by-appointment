@@ -1,0 +1,1257 @@
+{
+ "tic": "266592492",
+ "gaia_dr3": "1849628490657807616",
+ "ra_deg": 324.323192149226,
+ "dec_deg": 30.000540121926832,
+ "status": "probable",
+ "note": "Two sectors localize the primary. Secondary free centroids are 2.4 and 8.8 arcsec from the host. The nearest capable alternative is 25.8 arcsec away. Sector 15 is inconclusive.",
+ "credit": {
+  "source_tic": "266592492",
+  "aperture_tic": "266592490",
+  "spoc_tce_id": "00266592490-01",
+  "spoc_runs": "s0014-s0086|s0083-s0083",
+  "prior_signal": "Kostov et al. 2025, Table 2 machine-selected source TIC 266592492; SPOC TCE at TIC 266592490."
+ },
+ "archive_aperture_difference_images": [
+  {
+   "sector": 82,
+   "url": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0082/0000/0002/6659/2490/tess2024223182411-s0082-0000000266592490-0278-s_tp.fits",
+   "sha256": "8c458602bf1b74ae0be98298c0e77ba67e20402b7f9a038bb1e8c150cd100004",
+   "primary": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 4,
+    "n_events": 3,
+    "n_in": 140,
+    "diff_snr": 34.127784098681516,
+    "psf_sigma_px": 0.7088238193524952,
+    "wcs_shift_px": [
+     0.06444190342695415,
+     0.021037432868848998
+    ],
+    "free_offset_target_as": 45.420648198355025,
+    "chi2_free": 645.8931097989815,
+    "chi2_target": 7338.054315347483,
+    "amp_target": 2.0542249340782286,
+    "n_capable": 32,
+    "hyp": [
+     {
+      "source_id": "1849628490657807616",
+      "sep_as": 44.01747320238645,
+      "dG": -2.401223,
+      "chi2": 650.8338928391695,
+      "amp": 12.98356599142123,
+      "is_target": false,
+      "free_offset_as": 0.45027556818490594
+     },
+     {
+      "source_id": "1849628490658735360",
+      "sep_as": 32.08380114441795,
+      "dG": 2.242243000000002,
+      "chi2": 3402.5096369510497,
+      "amp": 6.998473687731961,
+      "is_target": false,
+      "free_offset_as": 13.538297482174542
+     },
+     {
+      "source_id": "1849628490657816832",
+      "sep_as": 31.81486783781202,
+      "dG": 0.39181699999999964,
+      "chi2": 6237.297966465285,
+      "amp": 3.840676151903512,
+      "is_target": false,
+      "free_offset_as": 26.517249777708788
+     },
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 64.49233538861115,
+      "dG": -1.1951769999999993,
+      "chi2": 7600.0957605419735,
+      "amp": 1.3874491190597213,
+      "is_target": false,
+      "free_offset_as": 31.569839955973706
+     },
+     {
+      "source_id": "1849628525017553280",
+      "sep_as": 10.251839275944064,
+      "dG": 2.5549940000000007,
+      "chi2": 7678.329755673658,
+      "amp": 1.3436875865657985,
+      "is_target": false,
+      "free_offset_as": 46.928375130711856
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 68.98276285846498,
+      "dG": -2.948905,
+      "chi2": 7739.035478793881,
+      "amp": 1.3405726829764464,
+      "is_target": false,
+      "free_offset_as": 40.539756006432924
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": -6687.220422508313,
+    "verdict": "neighbour_preferred"
+   },
+   "secondary": null
+  },
+  {
+   "sector": 83,
+   "url": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0083/0000/0002/6659/2490/tess2024249191853-s0083-0000000266592490-0280-s_tp.fits",
+   "sha256": "75764f9650d84f3d26a9a6e646558ff830fd9e6181f5f3f5c32c55d35a927a29",
+   "primary": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 3,
+    "n_events": 3,
+    "n_in": 140,
+    "diff_snr": 44.63217060656549,
+    "psf_sigma_px": 0.7966340852746896,
+    "wcs_shift_px": [
+     -0.058888025591893815,
+     -0.006037733364279174
+    ],
+    "free_offset_target_as": 42.26432631526494,
+    "chi2_free": 2189.3147207694283,
+    "chi2_target": 16512.471286507396,
+    "amp_target": 2.8400045901868607,
+    "n_capable": 32,
+    "hyp": [
+     {
+      "source_id": "1849628490657807616",
+      "sep_as": 44.01747320238645,
+      "dG": -2.401223,
+      "chi2": 2417.2241533620854,
+      "amp": 9.947264927600209,
+      "is_target": false,
+      "free_offset_as": 4.087160453767155
+     },
+     {
+      "source_id": "1849628490658735360",
+      "sep_as": 32.08380114441795,
+      "dG": 2.242243000000002,
+      "chi2": 3292.2609737631874,
+      "amp": 8.94868404114107,
+      "is_target": false,
+      "free_offset_as": 9.5119167384395
+     },
+     {
+      "source_id": "1849628490657816832",
+      "sep_as": 31.81486783781202,
+      "dG": 0.39181699999999964,
+      "chi2": 11887.234088933155,
+      "amp": 5.205886171720698,
+      "is_target": false,
+      "free_offset_as": 23.83671290248423
+     },
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 64.49233538861115,
+      "dG": -1.1951769999999993,
+      "chi2": 14366.37870730266,
+      "amp": 3.262203573037476,
+      "is_target": false,
+      "free_offset_as": 32.93479883674146
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 68.98276285846498,
+      "dG": -2.948905,
+      "chi2": 15777.331474423132,
+      "amp": 2.583796920843611,
+      "is_target": false,
+      "free_offset_as": 41.54305474347737
+     },
+     {
+      "source_id": "1849628628096789888",
+      "sep_as": 68.97920191080323,
+      "dG": 1.1640189999999997,
+      "chi2": 16917.815348537617,
+      "amp": -0.8408427901443578,
+      "is_target": false,
+      "free_offset_as": 105.68492609172573
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": -14095.24713314531,
+    "verdict": "neighbour_preferred"
+   },
+   "secondary": null
+  }
+ ],
+ "host_centered_FFI": [
+  {
+   "sector": 82,
+   "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/s4t2TnpsuRFveJ0P/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+   "sha256": "b215844da93842152768aab86c772f426fdd29f29fa9ca594e2c5c4672d8e6c3",
+   "primary_diff": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 4,
+    "n_events": 3,
+    "n_in": 83,
+    "diff_snr": 72.67439119174347,
+    "psf_sigma_px": 0.6526423193962356,
+    "wcs_shift_px": [
+     -0.08979045703063702,
+     -0.006651758458641098
+    ],
+    "free_offset_target_as": 1.9899260470620748,
+    "chi2_free": 412.49647482554127,
+    "chi2_target": 573.1432342943376,
+    "amp_target": 14.212462221955715,
+    "n_capable": 7,
+    "hyp": [
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 31.3128212062005,
+      "dG": 1.2060460000000006,
+      "chi2": 11446.785827413894,
+      "amp": 2.2651485841133683,
+      "is_target": false,
+      "free_offset_as": 31.649688354106733
+     },
+     {
+      "source_id": "1849631518611692160",
+      "sep_as": 81.18039935204287,
+      "dG": 1.1393760000000004,
+      "chi2": 11683.185637850045,
+      "amp": -0.4833569761867521,
+      "is_target": false,
+      "free_offset_as": 81.23334717729036
+     },
+     {
+      "source_id": "1849628525017566976",
+      "sep_as": 76.12263019347517,
+      "dG": 1.8008490000000013,
+      "chi2": 11693.159290714753,
+      "amp": -0.29979435364315943,
+      "is_target": false,
+      "free_offset_as": 75.52979875546758
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 40.200817882436816,
+      "dG": -0.547682,
+      "chi2": 11711.894411760468,
+      "amp": 0.573474896213896,
+      "is_target": false,
+      "free_offset_as": 40.305427761707726
+     },
+     {
+      "source_id": "1849626983126215168",
+      "sep_as": 69.35711791992914,
+      "dG": 1.2897359999999995,
+      "chi2": 11732.821258062993,
+      "amp": -0.15910038362155463,
+      "is_target": false,
+      "free_offset_as": 72.38138879682846
+     },
+     {
+      "source_id": "1849626948766469760",
+      "sep_as": 63.03783896967811,
+      "dG": 1.7597590000000007,
+      "chi2": 11738.171719893722,
+      "amp": -0.1715782817480191,
+      "is_target": false,
+      "free_offset_as": 64.29892166668584
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 10873.642593119557,
+    "verdict": "on_target"
+   },
+   "secondary_diff": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 4,
+    "n_events": 2,
+    "n_in": 56,
+    "diff_snr": 23.38330841064453,
+    "psf_sigma_px": 0.654560222076865,
+    "wcs_shift_px": [
+     -0.09094228070511626,
+     -0.004824963579741217
+    ],
+    "free_offset_target_as": 2.382824061514077,
+    "chi2_free": 149.2755760735011,
+    "chi2_target": 166.357045260027,
+    "amp_target": 5.01882969998722,
+    "n_capable": 16,
+    "hyp": [
+     {
+      "source_id": "1849628490657816832",
+      "sep_as": 25.78491472600188,
+      "dG": 2.7930399999999995,
+      "chi2": 899.6088148241968,
+      "amp": 2.329728796600075,
+      "is_target": false,
+      "free_offset_as": 24.80242465321748
+     },
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 31.3128212062005,
+      "dG": 1.2060460000000006,
+      "chi2": 1069.9428571376898,
+      "amp": 1.0282693025870306,
+      "is_target": false,
+      "free_offset_as": 33.07348874809234
+     },
+     {
+      "source_id": "1849628529314438272",
+      "sep_as": 43.95421927067645,
+      "dG": 2.401223,
+      "chi2": 1094.0860976683061,
+      "amp": 0.7030841589322886,
+      "is_target": false,
+      "free_offset_as": 42.66753537453811
+     },
+     {
+      "source_id": "1849630041142942720",
+      "sep_as": 84.51343197624129,
+      "dG": 2.5647709999999986,
+      "chi2": 1106.3113662146723,
+      "amp": -0.4272636983479709,
+      "is_target": false,
+      "free_offset_as": 88.42534325235309
+     },
+     {
+      "source_id": "1849631518611691648",
+      "sep_as": 70.19233066991629,
+      "dG": 0.6530249999999995,
+      "chi2": 1108.7015943897077,
+      "amp": -0.35772228113464377,
+      "is_target": false,
+      "free_offset_as": 73.17632952512088
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 40.200817882436816,
+      "dG": -0.547682,
+      "chi2": 1111.7009131452323,
+      "amp": 0.2215092001405418,
+      "is_target": false,
+      "free_offset_as": 41.74117712359342
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 733.2517695641698,
+    "verdict": "on_target"
+   },
+   "phase_bin_centres": "(i+0.5)/160",
+   "fold_flux_normalized_to_1000": [
+    777.431,
+    926.038,
+    1004.0,
+    997.814,
+    1009.028,
+    995.405,
+    1000.568,
+    997.022,
+    1004.276,
+    1003.49,
+    1001.681,
+    989.093,
+    997.7,
+    1003.554,
+    1000.817,
+    1003.112,
+    1001.624,
+    998.409,
+    1002.052,
+    996.771,
+    995.132,
+    996.265,
+    993.143,
+    998.551,
+    998.898,
+    1009.312,
+    1003.317,
+    999.237,
+    1005.649,
+    995.096,
+    1004.456,
+    1000.467,
+    1000.253,
+    998.35,
+    998.148,
+    1000.59,
+    1000.0,
+    997.806,
+    1003.614,
+    992.082,
+    1011.689,
+    994.711,
+    1003.905,
+    1004.219,
+    999.689,
+    985.123,
+    1008.494,
+    989.091,
+    1007.756,
+    996.622,
+    1005.144,
+    1009.217,
+    1002.746,
+    1001.964,
+    1005.1,
+    1001.093,
+    1002.062,
+    999.595,
+    999.553,
+    1001.655,
+    992.935,
+    997.948,
+    1004.625,
+    989.459,
+    990.301,
+    996.195,
+    1003.711,
+    1007.193,
+    1002.373,
+    998.653,
+    997.562,
+    992.15,
+    997.747,
+    998.527,
+    997.118,
+    1001.714,
+    1015.189,
+    1002.1,
+    1002.586,
+    1003.239,
+    1007.227,
+    998.33,
+    947.037,
+    924.678,
+    941.543,
+    987.412,
+    1007.631,
+    1004.033,
+    1002.911,
+    1005.354,
+    1000.945,
+    1001.474,
+    996.853,
+    998.69,
+    999.479,
+    1001.812,
+    999.384,
+    996.813,
+    997.512,
+    992.834,
+    1002.63,
+    1003.862,
+    998.602,
+    997.151,
+    990.648,
+    994.379,
+    993.923,
+    997.606,
+    1001.268,
+    992.792,
+    1008.491,
+    1003.701,
+    1000.095,
+    1002.535,
+    1005.751,
+    1000.224,
+    991.246,
+    1004.078,
+    997.499,
+    992.945,
+    1001.835,
+    1001.287,
+    1006.927,
+    999.628,
+    991.328,
+    1006.928,
+    991.252,
+    991.315,
+    1003.509,
+    1009.018,
+    1001.67,
+    996.598,
+    991.063,
+    1001.467,
+    995.837,
+    997.34,
+    1001.485,
+    1003.906,
+    1008.18,
+    1003.768,
+    999.087,
+    1002.96,
+    998.903,
+    1000.278,
+    992.508,
+    998.151,
+    998.625,
+    1005.275,
+    996.416,
+    1004.659,
+    992.446,
+    1005.855,
+    996.797,
+    993.775,
+    1009.057,
+    1004.654,
+    999.121,
+    1000.703,
+    934.997,
+    777.864
+   ]
+  },
+  {
+   "sector": 83,
+   "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/X6087dwSUx_Iea4p/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+   "sha256": "0ccda90769d35940adfd8fb59123046051fc6cd3d4d96d379a70183aa6522029",
+   "primary_diff": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 3,
+    "n_events": 3,
+    "n_in": 84,
+    "diff_snr": 53.06128050796984,
+    "psf_sigma_px": 1.0347785782665895,
+    "wcs_shift_px": [
+     0.3299905705213202,
+     0.010953284752566062
+    ],
+    "free_offset_target_as": 3.642667731413274,
+    "chi2_free": 3147.448864008301,
+    "chi2_target": 3518.5779590942157,
+    "amp_target": 6.705036735072641,
+    "n_capable": 5,
+    "hyp": [
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 31.3128212062005,
+      "dG": 1.2060460000000006,
+      "chi2": 16249.52741791349,
+      "amp": 2.6513570711721526,
+      "is_target": false,
+      "free_offset_as": 32.078968114916584
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 40.200817882436816,
+      "dG": -0.547682,
+      "chi2": 17623.661807866614,
+      "amp": 1.688133873959322,
+      "is_target": false,
+      "free_offset_as": 40.73880723459011
+     },
+     {
+      "source_id": "1849631518611691648",
+      "sep_as": 70.19233066991629,
+      "dG": 0.6530249999999995,
+      "chi2": 18463.995614537453,
+      "amp": -0.6852237253921851,
+      "is_target": false,
+      "free_offset_as": 72.87377367934741
+     },
+     {
+      "source_id": "1849626983126215168",
+      "sep_as": 69.35711791992914,
+      "dG": 1.2897359999999995,
+      "chi2": 18707.38707814736,
+      "amp": -0.32164514391973653,
+      "is_target": false,
+      "free_offset_as": 77.32882601875876
+     },
+     {
+      "source_id": "1849631518611692160",
+      "sep_as": 81.18039935204287,
+      "dG": 1.1393760000000004,
+      "chi2": 18871.482737361064,
+      "amp": 0.02028402625425938,
+      "is_target": false,
+      "free_offset_as": 82.38268031211604
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 12730.949458819276,
+    "verdict": "on_target"
+   },
+   "secondary_diff": {
+    "status": "ok",
+    "camera": 2,
+    "ccd": 3,
+    "n_events": 3,
+    "n_in": 84,
+    "diff_snr": 23.28417631365512,
+    "psf_sigma_px": 1.032084586546382,
+    "wcs_shift_px": [
+     0.3440696017308661,
+     0.016118279024055115
+    ],
+    "free_offset_target_as": 8.801216649701528,
+    "chi2_free": 771.5871334732346,
+    "chi2_target": 1133.9050391867504,
+    "amp_target": 3.0461405259848005,
+    "n_capable": 15,
+    "hyp": [
+     {
+      "source_id": "1849631449892209024",
+      "sep_as": 31.3128212062005,
+      "dG": 1.2060460000000006,
+      "chi2": 2960.149940640068,
+      "amp": 2.7767472573597587,
+      "is_target": false,
+      "free_offset_as": 24.943655162959473
+     },
+     {
+      "source_id": "1849631449892210048",
+      "sep_as": 40.200817882436816,
+      "dG": -0.547682,
+      "chi2": 5548.17050978563,
+      "amp": 1.2668730765586678,
+      "is_target": false,
+      "free_offset_as": 34.77859725288312
+     },
+     {
+      "source_id": "1849628490657816832",
+      "sep_as": 25.78491472600188,
+      "dG": 2.7930399999999995,
+      "chi2": 5668.882290499293,
+      "amp": 1.5123820533594685,
+      "is_target": false,
+      "free_offset_as": 30.64901457322336
+     },
+     {
+      "source_id": "1849628525017566976",
+      "sep_as": 76.12263019347517,
+      "dG": 1.8008490000000013,
+      "chi2": 6225.103010769343,
+      "amp": -0.22193887972286028,
+      "is_target": false,
+      "free_offset_as": 85.64584528262486
+     },
+     {
+      "source_id": "1849626948766469760",
+      "sep_as": 63.03783896967811,
+      "dG": 1.7597590000000007,
+      "chi2": 6254.346210803627,
+      "amp": -0.271494352489495,
+      "is_target": false,
+      "free_offset_as": 69.91334428261847
+     },
+     {
+      "source_id": "1849628529314438272",
+      "sep_as": 43.95421927067645,
+      "dG": 2.401223,
+      "chi2": 6265.869970897894,
+      "amp": 0.2886455116164512,
+      "is_target": false,
+      "free_offset_as": 53.85826060512321
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 1826.2449014533177,
+    "verdict": "on_target"
+   },
+   "phase_bin_centres": "(i+0.5)/160",
+   "fold_flux_normalized_to_1000": [
+    739.206,
+    930.67,
+    1000.512,
+    1001.425,
+    996.741,
+    1001.52,
+    993.888,
+    1006.684,
+    1000.931,
+    996.16,
+    1003.499,
+    997.368,
+    1012.349,
+    998.682,
+    1001.623,
+    994.804,
+    999.196,
+    995.689,
+    988.426,
+    1004.567,
+    996.046,
+    1022.058,
+    998.735,
+    1001.784,
+    1009.978,
+    985.045,
+    997.928,
+    998.276,
+    1004.918,
+    985.78,
+    999.511,
+    991.027,
+    1008.15,
+    999.929,
+    1000.847,
+    1002.6,
+    1009.665,
+    989.915,
+    1015.978,
+    1000.773,
+    1000.153,
+    990.882,
+    993.385,
+    1004.839,
+    982.688,
+    1000.709,
+    1003.372,
+    997.73,
+    1000.046,
+    988.138,
+    1007.801,
+    1021.738,
+    999.19,
+    996.815,
+    999.835,
+    991.972,
+    1000.963,
+    994.615,
+    991.724,
+    998.279,
+    1002.996,
+    997.056,
+    1002.975,
+    991.929,
+    986.081,
+    999.349,
+    1003.794,
+    994.794,
+    1007.134,
+    1007.964,
+    997.848,
+    991.686,
+    998.379,
+    996.12,
+    1006.959,
+    997.439,
+    1015.301,
+    1015.082,
+    1016.304,
+    1008.425,
+    1001.776,
+    992.256,
+    935.197,
+    898.055,
+    925.715,
+    980.574,
+    997.413,
+    1009.6,
+    999.139,
+    1000.18,
+    1000.163,
+    991.411,
+    1011.836,
+    1001.143,
+    1007.872,
+    995.199,
+    1015.244,
+    1009.74,
+    993.835,
+    998.871,
+    1003.972,
+    996.018,
+    992.186,
+    1006.697,
+    999.426,
+    997.578,
+    1009.947,
+    991.463,
+    998.754,
+    996.428,
+    996.05,
+    995.681,
+    1014.261,
+    995.983,
+    997.998,
+    1022.875,
+    1004.704,
+    998.578,
+    997.972,
+    1005.159,
+    1013.142,
+    1000.183,
+    1002.17,
+    994.123,
+    1002.037,
+    997.817,
+    996.565,
+    1012.102,
+    995.231,
+    1000.134,
+    995.166,
+    996.301,
+    1006.081,
+    994.099,
+    1001.591,
+    1003.397,
+    1001.358,
+    1001.676,
+    1005.933,
+    992.646,
+    991.694,
+    1002.827,
+    997.533,
+    1000.588,
+    1002.41,
+    1002.405,
+    1002.057,
+    992.797,
+    994.062,
+    1010.778,
+    997.598,
+    997.455,
+    1006.574,
+    1004.672,
+    997.196,
+    1009.32,
+    1007.001,
+    1004.217,
+    907.159,
+    729.351
+   ]
+  }
+ ],
+ "all_FFI_sector_status": [
+  {
+   "sector": 82,
+   "primary": "on_target",
+   "error": null
+  },
+  {
+   "sector": 83,
+   "primary": "on_target",
+   "error": null
+  },
+  {
+   "sector": 15,
+   "primary": "weak_diff",
+   "error": null
+  }
+ ],
+ "host_fixed_aperture_radius_pixels": 1.5,
+ "photometry_cycle_reference": {
+  "period_d": 8.449220738833457,
+  "epoch_btjd": 3541.344129267927,
+  "duration_h": 2.586589276595744
+ },
+ "primary_events": [
+  {
+   "sector": 82,
+   "cycle": 0,
+   "expected_mid_btjd": 3541.344129,
+   "depth_ppt": 234.52,
+   "snr": 32.69
+  },
+  {
+   "sector": 82,
+   "cycle": 1,
+   "expected_mid_btjd": 3549.79335,
+   "depth_ppt": 225.26,
+   "snr": 35.13
+  },
+  {
+   "sector": 82,
+   "cycle": 2,
+   "expected_mid_btjd": 3558.242571,
+   "depth_ppt": 241.288,
+   "snr": 38.18
+  },
+  {
+   "sector": 83,
+   "cycle": 3,
+   "expected_mid_btjd": 3566.691791,
+   "depth_ppt": 291.126,
+   "snr": 28.57
+  },
+  {
+   "sector": 83,
+   "cycle": 4,
+   "expected_mid_btjd": 3575.141012,
+   "depth_ppt": 299.053,
+   "snr": 31.76
+  },
+  {
+   "sector": 83,
+   "cycle": 5,
+   "expected_mid_btjd": 3583.590233,
+   "depth_ppt": 291.928,
+   "snr": 31.35
+  }
+ ],
+ "secondary_events": [
+  {
+   "sector": 82,
+   "cycle": -1,
+   "expected_mid_btjd": 3537.313665,
+   "depth_ppt": 86.305,
+   "snr": 12.42
+  },
+  {
+   "sector": 82,
+   "cycle": 1,
+   "expected_mid_btjd": 3554.212107,
+   "depth_ppt": 77.286,
+   "snr": 11.61
+  },
+  {
+   "sector": 83,
+   "cycle": 2,
+   "expected_mid_btjd": 3562.661327,
+   "depth_ppt": 100.235,
+   "snr": 7.22
+  },
+  {
+   "sector": 83,
+   "cycle": 3,
+   "expected_mid_btjd": 3571.110548,
+   "depth_ppt": 109.166,
+   "snr": 11.32
+  },
+  {
+   "sector": 83,
+   "cycle": 4,
+   "expected_mid_btjd": 3579.559769,
+   "depth_ppt": 83.547,
+   "snr": 8.74
+  }
+ ],
+ "host_archive_timing": {
+  "input_period": 8.442339999999998,
+  "local_BLS": {
+   "P": 8.4495824992851,
+   "snr": 101.75319111972136,
+   "dur": 0.13579593702127654,
+   "depth": 0.21576774102988458,
+   "t0": 3541.3436853440166,
+   "alias_snr": 92.77621101187741,
+   "P_alt": 8.43149950064203
+  },
+  "products": [
+   {
+    "sector": 82,
+    "filename": "host-aperture-266592492-s82.npz",
+    "sha256": "5e87a01de6dbf2d1d3b2a7520f4b23b3c4d62f6fcdb41e6661213a34ae517168",
+    "source_url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/VneUw7XPEZdoPRqt/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+    "source_sha256": "ebd3de79ff0ae5e582922e793a0aa9de3bb5f1dcec5d4f525afe14a6e4250f93"
+   },
+   {
+    "sector": 83,
+    "filename": "host-aperture-266592492-s83.npz",
+    "sha256": "60876e7dae7ae9c8d6529b5e3d709158121941615568086cb38ccec00c548f54",
+    "source_url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/FDQGv0UdzI0g-VK8/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+    "source_sha256": "8f845bee57c218763a043015974a32d0d4400caabcfd7d1212cca310c319f18b"
+   }
+  ],
+  "events": [
+   {
+    "sector": 82,
+    "cycle": 0,
+    "mid_btjd": 3541.3433873117274,
+    "depth_ppt": 200.22
+   },
+   {
+    "sector": 82,
+    "cycle": 1,
+    "mid_btjd": 3549.794154405191,
+    "depth_ppt": 192.668
+   },
+   {
+    "sector": 82,
+    "cycle": 2,
+    "mid_btjd": 3558.2426604579814,
+    "depth_ppt": 201.424
+   },
+   {
+    "sector": 83,
+    "cycle": 3,
+    "mid_btjd": 3566.691671865131,
+    "depth_ppt": 259.207
+   },
+   {
+    "sector": 83,
+    "cycle": 4,
+    "mid_btjd": 3575.141474511975,
+    "depth_ppt": 245.76
+   },
+   {
+    "sector": 83,
+    "cycle": 5,
+    "mid_btjd": 3583.5897381380632,
+    "depth_ppt": 258.673
+   }
+  ],
+  "event_clock": {
+   "period_days": 8.449220738833457,
+   "epoch_btjd": 3541.344129267927,
+   "period_statistical_se_days": 0.00015484898642148813,
+   "n_used": 6,
+   "n_total": 6,
+   "timing_rms_min": 0.7616303714340319
+  }
+ },
+ "supplementary_catalogues": {
+  "ijspeert2021": [],
+  "ijspeert2024": [],
+  "spectroscopic_2026": [],
+  "Schanche2019": [],
+  "house": [],
+  "gaia_exact": [],
+  "toi": false,
+  "ctoi": false,
+  "HEASARC_VSX": {
+   "source": "HEASARC aavsovsx",
+   "control": "bet Lyr",
+   "raw": "heasarc-vsx-fa293cb2b89d.xml.gz",
+   "matches": []
+  }
+ },
+ "prior_credit": "Kostov et al. 2025, Table 2 machine-selected source TIC 266592492; SPOC TCE at TIC 266592490.",
+ "broader_queries": {
+  "simbad_aliases": [
+   "2MASS J21371756+3000019",
+   "APASS 49182171",
+   "AllWISE J213717.56+300002.0",
+   "Gaia DR2 1849628490657807616",
+   "Gaia DR3 1849628490657807616",
+   "TIC 266592492",
+   "UCAC4 601-131967"
+  ],
+  "simbad_cross": {
+   "complete": true,
+   "tic": "266592492",
+   "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+   "aliases": [
+    "2MASS J21371756+3000019",
+    "APASS 49182171",
+    "AllWISE J213717.56+300002.0",
+    "Gaia DR2 1849628490657807616",
+    "UCAC4 601-131967"
+   ],
+   "objects": {}
+  },
+  "ads": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"2MASS J21371756+3000019\" OR full:\"APASS 49182171\" OR full:\"AllWISE J213717.56+300002.0\" OR full:\"Gaia DR2 1849628490657807616\" OR full:\"Gaia DR3 1849628490657807616\" OR full:\"TIC 266592492\" OR full:\"UCAC4 601-131967\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      }
+     ]
+    }
+   ],
+   "complete": true
+  },
+  "Tang_2025_TIC_match": false,
+  "Tang_2025_TIC_count": 514,
+  "Tang_table_sha256": "23209b19205be8daca5a9c1728eeb3be43023d35b44055fae8e5bbfe290163f6",
+  "eleven_positional_catalogues": [
+   "B/vsx/vsx",
+   "II/366/catv2021",
+   "I/358/vclassre",
+   "I/358/veb",
+   "J/ApJS/249/18/table2",
+   "J/AJ/156/241/table4",
+   "J/ApJS/279/50/table2",
+   "J/ApJS/279/50/table3",
+   "J/ApJS/279/50/table4",
+   "J/A+A/691/A242/obaf-eb1",
+   "J/ApJS/258/16/tess-ebs"
+  ],
+  "live_villanova_tic_match": false,
+  "villanova_query": {
+   "url": "https://tessebs.villanova.edu/",
+   "retrieved": "2026-11-24",
+   "pages": 46,
+   "n_unique_tics": 4578,
+   "page_sha256": {
+    "1": "b67d523fe28516a0c9abedb9c6332918805a679596357384f5b7ee60e8277993",
+    "2": "9fcb628e10e7ca6eefd1a79a4b009fa30946aa65d1273f26510503bdd6a576be",
+    "3": "7ed31e3757352b8a5d019b78a0783e35375fe7aabf29f6d45df8d4ebf1012146",
+    "4": "d1fffa802dca2051380d2d9dfd2b7610664e158499f459b74e2e0fd6db9c4165",
+    "5": "60ddab68c0b3d4f83dc76bff91106af3f15b141784698325548581b32473d562",
+    "6": "2dfac2b2c3999c365011bc7cf589a7fc619f169ccecac5a2135b2103851b326c",
+    "7": "4d347ef224e62eada1e9e048ae3c428998311cb01c7bd5348e52849a20a90e32",
+    "8": "7e7b4ff96d5c0989d812a82710b9285562c40fd2a9c954add08da46c2961e0ec",
+    "9": "f2bef611b9a80009de6aeccbe84e3d66efa9a0d7b12e0c1e998f9a7a57577fed",
+    "10": "59aba04a78838a02f1e876daa913aeb2c62c7785cfa4f5ba9b58a7f015c1969e",
+    "11": "8a367f1d9edbae8d23df454a19b2bb386574eba46fe1cff4e528b5475504b989",
+    "12": "8f0eff2d48387780df45c137b948134ce786a3e5c742c2beb6c5df3ae29968e7",
+    "13": "2d975d756b4566c37254b34fe8b516274479946c4300613cdb346bc18fc53eb3",
+    "14": "f92930751de2138f88589f704624bdaa56afca108a620ba89d20f47dcfd36b1f",
+    "15": "d7b61d6a43b6bdd0e6d3fcaea03f4ecf14a4a0b24349f24d09d4ad6ad792ec81",
+    "16": "af6feb3988c56ec8adbb7712a519203665cd2fe2b08f280219848e869fd3a91e",
+    "17": "a026f8a1eb271f86c324a61bbe6fa4b76220aa36b726ac5507733706bcd9ab6d",
+    "18": "6cb53bc01ac5a4a88475132f48453ae5d0d0ad9edd27b48b54f7ba7ca42e51f5",
+    "19": "b2b3d3c6521fd3c61b44d54cddb796b93f7b928546924f1c23298a994e10780a",
+    "20": "ff6bd78aacf714ff1edf3e1e95d377ec39a92ccc60d2c91236c3333c3e943c8c",
+    "21": "eb6f9bce7e1a577bebb89fac4912c85c0c596b8cd20d9050ca8a6b6221179e63",
+    "22": "c383044004eac5dbd31ae520e5f2b2240ad3a25c6743262cdcd646ad71eb2f35",
+    "23": "d478c67107fd1b11c45a859a70c1b04067bca13f78d9ec296a4fa5565fef7a1e",
+    "24": "c6ca36196802147561a898e15f493b7655e0295dc5852af6cde3ee1e7944199f",
+    "25": "7e16ab2dd0ddb2e9a4ee5160459291c3a716b60d8184ccb2b0b9d43afd2149e9",
+    "26": "a21540c8b44a342ecf3bdfa1832c9c2416cc203d70153c9866dfe8f75e082c33",
+    "27": "e27e23620640e2da9b28ec8f83533a7df1df4d3bbe48090562ecdaf7c72f5aa0",
+    "28": "82ce96b80e800682dda743fc0aee4b7f106369068891cbc28501dcb6c5443c81",
+    "29": "65ef9d93672c8b82a46dded4086d47af51d0b13881387186ade7a241db77905c",
+    "30": "e1eb171ef633e0002adc119950362f40c8c022db48fb7ba2aa59622861533fdb",
+    "31": "3c74b77202aa7a341f54283f02c217e42ec6714b0e39f29b0932fbfde2490516",
+    "32": "d1b1bac9893c62f47f9afcd8a98d199fbfe30c4ec9d875c265f75cbb2b06804b",
+    "33": "e0f40e0386ce8000018d0ddb47e6dff669e6c8d1e70da024d02d0bea58bbdb4f",
+    "34": "56c731836146c8b6b5ef90c6da7c2fc6bbb8f63c98f5c31b2e56c9a2b66f799d",
+    "35": "1f44e64ad26316c02ecfab0899af51521033d6c29db7708ab4aedf4c2be1ae72",
+    "36": "2fc834482cd101ac282ebf76ccccad826b5147ceaf3872f64065528965548321",
+    "37": "d9f03d2ff5ceae41336215e1bef3ecd81441470a9f2df8a4948968f5220463c2",
+    "38": "51e297d349ff5b126174503be7d4972314384f4e018f579e65ee3780af17e591",
+    "39": "152b8868c0b7681e4223f05f8703c5f436d8ab9c0de1bff227348833e421a4ec",
+    "40": "3cdd25cc15756e57bccaa0929568a0695c52003a6783354a116e6d58ba34a05c",
+    "41": "abce19cf1730003b1754f5728405c16c902f385e308167a5067a49d1939f4ec4",
+    "42": "d0b179c22726f09ee928a7730eb82e0f2d2db97be3e424c4245f19e72a9d1227",
+    "43": "a247a43bc49f5fa145c9fed15f7e1948220fe544c981f0cdea2dada8beb7141f",
+    "44": "168b745dc985963dab5588a20c3564925f095c90251b4bee243de3233d340df2",
+    "45": "2c2a0a9f4ef27b58ff187bb725adb89e9b0b71b39faab991e82a02445233406f",
+    "46": "308db2445b0e0295fb711e8051fd7d72fca34dc3f6eb1072a56845d8a67def3d"
+   }
+  }
+ },
+ "catalogue_matches_within_30as": [
+  {
+   "tic": "266592492",
+   "target_id": "1849628490657807616",
+   "catalogue": "J/ApJS/279/50/table2",
+   "designation": "266592492",
+   "gaia_dr3": "",
+   "matched_tic": "266592492",
+   "separation_arcsec": "0.077",
+   "classification": "EB",
+   "reported_period_days": "",
+   "association": "same_exact_id",
+   "catalogue_labels_eclipse": "True"
+  }
+ ],
+ "independent_centroid_check_at_original_ephemeris": [
+  {
+   "sector": 82,
+   "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/VneUw7XPEZdoPRqt/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+   "retrieved_sha256": "ebd3de79ff0ae5e582922e793a0aa9de3bb5f1dcec5d4f525afe14a6e4250f93",
+   "primary_diff": {
+    "n_events": 3,
+    "cycles": [
+     0,
+     1,
+     2
+    ],
+    "sigma_pixels": 0.652696550868686,
+    "registered_host_xy": [
+     6.448231476662156,
+     6.383284643162988
+    ],
+    "best_xy": [
+     6.542333453427865,
+     6.413194937709575
+    ],
+    "free_offset_arcsec": 2.074,
+    "chi2_free": 780.7361144470234,
+    "chi2_host": 846.3148411548345,
+    "archive_method_host_chi2": 846.3148411548344,
+    "archive_method_free_chi2": 780.7360884162304,
+    "n_starts": 11,
+    "separable_neighbour_chi2_margin": 4305.790336555185
+   },
+   "secondary_diff": {
+    "n_events": 3,
+    "cycles": [
+     -1,
+     0,
+     1
+    ],
+    "sigma_pixels": 0.6544469373259597,
+    "registered_host_xy": [
+     6.438337233732953,
+     6.3845855310774535
+    ],
+    "best_xy": [
+     6.566519425160447,
+     6.303107922395538
+    ],
+    "free_offset_arcsec": 3.19,
+    "chi2_free": 1549.586634767833,
+    "chi2_host": 1651.7495871158549,
+    "archive_method_host_chi2": 1651.7495871158544,
+    "archive_method_free_chi2": 6757.280820937363,
+    "n_starts": 11,
+    "separable_neighbour_chi2_margin": 1875.847316569897
+   }
+  },
+  {
+   "sector": 83,
+   "url": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/FDQGv0UdzI0g-VK8/astrocut_324.323192149226_30.000540121926832_13.0x13.0px.zip",
+   "retrieved_sha256": "8f845bee57c218763a043015974a32d0d4400caabcfd7d1212cca310c319f18b",
+   "primary_diff": {
+    "n_events": 3,
+    "cycles": [
+     3,
+     4,
+     5
+    ],
+    "sigma_pixels": 1.034783009183322,
+    "registered_host_xy": [
+     7.07835455605803,
+     6.415304840401495
+    ],
+    "best_xy": [
+     6.967083197751077,
+     6.477682105110144
+    ],
+    "free_offset_arcsec": 2.679,
+    "chi2_free": 3398.137955796893,
+    "chi2_host": 3472.2101774000503,
+    "archive_method_host_chi2": 3472.2101774000507,
+    "archive_method_free_chi2": 3398.1379319127454,
+    "n_starts": 11,
+    "separable_neighbour_chi2_margin": 7768.23633873275
+   },
+   "secondary_diff": {
+    "n_events": 3,
+    "cycles": [
+     2,
+     3,
+     4
+    ],
+    "sigma_pixels": 1.0320855912692037,
+    "registered_host_xy": [
+     7.092363976302924,
+     6.420476274140458
+    ],
+    "best_xy": [
+     6.667350863142717,
+     6.636111196267718
+    ],
+    "free_offset_arcsec": 10.008,
+    "chi2_free": 968.56792172325,
+    "chi2_host": 1143.729312112001,
+    "archive_method_host_chi2": 1143.729312112001,
+    "archive_method_free_chi2": 968.5679200810516,
+    "n_starts": 11,
+    "separable_neighbour_chi2_margin": 633.7400969990999
+   }
+  }
+ ]
+}

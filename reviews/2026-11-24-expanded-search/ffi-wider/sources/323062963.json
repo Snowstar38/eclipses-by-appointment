@@ -1,0 +1,2144 @@
+{
+ "tic": "323062963",
+ "gaia_dr3": "5196550578620857984",
+ "ra_deg": 126.865164149742,
+ "dec_deg": -80.2948398745345,
+ "disposition": "probable",
+ "interpretation": "Four sectors show a 21.9-ppt primary and a phase-locked 5.3-ppt secondary on ellipsoidal modulation. A neighbour 1.4 arcsec away and 5.18 mag fainter is too faint for the primary and could supply the secondary. Both primary images favor the target. Villanova lists the target outside its EB catalogue with no ephemeris.",
+ "prior_evidence": "Earlier public TESS-SPOC full-frame threshold-crossing events. Unvetted Kostov et al. Table 2 machine flag. Earlier Villanova target entry marked outside the EB catalogue",
+ "archive_tce_pairs": [
+  {
+   "sectors": [
+    "s0037",
+    "s0065"
+   ],
+   "first": {
+    "ticid": 323062963,
+    "tmag": 11.3142,
+    "tce_plnt_num": 1,
+    "tce_period": 1.3373276,
+    "tce_time0bt": 2308.1696005548215,
+    "tce_max_mult_ev": 128.69743,
+    "tce_num_transits": 16,
+    "suspected_eb": "false",
+    "tce_robstat": 116.10243,
+    "wst_robstat": 20.484077,
+    "wst_depth": 3386.4758,
+    "wst_phase_d": 0.6706379,
+    "tce_model_snr": 130.44916,
+    "minImpactParameter": 0.989898831478732,
+    "transitDurationHours": 1.9971050978311704,
+    "transitDepthPpm": 24940.173109249383,
+    "ratioPlanetRadiusToStarRadius": 0.23877311051049055,
+    "tcet_depth": null,
+    "tce_bin_oedp_stat": 0.25271943,
+    "tce_ditco_msky": 1.7293276,
+    "tce_ditco_msky_err": 2.500914,
+    "tce_dicco_msky": 0.11466666,
+    "tce_dicco_msky_err": 2.5002794
+   },
+   "last": {
+    "ticid": 323062963,
+    "tmag": 11.3142,
+    "tce_plnt_num": 1,
+    "tce_period": 1.3367821,
+    "tce_time0bt": 3068.991708110543,
+    "tce_max_mult_ev": 114.40253,
+    "tce_num_transits": 19,
+    "suspected_eb": "false",
+    "tce_robstat": 105.2326,
+    "wst_robstat": 15.5291395,
+    "wst_depth": 3044.2844,
+    "wst_phase_d": 0.6689583,
+    "tce_model_snr": 138.35054,
+    "minImpactParameter": 0.9706817708985911,
+    "transitDurationHours": 1.9759683257791845,
+    "transitDepthPpm": 24873.18366061129,
+    "ratioPlanetRadiusToStarRadius": 0.22522918419091068,
+    "tcet_depth": null,
+    "tce_bin_oedp_stat": 0.080738515,
+    "tce_ditco_msky": 0.5542033,
+    "tce_ditco_msky_err": 2.5000577,
+    "tce_dicco_msky": 0.16944382,
+    "tce_dicco_msky_err": 2.500261
+   },
+   "uris": [
+    "mast:HLSP/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037-s0037_tess_v1_dvr.xml",
+    "mast:HLSP/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065-s0065_tess_v1_dvr.xml"
+   ],
+   "hashes": [
+    "e5c55e8f556b0c94aaf1ea119ce0fb5ca426f8854aff32a96ba6faddecee5d49",
+    "b6001f089a41b1e50239e3643386469dc57c4ef91368efad96b9a11257c1a636"
+   ]
+  }
+ ],
+ "two_extractions": {
+  "tic": "323062963",
+  "period_d": 1.3371214544037289,
+  "epoch_btjd": 2308.1696005548215,
+  "alias_cycles": 569,
+  "disjoint_sector_periods": [
+   1.3373276,
+   1.3367821
+  ],
+  "candidate_secondary_phase": 0.501476152888791,
+  "alternation_flag": false,
+  "secondary_flag": true,
+  "products": [
+   {
+    "sector": "s0037",
+    "origin": "TESS-SPOC",
+    "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037_tess_v1_lc.fits",
+    "sha256": "9450404103964029fa5cd83b96b92fac0560b777e45751f3df5b539d7ee31974",
+    "primary": {
+     "n": 16,
+     "median_depth_ppt": 21.651
+    },
+    "secondary": {
+     "n": 16,
+     "median_depth_ppt": 4.911
+    },
+    "primary_by_cycle_parity": {
+     "0": 21.858,
+     "1": 21.544
+    }
+   },
+   {
+    "sector": "s0037",
+    "origin": "QLP",
+    "url": "https://archive.stsci.edu/hlsps/qlp/s0037/0000/0003/2306/2963/hlsp_qlp_tess_ffi_s0037-0000000323062963_tess_v01_llc.fits",
+    "sha256": "13f1e005666441120f9774ff2ec790c3cbf04dae380ec943f91d47c963c9152c",
+    "primary": {
+     "n": 13,
+     "median_depth_ppt": 21.709
+    },
+    "secondary": {
+     "n": 14,
+     "median_depth_ppt": 4.596
+    },
+    "primary_by_cycle_parity": {
+     "0": 21.932,
+     "1": 21.488
+    }
+   },
+   {
+    "sector": "s0065",
+    "origin": "TESS-SPOC",
+    "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065_tess_v1_lc.fits",
+    "sha256": "0978cbde79819f896eca5e2b25321e39c76a2d9508f4ca4cf94373384b4d4bdb",
+    "primary": {
+     "n": 18,
+     "median_depth_ppt": 22.068
+    },
+    "secondary": {
+     "n": 20,
+     "median_depth_ppt": 4.391
+    },
+    "primary_by_cycle_parity": {
+     "0": 21.706,
+     "1": 22.688
+    }
+   },
+   {
+    "sector": "s0065",
+    "origin": "QLP",
+    "url": "https://archive.stsci.edu/hlsps/qlp/s0065/0000/0003/2306/2963/hlsp_qlp_tess_ffi_s0065-0000000323062963_tess_v01_llc.fits",
+    "sha256": "58905565bae5ed8626febbbae4a58a2374c1e4368a8b199100027d38e2f267ca",
+    "primary": {
+     "n": 19,
+     "median_depth_ppt": 23.34
+    },
+    "secondary": {
+     "n": 19,
+     "median_depth_ppt": 4.685
+    },
+    "primary_by_cycle_parity": {
+     "0": 23.099,
+     "1": 23.977
+    }
+   }
+  ]
+ },
+ "timing": {
+  "tic": "323062963",
+  "tried_period_d": 1.3371214544037289,
+  "tried_epoch": 2308.1696005548215,
+  "width_days": 0.08233201357413268,
+  "mode": "secondary",
+  "ephem": {
+   "period_days": 1.3371100447428346,
+   "epoch_btjd": 2365.6702240877207,
+   "residual90_minutes": 1.0673872037828005,
+   "primary_sectors": [
+    "s0037",
+    "s0038",
+    "s0039",
+    "s0065"
+   ],
+   "secondary_sectors": [
+    "s0037",
+    "s0038",
+    "s0039",
+    "s0065"
+   ],
+   "depth_ppt": 21.909,
+   "n_primary": 67
+  },
+  "events": [
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 1,
+    "center_btjd": 2309.5124213,
+    "depth_ppt": 22.805,
+    "noise_ppt": 1.63
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 2,
+    "center_btjd": 2310.8485183,
+    "depth_ppt": 21.439,
+    "noise_ppt": 1.468
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 3,
+    "center_btjd": 2312.1851523,
+    "depth_ppt": 21.156,
+    "noise_ppt": 1.385
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 4,
+    "center_btjd": 2313.5238528,
+    "depth_ppt": 21.96,
+    "noise_ppt": 1.532
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 5,
+    "center_btjd": 2314.8606052,
+    "depth_ppt": 21.394,
+    "noise_ppt": 1.542
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 6,
+    "center_btjd": 2316.197247,
+    "depth_ppt": 21.637,
+    "noise_ppt": 1.671
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 7,
+    "center_btjd": 2317.5344784,
+    "depth_ppt": 21.86,
+    "noise_ppt": 1.926
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 8,
+    "center_btjd": 2318.871212,
+    "depth_ppt": 21.01,
+    "noise_ppt": 1.272
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 11,
+    "center_btjd": 2322.8831465,
+    "depth_ppt": 21.902,
+    "noise_ppt": 2.012
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 12,
+    "center_btjd": 2324.2196467,
+    "depth_ppt": 22.108,
+    "noise_ppt": 2.37
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 13,
+    "center_btjd": 2325.5569122,
+    "depth_ppt": 21.791,
+    "noise_ppt": 1.752
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 14,
+    "center_btjd": 2326.8933826,
+    "depth_ppt": 22.773,
+    "noise_ppt": 1.656
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 15,
+    "center_btjd": 2328.2310683,
+    "depth_ppt": 21.274,
+    "noise_ppt": 2.107
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 16,
+    "center_btjd": 2329.5682468,
+    "depth_ppt": 22.944,
+    "noise_ppt": 1.658
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 17,
+    "center_btjd": 2330.9051463,
+    "depth_ppt": 20.299,
+    "noise_ppt": 1.607
+   },
+   {
+    "sector": "s0037",
+    "phase": 0,
+    "k": 18,
+    "center_btjd": 2332.2416191,
+    "depth_ppt": 21.302,
+    "noise_ppt": 1.373
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 0,
+    "center_btjd": 2308.8459381,
+    "depth_ppt": 5.349,
+    "noise_ppt": 1.294
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 2,
+    "center_btjd": 2311.5143909,
+    "depth_ppt": 5.208,
+    "noise_ppt": 1.171
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 6,
+    "center_btjd": 2316.8693252,
+    "depth_ppt": 4.727,
+    "noise_ppt": 1.552
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 7,
+    "center_btjd": 2318.2080853,
+    "depth_ppt": 4.929,
+    "noise_ppt": 1.211
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 10,
+    "center_btjd": 2322.2140595,
+    "depth_ppt": 4.565,
+    "noise_ppt": 1.513
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 11,
+    "center_btjd": 2323.548931,
+    "depth_ppt": 4.604,
+    "noise_ppt": 1.37
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 12,
+    "center_btjd": 2324.884123,
+    "depth_ppt": 5.468,
+    "noise_ppt": 1.444
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 13,
+    "center_btjd": 2326.2221423,
+    "depth_ppt": 5.296,
+    "noise_ppt": 1.588
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 14,
+    "center_btjd": 2327.5565115,
+    "depth_ppt": 5.334,
+    "noise_ppt": 1.192
+   },
+   {
+    "sector": "s0037",
+    "phase": 0.501476152888791,
+    "k": 16,
+    "center_btjd": 2330.2349963,
+    "depth_ppt": 5.621,
+    "noise_ppt": 1.153
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 22,
+    "center_btjd": 2337.5908732,
+    "depth_ppt": 23.426,
+    "noise_ppt": 2.15
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 23,
+    "center_btjd": 2338.9275303,
+    "depth_ppt": 21.923,
+    "noise_ppt": 2.434
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 24,
+    "center_btjd": 2340.2658801,
+    "depth_ppt": 21.778,
+    "noise_ppt": 2.27
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 25,
+    "center_btjd": 2341.6021929,
+    "depth_ppt": 21.536,
+    "noise_ppt": 2.169
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 26,
+    "center_btjd": 2342.9390558,
+    "depth_ppt": 22.182,
+    "noise_ppt": 1.9
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 27,
+    "center_btjd": 2344.2770162,
+    "depth_ppt": 22.399,
+    "noise_ppt": 2.231
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 28,
+    "center_btjd": 2345.6139713,
+    "depth_ppt": 23.296,
+    "noise_ppt": 2.133
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 32,
+    "center_btjd": 2350.9627157,
+    "depth_ppt": 19.894,
+    "noise_ppt": 1.38
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 33,
+    "center_btjd": 2352.2990933,
+    "depth_ppt": 22.157,
+    "noise_ppt": 2.076
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 34,
+    "center_btjd": 2353.636429,
+    "depth_ppt": 21.612,
+    "noise_ppt": 2.596
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 35,
+    "center_btjd": 2354.9732422,
+    "depth_ppt": 22.554,
+    "noise_ppt": 2.401
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 36,
+    "center_btjd": 2356.3105145,
+    "depth_ppt": 22.24,
+    "noise_ppt": 2.058
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 37,
+    "center_btjd": 2357.6471066,
+    "depth_ppt": 20.004,
+    "noise_ppt": 1.617
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 38,
+    "center_btjd": 2358.9842971,
+    "depth_ppt": 22.105,
+    "noise_ppt": 1.949
+   },
+   {
+    "sector": "s0038",
+    "phase": 0,
+    "k": 39,
+    "center_btjd": 2360.3216639,
+    "depth_ppt": 21.979,
+    "noise_ppt": 2.222
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 21,
+    "center_btjd": 2336.9197293,
+    "depth_ppt": 5.156,
+    "noise_ppt": 1.191
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 24,
+    "center_btjd": 2340.932445,
+    "depth_ppt": 4.913,
+    "noise_ppt": 1.512
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 33,
+    "center_btjd": 2352.966549,
+    "depth_ppt": 4.9,
+    "noise_ppt": 1.409
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 34,
+    "center_btjd": 2354.3003938,
+    "depth_ppt": 5.321,
+    "noise_ppt": 1.604
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 35,
+    "center_btjd": 2355.6405261,
+    "depth_ppt": 5.252,
+    "noise_ppt": 1.595
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 36,
+    "center_btjd": 2356.981229,
+    "depth_ppt": 5.937,
+    "noise_ppt": 1.274
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 37,
+    "center_btjd": 2358.3177592,
+    "depth_ppt": 4.592,
+    "noise_ppt": 1.416
+   },
+   {
+    "sector": "s0038",
+    "phase": 0.501476152888791,
+    "k": 38,
+    "center_btjd": 2359.6575452,
+    "depth_ppt": 6.113,
+    "noise_ppt": 1.916
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 41,
+    "center_btjd": 2362.9960239,
+    "depth_ppt": 21.622,
+    "noise_ppt": 2.232
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 42,
+    "center_btjd": 2364.3327357,
+    "depth_ppt": 21.802,
+    "noise_ppt": 2.021
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 43,
+    "center_btjd": 2365.6696588,
+    "depth_ppt": 21.164,
+    "noise_ppt": 1.83
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 44,
+    "center_btjd": 2367.0073699,
+    "depth_ppt": 22.331,
+    "noise_ppt": 2.074
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 46,
+    "center_btjd": 2369.6809048,
+    "depth_ppt": 22.638,
+    "noise_ppt": 1.884
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 47,
+    "center_btjd": 2371.0182063,
+    "depth_ppt": 21.549,
+    "noise_ppt": 2.592
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 48,
+    "center_btjd": 2372.355603,
+    "depth_ppt": 22.336,
+    "noise_ppt": 1.637
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 49,
+    "center_btjd": 2373.6928402,
+    "depth_ppt": 22.272,
+    "noise_ppt": 2.103
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 51,
+    "center_btjd": 2376.3672292,
+    "depth_ppt": 23.064,
+    "noise_ppt": 1.969
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 52,
+    "center_btjd": 2377.7044274,
+    "depth_ppt": 22.12,
+    "noise_ppt": 2.371
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 53,
+    "center_btjd": 2379.0420781,
+    "depth_ppt": 21.641,
+    "noise_ppt": 1.961
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 54,
+    "center_btjd": 2380.3794528,
+    "depth_ppt": 21.901,
+    "noise_ppt": 1.997
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 55,
+    "center_btjd": 2381.7159855,
+    "depth_ppt": 20.235,
+    "noise_ppt": 2.809
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 56,
+    "center_btjd": 2383.0525897,
+    "depth_ppt": 21.948,
+    "noise_ppt": 1.882
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 57,
+    "center_btjd": 2384.3895665,
+    "depth_ppt": 21.39,
+    "noise_ppt": 1.888
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 58,
+    "center_btjd": 2385.726752,
+    "depth_ppt": 23.116,
+    "noise_ppt": 2.093
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 59,
+    "center_btjd": 2387.0638132,
+    "depth_ppt": 21.048,
+    "noise_ppt": 2.1
+   },
+   {
+    "sector": "s0039",
+    "phase": 0,
+    "k": 60,
+    "center_btjd": 2388.4005138,
+    "depth_ppt": 20.907,
+    "noise_ppt": 1.445
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 41,
+    "center_btjd": 2363.6583134,
+    "depth_ppt": 5.889,
+    "noise_ppt": 1.751
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 43,
+    "center_btjd": 2366.3412668,
+    "depth_ppt": 6.216,
+    "noise_ppt": 1.994
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 46,
+    "center_btjd": 2370.3504794,
+    "depth_ppt": 5.086,
+    "noise_ppt": 1.495
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 47,
+    "center_btjd": 2371.6913098,
+    "depth_ppt": 4.72,
+    "noise_ppt": 1.519
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 48,
+    "center_btjd": 2373.022539,
+    "depth_ppt": 5.768,
+    "noise_ppt": 1.514
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 49,
+    "center_btjd": 2374.3579122,
+    "depth_ppt": 5.478,
+    "noise_ppt": 1.143
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 51,
+    "center_btjd": 2377.0364013,
+    "depth_ppt": 5.471,
+    "noise_ppt": 1.705
+   },
+   {
+    "sector": "s0039",
+    "phase": 0.501476152888791,
+    "k": 57,
+    "center_btjd": 2385.0596114,
+    "depth_ppt": 4.983,
+    "noise_ppt": 1.567
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 569,
+    "center_btjd": 3068.9901479,
+    "depth_ppt": 21.172,
+    "noise_ppt": 2.201
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 570,
+    "center_btjd": 3070.3265929,
+    "depth_ppt": 21.63,
+    "noise_ppt": 2.196
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 571,
+    "center_btjd": 3071.6647896,
+    "depth_ppt": 22.612,
+    "noise_ppt": 2.168
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 572,
+    "center_btjd": 3073.0016342,
+    "depth_ppt": 22.85,
+    "noise_ppt": 2.612
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 573,
+    "center_btjd": 3074.33848,
+    "depth_ppt": 21.698,
+    "noise_ppt": 2.092
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 574,
+    "center_btjd": 3075.6759756,
+    "depth_ppt": 21.998,
+    "noise_ppt": 2.508
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 575,
+    "center_btjd": 3077.0126295,
+    "depth_ppt": 21.181,
+    "noise_ppt": 2.492
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 576,
+    "center_btjd": 3078.3494433,
+    "depth_ppt": 22.104,
+    "noise_ppt": 2.346
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 577,
+    "center_btjd": 3079.6866175,
+    "depth_ppt": 21.909,
+    "noise_ppt": 2.281
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 578,
+    "center_btjd": 3081.0239205,
+    "depth_ppt": 19.51,
+    "noise_ppt": 2.662
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 579,
+    "center_btjd": 3082.3610529,
+    "depth_ppt": 23.135,
+    "noise_ppt": 2.415
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 581,
+    "center_btjd": 3085.0365246,
+    "depth_ppt": 22.803,
+    "noise_ppt": 2.134
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 582,
+    "center_btjd": 3086.3728857,
+    "depth_ppt": 22.788,
+    "noise_ppt": 2.498
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 583,
+    "center_btjd": 3087.7095234,
+    "depth_ppt": 21.028,
+    "noise_ppt": 2.35
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 584,
+    "center_btjd": 3089.0460208,
+    "depth_ppt": 22.987,
+    "noise_ppt": 2.308
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 586,
+    "center_btjd": 3091.7203936,
+    "depth_ppt": 22.906,
+    "noise_ppt": 2.241
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 587,
+    "center_btjd": 3093.0587512,
+    "depth_ppt": 21.395,
+    "noise_ppt": 2.59
+   },
+   {
+    "sector": "s0065",
+    "phase": 0,
+    "k": 588,
+    "center_btjd": 3094.3955469,
+    "depth_ppt": 22.078,
+    "noise_ppt": 2.832
+   },
+   {
+    "sector": "s0065",
+    "phase": 0.501476152888791,
+    "k": 569,
+    "center_btjd": 3069.6586406,
+    "depth_ppt": 5.192,
+    "noise_ppt": 1.725
+   },
+   {
+    "sector": "s0065",
+    "phase": 0.501476152888791,
+    "k": 588,
+    "center_btjd": 3095.0668146,
+    "depth_ppt": 6.54,
+    "noise_ppt": 1.758
+   }
+  ],
+  "curves": [
+   {
+    "sector": "s0037",
+    "bins": [
+     -28.019,
+     -25.668,
+     -19.066,
+     -13.115,
+     -6.188,
+     -4.012,
+     -3.679,
+     -3.69,
+     -3.337,
+     -2.833,
+     -2.666,
+     -2.194,
+     -1.578,
+     -1.635,
+     -1.461,
+     -1.067,
+     -0.994,
+     -0.332,
+     0.118,
+     0.303,
+     0.945,
+     0.696,
+     1.275,
+     1.548,
+     2.214,
+     2.248,
+     1.996,
+     2.32,
+     3.353,
+     3.007,
+     3.476,
+     3.202,
+     3.826,
+     3.862,
+     3.601,
+     3.582,
+     3.941,
+     3.898,
+     4.17,
+     3.893,
+     3.92,
+     3.29,
+     3.461,
+     3.082,
+     2.971,
+     3.06,
+     2.086,
+     2.351,
+     1.541,
+     1.894,
+     1.844,
+     1.092,
+     0.742,
+     0.749,
+     0.522,
+     -0.203,
+     -0.751,
+     -0.762,
+     -0.64,
+     -0.538,
+     -1.354,
+     -1.632,
+     -1.417,
+     -1.841,
+     -1.94,
+     -1.831,
+     -1.834,
+     -3.445,
+     -4.845,
+     -5.525,
+     -5.989,
+     -5.695,
+     -4.921,
+     -3.476,
+     -2.372,
+     -1.688,
+     -2.173,
+     -1.841,
+     -1.03,
+     -1.341,
+     -1.224,
+     -0.786,
+     -0.825,
+     -0.402,
+     -0.616,
+     -0.244,
+     0.141,
+     0.371,
+     0.197,
+     0.542,
+     0.965,
+     1.314,
+     1.85,
+     1.983,
+     1.146,
+     2.393,
+     2.441,
+     2.129,
+     2.314,
+     2.757,
+     2.809,
+     3.142,
+     3.007,
+     2.699,
+     2.883,
+     3.064,
+     2.908,
+     2.814,
+     2.989,
+     2.644,
+     2.972,
+     1.904,
+     2.496,
+     2.095,
+     1.486,
+     1.372,
+     1.056,
+     0.435,
+     0.088,
+     -0.003,
+     -0.584,
+     -0.607,
+     -0.86,
+     -1.146,
+     -1.636,
+     -1.97,
+     -2.125,
+     -2.435,
+     -2.983,
+     -2.679,
+     -3.083,
+     -3.147,
+     -4.018,
+     -3.851,
+     -3.76,
+     -3.742,
+     -5.874,
+     -12.06,
+     -20.225,
+     -26.786
+    ]
+   },
+   {
+    "sector": "s0038",
+    "bins": [
+     -27.978,
+     -25.972,
+     -20.601,
+     -12.91,
+     -5.782,
+     -4.741,
+     -4.183,
+     -4.049,
+     -3.718,
+     -3.282,
+     -3.112,
+     -3.059,
+     -1.809,
+     -1.986,
+     -1.352,
+     -1.334,
+     -0.95,
+     0.033,
+     0.679,
+     0.889,
+     0.82,
+     2.066,
+     1.898,
+     2.276,
+     2.946,
+     3.209,
+     3.693,
+     4.543,
+     3.855,
+     4.077,
+     4.376,
+     4.641,
+     4.597,
+     4.704,
+     4.484,
+     4.94,
+     4.928,
+     4.915,
+     4.541,
+     4.242,
+     4.371,
+     3.863,
+     3.746,
+     3.597,
+     3.161,
+     2.841,
+     2.25,
+     2.127,
+     1.877,
+     1.506,
+     1.181,
+     1.658,
+     0.911,
+     0.491,
+     0.256,
+     -0.343,
+     -0.253,
+     -0.811,
+     -1.322,
+     -1.373,
+     -1.695,
+     -1.635,
+     -1.824,
+     -1.713,
+     -1.916,
+     -2.216,
+     -2.231,
+     -3.728,
+     -4.902,
+     -5.937,
+     -6.603,
+     -6.033,
+     -4.671,
+     -4.093,
+     -2.073,
+     -1.893,
+     -1.755,
+     -2.466,
+     -2.016,
+     -1.309,
+     -1.501,
+     -1.013,
+     -1.413,
+     -1.133,
+     -0.511,
+     -0.524,
+     -0.674,
+     0.112,
+     0.187,
+     0.309,
+     0.88,
+     0.355,
+     1.696,
+     1.089,
+     2.095,
+     2.168,
+     2.528,
+     2.322,
+     2.766,
+     2.816,
+     3.762,
+     3.462,
+     3.435,
+     3.391,
+     3.398,
+     3.126,
+     3.88,
+     2.967,
+     2.983,
+     3.609,
+     2.866,
+     2.635,
+     2.848,
+     2.809,
+     2.193,
+     2.324,
+     1.689,
+     0.943,
+     0.721,
+     0.281,
+     0.042,
+     -0.486,
+     -0.769,
+     -1.517,
+     -1.604,
+     -1.854,
+     -2.29,
+     -2.588,
+     -3.12,
+     -3.191,
+     -3.47,
+     -3.853,
+     -3.939,
+     -4.374,
+     -4.584,
+     -4.845,
+     -6.668,
+     -13.705,
+     -20.517,
+     -26.133
+    ]
+   },
+   {
+    "sector": "s0039",
+    "bins": [
+     -28.841,
+     -26.206,
+     -20.608,
+     -13.522,
+     -6.062,
+     -4.922,
+     -4.395,
+     -3.948,
+     -4.458,
+     -3.934,
+     -3.268,
+     -3.113,
+     -2.761,
+     -1.889,
+     -2.071,
+     -1.346,
+     -1.246,
+     -0.761,
+     -0.827,
+     -0.248,
+     0.86,
+     0.673,
+     1.183,
+     1.581,
+     1.969,
+     2.767,
+     2.436,
+     2.228,
+     3.099,
+     3.5,
+     3.62,
+     4.174,
+     4.443,
+     4.62,
+     3.708,
+     4.126,
+     4.252,
+     4.13,
+     4.022,
+     4.786,
+     4.774,
+     3.907,
+     3.704,
+     3.642,
+     3.902,
+     3.741,
+     3.062,
+     3.058,
+     2.548,
+     2.567,
+     1.785,
+     1.612,
+     1.661,
+     0.861,
+     0.515,
+     -0.132,
+     -0.057,
+     -0.495,
+     -1.05,
+     -1.334,
+     -1.197,
+     -1.774,
+     -1.847,
+     -1.866,
+     -2.307,
+     -2.648,
+     -3.113,
+     -4.031,
+     -5.318,
+     -6.363,
+     -6.834,
+     -6.64,
+     -5.428,
+     -4.153,
+     -3.154,
+     -2.704,
+     -2.7,
+     -2.054,
+     -2.058,
+     -1.869,
+     -2.004,
+     -1.644,
+     -1.571,
+     -1.018,
+     -1.166,
+     -1.139,
+     0.055,
+     0.011,
+     0.447,
+     0.434,
+     0.934,
+     1.254,
+     2.002,
+     2.048,
+     1.847,
+     2.348,
+     2.712,
+     2.565,
+     3.043,
+     3.66,
+     3.481,
+     3.686,
+     3.631,
+     3.313,
+     3.639,
+     4.172,
+     3.816,
+     3.75,
+     3.914,
+     3.426,
+     3.533,
+     2.622,
+     2.947,
+     2.459,
+     2.572,
+     2.027,
+     1.789,
+     1.117,
+     0.731,
+     0.537,
+     -0.001,
+     0.096,
+     -1.099,
+     -0.877,
+     -1.77,
+     -1.842,
+     -2.269,
+     -2.511,
+     -3.416,
+     -3.268,
+     -4.144,
+     -3.974,
+     -4.056,
+     -4.446,
+     -4.679,
+     -4.333,
+     -7.124,
+     -13.079,
+     -21.225,
+     -27.146
+    ]
+   },
+   {
+    "sector": "s0065",
+    "bins": [
+     -27.418,
+     -22.74,
+     -15.557,
+     -7.511,
+     -4.409,
+     -4.341,
+     -3.847,
+     -3.948,
+     -3.657,
+     -2.996,
+     -2.939,
+     -2.654,
+     -2.187,
+     -1.99,
+     -1.654,
+     -0.698,
+     -0.809,
+     0.079,
+     -0.605,
+     -0.029,
+     1.177,
+     1.132,
+     1.499,
+     1.849,
+     2.336,
+     2.498,
+     3.053,
+     3.447,
+     3.72,
+     3.633,
+     3.558,
+     4.06,
+     4.106,
+     4.571,
+     3.929,
+     4.084,
+     4.286,
+     4.214,
+     3.998,
+     4.226,
+     3.997,
+     3.598,
+     3.564,
+     3.38,
+     2.851,
+     2.683,
+     2.282,
+     1.998,
+     1.941,
+     1.472,
+     1.926,
+     0.96,
+     0.745,
+     0.424,
+     0.473,
+     0.401,
+     -0.189,
+     -0.456,
+     -0.339,
+     -0.902,
+     -1.114,
+     -1.494,
+     -1.5,
+     -1.553,
+     -2.298,
+     -2.22,
+     -2.759,
+     -4.07,
+     -5.214,
+     -6.042,
+     -5.916,
+     -5.421,
+     -3.853,
+     -2.546,
+     -2.426,
+     -2.275,
+     -2.277,
+     -1.645,
+     -1.756,
+     -1.79,
+     -1.784,
+     -1.194,
+     -1.257,
+     -0.989,
+     -1.288,
+     -0.257,
+     -0.334,
+     -0.311,
+     0.377,
+     0.032,
+     0.485,
+     1.003,
+     1.237,
+     1.612,
+     1.404,
+     2.231,
+     2.102,
+     2.653,
+     2.539,
+     2.634,
+     2.462,
+     2.929,
+     3.009,
+     3.124,
+     3.134,
+     3.455,
+     2.764,
+     3.402,
+     2.811,
+     2.685,
+     3.007,
+     2.655,
+     2.07,
+     2.105,
+     1.566,
+     1.092,
+     0.908,
+     0.74,
+     0.68,
+     0.292,
+     -0.975,
+     -0.855,
+     -1.353,
+     -1.458,
+     -1.925,
+     -2.208,
+     -2.942,
+     -3.079,
+     -3.169,
+     -3.058,
+     -3.814,
+     -4.077,
+     -4.078,
+     -4.265,
+     -4.482,
+     -5.409,
+     -10.175,
+     -18.467,
+     -25.432,
+     -28.644
+    ]
+   }
+  ],
+  "products": [
+   {
+    "sector": "s0037",
+    "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037_tess_v1_lc.fits",
+    "sha256": "9450404103964029fa5cd83b96b92fac0560b777e45751f3df5b539d7ee31974"
+   },
+   {
+    "sector": "s0038",
+    "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0038/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0038_tess_v1_lc.fits",
+    "sha256": "fd280877e38dccc964abd8beb56324a003b3ad1d3b6a6bd6e86987a67a68cb91"
+   },
+   {
+    "sector": "s0039",
+    "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0039/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0039_tess_v1_lc.fits",
+    "sha256": "1adef97cfde21aea39d22d5391c2c57745cefa9e9f7994a0bfbeec53496baedc"
+   },
+   {
+    "sector": "s0065",
+    "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065_tess_v1_lc.fits",
+    "sha256": "0978cbde79819f896eca5e2b25321e39c76a2d9508f4ca4cf94373384b4d4bdb"
+   }
+  ]
+ },
+ "gaia_scene": {
+  "gaia": "5196550578620857984",
+  "target_offset": 0.1811277125437709,
+  "scene_sha256": "8038a4dfd85fa7f743fddc8ad6622c14a022c35f27b74fa711b55a2dd10b9d26",
+  "stars": [
+   {
+    "source_id": "5196550578620857984",
+    "ra": 126.86519266604115,
+    "dec": -80.29488995760731,
+    "pmra": 1.1349635708045265,
+    "pmdec": -11.077005809408696,
+    "ref_epoch": 2016.0,
+    "g": 11.686113,
+    "rp": 11.243316,
+    "sep": 0.1811277125437709
+   },
+   {
+    "source_id": "5196550582918030720",
+    "ra": 126.86712382446144,
+    "dec": -80.29462854846841,
+    "pmra": 0.5474341481216198,
+    "pmdec": -10.63446666452219,
+    "ref_epoch": 2016.0,
+    "g": 16.864952,
+    "rp": null,
+    "sep": 1.4118137725468634
+   }
+  ],
+  "sectors": [
+   {
+    "sector": "s0037",
+    "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037_tess_v1_tp.fits",
+    "sha256": "6758dde424173e41242a886048ef866db1f209a9baaa1e0a9f33296f1b3b6b73",
+    "fit": {
+     "status": "ok",
+     "camera": 3,
+     "ccd": 4,
+     "n_events": 16,
+     "n_in": 114,
+     "diff_snr": 176.19300864699656,
+     "psf_sigma_px": 0.7154692934706979,
+     "wcs_shift_px": [
+      0.1287993514217304,
+      0.0044463872228967475
+     ],
+     "free_offset_target_as": 0.3029295642408544,
+     "chi2_free": 1908.4265027183692,
+     "chi2_target": 1921.920847533498,
+     "amp_target": 27.070851479955827,
+     "n_capable": 2,
+     "hyp": [
+      {
+       "source_id": "5196550479838406272",
+       "sep_as": 43.149749058378816,
+       "dG": 4.725766999999999,
+       "chi2": 35013.8868371968,
+       "amp": 1.1975954127711184,
+       "is_target": false,
+       "free_offset_as": 50.172236104452935
+      },
+      {
+       "source_id": "5196550170600773376",
+       "sep_as": 88.9651224338709,
+       "dG": 4.487710999999999,
+       "chi2": 35549.23437742247,
+       "amp": -0.501280101180907,
+       "is_target": false,
+       "free_offset_as": 98.43796654580882
+      }
+     ],
+     "unresolved_capable": [],
+     "dchi2_best_neighbour_minus_target": 33091.9659896633,
+     "verdict": "on_target"
+    }
+   },
+   {
+    "sector": "s0065",
+    "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065_tess_v1_tp.fits",
+    "sha256": "9a94628f86cc5e66fcd44f35986ec5454d69e19444dbe8cc86b38cfb5c6a69b2",
+    "fit": {
+     "status": "ok",
+     "camera": 3,
+     "ccd": 4,
+     "n_events": 18,
+     "n_in": 383,
+     "diff_snr": 158.61597989126355,
+     "psf_sigma_px": 0.715427594996186,
+     "wcs_shift_px": [
+      0.025237189903515606,
+      0.01611349367331664
+     ],
+     "free_offset_target_as": 0.09844972286411646,
+     "chi2_free": 2019.2524106503315,
+     "chi2_target": 2020.0859952654203,
+     "amp_target": 29.0462532933632,
+     "n_capable": 2,
+     "hyp": [
+      {
+       "source_id": "5196550479838406272",
+       "sep_as": 43.149749058378816,
+       "dG": 4.725766999999999,
+       "chi2": 26250.608674951025,
+       "amp": 2.6384962758115535,
+       "is_target": false,
+       "free_offset_as": 43.07465985190219
+      },
+      {
+       "source_id": "5196550170600773376",
+       "sep_as": 88.9651224338709,
+       "dG": 4.487710999999999,
+       "chi2": 28486.197065257144,
+       "amp": -0.12777849880281023,
+       "is_target": false,
+       "free_offset_as": 90.326407716261
+      }
+     ],
+     "unresolved_capable": [],
+     "dchi2_best_neighbour_minus_target": 24230.522679685604,
+     "verdict": "on_target"
+    }
+   }
+  ]
+ },
+ "phase_specific_pixel_fits": [
+  {
+   "sector": "s0037",
+   "phase": 0,
+   "fit": {
+    "status": "ok",
+    "camera": 3,
+    "ccd": 4,
+    "n_events": 16,
+    "n_in": 114,
+    "diff_snr": 175.192678682366,
+    "psf_sigma_px": 0.7154706967724105,
+    "wcs_shift_px": [
+     0.12880288099428294,
+     0.004447536562230322
+    ],
+    "free_offset_target_as": 0.18838296162181198,
+    "chi2_free": 1753.302138751962,
+    "chi2_target": 1759.0286297758332,
+    "amp_target": 27.220011035806337,
+    "n_capable": 2,
+    "hyp": [
+     {
+      "source_id": "5196550479838406272",
+      "sep_as": 43.149749058378816,
+      "dG": 4.725766999999999,
+      "chi2": 36105.296526755475,
+      "amp": 1.2475151296670435,
+      "is_target": false,
+      "free_offset_as": 50.28741985313521
+     },
+     {
+      "source_id": "5196550170600773376",
+      "sep_as": 88.9651224338709,
+      "dG": 4.487710999999999,
+      "chi2": 36612.30650674591,
+      "amp": -0.48823309196400627,
+      "is_target": false,
+      "free_offset_as": 98.23117003596101
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 34346.26789697964,
+    "verdict": "on_target"
+   },
+   "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037_tess_v1_tp.fits",
+   "sha256": "6758dde424173e41242a886048ef866db1f209a9baaa1e0a9f33296f1b3b6b73"
+  },
+  {
+   "sector": "s0037",
+   "phase": 0.501476152888791,
+   "fit": {
+    "status": "ok",
+    "camera": 3,
+    "ccd": 4,
+    "n_events": 16,
+    "n_in": 113,
+    "diff_snr": 45.81339370517018,
+    "psf_sigma_px": 0.7153832253048679,
+    "wcs_shift_px": [
+     0.1266672598975899,
+     0.0077064060106976865
+    ],
+    "free_offset_target_as": 1.3324771828211495,
+    "chi2_free": 204.1898576383669,
+    "chi2_target": 222.17225380135778,
+    "amp_target": 5.991522680881303,
+    "n_capable": 7,
+    "hyp": [
+     {
+      "source_id": "5196550582918030720",
+      "sep_as": 1.4118137725468634,
+      "dG": 5.178838999999998,
+      "chi2": 275.324716559184,
+      "amp": 5.919550859093501,
+      "is_target": false,
+      "free_offset_as": 2.747808507072194
+     },
+     {
+      "source_id": "5196550479838406272",
+      "sep_as": 43.149749058378816,
+      "dG": 4.725766999999999,
+      "chi2": 2444.8342207005117,
+      "amp": 0.4221390597145909,
+      "is_target": false,
+      "free_offset_as": 49.01010124818386
+     },
+     {
+      "source_id": "5196550170600773376",
+      "sep_as": 88.9651224338709,
+      "dG": 4.487710999999999,
+      "chi2": 2487.452275055841,
+      "amp": -0.26137349922284686,
+      "is_target": false,
+      "free_offset_as": 98.1556330138827
+     },
+     {
+      "source_id": "5196550960874750208",
+      "sep_as": 67.59071712523492,
+      "dG": 5.4208300000000005,
+      "chi2": 2490.205475763764,
+      "amp": -0.19028340160238733,
+      "is_target": false,
+      "free_offset_as": 79.47382973268529
+     },
+     {
+      "source_id": "5196550131944839040",
+      "sep_as": 75.39694862658413,
+      "dG": 5.585759999999999,
+      "chi2": 2500.425048252937,
+      "amp": -0.11257015079352475,
+      "is_target": false,
+      "free_offset_as": 78.7304077893588
+     },
+     {
+      "source_id": "5196550960874751488",
+      "sep_as": 49.54858189654964,
+      "dG": 5.805072999999998,
+      "chi2": 2503.571700766657,
+      "amp": 0.042945822536672076,
+      "is_target": false,
+      "free_offset_as": 59.336165895358135
+     }
+    ],
+    "unresolved_capable": [
+     [
+      "5196550582918030720",
+      1.4,
+      5.18
+     ]
+    ],
+    "dchi2_best_neighbour_minus_target": 2222.661966899154,
+    "verdict": "on_target"
+   },
+   "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0037/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0037_tess_v1_tp.fits",
+   "sha256": "6758dde424173e41242a886048ef866db1f209a9baaa1e0a9f33296f1b3b6b73"
+  },
+  {
+   "sector": "s0065",
+   "phase": 0,
+   "fit": {
+    "status": "ok",
+    "camera": 3,
+    "ccd": 4,
+    "n_events": 18,
+    "n_in": 384,
+    "diff_snr": 163.24316482297576,
+    "psf_sigma_px": 0.715423982467695,
+    "wcs_shift_px": [
+     0.025230020421281755,
+     0.01612627672555914
+    ],
+    "free_offset_target_as": 0.12714372684741204,
+    "chi2_free": 2088.286532258875,
+    "chi2_target": 2090.412895489436,
+    "amp_target": 29.461173931554434,
+    "n_capable": 2,
+    "hyp": [
+     {
+      "source_id": "5196550479838406272",
+      "sep_as": 43.149749058378816,
+      "dG": 4.725766999999999,
+      "chi2": 26898.533597911897,
+      "amp": 2.6237788116767393,
+      "is_target": false,
+      "free_offset_as": 43.169489188939494
+     },
+     {
+      "source_id": "5196550170600773376",
+      "sep_as": 88.9651224338709,
+      "dG": 4.487710999999999,
+      "chi2": 29069.51916627192,
+      "amp": -0.14116522657238406,
+      "is_target": false,
+      "free_offset_as": 90.28953532020346
+     }
+    ],
+    "unresolved_capable": [],
+    "dchi2_best_neighbour_minus_target": 24808.12070242246,
+    "verdict": "on_target"
+   },
+   "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065_tess_v1_tp.fits",
+   "sha256": "9a94628f86cc5e66fcd44f35986ec5454d69e19444dbe8cc86b38cfb5c6a69b2"
+  },
+  {
+   "sector": "s0065",
+   "phase": 0.501476152888791,
+   "fit": {
+    "status": "ok",
+    "camera": 3,
+    "ccd": 4,
+    "n_events": 20,
+    "n_in": 425,
+    "diff_snr": 35.09151558959246,
+    "psf_sigma_px": 0.7156320707932478,
+    "wcs_shift_px": [
+     0.027212209263734025,
+     0.007472143188841288
+    ],
+    "free_offset_target_as": 0.7891737437122986,
+    "chi2_free": 216.03949704436536,
+    "chi2_target": 219.63960541285707,
+    "amp_target": 6.030968750002749,
+    "n_capable": 7,
+    "hyp": [
+     {
+      "source_id": "5196550582918030720",
+      "sep_as": 1.4118137725468634,
+      "dG": 5.178838999999998,
+      "chi2": 243.48795179536086,
+      "amp": 5.846172081241707,
+      "is_target": false,
+      "free_offset_as": 1.983822751254147
+     },
+     {
+      "source_id": "5196550479838406272",
+      "sep_as": 43.149749058378816,
+      "dG": 4.725766999999999,
+      "chi2": 1584.4795581193366,
+      "amp": 0.5582834812128884,
+      "is_target": false,
+      "free_offset_as": 42.47540633785833
+     },
+     {
+      "source_id": "5196550960874751488",
+      "sep_as": 49.54858189654964,
+      "dG": 5.805072999999998,
+      "chi2": 1684.909468504488,
+      "amp": 0.1719024822282216,
+      "is_target": false,
+      "free_offset_as": 50.54582639210509
+     },
+     {
+      "source_id": "5196550960874750592",
+      "sep_as": 52.646847739613925,
+      "dG": 5.691879999999999,
+      "chi2": 1689.7861070232707,
+      "amp": 0.15176710354256315,
+      "is_target": false,
+      "free_offset_as": 53.73258024264625
+     },
+     {
+      "source_id": "5196550960874750208",
+      "sep_as": 67.59071712523492,
+      "dG": 5.4208300000000005,
+      "chi2": 1696.1352658712237,
+      "amp": 0.0588205161646576,
+      "is_target": false,
+      "free_offset_as": 68.66292417777268
+     },
+     {
+      "source_id": "5196550131944839040",
+      "sep_as": 75.39694862658413,
+      "dG": 5.585759999999999,
+      "chi2": 1697.1928887219026,
+      "amp": -0.022567574563227014,
+      "is_target": false,
+      "free_offset_as": 75.29453694831255
+     }
+    ],
+    "unresolved_capable": [
+     [
+      "5196550582918030720",
+      1.4,
+      5.18
+     ]
+    ],
+    "dchi2_best_neighbour_minus_target": 1364.8399527064796,
+    "verdict": "on_target"
+   },
+   "uri": "https://archive.stsci.edu/hlsps/tess-spoc/s0065/target/0000/0003/2306/2963/hlsp_tess-spoc_tess_phot_0000000323062963-s0065_tess_v1_tp.fits",
+   "sha256": "9a94628f86cc5e66fcd44f35986ec5454d69e19444dbe8cc86b38cfb5c6a69b2"
+  }
+ ],
+ "ground_photometry": [
+  {
+   "survey": "ASASSN_V",
+   "n_in": 22,
+   "n_out": 477,
+   "nights_in": 22,
+   "depth_frac": 0.016492162204668315,
+   "sigma": 3.978622153198643,
+   "frac_in_3sig": 0.0,
+   "out_rms_mag": 0.01702850932713838,
+   "result": "marginal",
+   "median_mag": 11.82893346823056,
+   "n": 541
+  },
+  {
+   "survey": "ASASSN_g",
+   "n_in": 57,
+   "n_out": 1458,
+   "nights_in": 54,
+   "depth_frac": 0.024827968148558477,
+   "sigma": 9.365772371054643,
+   "frac_in_3sig": 0.07017543859649122,
+   "out_rms_mag": 0.017603428453903683,
+   "result": "marginal",
+   "median_mag": 11.97941475351415,
+   "n": 1670
+  }
+ ],
+ "catalogues": {
+  "controlled_batch": "part1600-group-500",
+  "matched_rows": [
+   {
+    "tic": "323062963",
+    "target_id": "323062963",
+    "catalogue": "J/ApJS/279/50/table2",
+    "designation": "323062963",
+    "gaia_dr3": "",
+    "matched_tic": "323062963",
+    "separation_arcsec": "0.000",
+    "classification": "EB",
+    "reported_period_days": "",
+    "association": "same_exact_id",
+    "catalogue_labels_eclipse": true
+   }
+  ],
+  "vsx_heasarc_matches_54_arcsec": [],
+  "full_ijspeert_2021_2024_90_arcsec_or_exact_tic_and_tang_exact_tic": [],
+  "wide_ijspeert_2024_prsa_period_matches_15_arcmin": [],
+  "gaia_and_project_checks": {
+   "gd": "5196550578620857984",
+   "tic": "323062963",
+   "gaia": "5196550578620857984",
+   "vari_eclipsing_binary": [],
+   "vari_classifier_result": [],
+   "nss_two_body_orbit": [],
+   "public_matches": [],
+   "superwasp_matches": [],
+   "theo_matches": []
+  },
+  "target_summary": {
+   "tic": "323062963",
+   "gaia_dr3": "5196550578620857984",
+   "eb_hits_30as": "",
+   "other_var_30as": "",
+   "eb_nearby_30_90as": "",
+   "kostov_table2_machine": "J/ApJS/279/50/table2:323062963::P=:0.0as",
+   "prsa_local": "",
+   "simbad_main_id": "TYC 9402-87-1",
+   "simbad_otype": "*",
+   "simbad_nbref": "0",
+   "simbad_sep": "0.0",
+   "simbad_other_30as": "",
+   "toi": "",
+   "ctoi": "",
+   "house": "",
+   "source_catalogue_note": ""
+  },
+  "villanova": {
+   "tic": "323062963",
+   "complete": true,
+   "exact": true,
+   "listed": "323062963",
+   "sha256": "7a369be8d21e7c91f29004bb74a454bf8bb565f4a063e8a7ade4d0ce8c49b90e",
+   "details": [
+    [
+     "1",
+     "False",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "None",
+     "wp,pfPolyfit width of the primary eclipse",
+     "ws,pfPolyfit width of the secondary eclipse",
+     "dp,pfPolyfit depth of the primary eclipse",
+     "ds,pfPolyfit depth of the secondary eclipse",
+     "\u03c6p,pfPolyfit phase of the primary eclipse",
+     "\u03c6s,pfPolyfit phase of the secondary eclipse",
+     "wp,2g2-gaussian width of the primary eclipse",
+     "ws,2g2-gaussian width of the secondary eclipse",
+     "dp,2g2-gaussian depth of the primary eclipse",
+     "ds,2g2-gaussian depth of the secondary eclipse",
+     "\u03c6p,2g2-gaussian phase of the primary eclipse",
+     "\u03c6s,2g2-gaussian phase of the secondary eclipse"
+    ]
+   ]
+  },
+  "spectroscopic_eb_table": [],
+  "simbad": {
+   "complete": true,
+   "tic": "323062963",
+   "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+   "aliases": [
+    "2MASS J08272764-8017412",
+    "APASS 35230138",
+    "AllWISE J082727.66-801741.4",
+    "Gaia DR2 5196550578620857984",
+    "TYC 9402-00087-1",
+    "TYC 9402-87-1",
+    "UCAC4 049-005593"
+   ],
+   "objects": {
+    "TYC 9402-87-1": {
+     "object_type": "*",
+     "matched_aliases": [
+      "2MASS J08272764-8017412",
+      "Gaia DR2 5196550578620857984",
+      "TYC 9402-87-1"
+     ],
+     "simbad_ids": "TIC 323062963|Gaia DR3 5196550578620857984|TYC 9402-87-1|2MASS J08272764-8017412|Gaia DR1 5196550578620857984|Gaia DR2 5196550578620857984",
+     "references": {}
+    }
+   }
+  },
+  "ads": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"2MASS J08272764-8017412\" OR full:\"APASS 35230138\" OR full:\"AllWISE J082727.66-801741.4\" OR full:\"Gaia DR1 5196550578620857984\" OR full:\"Gaia DR2 5196550578620857984\" OR full:\"Gaia DR3 5196550578620857984\" OR full:\"TIC 323062963\" OR full:\"TYC 9402-00087-1\" OR full:\"TYC 9402-87-1\" OR full:\"UCAC4 049-005593\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      }
+     ]
+    }
+   ],
+   "complete": true,
+   "aliases": [
+    "2MASS J08272764-8017412",
+    "APASS 35230138",
+    "AllWISE J082727.66-801741.4",
+    "Gaia DR1 5196550578620857984",
+    "Gaia DR2 5196550578620857984",
+    "Gaia DR3 5196550578620857984",
+    "TIC 323062963",
+    "TYC 9402-00087-1",
+    "TYC 9402-87-1",
+    "UCAC4 049-005593"
+   ]
+  },
+  "exofop": {
+   "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=323062963&json=",
+   "sha256": "5a1daf515f78af20041e490d001661d4d636889e619cf732714b1431eb500a23",
+   "tois": [],
+   "ctois": []
+  },
+  "tic_parameters": {
+   "ID": 323062963,
+   "version": "20190415",
+   "Teff": 6418,
+   "e_Teff": 134.725,
+   "rad": 1.76761,
+   "e_rad": 0.0797789,
+   "logg": 4.05389,
+   "e_logg": 0.0877387,
+   "mass": 1.29,
+   "e_mass": 0.204748,
+   "Tmag": 11.3142,
+   "GAIA": "5196550578620857984"
+  },
+  "individual_publication": {}
+ }
+}

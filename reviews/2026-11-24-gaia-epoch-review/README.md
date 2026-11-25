@@ -1,6 +1,8 @@
 # Gaia epoch photometry and TESS eclipses
 
-This review followed up 24 Gaia spectroscopic binaries using TESS photometry. Seventeen hosts enter the catalogue as R1803–R1819. The remaining seven recover earlier identifications. Eight of the additions have a public TESS pipeline detection at a related period. R1812 (GD11) has a prior transit classification at a different period. For eight additions the catalogues and survey records screened here yielded no earlier eclipse flag. [Accepted hosts and ephemerides](host-stars.csv) · [All 24 decisions and per-source Gaia archive queries](reviewed-stars.csv)
+**Updated membership.** Nine of the original 17 entries match the earlier IJspeert et al. (2024) eclipse catalogue. Eight remain counted. The original tables below preserve the measurements and the decisions made at first publication. [Corrected identifications](../2026-11-24-expanded-search/prior-identifications.csv) · [Current catalogue](../../accepted-systems.csv)
+
+This review followed up 24 Gaia spectroscopic binaries using TESS photometry. Seventeen hosts initially entered the catalogue as R1803–R1819. The remaining seven recover earlier identifications. Eight of the additions have a public TESS pipeline detection at a related period. R1812 (GD11) has a prior transit classification at a different period. For eight additions the catalogues and survey records screened here yielded no earlier eclipse flag. [Accepted hosts and ephemerides](host-stars.csv) · [All 24 decisions and per-source Gaia archive queries](reviewed-stars.csv)
 
 | Selection | Reviewed | Confirmed | Probable | Prior identifications |
 |---|---:|---:|---:|---:|

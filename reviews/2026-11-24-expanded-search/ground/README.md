@@ -1,0 +1,30 @@
+# Spectroscopic binary follow-up, 24 November 2026
+
+Eight spectroscopic binaries show TESS eclipses localized to their Gaia sources. Additional ZTF and ASAS-SN results are recorded separately by system. Fable 5.2 flagged all eight in its 22 November ground-spectroscopy search. Its two-sector prefilter set them aside. All eight already appeared in Kostov et al.'s unvetted machine list. These records document the eclipse identifications and preserve the prior spectroscopy, machine selection and Fable flags.
+
+| TIC | Timing in days | Evidence |
+| --- | --- | --- |
+| 247400978 | Orbital period 24.88439 | Five TESS sectors, secondary near phase 0.23, localized primary in four sectors, ZTF g eclipse |
+| 29781532 | Orbital period 13.53201 | Six TESS sectors, secondary near phase 0.40, primary and secondary localized in four sectors, ASAS-SN V and g eclipses. Villanova has an earlier target entry marked outside its EB catalogue, with no period or epoch |
+| 239048252 | Eclipse spacing 21.2358 | Three directly timed TESS minima, two localized sectors, ZTF r and ASAS-SN g eclipses. The orbital cycle remains unresolved |
+| 278660532 | Eclipse spacing 4.63292 | Six TESS sectors and ASAS-SN g. The 9.26585 d fold pairs nearly identical consecutive dips. The orbital cycle remains unresolved |
+| 102982448 | Orbital period 8.92259 | Fourteen primary and fifteen secondary events across six sectors. Both eclipse phases localize to the target in sectors 9 and 36 |
+| 269726650 | Orbital period 14.5820 | Eccentric eclipses with secondary near phase 0.285. Both primary and secondary localize to the target in sectors 56 and 83. ZTF g repeats the primary |
+| 138711084 | Eclipse spacing 20.2329 | Four deep events across sectors 22 and 48 localize to the star. ZTF r repeats the primary. The orbital cycle remains unresolved |
+| 464342678 | Eclipse spacing 14.5279 | Eight events pass the two-sided baseline test. Primary difference images in sectors 93 and 102 locate the eclipse on the star. The orbital cycle remains unresolved |
+
+[Systems and timing measurements](systems.csv) includes the adopted orbit or fold and the status of its interpretation. The JSON files contain measured primary and secondary events, threshold failures, pixel fits, MAST product identifiers and SHA-256 values, independent survey results, plus literature and catalogue checks. Light curves and difference images use multiple products from the same TESS exposures. Independent ground detections are identified separately. The number of primary events in the CSV counts dips passing bilateral local-baseline checks. TIC 239048252 also has a third clear in-eclipse sequence near a coverage boundary, included in its timing fit.
+
+## Sample and checks
+
+Of 931 previously excluded ground-survey targets, 902 failed the local recurrence test, ten had broad variability, eight passed in one sector and two already had public records. The remaining nine received independent follow-up. Four entered the catalogue on this pass. Two proved to be previously classified eclipsing systems. The others have broad variability or insufficient source or secondary evidence.
+
+A second pass searched raw and detrended data for isolated, locally bracketed dips without imposing the original period. Of the parked stars, 28 had dips of similar depth and duration across sectors. Five particularly clear sequences received full follow-up. Four are included, and the fifth is the previously published K2 eclipsing binary EPIC 210654881. [All 28 timing leads](unphased-pairs.csv) retain the individual event measurements and the status of this follow-up.
+
+We also examined 323 additional SB9 orbital records on 318 distinct stars. The sample required a reported orbital period from 0.3 to 25 d, two or more planned TESS sectors and no previously reduced SB9 light curve. We removed earlier project overlaps and known catalogued EBs found in the initial screen. Two-sector searches at the spectroscopic period produced 12 follow-up cases, 288 without convincing per-sector recurrence, 13 with insufficient morphology or depth consistency, and ten with insufficient data. Further checks recovered catalogued EBs among the 12 and identified pulsations, conflicting centroids and prior variability reports in the remaining fields.
+
+[Individual follow-up decisions](reviewed-candidates.csv) covers all 26 targets selected for closer review. [Screening dispositions](screening-dispositions.csv) includes every ground candidate and SB9 orbital record in this batch. Negative decisions apply to this analysis and available coverage.
+
+Each accepted system underwent current AAVSO VSX, Villanova, SIMBAD references, ADS alias search with positive control, Gaia DR3 variability and NSS, TOI/CTOI, SuperWASP, published EB survey tables, the 2,010-row public project ledger and released Chopard-Vilhem candidate-file checks. We checked the explicit 2021 and 2024 IJspeert EB tables independently and matched all 514 TICs in the publisher's Tang et al. table. Each JSON records the results. Absolute discovery priority remains limited by catalogue and literature coverage.
+
+Sources include the [LAMOST spectroscopic catalogue](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/521/tableb1), [GALAH spectroscopic catalogue](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/638/A145/catalog), [Kostov machine-candidate catalogue](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/279/50/table2), [IJspeert 2021](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/652/A120/eb-cat), [IJspeert 2024](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/691/A242/obaf-eb1), [Tang et al. machine-readable table](https://content.cld.iop.org/journals/1538-3881/170/6/356/revision1/ajae18c4t1_mrt.txt), [the published Gamma And eclipse identification](https://academic.oup.com/mnras/article/547/4/stag413/8502134), and [the HIP 70931 heartbeat classification](https://doi.org/10.1051/0004-6361/202039553).

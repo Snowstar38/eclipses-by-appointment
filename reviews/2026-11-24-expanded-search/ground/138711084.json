@@ -1,0 +1,287 @@
+{
+ "tic": "138711084",
+ "gaia_dr3": "730914510776303872",
+ "ra_deg": 162.904625,
+ "dec_deg": 27.4518056,
+ "tmag": 12.744,
+ "claim": "Strong on-target stellar eclipses recur every 20.23290 d. No distinct secondary is established. A longer orbital cycle with similar alternating eclipses remains possible.",
+ "spectroscopic_prior": "Kovalev et al. 2024, LAMOST MRS double-lined spectra",
+ "previous_machine_flag": "Kostov 2025 unvetted table 2",
+ "initial_project_signal": "Fable 5.2 ground-SB QLP search, 2026-11-22",
+ "followup": "Astra follow-up, 2026-11-24. Search for well-bracketed dips in raw and detrended TESS data, independent of the earlier period.",
+ "refit": {
+  "P": 20.2329,
+  "snr": 482.10970200121665,
+  "dur": 0.08124999999999999,
+  "depth": 0.19567936729366195,
+  "t0": 1905.6716153125642,
+  "alias_snr": 377.78240964908605,
+  "P_alt": 20.214269337016574
+ },
+ "secondary_fit": {
+  "phase": 0.1850000000000001,
+  "snr": 2.1802835834173027,
+  "depth_ppt": 2.0141787494644126
+ },
+ "morphology": {
+  "chi2_trap": 391.8559762845332,
+  "chi2_sin": 414.706734726304,
+  "dBIC_sin_minus_trap": 12.579161567670269,
+  "n_bins": 170,
+  "trap_depth": 0.05894903040489967,
+  "trap_width_phase": 0.015048200969163386,
+  "trap_ingress_frac": 0.29980217321582275,
+  "trap_sec_phase": 0.18509958170515162,
+  "trap_sec_depth": 0.0009676399492855708,
+  "trap_sec_width": 0.005103860637121813,
+  "ooe_ellip_ptp": 0.0001776494983599524,
+  "ooe_1harm_ptp": 0.0003102889570212446,
+  "ooe_rms": 0.0007411023250445534,
+  "ooe_redchi2": 2.3313455664843565,
+  "n_ooe_bins": 164
+ },
+ "sectors": [
+  {
+   "sector": 22,
+   "survey": "TESS-SPOC",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0022%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0022_tess_v1_lc.fits",
+   "raw_sha256": "67d49ecb81e40718c67aba5e5e65c8e99e5ed1487bae03e375b1f420dcd0d7e1",
+   "cadences": 1031
+  },
+  {
+   "sector": 48,
+   "survey": "TESS-SPOC",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0048%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0048_tess_v1_lc.fits",
+   "raw_sha256": "8264849a944f82c8de385883d6486e17351cd2e3e00e29aaa6274527323d7a62",
+   "cadences": 3087
+  }
+ ],
+ "events": [
+  {
+   "event": "primary",
+   "sector": 22,
+   "cycle": 0,
+   "raw_depth_ppt": 203.098,
+   "detrended_depth_ppt": 204.617,
+   "local_snr": 220.06,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 22,
+   "cycle": 1,
+   "raw_depth_ppt": 232.241,
+   "detrended_depth_ppt": 232.503,
+   "local_snr": 241.94,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 22,
+   "cycle": 0,
+   "raw_depth_ppt": -0.02,
+   "detrended_depth_ppt": -0.524,
+   "local_snr": -0.55,
+   "passes_depth_check": false
+  },
+  {
+   "event": "primary",
+   "sector": 48,
+   "cycle": 35,
+   "raw_depth_ppt": 218.912,
+   "detrended_depth_ppt": 218.608,
+   "local_snr": 212.13,
+   "passes_depth_check": true
+  },
+  {
+   "event": "primary",
+   "sector": 48,
+   "cycle": 36,
+   "raw_depth_ppt": 221.265,
+   "detrended_depth_ppt": 220.503,
+   "local_snr": 213.97,
+   "passes_depth_check": true
+  },
+  {
+   "event": "secondary",
+   "sector": 48,
+   "cycle": 35,
+   "raw_depth_ppt": 1.954,
+   "detrended_depth_ppt": 1.91,
+   "local_snr": 1.45,
+   "passes_depth_check": false
+  }
+ ],
+ "difference_images": [
+  {
+   "sector": 22,
+   "phase": "primary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0022%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0022_tess_v1_tp.fits",
+   "sha256": "1d203d6335588df9c83137101d05aab6a4f3382da89dab0e5d6491127bddb616",
+   "status": "on_target",
+   "events": 2,
+   "signal_to_noise": 220.2361602783203,
+   "centroid_offset_arcsec": 0.5715695427660046,
+   "number_of_capable_neighbours": 0,
+   "unresolved_capable": [],
+   "neighbour_comparisons": []
+  },
+  {
+   "sector": 22,
+   "phase": "secondary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0022%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0022_tess_v1_tp.fits",
+   "sha256": "1d203d6335588df9c83137101d05aab6a4f3382da89dab0e5d6491127bddb616",
+   "status": "weak_diff",
+   "events": 1,
+   "signal_to_noise": -2.12814998626709,
+   "centroid_offset_arcsec": 11.80228026380848,
+   "number_of_capable_neighbours": 0,
+   "unresolved_capable": [],
+   "neighbour_comparisons": []
+  },
+  {
+   "sector": 48,
+   "phase": "primary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0048%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0048_tess_v1_tp.fits",
+   "sha256": "2aae0debb6d3ad3f4e0075076762e0fb9b04d5cc2fd18f0b4a994fc8cce43df3",
+   "status": "on_target",
+   "events": 2,
+   "signal_to_noise": 219.29898071289062,
+   "centroid_offset_arcsec": 0.10259745559815367,
+   "number_of_capable_neighbours": 0,
+   "unresolved_capable": [],
+   "neighbour_comparisons": []
+  },
+  {
+   "sector": 48,
+   "phase": "secondary",
+   "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AHLSP%2Ftess-spoc%2Fs0048%2Ftarget%2F0000%2F0001%2F3871%2F1084%2Fhlsp_tess-spoc_tess_phot_0000000138711084-s0048_tess_v1_tp.fits",
+   "sha256": "2aae0debb6d3ad3f4e0075076762e0fb9b04d5cc2fd18f0b4a994fc8cce43df3",
+   "status": "offset_unexplained",
+   "events": 1,
+   "signal_to_noise": 5.264689922332764,
+   "centroid_offset_arcsec": 16.58719402348151,
+   "number_of_capable_neighbours": 0,
+   "unresolved_capable": [],
+   "neighbour_comparisons": []
+  }
+ ],
+ "ground_photometry": [
+  {
+   "survey": "ZTF_zg",
+   "n_in": 0,
+   "n_out": 348,
+   "result": "no_in_eclipse_points",
+   "median_mag": 14.4154406,
+   "n": 349
+  },
+  {
+   "survey": "ZTF_zr",
+   "n_in": 5,
+   "n_out": 514,
+   "nights_in": 3,
+   "depth_frac": 0.2341296438609043,
+   "sigma": 33.514793904922485,
+   "frac_in_3sig": 1.0,
+   "out_rms_mag": 0.014752092389998504,
+   "result": "eclipse_seen",
+   "median_mag": 13.3251467,
+   "n": 525
+  },
+  {
+   "survey": "GaiaEpoch",
+   "result": "none"
+  }
+ ],
+ "catalogues": {
+  "VizieR_confirmed_EB_30as": "",
+  "VizieR_nearby_EB_90as": "",
+  "VizieR_machine_list": "J/ApJS/279/50/table2:138711084::P=:0.4as",
+  "VSX_current": {
+   "VSXObjects": []
+  },
+  "TOI": "",
+  "CTOI": "",
+  "Prsa": "",
+  "Gaia_exact_ID": {
+   "nss_two_body_orbit": [],
+   "vari_classifier_result": [],
+   "vari_eclipsing_binary": []
+  },
+  "SIMBAD_5as": {
+   "within_5as": []
+  },
+  "SuperWASP_FP": []
+ },
+ "links": {
+  "VSX_current": "https://www.aavso.org/vsx/index.php?view=api.list&ra=162.904625&dec=27.4518056&radius=0.008333333333333333&format=json",
+  "SIMBAD": "https://simbad.cds.unistra.fr/simbad/sim-coo?Coord=162.904625+27.4518056&Radius=5&Radius.unit=arcsec",
+  "Gaia_DR3": "https://gea.esac.esa.int/archive/",
+  "Kostov_table2": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J%2FApJS%2F279%2F50%2Ftable2&TIC=138711084",
+  "ASAS-SN": "https://asas-sn.osu.edu/skypatrol",
+  "ZTF": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+162.904625+27.4518056+0.0006&BANDNAME=g%2Cr&FORMAT=csv&BAD_CATFLAGS_MASK=32768",
+  "spectroscopic_prior": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/521/tableb1",
+  "Villanova": "https://tessebs.villanova.edu/0138711084"
+ },
+ "prior_crosschecks": {
+  "Villanova": {
+   "tic": "138711084",
+   "complete": true,
+   "exact": false,
+   "listed": "",
+   "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+  },
+  "spectroscopic_eclipsing_binary_compilation": [],
+  "ADS_queries": {
+   "query": "full:\"2MASS J10513715+2727065\" OR full:\"APASS 46807618\" OR full:\"AllWISE J105137.12+272706.5\" OR full:\"Gaia DR2 730914510776303872\" OR full:\"Gaia DR3 730914510776303872\" OR full:\"TIC 138711084\" OR full:\"UCAC4 588-047813\"",
+   "numFound": 0,
+   "docs": []
+  },
+  "ADS_positive_control_num_found": 465,
+  "IJspeert2021": {
+   "success": true,
+   "members": []
+  },
+  "IJspeert2024": {
+   "success": true,
+   "members": []
+  },
+  "tic": "138711084",
+  "gaia_dr3": "730914510776303872",
+  "tang_2025": {
+   "source": "https://content.cld.iop.org/journals/1538-3881/170/6/356/revision1/ajae18c4t1_mrt.txt",
+   "survey_TICs": 514,
+   "member": false,
+   "raw_sha256": "23209b19205be8daca5a9c1728eeb3be43023d35b44055fae8e5bbfe290163f6"
+  },
+  "public_within_30as": [],
+  "Chopard_Vilhem_prior_identifiers": []
+ },
+ "secondary_fit_status": "phase scan only; no supported secondary eclipse",
+ "initial_unphased_events": [
+  {
+   "sector": 22,
+   "mid": 1905.6722989003097,
+   "depth": 0.17685330274980515,
+   "width": 0.14582961659091243
+  },
+  {
+   "sector": 22,
+   "mid": 1925.9010066022415,
+   "depth": 0.19763236686867458,
+   "width": 0.12499251456877035
+  },
+  {
+   "sector": 48,
+   "mid": 2613.8215355096654,
+   "depth": 0.19174565769480978,
+   "width": 0.12847258889776103
+  },
+  {
+   "sector": 48,
+   "mid": 2634.0545168507724,
+   "depth": 0.20269937072589528,
+   "width": 0.12152428476481335
+  }
+ ]
+}

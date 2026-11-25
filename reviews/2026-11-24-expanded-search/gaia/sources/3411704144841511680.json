@@ -1,0 +1,420 @@
+{
+ "gaia_dr3": "3411704144841511680",
+ "tic": "68574706",
+ "photometry": {
+  "tic": "68574706",
+  "match": "exact Gaia identifier",
+  "available": [
+   43,
+   44,
+   71
+  ],
+  "selected": [
+   43,
+   44,
+   71
+  ],
+  "products": [
+   {
+    "sector": 43,
+    "uri": "mast:HLSP/qlp/s0043/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0043-0000000068574706_tess_v01_llc.fits",
+    "filename": "hlsp_qlp_tess_ffi_s0043-0000000068574706_tess_v01_llc.fits",
+    "sha256": "96e55d94103a63ec04434080fd106fcafa00910d885aed8780f4db911653f477",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/qlp/s0043/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0043-0000000068574706_tess_v01_llc.fits"
+   },
+   {
+    "sector": 44,
+    "uri": "mast:HLSP/qlp/s0044/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0044-0000000068574706_tess_v01_llc.fits",
+    "filename": "hlsp_qlp_tess_ffi_s0044-0000000068574706_tess_v01_llc.fits",
+    "sha256": "725daf129bc1ff0a8654195fab75c4f0a70c7cd240d6ddda01e0c027ed35aca8",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/qlp/s0044/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0044-0000000068574706_tess_v01_llc.fits"
+   },
+   {
+    "sector": 71,
+    "uri": "mast:HLSP/qlp/s0071/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0071-0000000068574706_tess_v01_llc.fits",
+    "filename": "hlsp_qlp_tess_ffi_s0071-0000000068574706_tess_v01_llc.fits",
+    "sha256": "13c2af09dd28619bb9cc261ef072551aafe84a9c96a67bcea3f4b848d0fa706e",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HLSP/qlp/s0071/0000/0000/6857/4706/hlsp_qlp_tess_ffi_s0071-0000000068574706_tess_v01_llc.fits"
+   }
+  ]
+ },
+ "fit": {
+  "source_id": "3411704144841511680",
+  "tic": "68574706",
+  "period_days": "34.67369799114311",
+  "epoch_btjd": "2492.6813436479797",
+  "covered_btjd": "2492.682741",
+  "width_days": "0.4161125961804373",
+  "depth_ppt": "307.432",
+  "n_events": "2",
+  "strong_events": "2",
+  "strong_sectors": "2",
+  "sectors": "43|44|71",
+  "shape_prominence": "896.81",
+  "which_conjunction": "B",
+  "offset_hours": "-0.8450434630794916",
+  "offset_sigma": "-0.021382511824872094"
+ },
+ "nearby_public": {
+  "identifier": "R1642",
+  "separation_arcsec": "5727.27"
+ },
+ "events": [
+  {
+   "cycle": "0",
+   "sector": "43",
+   "mid_btjd": "2492.682741",
+   "core_bins": "29",
+   "base_bins": "120",
+   "depth_ppt": "339.7856",
+   "noise_ppt": "1.3566",
+   "strong": "True"
+  },
+  {
+   "cycle": "22",
+   "sector": "71",
+   "mid_btjd": "3255.504384",
+   "core_bins": "30",
+   "base_bins": "120",
+   "depth_ppt": "314.9576",
+   "noise_ppt": "1.4928",
+   "strong": "True"
+  }
+ ],
+ "raw_event_depths": [
+  {
+   "sector": "43",
+   "cycle": "0",
+   "phase": "0",
+   "core": "53",
+   "depth_ppt": "339.826",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "43",
+   "cycle": "-1",
+   "phase": "0.75",
+   "core": "55",
+   "depth_ppt": "-0.456",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "0",
+   "phase": "0.25",
+   "core": "58",
+   "depth_ppt": "0.231",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "44",
+   "cycle": "0",
+   "phase": "0.75",
+   "core": "60",
+   "depth_ppt": "-0.48",
+   "column": "SAP_FLUX"
+  },
+  {
+   "sector": "71",
+   "cycle": "22",
+   "phase": "0",
+   "core": "180",
+   "depth_ppt": "315.882",
+   "column": "SAP_FLUX"
+  }
+ ],
+ "pixel_checks": [
+  {
+   "sector": 43,
+   "period": 34.67369799114311,
+   "epoch": 2492.6813436479797,
+   "width_days": 0.4161125961804373,
+   "source": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/0IOzqF55fqgfqpKe/astrocut_73.67813326745213_20.837288170756274_9.0x9.0px.zip",
+   "sha256": "b835c094f98dd03c9bd27a912a08d210f7f133091f3378c396faa659ef5dce3f",
+   "status": "ok",
+   "camera": 3,
+   "ccd": 3,
+   "n_events": 1,
+   "n_in": 36,
+   "diff_snr": 162.16969299316406,
+   "psf_sigma_px": 0.7284536301902488,
+   "wcs_shift_px": [
+    0.051564365772895596,
+    0.07649033937378251
+   ],
+   "free_offset_target_as": 0.28363287577544016,
+   "chi2_free": 648.2250807358578,
+   "chi2_target": 655.711337000559,
+   "amp_target": 246.87434403913448,
+   "n_capable": 1,
+   "hyp": [
+    {
+     "source_id": "3411705008131991680",
+     "sep_as": 35.66,
+     "dG": 1.1759339999999998,
+     "chi2": 42760.29574050817,
+     "amp": 55.73935843153352,
+     "is_target": false,
+     "free_offset_as": 36.82485603652938
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 42104.58440350761,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=73.67813326745213&dec=20.837288170756274&x=9&y=9&sector=43"
+  },
+  {
+   "sector": 44,
+   "period": 34.67369799114311,
+   "epoch": 2492.6813436479797,
+   "width_days": 0.4161125961804373,
+   "source": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/3gPuhridpMe8kank/astrocut_73.67813326745213_20.837288170756274_9.0x9.0px.zip",
+   "sha256": "35d9566c33159aa0aa55e5808e55d767c6a880ab1fac2f0647176eb871040c09",
+   "status": "no_events_in_sector",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=73.67813326745213&dec=20.837288170756274&x=9&y=9&sector=44"
+  },
+  {
+   "sector": 71,
+   "period": 34.67369799114311,
+   "epoch": 2492.6813436479797,
+   "width_days": 0.4161125961804373,
+   "source": "https://stpubdata.s3.amazonaws.com/tess/public/staged_cutouts/6dYwSmyyndGOIZbm/astrocut_73.67813326745213_20.837288170756274_9.0x9.0px.zip",
+   "sha256": "d463f2221e4152d7627d9c8456812aa760f92b43cd79b22e1e0e11c39be05b63",
+   "status": "ok",
+   "camera": 2,
+   "ccd": 1,
+   "n_events": 1,
+   "n_in": 108,
+   "diff_snr": 110.87085723876953,
+   "psf_sigma_px": 0.7953566933327102,
+   "wcs_shift_px": [
+    -0.033148386481303534,
+    0.020033824363953547
+   ],
+   "free_offset_target_as": 0.8832764261398702,
+   "chi2_free": 187.34164148321165,
+   "chi2_target": 216.7490239112541,
+   "amp_target": 199.48687978067986,
+   "n_capable": 1,
+   "hyp": [
+    {
+     "source_id": "3411705008131991680",
+     "sep_as": 35.66,
+     "dG": 1.1759339999999998,
+     "chi2": 17566.68405134615,
+     "amp": 50.249336381501095,
+     "is_target": false,
+     "free_offset_as": 35.40059457940133
+    }
+   ],
+   "unresolved_capable": [],
+   "dchi2_best_neighbour_minus_target": 17349.935027434894,
+   "verdict": "on_target",
+   "reconstruction_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=73.67813326745213&dec=20.837288170756274&x=9&y=9&sector=71"
+  }
+ ],
+ "catalogues": {
+  "tic": "68574706",
+  "gaia_dr3": "3411704144841511680",
+  "eb_hits_30as": "",
+  "other_var_30as": "B/vsx/vsx:Gaia DR3 3411704144841511680:VAR:P=0.014796400000:0.1as ; J/AJ/156/241/table4:J073.6781+20.8372:dubious:P=:0.0as",
+  "eb_nearby_30_90as": "",
+  "kostov_table2_machine": "",
+  "prsa_local": "",
+  "simbad_main_id": "2MASS J04544273+2050143",
+  "simbad_otype": "SB*",
+  "simbad_nbref": "4",
+  "simbad_sep": "0.1",
+  "simbad_other_30as": "",
+  "simbad_bib_eclipse_titles": "",
+  "simbad_bib_binary_titles_n": 0,
+  "toi": "",
+  "ctoi": "",
+  "house": "",
+  "source_catalogue_note": "Kovalev2024_LAMOST_MRS::",
+  "vsx_api": {
+   "VSXObjects": {
+    "VSXObject": [
+     {
+      "Name": "Gaia DR3 3411704144841511680",
+      "RA2000": "73.67810",
+      "Declination2000": "20.83731",
+      "ProperMotionRA": "6.9860",
+      "ProperMotionDec": "-4.9020",
+      "VariabilityType": "VAR",
+      "Period": "0.0147964",
+      "MaxMag": "12.51 G",
+      "MinMag": "12.85 G",
+      "SpectralType": "K",
+      "Discoverer": "Gaia collaboration",
+      "Category": "Variable",
+      "OID": "3062746",
+      "Constellation": "Tau"
+     }
+    ]
+   }
+  }
+ },
+ "current_vsx": {
+  "VSXObjects": {
+   "VSXObject": [
+    {
+     "Name": "Gaia DR3 3411704144841511680",
+     "RA2000": "73.67810",
+     "Declination2000": "20.83731",
+     "ProperMotionRA": "6.9860",
+     "ProperMotionDec": "-4.9020",
+     "VariabilityType": "VAR",
+     "Period": "0.0147964",
+     "MaxMag": "12.51 G",
+     "MinMag": "12.85 G",
+     "SpectralType": "K",
+     "Discoverer": "Gaia collaboration",
+     "Category": "Variable",
+     "OID": "3062746",
+     "Constellation": "Tau"
+    }
+   ]
+  }
+ },
+ "direct_vsx_url": "https://www.aavso.org/vsx/index.php?view=api.list&ra=73.67813326745213&dec=20.837288170756274&radius=0.0125&format=json",
+ "supplement": {
+  "gd": "3411704144841511680",
+  "tic": "68574706",
+  "gaia": "3411704144841511680",
+  "vari_eclipsing_binary": [],
+  "vari_classifier_result": [],
+  "nss_two_body_orbit": [
+   {
+    "source_id": 3411704144841511680,
+    "nss_solution_type": "SB1",
+    "period": 34.676049681703105
+   }
+  ],
+  "public_matches": [],
+  "superwasp_matches": [],
+  "theo_matches": []
+ },
+ "live_villanova": {
+  "tic": "68574706",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "simbad_cross_identification": {
+  "complete": true,
+  "tic": "68574706",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J04544273+2050143",
+   "APASS 44957041",
+   "AllWISE J045442.74+205014.3",
+   "Gaia DR2 3411704144841511680",
+   "UCAC4 555-011800"
+  ],
+  "objects": {
+   "2MASS J04544273+2050143": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J04544273+2050143",
+     "Gaia DR2 3411704144841511680"
+    ],
+    "simbad_ids": "TIC 68574706|LAMOST J045442.75+205014.2|Gaia DR3 3411704144841511680|2MASS J04544273+2050143|GALEX J045442.7+205014|Gaia DR2 3411704144841511680",
+    "references": {
+     "2020ApJS..251...15Z": "Phase II of the LAMOST-Kepler/K2 survey. I. Time series of medium-resolution Spectroscopic observations.",
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2010AJ....139.1338F": "Ultraviolet-selected field and pre-main-sequence stars toward Taurus and  upper Scorpius.",
+     "2022yCat.1358....0G": "Gaia Data Release 3 (Gaia DR3). Part 4. Variability."
+    }
+   }
+  }
+ },
+ "ads": {
+  "aliases": [
+   "2MASS J04544273+2050143",
+   "APASS 44957041",
+   "AllWISE J045442.74+205014.3",
+   "GALEX J045442.7+205014",
+   "Gaia DR2 3411704144841511680",
+   "Gaia DR3 3411704144841511680",
+   "LAMOST J045442.75+205014.2",
+   "TIC 68574706",
+   "UCAC4 555-011800"
+  ],
+  "query": "full:\"2MASS J04544273+2050143\" OR full:\"APASS 44957041\" OR full:\"AllWISE J045442.74+205014.3\" OR full:\"GALEX J045442.7+205014\" OR full:\"Gaia DR2 3411704144841511680\" OR full:\"Gaia DR3 3411704144841511680\" OR full:\"LAMOST J045442.75+205014.2\" OR full:\"TIC 68574706\" OR full:\"UCAC4 555-011800\"",
+  "count": 0,
+  "documents": [],
+  "complete": true
+ },
+ "additional_tables": {
+  "spectroscopic_catalogue_280_matches": [],
+  "tang_2025_514_matches": []
+ },
+ "ijspeert_eb_rows_within_90arcsec_or_matching_id": [],
+ "pipeline": {
+  "local_signals": [],
+  "mast_dvr_uris": [],
+  "mast_signals": []
+ },
+ "k2_followup": {
+  "product": "ktwo247332572-c13_llc.fits",
+  "url": "https://archive.stsci.edu/missions/k2/lightcurves/c13/247300000/32000/ktwo247332572-c13_llc.fits",
+  "sha256": "f0b9118eb052432aef64a6fedd4e073244aaf17c53d2960d5cad96bb7cde11e6",
+  "target": "EPIC 247332572",
+  "tested_events": [
+   {
+    "cycle": -48,
+    "predicted": 828.345237425131,
+    "observed_min_btjd": 828.4275104620247,
+    "raw_depth_ppt": 368.8492126464844,
+    "core_n": 14
+   },
+   {
+    "cycle": -47,
+    "predicted": 863.018935416274,
+    "observed_min_btjd": 863.05942359857,
+    "raw_depth_ppt": 378.56317138671875,
+    "core_n": 15
+   },
+   {
+    "cycle": -46,
+    "predicted": 897.6926334074171,
+    "observed_min_btjd": 897.7931776497135,
+    "raw_depth_ppt": 374.006103515625,
+    "core_n": 4,
+    "full_eclipse_centre_btjd": 897.893128578412
+   }
+  ],
+  "k2_proposal": "GO13123, Galactic Archaeology on a grand scale (PI Stello)",
+  "k2_guest_observer_url": "https://keplergo.github.io/KeplerScienceWebsite/k2-approved-programs.html",
+  "ads_epic_alias_results": 0,
+  "nasa_k2pandc_rows": 0,
+  "exofop_statuses": [
+   "No TOIs",
+   "No Planet Parameters",
+   "No Files"
+  ],
+  "scaling_k2_806_table_exact_rows": 0,
+  "scaling_k2_table_url": "http://vizier.nao.ac.jp/ftp/cats/J/A+A/162/259/table1.dat",
+  "villanova_k2_scope": "The prior KeplerEBs search returns zero rows for all of Campaign 13 and successfully recovers EPIC 210386880 in Campaign 4; it does not supply a C13 novelty check.",
+  "archive_scope": "The accessible Zink tables report planet candidates, not every rejected K2 threshold-crossing event; prior machine activity remains unbounded.",
+  "mast_k2_uris": [
+   {
+    "uri": "mast:K2/url/missions/k2/previews/c13/247300000/32000/ktwo247332572-c13_llc_bw_large.png",
+    "filename": "ktwo247332572-c13_llc_bw_large.png",
+    "category": "PREVIEW"
+   },
+   {
+    "uri": "mast:K2/url/missions/k2/lightcurves/c13/247300000/32000/ktwo247332572-c13_llc.fits",
+    "filename": "ktwo247332572-c13_llc.fits",
+    "category": "SCIENCE"
+   },
+   {
+    "uri": "mast:K2/url/missions/k2/target_pixel_files/c13/247300000/32000/ktwo247332572-c13_lpd-targ.fits.gz",
+    "filename": "ktwo247332572-c13_lpd-targ.fits.gz",
+    "category": "SCIENCE"
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+# Eclipses in neighbouring star apertures
+
+The earlier ground-spectroscopy and TESS pipeline searches withheld 168 fields because the flux loss appeared offset. In 45 fields at least two sectors favoured the same Gaia source without a contrary sector. Nine positions without a preliminary same-source eclipse label went to follow-up. Two of these nine are exact TIC matches to the IJspeert et al. 2024 eclipse catalogue. The [shortlist](shortlist.csv) records the outcomes.
+
+TIC 375085822 lies 45.3 arcsec from the original spectroscopic target TIC 375085788. Its own QLP light curves give three well-covered primary times across sectors 18, 58 and 85. Timing residuals are below three minutes at a spacing of 15.39541 days. The difference centroids in the original fields fall 1.2–2.6 arcsec from the new position. The independent ZTF g and r observations match the predicted fades on three and four nights respectively. ASAS-SN g records them on six nights. The 15.39541-day value is the measured primary recurrence. A secure secondary and unique orbital cycle remain open. The nearby spectroscopic identification belongs to the original input star.
+
+The [source record](375085822.json) gives event depths, archive products, difference fits, independent survey measurements and prior-source checks. The official VSX endpoint required human verification during this check. The CDS and HEASARC distributions both returned Algol as a positive control and no matching variable at the host position. Two exact-TIC eclipse lists were crossmatched in full. [IJspeert et al. 2024](https://www.aanda.org/articles/aa/abs/2024/11/aa50507-24/aa50507-24.html) · [CDS catalogue](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/691/A242)
+
+[Primary eclipse in TESS and ZTF](375085822-eclipse.png)
+
+In a further check, TIC 423332688 also cleared source attribution and is included as a probable eclipsing binary. Smooth rotational or ellipsoidal modulation remains possible. Both minima repeat every 0.226832194 days as a pair, and the two ZTF filters spatially resolve this source. Gaia, VSX and ATLAS previously recorded variability. TIC 453588388 remains unresolved because sector 65 favours close competing sources for both dips. [Independent host checks and TESS–ZTF phase curves](resolved/README.md)
