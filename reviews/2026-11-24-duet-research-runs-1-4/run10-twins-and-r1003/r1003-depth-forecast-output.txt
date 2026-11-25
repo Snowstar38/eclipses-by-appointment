@@ -1,0 +1,32 @@
+(1) Depth trends in 2026 (per-event depths, scatter-based errors)
+  s99 (qlp): 5 events, mean 97.2 ppt, slope -15 +- 28 ppt/yr over 20 d
+  s100 (spoc): 8 events, mean 145.4 ppt, slope -7 +- 17 ppt/yr over 23 d
+  s101 (qlp): 6 events, mean 92.1 ppt, slope +84 +- 37 ppt/yr over 20 d
+  QLP s99 -> s101 (54 d): -5.2 ppt (+-0.9 from event scatter, +-3.9 from Fable's red-noise-scaled sector fits)
+  s99 secondary/primary 0.518 +- 0.029
+  s100 secondary/primary 0.529 +- 0.005
+  s101 secondary/primary 0.543 +- 0.039
+
+(2) Geometry now (uniform disks, S2/S1 = 0.529, SPOC primary 144.4 ppt)
+  third light 0.00: b = 0.646, max depth (b = 0) 494 ppt, dDepth/db = -586 ppt per unit b
+     b moving 0.038/yr: primary depth changes 22 ppt/yr; eclipses gone in 9 yr if b grows, deepest in 17 yr if it shrinks
+     b moving 0.106/yr: primary depth changes 62 ppt/yr; eclipses gone in 3 yr if b grows, deepest in 6 yr if it shrinks
+  third light 0.21: b = 0.583, max depth (b = 0) 390 ppt, dDepth/db = -491 ppt per unit b
+     b moving 0.038/yr: primary depth changes 19 ppt/yr; eclipses gone in 11 yr if b grows, deepest in 15 yr if it shrinks
+     b moving 0.106/yr: primary depth changes 52 ppt/yr; eclipses gone in 4 yr if b grows, deepest in 5 yr if it shrinks
+
+(3) Grazing check: s64/s65 (2023) limits are ~2-3 ppt; depth(b) reaches 3 ppt at
+  third light 0.00: b = 0.974
+  third light 0.21: b = 0.970
+
+(4) Limb-darkened disks (quadratic u = 0.40, 0.25), and what the switch-on needed vs what 2026 shows
+  QLP depths scaled by 1.53 to SPOC's crowding-corrected scale for the rate below
+  last eclipse-free event (s65) to first deep one (s99): 2.62 yr
+  third light 0.00: b now 0.638 (S2/S1 0.516); depth 3 ppt at b = 0.965; dDepth/db = -637 ppt
+     switch-on needed db/dt <= -0.125/yr on average (May 2023 - Feb 2026); at that rate the primary deepens 80 ppt/yr now
+     2026 depths give db/dt = +0.011 +- 0.027 (SPOC s100), +0.084 +- 0.063 (QLP s99->s101, red-noise errors); combined +0.023 +- 0.025/yr
+     -> the 2026 rate differs from the switch-on's average by 6.0 sigma
+  third light 0.21: b now 0.579 (S2/S1 0.518); depth 3 ppt at b = 0.960; dDepth/db = -540 ppt
+     switch-on needed db/dt <= -0.145/yr on average (May 2023 - Feb 2026); at that rate the primary deepens 79 ppt/yr now
+     2026 depths give db/dt = +0.014 +- 0.031 (SPOC s100), +0.100 +- 0.074 (QLP s99->s101, red-noise errors); combined +0.027 +- 0.029/yr
+     -> the 2026 rate differs from the switch-on's average by 6.0 sigma
