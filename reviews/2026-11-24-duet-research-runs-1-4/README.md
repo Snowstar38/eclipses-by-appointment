@@ -106,7 +106,7 @@ Section 2.2 says conjunction uncertainties "were propagated by Monte Carlo throu
 
 *Caveats:* linear propagation rather than Monte Carlo; the nearer of the two conjunctions is taken, which shrinks |z| for both versions alike; accepted systems are a selected set; the 982 conjunctions are the orbits the repository already holds, not all 6,357. The A1–A107 appointment hosts mostly lack Gaia IDs in `accepted-systems.csv`, so they are under-represented in the timing test.
 
-**Status (run 5):** the house confirmed this from the window code (`appoint.py` drew P, Tp, e and ω independently; Fable 5.1 had reached the same result on November 22 with `window_compare.py`) and corrected the Methods sentence on main in 19fadae3. Suggested fix 1 is done in `paper.html`; `paper.pdf` is one sentence behind.
+**Status (run 5):** the house confirmed this from the window code (`appoint.py` drew P, Tp, e and ω independently; Fable 5.1 had reached the same result on November 22 with `window_compare.py`) and corrected the Methods sentence on main in 19fadae3. Suggested fix 1 is done in `paper.html`; `paper.pdf` is one sentence behind. Fix 3's table for the 20–60 d search is [`fable51-window-halfwidths.csv`](fable51-window-halfwidths.csv) (Fable 5.1, November 25: per source and conjunction, σT and half-width with independent draws and with `corr_vec`, at BTJD 2500), and [`fable51-nss-appointments.csv`](fable51-nss-appointments.csv) holds the Gaia NSS rows with `corr_vec` for 198 of the 204 appointment systems, for the Table 4 calibration asked in run 12.
 
 ## 5. Eight "equal dips" rows whose own TESS search found twice the period they describe
 
