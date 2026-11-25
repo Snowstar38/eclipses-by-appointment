@@ -1,0 +1,131 @@
+{
+ "tic": "17131560",
+ "gaia_dr3": "2064722175124481152",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J20325548+4029160\" OR full:\"AG+40 2066\" OR full:\"APASS 51806033\" OR full:\"AllWISE J203255.52+402916.7\" OR full:\"BD+39 4230\" OR full:\"GSC 03157-01071\" OR full:\"Gaia DR1 2064722170826726912\" OR full:\"Gaia DR2 2064722175124481152\" OR full:\"Gaia DR3 2064722175124481152\" OR full:\"PPM 60115\" OR full:\"TIC 17131560\" OR full:\"TYC 3157-01071-1\" OR full:\"TYC 3157-1071-1\" OR full:\"UCAC4 653-094059\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J20325548+4029160",
+   "AG+40 2066",
+   "APASS 51806033",
+   "AllWISE J203255.52+402916.7",
+   "BD+39 4230",
+   "GSC 03157-01071",
+   "Gaia DR1 2064722170826726912",
+   "Gaia DR2 2064722175124481152",
+   "Gaia DR3 2064722175124481152",
+   "PPM 60115",
+   "TIC 17131560",
+   "TYC 3157-01071-1",
+   "TYC 3157-1071-1",
+   "UCAC4 653-094059"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "17131560",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J20325548+4029160",
+   "APASS 51806033",
+   "AllWISE J203255.52+402916.7",
+   "Gaia DR2 2064722175124481152",
+   "TYC 3157-01071-1",
+   "TYC 3157-1071-1",
+   "UCAC4 653-094059",
+   "TIC 17131560",
+   "Gaia DR3 2064722175124481152"
+  ],
+  "objects": {
+   "BD+39  4230": {
+    "object_type": "PM*",
+    "matched_aliases": [
+     "2MASS J20325548+4029160",
+     "Gaia DR2 2064722175124481152",
+     "Gaia DR3 2064722175124481152",
+     "TIC 17131560",
+     "TYC 3157-1071-1"
+    ],
+    "simbad_ids": "TIC 17131560|Gaia DR3 2064722175124481152|AG+40 2066|BD+39  4230|GSC 03157-01071|PPM  60115|SAO  49771|TYC 3157-1071-1|2MASS J20325548+4029160|Gaia DR1 2064722170826726912|Gaia DR2 2064722175124481152",
+    "references": {
+     "2019MNRAS.490.3158C": "A catalogue of stellar diameters and fluxes for mid-infrared interferometry.",
+     "2014ASPC..485..223B": "The JMMC stellar diameters catalog v2 (JSDC): a new release based on SearchCal improvements",
+     "2018A&A...615A..49C": "Characterising open clusters in the solar neighbourhood with the Tycho-Gaia Astrometric Solution."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "17131560",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=17131560&json=",
+  "basic_info": {
+   "tic_id": "17131560",
+   "star_names": "TIC 17131560, 2MASS J20325548+4029160, APASS 51806033, Gaia DR2 2064722175124481152, Gaia DR3 2064722175124481152, TYC 3157-01071-1, UCAC4 653-094059, WISE J203255.52+402916.7",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.021597"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2064722175124481152",
+  "sources_12as": [
+   {
+    "distance_arcsec": 1.1588,
+    "source_id": "2064722175124481152",
+    "ra": "308.2314463092444",
+    "dec": "40.48807293707592",
+    "pmra": "37.802487517165815",
+    "pmdec": "61.83880365340963",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "9.103457"
+   }
+  ],
+  "query_receipt": "83d0f2648eb66d57b1fefc699d34591d09477176e33a875b0906d3d0450f03f3",
+  "tic": "17131560",
+  "ra_deg": "308.231226166376",
+  "dec_deg": "40.4877980171952",
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 97424.773,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

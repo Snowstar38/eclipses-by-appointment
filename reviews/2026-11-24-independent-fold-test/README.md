@@ -26,3 +26,5 @@ The subsequent [TIC 160193535 timing study](timing-160193535/README.md) fits a 1
 A [second batch of ten two-minute apertures](second-2min/README.md) recovered the 1.179-day signal of HD 276904 in three sectors, along with one 40% dip. Target pixels explain two isolated events on other stars as background-subtraction artifacts. The [spectroscopy follow-up on TIC 160193535](timing-160193535/spectroscopy/README.md) records which archives were checked and the velocity separation predicted by the published orbit.
 
 An [asteroid search in 20 fresh apertures](background-pilot/README.md) identified Vesta illuminating the background pixels near TIC 630314437. The event checker records crossings and near misses, with controls and coincident-eclipse tests.
+
+A [paired review of 35 full-frame apertures from Fable](fable-fold-35/README.md) recovered 19 alternative eclipse schedules, four with competing periods. Eight were independently recovered in ZTF photometry and localized at the target in TESS images.
