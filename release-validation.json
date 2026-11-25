@@ -1,58 +1,39 @@
 {
   "status": "PASS",
-  "canonical_review_id_tic_tier_sha256": "6b4e03a9f74733497a33b92508c088630aecf28fce8f1973048f98afacfea966",
-  "identity_hash_format": "UTF-8 tab-separated review_id, TIC, tier with LF per row, sorted lexically by tuple",
-  "utc": "2026-11-24T23:59:29.247063+00:00",
-  "counted": 2036,
+  "utc": "2026-11-25T00:28:05.161166+00:00",
+  "previous_release_commit": "ff8b683168d056f958d21f8faa592446b8133bd0",
+  "previous_count": 2036,
+  "counted": 2029,
   "tiers": {
-    "confirmed": 1493,
-    "probable": 543
+    "confirmed": 1487,
+    "probable": 542
   },
-  "previous_release_commit": "a9e7e28c39962b04a737dc435e7209484a9ab174",
-  "previous_count": 2010,
-  "prior_identifications_removed": 9,
+  "accepted_this_revision": 3,
+  "prior_identifications_removed": 10,
   "removed_review_ids": {
-    "R1804": "284210588",
-    "R1806": "417030993",
-    "R1807": "138829403",
-    "R1808": "259746816",
-    "R1809": "443331650",
-    "R1811": "178414920",
-    "R1812": "470993218",
-    "R1814": "325802598",
-    "R1815": "467902321"
+    "A30": "311297982",
+    "R111": "320195702",
+    "R405": "143467555",
+    "R751": "150429807",
+    "R1117": "299941037",
+    "R1122": "328586949",
+    "R1392": "445858758",
+    "R1398": "459978275",
+    "R1584": "141819874",
+    "R1844": "279213226"
   },
-  "accepted_this_revision": 35,
-  "additions_by_lane": {
-    "gaia": 5,
-    "ground": 8,
-    "neighbours": 2,
-    "spoc": 4,
-    "ffi": 16
-  },
-  "scientific_register": 1950,
-  "unique_scope": "Comparison to the previous release, including nine documented prior identifications.",
-  "checks": [
-    "Exact parent, allowed changed paths and canonical Git blobs",
-    "Historical catalogue and map unchanged except nine documented exclusions",
-    "Historical scientific register and adjudications preserve identifiers and physical tiers",
-    "Every new catalogue, map, scientific and claim row matches the keyed expansion host table",
-    "Each new evidence path exists, and each updated adjudication hashes its canonical source report",
-    "Map and ledger positions and tiers match for additions; all counted IDs and tiers agree",
-    "Reference hashes and totals agree with the current accounting and updated map provenance",
-    "Local links and live repository links newly introduced in current documents resolve inside this release",
-    "Typeset paper count, physical totals, new review and TIC identifiers, prior credits and PDF links",
-    "Supplement references this expansion and its earlier IJspeert matches"
-  ],
-  "local_links_checked": 68,
+  "canonical_review_id_tic_tier_sha256": "ad1f6c68ec17ffb770d14da8ee4ccf7c79124d85c2562aafa1e76def64facfca",
+  "identity_hash_format": "UTF-8 tab-separated review_id, TIC and tier, sorted with LF terminators",
+  "scientific_register": 1953,
+  "local_links_checked": 55,
   "pdfs": {
     "historical-draft-2026-10-14.pdf": {
       "pages": 57,
       "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
     },
     "paper.pdf": {
-      "pages": 264,
-      "sha256": "7f0c2b1440a5d6a148e72d966f7be97e73aad51701079bc6ab8ed0400a5f9522"
+      "pages": 266,
+      "sha256": "f0a37913a26fd44cdfc816c5cd11aafe5159c6665e954c05fe85d21fc0ef14c8"
     },
     "supplement-1-original-and-early-reviews.pdf": {
       "pages": 1187,
@@ -76,8 +57,15 @@
     },
     "supplement.pdf": {
       "pages": 1,
-      "sha256": "ed452ad6a091a7f3d2a0e1ccf3b559730b4ce7a6a289ec5ddb5cf7beb16e86fd"
+      "sha256": "49e8314aaec6bcd397231409bd8981e7e4e6c19c487a9a9430729ec91b070216"
     }
   },
-  "scope": "Publication counts and evidence integrity. Per-host records describe physical and prior-catalogue limitations."
+  "checks": [
+    "Exact previous commit and allowed paths",
+    "Catalogue, map, claim and review rows agree on identities, physical tiers and inclusion",
+    "Prior rows preserved except explicitly documented earlier credits",
+    "Source reports, accounting, map provenance and Git-index file digests agree",
+    "Rendered PDFs retain the current totals, scientific identifiers, links and shortlist update"
+  ],
+  "scope": "Publication integrity. Individual source records give the phase, localization and prior-identification evidence."
 }

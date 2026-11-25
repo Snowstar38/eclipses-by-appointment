@@ -1,11 +1,11 @@
 {
-  "ledger_sha256": "df9375f48ecbf94b696fd522a5cd29b0c5897e7b156fb61eeaa3971c986cf700",
+  "ledger_sha256": "6f6ee0d9e24bcf5d2749544de322b6269ea28d89cca3c109db16a3b91f59cd06",
   "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
   "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
   "accepted": {
-    "all": 2036,
-    "confirmed": 1493,
-    "probable": 543
+    "all": 2029,
+    "confirmed": 1487,
+    "probable": 542
   },
   "operation": {
     "prior_known_removals": 17,
@@ -13,44 +13,44 @@
     "A74_probable_to_confirmed": 1,
     "later_eligible_dip_additions": 8
   },
-  "scientific_register_rows": 1950,
-  "reviewed_R_rows": 1852,
+  "scientific_register_rows": 1953,
+  "reviewed_R_rows": 1855,
   "post_R675": {
-    "rows": 1177,
+    "rows": 1180,
     "physical": {
-      "confirmed": 710,
-      "probable": 459,
+      "confirmed": 712,
+      "probable": 460,
       "plausible": 8
     },
     "novelty": {
-      "new_claim": 272,
+      "new_claim": 271,
       "not_claim_eligible": 7,
-      "known_prior_recovery": 34,
+      "known_prior_recovery": 41,
       "pending_novelty": 1,
-      "prior_machine_candidate_validation": 863,
+      "prior_machine_candidate_validation": 860,
       "prior_transit_classification_at_different_period": 0
     }
   },
   "counted_scientific_method": {
-    "Gaia spectroscopic-orbit period fold": 700,
+    "Gaia spectroscopic-orbit period fold": 698,
     "conjunction_windows": 22,
     "Gaia spectroscopic conjunction windows": 20,
-    "Period-free dip screening": 46,
+    "Period-free dip screening": 45,
     "Faint-band conjunction and raw-event screening": 66,
     "Photometric screening of Gaia radial-velocity scatter targets": 84,
     "Archival photometric screening of short Gaia spectroscopic orbits": 3,
     "Difference-image attribution of field variability": 3,
-    "Re-measurement of unpromoted SPOC two-minute threshold-crossing events": 215,
-    "Re-measurement of unpromoted TESS-SPOC full-frame threshold-crossing events": 318,
+    "Re-measurement of unpromoted SPOC two-minute threshold-crossing events": 214,
+    "Re-measurement of unpromoted TESS-SPOC full-frame threshold-crossing events": 316,
     "Eclipse search of ground-survey spectroscopic binaries": 350,
     "Gaia epoch photometry at spectroscopic conjunctions": 9,
     "Gaia epoch photometry with wider eclipse windows": 4
   },
   "counted_scientific_tier": {
-    "CONFIRMED": 1308,
-    "PROBABLE": 532
+    "CONFIRMED": 1303,
+    "PROBABLE": 531
   },
-  "map_sha256": "2532bdaf9c7fcf73c3c1c7a6cc384dfe6fdc211c0640381fcee88972fc30c1d9",
+  "map_sha256": "4fcb8fa4bf0fb68291630631b437cab78b3d88c21a14206e3e12453580415c85",
   "period_free_reviews": {
     "reviewed": 380,
     "confirmed": 29,
@@ -59,32 +59,32 @@
     "refuted_selected_signals": 235,
     "non_eclipse_variable": 5,
     "unresolved": 5,
-    "new_claims_added": 46,
+    "new_claims_added": 45,
     "selection": "Initial stratified100, prioritized250, prospective recurrence/contrast20, and visual follow-up of the remaining664 multi-sector leads; exact cohorts and nonreviews retained.",
     "confirmed_probable_claim_dispositions": {
-      "known": 19,
+      "known": 20,
       "pending_source_attribution": 1,
-      "accepted": 46
+      "accepted": 45
     }
   },
   "scope": "Current accounting; historical reports and supplements preserve their original labels. Physical classification is separate from catalogue novelty and unique inclusion.",
   "accepted_all_method_totals": {
-    "spectroscopic_conjunction": 125,
-    "Gaia_period_fold": 805,
+    "spectroscopic_conjunction": 124,
+    "Gaia_period_fold": 803,
     "nearby_M_dwarf_selected": 4,
     "near_edge_on_astrometric_orbit": 4,
-    "period_free_dip_screening": 46,
+    "period_free_dip_screening": 45,
     "faint_band_conjunction_and_raw_event": 66,
     "RV_scatter_selected_photometric_screening": 84,
     "archival_short_orbit_photometric_screening": 3,
     "localized_periodic_field_source": 3,
-    "SPOC_2min_TCE_remeasurement": 215,
-    "TESS_SPOC_FFI_TCE_remeasurement": 318,
+    "SPOC_2min_TCE_remeasurement": 214,
+    "TESS_SPOC_FFI_TCE_remeasurement": 316,
     "ground_survey_spectroscopic_binary_eclipse_search": 350,
     "Gaia_epoch_photometry": 9,
     "Gaia_epoch_photometry_wider_windows": 4
   },
-  "claim_decision_sha256": "32d6d655499a2651ce8c293e9c96d918a0f6f14334d5f2b2933094d1e21b537f",
+  "claim_decision_sha256": "4533f1548246ccc1181d813fc56b9fe5ec5a3f06ec89def5b0a0031205103ea8",
   "prior_publication_before_reconciliation": {
     "all": 917,
     "confirmed": 812,
@@ -104,23 +104,25 @@
   },
   "latest_review_campaign": {
     "date": "2026-11-24",
-    "distinct_counted_hosts": 35,
-    "prior_identifications_removed": 9,
-    "count_change_from_prior_publication": 26,
+    "distinct_counted_hosts": 3,
+    "prior_identifications_removed": 10,
+    "count_change_from_prior_publication": -7,
+    "prior_identifications_register": "reviews/2026-11-24-fable-shortlist/kounkel-identifications.csv",
     "searches": {
-      "gaia": 5,
-      "ground": 8,
-      "neighbours": 2,
-      "spoc": 4,
-      "ffi": 16
+      "spoc": 1,
+      "ffi": 2
+    },
+    "counts_by_tier": {
+      "confirmed": 2,
+      "probable": 1
     },
     "numbered_reviews": {
-      "first": "R1820",
-      "last": "R1854"
+      "first": "R1855",
+      "last": "R1857"
     },
-    "receipt": "reviews/2026-11-24-expanded-search/README.md",
-    "host_register": "reviews/2026-11-24-expanded-search/host-stars.csv",
-    "ledger_sha256": "df9375f48ecbf94b696fd522a5cd29b0c5897e7b156fb61eeaa3971c986cf700"
+    "receipt": "reviews/2026-11-24-fable-shortlist/README.md",
+    "host_register": "reviews/2026-11-24-fable-shortlist/host-stars.csv",
+    "ledger_sha256": "6f6ee0d9e24bcf5d2749544de322b6269ea28d89cca3c109db16a3b91f59cd06"
   },
   "literature_corrections": {
     "removed_claims": [
@@ -340,9 +342,9 @@
     }
   ],
   "active_A_method_allocation": {
-    "scope": "Unchanged active A catalogue; allocation derived from frozen pre-session whole-sample method totals minus that snapshot's counted scientific rows.",
+    "scope": "Frozen A-catalogue method allocation adjusted for the earlier Kounkel et al. (2021) eclipse identification of A30.",
     "counts": {
-      "spectroscopic_conjunction": 83,
+      "spectroscopic_conjunction": 82,
       "Gaia_period_fold": 105,
       "nearby_M_dwarf_selected": 4,
       "near_edge_on_astrometric_orbit": 4
@@ -357,7 +359,7 @@
     "ledger_sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528",
     "scope": "Historical next100 campaign before this revision; not current cumulative totals."
   },
-  "highest_R_identifier": 1854,
+  "highest_R_identifier": 1857,
   "review_population_baseline": {
     "scope": "Frozen reviewed identity population before final-night catalogue recovery and new physical reviews",
     "rows": 1317,
@@ -402,7 +404,7 @@
   "ledger_file": "accepted-systems.csv",
   "ledger_scope": "One row per counted host. Historical rows retain their published identifiers and tiers. Gaia DR3 is blank where the previous accepted ledger supplied no identifier.",
   "historical_digest_scope": "The delta_sha256 and identity_accounting_sha256 fields describe the earlier baseline reconciliation.",
-  "scientific_register_sha256": "30e6f7184a37afb11e9d1d50da8b3156cf3bc3d7b26db8aad8d48ad9096d46c2",
+  "scientific_register_sha256": "41f16531c84012010649b215e33088248a58b763f32b1fc0dda936594900b976",
   "claim_decision_scope": "The adjudication register covers selected review campaigns. The accepted-systems ledger supplies the complete counted roster.",
   "historical_2026_11_22": {
     "accepted": {
@@ -448,16 +450,16 @@
   "accepted_by_prior_evidence": {
     "scope": "Composition of the accepted sample by earlier eclipse evidence. The systems accepted through 2026-11-05 passed the seven-source catalogue screen of the paper's Methods; their status in unvetted machine lists was not tabulated as a separate column. The November 24 machine-candidate subtotal includes earlier TESS pipeline detections. The earlier transit classification at a different period is tabulated separately.",
     "through_2026_11_05_catalogue_screened": {
-      "all": 1031,
-      "confirmed": 869,
-      "probable": 162
+      "all": 1027,
+      "confirmed": 866,
+      "probable": 161
     },
     "no_earlier_eclipse_candidate_in_scoped_checks": {
       "confirmed": 62,
       "probable": 80
     },
     "previously_unvetted_machine_candidate": {
-      "confirmed": 562,
+      "confirmed": 559,
       "probable": 301
     },
     "prior_transit_classification_at_different_period": {
@@ -605,5 +607,25 @@
     "host_register": "reviews/2026-11-24-gaia-epoch-review/host-stars.csv",
     "ledger_sha256": "74ec87aa356d5c0812c4ad787f9dd385cd826874420788eb1d3e1fce9122847b",
     "scope": "TESS follow-up of 15 Gaia epoch-photometry selections and nine additional wider-window targets. Seven prior identifications or recoveries are outside the additions."
+  },
+  "historical_2026_11_24_expanded_search": {
+    "date": "2026-11-24",
+    "distinct_counted_hosts": 35,
+    "prior_identifications_removed": 9,
+    "count_change_from_prior_publication": 26,
+    "searches": {
+      "gaia": 5,
+      "ground": 8,
+      "neighbours": 2,
+      "spoc": 4,
+      "ffi": 16
+    },
+    "numbered_reviews": {
+      "first": "R1820",
+      "last": "R1854"
+    },
+    "receipt": "reviews/2026-11-24-expanded-search/README.md",
+    "host_register": "reviews/2026-11-24-expanded-search/host-stars.csv",
+    "ledger_sha256": "df9375f48ecbf94b696fd522a5cd29b0c5897e7b156fb61eeaa3971c986cf700"
   }
 }

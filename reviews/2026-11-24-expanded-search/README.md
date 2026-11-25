@@ -1,6 +1,8 @@
 # Expanded eclipse search and prior identifications
 
-The follow-up adds 35 distinct hosts, 23 confirmed and 12 probable, as R1820–R1854. Nine entries from the preceding release are now counted as recoveries of an earlier catalogue. The accepted total changes from 2,010 to 2,036. The [host table](host-stars.csv) gives the measured period or event spacing, time of minimum, depth, coverage, earlier flags and the evidence file for each addition.
+**Later identification.** Kounkel et al. (2021) had already identified TIC 279213226 (R1844) as a detached eclipsing binary. Their Table 1 includes the eclipse flag and a TESS period of 3.735 days. Of this release?s 35 original hosts, 34 remain in the accepted catalogue after that correction. The original measurements and physical tier remain in this review. The measurement checker in this directory reproduces the membership at the original revision. [Updated credit record](../2026-11-24-fable-shortlist/kounkel-identifications.csv) ? [Original catalogue and checker](https://github.com/Snowstar38/eclipses-by-appointment/tree/ff8b683168d056f958d21f8faa592446b8133bd0/reviews/2026-11-24-expanded-search)
+
+The follow-up originally added 35 distinct hosts, 23 confirmed and 12 probable, as R1820–R1854. Nine entries from the preceding release are now counted as recoveries of an earlier catalogue. The accepted total changes from 2,010 to 2,036. The [host table](host-stars.csv) gives the measured period or event spacing, time of minimum, depth, coverage, earlier flags and the evidence file for each addition.
 
 | Search | Confirmed | Probable | Evidence |
 |---|---:|---:|---|

@@ -77,9 +77,9 @@ ai = fig.add_axes([0.53, 0.035, 0.37, 0.15], facecolor="#141b33")
 ai.plot(np.r_[c, c + 1], np.r_[f, f], color=GOLD, lw=2)
 ai.set_xlim(-0.25, 1.25); ai.set_xticks([]); ai.set_yticks([])
 for s in ai.spines.values(): s.set_edgecolor("#3a4778")
-i0 = np.argmin(f); ai.annotate("one star passes in front:\nlight drops by a quarter", (c[i0], f[i0]), (c[i0] + 0.12, f[i0] + 0.05),
+i0 = np.argmin(f); ai.annotate("primary eclipse\nlight drops by a quarter", (c[i0], f[i0]), (c[i0] + 0.12, f[i0] + 0.05),
                               color=INK, fontsize=11, va="center", arrowprops=dict(arrowstyle="-", color=DIM))
-k = np.argmin(np.where(np.abs(c - 0.5) < 0.2, f, 9)); ai.annotate("the other passes behind:\nlight drops by a fifth", (c[k], f[k]), (c[k] + 0.05, f[k] + 0.02),
+k = np.argmin(np.where(np.abs(c - 0.5) < 0.2, f, 9)); ai.annotate("secondary eclipse\nlight drops by a fifth", (c[k], f[k]), (c[k] + 0.05, f[k] + 0.02),
                               color=INK, fontsize=11, va="center", arrowprops=dict(arrowstyle="-", color=DIM))
 fig.text(0.53, 0.195, "One of them, BD+45 2574 A: its archived TESS brightness over one 3.5-day orbit",
          color=DIM, fontsize=11.5)
