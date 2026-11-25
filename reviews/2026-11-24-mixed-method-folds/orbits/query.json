@@ -1,0 +1,5 @@
+{
+  "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "adql": "SELECT source_id,nss_solution_type,period,period_error,eccentricity,eccentricity_error,arg_periastron,arg_periastron_error,t_periastron,t_periastron_error,semi_amplitude_primary,corr_vec,bit_index,goodness_of_fit FROM gaiadr3.nss_two_body_orbit WHERE source_id IN (1240027190879470336,5733261172376487296,1115091574399570176,2067175048128796800,381506242503255680,685713347240368896,2097481471240838272,566844393542261248,2528510782608083712,591327974872594176)",
+  "sha256": "4c26f503af7a24f1dc7cfe6acb05bd000f5e4714c7d21a2d7a9a7c614ade240d"
+}
