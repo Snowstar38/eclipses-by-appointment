@@ -1,0 +1,140 @@
+{
+ "tic": "97171152",
+ "gaia_dr3": "2812356031509892992",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J23122312+1348289\" OR full:\"AP J23122312+1348289\" OR full:\"APASS 41001743\" OR full:\"AllWISE J231223.13+134828.5\" OR full:\"GSC 01167-01003\" OR full:\"Gaia DR1 2812356027213734144\" OR full:\"Gaia DR2 2812356031508870144\" OR full:\"Gaia DR3 2812356031509892992\" OR full:\"TIC 97171152\" OR full:\"TYC 1167-01003-1\" OR full:\"TYC 1167-1003-1\" OR full:\"UCAC4 520-144740\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J23122312+1348289",
+   "AP J23122312+1348289",
+   "APASS 41001743",
+   "AllWISE J231223.13+134828.5",
+   "GSC 01167-01003",
+   "Gaia DR1 2812356027213734144",
+   "Gaia DR2 2812356031508870144",
+   "Gaia DR3 2812356031509892992",
+   "TIC 97171152",
+   "TYC 1167-01003-1",
+   "TYC 1167-1003-1",
+   "UCAC4 520-144740"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "97171152",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J23122312+1348289",
+   "APASS 41001743",
+   "AllWISE J231223.13+134828.5",
+   "Gaia DR2 2812356031508870144",
+   "TYC 1167-01003-1",
+   "TYC 1167-1003-1",
+   "UCAC4 520-144740",
+   "TIC 97171152",
+   "Gaia DR3 2812356031509892992"
+  ],
+  "objects": {
+   "TYC 1167-1003-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J23122312+1348289",
+     "Gaia DR2 2812356031508870144",
+     "Gaia DR3 2812356031509892992",
+     "TIC 97171152",
+     "TYC 1167-1003-1"
+    ],
+    "simbad_ids": "TIC 97171152|Gaia DR3 2812356031509892992|GSC 01167-01003|TYC 1167-1003-1|2MASS J23122312+1348289|Gaia DR1 2812356027213734144|Gaia DR2 2812356031508870144|AP J23122312+1348289",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2022ApJS..259...35A": "The Seventeenth Data Release of the Sloan Digital Sky Surveys: Complete Release of MaNGA, MaStar, and APOGEE-2 Data."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "97171152",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=97171152&json=",
+  "basic_info": {
+   "tic_id": "97171152",
+   "star_names": "TIC 97171152, 2MASS J23122312+1348289, APASS 41001743, Gaia DR2 2812356031508870144, Gaia DR3 2812356031509892992, TYC 1167-01003-1, UCAC4 520-144740, WISE J231223.13+134828.5",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.001755"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2812356031509892992",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.4876,
+    "source_id": "2812356031509892992",
+    "ra": "348.09638570193",
+    "dec": "13.807897026635825",
+    "pmra": "0.754071990368955",
+    "pmdec": "-30.59274292776129",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "10.710565"
+   }
+  ],
+  "query_receipt": "c815c2bd205320cdd659cc0caa9daadc6235b3c569dcc595b2ab69b916b61993",
+  "tic": "97171152",
+  "ra_deg": "348.096382226046",
+  "dec_deg": "13.8080324264478",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "2812356031509892992",
+     "nss_solution_type": "SB1",
+     "period": "1.7220127881766008",
+     "period_error": "7.5411524e-05",
+     "eccentricity": "0.024182319778864005",
+     "eccentricity_error": "0.047991518",
+     "semi_amplitude_primary": "41.412111523240654"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 44600.952,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

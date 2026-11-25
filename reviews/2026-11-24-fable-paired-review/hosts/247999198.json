@@ -1,0 +1,63 @@
+{
+ "tic": "247999198",
+ "gaia_dr3": "1849377119108386688",
+ "host": {
+  "tic": "247999198",
+  "gaia_dr3": "1849377119108386688",
+  "ra_deg": 324.71957527179,
+  "dec_deg": 29.4057408114186,
+  "tier": "probable",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "48.93101751",
+  "epoch_btjd": "1732.458967",
+  "period_status": "Favored recurrence from two TESS eclipse centers assuming 22 cycles, supported by four ASAS-SN nights. The 97.86-day alias remains possible.",
+  "depth_ppt": "280.763",
+  "primary_events": 2,
+  "sectors": "15|55",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Kostov et al. (2025) machine-selected Table 2 and a TESS threshold-crossing event. No prior vetted eclipse or matching ephemeris found at the tested periods.",
+  "interpretation": "Two roughly seven-hour eclipses have median in-window SAP depths of 27.6% and 28.6% in sectors 15 and 55. The deepest individual PDCSAP samples reach 40.4% and 40.6%. Both difference images fall 0.3 arcsec from the host with no flux-capable Gaia neighbour. The TIC radius is 2.66 \u00b1 0.12 solar radii, so an eclipse this deep favors a stellar companion. Four ASAS-SN nights favor a 48.93-day recurrence. A secondary eclipse and a unique orbital period remain unestablished.",
+  "evidence": "hosts/247999198.json"
+ },
+ "measured_clock": {
+  "period_days": 48.931017513636355,
+  "epoch_btjd": 1732.4589667,
+  "events": 2,
+  "depth_ppt": 280.763,
+  "sectors": [
+   15,
+   55
+  ]
+ },
+ "source_summary": {
+  "tic": "247999198",
+  "batch": 6,
+  "gaia_dr3": "1849377119108386688",
+  "sectors": 2,
+  "period": 48.931317409,
+  "width": 0.28125,
+  "primary_det": 2,
+  "primary_sector_det": 2,
+  "primary_ontarget": 2,
+  "primary_unresolved": 0,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target",
+  "primary_depth": 287.632,
+  "primary_offset": "0.3|0.3",
+  "secondary_det": 0,
+  "secondary_sector_det": 0,
+  "secondary_ontarget": 0,
+  "secondary_unresolved": 0,
+  "secondary_alt": "",
+  "secondary_verdicts": "no_events_in_sector|no_events_in_sector",
+  "secondary_depth": null,
+  "secondary_offset": "0|0"
+ },
+ "timing_and_pixels": "../reclocked/247999198.json",
+ "stellar_properties": "../discrepancy-followup/247999198-stellar.json",
+ "blind_clock_and_aliases": "../discrepancy-followup/247999198-integer-aliases.json",
+ "literature": "../credit/individual/247999198.json",
+ "wide_ephemeris_check": "../credit/alternative-periods-247999198.json",
+ "plot": "../sol/panels/recovered-clocks/247999198-ground.png"
+}

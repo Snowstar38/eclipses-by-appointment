@@ -1,0 +1,137 @@
+{
+ "tic": "126916590",
+ "gaia_dr3": "6480154576400997248",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J21143587-4736360\" OR full:\"APASS 24545421\" OR full:\"AllWISE J211435.90-473636.4\" OR full:\"Gaia DR1 6480154572105975168\" OR full:\"Gaia DR2 6480154576400997248\" OR full:\"Gaia DR3 6480154576400997248\" OR full:\"RAVE J211435.9-473636\" OR full:\"TIC 126916590\" OR full:\"TYC 8426-00142-1\" OR full:\"TYC 8426-142-1\" OR full:\"UCAC4 212-184993\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J21143587-4736360",
+   "APASS 24545421",
+   "AllWISE J211435.90-473636.4",
+   "Gaia DR1 6480154572105975168",
+   "Gaia DR2 6480154576400997248",
+   "Gaia DR3 6480154576400997248",
+   "RAVE J211435.9-473636",
+   "TIC 126916590",
+   "TYC 8426-00142-1",
+   "TYC 8426-142-1",
+   "UCAC4 212-184993"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "126916590",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J21143587-4736360",
+   "APASS 24545421",
+   "AllWISE J211435.90-473636.4",
+   "Gaia DR2 6480154576400997248",
+   "TYC 8426-00142-1",
+   "TYC 8426-142-1",
+   "UCAC4 212-184993",
+   "TIC 126916590",
+   "Gaia DR3 6480154576400997248"
+  ],
+  "objects": {
+   "TYC 8426-142-1": {
+    "object_type": "*",
+    "matched_aliases": [
+     "2MASS J21143587-4736360",
+     "Gaia DR2 6480154576400997248",
+     "Gaia DR3 6480154576400997248",
+     "TIC 126916590",
+     "TYC 8426-142-1"
+    ],
+    "simbad_ids": "TIC 126916590|Gaia DR3 6480154576400997248|TYC 8426-142-1|RAVE J211435.9-473636|2MASS J21143587-4736360|Gaia DR1 6480154572105975168|Gaia DR2 6480154576400997248",
+    "references": {
+     "2020AJ....160...83S": "The sixth Data Release of the Radial Velocity Experiment (RAVE). II. Stellar atmospheric parameters, chemical abundances, and distances.",
+     "2013AJ....146..134K": "The radial velocity experiment (RAVE): fourth data release.",
+     "2017AJ....153...75K": "The Radial Velocity Experiment (RAVE): fifth data release.",
+     "2018A&A...609A.116R": "Empirical photometric calibration of the Gaia red clump: Colours, effective temperature, and absolute magnitude."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "126916590",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=126916590&json=",
+  "basic_info": {
+   "tic_id": "126916590",
+   "star_names": "TIC 126916590, 2MASS J21143587-4736360, APASS 24545421, Gaia DR2 6480154576400997248, Gaia DR3 6480154576400997248, TYC 8426-00142-1, UCAC4 212-184993, WISE J211435.90-473636.4",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.10305"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "6480154576400997248",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "6480154576400997248",
+    "ra": "318.64965260756645",
+    "dec": "-47.61016599833862",
+    "pmra": "29.099425451273692",
+    "pmdec": "-30.60690250160706",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "10.977496"
+   }
+  ],
+  "query_receipt": "a81ef006659e2e9c483c2fe925d302db416d0d1ad9d204bfc1dcc55866cee661",
+  "tic": "126916590",
+  "ra_deg": 318.64965260756645,
+  "dec_deg": -47.61016599833862,
+  "gaia_tables": {
+   "vari_classifier_result": [
+    {
+     "source_id": "6480154576400997248",
+     "best_class_name": "SOLAR_LIKE",
+     "best_class_score": "0.36548778"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 5170.216,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

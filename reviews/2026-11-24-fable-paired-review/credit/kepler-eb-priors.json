@@ -1,0 +1,1678 @@
+{
+ "k2_receipt": {
+  "name": "k2_observed_targets",
+  "query": "SELECT DISTINCT epic_number,ra,dec,k2_campaign_str FROM k2targets WHERE (ra BETWEEN 10.250753136471499 AND 10.2807531364715 AND dec BETWEEN 0.338813986643001 AND 0.35561398664300103) OR (ra BETWEEN 156.99928264288502 AND 157.029282642885 AND dec BETWEEN 1.7889488183891 AND 1.8057488183891) OR (ra BETWEEN 264.114974521743 AND 264.144974521743 AND dec BETWEEN 13.5701301148879 AND 13.5869301148879) OR (ra BETWEEN 62.9532442565701 AND 62.9832442565701 AND dec BETWEEN 10.4468516142874 AND 10.4636516142874) OR (ra BETWEEN 252.71356019227503 AND 252.743560192275 AND dec BETWEEN 74.30217204344771 AND 74.3189720434477) OR (ra BETWEEN 131.45378856907 AND 131.48378856907 AND dec BETWEEN 20.314371018811897 AND 20.3311710188119) OR (ra BETWEEN 163.731359530621 AND 163.76135953062098 AND dec BETWEEN -1.13281849885544 AND -1.11601849885544) OR (ra BETWEEN 153.19653846416202 AND 153.226538464162 AND dec BETWEEN 64.88299529912871 AND 64.8997952991287) OR (ra BETWEEN 280.035969947659 AND 280.06596994765897 AND dec BETWEEN 72.89255628443891 AND 72.9093562844389) OR (ra BETWEEN 310.318206294795 AND 310.348206294795 AND dec BETWEEN 40.8534936754552 AND 40.8702936754552) OR (ra BETWEEN 5.346753688015251 AND 5.37675368801525 AND dec BETWEEN -3.74909493930954 AND -3.73229493930954) OR (ra BETWEEN 325.428290081632 AND 325.45829008163196 AND dec BETWEEN 50.0909058963751 AND 50.1077058963751) OR (ra BETWEEN 66.5860327922143 AND 66.6160327922143 AND dec BETWEEN 79.6314018945114 AND 79.64820189451139) OR (ra BETWEEN 285.31632973087 AND 285.34632973086997 AND dec BETWEEN 62.0392468656288 AND 62.0560468656288) OR (ra BETWEEN 314.28493277018003 AND 314.31493277018 AND dec BETWEEN 25.8285765723011 AND 25.845376572301102) OR (ra BETWEEN 348.081382226046 AND 348.111382226046 AND dec BETWEEN 13.7996324264478 AND 13.8164324264478) OR (ra BETWEEN 324.70457527179 AND 324.73457527179 AND dec BETWEEN 29.397340811418598 AND 29.4141408114186) OR (ra BETWEEN 290.74763748217794 AND 290.7776374821779 AND dec BETWEEN 37.6690991969926 AND 37.6858991969926) OR (ra BETWEEN 318.63465260756647 AND 318.66465260756644 AND dec BETWEEN -47.618565998338624 AND -47.60176599833862) OR (ra BETWEEN 161.64589398125997 AND 161.67589398125995 AND dec BETWEEN 73.41434054368747 AND 73.43114054368746) OR (ra BETWEEN 106.95097615921257 AND 106.98097615921257 AND dec BETWEEN -38.06566924856391 AND -38.0488692485639) OR (ra BETWEEN 257.1157356033781 AND 257.14573560337806 AND dec BETWEEN 68.87771417052804 AND 68.89451417052803) OR (ra BETWEEN 292.67091449192003 AND 292.70091449192 AND dec BETWEEN 60.53602223842824 AND 60.55282223842824) OR (ra BETWEEN 296.8387603117831 AND 296.8687603117831 AND dec BETWEEN 63.46180129719308 AND 63.47860129719308) OR (ra BETWEEN 260.718965170509 AND 260.748965170509 AND dec BETWEEN 62.17027928663116 AND 62.18707928663116) OR (ra BETWEEN 305.6776462653302 AND 305.7076462653302 AND dec BETWEEN 83.55805496865433 AND 83.57485496865432) OR (ra BETWEEN 106.20955518660685 AND 106.23955518660685 AND dec BETWEEN -57.67877238831524 AND -57.661972388315235) OR (ra BETWEEN 109.53956025254858 AND 109.56956025254858 AND dec BETWEEN -60.31658297625559 AND -60.299782976255585) OR (ra BETWEEN 347.5440502202081 AND 347.57405022020805 AND dec BETWEEN 73.30240769570685 AND 73.31920769570684) OR (ra BETWEEN 117.64597230628348 AND 117.67597230628348 AND dec BETWEEN -62.13978712626769 AND -62.12298712626769) OR (ra BETWEEN 328.6928437657565 AND 328.72284376575647 AND dec BETWEEN 45.78320558361512 AND 45.800005583615125) OR (ra BETWEEN 302.81019845272976 AND 302.84019845272974 AND dec BETWEEN -31.926496410582647 AND -31.909696410582644) OR (ra BETWEEN 2.6689081912084784 AND 2.6989081912084787 AND dec BETWEEN -82.9946768840875 AND -82.97787688408751) OR (ra BETWEEN 86.56182588410974 AND 86.59182588410974 AND dec BETWEEN -28.215383988358216 AND -28.198583988358212) OR (ra BETWEEN 71.98509065551298 AND 72.01509065551298 AND dec BETWEEN -38.36876072079349 AND -38.351960720793485) OR (ra BETWEEN 166.14707103598553 AND 166.1770710359855 AND dec BETWEEN -5.224227026898835 AND -5.207427026898835)",
+  "sha256": "4616dc9d7dded1d1bc1885293d2e0e91d57dc7adda8a7f910c8e13cf74791793",
+  "file": "k2_observed_targets-495dfeb51.csv.gz"
+ },
+ "kepler_receipt": {
+  "name": "kepler_observed_targets",
+  "query": "SELECT DISTINCT kepid,ra,dec FROM keplerstellar WHERE (ra BETWEEN 10.250753136471499 AND 10.2807531364715 AND dec BETWEEN 0.338813986643001 AND 0.35561398664300103) OR (ra BETWEEN 156.99928264288502 AND 157.029282642885 AND dec BETWEEN 1.7889488183891 AND 1.8057488183891) OR (ra BETWEEN 264.114974521743 AND 264.144974521743 AND dec BETWEEN 13.5701301148879 AND 13.5869301148879) OR (ra BETWEEN 62.9532442565701 AND 62.9832442565701 AND dec BETWEEN 10.4468516142874 AND 10.4636516142874) OR (ra BETWEEN 252.71356019227503 AND 252.743560192275 AND dec BETWEEN 74.30217204344771 AND 74.3189720434477) OR (ra BETWEEN 131.45378856907 AND 131.48378856907 AND dec BETWEEN 20.314371018811897 AND 20.3311710188119) OR (ra BETWEEN 163.731359530621 AND 163.76135953062098 AND dec BETWEEN -1.13281849885544 AND -1.11601849885544) OR (ra BETWEEN 153.19653846416202 AND 153.226538464162 AND dec BETWEEN 64.88299529912871 AND 64.8997952991287) OR (ra BETWEEN 280.035969947659 AND 280.06596994765897 AND dec BETWEEN 72.89255628443891 AND 72.9093562844389) OR (ra BETWEEN 310.318206294795 AND 310.348206294795 AND dec BETWEEN 40.8534936754552 AND 40.8702936754552) OR (ra BETWEEN 5.346753688015251 AND 5.37675368801525 AND dec BETWEEN -3.74909493930954 AND -3.73229493930954) OR (ra BETWEEN 325.428290081632 AND 325.45829008163196 AND dec BETWEEN 50.0909058963751 AND 50.1077058963751) OR (ra BETWEEN 66.5860327922143 AND 66.6160327922143 AND dec BETWEEN 79.6314018945114 AND 79.64820189451139) OR (ra BETWEEN 285.31632973087 AND 285.34632973086997 AND dec BETWEEN 62.0392468656288 AND 62.0560468656288) OR (ra BETWEEN 314.28493277018003 AND 314.31493277018 AND dec BETWEEN 25.8285765723011 AND 25.845376572301102) OR (ra BETWEEN 348.081382226046 AND 348.111382226046 AND dec BETWEEN 13.7996324264478 AND 13.8164324264478) OR (ra BETWEEN 324.70457527179 AND 324.73457527179 AND dec BETWEEN 29.397340811418598 AND 29.4141408114186) OR (ra BETWEEN 290.74763748217794 AND 290.7776374821779 AND dec BETWEEN 37.6690991969926 AND 37.6858991969926) OR (ra BETWEEN 318.63465260756647 AND 318.66465260756644 AND dec BETWEEN -47.618565998338624 AND -47.60176599833862) OR (ra BETWEEN 161.64589398125997 AND 161.67589398125995 AND dec BETWEEN 73.41434054368747 AND 73.43114054368746) OR (ra BETWEEN 106.95097615921257 AND 106.98097615921257 AND dec BETWEEN -38.06566924856391 AND -38.0488692485639) OR (ra BETWEEN 257.1157356033781 AND 257.14573560337806 AND dec BETWEEN 68.87771417052804 AND 68.89451417052803) OR (ra BETWEEN 292.67091449192003 AND 292.70091449192 AND dec BETWEEN 60.53602223842824 AND 60.55282223842824) OR (ra BETWEEN 296.8387603117831 AND 296.8687603117831 AND dec BETWEEN 63.46180129719308 AND 63.47860129719308) OR (ra BETWEEN 260.718965170509 AND 260.748965170509 AND dec BETWEEN 62.17027928663116 AND 62.18707928663116) OR (ra BETWEEN 305.6776462653302 AND 305.7076462653302 AND dec BETWEEN 83.55805496865433 AND 83.57485496865432) OR (ra BETWEEN 106.20955518660685 AND 106.23955518660685 AND dec BETWEEN -57.67877238831524 AND -57.661972388315235) OR (ra BETWEEN 109.53956025254858 AND 109.56956025254858 AND dec BETWEEN -60.31658297625559 AND -60.299782976255585) OR (ra BETWEEN 347.5440502202081 AND 347.57405022020805 AND dec BETWEEN 73.30240769570685 AND 73.31920769570684) OR (ra BETWEEN 117.64597230628348 AND 117.67597230628348 AND dec BETWEEN -62.13978712626769 AND -62.12298712626769) OR (ra BETWEEN 328.6928437657565 AND 328.72284376575647 AND dec BETWEEN 45.78320558361512 AND 45.800005583615125) OR (ra BETWEEN 302.81019845272976 AND 302.84019845272974 AND dec BETWEEN -31.926496410582647 AND -31.909696410582644) OR (ra BETWEEN 2.6689081912084784 AND 2.6989081912084787 AND dec BETWEEN -82.9946768840875 AND -82.97787688408751) OR (ra BETWEEN 86.56182588410974 AND 86.59182588410974 AND dec BETWEEN -28.215383988358216 AND -28.198583988358212) OR (ra BETWEEN 71.98509065551298 AND 72.01509065551298 AND dec BETWEEN -38.36876072079349 AND -38.351960720793485) OR (ra BETWEEN 166.14707103598553 AND 166.1770710359855 AND dec BETWEEN -5.224227026898835 AND -5.207427026898835)",
+  "sha256": "97e54e803a586048bf2c876b925b8eb429b37819f320f0c43973dcc717b42482",
+  "file": "kepler_observed_targets-968d4d417.csv.gz"
+ },
+ "observed_K2_fields": {
+  "388766775": [],
+  "277876971": [
+   {
+    "separation_arcsec": 0.081,
+    "epic_number": "248459053",
+    "ra": "157.014305",
+    "dec": "1.797350",
+    "k2_campaign_str": "14"
+   }
+  ],
+  "377513453": [],
+  "283705322": [],
+  "229674420": [],
+  "184916459": [
+   {
+    "separation_arcsec": 0.04,
+    "epic_number": "212004082",
+    "ra": "131.468794",
+    "dec": "20.322761",
+    "k2_campaign_str": "18"
+   }
+  ],
+  "14344900": [],
+  "356540182": [],
+  "229645056": [],
+  "65427133": [],
+  "423355654": [],
+  "387935774": [],
+  "289815523": [],
+  "230378914": [],
+  "247243390": [],
+  "97171152": [],
+  "247999198": [],
+  "122672401": [],
+  "126916590": [],
+  "142491764": [],
+  "157571716": [],
+  "219856191": [],
+  "229402595": [],
+  "229501496": [],
+  "233684019": [],
+  "264026826": [],
+  "279572574": [],
+  "349307342": [],
+  "354385263": [],
+  "382528183": [],
+  "455582243": [],
+  "48939533": [],
+  "290497301": [],
+  "32811111": [],
+  "77350952": [],
+  "53177862": []
+ },
+ "observed_Kepler_fields": {
+  "388766775": [],
+  "277876971": [],
+  "377513453": [],
+  "283705322": [],
+  "229674420": [],
+  "184916459": [],
+  "14344900": [],
+  "356540182": [],
+  "229645056": [],
+  "65427133": [],
+  "423355654": [],
+  "387935774": [],
+  "289815523": [],
+  "230378914": [],
+  "247243390": [],
+  "97171152": [],
+  "247999198": [],
+  "122672401": [
+   {
+    "kepid": "2299915",
+    "ra": "290.761260",
+    "dec": "37.680210",
+    "separation_arcsec": 10.519
+   }
+  ],
+  "126916590": [],
+  "142491764": [],
+  "157571716": [],
+  "219856191": [],
+  "229402595": [],
+  "229501496": [],
+  "233684019": [],
+  "264026826": [],
+  "279572574": [],
+  "349307342": [],
+  "354385263": [],
+  "382528183": [],
+  "455582243": [],
+  "48939533": [],
+  "290497301": [],
+  "32811111": [],
+  "77350952": [],
+  "53177862": []
+ },
+ "additional_ads": {
+  "277876971": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"EPIC 248459053\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.511.3561T",
+       "title": [
+        "BEBOP III. Observations and an independent mass measurement of Kepler-16 (AB) b - the first circumbinary planet detected with radial velocities"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011ApJ...741L...1W",
+       "title": [
+        "Spin-Orbit Alignment for the Circumbinary Planet Host Kepler-16 A"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...750...14Q",
+       "title": [
+        "Habitability of Earth-mass Planets and Moons in the Kepler-16 System"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2018AstL...44..119D",
+       "title": [
+        "Simulations of the Dynamics of the Debris Disks in the Systems Kepler-16, Kepler-34, and Kepler-35"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2019IJAsB..18...79M",
+       "title": [
+        "The habitable zone of Kepler-16: impact of binarity and climate models"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...752...71M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. I. N-body Simulations"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015A&A...582A...5L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. I. Fluid simulations of the Kepler-16 and 34 systems"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2013A&A...556A.134P",
+       "title": [
+        "Migration and gas accretion scenarios for the Kepler 16, 34, and 35 circumbinary planets"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2025NewA..12102457C",
+       "title": [
+        "Impacts of variable mass disk on region and stability of motion around triangular equilibrium points of the R3BP with variable mass binaries Maxi J1659-152 and Kepler-16"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2025MNRAS.540.2914S",
+       "title": [
+        "EBLM XV - revised dynamical masses for the circumbinary planet host Kepler-16 AB, using the SOPHIE spectrograph"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013ApJ...763..107L",
+       "title": [
+        "An Analytic Theory for the Orbits of Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2011Sci...333.1602D",
+       "title": [
+        "Kepler-16: A Transiting Circumbinary Planet"
+       ],
+       "publisher": "John Michels"
+      },
+      {
+       "bibcode": "2012LPI....43.1093M",
+       "title": [
+        "Planetesimal Accumulation Around Kepler-16 (AB)"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...808...58S",
+       "title": [
+        "Birth Locations of the Kepler Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016A&A...590A..62L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. II. Gas disk feedback on planetesimal dynamical and collisional evolution in the circumbinary systems Kepler-16 and 34"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.521.1871B",
+       "title": [
+        "Improving circumbinary planet detections by fitting their binary's apsidal precession"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023NewA...9901958L",
+       "title": [
+        "Out-of-plane equilibrium points of extra-solar planets in the central binaries PSR B1620-26 and Kepler-16 with clusters of material points and variable masses"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2012Natur.481..475W",
+       "title": [
+        "Transiting circumbinary planets Kepler-34 b and Kepler-35 b"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.435.2328D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013A&A...553A..71M",
+       "title": [
+        "Influence of the circumbinary disk gravity on planetesimal accumulation in the Kepler-16 system"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2017AAS...22943323M",
+       "title": [
+        "The Habitable Zone of the Binary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...762....7K",
+       "title": [
+        "On the Habitable Zones of Circumbinary Planetary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022eas..conf.1116C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues"
+       ]
+      },
+      {
+       "bibcode": "2024AAS...24310526S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16 and Kepler-34"
+       ]
+      },
+      {
+       "bibcode": "2024DPS....5640203S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16, Kepler-34, and Kepler-1647"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...789...53F",
+       "title": [
+        "Magnetic Inhibition of Convection and the Fundamental Properties of Low-mass Stars. II. Fully Convective Main-sequence Stars"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021FrASS...8...44G",
+       "title": [
+        "Circumbinary habitable zones in the presence of a giant planet"
+       ],
+       "publisher": "Frontiers"
+      },
+      {
+       "bibcode": "2018A&A...616A..47T",
+       "title": [
+        "Migration of planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.522.4352C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues I: Exploring the pebble accretion scenario"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2016ApJ...818..160Z",
+       "title": [
+        "Constraining the Radiation and Plasma Environment of the Kepler Circumbinary Habitable-zone Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.513.2563C",
+       "title": [
+        "Dusty circumbinary discs: inner cavity structures and stopping locations of migrating planets"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023A&A...670A.112P",
+       "title": [
+        "Three-dimensional evolution of radiative circumbinary discs: The size and shape of the inner cavity"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2014ApJ...790...41M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. II. A Toy Model for In Situ Planet Formation within a Debris Belt"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012AAS...21911003Q",
+       "title": [
+        "On The Existence Of Earth-like Planets In The Circumbinary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...790..141L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021AJ....161...25B",
+       "title": [
+        "On the Estimation of Circumbinary Orbital Properties"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015MNRAS.446.1283C",
+       "title": [
+        "A dynamical stability study of Kepler Circumbinary planetary systems with one planet"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017A&A...604A.102T",
+       "title": [
+        "Circumbinary discs: Numerical and physical behaviour"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ApJ...802...94G",
+       "title": [
+        "Analytic Orbit Propagation for Transiting Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.465.4735M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - I. Disc structure and evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2021AJ....161..223S",
+       "title": [
+        "On the Detection of Habitable Trojan Planets in the Kepler Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015IJAsB..14..465F",
+       "title": [
+        "Surface flux patterns on planets in circumbinary systems and potential for photosynthesis"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...767L..38L",
+       "title": [
+        "Where to Find Habitable \"Earths\" in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014MNRAS.437.1352F",
+       "title": [
+        "Assessing circumbinary habitable zones using latitudinal energy balance modelling"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011arXiv1111.0002H",
+       "title": [
+        "Kepler 16: A System of Potential Interest to Astrobiologists"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...806...98B",
+       "title": [
+        "Planet Formation around Binary Stars: Tatooine Made Easy"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016FBS....57..851M",
+       "title": [
+        "Stability and Fourier-Series Periodic Solution in the Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.429..895P",
+       "title": [
+        "The formation of planets in circumbinary discs"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2020JAnSc..67...59M",
+       "title": [
+        "Lie-Series Solution of Restricted Three-Body Problem: Application to Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2015ApJ...804..106O",
+       "title": [
+        "Stable Conic-Helical Orbits of Planets around Binary Stars: Analytical Results"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...754L..16P",
+       "title": [
+        "How Not to Build Tatooine: The Difficulty of In Situ Formation of Circumbinary Planets Kepler 16b, Kepler 34b, and Kepler 35b"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.469.4504M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - II. Planet evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2022ARep...66.1063K",
+       "title": [
+        "The Precession of Test Orbits in the Circumbinary Exoplanet Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2021A&A...645A..68P",
+       "title": [
+        "Parking planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ESS.....311706M",
+       "title": [
+        "The Impact of Self-Gravity on Planet and Disc Evolution in the Kepler-16, 34 and 35 Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2022MNRAS.513.5290D",
+       "title": [
+        "A target list for searching for habitable exomoons"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..412D",
+       "title": [
+        "Eccentric Adventures in Circumbinary Disks"
+       ]
+      },
+      {
+       "bibcode": "2012DDA....43.0903G",
+       "title": [
+        "Kinematics and Dynamics of a High Order Mean-Motion Resonance:Consideration Of The Kepler-16 System"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.427.2723J",
+       "title": [
+        "Regions of dynamical stability for discs and planets in binary stars of the solar neighbourhood"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..394W",
+       "title": [
+        "Kepler Circumbinary Planets: The Best of Both Worlds"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...774L..26M",
+       "title": [
+        "Rotational Synchronization May Enhance Habitability for Circumbinary Planets: Kepler Binary Case Studies"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2020IAUS..345..230D",
+       "title": [
+        "Resonant multi-lane patterns in circumbinary young debris disks"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...758...39J",
+       "title": [
+        "Can Planetary Instability Explain the Kepler Dichotomy?"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014tmt..confE..36L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2021DDA....5210709S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2013DPS....4511306C",
+       "title": [
+        "LONG TERM DYNAMICAL STUDY OF KEPLER CIRCUMBINARY PLANETS SYSTEMS WITH ONE PLANET"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...746..110Z",
+       "title": [
+        "Challenges in Forming Planets by Gravitational Instability: Disk Irradiation and Clump Migration, Accretion, and Tidal Destruction"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2013prpl.conf2H021D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ]
+      },
+      {
+       "bibcode": "2021BAAS...53c1017S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2026PASP..138g4505B",
+       "title": [
+        "Syntriod: A Robust Initial Parameter Estimator for Radial Velocity Curve Solutions Beyond Conventional Sampling Limits"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2026JApA...47...11K",
+       "title": [
+        "Investigation of periodic resonant orbits in the binary stellar systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2012AAS...21911402C",
+       "title": [
+        "Accurate Masses and Radii for Kepler's Multi-Eclipsing Hierarchical Triples"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.425..930G",
+       "title": [
+        "On the HU Aquarii planetary system hypothesis"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017hst..prop14927H",
+       "title": [
+        "First Transmission Spectrum of a Cold, Water-Cloud Gas Giant Planet"
+       ]
+      }
+     ]
+    }
+   ],
+   "complete": true
+  },
+  "184916459": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"EPIC 212004082\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.511.3561T",
+       "title": [
+        "BEBOP III. Observations and an independent mass measurement of Kepler-16 (AB) b - the first circumbinary planet detected with radial velocities"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011ApJ...741L...1W",
+       "title": [
+        "Spin-Orbit Alignment for the Circumbinary Planet Host Kepler-16 A"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...750...14Q",
+       "title": [
+        "Habitability of Earth-mass Planets and Moons in the Kepler-16 System"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2018AstL...44..119D",
+       "title": [
+        "Simulations of the Dynamics of the Debris Disks in the Systems Kepler-16, Kepler-34, and Kepler-35"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2019IJAsB..18...79M",
+       "title": [
+        "The habitable zone of Kepler-16: impact of binarity and climate models"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...752...71M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. I. N-body Simulations"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015A&A...582A...5L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. I. Fluid simulations of the Kepler-16 and 34 systems"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2013A&A...556A.134P",
+       "title": [
+        "Migration and gas accretion scenarios for the Kepler 16, 34, and 35 circumbinary planets"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2025NewA..12102457C",
+       "title": [
+        "Impacts of variable mass disk on region and stability of motion around triangular equilibrium points of the R3BP with variable mass binaries Maxi J1659-152 and Kepler-16"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2025MNRAS.540.2914S",
+       "title": [
+        "EBLM XV - revised dynamical masses for the circumbinary planet host Kepler-16 AB, using the SOPHIE spectrograph"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013ApJ...763..107L",
+       "title": [
+        "An Analytic Theory for the Orbits of Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2011Sci...333.1602D",
+       "title": [
+        "Kepler-16: A Transiting Circumbinary Planet"
+       ],
+       "publisher": "John Michels"
+      },
+      {
+       "bibcode": "2012LPI....43.1093M",
+       "title": [
+        "Planetesimal Accumulation Around Kepler-16 (AB)"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...808...58S",
+       "title": [
+        "Birth Locations of the Kepler Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016A&A...590A..62L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. II. Gas disk feedback on planetesimal dynamical and collisional evolution in the circumbinary systems Kepler-16 and 34"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.521.1871B",
+       "title": [
+        "Improving circumbinary planet detections by fitting their binary's apsidal precession"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023NewA...9901958L",
+       "title": [
+        "Out-of-plane equilibrium points of extra-solar planets in the central binaries PSR B1620-26 and Kepler-16 with clusters of material points and variable masses"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2012Natur.481..475W",
+       "title": [
+        "Transiting circumbinary planets Kepler-34 b and Kepler-35 b"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.435.2328D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013A&A...553A..71M",
+       "title": [
+        "Influence of the circumbinary disk gravity on planetesimal accumulation in the Kepler-16 system"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2017AAS...22943323M",
+       "title": [
+        "The Habitable Zone of the Binary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...762....7K",
+       "title": [
+        "On the Habitable Zones of Circumbinary Planetary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022eas..conf.1116C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues"
+       ]
+      },
+      {
+       "bibcode": "2024AAS...24310526S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16 and Kepler-34"
+       ]
+      },
+      {
+       "bibcode": "2024DPS....5640203S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16, Kepler-34, and Kepler-1647"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...789...53F",
+       "title": [
+        "Magnetic Inhibition of Convection and the Fundamental Properties of Low-mass Stars. II. Fully Convective Main-sequence Stars"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021FrASS...8...44G",
+       "title": [
+        "Circumbinary habitable zones in the presence of a giant planet"
+       ],
+       "publisher": "Frontiers"
+      },
+      {
+       "bibcode": "2018A&A...616A..47T",
+       "title": [
+        "Migration of planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.522.4352C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues I: Exploring the pebble accretion scenario"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2016ApJ...818..160Z",
+       "title": [
+        "Constraining the Radiation and Plasma Environment of the Kepler Circumbinary Habitable-zone Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.513.2563C",
+       "title": [
+        "Dusty circumbinary discs: inner cavity structures and stopping locations of migrating planets"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023A&A...670A.112P",
+       "title": [
+        "Three-dimensional evolution of radiative circumbinary discs: The size and shape of the inner cavity"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2014ApJ...790...41M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. II. A Toy Model for In Situ Planet Formation within a Debris Belt"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012AAS...21911003Q",
+       "title": [
+        "On The Existence Of Earth-like Planets In The Circumbinary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...790..141L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021AJ....161...25B",
+       "title": [
+        "On the Estimation of Circumbinary Orbital Properties"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015MNRAS.446.1283C",
+       "title": [
+        "A dynamical stability study of Kepler Circumbinary planetary systems with one planet"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017A&A...604A.102T",
+       "title": [
+        "Circumbinary discs: Numerical and physical behaviour"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ApJ...802...94G",
+       "title": [
+        "Analytic Orbit Propagation for Transiting Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.465.4735M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - I. Disc structure and evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2021AJ....161..223S",
+       "title": [
+        "On the Detection of Habitable Trojan Planets in the Kepler Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015IJAsB..14..465F",
+       "title": [
+        "Surface flux patterns on planets in circumbinary systems and potential for photosynthesis"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...767L..38L",
+       "title": [
+        "Where to Find Habitable \"Earths\" in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014MNRAS.437.1352F",
+       "title": [
+        "Assessing circumbinary habitable zones using latitudinal energy balance modelling"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011arXiv1111.0002H",
+       "title": [
+        "Kepler 16: A System of Potential Interest to Astrobiologists"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...806...98B",
+       "title": [
+        "Planet Formation around Binary Stars: Tatooine Made Easy"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016FBS....57..851M",
+       "title": [
+        "Stability and Fourier-Series Periodic Solution in the Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.429..895P",
+       "title": [
+        "The formation of planets in circumbinary discs"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2020JAnSc..67...59M",
+       "title": [
+        "Lie-Series Solution of Restricted Three-Body Problem: Application to Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2015ApJ...804..106O",
+       "title": [
+        "Stable Conic-Helical Orbits of Planets around Binary Stars: Analytical Results"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...754L..16P",
+       "title": [
+        "How Not to Build Tatooine: The Difficulty of In Situ Formation of Circumbinary Planets Kepler 16b, Kepler 34b, and Kepler 35b"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.469.4504M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - II. Planet evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2022ARep...66.1063K",
+       "title": [
+        "The Precession of Test Orbits in the Circumbinary Exoplanet Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2021A&A...645A..68P",
+       "title": [
+        "Parking planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ESS.....311706M",
+       "title": [
+        "The Impact of Self-Gravity on Planet and Disc Evolution in the Kepler-16, 34 and 35 Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2022MNRAS.513.5290D",
+       "title": [
+        "A target list for searching for habitable exomoons"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..412D",
+       "title": [
+        "Eccentric Adventures in Circumbinary Disks"
+       ]
+      },
+      {
+       "bibcode": "2012DDA....43.0903G",
+       "title": [
+        "Kinematics and Dynamics of a High Order Mean-Motion Resonance:Consideration Of The Kepler-16 System"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.427.2723J",
+       "title": [
+        "Regions of dynamical stability for discs and planets in binary stars of the solar neighbourhood"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..394W",
+       "title": [
+        "Kepler Circumbinary Planets: The Best of Both Worlds"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...774L..26M",
+       "title": [
+        "Rotational Synchronization May Enhance Habitability for Circumbinary Planets: Kepler Binary Case Studies"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2020IAUS..345..230D",
+       "title": [
+        "Resonant multi-lane patterns in circumbinary young debris disks"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...758...39J",
+       "title": [
+        "Can Planetary Instability Explain the Kepler Dichotomy?"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014tmt..confE..36L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2021DDA....5210709S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2013DPS....4511306C",
+       "title": [
+        "LONG TERM DYNAMICAL STUDY OF KEPLER CIRCUMBINARY PLANETS SYSTEMS WITH ONE PLANET"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...746..110Z",
+       "title": [
+        "Challenges in Forming Planets by Gravitational Instability: Disk Irradiation and Clump Migration, Accretion, and Tidal Destruction"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2013prpl.conf2H021D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ]
+      },
+      {
+       "bibcode": "2021BAAS...53c1017S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2026PASP..138g4505B",
+       "title": [
+        "Syntriod: A Robust Initial Parameter Estimator for Radial Velocity Curve Solutions Beyond Conventional Sampling Limits"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2026JApA...47...11K",
+       "title": [
+        "Investigation of periodic resonant orbits in the binary stellar systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2012AAS...21911402C",
+       "title": [
+        "Accurate Masses and Radii for Kepler's Multi-Eclipsing Hierarchical Triples"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.425..930G",
+       "title": [
+        "On the HU Aquarii planetary system hypothesis"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017hst..prop14927H",
+       "title": [
+        "First Transmission Spectrum of a Cold, Water-Cloud Gas Giant Planet"
+       ]
+      }
+     ]
+    }
+   ],
+   "complete": true
+  },
+  "122672401": {
+   "url": "https://api.adsabs.harvard.edu/v1/search/query",
+   "results": [
+    {
+     "query": "full:\"KIC 2299915\"",
+     "numFound": 0,
+     "docs": []
+    },
+    {
+     "query": "full:\"Kepler-16\"",
+     "numFound": 465,
+     "docs": [
+      {
+       "bibcode": "2012ApJ...751L..31B",
+       "title": [
+        "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.511.3561T",
+       "title": [
+        "BEBOP III. Observations and an independent mass measurement of Kepler-16 (AB) b - the first circumbinary planet detected with radial velocities"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011ApJ...741L...1W",
+       "title": [
+        "Spin-Orbit Alignment for the Circumbinary Planet Host Kepler-16 A"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...750...14Q",
+       "title": [
+        "Habitability of Earth-mass Planets and Moons in the Kepler-16 System"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2018AstL...44..119D",
+       "title": [
+        "Simulations of the Dynamics of the Debris Disks in the Systems Kepler-16, Kepler-34, and Kepler-35"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2019IJAsB..18...79M",
+       "title": [
+        "The habitable zone of Kepler-16: impact of binarity and climate models"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...752...71M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. I. N-body Simulations"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015A&A...582A...5L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. I. Fluid simulations of the Kepler-16 and 34 systems"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2013A&A...556A.134P",
+       "title": [
+        "Migration and gas accretion scenarios for the Kepler 16, 34, and 35 circumbinary planets"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2025NewA..12102457C",
+       "title": [
+        "Impacts of variable mass disk on region and stability of motion around triangular equilibrium points of the R3BP with variable mass binaries Maxi J1659-152 and Kepler-16"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2025MNRAS.540.2914S",
+       "title": [
+        "EBLM XV - revised dynamical masses for the circumbinary planet host Kepler-16 AB, using the SOPHIE spectrograph"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013ApJ...763..107L",
+       "title": [
+        "An Analytic Theory for the Orbits of Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2011Sci...333.1602D",
+       "title": [
+        "Kepler-16: A Transiting Circumbinary Planet"
+       ],
+       "publisher": "John Michels"
+      },
+      {
+       "bibcode": "2012LPI....43.1093M",
+       "title": [
+        "Planetesimal Accumulation Around Kepler-16 (AB)"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...808...58S",
+       "title": [
+        "Birth Locations of the Kepler Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016A&A...590A..62L",
+       "title": [
+        "Modelling circumbinary protoplanetary disks. II. Gas disk feedback on planetesimal dynamical and collisional evolution in the circumbinary systems Kepler-16 and 34"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.521.1871B",
+       "title": [
+        "Improving circumbinary planet detections by fitting their binary's apsidal precession"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023NewA...9901958L",
+       "title": [
+        "Out-of-plane equilibrium points of extra-solar planets in the central binaries PSR B1620-26 and Kepler-16 with clusters of material points and variable masses"
+       ],
+       "publisher": "Elsevier"
+      },
+      {
+       "bibcode": "2012Natur.481..475W",
+       "title": [
+        "Transiting circumbinary planets Kepler-34 b and Kepler-35 b"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.435.2328D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2013A&A...553A..71M",
+       "title": [
+        "Influence of the circumbinary disk gravity on planetesimal accumulation in the Kepler-16 system"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2017AAS...22943323M",
+       "title": [
+        "The Habitable Zone of the Binary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...762....7K",
+       "title": [
+        "On the Habitable Zones of Circumbinary Planetary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022eas..conf.1116C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues"
+       ]
+      },
+      {
+       "bibcode": "2024AAS...24310526S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16 and Kepler-34"
+       ]
+      },
+      {
+       "bibcode": "2024DPS....5640203S",
+       "title": [
+        "A Search for Additional Planets in Kepler-16, Kepler-34, and Kepler-1647"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...789...53F",
+       "title": [
+        "Magnetic Inhibition of Convection and the Fundamental Properties of Low-mass Stars. II. Fully Convective Main-sequence Stars"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021FrASS...8...44G",
+       "title": [
+        "Circumbinary habitable zones in the presence of a giant planet"
+       ],
+       "publisher": "Frontiers"
+      },
+      {
+       "bibcode": "2018A&A...616A..47T",
+       "title": [
+        "Migration of planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2023MNRAS.522.4352C",
+       "title": [
+        "Global N-body simulations of circumbinary planet formation around Kepler-16 and -34 analogues I: Exploring the pebble accretion scenario"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2016ApJ...818..160Z",
+       "title": [
+        "Constraining the Radiation and Plasma Environment of the Kepler Circumbinary Habitable-zone Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2022MNRAS.513.2563C",
+       "title": [
+        "Dusty circumbinary discs: inner cavity structures and stopping locations of migrating planets"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2023A&A...670A.112P",
+       "title": [
+        "Three-dimensional evolution of radiative circumbinary discs: The size and shape of the inner cavity"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2014ApJ...790...41M",
+       "title": [
+        "Circumbinary Planet Formation in the Kepler-16 System. II. A Toy Model for In Situ Planet Formation within a Debris Belt"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012AAS...21911003Q",
+       "title": [
+        "On The Existence Of Earth-like Planets In The Circumbinary System Kepler-16"
+       ]
+      },
+      {
+       "bibcode": "2014ApJ...790..141L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2021AJ....161...25B",
+       "title": [
+        "On the Estimation of Circumbinary Orbital Properties"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015MNRAS.446.1283C",
+       "title": [
+        "A dynamical stability study of Kepler Circumbinary planetary systems with one planet"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017A&A...604A.102T",
+       "title": [
+        "Circumbinary discs: Numerical and physical behaviour"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ApJ...802...94G",
+       "title": [
+        "Analytic Orbit Propagation for Transiting Circumbinary Planets"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.465.4735M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - I. Disc structure and evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2021AJ....161..223S",
+       "title": [
+        "On the Detection of Habitable Trojan Planets in the Kepler Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2015IJAsB..14..465F",
+       "title": [
+        "Surface flux patterns on planets in circumbinary systems and potential for photosynthesis"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...767L..38L",
+       "title": [
+        "Where to Find Habitable \"Earths\" in Circumbinary Systems"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014MNRAS.437.1352F",
+       "title": [
+        "Assessing circumbinary habitable zones using latitudinal energy balance modelling"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2011arXiv1111.0002H",
+       "title": [
+        "Kepler 16: A System of Potential Interest to Astrobiologists"
+       ]
+      },
+      {
+       "bibcode": "2015ApJ...806...98B",
+       "title": [
+        "Planet Formation around Binary Stars: Tatooine Made Easy"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2016FBS....57..851M",
+       "title": [
+        "Stability and Fourier-Series Periodic Solution in the Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2013MNRAS.429..895P",
+       "title": [
+        "The formation of planets in circumbinary discs"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2020JAnSc..67...59M",
+       "title": [
+        "Lie-Series Solution of Restricted Three-Body Problem: Application to Binary Stellar Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2015ApJ...804..106O",
+       "title": [
+        "Stable Conic-Helical Orbits of Planets around Binary Stars: Analytical Results"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2012ApJ...754L..16P",
+       "title": [
+        "How Not to Build Tatooine: The Difficulty of In Situ Formation of Circumbinary Planets Kepler 16b, Kepler 34b, and Kepler 35b"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2017MNRAS.469.4504M",
+       "title": [
+        "The role of disc self-gravity in circumbinary planet systems - II. Planet evolution"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2022ARep...66.1063K",
+       "title": [
+        "The Precession of Test Orbits in the Circumbinary Exoplanet Systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2021A&A...645A..68P",
+       "title": [
+        "Parking planets in circumbinary discs"
+       ],
+       "publisher": "EDP"
+      },
+      {
+       "bibcode": "2015ESS.....311706M",
+       "title": [
+        "The Impact of Self-Gravity on Planet and Disc Evolution in the Kepler-16, 34 and 35 Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2022MNRAS.513.5290D",
+       "title": [
+        "A target list for searching for habitable exomoons"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..412D",
+       "title": [
+        "Eccentric Adventures in Circumbinary Disks"
+       ]
+      },
+      {
+       "bibcode": "2012DDA....43.0903G",
+       "title": [
+        "Kinematics and Dynamics of a High Order Mean-Motion Resonance:Consideration Of The Kepler-16 System"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.427.2723J",
+       "title": [
+        "Regions of dynamical stability for discs and planets in binary stars of the solar neighbourhood"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2015ASPC..496..394W",
+       "title": [
+        "Kepler Circumbinary Planets: The Best of Both Worlds"
+       ]
+      },
+      {
+       "bibcode": "2013ApJ...774L..26M",
+       "title": [
+        "Rotational Synchronization May Enhance Habitability for Circumbinary Planets: Kepler Binary Case Studies"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2020IAUS..345..230D",
+       "title": [
+        "Resonant multi-lane patterns in circumbinary young debris disks"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...758...39J",
+       "title": [
+        "Can Planetary Instability Explain the Kepler Dichotomy?"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2014tmt..confE..36L",
+       "title": [
+        "Transits of Planets with Small Intervals in Circumbinary Systems"
+       ]
+      },
+      {
+       "bibcode": "2021DDA....5210709S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2013DPS....4511306C",
+       "title": [
+        "LONG TERM DYNAMICAL STUDY OF KEPLER CIRCUMBINARY PLANETS SYSTEMS WITH ONE PLANET"
+       ]
+      },
+      {
+       "bibcode": "2012ApJ...746..110Z",
+       "title": [
+        "Challenges in Forming Planets by Gravitational Instability: Disk Irradiation and Clump Migration, Accretion, and Tidal Destruction"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2013prpl.conf2H021D",
+       "title": [
+        "The curiously circular orbit of Kepler-16b"
+       ]
+      },
+      {
+       "bibcode": "2021BAAS...53c1017S",
+       "title": [
+        "On the prospect of detecting habitable trojan planets in the Kepler circumbinary planetary systems"
+       ]
+      },
+      {
+       "bibcode": "2026PASP..138g4505B",
+       "title": [
+        "Syntriod: A Robust Initial Parameter Estimator for Radial Velocity Curve Solutions Beyond Conventional Sampling Limits"
+       ],
+       "publisher": "IOP"
+      },
+      {
+       "bibcode": "2026JApA...47...11K",
+       "title": [
+        "Investigation of periodic resonant orbits in the binary stellar systems"
+       ],
+       "publisher": "Springer"
+      },
+      {
+       "bibcode": "2012AAS...21911402C",
+       "title": [
+        "Accurate Masses and Radii for Kepler's Multi-Eclipsing Hierarchical Triples"
+       ]
+      },
+      {
+       "bibcode": "2012MNRAS.425..930G",
+       "title": [
+        "On the HU Aquarii planetary system hypothesis"
+       ],
+       "publisher": "OUP"
+      },
+      {
+       "bibcode": "2017hst..prop14927H",
+       "title": [
+        "First Transmission Spectrum of a Cold, Water-Cloud Gas Giant Planet"
+       ]
+      }
+     ]
+    }
+   ],
+   "complete": true
+  }
+ }
+}

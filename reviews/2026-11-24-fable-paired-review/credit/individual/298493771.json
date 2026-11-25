@@ -1,0 +1,142 @@
+{
+ "tic": "298493771",
+ "gaia_dr3": "1242055480592672896",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J14371961+2202106\" OR full:\"APASS 45066910\" OR full:\"AllWISE J143719.66+220211.3\" OR full:\"Gaia DR2 1242055480592672896\" OR full:\"Gaia DR3 1242055480592672896\" OR full:\"TIC 298493771\" OR full:\"TYC 1483-00121-1\" OR full:\"TYC 1483-121-1\" OR full:\"UCAC4 561-054983\" OR full:\"WISE J143719.66+220211.3\" OR full:\"WISEA J143719.66+220211.3\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J14371961+2202106",
+   "APASS 45066910",
+   "AllWISE J143719.66+220211.3",
+   "Gaia DR2 1242055480592672896",
+   "Gaia DR3 1242055480592672896",
+   "TIC 298493771",
+   "TYC 1483-00121-1",
+   "TYC 1483-121-1",
+   "UCAC4 561-054983",
+   "WISE J143719.66+220211.3",
+   "WISEA J143719.66+220211.3"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "298493771",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J14371961+2202106",
+   "APASS 45066910",
+   "AllWISE J143719.66+220211.3",
+   "Gaia DR2 1242055480592672896",
+   "TYC 1483-00121-1",
+   "TYC 1483-121-1",
+   "UCAC4 561-054983",
+   "TIC 298493771",
+   "Gaia DR3 1242055480592672896"
+  ],
+  "objects": {
+   "TYC 1483-121-1": {
+    "object_type": "**",
+    "matched_aliases": [
+     "2MASS J14371961+2202106",
+     "TIC 298493771",
+     "TYC 1483-121-1",
+     "UCAC4 561-054983"
+    ],
+    "simbad_ids": "TIC 298493771|UCAC4 561-054983|WISE J143719.66+220211.3|WISEA J143719.66+220211.3|TYC 1483-121-1|2MASS J14371961+2202106",
+    "references": {}
+   },
+   "Gaia DR3 1242055480592672896": {
+    "object_type": "*",
+    "matched_aliases": [
+     "Gaia DR2 1242055480592672896",
+     "Gaia DR3 1242055480592672896"
+    ],
+    "simbad_ids": "Gaia DR2 1242055480592672896|Gaia DR3 1242055480592672896",
+    "references": {}
+   }
+  }
+ },
+ "villanova": {
+  "tic": "298493771",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=298493771&json=",
+  "basic_info": {
+   "tic_id": "298493771",
+   "star_names": "TIC 298493771, 2MASS J14371961+2202106, APASS 45066910, Gaia DR2 1242055480592672896, Gaia DR3 1242055480592672896, TYC 1483-00121-1, UCAC4 561-054983, WISE J143719.66+220211.3",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.295168"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "1242055480592672896",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.531,
+    "source_id": "1242055480592672896",
+    "ra": "219.33170418388815",
+    "dec": "22.036457098093646",
+    "pmra": "16.912176394308187",
+    "pmdec": "28.642594696974214",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.745734"
+   },
+   {
+    "distance_arcsec": 2.2344,
+    "source_id": "1242055480592672768",
+    "ra": "219.33222835377768",
+    "dec": "22.036596052737124",
+    "pmra": "17.751414366469607",
+    "pmdec": "28.312625734886044",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "12.879305"
+   }
+  ],
+  "query_receipt": "4e34d946ffa07b006ea436472dc99d81343cad0e770251a22622c870160aa7cd",
+  "tic": "298493771",
+  "ra_deg": "219.33162340818",
+  "dec_deg": "22.0363300281929",
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 123008.484,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

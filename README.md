@@ -1,6 +1,6 @@
 # Eclipses by Appointment
 
-**2,029 accepted eclipsing systems (1,487 confirmed and 542 probable).** The physical catalogue includes systems reported in earlier work. Théo Chopard-Vilhem's original September survey lists 50 of these hosts. The [comparison by system](reviews/2026-11-24-shared-stars/spectroscopic-overlap.csv) records the dated identifications and revisions. The orbit-informed review archive retains 29 plausible cases outside this count; the separate period-free review has 69 plausible outcomes. The prior 913-claim baseline reconciled 917 earlier public claims by removing 17 known systems and adding 13 already accepted private systems; eight additions initially raised it to 921; subsequent literature checks exclude R706, R725 and R727, giving 918. A74 is promoted from probable to confirmed, and C57 from plausible to probable. Catalogue non-matches are bounded searches, not an exhaustive priority claim.
+**2,038 accepted eclipsing systems (1,493 confirmed and 545 probable).** The physical catalogue includes systems reported in earlier work. Théo Chopard-Vilhem's original September survey lists 50 of these hosts. The [comparison by system](reviews/2026-11-24-shared-stars/spectroscopic-overlap.csv) records the dated identifications and revisions. The orbit-informed review archive retains 29 plausible cases outside this count; the separate period-free review has 69 plausible outcomes. The prior 913-claim baseline reconciled 917 earlier public claims by removing 17 known systems and adding 13 already accepted private systems; eight additions initially raised it to 921; subsequent literature checks exclude R706, R725 and R727, giving 918. A74 is promoted from probable to confirmed, and C57 from plausible to probable. Catalogue non-matches are bounded searches, not an exhaustive priority claim.
 
 | Earlier eclipse evidence | Confirmed | Probable | Total |
 |---|---:|---:|---:|
@@ -8,8 +8,10 @@
 | No earlier candidate in the sources checked (added November 22–23) | 54 | 79 | 133 |
 | Prior machine-selected candidate (added November 22–23) | 536 | 288 | 824 |
 | No earlier public eclipse flag found in the sources checked (November 24) | 8 | 1 | 9 |
-| Earlier machine or pipeline detection (November 24) | 23 | 13 | 36 |
-| **Total** | **1,487** | **542** | **2,029** |
+| Earlier machine or pipeline detection (November 24) | 29 | 16 | 45 |
+| **Total** | **1,493** | **545** | **2,038** |
+
+The paired review of 402 queued Fable targets adds 9 hosts (R1858–R1866). [Paired review and measurements](reviews/2026-11-24-fable-paired-review/README.md)
 
 The review of Fable’s lower-tier shortlist adds 3 hosts (R1855–R1857). Kounkel et al. (2021) had already classified ten previously counted systems as detached eclipsing binaries. They remain available as physical measurements with their earlier identifications credited. [Shortlist review and measurements](reviews/2026-11-24-fable-shortlist/README.md) · [Earlier eclipse identifications](reviews/2026-11-24-fable-shortlist/kounkel-identifications.csv)
 
@@ -59,9 +61,9 @@ In the November 5 baseline, by search method, 106 accepted systems come from pre
 
 Among 242 individually reviewed G 10-11.5 period-fold candidates, 230 are confirmed (including three known recoveries), nine probable, two non-eclipsing heartbeat stars and one plausible. These are a reviewed subset, not the denominator for the full period-fold search. Catalogue non-matches retain their stated search scope.
 
-![Sky distribution of all 2,029 accepted eclipsing systems](overview.png)
+![Sky distribution of all 2,038 accepted eclipsing systems](overview.png)
 
-The overview graphic combines the current paper first page, sky positions of all 2,029 accepted systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
+The overview graphic combines the current paper first page, sky positions of all 2,038 accepted systems, and the illustrated eclipse example. [Reproduction script](overview/make_overview.py) and [data and instructions](overview/README.md).
 
 **Related work.** The method is not new. Théo Chopard-Vilhem deposited the same search on Zenodo on 2026 September 27, two weeks before this work began ([10.5281/zenodo.22998328](https://doi.org/10.5281/zenodo.22998328): 9,389 Gaia spectroscopic orbits, 93 eclipsing systems at 13 to 119 days), and on October 13 an open record of the same test on near-edge-on Gaia astrometric orbits ([10.5281/zenodo.23342415](https://doi.org/10.5281/zenodo.23342415)). The first published application of the method is Chopard-Vilhem 2026, Res. Notes AAS 10, 323 ([10.3847/2515-5172/aebd86](https://doi.org/10.3847/2515-5172/aebd86)); the survey is under review at New Astronomy. Our initial literature search missed these records because it did not include Zenodo. The paper cites both records and does not claim priority for the method. A reader of this work pointed us to the records.
 

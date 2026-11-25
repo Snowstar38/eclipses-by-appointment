@@ -33,3 +33,6 @@ Kounkel et al. (2021) tabulated a TESS classification alongside their spectrosco
 The project catalogue contribution to the 15-arcminute period comparisons uses available ephemerides from the November 22 and November 23 host tables, the preceding November 24 expansion and R545. All 2,036 accepted host coordinates were used for the position check. Host classification and priority conclusions are limited to the data and source lists examined.
 
 The [measurement checker](check_measurements.py) refits the three recurrence periods from individual measured eclipse times and verifies the queue counts using the public supplement alone.
+
+
+A subsequent paired review examined the 402 queued targets. The paired review of 402 queued Fable targets adds 9 hosts (R1858–R1866). [Paired review](../2026-11-24-fable-paired-review/README.md).

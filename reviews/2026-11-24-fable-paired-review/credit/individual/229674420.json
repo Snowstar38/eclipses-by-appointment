@@ -1,0 +1,155 @@
+{
+ "tic": "229674420",
+ "gaia_dr3": "1654772799464266240",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J16505487+7418383\" OR full:\"APASS 60286111\" OR full:\"AllWISE J165054.89+741837.7\" OR full:\"Gaia DR2 1654772799464266240\" OR full:\"Gaia DR3 1654772799464266240\" OR full:\"TIC 229674420\" OR full:\"UCAC4 822-019824\" OR full:\"WISE J165054.91+741837.7\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J16505487+7418383",
+   "APASS 60286111",
+   "AllWISE J165054.89+741837.7",
+   "Gaia DR2 1654772799464266240",
+   "Gaia DR3 1654772799464266240",
+   "TIC 229674420",
+   "UCAC4 822-019824",
+   "WISE J165054.91+741837.7"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "229674420",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J16505487+7418383",
+   "APASS 60286111",
+   "AllWISE J165054.89+741837.7",
+   "Gaia DR2 1654772799464266240",
+   "UCAC4 822-019824",
+   "TIC 229674420",
+   "Gaia DR3 1654772799464266240"
+  ],
+  "objects": {
+   "UCAC4 822-019824": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J16505487+7418383",
+     "Gaia DR3 1654772799464266240",
+     "UCAC4 822-019824"
+    ],
+    "simbad_ids": "Gaia DR3 1654772799464266240|UCAC4 822-019824|2MASS J16505487+7418383|WISE J165054.91+741837.7",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "229674420",
+  "complete": true,
+  "exact": true,
+  "listed": "229674420",
+  "sha256": "99a2639e9e08f9e7bbf903b468d83dcad4d377ff6e3eaf2173a2dd76a5c102c2",
+  "details": [
+   [
+    "1",
+    "False",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "None",
+    "wp,pfPolyfit width of the primary eclipse",
+    "ws,pfPolyfit width of the secondary eclipse",
+    "dp,pfPolyfit depth of the primary eclipse",
+    "ds,pfPolyfit depth of the secondary eclipse",
+    "φp,pfPolyfit phase of the primary eclipse",
+    "φs,pfPolyfit phase of the secondary eclipse",
+    "wp,2g2-gaussian width of the primary eclipse",
+    "ws,2g2-gaussian width of the secondary eclipse",
+    "dp,2g2-gaussian depth of the primary eclipse",
+    "ds,2g2-gaussian depth of the secondary eclipse",
+    "φp,2g2-gaussian phase of the primary eclipse",
+    "φs,2g2-gaussian phase of the secondary eclipse"
+   ]
+  ]
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=229674420&json=",
+  "basic_info": {
+   "tic_id": "229674420",
+   "star_names": "TIC 229674420, 2MASS J16505487+7418383, APASS 60286111, Gaia DR2 1654772799464266240, Gaia DR3 1654772799464266240, SDSS DR9 1237656562745344066, UCAC4 822-019824, WISE J165054.89+741837.7",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.002677"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "1654772799464266240",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.7245,
+    "source_id": "1654772799464266240",
+    "ra": "252.72885964881786",
+    "dec": "74.31038781803746",
+    "pmra": "18.38554988266428",
+    "pmdec": "-41.44189591456402",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "12.337462"
+   }
+  ],
+  "query_receipt": "62af8a9fea4ddd7f1b5185f2096a32c97ca4e2b740daf7512a1b156dcb6bf7b7",
+  "tic": "229674420",
+  "ra_deg": "252.728560192275",
+  "dec_deg": "74.3105720434477",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "1654772799464266240",
+     "nss_solution_type": "SB1",
+     "period": "26.542318228906204",
+     "period_error": "0.017669301",
+     "eccentricity": "0.19813976303816627",
+     "eccentricity_error": "0.045336004",
+     "semi_amplitude_primary": "31.861397934142257"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 49742.558,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

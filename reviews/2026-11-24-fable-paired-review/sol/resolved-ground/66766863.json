@@ -1,0 +1,447 @@
+{
+ "tic": "66766863",
+ "gaia": "3635322446037138176",
+ "tested_clock": {
+  "period_d": 0.9063226,
+  "epoch_btjd": 2553.7720057322954,
+  "secondary_phase": 0.506578947368421,
+  "width_d": 0.035775892105263156
+ },
+ "url": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+200.169399106098+-4.95966731858528+0.004&BANDNAME=g%2Cr%2Ci&FORMAT=csv&BAD_CATFLAGS_MASK=32768",
+ "sha256": "5ca5c5f7f67904473044156bfec36d853bc3383dde6ef4b7e4120798363f1ae7",
+ "objects": [
+  {
+   "oid": "424102200006829",
+   "band": "zg",
+   "n_cadences": 262,
+   "sep_to_aperture": 7.647643890001656,
+   "nearest_gaia": "3635322446037138432",
+   "sep_to_gaia": 0.07323331460358473,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 110,
+     "mag_out": 17.191994649999998,
+     "scatter_mag": 0.05650440641999995,
+     "measurements": [
+      {
+       "btjd": 3016.9063833,
+       "phase_offset_hours": 0.0847,
+       "depth_mag": -0.040864,
+       "depth_ppt": -38.3543,
+       "mag_error": 0.0193035156
+      },
+      {
+       "btjd": 3046.7998456,
+       "phase_offset_hours": -0.2797,
+       "depth_mag": 0.019218,
+       "depth_ppt": 17.5443,
+       "mag_error": 0.0197988916
+      },
+      {
+       "btjd": 3124.7581831,
+       "phase_offset_hours": 0.0705,
+       "depth_mag": -0.015674,
+       "depth_ppt": -14.5407,
+       "mag_error": 0.0195075739
+      }
+     ]
+    },
+    {
+     "phase": 0.506578947368421,
+     "n_control": 109,
+     "mag_out": 17.1997738,
+     "scatter_mag": 0.04694489813999715,
+     "measurements": [
+      {
+       "btjd": 1472.9823362,
+       "phase_offset_hours": -0.1424,
+       "depth_mag": 0.068674,
+       "depth_ppt": 61.2923,
+       "mag_error": 0.0202994291
+      },
+      {
+       "btjd": 2924.0179464,
+       "phase_offset_hours": 0.1727,
+       "depth_mag": -0.006521,
+       "depth_ppt": -6.0243,
+       "mag_error": 0.0196476653
+      },
+      {
+       "btjd": 3458.7333493,
+       "phase_offset_hours": -0.1856,
+       "depth_mag": 0.051365,
+       "depth_ppt": 46.2072,
+       "mag_error": 0.0201450251
+      },
+      {
+       "btjd": 3836.6895585,
+       "phase_offset_hours": 0.2868,
+       "depth_mag": -0.049761,
+       "depth_ppt": -46.8979,
+       "mag_error": 0.0192945879
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "424202200014376",
+   "band": "zr",
+   "n_cadences": 345,
+   "sep_to_aperture": 7.622825071924202,
+   "nearest_gaia": "3635322446037138432",
+   "sep_to_gaia": 0.10332019452388073,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 139,
+     "mag_out": 15.8458929,
+     "scatter_mag": 0.034942065060000464,
+     "measurements": [
+      {
+       "btjd": 1217.8537768,
+       "phase_offset_hours": 0.0308,
+       "depth_mag": 0.015598,
+       "depth_ppt": 14.2639,
+       "mag_error": 0.0131063983
+      },
+      {
+       "btjd": 1634.7574498,
+       "phase_offset_hours": -0.0825,
+       "depth_mag": 0.054061,
+       "depth_ppt": 48.5726,
+       "mag_error": 0.0131908758
+      },
+      {
+       "btjd": 1854.0791988,
+       "phase_offset_hours": -0.2822,
+       "depth_mag": 0.000233,
+       "depth_ppt": 0.2143,
+       "mag_error": 0.0130738793
+      },
+      {
+       "btjd": 2340.7800765,
+       "phase_offset_hours": -0.1468,
+       "depth_mag": 0.053978,
+       "depth_ppt": 48.5,
+       "mag_error": 0.0131906895
+      },
+      {
+       "btjd": 2399.7100391,
+       "phase_offset_hours": 0.309,
+       "depth_mag": 0.016221,
+       "depth_ppt": 14.8291,
+       "mag_error": 0.0131077329
+      },
+      {
+       "btjd": 2551.0409298,
+       "phase_offset_hours": -0.2906,
+       "depth_mag": -0.015932,
+       "depth_ppt": -14.7822,
+       "mag_error": 0.0130404085
+      },
+      {
+       "btjd": 2551.0433605,
+       "phase_offset_hours": -0.2323,
+       "depth_mag": 0.02409,
+       "depth_ppt": 21.9432,
+       "mag_error": 0.0131246699
+      },
+      {
+       "btjd": 2551.0458029,
+       "phase_offset_hours": -0.1736,
+       "depth_mag": 0.004134,
+       "depth_ppt": 3.8005,
+       "mag_error": 0.0130820721
+      },
+      {
+       "btjd": 2551.0482451,
+       "phase_offset_hours": -0.115,
+       "depth_mag": 0.031653,
+       "depth_ppt": 28.733,
+       "mag_error": 0.0131411217
+      },
+      {
+       "btjd": 2551.0506874,
+       "phase_offset_hours": -0.0564,
+       "depth_mag": 0.000913,
+       "depth_ppt": 0.8403,
+       "mag_error": 0.0130753024
+      },
+      {
+       "btjd": 3046.8239891,
+       "phase_offset_hours": 0.2997,
+       "depth_mag": 0.034028,
+       "depth_ppt": 30.855,
+       "mag_error": 0.0131463222
+      },
+      {
+       "btjd": 3085.793233,
+       "phase_offset_hours": 0.2367,
+       "depth_mag": 0.021438,
+       "depth_ppt": 19.5512,
+       "mag_error": 0.0131189413
+      },
+      {
+       "btjd": 3115.6969515,
+       "phase_offset_hours": 0.1184,
+       "depth_mag": 0.014032,
+       "depth_ppt": 12.8412,
+       "mag_error": 0.0131030548
+      },
+      {
+       "btjd": 3124.7506144,
+       "phase_offset_hours": -0.1111,
+       "depth_mag": -0.043366,
+       "depth_ppt": -40.7503,
+       "mag_error": 0.0129853087
+      },
+      {
+       "btjd": 3316.0004655,
+       "phase_offset_hours": 0.2677,
+       "depth_mag": -0.044928,
+       "depth_ppt": -42.2479,
+       "mag_error": 0.012982239
+      },
+      {
+       "btjd": 3821.7175238,
+       "phase_offset_hours": 0.0048,
+       "depth_mag": 0.00922,
+       "depth_ppt": 8.4561,
+       "mag_error": 0.0130928168
+      }
+     ]
+    },
+    {
+     "phase": 0.506578947368421,
+     "n_control": 147,
+     "mag_out": 15.8465242,
+     "scatter_mag": 0.03754788281999968,
+     "measurements": [
+      {
+       "btjd": 1233.7134645,
+       "phase_offset_hours": -0.1353,
+       "depth_mag": -0.092098,
+       "depth_ppt": -88.5272,
+       "mag_error": 0.0128937503
+      },
+      {
+       "btjd": 1937.9293332,
+       "phase_offset_hours": -0.0583,
+       "depth_mag": 0.017945,
+       "depth_ppt": 16.3924,
+       "mag_error": 0.0131127834
+      },
+      {
+       "btjd": 2364.8000081,
+       "phase_offset_hours": -0.2328,
+       "depth_mag": 0.005088,
+       "depth_ppt": 4.6752,
+       "mag_error": 0.0130854109
+      },
+      {
+       "btjd": 2742.7564269,
+       "phase_offset_hours": 0.2447,
+       "depth_mag": 0.018758,
+       "depth_ppt": 17.1283,
+       "mag_error": 0.0131145269
+      },
+      {
+       "btjd": 2914.0415898,
+       "phase_offset_hours": 0.0093,
+       "depth_mag": -0.000715,
+       "depth_ppt": -0.6589,
+       "mag_error": 0.0130732153
+      },
+      {
+       "btjd": 2914.0438701,
+       "phase_offset_hours": 0.064,
+       "depth_mag": -0.024707,
+       "depth_ppt": -23.0167,
+       "mag_error": 0.0130238328
+      },
+      {
+       "btjd": 2914.0463472,
+       "phase_offset_hours": 0.1235,
+       "depth_mag": -0.029704,
+       "depth_ppt": -27.7362,
+       "mag_error": 0.0130137522
+      },
+      {
+       "btjd": 2914.0488011,
+       "phase_offset_hours": 0.1824,
+       "depth_mag": 0.062316,
+       "depth_ppt": 55.7791,
+       "mag_error": 0.0132110324
+      },
+      {
+       "btjd": 2914.0512549,
+       "phase_offset_hours": 0.2413,
+       "depth_mag": -0.040533,
+       "depth_ppt": -38.0379,
+       "mag_error": 0.012992152
+      },
+      {
+       "btjd": 3100.7450572,
+       "phase_offset_hours": 0.0336,
+       "depth_mag": 0.08202,
+       "depth_ppt": 72.7602,
+       "mag_error": 0.0132565852
+      },
+      {
+       "btjd": 3757.8219788,
+       "phase_offset_hours": -0.1335,
+       "depth_mag": 0.012985,
+       "depth_ppt": 11.8887,
+       "mag_error": 0.0131021673
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "424302200002632",
+   "band": "zi",
+   "n_cadences": 74,
+   "sep_to_aperture": 0.6697083928827637,
+   "nearest_gaia": "3635322446037138176",
+   "sep_to_gaia": 0.09150217869799307,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 26,
+     "mag_out": 11.74220135,
+     "scatter_mag": 0.012866669969999512,
+     "measurements": [
+      {
+       "btjd": 2291.8382936,
+       "phase_offset_hours": -0.1555,
+       "depth_mag": -0.000924,
+       "depth_ppt": -0.8511,
+       "mag_error": 0.0135407513
+      },
+      {
+       "btjd": 3325.0424759,
+       "phase_offset_hours": -0.2415,
+       "depth_mag": -0.011452,
+       "depth_ppt": -10.6037,
+       "mag_error": 0.0135537274
+      }
+     ]
+    },
+    {
+     "phase": 0.506578947368421,
+     "n_control": 34,
+     "mag_out": 11.7433815,
+     "scatter_mag": 0.009898801289998939,
+     "measurements": [
+      {
+       "btjd": 2256.9680116,
+       "phase_offset_hours": 0.2567,
+       "depth_mag": 0.005732,
+       "depth_ppt": 5.2651,
+       "mag_error": 0.0135311009
+      },
+      {
+       "btjd": 3438.7949293,
+       "phase_offset_hours": -0.1694,
+       "depth_mag": 0.019526,
+       "depth_ppt": 17.8229,
+       "mag_error": 0.0135141239
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "424302200009847",
+   "band": "zi",
+   "n_cadences": 113,
+   "sep_to_aperture": 7.610069831936009,
+   "nearest_gaia": "3635322446037138432",
+   "sep_to_gaia": 0.10864753178965553,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 37,
+     "mag_out": 15.1987314,
+     "scatter_mag": 0.01836111144000027,
+     "measurements": [
+      {
+       "btjd": 1635.6675103,
+       "phase_offset_hours": 0.0072,
+       "depth_mag": -0.00357,
+       "depth_ppt": -3.2931,
+       "mag_error": 0.0114024067
+      },
+      {
+       "btjd": 2291.8382937,
+       "phase_offset_hours": -0.1555,
+       "depth_mag": 0.010547,
+       "depth_ppt": 9.6668,
+       "mag_error": 0.0114170518
+      },
+      {
+       "btjd": 2370.6939381,
+       "phase_offset_hours": -0.0217,
+       "depth_mag": -0.004072,
+       "depth_ppt": -3.7577,
+       "mag_error": 0.0114018926
+      },
+      {
+       "btjd": 2379.7574133,
+       "phase_offset_hours": -0.0157,
+       "depth_mag": 0.024977,
+       "depth_ppt": 22.7419,
+       "mag_error": 0.0114324726
+      },
+      {
+       "btjd": 3325.0424761,
+       "phase_offset_hours": -0.2415,
+       "depth_mag": -0.007982,
+       "depth_ppt": -7.379,
+       "mag_error": 0.0113979159
+      },
+      {
+       "btjd": 3433.8205228,
+       "phase_offset_hours": 0.2225,
+       "depth_mag": 0.038381,
+       "depth_ppt": 34.7323,
+       "mag_error": 0.011447208
+      }
+     ]
+    },
+    {
+     "phase": 0.506578947368421,
+     "n_control": 50,
+     "mag_out": 15.2053027,
+     "scatter_mag": 0.01750787514000018,
+     "measurements": [
+      {
+       "btjd": 2256.9680118,
+       "phase_offset_hours": 0.2567,
+       "depth_mag": -0.020189,
+       "depth_ppt": -18.7685,
+       "mag_error": 0.0113922432
+      },
+      {
+       "btjd": 3408.8873604,
+       "phase_offset_hours": -0.1435,
+       "depth_mag": 0.006413,
+       "depth_ppt": 5.8892,
+       "mag_error": 0.011419625
+      },
+      {
+       "btjd": 3438.7949293,
+       "phase_offset_hours": -0.1694,
+       "depth_mag": 0.017604,
+       "depth_ppt": 16.0835,
+       "mag_error": 0.0114316037
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "tic": "14344900",
+ "batch": 18,
+ "gaia_dr3": "3802951201373401472",
+ "ra_deg": 163.746359530621,
+ "dec_deg": -1.12441849885544,
+ "period": 26.617054283442222,
+ "epoch": 2544.48385679635,
+ "width": 0.125,
+ "trial_secondary": 0.21038637304850888,
+ "sectors": [
+  {
+   "sector": 9,
+   "kind": "ffi",
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0009/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0009_tess_v1_tp.fits",
+   "sha256": "c127b02405cb60465790092bf2da1ea4bbaf0470bad2b1c472e10d470219e95f",
+   "n": 1029,
+   "aperture_xy": [
+    5.341158245020139,
+    4.810059023795814
+   ],
+   "phases": [
+    {
+     "phase": 0,
+     "events": [
+      [
+       -37,
+       1559.652848,
+       66.792,
+       0.88,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.066792,
+     "fit": {
+      "status": "ok",
+      "camera": 1,
+      "ccd": 4,
+      "n_events": 1,
+      "n_in": 4,
+      "diff_snr": 175.6866912841797,
+      "psf_sigma_px": 0.8128199081027044,
+      "wcs_shift_px": [
+       -0.01883975074399845,
+       -0.003022230932735479
+      ],
+      "free_offset_target_as": 0.771951126616819,
+      "chi2_free": 1157.4194393081157,
+      "chi2_target": 1216.3979682572117,
+      "amp_target": 70.68011391476192,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 43113.59670017482,
+        "amp": 29.726076133045982,
+        "is_target": false,
+        "free_offset_as": 31.40692918019367
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 45190.317618051806,
+        "amp": 25.995490758105326,
+        "is_target": false,
+        "free_offset_as": 33.45149301100755
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 41897.19873191761,
+      "verdict": "on_target"
+     }
+    },
+    {
+     "phase": 0.21038637304850888,
+     "events": [
+      [
+       -37,
+       1565.252714,
+       64.031,
+       0.674,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.064031,
+     "fit": {
+      "status": "ok",
+      "camera": 1,
+      "ccd": 4,
+      "n_events": 1,
+      "n_in": 4,
+      "diff_snr": 218.2041778564453,
+      "psf_sigma_px": 0.8175755622477417,
+      "wcs_shift_px": [
+       -0.024780477906812717,
+       -0.0690177414135159
+      ],
+      "free_offset_target_as": 0.9916037094780422,
+      "chi2_free": 1921.7326741810004,
+      "chi2_target": 2072.1280729374807,
+      "amp_target": 66.35982885014349,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 66549.75309616688,
+        "amp": 27.38690264453887,
+        "is_target": false,
+        "free_offset_as": 31.87772628539202
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 69484.09952019493,
+        "amp": 24.104616525862316,
+        "is_target": false,
+        "free_offset_as": 33.65154323329041
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 64477.625023229404,
+      "verdict": "on_target"
+     }
+    }
+   ]
+  },
+  {
+   "sector": 45,
+   "kind": "ffi",
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0045/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0045_tess_v1_tp.fits",
+   "sha256": "437b61489c4c2464a764d969da350edef763ab5740de691220a2e3938fca7b57",
+   "n": 3173,
+   "aperture_xy": [
+    4.639309218133102,
+    4.762417373537826
+   ],
+   "phases": [
+    {
+     "phase": 0,
+     "events": [
+      [
+       0,
+       2544.483857,
+       67.954,
+       0.993,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.06795399999999999,
+     "fit": {
+      "status": "ok",
+      "camera": 4,
+      "ccd": 3,
+      "n_events": 1,
+      "n_in": 11,
+      "diff_snr": 211.25332641601562,
+      "psf_sigma_px": 0.6567953721528814,
+      "wcs_shift_px": [
+       -0.007351611884223771,
+       0.19622044664220595
+      ],
+      "free_offset_target_as": 0.2598582498911173,
+      "chi2_free": 1313.0979592891658,
+      "chi2_target": 1328.6780911528265,
+      "amp_target": 99.21548027416675,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 77809.57975638131,
+        "amp": 32.732563142171536,
+        "is_target": false,
+        "free_offset_as": 30.701771011328418
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 82174.57744060745,
+        "amp": 23.969412606116354,
+        "is_target": false,
+        "free_offset_as": 31.512877437958647
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 76480.90166522848,
+      "verdict": "on_target"
+     }
+    },
+    {
+     "phase": 0.21038637304850888,
+     "events": [
+      [
+       0,
+       2550.083722,
+       65.057,
+       1.599,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.065057,
+     "fit": {
+      "status": "ok",
+      "camera": 4,
+      "ccd": 3,
+      "n_events": 1,
+      "n_in": 11,
+      "diff_snr": 181.46087646484375,
+      "psf_sigma_px": 0.671924405898502,
+      "wcs_shift_px": [
+       -0.0029301798869117166,
+       0.08885210398298471
+      ],
+      "free_offset_target_as": 0.2976504456124427,
+      "chi2_free": 895.8969541254238,
+      "chi2_target": 909.4203803878967,
+      "amp_target": 88.92840466626895,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 59585.75141413499,
+        "amp": 30.466109713570436,
+        "is_target": false,
+        "free_offset_as": 30.518227131002742
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 62127.34680221958,
+        "amp": 25.499518738859376,
+        "is_target": false,
+        "free_offset_as": 31.000558295186828
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 58676.33103374709,
+      "verdict": "on_target"
+     }
+    }
+   ]
+  },
+  {
+   "sector": 46,
+   "kind": "ffi",
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0046/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0046_tess_v1_tp.fits",
+   "sha256": "80e8bde262bfa3e69a44542be38e048c4e815a21df486adcdce8b980f34eec3d",
+   "n": 3214,
+   "aperture_xy": [
+    4.903926248479329,
+    5.648933875082741
+   ],
+   "phases": [
+    {
+     "phase": 0,
+     "events": [
+      [
+       1,
+       2571.100911,
+       65.77,
+       0.798,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.06577,
+     "fit": {
+      "status": "ok",
+      "camera": 3,
+      "ccd": 2,
+      "n_events": 1,
+      "n_in": 11,
+      "diff_snr": 191.42507934570312,
+      "psf_sigma_px": 0.7538640717885099,
+      "wcs_shift_px": [
+       -0.03744529683476364,
+       -0.11339429958323977
+      ],
+      "free_offset_target_as": 0.2722855061868347,
+      "chi2_free": 1154.092221034879,
+      "chi2_target": 1164.845580970852,
+      "amp_target": 80.63038138720772,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 57488.20624623507,
+        "amp": 28.298337791707787,
+        "is_target": false,
+        "free_offset_as": 30.954818282981964
+       },
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 58223.22960993019,
+        "amp": 27.0133084699196,
+        "is_target": false,
+        "free_offset_as": 30.50986210118264
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 56323.36066526422,
+      "verdict": "on_target"
+     }
+    },
+    {
+     "phase": 0.21038637304850888,
+     "events": [
+      [
+       1,
+       2576.700777,
+       61.627,
+       0.903,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.061627,
+     "fit": {
+      "status": "ok",
+      "camera": 3,
+      "ccd": 2,
+      "n_events": 1,
+      "n_in": 11,
+      "diff_snr": 203.54275512695312,
+      "psf_sigma_px": 0.7532839957061997,
+      "wcs_shift_px": [
+       -0.03171794355747495,
+       -0.016153373794024675
+      ],
+      "free_offset_target_as": 0.4287842879680405,
+      "chi2_free": 1272.480242715021,
+      "chi2_target": 1300.8156670787316,
+      "amp_target": 76.30608561864786,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 64852.28727051776,
+        "amp": 26.707524866897895,
+        "is_target": false,
+        "free_offset_as": 30.302764489752377
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 65413.70456749645,
+        "amp": 25.7256215579765,
+        "is_target": false,
+        "free_offset_as": 30.976854479003663
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 63551.47160343903,
+      "verdict": "on_target"
+     }
+    }
+   ]
+  },
+  {
+   "sector": 62,
+   "kind": "ffi",
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0062/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0062_tess_v1_tp.fits",
+   "sha256": "c2c1001fe10864c64a965019d4dbe6de234ac3db3878be9f93ead8266c7a1149",
+   "n": 9371,
+   "aperture_xy": [
+    5.090635969901394,
+    4.934649187609951
+   ],
+   "phases": [
+    {
+     "phase": 0,
+     "events": [
+      [
+       17,
+       2996.97378,
+       69.731,
+       1.529,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.069731,
+     "fit": {
+      "status": "ok",
+      "camera": 1,
+      "ccd": 3,
+      "n_events": 1,
+      "n_in": 33,
+      "diff_snr": 242.53927612304688,
+      "psf_sigma_px": 0.7501873734381572,
+      "wcs_shift_px": [
+       0.07838819084824315,
+       0.14078950189505482
+      ],
+      "free_offset_target_as": 0.2748468949066448,
+      "chi2_free": 1791.0281531435412,
+      "chi2_target": 1804.7254339811811,
+      "amp_target": 80.7231082082486,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 81459.26996748763,
+        "amp": 27.596869542005198,
+        "is_target": false,
+        "free_offset_as": 33.46099184373076
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 84182.27015135827,
+        "amp": 23.640587753064313,
+        "is_target": false,
+        "free_offset_as": 32.37936311662954
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 79654.54453350646,
+      "verdict": "on_target"
+     }
+    },
+    {
+     "phase": 0.21038637304850888,
+     "events": [],
+     "fit_depth_frac": 0.06776900000000001,
+     "fit": {
+      "status": "no_events_in_sector"
+     }
+    }
+   ]
+  },
+  {
+   "sector": 72,
+   "kind": "ffi",
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0072/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0072_tess_v1_tp.fits",
+   "sha256": "94252eac21bce1e6f61fa9fdaeda2ab267026896eccfad3998779a9d78d55e48",
+   "n": 7311,
+   "aperture_xy": [
+    4.9383244949264276,
+    5.079576855595809
+   ],
+   "phases": [
+    {
+     "phase": 0,
+     "events": [],
+     "fit_depth_frac": 0.0707695,
+     "fit": {
+      "status": "no_events_in_sector"
+     }
+    },
+    {
+     "phase": 0.21038637304850888,
+     "events": [
+      [
+       27,
+       3268.744188,
+       61.583,
+       1.669,
+       true
+      ]
+     ],
+     "fit_depth_frac": 0.061583,
+     "fit": {
+      "status": "ok",
+      "camera": 4,
+      "ccd": 2,
+      "n_events": 1,
+      "n_in": 33,
+      "diff_snr": 152.54730224609375,
+      "psf_sigma_px": 0.6392068316170718,
+      "wcs_shift_px": [
+       0.03703530000956156,
+       -0.07190785772100663
+      ],
+      "free_offset_target_as": 0.23336895573915212,
+      "chi2_free": 643.3606408143783,
+      "chi2_target": 648.8783131580702,
+      "amp_target": 101.47270979882185,
+      "n_capable": 2,
+      "hyp": [
+       {
+        "source_id": "3802951201373576064",
+        "sep_as": 30.042106057962805,
+        "dG": 3.3995300000000004,
+        "chi2": 45394.25980939661,
+        "amp": 31.403083757402847,
+        "is_target": false,
+        "free_offset_as": 30.552230436330166
+       },
+       {
+        "source_id": "3802974600355230464",
+        "sep_as": 30.262563745793347,
+        "dG": 1.0357000000000003,
+        "chi2": 47491.14941060445,
+        "amp": 22.104752405964774,
+        "is_target": false,
+        "free_offset_as": 31.200839896815037
+       }
+      ],
+      "unresolved_capable": [],
+      "dchi2_best_neighbour_minus_target": 44745.38149623854,
+      "verdict": "on_target"
+     }
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "fit_primary": {
+  "period_days": 26.617054283442222,
+  "epoch_btjd": 2544.48385679635,
+  "intercept": 1559.652848308988,
+  "events": 4,
+  "sectors": [
+   9,
+   45,
+   46,
+   62
+  ],
+  "residual90_min": 0.6347570505895419,
+  "depth_ppt": 70.7695
+ },
+ "fit_secondary": {
+  "period_days": 26.617061898821415,
+  "epoch_btjd": 2550.0838185473485,
+  "intercept": 1565.2525282909564,
+  "events": 4,
+  "sectors": [
+   9,
+   45,
+   46,
+   72
+  ],
+  "residual90_min": 0.2449130195891485,
+  "depth_ppt": 67.769
+ },
+ "original_phases_events": [
+  {
+   "k": 37,
+   "sector": 45,
+   "origin": "SAP",
+   "phase": 0,
+   "center_btjd": 2544.4833941,
+   "depth_ppt": 66.681,
+   "scatter_ppt": 1.043
+  },
+  {
+   "k": 37,
+   "sector": 45,
+   "origin": "SAP",
+   "phase": 0.2103411615304367,
+   "center_btjd": 2550.0836252,
+   "depth_ppt": 64.986,
+   "scatter_ppt": 1.067
+  },
+  {
+   "k": 38,
+   "sector": 46,
+   "origin": "SAP",
+   "phase": 0,
+   "center_btjd": 2571.1013008,
+   "depth_ppt": 72.365,
+   "scatter_ppt": 1.058
+  },
+  {
+   "k": 38,
+   "sector": 46,
+   "origin": "SAP",
+   "phase": 0.2103411615304367,
+   "center_btjd": 2576.7008737,
+   "depth_ppt": 69.151,
+   "scatter_ppt": 0.908
+  },
+  {
+   "k": 54,
+   "sector": 62,
+   "origin": "SAP",
+   "phase": 0,
+   "center_btjd": 2996.9738224,
+   "depth_ppt": 69.174,
+   "scatter_ppt": 1.204
+  },
+  {
+   "k": 64,
+   "sector": 72,
+   "origin": "SAP",
+   "phase": 0.2103411615304367,
+   "center_btjd": 3268.7446056,
+   "depth_ppt": 66.387,
+   "scatter_ppt": 1.666
+  },
+  {
+   "k": 0,
+   "sector": 9,
+   "origin": "SAP",
+   "phase": 0,
+   "center_btjd": 1559.6528785,
+   "depth_ppt": 72.77,
+   "scatter_ppt": 0.274
+  },
+  {
+   "k": 0,
+   "sector": 9,
+   "origin": "SAP",
+   "phase": 0.2103411615304367,
+   "center_btjd": 1565.2526126,
+   "depth_ppt": 70.089,
+   "scatter_ppt": 0.873
+  }
+ ],
+ "timing_products": [
+  {
+   "sector": 45,
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0045/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0045_tess_v1_lc.fits",
+   "sha256": "a6d46b57a50c62c03c2018ebd448be59f5377ca626aefdc61f8bf7ea060f64db"
+  },
+  {
+   "sector": 46,
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0046/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0046_tess_v1_lc.fits",
+   "sha256": "a62a673edd3ce8cef08a53b79f4852acca939d1897d4d7ddbc56dcb40190aa2d"
+  },
+  {
+   "sector": 62,
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0062/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0062_tess_v1_lc.fits",
+   "sha256": "87ba900b075b5a37ee04d5d8153173ec90874f1c17d538b767bce6fc8487ca99"
+  },
+  {
+   "sector": 72,
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0072/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0072_tess_v1_lc.fits",
+   "sha256": "1479a2feea4f1734952199972bf607e9b2e7beb186e074db1589790bf75c90ef"
+  },
+  {
+   "sector": 9,
+   "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0009/target/0000/0000/1434/4900/hlsp_tess-spoc_tess_phot_0000000014344900-s0009_tess_v1_lc.fits",
+   "sha256": "ae8f6d0d14189fa72b091a0a5680576f23e3a7ac6bb3b3db331e16eeb35ff0a4"
+  }
+ ]
+}

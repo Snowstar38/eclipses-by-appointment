@@ -1,0 +1,68 @@
+{
+ "tic": "399503303",
+ "gaia": "2729760374433394176",
+ "tested_clock": {
+  "period_d": 1.9189734661047673,
+  "epoch_btjd": 2848.67418037417,
+  "secondary_phase": 0.1384615384615384,
+  "width_d": 0.05904556326825535
+ },
+ "url": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+339.132153373378+11.1774918885642+0.004&BANDNAME=g%2Cr%2Ci&FORMAT=csv&BAD_CATFLAGS_MASK=32768",
+ "sha256": "ae08f09e64d75c7408e72dbff2cb078a12dc0d6cb89bb265c374b153bd046521",
+ "objects": [
+  {
+   "oid": "547307200027891",
+   "band": "zi",
+   "n_cadences": 61,
+   "sep_to_aperture": 11.380443593231742,
+   "nearest_gaia": "2729760370139889792",
+   "sep_to_gaia": 8.683294028179846,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 12,
+     "mag_out": 19.9673643,
+     "scatter_mag": 0.6423950126999984,
+     "measurements": [
+      {
+       "btjd": 1280.8831236,
+       "phase_offset_hours": 0.2464,
+       "depth_mag": -0.05273,
+       "depth_ppt": -49.7644,
+       "mag_error": 0.133494332
+      },
+      {
+       "btjd": 1351.8578126,
+       "phase_offset_hours": -0.4095,
+       "depth_mag": -0.074096,
+       "depth_ppt": -70.6272,
+       "mag_error": 0.131463274
+      },
+      {
+       "btjd": 2846.7723027,
+       "phase_offset_hours": 0.4103,
+       "depth_mag": 0.168269,
+       "depth_ppt": 143.5691,
+       "mag_error": 0.155791089
+      }
+     ]
+    },
+    {
+     "phase": 0.1384615384615384,
+     "n_control": 12,
+     "mag_out": 20.0361929,
+     "scatter_mag": 0.5007841030500011,
+     "measurements": [
+      {
+       "btjd": 1639.9781159,
+       "phase_offset_hours": -0.2036,
+       "depth_mag": -1.029103,
+       "depth_ppt": -1580.1284,
+       "mag_error": 0.0676845536
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

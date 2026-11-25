@@ -1,0 +1,121 @@
+{
+ "tic": "219856191",
+ "gaia_dr3": "1636985935437737216",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J17083139+6853099\" OR full:\"APASS 59631834\" OR full:\"AllWISE J170831.37+685309.9\" OR full:\"Gaia DR2 1636985935437737216\" OR full:\"Gaia DR3 1636985935437737216\" OR full:\"TIC 219856191\" OR full:\"UCAC4 795-025208\" OR full:\"WISE J170831.38+685310.0\" OR full:\"ZTF J170831.38+685310.1\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J17083139+6853099",
+   "APASS 59631834",
+   "AllWISE J170831.37+685309.9",
+   "Gaia DR2 1636985935437737216",
+   "Gaia DR3 1636985935437737216",
+   "TIC 219856191",
+   "UCAC4 795-025208",
+   "WISE J170831.38+685310.0",
+   "ZTF J170831.38+685310.1"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "219856191",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J17083139+6853099",
+   "APASS 59631834",
+   "AllWISE J170831.37+685309.9",
+   "Gaia DR2 1636985935437737216",
+   "UCAC4 795-025208",
+   "TIC 219856191",
+   "Gaia DR3 1636985935437737216"
+  ],
+  "objects": {
+   "ZTF J170831.38+685310.1": {
+    "object_type": "BY*",
+    "matched_aliases": [
+     "2MASS J17083139+6853099",
+     "Gaia DR3 1636985935437737216",
+     "UCAC4 795-025208"
+    ],
+    "simbad_ids": "ZTF J170831.38+685310.1|Gaia DR3 1636985935437737216|UCAC4 795-025208|2MASS J17083139+6853099|WISE J170831.38+685310.0",
+    "references": {
+     "2020ApJS..249...18C": "The Zwicky Transient Facility catalog of periodic variable stars.",
+     "2022ApJ...932..118C": "Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "219856191",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=219856191&json=",
+  "basic_info": {
+   "tic_id": "219856191",
+   "star_names": "TIC 219856191, 2MASS J17083139+6853099, APASS 59631834, Gaia DR2 1636985935437737216, Gaia DR3 1636985935437737216, UCAC4 795-025208, WISE J170831.37+685309.9",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.170621"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "1636985935437737216",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "1636985935437737216",
+    "ra": "257.13073560337807",
+    "dec": "68.88611417052803",
+    "pmra": "-2.053899490797143",
+    "pmdec": "10.52902828492113",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "13.038131"
+   }
+  ],
+  "query_receipt": "d4c290c938c4643e88fc9f2bc3171f61991f5e96d7bb06729b63da4c0e0d83a9",
+  "tic": "219856191",
+  "ra_deg": 257.13073560337807,
+  "dec_deg": 68.88611417052803,
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 54448.49,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

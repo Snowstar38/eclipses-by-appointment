@@ -1,0 +1,89 @@
+{
+ "tic": "388766775",
+ "gaia_dr3": "2543115251962408448",
+ "host": {
+  "tic": "388766775",
+  "gaia_dr3": "2543115251962408448",
+  "ra_deg": 10.2657531364715,
+  "dec_deg": 0.347213986643001,
+  "tier": "confirmed",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "33.34198960",
+  "epoch_btjd": "2495.406207",
+  "period_status": "Orbital period fitted to the epoch-defining eclipse centers. Phase zero identifies one recurring family and can be the shallower eclipse.",
+  "depth_ppt": "193.068",
+  "primary_events": 3,
+  "sectors": "42|43|70",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Kostov et al. (2025), machine-selected Table 2, and a TESS threshold-crossing event. No earlier vetted same-clock eclipse identification was found in the sources searched.",
+  "interpretation": "Two discrete eclipse families recur at phases 0 and 0.8239. Difference images favor this star in 3 sectors for the epoch-defining family and 2 for the second. Neither family has an unresolved flux-capable Gaia neighbour in these fits.",
+  "evidence": "hosts/388766775.json"
+ },
+ "measured_clock": {
+  "period_days": 33.34198960059168,
+  "epoch_btjd": 2495.406207062524,
+  "intercept": 2462.0642174619325,
+  "events": 3,
+  "sectors": [
+   42,
+   43,
+   70
+  ],
+  "residual90_min": 0.5064157913730014,
+  "depth_ppt": 193.068
+ },
+ "secondary_fit": null,
+ "secondary_phase": 0.8239476081256851,
+ "source_summary": {
+  "tic": "388766775",
+  "batch": 6,
+  "gaia_dr3": "2543115251962408448",
+  "sectors": 3,
+  "period": 33.34198960059168,
+  "width": 0.24308333333333332,
+  "primary_det": 3,
+  "primary_sector_det": 3,
+  "primary_ontarget": 3,
+  "primary_unresolved": 0,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target|on_target",
+  "primary_depth": 191.055,
+  "primary_offset": "0.1|0.0|0.0",
+  "secondary_det": 2,
+  "secondary_sector_det": 2,
+  "secondary_ontarget": 2,
+  "secondary_unresolved": 0,
+  "secondary_alt": "",
+  "secondary_verdicts": "no_events_in_sector|on_target|on_target",
+  "secondary_depth": 172.43,
+  "secondary_offset": "0|0.1|0.1"
+ },
+ "trial_expected": 5,
+ "trial_seen": 5,
+ "ground": [
+  {
+   "survey": "ZTF",
+   "result": "no_data"
+  },
+  {
+   "survey": "ASASSN_V",
+   "n_in": 1,
+   "result": "no_in_eclipse_points"
+  },
+  {
+   "survey": "ASASSN_g",
+   "n_in": 4,
+   "nights_in": 4,
+   "depth_frac": 0.1357259792356974,
+   "sigma": 1.3496066824357533,
+   "out_rms_mag": 0.18775408301546903,
+   "result": "not_seen"
+  }
+ ],
+ "original_tess_period_days": "5.868053",
+ "timing_and_pixels": "../reclocked/388766775.json",
+ "blind_clock_and_aliases": "../sol/recovered-clocks/388766775.json",
+ "literature": "../credit/individual/388766775.json",
+ "literature_cones": "../credit/wide-clock-matches.json"
+}

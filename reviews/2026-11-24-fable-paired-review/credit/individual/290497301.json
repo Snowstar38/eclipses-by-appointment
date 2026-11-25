@@ -1,0 +1,127 @@
+{
+ "tic": "290497301",
+ "gaia_dr3": "4630008761229794432",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J00104371-8259110\" OR full:\"APASS 35300562\" OR full:\"AllWISE J001044.00-825910.7\" OR full:\"Gaia DR2 4630008761229794432\" OR full:\"Gaia DR3 4630008761229794432\" OR full:\"TIC 290497301\" OR full:\"UCAC4 036-000072\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J00104371-8259110",
+   "APASS 35300562",
+   "AllWISE J001044.00-825910.7",
+   "Gaia DR2 4630008761229794432",
+   "Gaia DR3 4630008761229794432",
+   "TIC 290497301",
+   "UCAC4 036-000072"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "290497301",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J00104371-8259110",
+   "APASS 35300562",
+   "AllWISE J001044.00-825910.7",
+   "Gaia DR2 4630008761229794432",
+   "UCAC4 036-000072",
+   "TIC 290497301",
+   "Gaia DR3 4630008761229794432"
+  ],
+  "objects": {
+   "Gaia DR3 4630008761229794432": {
+    "object_type": "PM*",
+    "matched_aliases": [
+     "Gaia DR2 4630008761229794432",
+     "Gaia DR3 4630008761229794432"
+    ],
+    "simbad_ids": "Gaia DR2 4630008761229794432|Gaia DR3 4630008761229794432",
+    "references": {
+     "2018MNRAS.480.4884E": "Imprints of white dwarf recoil in the separation distribution of Gaia wide binaries."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "290497301",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=290497301&json=",
+  "basic_info": {
+   "tic_id": "290497301",
+   "star_names": "TIC 290497301, 2MASS J00104371-8259110, APASS 35300562, Gaia DR2 4630008761229794432, Gaia DR3 4630008761229794432, UCAC4 036-000072, WISE J001044.00-825910.7",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.362199"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "4630008761229794432",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "4630008761229794432",
+    "ra": "2.6839081912084786",
+    "dec": "-82.9862768840875",
+    "pmra": "44.95814468451871",
+    "pmdec": "39.22931706292642",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "12.096504"
+   },
+   {
+    "distance_arcsec": 5.466,
+    "source_id": "4630008765524298368",
+    "ra": "2.6828536595221264",
+    "dec": "-82.98476402995522",
+    "pmra": "8.58965527540443",
+    "pmdec": "-1.122459970148544",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "19.185804"
+   }
+  ],
+  "query_receipt": "1e83e86fd91623da07c4447f3a7a963d932fe25166d8b55d35b7494d55ce4c5c",
+  "tic": "290497301",
+  "ra_deg": 2.6839081912084786,
+  "dec_deg": -82.9862768840875,
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 16227.851,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

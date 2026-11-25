@@ -9,7 +9,7 @@ python overview/make_overview.py
 
 The generator reads `paper.pdf`, `overview/systems.csv` and `overview/a98.json`, then writes `overview.png` (2400 by 1260 pixels). The first page is rendered directly from the current paper at 1785 pixels wide and cropped using the original overview geometry. The sky uses the original equatorial Mollweide projection, with right ascension increasing leftward and a coordinate-aligned NASA sky background. Each dot is one included system; probable systems remain explicitly identified in the subtitle and CSV.
 
-`systems.csv` contains 2,029 unique TICs (1,487 confirmed and 542 probable). The review of Fable’s lower-tier shortlist adds 3 hosts (R1855–R1857). Kounkel et al. (2021) had already classified ten previously counted systems as detached eclipsing binaries. They remain available as physical measurements with their earlier identifications credited. [Current host positions](systems.csv) · [Shortlist review](../reviews/2026-11-24-fable-shortlist/README.md)
+`systems.csv` contains 2,038 unique TICs (1,493 confirmed and 545 probable). The paired review of 402 queued Fable targets adds 9 hosts (R1858–R1866). [Current host positions](systems.csv) · [Paired review](../reviews/2026-11-24-fable-paired-review/README.md)
 
 The map represents sky position and inclusion only: all dots have the same nominal size and color. It does not represent magnitude, distance, eclipse depth or the strength of evidence, and these quantities are not imputed. Overlapping dots can obscure individual systems. Confirmed and probable describe the physical review tiers; they do not imply a newly discovered binary or uniquely resolved source in every case.
 

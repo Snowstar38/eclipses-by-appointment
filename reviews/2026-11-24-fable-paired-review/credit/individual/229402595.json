@@ -1,0 +1,146 @@
+{
+ "tic": "229402595",
+ "gaia_dr3": "2239229720018398336",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J19304463+6032400\" OR full:\"APASS 58355542\" OR full:\"AllWISE J193044.62+603240.0\" OR full:\"Gaia DR2 2239229720018398336\" OR full:\"Gaia DR3 2239229720018398336\" OR full:\"TIC 229402595\" OR full:\"UCAC4 753-058887\" OR full:\"ZTF J193044.61+603239.9\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J19304463+6032400",
+   "APASS 58355542",
+   "AllWISE J193044.62+603240.0",
+   "Gaia DR2 2239229720018398336",
+   "Gaia DR3 2239229720018398336",
+   "TIC 229402595",
+   "UCAC4 753-058887",
+   "ZTF J193044.61+603239.9"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "229402595",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J19304463+6032400",
+   "APASS 58355542",
+   "AllWISE J193044.62+603240.0",
+   "Gaia DR2 2239229720018398336",
+   "UCAC4 753-058887",
+   "TIC 229402595",
+   "Gaia DR3 2239229720018398336"
+  ],
+  "objects": {
+   "ZTF J193044.61+603239.9": {
+    "object_type": "EB*",
+    "matched_aliases": [
+     "Gaia DR3 2239229720018398336"
+    ],
+    "simbad_ids": "ZTF J193044.61+603239.9|Gaia DR3 2239229720018398336",
+    "references": {
+     "2020ApJS..249...18C": "The Zwicky Transient Facility catalog of periodic variable stars.",
+     "2023A&A...674A..16M": "{\\em Gaia} Data Release 3 The first {\\em Gaia} catalogue of eclipsing-binary candidates.",
+     "2022ApJ...932..118C": "Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars.",
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "229402595",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=229402595&json=",
+  "basic_info": {
+   "tic_id": "229402595",
+   "star_names": "TIC 229402595, 2MASS J19304463+6032400, APASS 58355542, Gaia DR2 2239229720018398336, Gaia DR3 2239229720018398336, UCAC4 753-058887, WISE J193044.62+603240.0",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "none"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2239229720018398336",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "2239229720018398336",
+    "ra": "292.68591449192",
+    "dec": "60.54442223842824",
+    "pmra": "-5.772126456855342",
+    "pmdec": "-8.206190168148224",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "13.793572"
+   }
+  ],
+  "query_receipt": "a81ef006659e2e9c483c2fe925d302db416d0d1ad9d204bfc1dcc55866cee661",
+  "tic": "229402595",
+  "ra_deg": 292.68591449192,
+  "dec_deg": 60.54442223842824,
+  "gaia_tables": {
+   "vari_classifier_result": [
+    {
+     "source_id": "2239229720018398336",
+     "best_class_name": "ECL",
+     "best_class_score": "0.99738455"
+    }
+   ],
+   "vari_eclipsing_binary": [
+    {
+     "source_id": "2239229720018398336",
+     "frequency": "0.8763935982839275",
+     "frequency_error": "1.4076653e-05"
+    }
+   ],
+   "nss_two_body_orbit": [
+    {
+     "source_id": "2239229720018398336",
+     "nss_solution_type": "EclipsingBinary",
+     "period": "1.1410398483276367",
+     "period_error": null,
+     "eccentricity": "0.011187465861439705",
+     "eccentricity_error": "0.0021022114",
+     "semi_amplitude_primary": null
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 39114.826,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

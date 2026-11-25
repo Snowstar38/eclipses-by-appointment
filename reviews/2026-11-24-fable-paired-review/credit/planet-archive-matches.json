@@ -1,0 +1,88 @@
+{
+ "sources": [
+  {
+   "name": "k2_planet_candidates",
+   "query": "SELECT pl_name,hostname,k2_name,disposition,ra,dec,pl_orbper FROM k2pandc",
+   "sha256": "3109fe8196cdcaadb10d8e08b9072d0bdf4174a776ff9a20e0f091eedd23649a",
+   "file": "k2_planet_candidates-2a4060550.csv.gz",
+   "rows": 4086
+  },
+  {
+   "name": "kepler_koi",
+   "query": "SELECT kepid,kepoi_name,koi_disposition,ra,dec,koi_period FROM cumulative",
+   "sha256": "6bf84fdeb5055abff1c25329f20b78896dda1c17fd79b1bce84ca23729c55d4a",
+   "file": "kepler_koi-eef59952e.csv.gz",
+   "rows": 9564
+  },
+  {
+   "name": "exofop_toi",
+   "query": "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv",
+   "sha256": "75b97dc5646f9913e3509258fc09db0d207773e148956333e4d0baf7d27835d4",
+   "file": "exofop_toi-e22a943ab.csv.gz",
+   "rows": 8175
+  },
+  {
+   "name": "exofop_ctoi",
+   "query": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+   "sha256": "30c9221a774ee90de5518c2ef7ec036b54637b8d0f2fdefdba3511062a7fede3",
+   "file": "exofop_ctoi-84a829cca.csv.gz",
+   "rows": 5139
+  }
+ ],
+ "rows": [
+  {
+   "tic": "158213683",
+   "survey": "kepler_koi",
+   "catalogue_id": "K02658.01",
+   "label": "CONFIRMED",
+   "period_days": "11.6601667",
+   "distance_arcsec": 0.014,
+   "period_match": [],
+   "details": {
+    "kepid": "8547429"
+   }
+  },
+  {
+   "tic": "424911242",
+   "survey": "exofop_toi",
+   "catalogue_id": "406236094",
+   "label": "PC",
+   "period_days": "4.1394473",
+   "distance_arcsec": 652.694,
+   "period_match": [
+    [
+     "adopted",
+     0.3333333333333333
+    ],
+    [
+     "original",
+     0.3333333333333333
+    ]
+   ],
+   "details": {
+    "Comments": "found in faint-star QLP search"
+   }
+  },
+  {
+   "tic": "237214300",
+   "survey": "exofop_ctoi",
+   "catalogue_id": "237214311",
+   "label": "",
+   "period_days": "37.5215",
+   "distance_arcsec": 60.837,
+   "period_match": [
+    [
+     "adopted",
+     1
+    ],
+    [
+     "original",
+     1
+    ]
+   ],
+   "details": {
+    "Notes": "Cycle 2 CVZ planet candidates added to short cadence from GI Program G022227; prelim vetting with DAVE"
+   }
+  }
+ ]
+}

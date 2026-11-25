@@ -1,0 +1,108 @@
+{
+ "tic": "230378914",
+ "gaia_dr3": "2252187773788988928",
+ "host": {
+  "tic": "230378914",
+  "gaia_dr3": "2252187773788988928",
+  "ra_deg": 285.33132973087,
+  "dec_deg": 62.0476468656288,
+  "tier": "probable",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "2.13366526",
+  "epoch_btjd": "2621.859961",
+  "period_status": "Measured recurrence of the narrow primary dip. The broader brightness modulation has the same orbital period.",
+  "depth_ppt": "6.282",
+  "primary_events": 20,
+  "sectors": "41|55",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Earlier TESS-SPOC threshold-crossing event and Kostov et al. (2025) unvetted machine selection, Table 2. Fable 5.2 shortlisted the source. No earlier vetted same-clock eclipse identification was found in the sources searched.",
+  "interpretation": "A narrow 4.4 to 6.4 ppt primary dip remains above the measured uncertainty after removing the local smooth shoulders in three sectors. The two-sector difference images favor the target and show no unresolved flux-capable Gaia neighbour. The broader secondary-phase trough is consistent with orbital modulation, with no independently secured second eclipse. The TIC's approximately 3 solar radius and 2.1 solar mass are compatible with the 2.134-day orbit. Resolved ZTF data do not provide a useful confirmation.",
+  "evidence": "hosts/230378914.json"
+ },
+ "measured_clock": {
+  "period_days": 2.1336652624367844,
+  "epoch_btjd": 2621.859961190609,
+  "intercept": 1685.1809109808603,
+  "events": 20,
+  "sectors": [
+   41,
+   55
+  ],
+  "residual90_min": 5.549118771836221,
+  "depth_ppt": 6.2825,
+  "formal_period_error_d": 6.2842355423621035e-06
+ },
+ "original_tess_period_days": 2.133665622147579,
+ "source_summary": {
+  "tic": "230378914",
+  "batch": 18,
+  "gaia_dr3": "2252187773788988928",
+  "sectors": 2,
+  "period": 2.133665622147579,
+  "width": 0.2987131871006611,
+  "primary_det": 18,
+  "primary_sector_det": 2,
+  "primary_ontarget": 2,
+  "primary_unresolved": 0,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target",
+  "primary_depth": 20.553,
+  "primary_offset": "2.2|2.0",
+  "secondary_det": 18,
+  "secondary_sector_det": 2,
+  "secondary_ontarget": 2,
+  "secondary_unresolved": 0,
+  "secondary_alt": "",
+  "secondary_verdicts": "on_target|on_target",
+  "secondary_depth": 14.941,
+  "secondary_offset": "2.7|1.8"
+ },
+ "source_pixels": "../pixels/230378914.json",
+ "archive_photometry": "../sol/objects/230378914.json",
+ "original_trial_primary_and_secondary_timing": "../event-fits/230378914.json",
+ "literature": "../credit/individual/230378914.json",
+ "stellar_properties": {
+  "rad": 2.9854,
+  "e_rad": 0.138543,
+  "mass": 2.07,
+  "e_mass": 0.306554,
+  "Teff": 8369,
+  "logg": 3.80403,
+  "lumclass": "DWARF",
+  "Tmag": 11.7428
+ },
+ "quantitative_cusp_checks": "../sol/cusps/230378914.json",
+ "independent_pdc_clock": {
+  "period_days": 2.133665977611921,
+  "epoch_btjd": 2621.859968144403,
+  "intercept": 1685.1806039727694,
+  "events": 20,
+  "sectors": [
+   41,
+   55
+  ],
+  "residual90_min": 5.867676969261083,
+  "depth_ppt": 6.933,
+  "formal_period_error_d": 6.459114283337483e-06
+ },
+ "stacked_cusp_depths": [
+  {
+   "sector": 14,
+   "cusp_depth_ppt": 4.4320294924179,
+   "side_residual_mad_ppt": 0.678195064245461
+  },
+  {
+   "sector": 41,
+   "cusp_depth_ppt": 6.157653741110801,
+   "side_residual_mad_ppt": 0.8493900083524183
+  },
+  {
+   "sector": 55,
+   "cusp_depth_ppt": 6.359430021278611,
+   "side_residual_mad_ppt": 0.8133158994051476
+  }
+ ],
+ "cusp_plot": "../sol/panels/cusps/230378914.png",
+ "resolved_ground_cadences": "../sol/resolved-ground/230378914.json"
+}

@@ -1,0 +1,965 @@
+{
+ "tic": "172751664",
+ "gaia": "1198439091271164544",
+ "tested_clock": {
+  "period_d": 0.7021969838586603,
+  "epoch_btjd": 2731.788081460011,
+  "secondary_phase": 0.5080645161290323,
+  "width_d": 0.04530269913332111
+ },
+ "url": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+242.055866501234+16.3466288831095+0.004&BANDNAME=g%2Cr%2Ci&FORMAT=csv&BAD_CATFLAGS_MASK=32768",
+ "sha256": "e25c9effe26b581fe13d15d88619f1212fec22e4d98c1bfb92153ae7458dc567",
+ "objects": [
+  {
+   "oid": "1579110200005248",
+   "band": "zg",
+   "n_cadences": 35,
+   "sep_to_aperture": 0.8049357714534788,
+   "nearest_gaia": "1198439091271164544",
+   "sep_to_gaia": 0.10746117661341882,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 13,
+     "mag_out": 12.8560724,
+     "scatter_mag": 0.0093092453999989,
+     "measurements": [
+      {
+       "btjd": 2000.795664,
+       "phase_offset_hours": -0.1286,
+       "depth_mag": 0.014059,
+       "depth_ppt": 12.8654,
+       "mag_error": 0.00994475838
+      }
+     ]
+    },
+    {
+     "phase": 0.5080645161290323,
+     "n_control": 13,
+     "mag_out": 12.8544922,
+     "scatter_mag": 0.005632990440000177,
+     "measurements": [
+      {
+       "btjd": 1999.7541778,
+       "phase_offset_hours": 0.0189,
+       "depth_mag": 0.023397,
+       "depth_ppt": 21.3185,
+       "mag_error": 0.00993955974
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "584104200004766",
+   "band": "zg",
+   "n_cadences": 829,
+   "sep_to_aperture": 0.8229162949641216,
+   "nearest_gaia": "1198439091271164544",
+   "sep_to_gaia": 0.06028374720459342,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 301,
+     "mag_out": 12.8663836,
+     "scatter_mag": 0.014133625800001666,
+     "measurements": [
+      {
+       "btjd": 1236.8167019,
+       "phase_offset_hours": 0.144,
+       "depth_mag": 0.013528,
+       "depth_ppt": 12.3823,
+       "mag_error": 0.0143959103
+      },
+      {
+       "btjd": 1276.8464266,
+       "phase_offset_hours": 0.2519,
+       "depth_mag": 0.004123,
+       "depth_ppt": 3.7899,
+       "mag_error": 0.0144014414
+      },
+      {
+       "btjd": 1300.7148177,
+       "phase_offset_hours": 0.1005,
+       "depth_mag": 0.024813,
+       "depth_ppt": 22.5942,
+       "mag_error": 0.0143892895
+      },
+      {
+       "btjd": 1314.7528314,
+       "phase_offset_hours": -0.0417,
+       "depth_mag": 0.002567,
+       "depth_ppt": 2.3617,
+       "mag_error": 0.0144023579
+      },
+      {
+       "btjd": 1575.9866357,
+       "phase_offset_hours": 0.355,
+       "depth_mag": 0.01295,
+       "depth_ppt": 11.8565,
+       "mag_error": 0.0143962493
+      },
+      {
+       "btjd": 1632.8452354,
+       "phase_offset_hours": -0.1096,
+       "depth_mag": 0.016304,
+       "depth_ppt": 14.9044,
+       "mag_error": 0.0143942796
+      },
+      {
+       "btjd": 1727.6499509,
+       "phase_offset_hours": 0.0854,
+       "depth_mag": 0.003549,
+       "depth_ppt": 3.263,
+       "mag_error": 0.0144017795
+      },
+      {
+       "btjd": 1880.0186278,
+       "phase_offset_hours": -0.1083,
+       "depth_mag": 0.016283,
+       "depth_ppt": 14.8853,
+       "mag_error": 0.0143942926
+      },
+      {
+       "btjd": 1962.8782662,
+       "phase_offset_hours": -0.0988,
+       "depth_mag": 0.014208,
+       "depth_ppt": 13.0006,
+       "mag_error": 0.0143955098
+      },
+      {
+       "btjd": 1993.7747308,
+       "phase_offset_hours": -0.1037,
+       "depth_mag": 0.001671,
+       "depth_ppt": 1.5377,
+       "mag_error": 0.0144028859
+      },
+      {
+       "btjd": 2000.793789,
+       "phase_offset_hours": -0.1736,
+       "depth_mag": 0.004968,
+       "depth_ppt": 4.5649,
+       "mag_error": 0.0144009441
+      },
+      {
+       "btjd": 2005.731472,
+       "phase_offset_hours": 0.3617,
+       "depth_mag": 0.014926,
+       "depth_ppt": 13.6532,
+       "mag_error": 0.0143950889
+      },
+      {
+       "btjd": 2014.8445871,
+       "phase_offset_hours": -0.009,
+       "depth_mag": 0.015378,
+       "depth_ppt": 14.0638,
+       "mag_error": 0.0143948225
+      },
+      {
+       "btjd": 2038.7357478,
+       "phase_offset_hours": 0.3861,
+       "depth_mag": 0.034305,
+       "depth_ppt": 31.1026,
+       "mag_error": 0.0143837342
+      },
+      {
+       "btjd": 2052.7766992,
+       "phase_offset_hours": 0.3144,
+       "depth_mag": 0.016978,
+       "depth_ppt": 15.5159,
+       "mag_error": 0.0143938838
+      },
+      {
+       "btjd": 2059.7764004,
+       "phase_offset_hours": -0.22,
+       "depth_mag": 0.007372,
+       "depth_ppt": 6.7668,
+       "mag_error": 0.0143995294
+      },
+      {
+       "btjd": 2064.6980558,
+       "phase_offset_hours": -0.0694,
+       "depth_mag": 0.03449,
+       "depth_ppt": 31.2677,
+       "mag_error": 0.0143836262
+      },
+      {
+       "btjd": 2071.7134754,
+       "phase_offset_hours": -0.2266,
+       "depth_mag": 0.009503,
+       "depth_ppt": 8.7147,
+       "mag_error": 0.0143982759
+      },
+      {
+       "btjd": 2358.9280446,
+       "phase_offset_hours": 0.1575,
+       "depth_mag": -0.031238,
+       "depth_ppt": -29.1888,
+       "mag_error": 0.0144223487
+      },
+      {
+       "btjd": 2358.928982,
+       "phase_offset_hours": 0.18,
+       "depth_mag": 0.014063,
+       "depth_ppt": 12.8688,
+       "mag_error": 0.0143955955
+      },
+      {
+       "btjd": 2382.8037018,
+       "phase_offset_hours": 0.1805,
+       "depth_mag": 0.017092,
+       "depth_ppt": 15.6188,
+       "mag_error": 0.0143938167
+      },
+      {
+       "btjd": 2382.8046392,
+       "phase_offset_hours": 0.203,
+       "depth_mag": 0.008454,
+       "depth_ppt": 7.7565,
+       "mag_error": 0.0143988924
+      },
+      {
+       "btjd": 2391.9292949,
+       "phase_offset_hours": 0.1093,
+       "depth_mag": 0.018868,
+       "depth_ppt": 17.2283,
+       "mag_error": 0.0143927746
+      },
+      {
+       "btjd": 2394.732487,
+       "phase_offset_hours": -0.025,
+       "depth_mag": 0.017536,
+       "depth_ppt": 16.0216,
+       "mag_error": 0.0143935569
+      },
+      {
+       "btjd": 2401.7559999,
+       "phase_offset_hours": 0.012,
+       "depth_mag": -0.011444,
+       "depth_ppt": -10.5962,
+       "mag_error": 0.0144106243
+      },
+      {
+       "btjd": 2401.7670526,
+       "phase_offset_hours": 0.2773,
+       "depth_mag": 0.027873,
+       "depth_ppt": 25.3453,
+       "mag_error": 0.0143874967
+      },
+      {
+       "btjd": 2427.7356696,
+       "phase_offset_hours": -0.0268,
+       "depth_mag": 0.024368,
+       "depth_ppt": 22.194,
+       "mag_error": 0.0143895503
+      },
+      {
+       "btjd": 2439.6779542,
+       "phase_offset_hours": 0.0916,
+       "depth_mag": 0.009468,
+       "depth_ppt": 8.6824,
+       "mag_error": 0.0143982964
+      },
+      {
+       "btjd": 2679.8227311,
+       "phase_offset_hours": -0.0666,
+       "depth_mag": -0.008936,
+       "depth_ppt": -8.2643,
+       "mag_error": 0.0144091425
+      },
+      {
+       "btjd": 2747.9279694,
+       "phase_offset_hours": -0.2554,
+       "depth_mag": -0.00926,
+       "depth_ppt": -8.5654,
+       "mag_error": 0.0144093344
+      },
+      {
+       "btjd": 2750.7402981,
+       "phase_offset_hours": -0.1704,
+       "depth_mag": -0.017079,
+       "depth_ppt": -15.8551,
+       "mag_error": 0.0144139575
+      },
+      {
+       "btjd": 2757.7625802,
+       "phase_offset_hours": -0.163,
+       "depth_mag": -0.013669,
+       "depth_ppt": -12.6693,
+       "mag_error": 0.0144119393
+      },
+      {
+       "btjd": 2769.69413,
+       "phase_offset_hours": -0.3021,
+       "depth_mag": -0.008885,
+       "depth_ppt": -8.2165,
+       "mag_error": 0.0144091127
+      },
+      {
+       "btjd": 2771.8088723,
+       "phase_offset_hours": -0.1065,
+       "depth_mag": 0.003081,
+       "depth_ppt": 2.834,
+       "mag_error": 0.0144020552
+      },
+      {
+       "btjd": 3089.9069681,
+       "phase_offset_hours": -0.0378,
+       "depth_mag": -0.002256,
+       "depth_ppt": -2.0804,
+       "mag_error": 0.0144052012
+      },
+      {
+       "btjd": 3094.8201454,
+       "phase_offset_hours": -0.0906,
+       "depth_mag": -0.00433,
+       "depth_ppt": -3.9958,
+       "mag_error": 0.014406424
+      },
+      {
+       "btjd": 3113.7797292,
+       "phase_offset_hours": -0.0843,
+       "depth_mag": -0.005749,
+       "depth_ppt": -5.3089,
+       "mag_error": 0.0144072613
+      },
+      {
+       "btjd": 3115.9007652,
+       "phase_offset_hours": 0.2624,
+       "depth_mag": -0.003563,
+       "depth_ppt": -3.287,
+       "mag_error": 0.0144059714
+      },
+      {
+       "btjd": 3120.8133468,
+       "phase_offset_hours": 0.1953,
+       "depth_mag": -0.008804,
+       "depth_ppt": -8.1421,
+       "mag_error": 0.0144090643
+      },
+      {
+       "btjd": 3153.7937002,
+       "phase_offset_hours": -0.3544,
+       "depth_mag": -0.017613,
+       "depth_ppt": -16.354,
+       "mag_error": 0.0144142732
+      },
+      {
+       "btjd": 3160.8143665,
+       "phase_offset_hours": -0.3857,
+       "depth_mag": -0.003764,
+       "depth_ppt": -3.473,
+       "mag_error": 0.0144060897
+      },
+      {
+       "btjd": 3172.7561695,
+       "phase_offset_hours": -0.2788,
+       "depth_mag": -0.0218,
+       "depth_ppt": -20.2816,
+       "mag_error": 0.0144167515
+      },
+      {
+       "btjd": 3445.9243097,
+       "phase_offset_hours": 0.0455,
+       "depth_mag": -0.009119,
+       "depth_ppt": -8.4344,
+       "mag_error": 0.0144092506
+      },
+      {
+       "btjd": 3450.8329294,
+       "phase_offset_hours": -0.1167,
+       "depth_mag": 0.005358,
+       "depth_ppt": 4.9225,
+       "mag_error": 0.0144007141
+      },
+      {
+       "btjd": 3452.9359623,
+       "phase_offset_hours": -0.2021,
+       "depth_mag": -0.010608,
+       "depth_ppt": -9.818,
+       "mag_error": 0.0144101297
+      },
+      {
+       "btjd": 3462.7760063,
+       "phase_offset_hours": 0.0208,
+       "depth_mag": -0.004396,
+       "depth_ppt": -4.0566,
+       "mag_error": 0.0144064622
+      },
+      {
+       "btjd": 3464.8765641,
+       "phase_offset_hours": -0.124,
+       "depth_mag": -0.004112,
+       "depth_ppt": -3.7948,
+       "mag_error": 0.0144062955
+      },
+      {
+       "btjd": 3464.8775016,
+       "phase_offset_hours": -0.1015,
+       "depth_mag": -0.002767,
+       "depth_ppt": -2.5515,
+       "mag_error": 0.014405502
+      },
+      {
+       "btjd": 3488.7576893,
+       "phase_offset_hours": 0.0302,
+       "depth_mag": -0.00193,
+       "depth_ppt": -1.7795,
+       "mag_error": 0.0144050093
+      },
+      {
+       "btjd": 3500.6952053,
+       "phase_offset_hours": 0.0342,
+       "depth_mag": -0.007252,
+       "depth_ppt": -6.7015,
+       "mag_error": 0.0144081479
+      },
+      {
+       "btjd": 3540.7174309,
+       "phase_offset_hours": -0.0378,
+       "depth_mag": -0.026548,
+       "depth_ppt": -24.7525,
+       "mag_error": 0.014419565
+      },
+      {
+       "btjd": 3552.6525254,
+       "phase_offset_hours": -0.0919,
+       "depth_mag": 0.000717,
+       "depth_ppt": 0.6603,
+       "mag_error": 0.0144034475
+      },
+      {
+       "btjd": 3773.8566592,
+       "phase_offset_hours": 0.1981,
+       "depth_mag": 0.002497,
+       "depth_ppt": 2.2969,
+       "mag_error": 0.0144023998
+      },
+      {
+       "btjd": 3775.967317,
+       "phase_offset_hours": 0.2957,
+       "depth_mag": -0.01234,
+       "depth_ppt": -11.43,
+       "mag_error": 0.0144111533
+      },
+      {
+       "btjd": 3787.8980534,
+       "phase_offset_hours": 0.137,
+       "depth_mag": -0.006342,
+       "depth_ppt": -5.8583,
+       "mag_error": 0.0144076115
+      }
+     ]
+    },
+    {
+     "phase": 0.5080645161290323,
+     "n_control": 321,
+     "mag_out": 12.8642807,
+     "scatter_mag": 0.011963099400001141,
+     "measurements": [
+      {
+       "btjd": 1232.967507,
+       "phase_offset_hours": 0.3174,
+       "depth_mag": 0.001197,
+       "depth_ppt": 1.1018,
+       "mag_error": 0.014404404
+      },
+      {
+       "btjd": 1544.0262592,
+       "phase_offset_hours": -0.0309,
+       "depth_mag": -0.001226,
+       "depth_ppt": -1.1302,
+       "mag_error": 0.0144058336
+      },
+      {
+       "btjd": 1600.8971029,
+       "phase_offset_hours": -0.2016,
+       "depth_mag": 0.010671,
+       "depth_ppt": 9.7799,
+       "mag_error": 0.0143988263
+      },
+      {
+       "btjd": 1874.0487361,
+       "phase_offset_hours": -0.2734,
+       "depth_mag": 0.011069,
+       "depth_ppt": 10.1434,
+       "mag_error": 0.0143985916
+      },
+      {
+       "btjd": 1999.7518399,
+       "phase_offset_hours": -0.0372,
+       "depth_mag": 0.015461,
+       "depth_ppt": 14.1392,
+       "mag_error": 0.01439601
+      },
+      {
+       "btjd": 2044.6975146,
+       "phase_offset_hours": 0.0845,
+       "depth_mag": 0.012577,
+       "depth_ppt": 11.5171,
+       "mag_error": 0.014397705
+      },
+      {
+       "btjd": 2301.0024581,
+       "phase_offset_hours": 0.1575,
+       "depth_mag": 0.008349,
+       "depth_ppt": 7.6606,
+       "mag_error": 0.0144001916
+      },
+      {
+       "btjd": 2305.9074821,
+       "phase_offset_hours": -0.091,
+       "depth_mag": 0.014234,
+       "depth_ppt": 13.0241,
+       "mag_error": 0.0143967317
+      },
+      {
+       "btjd": 2312.9254949,
+       "phase_offset_hours": -0.186,
+       "depth_mag": 0.037586,
+       "depth_ppt": 34.0258,
+       "mag_error": 0.014383046
+      },
+      {
+       "btjd": 2324.8867704,
+       "phase_offset_hours": 0.3883,
+       "depth_mag": 0.007409,
+       "depth_ppt": 6.8008,
+       "mag_error": 0.0144007448
+      },
+      {
+       "btjd": 2376.8419228,
+       "phase_offset_hours": 0.2101,
+       "depth_mag": 0.022934,
+       "depth_ppt": 20.9015,
+       "mag_error": 0.0143916234
+      },
+      {
+       "btjd": 2402.8301496,
+       "phase_offset_hours": 0.3766,
+       "depth_mag": 0.003692,
+       "depth_ppt": 3.3944,
+       "mag_error": 0.0144029344
+      },
+      {
+       "btjd": 2414.736492,
+       "phase_offset_hours": -0.3675,
+       "depth_mag": 0.030056,
+       "depth_ppt": 27.3029,
+       "mag_error": 0.0143874502
+      },
+      {
+       "btjd": 2624.0095236,
+       "phase_offset_hours": 0.0724,
+       "depth_mag": 0.016349,
+       "depth_ppt": 14.945,
+       "mag_error": 0.0143954884
+      },
+      {
+       "btjd": 2727.9393014,
+       "phase_offset_hours": 0.1834,
+       "depth_mag": 0.002638,
+       "depth_ppt": 2.4266,
+       "mag_error": 0.0144035546
+      },
+      {
+       "btjd": 2739.8667165,
+       "phase_offset_hours": -0.055,
+       "depth_mag": -0.004303,
+       "depth_ppt": -3.9711,
+       "mag_error": 0.0144076487
+      },
+      {
+       "btjd": 3057.9740387,
+       "phase_offset_hours": 0.2351,
+       "depth_mag": -0.014472,
+       "depth_ppt": -13.4184,
+       "mag_error": 0.0144136585
+      },
+      {
+       "btjd": 3081.8265628,
+       "phase_offset_hours": -0.2971,
+       "depth_mag": -0.015501,
+       "depth_ppt": -14.3794,
+       "mag_error": 0.0144142676
+      },
+      {
+       "btjd": 3098.6899923,
+       "phase_offset_hours": -0.0402,
+       "depth_mag": -0.022894,
+       "depth_ppt": -21.3099,
+       "mag_error": 0.0144186458
+      },
+      {
+       "btjd": 3112.7295386,
+       "phase_offset_hours": -0.1457,
+       "depth_mag": -0.008339,
+       "depth_ppt": -7.71,
+       "mag_error": 0.014410032
+      },
+      {
+       "btjd": 3145.73873,
+       "phase_offset_hours": -0.0033,
+       "depth_mag": 0.001765,
+       "depth_ppt": 1.6246,
+       "mag_error": 0.0144040687
+      },
+      {
+       "btjd": 3145.7483011,
+       "phase_offset_hours": 0.2264,
+       "depth_mag": -0.006383,
+       "depth_ppt": -5.8962,
+       "mag_error": 0.0144088771
+      },
+      {
+       "btjd": 3444.8807761,
+       "phase_offset_hours": 0.1439,
+       "depth_mag": -0.000708,
+       "depth_ppt": -0.6519,
+       "mag_error": 0.0144055281
+      },
+      {
+       "btjd": 3449.79328,
+       "phase_offset_hours": 0.0749,
+       "depth_mag": 0.000545,
+       "depth_ppt": 0.5014,
+       "mag_error": 0.0144047886
+      },
+      {
+       "btjd": 3451.90495,
+       "phase_offset_hours": 0.1968,
+       "depth_mag": 0.005728,
+       "depth_ppt": 5.2616,
+       "mag_error": 0.0144017348
+      },
+      {
+       "btjd": 3477.8856358,
+       "phase_offset_hours": 0.1823,
+       "depth_mag": -0.005818,
+       "depth_ppt": -5.3733,
+       "mag_error": 0.0144085437
+      },
+      {
+       "btjd": 3477.8865733,
+       "phase_offset_hours": 0.2048,
+       "depth_mag": -0.006927,
+       "depth_ppt": -6.3999,
+       "mag_error": 0.0144091975
+      },
+      {
+       "btjd": 3501.7530336,
+       "phase_offset_hours": 0.0071,
+       "depth_mag": -0.005282,
+       "depth_ppt": -4.8771,
+       "mag_error": 0.0144082271
+      },
+      {
+       "btjd": 3501.7539826,
+       "phase_offset_hours": 0.0299,
+       "depth_mag": -0.01116,
+       "depth_ppt": -10.3317,
+       "mag_error": 0.014411699
+      },
+      {
+       "btjd": 3520.6977044,
+       "phase_offset_hours": -0.3444,
+       "depth_mag": -0.008223,
+       "depth_ppt": -7.6029,
+       "mag_error": 0.014409964
+      },
+      {
+       "btjd": 3572.6636731,
+       "phase_offset_hours": -0.263,
+       "depth_mag": 0.004347,
+       "depth_ppt": 3.9955,
+       "mag_error": 0.0144025479
+      },
+      {
+       "btjd": 3838.7971207,
+       "phase_offset_hours": -0.244,
+       "depth_mag": 0.004653,
+       "depth_ppt": 4.2764,
+       "mag_error": 0.0144023672
+      },
+      {
+       "btjd": 3921.6706821,
+       "phase_offset_hours": 0.0996,
+       "depth_mag": 0.010259,
+       "depth_ppt": 9.4041,
+       "mag_error": 0.0143990684
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "584204200042606",
+   "band": "zr",
+   "n_cadences": 44,
+   "sep_to_aperture": 11.516168700334552,
+   "nearest_gaia": "1198439091271164544",
+   "sep_to_gaia": 10.930856571377761,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 18,
+     "mag_out": 20.7048731,
+     "scatter_mag": 0.4281638346300002,
+     "measurements": [
+      {
+       "btjd": 2057.6726547,
+       "phase_offset_hours": -0.1517,
+       "depth_mag": 0.506965,
+       "depth_ppt": 373.0771,
+       "mag_error": 0.263149977
+      }
+     ]
+    },
+    {
+     "phase": 0.5080645161290323,
+     "n_control": 18,
+     "mag_out": 20.70687865,
+     "scatter_mag": 0.4657712438399976,
+     "measurements": [
+      {
+       "btjd": 2343.8329935,
+       "phase_offset_hours": 0.074,
+       "depth_mag": 0.050327,
+       "depth_ppt": 45.2953,
+       "mag_error": 0.219929099
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "oid": "584304200026757",
+   "band": "zi",
+   "n_cadences": 238,
+   "sep_to_aperture": 0.8084240260487865,
+   "nearest_gaia": "1198439091271164544",
+   "sep_to_gaia": 0.057015214980770106,
+   "phase_measurements": [
+    {
+     "phase": 0,
+     "n_control": 68,
+     "mag_out": 12.2856679,
+     "scatter_mag": 0.010551367680000544,
+     "measurements": [
+      {
+       "btjd": 1345.6502967,
+       "phase_offset_hours": -0.0225,
+       "depth_mag": -0.019989,
+       "depth_ppt": -18.5806,
+       "mag_error": 0.0170505587
+      },
+      {
+       "btjd": 1345.6673555,
+       "phase_offset_hours": 0.3869,
+       "depth_mag": -0.025454,
+       "depth_ppt": -23.721,
+       "mag_error": 0.0170583837
+      },
+      {
+       "btjd": 1962.8832548,
+       "phase_offset_hours": 0.0209,
+       "depth_mag": 0.003982,
+       "depth_ppt": 3.6609,
+       "mag_error": 0.0170162916
+      },
+      {
+       "btjd": 2090.6906432,
+       "phase_offset_hours": 0.2018,
+       "depth_mag": -0.004805,
+       "depth_ppt": -4.4355,
+       "mag_error": 0.017028844
+      },
+      {
+       "btjd": 2109.6385921,
+       "phase_offset_hours": -0.0711,
+       "depth_mag": 0.001593,
+       "depth_ppt": 1.4662,
+       "mag_error": 0.0170197021
+      },
+      {
+       "btjd": 2292.9201628,
+       "phase_offset_hours": 0.1247,
+       "depth_mag": 0.006648,
+       "depth_ppt": 6.104,
+       "mag_error": 0.0170124862
+      },
+      {
+       "btjd": 2422.8202938,
+       "phase_offset_hours": -0.0268,
+       "depth_mag": 0.011982,
+       "depth_ppt": 10.9755,
+       "mag_error": 0.0170048736
+      },
+      {
+       "btjd": 2465.6503828,
+       "phase_offset_hours": -0.121,
+       "depth_mag": -0.005729,
+       "depth_ppt": -5.2907,
+       "mag_error": 0.0170301627
+      },
+      {
+       "btjd": 2693.8660765,
+       "phase_offset_hours": -0.0808,
+       "depth_mag": -0.020938,
+       "depth_ppt": -19.4721,
+       "mag_error": 0.0170519184
+      },
+      {
+       "btjd": 2712.822254,
+       "phase_offset_hours": -0.1562,
+       "depth_mag": 0.010441,
+       "depth_ppt": 9.5707,
+       "mag_error": 0.0170070715
+      },
+      {
+       "btjd": 2866.6168118,
+       "phase_offset_hours": 0.1658,
+       "depth_mag": 0.005058,
+       "depth_ppt": 4.6476,
+       "mag_error": 0.0170147549
+      },
+      {
+       "btjd": 3056.9030426,
+       "phase_offset_hours": -0.0538,
+       "depth_mag": 0.002776,
+       "depth_ppt": 2.5532,
+       "mag_error": 0.0170180146
+      },
+      {
+       "btjd": 3075.8556405,
+       "phase_offset_hours": -0.2151,
+       "depth_mag": 0.026002,
+       "depth_ppt": 23.6646,
+       "mag_error": 0.0169848856
+      },
+      {
+       "btjd": 3132.7539608,
+       "phase_offset_hours": 0.2736,
+       "depth_mag": -0.014083,
+       "depth_ppt": -13.0558,
+       "mag_error": 0.0170421097
+      }
+     ]
+    },
+    {
+     "phase": 0.5080645161290323,
+     "n_control": 103,
+     "mag_out": 12.2888823,
+     "scatter_mag": 0.014205680159998306,
+     "measurements": [
+      {
+       "btjd": 1249.8206328,
+       "phase_offset_hours": 0.327,
+       "depth_mag": 0.021968,
+       "depth_ppt": 20.0298,
+       "mag_error": 0.0169860553
+      },
+      {
+       "btjd": 1263.8420482,
+       "phase_offset_hours": -0.2136,
+       "depth_mag": -0.015934,
+       "depth_ppt": -14.784,
+       "mag_error": 0.0170401596
+      },
+      {
+       "btjd": 1320.7313734,
+       "phase_offset_hours": 0.0592,
+       "depth_mag": -0.003123,
+       "depth_ppt": -2.8808,
+       "mag_error": 0.0170218479
+      },
+      {
+       "btjd": 1733.6265682,
+       "phase_offset_hours": 0.1401,
+       "depth_mag": 0.013736,
+       "depth_ppt": 12.5714,
+       "mag_error": 0.0169977881
+      },
+      {
+       "btjd": 2077.6900898,
+       "phase_offset_hours": -0.1719,
+       "depth_mag": -0.051348,
+       "depth_ppt": -48.4292,
+       "mag_error": 0.017090898
+      },
+      {
+       "btjd": 2268.0079169,
+       "phase_offset_hours": 0.3667,
+       "depth_mag": 0.00729,
+       "depth_ppt": 6.6917,
+       "mag_error": 0.017006984
+      },
+      {
+       "btjd": 2305.8963355,
+       "phase_offset_hours": -0.3585,
+       "depth_mag": 0.008818,
+       "depth_ppt": 8.0884,
+       "mag_error": 0.0170048028
+      },
+      {
+       "btjd": 2407.7150113,
+       "phase_offset_hours": -0.3558,
+       "depth_mag": -0.007886,
+       "depth_ppt": -7.2897,
+       "mag_error": 0.0170286521
+      },
+      {
+       "btjd": 2737.7760341,
+       "phase_offset_hours": 0.3268,
+       "depth_mag": -0.042076,
+       "depth_ppt": -39.5143,
+       "mag_error": 0.0170775987
+      },
+      {
+       "btjd": 2751.817486,
+       "phase_offset_hours": 0.2671,
+       "depth_mag": 0.003319,
+       "depth_ppt": 3.052,
+       "mag_error": 0.0170126501
+      },
+      {
+       "btjd": 2782.7171513,
+       "phase_offset_hours": 0.339,
+       "depth_mag": 0.001378,
+       "depth_ppt": 1.2684,
+       "mag_error": 0.0170154199
+      },
+      {
+       "btjd": 3036.9003845,
+       "phase_offset_hours": 0.0492,
+       "depth_mag": 0.005494,
+       "depth_ppt": 5.0475,
+       "mag_error": 0.0170095451
+      },
+      {
+       "btjd": 3043.923822,
+       "phase_offset_hours": 0.0844,
+       "depth_mag": 0.021423,
+       "depth_ppt": 19.5382,
+       "mag_error": 0.0169868302
+      },
+      {
+       "btjd": 3183.6582863,
+       "phase_offset_hours": 0.0188,
+       "depth_mag": -0.00953,
+       "depth_ppt": -8.8162,
+       "mag_error": 0.0170310009
+      },
+      {
+       "btjd": 3437.8473577,
+       "phase_offset_hours": -0.1309,
+       "depth_mag": -0.009773,
+       "depth_ppt": -9.0422,
+       "mag_error": 0.0170313492
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

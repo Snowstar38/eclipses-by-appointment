@@ -1,71 +1,26 @@
 {
   "status": "PASS",
-  "utc": "2026-11-25T00:28:05.161166+00:00",
-  "previous_release_commit": "ff8b683168d056f958d21f8faa592446b8133bd0",
-  "previous_count": 2036,
-  "counted": 2029,
+  "previous_release_commit": "3ae245b41eda9e8b24cc4f93611704ce879daba1",
+  "previous_count": 2029,
+  "counted": 2038,
   "tiers": {
-    "confirmed": 1487,
-    "probable": 542
+    "all": 2038,
+    "confirmed": 1493,
+    "probable": 545
   },
-  "accepted_this_revision": 3,
-  "prior_identifications_removed": 10,
-  "removed_review_ids": {
-    "A30": "311297982",
-    "R111": "320195702",
-    "R405": "143467555",
-    "R751": "150429807",
-    "R1117": "299941037",
-    "R1122": "328586949",
-    "R1392": "445858758",
-    "R1398": "459978275",
-    "R1584": "141819874",
-    "R1844": "279213226"
-  },
-  "canonical_review_id_tic_tier_sha256": "ad1f6c68ec17ffb770d14da8ee4ccf7c79124d85c2562aafa1e76def64facfca",
-  "identity_hash_format": "UTF-8 tab-separated review_id, TIC and tier, sorted with LF terminators",
-  "scientific_register": 1953,
-  "local_links_checked": 55,
-  "pdfs": {
-    "historical-draft-2026-10-14.pdf": {
-      "pages": 57,
-      "sha256": "f17818be2b97004710fd8a8d8e8fd88e834c5213b7da3b3b93e5b944ac99a19d"
-    },
-    "paper.pdf": {
-      "pages": 266,
-      "sha256": "f0a37913a26fd44cdfc816c5cd11aafe5159c6665e954c05fe85d21fc0ef14c8"
-    },
-    "supplement-1-original-and-early-reviews.pdf": {
-      "pages": 1187,
-      "sha256": "abe62ed8d19664fc372ee3a9a52bc1642f0d8a47f79866272a8ca6f4ab339b59"
-    },
-    "supplement-2-comparison-and-bright-stratum.pdf": {
-      "pages": 762,
-      "sha256": "bbd736c94c61b615d4fab8a07c10ffdb10099606f8f248358c038a10ad295b8d"
-    },
-    "supplement-3-bright-followup-and-other-evidence.pdf": {
-      "pages": 504,
-      "sha256": "f2faaab50660a786de7a1c93fc6174686085ad9b401f9c2f8776c0cd9463bd6c"
-    },
-    "supplement-4-screened-completion-and-other-evidence.pdf": {
-      "pages": 820,
-      "sha256": "23bd8b66bbb3833648346f9c0183b92314e215cd1d2dc45a9bb994339a8d414f"
-    },
-    "supplement-5-period-free-review.pdf": {
-      "pages": 158,
-      "sha256": "f904d4c78f8478429e939f91fd72b6c92e5490ad7744b9500f813511b0d211ce"
-    },
-    "supplement.pdf": {
-      "pages": 1,
-      "sha256": "49e8314aaec6bcd397231409bd8981e7e4e6c19c487a9a9430729ec91b070216"
-    }
+  "accepted_this_revision": 9,
+  "prior_identifications_removed": 0,
+  "scientific_register": 1962,
+  "pdf_pages": {
+    "paper.pdf": 268,
+    "supplement.pdf": 1
   },
   "checks": [
-    "Exact previous commit and allowed paths",
-    "Catalogue, map, claim and review rows agree on identities, physical tiers and inclusion",
-    "Prior rows preserved except explicitly documented earlier credits",
-    "Source reports, accounting, map provenance and Git-index file digests agree",
-    "Rendered PDFs retain the current totals, scientific identifiers, links and shortlist update"
+    "Pinned prior release",
+    "Append-only ledger exact bytes and source hashes",
+    "Catalogue and map identities and tiers",
+    "PDF totals and new review identifiers",
+    "PDF links contain no local files"
   ],
-  "scope": "Publication integrity. Individual source records give the phase, localization and prior-identification evidence."
+  "scope": "Publication integrity; source reports retain scientific limitations."
 }

@@ -1,0 +1,159 @@
+{
+ "tic": "467832488",
+ "gaia_dr3": "230197916216088832",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"1SWASP J035426.52+410421.7\" OR full:\"2MASS J03542650+4104219\" OR full:\"APASS 51479726\" OR full:\"AllWISE J035426.51+410421.6\" OR full:\"GSC 02868-00510\" OR full:\"Gaia DR1 230197911920187136\" OR full:\"Gaia DR2 230197916216088832\" OR full:\"Gaia DR3 230197916216088832\" OR full:\"HD 275919\" OR full:\"TIC 467832488\" OR full:\"TYC 2868-00510-1\" OR full:\"TYC 2868-510-1\" OR full:\"UCAC4 656-018721\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "1SWASP J035426.52+410421.7",
+   "2MASS J03542650+4104219",
+   "APASS 51479726",
+   "AllWISE J035426.51+410421.6",
+   "GSC 02868-00510",
+   "Gaia DR1 230197911920187136",
+   "Gaia DR2 230197916216088832",
+   "Gaia DR3 230197916216088832",
+   "HD 275919",
+   "TIC 467832488",
+   "TYC 2868-00510-1",
+   "TYC 2868-510-1",
+   "UCAC4 656-018721"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "467832488",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J03542650+4104219",
+   "APASS 51479726",
+   "AllWISE J035426.51+410421.6",
+   "Gaia DR2 230197916216088832",
+   "TYC 2868-00510-1",
+   "TYC 2868-510-1",
+   "UCAC4 656-018721",
+   "TIC 467832488",
+   "Gaia DR3 230197916216088832"
+  ],
+  "objects": {
+   "HD 275919": {
+    "object_type": "*",
+    "matched_aliases": [
+     "2MASS J03542650+4104219",
+     "Gaia DR2 230197916216088832",
+     "Gaia DR3 230197916216088832",
+     "TIC 467832488",
+     "TYC 2868-510-1"
+    ],
+    "simbad_ids": "TIC 467832488|1SWASP J035426.52+410421.7|Gaia DR3 230197916216088832|2MASS J03542650+4104219|GSC 02868-00510|HD 275919|TYC 2868-510-1|Gaia DR1 230197911920187136|Gaia DR2 230197916216088832",
+    "references": {
+     "2019MNRAS.490.3158C": "A catalogue of stellar diameters and fluxes for mid-infrared interferometry.",
+     "2019MNRAS.488.4905S": "SuperWASP dispositions and false positive catalogue.",
+     "2014ASPC..485..223B": "The JMMC stellar diameters catalog v2 (JSDC): a new release based on SearchCal improvements",
+     "1995A&AS..110..367N": "The Henry Draper Extension Charts: A catalogue of accurate positions, proper motions, magnitudes and spectral types of 86933 stars."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "467832488",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=467832488&json=",
+  "basic_info": {
+   "tic_id": "467832488",
+   "star_names": "TIC 467832488, 2MASS J03542650+4104219, APASS 51479726, Gaia DR2 230197916216088832, Gaia DR3 230197916216088832, TYC 2868-00510-1, UCAC4 656-018721, WISE J035426.51+410421.6",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.022406"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "230197916216088832",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.2934,
+    "source_id": "230197916216088832",
+    "ra": "58.610564727230035",
+    "dec": "41.072649673239496",
+    "pmra": "8.196942294902033",
+    "pmdec": "-15.847701232274174",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "10.547241"
+   },
+   {
+    "distance_arcsec": 0.8311,
+    "source_id": "230197916216088576",
+    "ra": "58.61020976906627",
+    "dec": "41.07269485782765",
+    "pmra": null,
+    "pmdec": null,
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "13.105864"
+   },
+   {
+    "distance_arcsec": 9.1871,
+    "source_id": "230197911921437696",
+    "ra": "58.611962371448236",
+    "dec": "41.075028209983714",
+    "pmra": "2.4145105004256484",
+    "pmdec": "-2.4276642968539304",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "19.231289"
+   }
+  ],
+  "query_receipt": "4e34d946ffa07b006ea436472dc99d81343cad0e770251a22622c870160aa7cd",
+  "tic": "467832488",
+  "ra_deg": "58.6105139329877",
+  "dec_deg": "41.0727216286067",
+  "gaia_tables": {},
+  "superwasp": [
+   {
+    "target": "1SWASP J035426.52+410421.7",
+    "flag": "EBLM",
+    "period": "3.001681133",
+    "evidence": "2xIDS shows SB1, possible hint of a second peak",
+    "arcsec": 0.105
+   }
+  ],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 46761.589,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

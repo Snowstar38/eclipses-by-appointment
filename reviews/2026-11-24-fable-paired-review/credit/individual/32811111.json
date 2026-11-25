@@ -1,0 +1,146 @@
+{
+ "tic": "32811111",
+ "gaia_dr3": "2904662678363059584",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J05461843-2812250\" OR full:\"APASS 13935583\" OR full:\"ATO J086.5768-28.2069\" OR full:\"AllWISE J054618.43-281225.1\" OR full:\"CRTS J054618.4-281223\" OR full:\"DES J054618.43-281225.1\" OR full:\"Gaia DR2 2904662678363059584\" OR full:\"Gaia DR3 2904662678363059584\" OR full:\"TIC 32811111\" OR full:\"UCAC4 309-008246\" OR full:\"[SHM2017] J086.57682-28.20697\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J05461843-2812250",
+   "APASS 13935583",
+   "ATO J086.5768-28.2069",
+   "AllWISE J054618.43-281225.1",
+   "CRTS J054618.4-281223",
+   "DES J054618.43-281225.1",
+   "Gaia DR2 2904662678363059584",
+   "Gaia DR3 2904662678363059584",
+   "TIC 32811111",
+   "UCAC4 309-008246",
+   "[SHM2017] J086.57682-28.20697"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "32811111",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J05461843-2812250",
+   "APASS 13935583",
+   "AllWISE J054618.43-281225.1",
+   "Gaia DR2 2904662678363059584",
+   "UCAC4 309-008246",
+   "TIC 32811111",
+   "Gaia DR3 2904662678363059584"
+  ],
+  "objects": {
+   "CRTS J054618.4-281223": {
+    "object_type": "RR*",
+    "matched_aliases": [
+     "Gaia DR2 2904662678363059584",
+     "Gaia DR3 2904662678363059584"
+    ],
+    "simbad_ids": "ATO J086.5768-28.2069|DES J054618.43-281225.1|Gaia DR3 2904662678363059584|CRTS J054618.4-281223|Gaia DR2 2904662678363059584|[SHM2017] J086.57682-28.20697",
+    "references": {
+     "2019A&A...622A..60C": "Gaia Data Release 2. Specific characterisation and validation of all-sky Cepheids and RR Lyrae stars.",
+     "2018AJ....156..241H": "A first catalog of variable stars measured by the Asteroid Terrestrial-impact Last Alert System (ATLAS).",
+     "2021ApJ...911..109S": "Identifying RR Lyrae variable stars in six years of the Dark Energy Survey.",
+     "2022ApJS..261...33D": "Photometric Metallicity Prediction of Fundamental-mode RR Lyrae Stars in the Gaia Optical and K_s_ Infrared Wave Bands by Deep Learning.",
+     "2023A&A...674A..18C": "{\\em Gaia} Data Release 3 Specific processing and validation of all-sky RR Lyrae and Cepheid stars: The RR Lyrae sample.",
+     "2015MNRAS.446.2251T": "Discovery of ~9,000 new RR Lyrae in the southern Catalina surveys.",
+     "2017AJ....153..204S": "Machine-learned identification of RR Lyrae stars from sparse, multi-band data: the PS1 sample.",
+     "2023ApJ...944...88L": "Photometric Metallicity and Distance Estimates for ∼136,000 RR Lyrae Stars from Gaia Data Release 3."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "32811111",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=32811111&json=",
+  "basic_info": {
+   "tic_id": "32811111",
+   "star_names": "TIC 32811111, 2MASS J05461843-2812250, APASS 13935583, Gaia DR2 2904662678363059584, Gaia DR3 2904662678363059584, UCAC4 309-008246, WISE J054618.43-281225.1",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "none"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2904662678363059584",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "2904662678363059584",
+    "ra": "86.57682588410974",
+    "dec": "-28.206983988358214",
+    "pmra": "2.581267240182446",
+    "pmdec": "-1.4131632037594906",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "15.70546"
+   },
+   {
+    "distance_arcsec": 9.5194,
+    "source_id": "2904662678363058688",
+    "ra": "86.57825796631089",
+    "dec": "-28.204660300657928",
+    "pmra": "3.9125102572405663",
+    "pmdec": "5.814631160595933",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "18.140886"
+   }
+  ],
+  "query_receipt": "a81ef006659e2e9c483c2fe925d302db416d0d1ad9d204bfc1dcc55866cee661",
+  "tic": "32811111",
+  "ra_deg": 86.57682588410974,
+  "dec_deg": -28.206983988358214,
+  "gaia_tables": {
+   "vari_classifier_result": [
+    {
+     "source_id": "2904662678363059584",
+     "best_class_name": "RR",
+     "best_class_score": "0.6019799"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 5737.058,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

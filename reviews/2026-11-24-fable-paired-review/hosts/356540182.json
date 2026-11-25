@@ -1,0 +1,110 @@
+{
+ "tic": "356540182",
+ "gaia_dr3": "1065287820828980224",
+ "host": {
+  "tic": "356540182",
+  "gaia_dr3": "1065287820828980224",
+  "ra_deg": 153.211538464162,
+  "dec_deg": 64.8913952991287,
+  "tier": "confirmed",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "23.15062456",
+  "epoch_btjd": "2435.110391",
+  "period_status": "Orbital period fitted to the epoch-defining eclipse centers. Phase zero identifies one recurring family and can be the shallower eclipse.",
+  "depth_ppt": "74.366",
+  "primary_events": 5,
+  "sectors": "14|21|41|47|48",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Kostov et al. (2025), machine-selected Table 2, and a TESS threshold-crossing event. No earlier vetted same-clock eclipse identification was found in the sources searched.",
+  "interpretation": "Two discrete eclipse families recur at phases 0 and 0.7629. Difference images favor this star in 5 sectors for the epoch-defining family and 5 for the second. Neither family has an unresolved flux-capable Gaia neighbour in these fits.",
+  "evidence": "hosts/356540182.json"
+ },
+ "measured_clock": {
+  "period_days": 23.150624562056947,
+  "epoch_btjd": 2435.110391248866,
+  "intercept": 2435.110391248866,
+  "events": 5,
+  "sectors": [
+   14,
+   21,
+   41,
+   47,
+   48
+  ],
+  "residual90_min": 1.1131329677591566,
+  "depth_ppt": 74.366
+ },
+ "secondary_fit": {
+  "period_days": 23.150722274027324,
+  "epoch_btjd": 2174.964795958658,
+  "intercept": 2452.773463246986,
+  "events": 6,
+  "sectors": [
+   14,
+   21,
+   41,
+   47,
+   48
+  ],
+  "residual90_min": 6.8963227007043315,
+  "depth_ppt": 271.589
+ },
+ "secondary_phase": 0.7628570095026355,
+ "source_summary": {
+  "tic": "356540182",
+  "batch": 19,
+  "gaia_dr3": "1065287820828980224",
+  "sectors": 5,
+  "period": 23.150624562056947,
+  "width": 0.14583333333333334,
+  "primary_det": 5,
+  "primary_sector_det": 5,
+  "primary_ontarget": 5,
+  "primary_unresolved": 0,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target|on_target|on_target|on_target",
+  "primary_depth": 72.867,
+  "primary_offset": "1.3|2.3|1.8|2.7|2.3",
+  "secondary_det": 6,
+  "secondary_sector_det": 5,
+  "secondary_ontarget": 5,
+  "secondary_unresolved": 0,
+  "secondary_alt": "",
+  "secondary_verdicts": "on_target|on_target|on_target|on_target|on_target",
+  "secondary_depth": 267.174,
+  "secondary_offset": "0.3|0.1|0.1|0.6|0.5"
+ },
+ "trial_expected": 11,
+ "trial_seen": 11,
+ "ground": [
+  {
+   "survey": "ZTF_zr",
+   "n_in": 0,
+   "result": "no_in_eclipse_points"
+  },
+  {
+   "survey": "ASASSN_V",
+   "n_in": 2,
+   "nights_in": 2,
+   "depth_frac": 0.049464526610655146,
+   "sigma": 3.7904413034283557,
+   "out_rms_mag": 0.016440031801598354,
+   "result": "marginal"
+  },
+  {
+   "survey": "ASASSN_g",
+   "n_in": 2,
+   "nights_in": 2,
+   "depth_frac": 0.0625056983437835,
+   "sigma": 4.010500950152599,
+   "out_rms_mag": 0.019769268087050276,
+   "result": "eclipse_seen"
+  }
+ ],
+ "original_tess_period_days": "10.28939292797939",
+ "timing_and_pixels": "../reclocked/356540182.json",
+ "blind_clock_and_aliases": "../sol/recovered-clocks/356540182.json",
+ "literature": "../credit/individual/356540182.json",
+ "literature_cones": "../credit/wide-clock-matches.json"
+}

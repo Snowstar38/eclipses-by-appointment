@@ -1,11 +1,11 @@
 {
-  "ledger_sha256": "6f6ee0d9e24bcf5d2749544de322b6269ea28d89cca3c109db16a3b91f59cd06",
+  "ledger_sha256": "c3c93e2d4eff2124c45fefd865d355b9fdc1eaf1369ae3fb01aa49497e48efa9",
   "delta_sha256": "5f0c4559d5aec7d24a763508e3e850134836b65eacaf0953ba646083f73b498b",
   "identity_accounting_sha256": "dbea96b2106e044147de62b07e2c51ddfc77a83a5e10b83402f148ea0e903d28",
   "accepted": {
-    "all": 2029,
-    "confirmed": 1487,
-    "probable": 542
+    "all": 2038,
+    "confirmed": 1493,
+    "probable": 545
   },
   "operation": {
     "prior_known_removals": 17,
@@ -13,13 +13,13 @@
     "A74_probable_to_confirmed": 1,
     "later_eligible_dip_additions": 8
   },
-  "scientific_register_rows": 1953,
-  "reviewed_R_rows": 1855,
+  "scientific_register_rows": 1962,
+  "reviewed_R_rows": 1864,
   "post_R675": {
-    "rows": 1180,
+    "rows": 1189,
     "physical": {
-      "confirmed": 712,
-      "probable": 460,
+      "confirmed": 718,
+      "probable": 463,
       "plausible": 8
     },
     "novelty": {
@@ -27,7 +27,7 @@
       "not_claim_eligible": 7,
       "known_prior_recovery": 41,
       "pending_novelty": 1,
-      "prior_machine_candidate_validation": 860,
+      "prior_machine_candidate_validation": 869,
       "prior_transit_classification_at_different_period": 0
     }
   },
@@ -41,16 +41,16 @@
     "Archival photometric screening of short Gaia spectroscopic orbits": 3,
     "Difference-image attribution of field variability": 3,
     "Re-measurement of unpromoted SPOC two-minute threshold-crossing events": 214,
-    "Re-measurement of unpromoted TESS-SPOC full-frame threshold-crossing events": 316,
+    "Re-measurement of unpromoted TESS-SPOC full-frame threshold-crossing events": 325,
     "Eclipse search of ground-survey spectroscopic binaries": 350,
     "Gaia epoch photometry at spectroscopic conjunctions": 9,
     "Gaia epoch photometry with wider eclipse windows": 4
   },
   "counted_scientific_tier": {
-    "CONFIRMED": 1303,
-    "PROBABLE": 531
+    "CONFIRMED": 1309,
+    "PROBABLE": 534
   },
-  "map_sha256": "4fcb8fa4bf0fb68291630631b437cab78b3d88c21a14206e3e12453580415c85",
+  "map_sha256": "4311dd687b005d00b0882f03c643a2e626fa929a9d2b282c196ace4eb28f22ed",
   "period_free_reviews": {
     "reviewed": 380,
     "confirmed": 29,
@@ -79,12 +79,12 @@
     "archival_short_orbit_photometric_screening": 3,
     "localized_periodic_field_source": 3,
     "SPOC_2min_TCE_remeasurement": 214,
-    "TESS_SPOC_FFI_TCE_remeasurement": 316,
+    "TESS_SPOC_FFI_TCE_remeasurement": 325,
     "ground_survey_spectroscopic_binary_eclipse_search": 350,
     "Gaia_epoch_photometry": 9,
     "Gaia_epoch_photometry_wider_windows": 4
   },
-  "claim_decision_sha256": "4533f1548246ccc1181d813fc56b9fe5ec5a3f06ec89def5b0a0031205103ea8",
+  "claim_decision_sha256": "79e18c1c4da89b2c19362e5dd4c77424eae33a7ad41924162da048c36a65761b",
   "prior_publication_before_reconciliation": {
     "all": 917,
     "confirmed": 812,
@@ -104,25 +104,23 @@
   },
   "latest_review_campaign": {
     "date": "2026-11-24",
-    "distinct_counted_hosts": 3,
-    "prior_identifications_removed": 10,
-    "count_change_from_prior_publication": -7,
-    "prior_identifications_register": "reviews/2026-11-24-fable-shortlist/kounkel-identifications.csv",
+    "distinct_counted_hosts": 9,
+    "prior_identifications_removed": 0,
+    "count_change_from_prior_publication": 9,
     "searches": {
-      "spoc": 1,
-      "ffi": 2
+      "ffi": 9
     },
     "counts_by_tier": {
-      "confirmed": 2,
-      "probable": 1
+      "probable": 3,
+      "confirmed": 6
     },
     "numbered_reviews": {
-      "first": "R1855",
-      "last": "R1857"
+      "first": "R1858",
+      "last": "R1866"
     },
-    "receipt": "reviews/2026-11-24-fable-shortlist/README.md",
-    "host_register": "reviews/2026-11-24-fable-shortlist/host-stars.csv",
-    "ledger_sha256": "6f6ee0d9e24bcf5d2749544de322b6269ea28d89cca3c109db16a3b91f59cd06"
+    "receipt": "reviews/2026-11-24-fable-paired-review/README.md",
+    "host_register": "reviews/2026-11-24-fable-paired-review/host-stars.csv",
+    "ledger_sha256": "c3c93e2d4eff2124c45fefd865d355b9fdc1eaf1369ae3fb01aa49497e48efa9"
   },
   "literature_corrections": {
     "removed_claims": [
@@ -359,7 +357,7 @@
     "ledger_sha256": "3b4479ae0feddc3a51fe12177dec6cf380cce4f16bb7b4c965385f016271d528",
     "scope": "Historical next100 campaign before this revision; not current cumulative totals."
   },
-  "highest_R_identifier": 1857,
+  "highest_R_identifier": 1866,
   "review_population_baseline": {
     "scope": "Frozen reviewed identity population before final-night catalogue recovery and new physical reviews",
     "rows": 1317,
@@ -404,7 +402,7 @@
   "ledger_file": "accepted-systems.csv",
   "ledger_scope": "One row per counted host. Historical rows retain their published identifiers and tiers. Gaia DR3 is blank where the previous accepted ledger supplied no identifier.",
   "historical_digest_scope": "The delta_sha256 and identity_accounting_sha256 fields describe the earlier baseline reconciliation.",
-  "scientific_register_sha256": "41f16531c84012010649b215e33088248a58b763f32b1fc0dda936594900b976",
+  "scientific_register_sha256": "01d5eb6bb46c4752d6a4899352c9e2ad24aaa61f7aea12a84ac813dc2fc8f27a",
   "claim_decision_scope": "The adjudication register covers selected review campaigns. The accepted-systems ledger supplies the complete counted roster.",
   "historical_2026_11_22": {
     "accepted": {
@@ -459,8 +457,8 @@
       "probable": 80
     },
     "previously_unvetted_machine_candidate": {
-      "confirmed": 559,
-      "probable": 301
+      "confirmed": 565,
+      "probable": 304
     },
     "prior_transit_classification_at_different_period": {
       "confirmed": 0,
@@ -627,5 +625,27 @@
     "receipt": "reviews/2026-11-24-expanded-search/README.md",
     "host_register": "reviews/2026-11-24-expanded-search/host-stars.csv",
     "ledger_sha256": "df9375f48ecbf94b696fd522a5cd29b0c5897e7b156fb61eeaa3971c986cf700"
+  },
+  "historical_2026_11_24_fable_shortlist": {
+    "date": "2026-11-24",
+    "distinct_counted_hosts": 3,
+    "prior_identifications_removed": 10,
+    "count_change_from_prior_publication": -7,
+    "prior_identifications_register": "reviews/2026-11-24-fable-shortlist/kounkel-identifications.csv",
+    "searches": {
+      "spoc": 1,
+      "ffi": 2
+    },
+    "counts_by_tier": {
+      "confirmed": 2,
+      "probable": 1
+    },
+    "numbered_reviews": {
+      "first": "R1855",
+      "last": "R1857"
+    },
+    "receipt": "reviews/2026-11-24-fable-shortlist/README.md",
+    "host_register": "reviews/2026-11-24-fable-shortlist/host-stars.csv",
+    "ledger_sha256": "6f6ee0d9e24bcf5d2749544de322b6269ea28d89cca3c109db16a3b91f59cd06"
   }
 }

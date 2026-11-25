@@ -1,0 +1,130 @@
+{
+ "tic": "289815523",
+ "gaia_dr3": "556555816566671744",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J04262424+7938231\" OR full:\"AG+79 126\" OR full:\"APASS 60895496\" OR full:\"AllWISE J042624.30+793823.2\" OR full:\"BD+79 141\" OR full:\"GSC 04518-00955\" OR full:\"Gaia DR1 556555812269815424\" OR full:\"Gaia DR2 556555816566671744\" OR full:\"Gaia DR3 556555816566671744\" OR full:\"PPM 5592\" OR full:\"TIC 289815523\" OR full:\"TYC 4518-00955-1\" OR full:\"TYC 4518-955-1\" OR full:\"UCAC4 849-005302\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J04262424+7938231",
+   "AG+79 126",
+   "APASS 60895496",
+   "AllWISE J042624.30+793823.2",
+   "BD+79 141",
+   "GSC 04518-00955",
+   "Gaia DR1 556555812269815424",
+   "Gaia DR2 556555816566671744",
+   "Gaia DR3 556555816566671744",
+   "PPM 5592",
+   "TIC 289815523",
+   "TYC 4518-00955-1",
+   "TYC 4518-955-1",
+   "UCAC4 849-005302"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "289815523",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J04262424+7938231",
+   "APASS 60895496",
+   "AllWISE J042624.30+793823.2",
+   "Gaia DR2 556555816566671744",
+   "TYC 4518-00955-1",
+   "TYC 4518-955-1",
+   "UCAC4 849-005302",
+   "TIC 289815523",
+   "Gaia DR3 556555816566671744"
+  ],
+  "objects": {
+   "BD+79   141": {
+    "object_type": "*",
+    "matched_aliases": [
+     "2MASS J04262424+7938231",
+     "Gaia DR2 556555816566671744",
+     "Gaia DR3 556555816566671744",
+     "TIC 289815523",
+     "TYC 4518-955-1"
+    ],
+    "simbad_ids": "TIC 289815523|Gaia DR3 556555816566671744|2MASS J04262424+7938231|AG+79  126|BD+79   141|GSC 04518-00955|PPM   5592|SAO   5185|TYC 4518-955-1|Gaia DR1 556555812269815424|Gaia DR2 556555816566671744",
+    "references": {
+     "2019MNRAS.490.3158C": "A catalogue of stellar diameters and fluxes for mid-infrared interferometry.",
+     "2014ASPC..485..223B": "The JMMC stellar diameters catalog v2 (JSDC): a new release based on SearchCal improvements"
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "289815523",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=289815523&json=",
+  "basic_info": {
+   "tic_id": "289815523",
+   "star_names": "TIC 289815523, 2MASS J04262424+7938231, APASS 60895496, Gaia DR2 556555816566671744, Gaia DR3 556555816566671744, TYC 4518-00955-1, UCAC4 849-005302, WISE J042624.30+793823.2",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "none"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "556555816566671744",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.2645,
+    "source_id": "556555816566671744",
+    "ra": "66.60142048328268",
+    "dec": "79.63977873160977",
+    "pmra": "15.593658651054406",
+    "pmdec": "-5.114945220093707",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "9.125865"
+   }
+  ],
+  "query_receipt": "d3759b6b20fdcc9a6c592039e780851b0c937cafaf87b74ab63b7d58f1246d34",
+  "tic": "289815523",
+  "ra_deg": "66.6010327922143",
+  "dec_deg": "79.6398018945114",
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 49982.624,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

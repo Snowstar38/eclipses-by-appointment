@@ -1,0 +1,153 @@
+{
+ "tic": "66766863",
+ "gaia_dr3": "3635322446037138176",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"1SWASP J132040.65-045734.6\" OR full:\"2MASS J13204065-0457346\" OR full:\"APASS 2338875\" OR full:\"AllWISE J132040.61-045734.7\" OR full:\"Gaia DR2 3635322446037138176\" OR full:\"Gaia DR3 3635322446037138176\" OR full:\"TIC 66766863\" OR full:\"TYC 4962-00984-1\" OR full:\"TYC 4962-984-1\" OR full:\"UCAC4 426-058048\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "1SWASP J132040.65-045734.6",
+   "2MASS J13204065-0457346",
+   "APASS 2338875",
+   "AllWISE J132040.61-045734.7",
+   "Gaia DR2 3635322446037138176",
+   "Gaia DR3 3635322446037138176",
+   "TIC 66766863",
+   "TYC 4962-00984-1",
+   "TYC 4962-984-1",
+   "UCAC4 426-058048"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "66766863",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J13204065-0457346",
+   "APASS 2338875",
+   "AllWISE J132040.61-045734.7",
+   "Gaia DR2 3635322446037138176",
+   "TYC 4962-00984-1",
+   "TYC 4962-984-1",
+   "UCAC4 426-058048",
+   "TIC 66766863",
+   "Gaia DR3 3635322446037138176"
+  ],
+  "objects": {
+   "TYC 4962-984-1": {
+    "object_type": "*",
+    "matched_aliases": [
+     "2MASS J13204065-0457346",
+     "Gaia DR2 3635322446037138176",
+     "Gaia DR3 3635322446037138176",
+     "TIC 66766863",
+     "TYC 4962-984-1"
+    ],
+    "simbad_ids": "TIC 66766863|1SWASP J132040.65-045734.6|Gaia DR3 3635322446037138176|TYC 4962-984-1|2MASS J13204065-0457346|Gaia DR2 3635322446037138176",
+    "references": {
+     "2019MNRAS.488.4905S": "SuperWASP dispositions and false positive catalogue."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "66766863",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=66766863&json=",
+  "basic_info": {
+   "tic_id": "66766863",
+   "star_names": "TIC 66766863, 2MASS J13204065-0457346, APASS 2338875, Gaia DR2 3635322446037138176, Gaia DR3 3635322446037138176, TYC 4962-00984-1, UCAC4 426-058048, WISE J132040.61-045734.7",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.051828"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "3635322446037138176",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.5353,
+    "source_id": "3635322446037138176",
+    "ra": "200.16926715965175",
+    "dec": "-4.959736810257261",
+    "pmra": "-29.33707112865524",
+    "pmdec": "-15.52492512363906",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.910394"
+   },
+   {
+    "distance_arcsec": 4.9224,
+    "source_id": "3635322446037138560",
+    "ra": "200.1689497178647",
+    "dec": "-4.958375356686121",
+    "pmra": "-32.65742192516091",
+    "pmdec": "-60.976185204259",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "17.247334"
+   },
+   {
+    "distance_arcsec": 7.8393,
+    "source_id": "3635322446037138432",
+    "ra": "200.1672600874606",
+    "dec": "-4.959219309030874",
+    "pmra": "22.962507625831094",
+    "pmdec": "-11.283993871345722",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "15.880003"
+   }
+  ],
+  "query_receipt": "4e34d946ffa07b006ea436472dc99d81343cad0e770251a22622c870160aa7cd",
+  "tic": "66766863",
+  "ra_deg": "200.169399106098",
+  "dec_deg": "-4.95966731858528",
+  "gaia_tables": {},
+  "superwasp": [
+   {
+    "target": "1SWASP J132040.65-045734.6",
+    "flag": "EB",
+    "period": "0.404911142",
+    "evidence": "TRAPPIST i+z viewed a partial transit, but it was v-shaped and deep enough to suggest a grazing EB",
+    "arcsec": 0.22
+   }
+  ],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 36743.825,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

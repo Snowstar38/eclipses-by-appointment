@@ -1,0 +1,131 @@
+{
+ "tic": "77350952",
+ "gaia_dr3": "4818159050696945408",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J04475997-3821374\" OR full:\"AllWISE J044800.06-382137.3\" OR full:\"Gaia DR2 4818159050696945408\" OR full:\"Gaia DR3 4818159050696945408\" OR full:\"TIC 77350952\" OR full:\"UCAC4 259-005144\" OR full:\"WISE J044800.00-382137.5\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J04475997-3821374",
+   "AllWISE J044800.06-382137.3",
+   "Gaia DR2 4818159050696945408",
+   "Gaia DR3 4818159050696945408",
+   "TIC 77350952",
+   "UCAC4 259-005144",
+   "WISE J044800.00-382137.5"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "77350952",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J04475997-3821374",
+   "AllWISE J044800.06-382137.3",
+   "Gaia DR2 4818159050696945408",
+   "UCAC4 259-005144",
+   "TIC 77350952",
+   "Gaia DR3 4818159050696945408"
+  ],
+  "objects": {
+   "UCAC4 259-005144": {
+    "object_type": "*",
+    "matched_aliases": [
+     "2MASS J04475997-3821374",
+     "Gaia DR2 4818159050696945408",
+     "Gaia DR3 4818159050696945408",
+     "UCAC4 259-005144"
+    ],
+    "simbad_ids": "2MASS J04475997-3821374|UCAC4 259-005144|WISE J044800.00-382137.5|Gaia DR3 4818159050696945408|Gaia DR2 4818159050696945408",
+    "references": {
+     "2018ApJ...862..138G": "BANYAN. XIII. A first look at nearby young associations with Gaia Data Release 2.",
+     "2021ApJ...917...23K": "Stars with photometrically young Gaia luminosities around the solar system (SPYGLASS). I. Mapping Young stellar structures and their star formation histories.",
+     "2022ApJ...941..143K": "SPYGLASS. III. The Fornax-Horologium Association and Its Traceback History within the Austral Complex.",
+     "2024AJ....168..159L": "A Census of the {\\em β} Pic Moving Group and Other Nearby Associations with Gaia."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "77350952",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=77350952&json=",
+  "basic_info": {
+   "tic_id": "77350952",
+   "star_names": "TIC 77350952, 2MASS J04475997-3821374, Gaia DR2 4818159050696945408, Gaia DR3 4818159050696945408, UCAC4 259-005144, WISE J044800.06-382137.3",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.386273"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "4818159050696945408",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "4818159050696945408",
+    "ra": "72.00009065551298",
+    "dec": "-38.36036072079349",
+    "pmra": "32.77624335197368",
+    "pmdec": "7.24759149898098",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "14.337891"
+   },
+   {
+    "distance_arcsec": 8.0744,
+    "source_id": "4818159050696945152",
+    "ra": "72.00294292359806",
+    "dec": "-38.36019201966293",
+    "pmra": "32.17256991053238",
+    "pmdec": "9.489330238222172",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "14.257978"
+   }
+  ],
+  "query_receipt": "1e83e86fd91623da07c4447f3a7a963d932fe25166d8b55d35b7494d55ce4c5c",
+  "tic": "77350952",
+  "ra_deg": 72.00009065551298,
+  "dec_deg": -38.36036072079349,
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 20236.621,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

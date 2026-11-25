@@ -1,0 +1,141 @@
+{
+ "tic": "97171152",
+ "gaia_dr3": "2812356031509892992",
+ "host": {
+  "tic": "97171152",
+  "gaia_dr3": "2812356031509892992",
+  "ra_deg": 348.096382226046,
+  "dec_deg": 13.8080324264478,
+  "tier": "confirmed",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "1.72193911",
+  "epoch_btjd": "2852.668492",
+  "period_status": "Primary eclipse timing gives a period consistent with the Gaia DR3 spectroscopic orbit.",
+  "depth_ppt": "15.489",
+  "primary_events": 29,
+  "sectors": "56|83",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Gaia DR3 single-lined spectroscopic binary at 1.72201279 days and 41.41 km/s radial-velocity semi-amplitude. Earlier TESS-SPOC threshold-crossing event and Kostov et al. (2025) unvetted machine selection, Table 2. Fable 5.2 shortlisted the source. No earlier eclipse identification was found in the sources searched.",
+  "interpretation": "A distinct 15 ppt primary eclipse repeats on a smooth modulated baseline in TESS sectors 56 and 83. The depth and timing agree between independent SAP and PDCSAP reductions. Both difference images favor the Gaia SB1, with no unresolved flux-capable Gaia neighbour. The eclipse is 0.120 days earlier than the Gaia conjunction propagated to the TESS epoch, within the 0.139-day first-order uncertainty. No secondary eclipse was secured.",
+  "evidence": "hosts/97171152.json"
+ },
+ "measured_clock": {
+  "period_days": 1.7219391091399994,
+  "epoch_btjd": 2852.668491668348,
+  "intercept": 2826.839405031248,
+  "events": 29,
+  "sectors": [
+   56,
+   83
+  ],
+  "residual90_min": 2.251633000356378,
+  "depth_ppt": 15.489,
+  "formal_period_error_d": 8.677014090507464e-07
+ },
+ "original_tess_period_days": 1.7219015118296224,
+ "source_summary": {
+  "tic": "97171152",
+  "batch": 15,
+  "gaia_dr3": "2812356031509892992",
+  "sectors": 2,
+  "period": 1.7219015118296224,
+  "width": 0.24106621165614717,
+  "primary_det": 5,
+  "primary_sector_det": 2,
+  "primary_ontarget": 2,
+  "primary_unresolved": 0,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target",
+  "primary_depth": 33.856,
+  "primary_offset": "1.9|3.9",
+  "secondary_det": 0,
+  "secondary_sector_det": 0,
+  "secondary_ontarget": 0,
+  "secondary_unresolved": 0,
+  "secondary_alt": "",
+  "secondary_verdicts": "",
+  "secondary_depth": null,
+  "secondary_offset": ""
+ },
+ "source_pixels": "../pixels/97171152.json",
+ "archive_photometry": "../sol/objects/97171152.json",
+ "original_trial_primary_and_secondary_timing": "../event-fits/97171152.json",
+ "literature": "../credit/individual/97171152.json",
+ "stellar_properties": {
+  "rad": 1.95819,
+  "e_rad": 0.0876682,
+  "mass": 1.56,
+  "e_mass": 0.27997,
+  "Teff": 7048,
+  "logg": 4.04748,
+  "lumclass": "DWARF",
+  "Tmag": 10.4439
+ },
+ "quantitative_cusp_checks": "../sol/cusps/97171152.json",
+ "independent_pdc_clock": {
+  "period_days": 1.7219389679139396,
+  "epoch_btjd": 2852.6685232556406,
+  "intercept": 2826.8394387369317,
+  "events": 29,
+  "sectors": [
+   56,
+   83
+  ],
+  "residual90_min": 2.2383084129105555,
+  "depth_ppt": 15.61,
+  "formal_period_error_d": 8.828687540937336e-07
+ },
+ "stacked_cusp_depths": [
+  {
+   "sector": 56,
+   "cusp_depth_ppt": 15.197823041094189,
+   "side_residual_mad_ppt": 0.4280938630689072
+  },
+  {
+   "sector": 83,
+   "cusp_depth_ppt": 15.380999895165289,
+   "side_residual_mad_ppt": 0.4182895784752635
+  }
+ ],
+ "cusp_plot": "../sol/panels/cusps/97171152.png",
+ "spectroscopic_ephemeris": {
+  "raw": {
+   "ref_epoch": "2016.0",
+   "source_id": "2812356031509892992",
+   "nss_solution_type": "SB1",
+   "period": "1.7220127881766008",
+   "period_error": "7.5411524E-5",
+   "t_periastron": "0.4322158372551303",
+   "t_periastron_error": "0.5419463",
+   "arg_periastron": "266.6591035048972",
+   "arg_periastron_error": "114.73624",
+   "eccentricity": "0.024182319778864005",
+   "eccentricity_error": "0.047991518",
+   "semi_amplitude_primary": "41.412111523240654",
+   "semi_amplitude_primary_error": "1.8846862",
+   "corr_vec": "(0.5486129, 0.539332, 0.34031478, 0.45434913, 0.3006262, 0.7836129, -0.79474854, -0.48456964, -0.6117385, -0.5282522, -0.79033405, -0.4872486, -0.6135634, -0.5324647, 0.9998367)"
+  },
+  "reference_epoch_btjd": 389.0,
+  "conjunctions": [
+   {
+    "argument_true_plus_periastron_deg": 90.0,
+    "cycle": 1431,
+    "prediction_btjd": 2852.7882767448364,
+    "delta_days": -0.11978507648836967,
+    "first_order_sigma_days": 0.13934375319546016,
+    "delta_sigma": -0.8596372190459435
+   },
+   {
+    "argument_true_plus_periastron_deg": 270.0,
+    "cycle": 1430,
+    "prediction_btjd": 2851.925724971199,
+    "delta_days": 0.7427666971489089,
+    "first_order_sigma_days": 0.09599768550661476,
+    "delta_sigma": 7.737339637190817
+   }
+  ],
+  "method": "Edge-on conjunction at true anomaly + argument of periastron = 90 or 270 deg. First-order covariance propagation, omitting the irrelevant systemic velocity and RV amplitude terms.",
+  "source": "https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_non--single_stars_tables/ssec_dm_nss_two_body_orbit.html"
+ }
+}

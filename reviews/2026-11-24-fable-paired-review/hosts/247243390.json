@@ -1,0 +1,97 @@
+{
+ "tic": "247243390",
+ "gaia_dr3": "1844538920050637952",
+ "host": {
+  "tic": "247243390",
+  "gaia_dr3": "1844538920050637952",
+  "ra_deg": 314.29993277018,
+  "dec_deg": 25.8369765723011,
+  "tier": "probable",
+  "lane": "ffi",
+  "population": "Fable lower-tier TESS threshold-crossing candidates",
+  "period_days": "9.86519750",
+  "epoch_btjd": "2435.009610",
+  "period_status": "Primary eclipse centers establish the recurrence. A second eclipse phase near 0.480 in the same fold supports the orbital period.",
+  "depth_ppt": "12.402",
+  "primary_events": 6,
+  "sectors": "15|41|55",
+  "claim_basis": "earlier public machine or TESS pipeline detection",
+  "prior_evidence": "Earlier TESS-SPOC threshold-crossing event and Kostov et al. (2025) unvetted machine selection, Table 2. Fable 5.2 shortlisted the source. No earlier vetted same-clock eclipse identification was found in the sources searched.",
+  "interpretation": "Both sharp eclipse phases recur across three TESS sectors. Difference images in two sectors favor this star for both phases. A separately resolved 6.4-arcsecond Gaia neighbour stays within 0.025 mag of baseline in five ZTF g and nine r exposures inside predicted eclipse windows, well below the approximately 40 percent fractional depth it would need in the TESS band. The target has three ZTF g primary-window exposures with a roughly 12 ppt median dip and 11 ppt baseline scatter.",
+  "evidence": "hosts/247243390.json"
+ },
+ "measured_clock": {
+  "period_days": 9.865197496958455,
+  "epoch_btjd": 2435.0096097015203,
+  "intercept": 1714.8501924235532,
+  "events": 6,
+  "sectors": [
+   15,
+   41,
+   55
+  ],
+  "residual90_min": 2.893378593289526,
+  "depth_ppt": 12.402000000000001
+ },
+ "original_tess_period_days": 9.865232041328188,
+ "source_summary": {
+  "tic": "247243390",
+  "batch": 2,
+  "gaia_dr3": "1844538920050637952",
+  "sectors": 2,
+  "period": 9.865232041328188,
+  "width": 0.07029856561516523,
+  "primary_det": 3,
+  "primary_sector_det": 2,
+  "primary_ontarget": 2,
+  "primary_unresolved": 1,
+  "primary_alt": "",
+  "primary_verdicts": "on_target|on_target",
+  "primary_depth": 14.88,
+  "primary_offset": "4.2|3.0",
+  "secondary_det": 2,
+  "secondary_sector_det": 1,
+  "secondary_ontarget": 2,
+  "secondary_unresolved": 1,
+  "secondary_alt": "",
+  "secondary_verdicts": "on_target|on_target",
+  "secondary_depth": 13.405,
+  "secondary_offset": "4.1|1.3"
+ },
+ "source_pixels": "../pixels/247243390.json",
+ "archive_photometry": "../sol/objects/247243390.json",
+ "original_trial_primary_and_secondary_timing": "../event-fits/247243390.json",
+ "literature": "../credit/individual/247243390.json",
+ "stellar_properties": {
+  "rad": 1.76622,
+  "e_rad": 0.0950254,
+  "mass": 1.06,
+  "e_mass": 0.130612,
+  "Teff": 5869,
+  "logg": 3.96929,
+  "lumclass": "DWARF",
+  "Tmag": 11.9671
+ },
+ "resolved_ground_cadences": "../sol/resolved-ground/247243390.json",
+ "secondary_fit": {
+  "period_days": 9.865173067923882,
+  "epoch_btjd": 2617.3095689910388,
+  "intercept": 1719.5788198099656,
+  "events": 4,
+  "sectors": [
+   41,
+   55
+  ],
+  "residual90_min": 3.0530559468024876,
+  "depth_ppt": 11.097
+ },
+ "secondary_phase": 0.47932414813492713,
+ "unresolved_neighbour": {
+  "gaia_dr3": "1844538924348591872",
+  "separation_arcsec": 6.4,
+  "delta_gaia_g": 3.66,
+  "complete_eclipse_aperture_limit_gaia_rp_ppt": 35.7,
+  "ztf_g_and_r_core_cadences": 14,
+  "note": "The flux bound assumes Gaia Rp approximates a TESS flux ratio. Multiple ground-survey nights cover the expected windows in which the neighbour would need a very large eclipse."
+ }
+}
