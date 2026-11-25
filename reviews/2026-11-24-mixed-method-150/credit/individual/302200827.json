@@ -1,0 +1,139 @@
+{
+ "tic": "302200827",
+ "gaia_dr3": "2782502229230892544",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J00370995+1719428\" OR full:\"APASS 42786055\" OR full:\"AllWISE J003710.00+171942.7\" OR full:\"GSC 01187-00374\" OR full:\"Gaia DR1 2782502224935256448\" OR full:\"Gaia DR2 2782502229230892544\" OR full:\"Gaia DR3 2782502229230892544\" OR full:\"TIC 302200827\" OR full:\"TYC 1187-00374-1\" OR full:\"TYC 1187-374-1\" OR full:\"UCAC4 537-001163\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J00370995+1719428",
+   "APASS 42786055",
+   "AllWISE J003710.00+171942.7",
+   "GSC 01187-00374",
+   "Gaia DR1 2782502224935256448",
+   "Gaia DR2 2782502229230892544",
+   "Gaia DR3 2782502229230892544",
+   "TIC 302200827",
+   "TYC 1187-00374-1",
+   "TYC 1187-374-1",
+   "UCAC4 537-001163"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "302200827",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J00370995+1719428",
+   "APASS 42786055",
+   "AllWISE J003710.00+171942.7",
+   "Gaia DR2 2782502229230892544",
+   "TYC 1187-00374-1",
+   "TYC 1187-374-1",
+   "UCAC4 537-001163",
+   "TIC 302200827",
+   "Gaia DR3 2782502229230892544"
+  ],
+  "objects": {
+   "TYC 1187-374-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J00370995+1719428",
+     "Gaia DR2 2782502229230892544",
+     "Gaia DR3 2782502229230892544",
+     "TIC 302200827",
+     "TYC 1187-374-1"
+    ],
+    "simbad_ids": "TIC 302200827|Gaia DR3 2782502229230892544|2MASS J00370995+1719428|GSC 01187-00374|TYC 1187-374-1|Gaia DR1 2782502224935256448|Gaia DR2 2782502229230892544",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure.",
+     "2018A&A...609A.116R": "Empirical photometric calibration of the Gaia red clump: Colours, effective temperature, and absolute magnitude."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "302200827",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=302200827&json=",
+  "basic_info": {
+   "tic_id": "302200827",
+   "star_names": "TIC 302200827, 2MASS J00370995+1719428, APASS 42786055, Gaia DR2 2782502229230892544, Gaia DR3 2782502229230892544, SDSS DR9 1237678601309126674, TYC 1187-00374-1, UCAC4 537-001163, WISE J003710.00+171942.7",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.004295"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2782502229230892544",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "2782502229230892544",
+    "ra": "9.291795253379089",
+    "dec": "17.328558174493775",
+    "pmra": "66.40315244638619",
+    "pmdec": "-5.41420319544593",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.115443"
+   }
+  ],
+  "query_receipt": "60fbfe279747d397bd26ee0d1e34cc3c22c0adeaf203298b38fadb41c8410657",
+  "tic": "302200827",
+  "ra_deg": "9.291795253379089",
+  "dec_deg": "17.328558174493775",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "2782502229230892544",
+     "nss_solution_type": "SB1",
+     "period": "45.45428511338398",
+     "period_error": "0.04666453",
+     "eccentricity": "0.7903950616355384",
+     "eccentricity_error": "0.03926823",
+     "semi_amplitude_primary": "20.123354672763018"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 46953.109,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

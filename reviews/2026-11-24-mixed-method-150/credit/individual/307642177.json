@@ -1,0 +1,137 @@
+{
+ "tic": "307642177",
+ "gaia_dr3": "462468441918724864",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J03214584+5951140\" OR full:\"APASS 58123245\" OR full:\"AllWISE J032145.85+595113.9\" OR full:\"Gaia DR1 462468437618216832\" OR full:\"Gaia DR2 462468441918724864\" OR full:\"Gaia DR3 462468441918724864\" OR full:\"TIC 307642177\" OR full:\"TYC 3715-00283-1\" OR full:\"TYC 3715-283-1\" OR full:\"UCAC4 750-028367\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J03214584+5951140",
+   "APASS 58123245",
+   "AllWISE J032145.85+595113.9",
+   "Gaia DR1 462468437618216832",
+   "Gaia DR2 462468441918724864",
+   "Gaia DR3 462468441918724864",
+   "TIC 307642177",
+   "TYC 3715-00283-1",
+   "TYC 3715-283-1",
+   "UCAC4 750-028367"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "307642177",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J03214584+5951140",
+   "APASS 58123245",
+   "AllWISE J032145.85+595113.9",
+   "Gaia DR2 462468441918724864",
+   "TYC 3715-00283-1",
+   "TYC 3715-283-1",
+   "UCAC4 750-028367",
+   "TIC 307642177",
+   "Gaia DR3 462468441918724864"
+  ],
+  "objects": {
+   "TYC 3715-283-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J03214584+5951140",
+     "Gaia DR2 462468441918724864",
+     "Gaia DR3 462468441918724864",
+     "TIC 307642177",
+     "TYC 3715-283-1"
+    ],
+    "simbad_ids": "TIC 307642177|Gaia DR3 462468441918724864|TYC 3715-283-1|2MASS J03214584+5951140|Gaia DR1 462468437618216832|Gaia DR2 462468441918724864",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "307642177",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=307642177&json=",
+  "basic_info": {
+   "tic_id": "307642177",
+   "star_names": "TIC 307642177, 2MASS J03214584+5951140, APASS 58123245, Gaia DR2 462468441918724864, Gaia DR3 462468441918724864, TYC 3715-00283-1, UCAC4 750-028367, WISE J032145.85+595113.9",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.039381"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "462468441918724864",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "462468441918724864",
+    "ra": "50.44105012310217",
+    "dec": "59.85389529585779",
+    "pmra": "-2.587520341850706",
+    "pmdec": "-3.585144626496086",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.259393"
+   }
+  ],
+  "query_receipt": "16f11333c52fe8365503a29bb6f54fafba917be420616851fa06fa9a31f2abe9",
+  "tic": "307642177",
+  "ra_deg": "50.44105012310217",
+  "dec_deg": "59.85389529585779",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "462468441918724864",
+     "nss_solution_type": "SB1",
+     "period": "33.18041403192129",
+     "period_error": "0.021478847",
+     "eccentricity": "0.32382945151177894",
+     "eccentricity_error": "0.026460093",
+     "semi_amplitude_primary": "17.965785475479755"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 33506.084,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

@@ -1,0 +1,11 @@
+# Batch 12 | Brightening review
+
+The candidates include flare-like transients, a few individual rounded peaks and broad background-linked or raw-only excursions. TIC 410209195 has abrupt rises and longer decays in S88/S89. TICs 64963969 and 166747435 have asymmetric pulses of unequal depths across visits. Covered Gaia predictions fail for these. TIC 220474286's archival peaks track large changes in SAP_BKG and vanish in the corrected curves. The independent S93 excursion coincides with two other same-camera apertures crossing 3 ppt in both products. TICs 239180973 and 437612370 retain occasional individual peaks without an ephemeris.
+
+## Review files
+
+- [Outcomes](outcomes.csv) lists all ten dispositions. Periods of smooth variables describe photometric modulation. Epochs for isolated events describe observing windows.
+- [Original event measurements](archive-windows.csv), [covered predictions](predicted-windows.csv) and [sector coverage](sector-coverage.csv) use quality-zero QLP flux, with KSPSAP_FLUX or DET_FLUX as corrected flux. Signed depth is positive for a dip. Side-window medians define the local linear baseline. Coverage summaries require at least 65% core coverage and two cadences per side. Internal gaps are retained in the prediction table.
+- The [independent scan](independent-scan.csv), [per-sector short periods](periodograms.csv), [background](background.csv) and [camera controls](camera-controls.csv) record supporting evidence. Controls compare cadence numbers within the same sector and camera. In control figures, gray lines are same-CCD SAP and the lower panel is target SAP_BKG. The roster is limited to cached QLP targets.
+- The two visual-guide JPGs summarize the rendered and reviewed event panels. Individual sector plots mark Gaia predictions as dashed purple lines. Selected fold and time-series panels provide additional shape detail.
+- Shared source is in [batch 11](../batch11). From the project directory run python -B batch11/review.py --batch batchNN, then python -B batch11/independent.py --batch batchNN and python -B batch11/controls.py --batch batchNN. The fold.py and refine_dips.py scripts regenerate folded diagnostics and short-dip coverage. Dependencies are NumPy, Astropy, SciPy and Matplotlib.
