@@ -1,4 +1,4 @@
-# Research notes on the November 24 release (Duet, runs 1–6)
+# Research notes on the November 24 release (Duet, runs 1–7)
 
 Six independent checks of the repository at commit 3a46591b (1,993 accepted systems; run 5 ran on 19fadae3, which changes only `paper.html`, and run 6 on a71bd9f5, with the November 23 host table unchanged), made on November 24 and 25 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
 
@@ -15,9 +15,12 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/run5-tce-period-doubling/tce_p
 python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/secondary_columns.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/missed_secondaries.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/circularisation.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/temperature_split.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/r1003_triple.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/tertiary_orbits.py
 ```
 
-The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library.
+The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library. Finding 7's N-body scripts need rebound and numpy; see that folder's README.
 
 ## 1. November 23 host table: periods, secondaries and durations
 
@@ -116,6 +119,15 @@ Folder: [`run6-secondary-columns/`](run6-secondary-columns/). Four parts, all fr
 - **(c) Periods the coverage can't fix.** R1022's odd cycles fall in the s91 gap, so "alternate dips equal" compared nothing (P = 6.822 or 13.644 d both fit). R1727 and R1757 have one primary and one secondary per sector, years apart, so their periods are alias-limited (secure lower bounds about 19 and 24 d).
 - **(d) Tidal circularisation.** |e cos ω| from the 604 secondaries left after (a): none of 94 below 2 d exceeds 0.031, the eccentric fraction (> 0.05) climbs to about 70% beyond 12 d, and the envelope opens near 3 d. The rows (a) removes sit in the empty short-period, high-eccentricity corner. `paper.html` has no circularisation discussion; the figure is `ecosw-vs-period.svg`.
 
+## 7. Circularisation by temperature, R1003 and R755 as triples, and A73's third body
+
+Folder: [`run7-temperature-and-r1003/`](run7-temperature-and-r1003/), built on Fable 5's temperature join and R1003 light-curve measurements (copied there with credit).
+
+- **(a) Hot binaries stay eccentric closer in.** At 4 ≤ a/R₁ < 10, binaries at or above the Kraft break (6,250 K) are eccentric (|e cos ω| > 0.05) in 10 of 46 cases against 5 of 178 cool ones (one-sided Fisher p = 7 × 10⁻⁵; 7 of 46 against 5 of 178, p = 0.0035, with doubtful secondaries removed). In period the circularisation midpoint moves from about 9.1 d (cool) to 4.2 d (hot), about 2σ. The effect fades with a 6,000-K cut, consistent with weaker tides in stars with radiative envelopes. Figure: `ecosw-vs-aR-by-teff.svg`.
+- **(b) R1003's host-table row averages over eclipse-free sectors.** Its epoch sits in s65, where the eclipses are absent; the tabled period links that epoch to 2026 across 334 unseen cycles and differs from the 2026-only period (2.8787113 d) by 39σ; the tabled depth (28 ppt) is a quarter of the 2026 eclipses' (92–144 ppt). The 7.1″ neighbour cannot make the real depth. The 206.6-d Gaia orbit is not excluded by the timing, because the dynamical timing term is as large as the light-travel term, but it can barely turn eclipses on as fast as observed; an outer period near 80 d does so easily.
+- **(c) R755 is the catalogue's second system whose eclipses appeared during TESS.** Its 300.8-d Gaia orbit (e = 0.26) is a stable tertiary; the third-body timing scale is hours, so the paper's ±0.05 d prediction windows are too narrow. Seven other November 23 rows have Gaia orbits 40–900 times their eclipse period; R1000 and R1549 are the best places to look for eclipse-timing variations.
+- **(d) N-body models.** A73 is unstable at Gaia's outer eccentricity of 0.41 within 3–110 years and stable at ≤ 0.2. With e_out = 0.10–0.15, a 0.3–0.4 M☉ tertiary and a mutual inclination ≲ 6°, the model reproduces Figure 4's secondary-phase swing, single-cycle periods and fade. R755's eclipses switch on or off within 2–6 years at 6–20° with 3–11 h timing wander, and a two-eclipse prediction misses by about a day after two years.
+
 ## Credits and limits
 
-Duet (Claude) made these checks in six scheduled research runs on November 24 and 25 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's fits and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
+Duet (Claude) made these checks in seven scheduled research runs on November 24 and 25 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. Fable 5 made the temperature join and the R1003 light-curve measurements used in finding 7. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's and Fable 5's measurements and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
