@@ -1,6 +1,6 @@
-# Research notes on the November 24 release (Duet, runs 1–5)
+# Research notes on the November 24 release (Duet, runs 1–6)
 
-Five independent checks of the repository at commit 3a46591b (1,993 accepted systems; run 5 ran on 19fadae3, which changes only `paper.html`), made on November 24 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
+Six independent checks of the repository at commit 3a46591b (1,993 accepted systems; run 5 ran on 19fadae3, which changes only `paper.html`, and run 6 on a71bd9f5, with the November 23 host table unchanged), made on November 24 and 25 by Duet (Claude) in scheduled research runs. Each finding has a script here that reruns it from files already in the repository, with no network access. Nothing here changes an existing file or a tier. It lists what to decide, with a suggested fix for each.
 
 **Outcome.** The second release of November 23 (R1702–R1802) meets its own tier rules, but the host table has three column problems that affect how periods and durations read. 49 accepted systems are already in Chopard-Vilhem's public September list and still count toward the "no prior identification" headline. His open pipeline independently recovered A73's 17.54-d eclipses and their fade. And the appointment windows look wider than they need to be, because their widths appear to ignore Gaia's correlations; with the correlations, Gaia's conjunction predictions are close to calibrated against measured eclipses.
 
@@ -12,9 +12,12 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/chopard_overlap.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/a73_chopard_dips.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/window_covariance.py
 python3 reviews/2026-11-24-duet-research-runs-1-4/run5-tce-period-doubling/tce_period_check.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/secondary_columns.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/missed_secondaries.py
+python3 reviews/2026-11-24-duet-research-runs-1-4/run6-secondary-columns/circularisation.py
 ```
 
-The first three and the fifth use only the Python standard library; the fourth needs numpy.
+The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library.
 
 ## 1. November 23 host table: periods, secondaries and durations
 
@@ -104,6 +107,15 @@ Section 2.2 says conjunction uncertainties "were propagated by Monte Carlo throu
 
 Folder: [`run5-tce-period-doubling/`](run5-tce-period-doubling/). Of the 41 SPOC rows that adopt the shorter period on an "alternate dips equal" reading, 8 are tagged with a threshold-crossing-event (TCE) period twice the shorter one (in seven the table adopts the shorter period; in R946 only the text does), which TPS reports mainly when alternate dips differ. The release's own 2P rows confirm that TPS's choice tracks the depth ratio. Two of the eight can already be checked and both are at the TCE's period: R995 (Earthshine's 13.5σ even/odd today) and R946 (Gaia SB2 orbit). The other six, R1084, R1090 and R1120 (confirmed) and R991, R1529 and R1556 (probable), are predicted to be 2P. R995's difference would have been about 11σ in the eight sectors the review used (Earthshine's 13.5σ from eleven sectors, scaled), so its "equal" reading was a failure of the test rather than a limit of the data.
 
+## 6. Secondary-eclipse columns, missed secondaries and tidal circularisation
+
+Folder: [`run6-secondary-columns/`](run6-secondary-columns/). Four parts, all from `host-stars.csv` and the November 23 review sheets:
+
+- **(a) Secondary columns that contradict their own rows.** 21 of the 40 refitted rows with filled secondary columns break the stated rule that those columns are blank where refit and visual reading disagree. Eight record the primary eclipse's own wing (1.55–1.91 box widths from it; no other row is closer than 2.66), five plus R1329 show nothing at the table phase, five long-period rows have a dip in one sector only, R1789's is a scattered-light ramp, and R1796's column holds 1 − phase (three non-refitted rows, R1349, R1421 and R1459, mirror the same way). R997's column is a pre-eclipse hump. A minimum-eccentricity check against a circularisation envelope flags the same rows independently. Two real-looking short-period eccentric systems remain: R1003 (2.88 d, e ≥ 0.51, with a 206.6-d Gaia orbit that suggests a triple) and R1132 (2.05 d, e ≥ 0.14).
+- **(b) Secondaries the visual review saw but the table lacks.** 25 rows (9 confirmed) say "no secondary found, alternate dips equal" while their own visual note describes a secondary. Six measured off the sheets: R1022 (phase 0.292, e ≥ 0.33), R1029 (0.839, e ≥ 0.56), R1034 (0.544, the deeper eclipse, so its epoch should move), R1634 (0.462), R1727 (0.771, e ≥ 0.44) and R1757 (0.746, e ≥ 0.40). A secondary at P excludes the "twin 2P" alternative. R1684's note sees unequal dips in the 2P fold, the R995 pattern. Rows with only two primaries are where the search fails.
+- **(c) Periods the coverage can't fix.** R1022's odd cycles fall in the s91 gap, so "alternate dips equal" compared nothing (P = 6.822 or 13.644 d both fit). R1727 and R1757 have one primary and one secondary per sector, years apart, so their periods are alias-limited (secure lower bounds about 19 and 24 d).
+- **(d) Tidal circularisation.** |e cos ω| from the 604 secondaries left after (a): none of 94 below 2 d exceeds 0.031, the eccentric fraction (> 0.05) climbs to about 70% beyond 12 d, and the envelope opens near 3 d. The rows (a) removes sit in the empty short-period, high-eccentricity corner. `paper.html` has no circularisation discussion; the figure is `ecosw-vs-period.svg`.
+
 ## Credits and limits
 
-Duet (Claude) made these checks in five scheduled research runs on November 24 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's fits and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
+Duet (Claude) made these checks in six scheduled research runs on November 24 and 25 and wrote the scripts. Earthshine (Opus 5.5) measured the eight durations in finding 1(d) and the R995 even/odd test used in finding 5. The environment could not reach MAST, VizieR, SIMBAD or the Gaia archive, so every number here comes from the repository's own tables, Earthshine's fits and Chopard-Vilhem's public records already copied into the repository. Run 1's working scripts were not kept, so finding 1 was rebuilt from scratch here; its counts differ in detail from that run's first summary but describe the same problems.
