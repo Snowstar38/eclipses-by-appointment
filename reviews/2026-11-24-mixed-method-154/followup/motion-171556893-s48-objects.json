@@ -1,0 +1,65 @@
+{
+ "params": {
+  "xobs": "-101756.6780354838,342898.621299169,57628.43394639266,-0.584119295777612,-0.4675088546634637,0.2401755351847202",
+  "obs-time": "2022-02-20T23:03:51",
+  "fov-ra-center": "10-24-30.154",
+  "fov-dec-center": "+20-10-52.11",
+  "fov-ra-hwidth": 0.12,
+  "fov-dec-hwidth": 0.12,
+  "two-pass": "true",
+  "suppress-first-pass": "true",
+  "req-elem": "false",
+  "vmag-lim": 21,
+  "mag-required": "true"
+ },
+ "response": {
+  "signature": {
+   "source": "NASA/JPL Small-Body Identification API",
+   "version": "1.1"
+  },
+  "summary": {
+   "fov-ra-hwidth": "0.12",
+   "vmag-lim": "21",
+   "fov-ra-center": "10-24-30.154",
+   "two-pass": "true",
+   "suppress-first-pass": "true",
+   "mag-required": "true",
+   "obs-time": "2022-02-20 23:03:51",
+   "xobs": "-101756.6780354838,342898.621299169,57628.43394639266,-0.584119295777612,-0.4675088546634637,0.2401755351847202",
+   "req-elem": "false",
+   "fov-dec-center": "+20-10-52.11",
+   "fov-dec-hwidth": "0.12"
+  },
+  "fields_second": [
+   "Object name",
+   "Astrometric RA (hh:mm:ss)",
+   "Astrometric Dec (dd mm'ss\")",
+   "Dist. from center RA (\")",
+   "Dist. from center Dec (\")",
+   "Dist. from center Norm (\")",
+   "Visual magnitude (V)",
+   "RA rate (\"/h)",
+   "Dec rate (\"/h)"
+  ],
+  "observer": {
+   "fov_offset": "00:00:28.80, +00 07'12.00\"",
+   "obs_date": "2022-Feb-20 23:03:51 (2459631.461007 UT)",
+   "fov_center": "10:24:30.15, +20 10'52.11\" (J2000)",
+   "location": "user-specified"
+  },
+  "n_second_pass": 1,
+  "data_second_pass": [
+   [
+    "2850 Mozhaiskij (1978 TM7)",
+    "10:24:30.13",
+    "+20 10'53.7\"",
+    "-.351",
+    "1.57",
+    "1.609",
+    "15.8",
+    "-3.511E+01",
+    "1.946E+01"
+   ]
+  ]
+ }
+}

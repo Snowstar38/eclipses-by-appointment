@@ -1,0 +1,137 @@
+{
+ "tic": "257808668",
+ "gaia_dr3": "1786928913098117504",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J21274749+1907396\" OR full:\"APASS 44712630\" OR full:\"AllWISE J212747.50+190739.9\" OR full:\"Gaia DR1 1786928908802957696\" OR full:\"Gaia DR2 1786928913098117504\" OR full:\"Gaia DR3 1786928913098117504\" OR full:\"TIC 257808668\" OR full:\"TYC 1671-00659-1\" OR full:\"TYC 1671-659-1\" OR full:\"UCAC4 546-140001\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J21274749+1907396",
+   "APASS 44712630",
+   "AllWISE J212747.50+190739.9",
+   "Gaia DR1 1786928908802957696",
+   "Gaia DR2 1786928913098117504",
+   "Gaia DR3 1786928913098117504",
+   "TIC 257808668",
+   "TYC 1671-00659-1",
+   "TYC 1671-659-1",
+   "UCAC4 546-140001"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "257808668",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J21274749+1907396",
+   "APASS 44712630",
+   "AllWISE J212747.50+190739.9",
+   "Gaia DR2 1786928913098117504",
+   "TYC 1671-00659-1",
+   "TYC 1671-659-1",
+   "UCAC4 546-140001",
+   "TIC 257808668",
+   "Gaia DR3 1786928913098117504"
+  ],
+  "objects": {
+   "TYC 1671-659-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J21274749+1907396",
+     "Gaia DR2 1786928913098117504",
+     "Gaia DR3 1786928913098117504",
+     "TIC 257808668",
+     "TYC 1671-659-1"
+    ],
+    "simbad_ids": "TIC 257808668|Gaia DR3 1786928913098117504|TYC 1671-659-1|2MASS J21274749+1907396|Gaia DR1 1786928908802957696|Gaia DR2 1786928913098117504",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "257808668",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=257808668&json=",
+  "basic_info": {
+   "tic_id": "257808668",
+   "star_names": "TIC 257808668, 2MASS J21274749+1907396, APASS 44712630, Gaia DR2 1786928913098117504, Gaia DR3 1786928913098117504, TYC 1671-00659-1, UCAC4 546-140001, WISE J212747.50+190739.9",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.034743"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "1786928913098117504",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "1786928913098117504",
+    "ra": "321.9479718031319",
+    "dec": "19.12778461013528",
+    "pmra": "19.207834316637456",
+    "pmdec": "17.04094926059965",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.035128"
+   }
+  ],
+  "query_receipt": "66325269d5cc3627031a5b9a8b69a40b2003cc756cd87d79a468bc323ff3a93f",
+  "tic": "257808668",
+  "ra_deg": "321.9479718031319",
+  "dec_deg": "19.12778461013528",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "1786928913098117504",
+     "nss_solution_type": "SB1",
+     "period": "37.077377274259",
+     "period_error": "0.031079562",
+     "eccentricity": "0.47556488403584724",
+     "eccentricity_error": "0.026702559",
+     "semi_amplitude_primary": "28.633894613140402"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 38730.17,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

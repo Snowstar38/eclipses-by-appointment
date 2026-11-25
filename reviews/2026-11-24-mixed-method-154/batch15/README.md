@@ -1,0 +1,13 @@
+# Batch 15 | Dip review
+
+TIC 56129375 shows a smooth 0.101257811 d wave in S5/S32 which weakens in S98. TIC 276498583 shows broadly coherent sub-day variability near 0.52 d, including nearly equal minima in the doubled waveform. TIC 291037608 shows a smooth 0.31397 d wave during the single S51 visit. None yields detached repeat eclipse windows.
+
+TICs 210099453, 117140096 and 178156081 have the deepest raw S65/S81/S97 structures. Most of these curves nearly perfectly correlate or anticorrelate with local background, and the strongest corrected versions follow large SAP ramps. TIC 121015891 has sector-dependent background-linked modulation. Remaining dip windows mostly disappear in corrected flux.
+
+## Measurements and reproduction
+
+- [Dispositions](outcomes.csv) provides ten decisions. Periods for smooth variables describe photometric modulation. Epoch and width for isolated events describe the measurement window.
+- [Original event windows](archive-windows.csv), [repeat predictions](predicted-windows.csv) and [sector coverage](sector-coverage.csv) use quality-zero original SAP and KSPSAP_FLUX or DET_FLUX. Signed depth is positive for a dip, measured against a local linear baseline from side-window medians. Coverage summaries require at least 65% nominal core sampling and two points on each side. Comparisons include Gaia, half and double at both the roster epoch and the strongest adequately sampled two-product archive feature, alongside manual aliases where available. Missing sector-range predictions and internally gapped rows have limited information.
+- [Independent scan](independent-scan.csv) ranks same-sign two-product excursions in all available sectors. [Periodograms](periodograms.csv) records the strongest local short-wave peak per sector. [Background](background.csv) provides SAP_BKG correlation, local signal trends and aperture-position changes. [Camera controls](camera-controls.csv) matches CADENCENO within each visit and camera. The local cache is sparse on the sky and quiet camera controls leave source blending possible.
+- The two visual-guide JPGs collect all event panels. Separate PNGs give full-sector, local-window, background-control and selected period-fold diagnostics. The full-sector plots mark Gaia predictions in purple. The camera guard uses the prior sector-26 cadence screen.
+- Shared Python is in [batch11](../batch11). From the project folder run python -B batch11/review.py --batch batchNN, then independent.py, contact.py, control-events.py and controls.py using the same argument and script directory. Run python -B batch11/fold.py for selected period refinements. Requirements are NumPy, SciPy, Astropy, Matplotlib and Pillow.

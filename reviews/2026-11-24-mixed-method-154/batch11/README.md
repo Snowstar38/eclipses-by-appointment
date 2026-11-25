@@ -1,0 +1,17 @@
+# Batch 11 | Brightening review
+
+TIC 188976749 shows a phase-coherent 0.125380656 d smooth wave in nine sectors in both flux products. The box search recovers a triple-period alias. TIC 11931157 shows a broad stable 2.014057179 d sinusoid in seven SAP sectors, with about 26 ppt peak-to-trough. The corrected curves mostly remove it. Neither profile contains a detached pulse.
+
+Two isolated large symmetric pulses were escalated for image-level review. TIC 52300257 S6 at 1488.1413 BTJD has +96 ppt in both products over 0.24 d, and TIC 153687101 S87 at 3669.0141 BTJD has +110 ppt in both products over 0.12 d. The native images show moving point sources at both events. Gaia-anchored comparisons have coverage in other sectors but produce only the anchoring pulse above 3 ppt in both products. [S6 motion sequence](../followup/motion-52300257-s6.csv) · [S87 motion sequence](../followup/motion-153687101-s87.csv)
+
+The S57 TIC 194437772 event and several peaks in TICs 60411404 and 369903953 have flare-like rises and decays. Wide windows at other times are often background-linked or disappear in corrected QLP.
+
+The spacecraft-view ephemerides identify the S6 crossing as **(740) Cantabia** (1.47–2.04 arcsec residuals across all 13 positions) and the S87 crossing as **(914) Palisana** (3.27–4.20 arcsec across 35 sampled positions). The faint Palisana comparison candidate 2006 DJ173 reaches 3.89 arcsec once but misses by 33.61 arcsec median and 75.09 arcsec maximum. [Orbit comparison](../followup/motion-README.md)
+
+## Measurements and reproduction
+
+- [Dispositions](outcomes.csv) provides ten decisions. Periods for smooth variables describe photometric modulation. Epoch and width for isolated events describe the measurement window.
+- [Original event windows](archive-windows.csv), [repeat predictions](predicted-windows.csv) and [sector coverage](sector-coverage.csv) use quality-zero original SAP and KSPSAP_FLUX or DET_FLUX. Signed depth is positive for a dip, measured against a local linear baseline from side-window medians. Coverage summaries require at least 65% nominal core sampling and two points on each side. Comparisons include Gaia, half and double at both the roster epoch and the strongest adequately sampled two-product archive feature, alongside manual aliases where available. Missing sector-range predictions and internally gapped rows have limited information.
+- [Independent scan](independent-scan.csv) ranks same-sign two-product excursions in all available sectors. [Periodograms](periodograms.csv) records the strongest local short-wave peak per sector. [Background](background.csv) provides SAP_BKG correlation, local signal trends and aperture-position changes. [Camera controls](camera-controls.csv) matches CADENCENO within each visit and camera. The local cache is sparse on the sky and quiet camera controls leave source blending possible.
+- The two visual-guide JPGs collect all event panels. Separate PNGs give full-sector, local-window, background-control and selected period-fold diagnostics. The full-sector plots mark Gaia predictions in purple. The camera guard uses the prior sector-26 cadence screen.
+- Shared Python is in [batch11](../batch11). From the project folder run python -B batch11/review.py --batch batchNN, then independent.py, contact.py, control-events.py and controls.py using the same argument and script directory. Run python -B batch11/fold.py for selected period refinements. Requirements are NumPy, SciPy, Astropy, Matplotlib and Pillow.

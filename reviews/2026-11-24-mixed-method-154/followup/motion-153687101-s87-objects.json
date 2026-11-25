@@ -1,0 +1,87 @@
+{
+ "params": {
+  "xobs": "216835.8138675342,-21372.8264913374,-259101.4520613648,0.3593540279537903,0.7462607011411134,0.1521507049746967",
+  "obs-time": "2024-12-24T12:11:11",
+  "fov-ra-center": "06-14-44.142",
+  "fov-dec-center": "+11-10-22.86",
+  "fov-ra-hwidth": 0.12,
+  "fov-dec-hwidth": 0.12,
+  "two-pass": "true",
+  "suppress-first-pass": "true",
+  "req-elem": "false",
+  "vmag-lim": 21,
+  "mag-required": "true"
+ },
+ "response": {
+  "signature": {
+   "source": "NASA/JPL Small-Body Identification API",
+   "version": "1.1"
+  },
+  "summary": {
+   "mag-required": "true",
+   "fov-dec-hwidth": "0.12",
+   "xobs": "216835.8138675342,-21372.8264913374,-259101.4520613648,0.3593540279537903,0.7462607011411134,0.1521507049746967",
+   "fov-ra-hwidth": "0.12",
+   "req-elem": "false",
+   "obs-time": "2024-12-24 12:11:11",
+   "fov-ra-center": "06-14-44.142",
+   "two-pass": "true",
+   "vmag-lim": "21",
+   "fov-dec-center": "+11-10-22.86",
+   "suppress-first-pass": "true"
+  },
+  "fields_second": [
+   "Object name",
+   "Astrometric RA (hh:mm:ss)",
+   "Astrometric Dec (dd mm'ss\")",
+   "Dist. from center RA (\")",
+   "Dist. from center Dec (\")",
+   "Dist. from center Norm (\")",
+   "Visual magnitude (V)",
+   "RA rate (\"/h)",
+   "Dec rate (\"/h)"
+  ],
+  "observer": {
+   "obs_date": "2024-Dec-24 12:11:10 (2460669.007766 UT)",
+   "fov_center": "06:14:44.14, +11 10'22.86\" (J2000)",
+   "fov_offset": "00:00:28.80, +00 07'12.00\"",
+   "location": "user-specified"
+  },
+  "n_second_pass": 3,
+  "data_second_pass": [
+   [
+    "914 Palisana (A919 NC)",
+    "06:14:44.14",
+    "+11 10'26.8\"",
+    "-.036",
+    "3.95",
+    "3.951",
+    "13.2",
+    "-4.040E+01",
+    "-1.534E+01"
+   ],
+   [
+    "273055 (2006 DJ173)",
+    "06:14:44.17",
+    "+11 10'14.5\"",
+    ".405",
+    "-8.38",
+    "8.386",
+    "20.6",
+    "-3.110E+01",
+    "3.506E+00"
+   ],
+   [
+    "(2006 OW32)",
+    "06:15:02.46",
+    "+11 06'33.6\"",
+    "270.",
+    "-229.",
+    "353.8",
+    "21.0",
+    "-3.619E+01",
+    "1.705E+01"
+   ]
+  ]
+ }
+}

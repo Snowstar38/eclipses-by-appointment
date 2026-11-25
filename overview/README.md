@@ -9,7 +9,7 @@ python overview/make_overview.py
 
 The generator reads `paper.pdf`, `overview/systems.csv` and `overview/a98.json`, then writes `overview.png` (2400 by 1260 pixels). The first page is rendered directly from the current paper at 1785 pixels wide and cropped using the original overview geometry. The sky uses the original equatorial Mollweide projection, with right ascension increasing leftward and a coordinate-aligned NASA sky background. Each dot is one included system; probable systems remain explicitly identified in the subtitle and CSV.
 
-`systems.csv` contains 2,038 unique TICs (1,493 confirmed and 545 probable). The paired review of 402 queued Fable targets adds 9 hosts (R1858–R1866). [Current host positions](systems.csv) · [Paired review](../reviews/2026-11-24-fable-paired-review/README.md)
+`systems.csv` contains 2,039 unique TICs (1,494 confirmed and 545 probable). The 154-target mixed-method review validates one earlier machine-selected eclipse candidate (R1867). [Current host positions](systems.csv) · [Validation and credit](../reviews/2026-11-24-mixed-method-154/host-257808672.md)
 
 The map represents sky position and inclusion only: all dots have the same nominal size and color. It does not represent magnitude, distance, eclipse depth or the strength of evidence, and these quantities are not imputed. Overlapping dots can obscure individual systems. Confirmed and probable describe the physical review tiers; they do not imply a newly discovered binary or uniquely resolved source in every case.
 

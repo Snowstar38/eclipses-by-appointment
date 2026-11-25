@@ -1,0 +1,46 @@
+Public archive version sample S73 v01: verified TIC 155637106 size and SHA-256.
+
+Public archive version sample S74 v02: verified TIC 103500492 size and SHA-256.
+
+Public archive version sample S75 v02: verified TIC 11931157 size and SHA-256.
+
+Public archive version sample S76 v02: verified TIC 154481910 size and SHA-256.
+
+Public archive version sample S77 v02: verified TIC 105659480 size and SHA-256.
+
+Public archive version sample S78 v02: verified TIC 159769350 size and SHA-256.
+
+Public archive version sample S79 v02: verified TIC 160183798 size and SHA-256.
+
+Public archive version sample S80 v01: verified TIC 101674794 size and SHA-256.
+
+Command: python inputs/prepare.py 16
+Checking 14 FITS for 4 targets in batch 16
+Verified 14 FITS, 14 downloaded, 0 reused, 4 historical scans and the exposure guard.
+
+
+Command: python inputs/prepare.py 16 --verify-only
+Checking 14 FITS for 4 targets in batch 16
+Verified 14 FITS, 0 downloaded, 14 reused, 4 historical scans and the exposure guard.
+
+
+Command: python batch11/review.py --batch batch16
+
+
+Batch 16 archive-window comparison: exact row equality for 56 rows, 4 target plot files regenerated.
+
+Command: python inputs/prepare.py 1 --target 7773469
+Checking 10 FITS for 1 targets in batch 1
+Verified 10 FITS, 10 downloaded, 0 reused, 1 historical scans and the exposure guard.
+
+
+Command: python inputs/prepare.py 1 --target 7773469 --verify-only
+Checking 10 FITS for 1 targets in batch 1
+Verified 10 FITS, 0 downloaded, 10 reused, 1 historical scans and the exposure guard.
+
+
+Command: python batch01/review.py --batch-dir batch01 --target 7773469 --output-dir replayed-7773469
+7773469 Gaia=36.35655/3.5,Gaia/2=18.17828/3.5,2*Gaia=72.71311/4.4,Pilot=29.37065/4.7,Pilot/2=14.68533/4.4,Pilot/3=9.79022/3.8,Pilot/4=7.34266/4.0,2*Pilot=58.74130/5.1,BLS 1=62.22801/7.0,BLS 2=52.41338/6.7,BLS 3=58.04738/6.7,BLS 4=61.34439/6.5,Early=7.21103/4.4,Late=17.97911/5.2,Raw early=2.47998/9.5,Raw late=17.69693/12.2,Fine 1=29.45043/5.3,Fine 2=62.22973/6.7,Pilot anchored / 1=29.37065/nan,Pilot anchored / 2=14.68533/nan,Pilot anchored / 3=9.79022/nan,Pilot anchored / 4=7.34266/nan,Refined alias 0.5=31.11487/nan,Refined alias 2=124.45947/nan
+
+
+TIC 7773469 archive-window comparison: exact row equality for 6 rows. Both sector 74 and 79 v02 FITS were in the independently downloaded target products.

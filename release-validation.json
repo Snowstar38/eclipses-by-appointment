@@ -1,26 +1,56 @@
 {
   "status": "PASS",
-  "previous_release_commit": "3ae245b41eda9e8b24cc4f93611704ce879daba1",
-  "previous_count": 2029,
-  "counted": 2038,
+  "previous_release_commit": "948d44dc6f6da4cbd98fb338b2512d243aab0d69",
+  "previous_count": 2038,
+  "counted": 2039,
   "tiers": {
-    "all": 2038,
-    "confirmed": 1493,
+    "all": 2039,
+    "confirmed": 1494,
     "probable": 545
   },
-  "accepted_this_revision": 9,
+  "accepted_this_revision": 1,
   "prior_identifications_removed": 0,
-  "scientific_register": 1962,
+  "scientific_register": 1963,
   "pdf_pages": {
     "paper.pdf": 268,
     "supplement.pdf": 1
   },
+  "new_paper_pages": [
+    1,
+    196
+  ],
+  "accepted_this_revision_by_prior_evidence": {
+    "previously_unvetted_machine_candidate": 1
+  },
+  "validated_review": "R1867",
+  "validated_host": "257808672",
+  "host_sha256": "9197db9b011e83eaf3006c7721a96f8b3edcca72a97eb79ff1912440a78a0bd7",
+  "report_sha256": "96441c14791d16e104d875ba80dabc285ad722b66c03a796f7946332a25f8e49",
+  "append_only_source_and_destination_digests": {
+    "accepted-systems.csv": {
+      "old_sha256": "c3c93e2d4eff2124c45fefd865d355b9fdc1eaf1369ae3fb01aa49497e48efa9",
+      "new_sha256": "d1c6d82dd4bfc9515922d1d57f59733b2250b99e8fc4f490bab16bf976d9720c"
+    },
+    "overview/systems.csv": {
+      "old_sha256": "4311dd687b005d00b0882f03c643a2e626fa929a9d2b282c196ace4eb28f22ed",
+      "new_sha256": "51fe7e87ca8c4492f857309dc8db238ac4c9569e1c3dd0b8a43aa05e3b2eaed1"
+    },
+    "scientific-review-register.csv": {
+      "old_sha256": "01d5eb6bb46c4752d6a4899352c9e2ad24aaa61f7aea12a84ac813dc2fc8f27a",
+      "new_sha256": "426bd3d7e1dc29e839fe78b4a4fafb7650b552420438c29d31e25b0ff50b42f5"
+    },
+    "claim-adjudication.csv": {
+      "old_sha256": "79e18c1c4da89b2c19362e5dd4c77424eae33a7ad41924162da048c36a65761b",
+      "new_sha256": "748422d8e0e193d182b1119fed45da9f1b6874a550fed7639550fdd5096b7320"
+    }
+  },
   "checks": [
     "Pinned prior release",
-    "Append-only ledger exact bytes and source hashes",
-    "Catalogue and map identities and tiers",
-    "PDF totals and new review identifiers",
+    "Four registers append exactly one row each",
+    "Catalogue and map identities, positions and tiers",
+    "Source report hash in adjudication",
+    "PDF totals and review identifier",
     "PDF links contain no local files"
   ],
-  "scope": "Publication integrity; source reports retain scientific limitations."
+  "scope": "Integration integrity. Global release digest and campaign evidence are assembled with the complete campaign release."
 }
