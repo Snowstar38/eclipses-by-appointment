@@ -1,0 +1,149 @@
+{
+ "tic": "356752132",
+ "gaia_dr3": "3301900595797205632",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J04044937+0935076\" OR full:\"APASS 39806833\" OR full:\"AllWISE J040449.39+093507.4\" OR full:\"Gaia DR2 3301900595797205632\" OR full:\"Gaia DR3 3301900595797205632\" OR full:\"MUTA 231 A\" OR full:\"TIC 356752132\" OR full:\"UCAC4 498-006566\" OR full:\"WISE J040449.39+093507.5\"",
+    "numFound": 1,
+    "docs": [
+     {
+      "bibcode": "2020ApJ...903...96G",
+      "title": [
+       "The μ Tau Association: A 60 Myr Old Coeval Group at 150 pc from the Sun"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J04044937+0935076",
+   "APASS 39806833",
+   "AllWISE J040449.39+093507.4",
+   "Gaia DR2 3301900595797205632",
+   "Gaia DR3 3301900595797205632",
+   "MUTA 231 A",
+   "TIC 356752132",
+   "UCAC4 498-006566",
+   "WISE J040449.39+093507.5"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "356752132",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J04044937+0935076",
+   "APASS 39806833",
+   "AllWISE J040449.39+093507.4",
+   "Gaia DR2 3301900595797205632",
+   "UCAC4 498-006566",
+   "TIC 356752132",
+   "Gaia DR3 3301900595797205632"
+  ],
+  "objects": {
+   "UCAC4 498-006566": {
+    "object_type": "**",
+    "matched_aliases": [
+     "2MASS J04044937+0935076",
+     "UCAC4 498-006566"
+    ],
+    "simbad_ids": "UCAC4 498-006566|2MASS J04044937+0935076|WISE J040449.39+093507.5",
+    "references": {}
+   },
+   "MUTA 231 A": {
+    "object_type": "*",
+    "matched_aliases": [
+     "Gaia DR2 3301900595797205632",
+     "Gaia DR3 3301900595797205632"
+    ],
+    "simbad_ids": "MUTA 231 A|Gaia DR3 3301900595797205632|Gaia DR2 3301900595797205632",
+    "references": {
+     "2020AJ....159..105L": "Discovery of two nearby post-T Tauri stellar associations.",
+     "2020ApJ...903...96G": "The {mu} Tau Association: a 60 Myr old coeval group at 150 pc from the Sun.",
+     "2021ApJ...917...23K": "Stars with photometrically young Gaia luminosities around the solar system (SPYGLASS). I. Mapping Young stellar structures and their star formation histories.",
+     "2024A&A...686A..42H": "Improving the open cluster census III. Using cluster masses, radii, and dynamics to create a cleaned open cluster catalogue."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "356752132",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=356752132&json=",
+  "basic_info": {
+   "tic_id": "356752132",
+   "star_names": "TIC 356752132, 2MASS J04044937+0935076, APASS 39806833, Gaia DR2 3301900595797205632, Gaia DR3 3301900595797205632, UCAC4 498-006566, WISE J040449.39+093507.4",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.026748"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "3301900595797205632",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.5287,
+    "source_id": "3301900595797205632",
+    "ra": "61.20576312455174",
+    "dec": "9.585310490586798",
+    "pmra": "22.539061153512673",
+    "pmdec": "-23.82230595300012",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "15.387292"
+   },
+   {
+    "distance_arcsec": 2.0059,
+    "source_id": "3301900595795159040",
+    "ra": "61.20622464650335",
+    "dec": "9.585471462886872",
+    "pmra": "24.200706703198776",
+    "pmdec": "-23.175038775543523",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "16.841404"
+   }
+  ],
+  "query_receipt": "1d76208472377eadecfeb22ed01a51ac3e771ea9a55b9bbfc7fc7db303588211",
+  "tic": "356752132",
+  "ra_deg": "61.2056621205833",
+  "dec_deg": "9.58541843190467",
+  "gaia_tables": {},
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 4324.48,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}

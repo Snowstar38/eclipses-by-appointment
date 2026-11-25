@@ -1,0 +1,93 @@
+{
+  "tic": 356752132,
+  "sector": 42,
+  "camera": 4,
+  "ccd": 3,
+  "provided_btjd": 2454.7637,
+  "measurement_center_btjd": 2454.769,
+  "core_half_width_d": 0.012,
+  "shoulder_abs_limits_d": [
+    0.07,
+    0.13
+  ],
+  "files": {
+    "target-lc.fits": {
+      "url": "https://archive.stsci.edu/missions/tess/tid/s0042/0000/0003/5675/2132/tess2021232031932-s0042-0000000356752132-0213-s_lc.fits",
+      "sha256": "d904f5fd20186311ffea8545d933098c9ef9ad447c0c5dc0cd445bf2b34bcf7d"
+    },
+    "target-tpf.fits": {
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/tess/public/tid/s0042/0000/0003/5675/2132/tess2021232031932-s0042-0000000356752132-0213-s_tp.fits",
+      "sha256": "d26712970c3e8c1008c29a3ebc6e05ac8328fe3714c2c5bd6f78f37be4942a19"
+    }
+  },
+  "n_inner": 17,
+  "n_shoulder": 86,
+  "n_quality_nonzero_inner": 0,
+  "aperture_pixels": 5,
+  "crowdsap": 0.88998836,
+  "flfrcsap": 0.65295088,
+  "window_statistics": {
+    "sap": {
+      "median_core": 161.65672302246094,
+      "median_shoulders": 309.71148681640625,
+      "core_minus_shoulder": -148.0547637939453
+    },
+    "pdc": {
+      "median_core": 199.4113311767578,
+      "median_shoulders": 425.8302001953125,
+      "core_minus_shoulder": -226.4188690185547
+    },
+    "sap_bkg": {
+      "median_core": 1431.623046875,
+      "median_shoulders": 1274.881591796875,
+      "core_minus_shoulder": 156.741455078125
+    },
+    "sap_plus_bkg": {
+      "median_core": 1595.2611083984375,
+      "median_shoulders": 1583.763427734375,
+      "core_minus_shoulder": 11.4976806640625
+    },
+    "pos_corr_1": {
+      "median_core": 0.011853071860969067,
+      "median_shoulders": 0.010876154527068138,
+      "core_minus_shoulder": 0.0009769173339009285
+    },
+    "pos_corr_2": {
+      "median_core": 0.009150474332273006,
+      "median_shoulders": 0.010083438828587532,
+      "core_minus_shoulder": -0.0009329644963145256
+    },
+    "calibrated_ap": {
+      "median_core": 161.6566653251648,
+      "median_shoulders": 309.7114906311035,
+      "core_minus_shoulder": -148.05482530593872
+    },
+    "background_ap": {
+      "median_core": 1431.6229248046875,
+      "median_shoulders": 1274.881591796875,
+      "core_minus_shoulder": 156.7413330078125
+    },
+    "pre_subtraction_ap": {
+      "median_core": 1595.2610931396484,
+      "median_shoulders": 1583.7633953094482,
+      "core_minus_shoulder": 11.497697830200195
+    },
+    "raw_ap": {
+      "median_core": 1077198.0,
+      "median_shoulders": 1076996.5,
+      "core_minus_shoulder": 201.5
+    },
+    "calibrated_ring_per_pixel": {
+      "median_core": -29.8828125,
+      "median_shoulders": 1.9527756571769714,
+      "core_minus_shoulder": -31.83558815717697
+    },
+    "pre_subtraction_ring_per_pixel": {
+      "median_core": 256.7500877380371,
+      "median_shoulders": 256.4930875301361,
+      "core_minus_shoulder": 0.257000207901001
+    }
+  },
+  "naive_fractional_sap_loss_divided_by_crowdsap": 0.5371316530889514,
+  "interpretation": "Local moving positive feature at stamp edge drove a broad background overestimate. No target eclipse in aperture after restoring the pipeline background."
+}

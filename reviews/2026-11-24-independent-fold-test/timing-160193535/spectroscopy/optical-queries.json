@@ -1,0 +1,89 @@
+{
+  "cadc": {
+    "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/sync",
+    "params": {
+      "REQUEST": "doQuery",
+      "LANG": "ADQL",
+      "FORMAT": "votable",
+      "QUERY": "SELECT TOP 50 obs_collection,obs_id,dataproduct_type,s_ra,s_dec,target_name FROM ivoa.ObsCore WHERE dataproduct_type='spectrum' AND CONTAINS(POINT('ICRS',s_ra,s_dec),CIRCLE('ICRS',257.0919764,86.8219122,0.05))=1"
+    },
+    "error": "ReadTimeout: HTTPSConnectionPool(host='ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca', port=443): Read timed out. (read timeout=15)"
+  },
+  "eso_reduced": {
+    "url": "https://archive.eso.org/tap_obs/sync",
+    "params": {
+      "REQUEST": "doQuery",
+      "LANG": "ADQL",
+      "FORMAT": "votable",
+      "QUERY": "SELECT TOP 50 obs_collection,obs_id,dataproduct_type,s_ra,s_dec,target_name FROM ivoa.ObsCore WHERE dataproduct_type='spectrum' AND CONTAINS(POINT('ICRS',s_ra,s_dec),CIRCLE('ICRS',257.0919764,86.8219122,0.05))=1"
+    },
+    "error": "ReadTimeout: HTTPSConnectionPool(host='archive.eso.org', port=443): Read timed out. (read timeout=15)"
+  },
+  "eso_raw": {
+    "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+TOP+50+dp_id%2Cinstrument%2Cra%2Cdec%2Cobject%2Cdp_type+FROM+dbo.raw+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C257.0919764%2C86.8219122%2C0.05%29%29%3D1",
+    "status": 400,
+    "bytes": 1416,
+    "response_prefix": "<?xml version=\"1.0\"?>\r\n<VOTABLE version=\"1.3\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.ivoa.net/xml/VOTable/v1.3\" >\r\n<RESOURCE type='results'>\r\n<INFO name=\"QUERY_STATUS\""
+  },
+  "lamost_lrs": {
+    "url": "https://www.lamost.org/dr12/v2.0/voservice/conesearch?RA=257.0919764&DEC=86.8219122&SR=0.05",
+    "status": 200,
+    "bytes": 41076,
+    "info": [
+      "('request_date', '2026-11-25T09:27:39.449198', None)",
+      "('QUERY_STATUS', 'OK', None)",
+      "('protocol', 'Simple Cone Search 1.03', None)",
+      "('standardID', 'ivo://ivoa.net/std/DALI#sync-1.1', None)",
+      "('RESPONSEFORMAT', 'votable', None)"
+    ],
+    "tables": [
+      0
+    ]
+  },
+  "lamost_mrs": {
+    "url": "https://www.lamost.org/dr12/v2.0/medvoservice/conesearch?RA=257.0919764&DEC=86.8219122&SR=0.05",
+    "status": 200,
+    "bytes": 13810,
+    "info": [
+      "('request_date', '2026-11-25T09:27:40.055394', None)",
+      "('QUERY_STATUS', 'OK', None)",
+      "('protocol', 'Simple Cone Search 1.03', None)",
+      "('standardID', 'ivo://ivoa.net/std/DALI#sync-1.1', None)",
+      "('RESPONSEFORMAT', 'votable', None)"
+    ],
+    "tables": [
+      0
+    ]
+  },
+  "sdss": {
+    "url": "https://skyserver.sdss.org/dr19/SkyServerWS/SearchTools/SqlSearch",
+    "params": {
+      "cmd": "SELECT TOP 50 specObjID,ra,dec,plate,mjd,fiberID,class,survey FROM SpecObjAll WHERE dec BETWEEN 86.7719122 AND 86.8719122 AND ra BETWEEN 256.0919764 AND 258.0919764",
+      "format": "json"
+    },
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='skyserver.sdss.org', port=443): Max retries exceeded with url: /dr19/SkyServerWS/SearchTools/SqlSearch?cmd=SELECT+TOP+50+specObjID%2Cra%2Cdec%2Cplate%2Cmjd%2CfiberID%2Cclass%2Csurvey+FROM+SpecObjAll+WHERE+dec+BETWEEN+86.7719122+AND+86.8719122+AND+ra+BETWEEN+256.0919764+AND+258.0919764&format=json (Caused by ConnectTimeoutError(<HTTPSConnection(host='skyserver.sdss.org', port=443) at 0x130228ff750>, 'Connection to skyserver.sdss.org timed out. (connect timeout=7)'))"
+  },
+  "elodie": {
+    "url": "https://atlas.obs-hp.fr/elodie/E.cgi",
+    "params": {
+      "a": "t",
+      "c": "ssa",
+      "n": "ssa",
+      "REQUEST": "queryData",
+      "POS": "257.0919764,86.8219122",
+      "SIZE": 0.05
+    },
+    "error": "ConnectionError: HTTPSConnectionPool(host='atlas.obs-hp.fr', port=443): Max retries exceeded with url: /elodie/E.cgi?a=t&c=ssa&n=ssa&REQUEST=queryData&POS=257.0919764%2C86.8219122&SIZE=0.05 (Caused by NewConnectionError(\"HTTPSConnection(host='atlas.obs-hp.fr', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  "sophie": {
+    "url": "https://atlas.obs-hp.fr/sophie/",
+    "params": {},
+    "error": "ConnectionError: HTTPSConnectionPool(host='atlas.obs-hp.fr', port=443): Max retries exceeded with url: /sophie/ (Caused by NewConnectionError(\"HTTPSConnection(host='atlas.obs-hp.fr', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  "spectrapointer": {
+    "url": "https://astro.gsu.edu/~way/spectra_pointer/?q=1727862804856539264",
+    "status": 200,
+    "bytes": 565772,
+    "response_prefix": "\n<!doctype html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <title>The Spectra Pointer</title>\n  <style>\n    body { font-family: monospace; max-width: min(90vw, 1200px); margin: 2rem auto; padding: 0 1r"
+  }
+}

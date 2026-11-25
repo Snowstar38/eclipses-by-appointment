@@ -1,0 +1,72 @@
+{
+  "cadc_center": {
+    "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/sync",
+    "params": {
+      "REQUEST": "doQuery",
+      "LANG": "ADQL",
+      "FORMAT": "votable",
+      "QUERY": "SELECT TOP 30 obs_collection,obs_id,dataproduct_type,s_ra,s_dec,target_name FROM ivoa.ObsCore WHERE s_dec BETWEEN 86.7719122 AND 86.8719122 AND s_ra BETWEEN 256.0919764 AND 258.0919764 AND dataproduct_type='spectrum'"
+    },
+    "error": "ReadTimeout: HTTPSConnectionPool(host='ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca', port=443): Read timed out. (read timeout=25)"
+  },
+  "eso_raw_box": {
+    "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+TOP+50+dp_id%2Cinstrument%2Cra%2Cdec%2Cobject%2Cdp_type+FROM+dbo.raw+WHERE+dec+BETWEEN+86.7719122+AND+86.8719122+AND+ra+BETWEEN+256.0919764+AND+258.0919764",
+    "status": 200,
+    "bytes": 1567,
+    "info": [
+      "('QUERY_STATUS', 'OK', None)",
+      "('QUERY', 'SELECT TOP 50 dp_id,instrument,ra,dec,object,dp_type FROM dbo.raw WHERE dec BETWEEN 86.7719122 AND 86.8719122 AND ra BETWEEN 256.0919764 AND 258.0919764', None)"
+    ],
+    "tables": [
+      0
+    ]
+  },
+  "eso_reduced_box": {
+    "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+TOP+50+obs_collection%2Cobs_id%2Cdataproduct_type%2Cs_ra%2Cs_dec%2Ctarget_name+FROM+ivoa.ObsCore+WHERE+s_dec+BETWEEN+86.7719122+AND+86.8719122+AND+s_ra+BETWEEN+256.0919764+AND+258.0919764+AND+dataproduct_type%3D%27spectrum%27",
+    "status": 200,
+    "bytes": 2693,
+    "info": [
+      "('QUERY_STATUS', 'OK', None)",
+      "('QUERY', \"SELECT TOP 50 obs_collection,obs_id,dataproduct_type,s_ra,s_dec,target_name FROM ivoa.ObsCore WHERE s_dec BETWEEN 86.7719122 AND 86.8719122 AND s_ra BETWEEN 256.0919764 AND 258.0919764 AND dataproduct_type='spectrum'\", None)"
+    ],
+    "tables": [
+      0
+    ]
+  },
+  "sdss_preprod": {
+    "url": "https://preprod.skyserver.sdss.org/dr19/SkyServerWS/SearchTools/SqlSearch",
+    "params": {
+      "cmd": "SELECT TOP 50 specObjID,ra,dec,plate,mjd,fiberID,class,survey FROM SpecObjAll WHERE dec BETWEEN 86.7719122 AND 86.8719122 AND ra BETWEEN 256.0919764 AND 258.0919764",
+      "format": "csv"
+    },
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='preprod.skyserver.sdss.org', port=443): Max retries exceeded with url: /dr19/SkyServerWS/SearchTools/SqlSearch?cmd=SELECT+TOP+50+specObjID%2Cra%2Cdec%2Cplate%2Cmjd%2CfiberID%2Cclass%2Csurvey+FROM+SpecObjAll+WHERE+dec+BETWEEN+86.7719122+AND+86.8719122+AND+ra+BETWEEN+256.0919764+AND+258.0919764&format=csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='preprod.skyserver.sdss.org', port=443) at 0x1f77fc1c190>, 'Connection to preprod.skyserver.sdss.org timed out. (connect timeout=10)'))"
+  },
+  "elodie_http": {
+    "url": "http://atlas.obs-hp.fr/elodie/E.cgi?a=t&c=ssa&n=ssa&REQUEST=queryData&POS=257.0919764%2C86.8219122&SIZE=0.05",
+    "status": 200,
+    "bytes": 4532,
+    "info": [
+      "('SERVICE_PROTOCOL', '1.1', 'SSAP')",
+      "('POS', '257.0919764,86.8219122', None)",
+      "('SIZE', '0.05', None)",
+      "('QUERY_STATUS', 'OK', 'Successful Search')",
+      "('QUERY_STATUS', 'OK', 'Successful request parsing')",
+      "('TableRows', '0', None)"
+    ],
+    "tables": [
+      0
+    ]
+  },
+  "sophie_http": {
+    "url": "http://atlas.obs-hp.fr/sophie/",
+    "status": 200,
+    "bytes": 11020,
+    "response_prefix": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<!-- Thanks for reading the source of this document.-->\n<!-- It is part of The SOPHIE Archive: http://atlas.obs-hp.fr/sophie/ -->"
+  },
+  "tic_vizier_aliases": {
+    "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=IV%2F39%2Ftic82&TIC=160193535&-out=TIC%2CGAIA%2CTWOMASS%2CTYC%2CHIP",
+    "status": 404,
+    "bytes": 4245,
+    "response_prefix": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta name=\"robots\" content=\"noindex, nofollow\">\n  <meta name="
+  }
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "query": "SELECT source_id,ra,dec,pmra,pmdec,ref_epoch,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',72.6639595885975,40.85798381916,0.00333333)) OR 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',61.2056621205833,9.58541843190467,0.00333333)) OR 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',24.8469768016805,20.4335434519714,0.00333333))",
+  "response_sha256": "1d76208472377eadecfeb22ed01a51ac3e771ea9a55b9bbfc7fc7db303588211"
+ },
+ {
+  "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "query": "SELECT source_id,best_class_name,best_class_score FROM gaiadr3.vari_classifier_result WHERE source_id IN (200346136869087616,3301900595797205632,96558256453441408)",
+  "response_sha256": "4604b70b4fadc9b5b79850cb918f7e87ca42f35d148ae74f1b6196e5bd153c38"
+ },
+ {
+  "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "query": "SELECT source_id,frequency,frequency_error FROM gaiadr3.vari_eclipsing_binary WHERE source_id IN (200346136869087616,3301900595797205632,96558256453441408)",
+  "response_sha256": "0a985fee78da69c7fdcf23bf55b6de172310ede91d2bc167539aba95ef50af0d"
+ },
+ {
+  "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "query": "SELECT source_id,nss_solution_type,period,period_error,eccentricity,eccentricity_error,semi_amplitude_primary FROM gaiadr3.nss_two_body_orbit WHERE source_id IN (200346136869087616,3301900595797205632,96558256453441408)",
+  "response_sha256": "8b99e9ee24917bac4607c5d26c601d48eb41f757e022db2fa2a0c506f7bb1e07"
+ },
+ {
+  "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+  "query": "SELECT source_id FROM gaiadr3.vari_planetary_transit WHERE source_id IN (200346136869087616,3301900595797205632,96558256453441408)",
+  "response_sha256": "3f1265ad75391d0aa8c3cacbec9cc2ba41b0de483aeb5df02fdc8e11f7a1517d"
+ }
+]

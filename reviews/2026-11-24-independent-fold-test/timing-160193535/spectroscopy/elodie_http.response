@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE VOTABLE SYSTEM "http://cdsweb.u-strasbg.fr/xml/VOTable.dtd">
+<VOTABLE version="1.1">
+<RESOURCE type="results">
+<DESCRIPTION>ELODIE/SOPHIE spectral archive (SSA access)</DESCRIPTION>
+<INFO name="SERVICE_PROTOCOL" value="1.1">SSAP</INFO>
+<INFO name="POS" value="257.0919764,86.8219122"/>
+<INFO name="SIZE" value="0.05"/>
+<INFO name="QUERY_STATUS" value="OK">Successful Search</INFO>
+<INFO name="QUERY_STATUS" value="OK">Successful request parsing</INFO>
+<INFO name="TableRows" value="0"/>
+<TABLE>
+<PARAM name="AccessFormat" ID="para1" datatype="char" arraysize="*" unit="" utype="ssa:Access.Format" value="application/fits" >
+<DESCRIPTION>Content or MIME type of dataset</DESCRIPTION>
+</PARAM>
+<PARAM name="DatasetDatamodel" ID="para2" datatype="char" arraysize="*" unit="" utype="ssa:Dataset.DataModel" value="Spectrum-1.0" >
+<DESCRIPTION>Datamodel name and version</DESCRIPTION>
+</PARAM>
+<PARAM name="DatasetLength" ID="para3" datatype="char" arraysize="*" unit="" utype="ssa:Dataset.Length" value="1E6" >
+<DESCRIPTION>The number of data points is unknown, set it arbitrarily to 1E6</DESCRIPTION>
+</PARAM>
+<PARAM name="CurationPublisher" ID="para4" datatype="char" arraysize="*" unit="" utype="ssa:Curation.Publisher" value="Observatoire de Haute Provence (OHP), France" >
+<DESCRIPTION>Identification of the publisher</DESCRIPTION>
+</PARAM>
+<PARAM name="SpatialExtend" ID="para5" datatype="char" arraysize="*" unit="" utype="ssa:Char.SpatialAxis.Coverage.Bounds.Extent" value="0.01" >
+<DESCRIPTION>Pointing and target coordinates approximate precision</DESCRIPTION>
+</PARAM>
+<PARAM name="SpectralLocation" ID="para6" datatype="char" arraysize="*" unit="" utype="ssa:Char.SpectralAxis.Coverage.Location.Value" value="540E-9" >
+<DESCRIPTION>Approximate midpoint of the spectrum (m)</DESCRIPTION>
+</PARAM>
+<PARAM name="SpectralBound" ID="para7" datatype="char" arraysize="*" unit="" utype="ssa:Char.SpectralAxis.Coverage.Bounds.Extent" value="300E-9" >
+<DESCRIPTION>Approximate full width of the spectrum (m)</DESCRIPTION>
+</PARAM>
+<PARAM name="fluxcol" ID="para8" datatype="char" arraysize="*" unit="" utype="ssa:dataset.fluxaxis" value="FLUX" >
+<DESCRIPTION>Name of flux axis column in the FITS file</DESCRIPTION>
+</PARAM>
+<PARAM name="spectralsi" ID="para9" datatype="char" arraysize="*" unit="" utype="ssa:dataset.spectralsi" value="1.0E-10 L" >
+<DESCRIPTION>SI scale factor and dimensions for spectral coordinate (i.e. wavelengths)</DESCRIPTION>
+</PARAM>
+<PARAM name="fluxsi" ID="para10" datatype="char" arraysize="*" unit="" utype="ssa:dataset.fluxsi" value="1.0E+7 ML-1T-3" >
+<DESCRIPTION>SI scale factor and dimensions for fluxes</DESCRIPTION>
+</PARAM>
+<PARAM name="spectralucd" ID="para11" datatype="char" arraysize="*" unit="" utype="ssa:char.spectralaxis.ucd" value="em.wl;obs.atmos" >
+<DESCRIPTION>UCD for spectral coord: Air-wavelength</DESCRIPTION>
+</PARAM>
+<FIELD name="objname" ID="col1" utype="ssa:Target.Name" datatype="char" arraysize="*" />
+<FIELD name="access reference" ID="Reference" ucd="meta.ref.url" utype="ssa:Access.Reference" datatype="char" arraysize="*" />
+<FIELD name="j2000" datatype="double" width="9" precision="5" arraysize="2" unit="deg" ucd="pos.eq" utype="ssa:Char.SpatialAxis.Coverage.Location.Value" />
+<FIELD name="dataidtitle" ID="col2" utype="ssa:DataID.Title" datatype="char" arraysize="*" >
+<DESCRIPTION>Short description of the dataset</DESCRIPTION>
+</FIELD>
+<FIELD name="mjd" ID="col3" ucd="time.epoch;obs.exposure" utype="ssa:Char.TimeAxis.Coverage.Location.Value" datatype="int" width="8" unit="d" >
+<DESCRIPTION>Rounded Modified Julian date of the middle of the exposure</DESCRIPTION>
+</FIELD>
+<FIELD name="exptime" ID="col4" ucd="time.duration;obs.exposure" utype="ssa:char.timeaxis.coverage.bounds.extent" datatype="float" width="8" precision="2" unit="s" >
+<DESCRIPTION>Exposure duration</DESCRIPTION>
+</FIELD>
+<FIELD name="snr" ID="col5" ucd="stat.snr" utype="ssa:derived.snr" datatype="float" width="5" precision="1" >
+<DESCRIPTION>Signal to noise ratio</DESCRIPTION>
+</FIELD>
+<FIELD name="instrume" ID="col6" ucd="instr.obsty" utype="ssa:dataid.instrument" datatype="char" arraysize="*" />
+<FIELD name="redshift" ID="col7" datatype="char" arraysize="*" />
+<FIELD name="spectralaxisname" ID="col8" utype="ssa:Char.SpectralAxis.Name" datatype="char" arraysize="*" />
+<FIELD name="spectralaxisunit" ID="col9" utype="ssa:Char.SpectralAxis.Unit" datatype="char" arraysize="*" />
+<DATA>
+<TABLEDATA>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>

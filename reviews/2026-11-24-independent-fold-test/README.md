@@ -22,3 +22,5 @@ The earlier [402-aperture review](../2026-11-24-fable-paired-review/README.md) m
 Run `python verify.py` in this directory to reproduce the draw and check both outcome tables. Add `--inputs` with NumPy installed to recompute the fold statistics from the archived measurements. Sector URLs, product hashes and event measurements are in each cohort’s `sol` directory. Individual sector plots are in its `terra` directory.
 
 The subsequent [TIC 160193535 timing study](timing-160193535/README.md) fits a 17.1488321-day eclipse period in thirteen sectors. Both eclipse families favor the nominal Gaia position, whose published spectroscopic orbital period differs.
+
+A [second batch of ten two-minute apertures](second-2min/README.md) recovered the 1.179-day signal of HD 276904 in three sectors, along with one 40% dip. Target pixels explain two isolated events on other stars as background-subtraction artifacts. The [spectroscopy follow-up on TIC 160193535](timing-160193535/spectroscopy/README.md) records which archives were checked and the velocity separation predicted by the published orbit.

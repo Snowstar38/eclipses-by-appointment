@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+<RESOURCE type="results">
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="QUERY" value="SELECT TOP 50 obs_collection,obs_id,dataproduct_type,s_ra,s_dec,target_name FROM ivoa.ObsCore WHERE s_dec BETWEEN 86.7719122 AND 86.8719122 AND s_ra BETWEEN 256.0919764 AND 258.0919764 AND dataproduct_type=&apos;spectrum&apos;"/>
+<TABLE>
+<FIELD arraysize="*" datatype="char" name="obs_collection" ucd="meta.id" utype="obscore:DataID.collection">
+<DESCRIPTION>The name of the data collection the data set belongs to.</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="obs_id" ucd="meta.id" utype="obscore:DataID.observationID">
+<DESCRIPTION>In case multiple data sets are available for an observation, e.g. with different calibration levels, the obs_id value will be the same for each data set the observation comprises. The obs_id should remain identical through time for future reference.</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="dataproduct_type" ucd="meta.code.class" utype="obscore:ObsDataset.dataProductType">
+<DESCRIPTION>Logical data set type (image, spectrum, visibility, cube, measurements, etc.)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="s_ra" ucd="pos.eq.ra" unit="deg" utype="obscore:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C1">
+<DESCRIPTION>Equatorial coordinate: Right Ascension (FK5/J2000); Image/tile/cube centre, barycentre of image arrays in MEF format ; spectroscopic target position; centre of the survey field in case of catalogues. Ref. RA keyword in ESO SDP standard.</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="s_dec" ucd="pos.eq.dec" unit="deg" utype="obscore:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C2">
+<DESCRIPTION>Equatorial coordinate: Declination (FK5/J2000); Image/tile/cube centre, barycentre of image arrays in MEF format ; spectroscopic target position; centre of the survey field in case of catalogues. Ref. DEC keyword in ESO SDP standard.</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="target_name" ucd="meta.id;src" utype="obscore:Target.name">
+<DESCRIPTION>The target name as assigned by the Principal Investigator; ref. Ref. OBJECT keyword in ESO SDP standard. For spectroscopic public surveys, the value shall be set to the survey source identifier, which shall be unique within the survey</DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>

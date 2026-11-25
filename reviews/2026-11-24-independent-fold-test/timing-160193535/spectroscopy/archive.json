@@ -1,0 +1,79 @@
+{
+  "apogee_target": {
+    "url": "https://vizier.idia.ac.za/viz-bin/votable?-source=III%2F286%2Fallvis&-out=RAJ2000%2CDEJ2000&-out.max=5&-c=257.0919764360422+86.82191218419102&-c.rs=72",
+    "rows": [],
+    "tables": [
+      "III/286/allvis"
+    ]
+  },
+  "apogee_sample": {
+    "url": "https://vizier.idia.ac.za/viz-bin/votable?-source=III%2F286%2Fallvis&-out=RAJ2000%2CDEJ2000&-out.max=5",
+    "rows": [
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ]
+    ],
+    "tables": [
+      "III/286/allvis"
+    ]
+  },
+  "sdss_target": {
+    "url": "https://api.sdss.org/valis/query/cone?ra=257.0919764360422&dec=86.82191218419102&radius=0.02&units=degree&release=DR20",
+    "status": 200,
+    "body": "[]"
+  },
+  "sdss_control": {
+    "url": "https://api.sdss.org/valis/query/cone?ra=315.78&dec=-3.2&radius=0.02&units=degree&release=DR20",
+    "status": 200,
+    "body": "[{\"sdss_id\":23326,\"in_boss\":true,\"in_apogee\":false,\"in_astra\":true,\"has_been_observed\":true,\"release\":\"sdss5\",\"obs\":\"apo\",\"mjd\":59845,\"has_legacy_data\":false,\"ra_sdss_id\":315.780029296875,\"dec_sdss_id\":-3.2131478212519653,\"catalogid21\":null,\"catalogid25\":27021603187129892,\"catalogid31\":null,\"distance\":0.013147853790448107}]"
+  },
+  "gaia": {
+    "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select+source_id%2Cparallax%2Cphot_g_mean_mag%2Cbp_rp%2Chas_rvs%2Chas_xp_sampled%2Chas_xp_continuous%2Cteff_gspphot%2Clogg_gspphot+from+gaiadr3.gaia_source+where+source_id%3D1727862804856539264",
+    "body": "source_id,parallax,phot_g_mean_mag,bp_rp,has_rvs,has_xp_sampled,has_xp_continuous,teff_gspphot,logg_gspphot\n1727862804856539264,4.32039600305654,11.186975,0.9007702,false,true,true,5569.4697,4.2139\n"
+  },
+  "apogee_cone_control": {
+    "url": "https://vizier.idia.ac.za/viz-bin/votable?-source=III%2F286%2Fallvis&-out=RAJ2000%2CDEJ2000&-out.max=5&-c=0.721759+-72.389999&-c.rs=72",
+    "rows": [
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ],
+      [
+        0.721759,
+        -72.389999
+      ]
+    ],
+    "tables": [
+      "III/286/allvis"
+    ]
+  }
+}

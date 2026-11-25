@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+<RESOURCE type="results">
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="QUERY" value="SELECT TOP 50 dp_id,instrument,ra,dec,object,dp_type FROM dbo.raw WHERE dec BETWEEN 86.7719122 AND 86.8719122 AND ra BETWEEN 256.0919764 AND 258.0919764"/>
+<TABLE>
+<FIELD arraysize="*" datatype="char" name="dp_id" ucd="meta.id;meta.dataset">
+<DESCRIPTION>The main unique ESO archive file identifier</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="instrument" ucd="meta.id;instr">
+<DESCRIPTION>Instrument name</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="ra" ucd="pos.eq.ra;meta.main" unit="deg">
+<DESCRIPTION>Right Ascension FK5 J2000</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="dec" ucd="pos.eq.dec;meta.main" unit="deg">
+<DESCRIPTION>Declination FK5 J2000</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="object" ucd="meta.id;src">
+<DESCRIPTION>Target designation as given by the astronomer, though at times overwritten by the obeservatory, especially for CALIB observations. Compare with the similar field called "target".)</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="dp_type" ucd="meta.code.class;obs">
+<DESCRIPTION>Type of observation/exposure</DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
