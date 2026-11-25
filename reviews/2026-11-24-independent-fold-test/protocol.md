@@ -1,0 +1,9 @@
+# Independent pilot of the saved-fold depth flag
+
+The preceding 402-aperture study suggested a fixed rule. Take the deepest pair of adjacent folded bins, count the shallower bin, and require a flux loss of at least 10 parts per thousand and at least five times the published scalar depth (denominator floor 1 ppt). Keep this rule unchanged.
+
+The sampling frame is Fable's machine-rejected, light-curve-measured rows with a usable positive depth and saved fold. Exclude ambiguous multiple input rows, the original 707-aperture shortlist, TICs in the dated paper's top-level review and claim registers, and exact or within-30-arcsec matches to the available 798-source Chopard-Vilhem list. This is a distinct historical sample from the same pipeline. The pilot tests a time-series feature and does not estimate catalogue discovery yield.
+
+Draw up to five flagged rows in salted SHA-256 order. For each, draw an unused unflagged comparison from the same cadence stream, preferring the closest number of observing sectors and breaking ties with the same hash. Inspect at most four evenly spaced original sectors per target. Mask the flag and pairing from the independent numerical and visual reviewers.
+
+The primary outcome is at least two separated, discrete eclipse-like events above 10 ppt and five times local scatter with at least three consecutive cadences in the depression and observed bracketing baselines. Require agreement between the numerical review, a check in SAP and PDCSAP, and independent visual morphology. The events can be in the same sector. Record uncertain morphology, single events and unavailable coverage separately. This outcome does not establish the host, stellar companion or orbital period. Publish every tested aperture. Report paired wins, losses and ties; the pilot is too small to establish a population-wide success rate.

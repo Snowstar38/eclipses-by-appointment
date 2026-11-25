@@ -13,6 +13,8 @@
 
 The paired review of 402 queued Fable targets adds 9 hosts (R1858–R1866). [Paired review and measurements](reviews/2026-11-24-fable-paired-review/README.md)
 
+A separate blinded check of earlier pipeline rejects found repeated eclipse-like dips in three of five flagged full-frame apertures and zero of eight comparisons. Neither side of a ten-target two-minute pilot met the endpoint. [Independent test of the saved-fold flag](reviews/2026-11-24-independent-fold-test/README.md)
+
 The review of Fable’s lower-tier shortlist adds 3 hosts (R1855–R1857). Kounkel et al. (2021) had already classified ten previously counted systems as detached eclipsing binaries. They remain available as physical measurements with their earlier identifications credited. [Shortlist review and measurements](reviews/2026-11-24-fable-shortlist/README.md) · [Earlier eclipse identifications](reviews/2026-11-24-fable-shortlist/kounkel-identifications.csv)
 
 The preceding expanded search initially added 35 systems (R1820–R1854). The catalogue also reclassifies nine previously counted Gaia-selected hosts as recoveries of IJspeert et al. (2024). Their measured eclipses and review identifiers remain available. Eight of the original 17 Gaia-selected additions remain in the count. The new [host measurements](reviews/2026-11-24-expanded-search/host-stars.csv) link each decision to its source evidence. The [prior identifications](reviews/2026-11-24-expanded-search/prior-identifications.csv) give the earlier catalogue credit. The original Gaia review also recovered IJspeert et al.’s TIC 173207470 and Théo Chopard-Vilhem’s previously released strong candidate TIC 212684258. [Expanded search and limitations](reviews/2026-11-24-expanded-search/README.md)

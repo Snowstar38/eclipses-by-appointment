@@ -1,0 +1,189 @@
+{
+  "tic": 160193535,
+  "gaia_match": {
+    "source_id": "1727862804856539264",
+    "sep_as": 0.159432961663358,
+    "g": 11.186975,
+    "ra": 257.0919764360422,
+    "dec": 86.82191218419102,
+    "rp": 10.653704
+  },
+  "lcs_sha256": "782116b26be7ccc97386d5d22d3d70c2d435801e55e79408dcaf17814eab4a83",
+  "gaia_scene_sha256": "335d69e86be4107204850ba60820f5a21d30c5d09e7c65de988f79a3621c81bf",
+  "gaia_query": "Gaia DR3, G < 20.5, radius 230.4 arcsec, nominal TIC coordinates",
+  "neighbours": [
+    {
+      "source_id": "1727861533546218624",
+      "sep_as": 42.339904477869,
+      "g": 17.25587,
+      "ra": 256.8872007097622,
+      "dec": 86.81900875467926,
+      "rp": 16.455284
+    },
+    {
+      "source_id": "1727862736136986240",
+      "sep_as": 42.647589069055215,
+      "g": 15.975855,
+      "ra": 257.29189546059115,
+      "dec": 86.81762487606575,
+      "rp": 15.276999
+    },
+    {
+      "source_id": "1727861597969669376",
+      "sep_as": 70.73297144387188,
+      "g": 19.133785,
+      "ra": 256.7790457629761,
+      "dec": 86.83108989035671,
+      "rp": 18.33041
+    },
+    {
+      "source_id": "1727863006718951424",
+      "sep_as": 71.71960667001404,
+      "g": 19.599669,
+      "ra": 257.23722236648297,
+      "dec": 86.84015039497488,
+      "rp": 18.740234
+    },
+    {
+      "source_id": "1727850980810509952",
+      "sep_as": 72.42738050688236,
+      "g": 19.141373,
+      "ra": 257.1676841802176,
+      "dec": 86.80221709900115,
+      "rp": 18.10805
+    },
+    {
+      "source_id": "1727862766206672640",
+      "sep_as": 72.92901791303758,
+      "g": 20.014223,
+      "ra": 257.4546351265839,
+      "dec": 86.81915975409503,
+      "rp": 19.162718
+    },
+    {
+      "source_id": "1727863011014971264",
+      "sep_as": 73.03829516053877,
+      "g": 14.761842,
+      "ra": 257.3015444630651,
+      "dec": 86.83858228838537,
+      "rp": 14.21431
+    },
+    {
+      "source_id": "1727862770496725248",
+      "sep_as": 86.83608367892691,
+      "g": 17.865097,
+      "ra": 257.5276839573026,
+      "dec": 86.82261960486193,
+      "rp": 16.961102
+    }
+  ],
+  "sectors": [
+    {
+      "sector": 19,
+      "kind": "ffi",
+      "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0019/target/0000/0001/6019/3535/hlsp_tess-spoc_tess_phot_0000000160193535-s0019_tess_v1_tp.fits",
+      "sha256": "4ed71e2c8d43f9c79d6865f95e5307f5a1397aa58612cc17c984de3fe3f5b9d6",
+      "n": 1085,
+      "aperture_xy": [
+        4.461384290232999,
+        5.2739329849167715
+      ],
+      "aperture_background_method": "additional_annulus_median",
+      "phases": [
+        {
+          "phase": 0,
+          "events": [
+            [
+              0,
+              1829.929405,
+              173.301,
+              0.802,
+              true
+            ]
+          ],
+          "fit_depth_frac": 0.17330099999999998,
+          "fit": {
+            "status": "ok",
+            "camera": 3,
+            "ccd": 3,
+            "n_events": 1,
+            "n_in": 5,
+            "diff_snr": 433.71783447265625,
+            "psf_sigma_px": 0.7238749894356106,
+            "wcs_shift_px": [
+              0.00847773134389994,
+              0.07341480872792261
+            ],
+            "free_offset_target_as": 0.010483455591704448,
+            "chi2_free": 4500.218851258991,
+            "chi2_target": 4500.30756346604,
+            "amp_target": 384.5011936918808,
+            "n_capable": 0,
+            "hyp": [],
+            "unresolved_capable": [],
+            "dchi2_best_neighbour_minus_target": null,
+            "verdict": "on_target"
+          }
+        }
+      ],
+      "event_btjd": 1829.929405,
+      "fit_window_d": 0.17361111111111113,
+      "lc_sap_depth_ppt": 164.072,
+      "lc_pdc_depth_ppt": 166.47
+    },
+    {
+      "sector": 60,
+      "kind": "ffi",
+      "url": "https://archive.stsci.edu/hlsps/tess-spoc/s0060/target/0000/0001/6019/3535/hlsp_tess-spoc_tess_phot_0000000160193535-s0060_tess_v1_tp.fits",
+      "sha256": "082ba2a9037104132b992b241230c09d72fc65f29523fc71b9a9c58f72097e6e",
+      "n": 7539,
+      "aperture_xy": [
+        5.219444794273535,
+        5.434367841647836
+      ],
+      "aperture_background_method": "additional_annulus_median",
+      "phases": [
+        {
+          "phase": 0,
+          "events": [
+            [
+              0,
+              2944.61179,
+              147.576,
+              1.124,
+              true
+            ]
+          ],
+          "fit_depth_frac": 0.14757599999999998,
+          "fit": {
+            "status": "ok",
+            "camera": 3,
+            "ccd": 4,
+            "n_events": 1,
+            "n_in": 63,
+            "diff_snr": 513.5047607421875,
+            "psf_sigma_px": 0.6266055767569142,
+            "wcs_shift_px": [
+              -0.04568774603801248,
+              0.05927592458174605
+            ],
+            "free_offset_target_as": 0.05256019084219301,
+            "chi2_free": 8107.752515038487,
+            "chi2_target": 8112.307495548622,
+            "amp_target": 415.56147225426986,
+            "n_capable": 0,
+            "hyp": [],
+            "unresolved_capable": [],
+            "dchi2_best_neighbour_minus_target": null,
+            "verdict": "on_target"
+          }
+        }
+      ],
+      "event_btjd": 2944.6117895,
+      "fit_window_d": 0.24305555555555558,
+      "lc_sap_depth_ppt": 154.961,
+      "lc_pdc_depth_ppt": 157.076
+    }
+  ],
+  "synthetic_period_d": 1000
+}
