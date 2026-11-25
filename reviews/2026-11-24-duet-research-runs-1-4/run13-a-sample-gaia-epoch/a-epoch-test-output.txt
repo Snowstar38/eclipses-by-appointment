@@ -1,0 +1,91 @@
+A systems with SB1/SB2 orbit: 188; same period (within 2%): 184; others: 4
+review_id sol     P_ecl    P_gaia  P_ratio
+       A9 SB2 27.082201 13.423403   2.0175
+      A45 SB2 31.152794 21.683770   1.4367
+      A46 SB1  0.381845 46.340202   0.0082
+      A54 SB2  3.023480 38.956903   0.0776
+
+conjunction offset at Gaia epoch in sigma (nearer conjunction):
+  all     n=184 full: robust sd 1.66, |z|>=3 20;  independent: robust sd 0.21, |z|>=3 6;  median |phase| 0.0050
+  SB1     n=155 full: robust sd 1.54, |z|>=3 10;  independent: robust sd 0.19, |z|>=3 2;  median |phase| 0.0050
+  SB2     n= 29 full: robust sd 2.95, |z|>=3 10;  independent: robust sd 0.50, |z|>=3 4;  median |phase| 0.0065
+  e<0.1   n= 77 full: robust sd 1.70, |z|>=3 8;  independent: robust sd 0.07, |z|>=3 0;  median |phase| 0.0050
+  e>=0.1  n=107 full: robust sd 1.53, |z|>=3 12;  independent: robust sd 0.71, |z|>=3 6;  median |phase| 0.0050
+  |zP|<3  n=171 full: robust sd 1.50, |z|>=3 10;  independent: robust sd 0.19, |z|>=3 3;  median |phase| 0.0047
+  conjunction kinds: {'A': 138, 'B': 46}
+
+|z_full| >= 3 or |phase| >= 0.02 at Gaia epoch, or |z_period| >= 3:
+review_id sol     P_ecl  z_period     e conj  offset_gaia_epoch_d  sig_full_d  z_full  z_ind   phase  offset_tess_d  z_tess_full  z_tess_ind
+      A29 SB2 29.606659     -3.37 0.549    B              -1.6691      0.0516  -32.35 -25.13 -0.0564         -0.598        -1.79       -1.81
+      A87 SB1  2.236673     -1.20 0.050    A              -0.0504      0.0105   -4.80  -0.26 -0.0225         -0.012        -0.39       -0.06
+      A63 SB1 57.240000      0.57 0.497    A              -1.4871      0.3582   -4.15  -3.04 -0.0260         -1.717        -2.70       -2.68
+      A86 SB2 15.798442     -4.11 0.431    A              -0.3375      0.0906   -3.72  -3.35 -0.0214          0.976         3.77        2.91
+      A41 SB1 23.536540      1.03 0.385    B              -0.2166      0.0597   -3.63  -1.90 -0.0092         -0.358        -2.15       -1.99
+     A110 SB2 22.039984      4.53 0.041    B              -0.2599      0.0808   -3.22  -0.25 -0.0118         -1.995        -4.76       -1.81
+     A116 SB2 57.349800      0.00 0.346    B              -1.5488      0.5551   -2.79  -2.66 -0.0270         -1.551        -2.76       -2.62
+     A201 SB1  6.447568     -1.74 0.040    A              -0.1515      0.0761   -1.99  -0.25 -0.0235          0.073         0.52        0.12
+     A117 SB1 36.540150      3.51 0.150    A              -0.3764      0.2373   -1.59  -0.44 -0.0103         -3.825        -3.22       -2.91
+      A68 SB1 34.184472     -0.55 0.183    A              -0.9089      0.7118   -1.28  -0.36 -0.0266         -0.235        -0.15       -0.08
+      A53 SB1 36.775500      0.58 0.521    B              -0.7386      0.6261   -1.18  -1.10 -0.0201         -1.385        -1.60       -1.42
+     A148 SB1  3.021219      0.14 0.085    A              -0.0615      0.0529   -1.16  -0.12 -0.0204         -0.090        -0.40       -0.17
+     A136 SB1 10.451460      0.34 0.081    A               0.2558      0.2656    0.96   0.10  0.0245         -0.355        -0.22       -0.12
+     A169 SB1  2.349378      1.56 0.175    A               0.1299      0.0873    1.49   0.62  0.0553         -0.151        -0.76       -0.55
+     A142 SB1  5.955676      1.61 0.033    A               0.1280      0.0827    1.55   0.10  0.0215         -0.240        -1.15       -0.18
+     A159 SB1 11.870552      3.24 0.299    A               0.0709      0.0392    1.81   0.50  0.0060         -0.688        -2.68       -2.52
+      A37 SB1 22.611537     -0.72 0.246    A               1.5803      0.6296    2.51   0.88  0.0699          3.909         1.13        1.06
+     A147 SB2 14.804287     -4.30 0.330    B               0.0465      0.0183    2.55   0.99  0.0031          0.539         4.90        4.33
+      A96 SB1  2.756009      0.39 0.079    A               0.0797      0.0289    2.76   0.49  0.0289          0.039         0.39        0.20
+      A21 SB1 30.763077      2.14 0.286    A               0.8637      0.3032    2.85   1.52  0.0281         -0.942        -0.93       -0.92
+      A42 SB1 22.029385     -0.42 0.276    A               1.6803      0.5546    3.03   0.99  0.0764          2.953         0.91        0.84
+      A48 SB1 43.196065     -0.31 0.211    A               0.6726      0.2161    3.11   1.21  0.0156          0.858         1.47        1.05
+     A145 SB1  4.746808     -0.08 0.039    A               0.0443      0.0137    3.24   0.13  0.0093          0.053         0.49        0.15
+     A109 SB1  1.039488     -4.31 0.019    A               0.0218      0.0067    3.25   0.15  0.0210          0.109         5.42        0.74
+      A65 SB1 26.768321      0.03 0.688    A               1.9705      0.5602    3.52   3.12  0.0736          1.906         1.02        0.88
+      A52 SB2 40.469530      4.93 0.309    A               1.4715      0.4121    3.57   1.72  0.0363         -1.835        -3.88       -1.68
+     A202 SB1  2.553938      3.40 0.054    A               0.0547      0.0138    3.97   0.43  0.0214         -0.076        -2.12       -0.57
+      A43 SB2 23.205492     -2.47 0.271    B               0.2911      0.0731    3.98   1.81  0.0126          0.700         3.26        3.00
+      A28 SB2 51.373330     -4.53 0.042    A               0.5293      0.1238    4.27   0.34  0.0103          1.909         5.65        1.22
+     A102 SB1  1.938571     -4.98 0.070    A               0.0449      0.0093    4.82   1.24  0.0232          0.187         5.15        4.06
+      A89 SB2 17.638544     -1.76 0.208    A               0.2474      0.0392    6.32   2.21  0.0140          0.516         3.42        2.73
+      A12 SB2 14.034398     -4.17 0.396    A               0.1586      0.0218    7.29   5.23  0.0113          0.663         4.79        5.31
+     A104 SB2 14.350949      2.55 0.475    A               0.2580      0.0315    8.20   6.60  0.0180          0.020         0.21        0.20
+     A167 SB2  4.173152      7.96 0.035    A               0.1230      0.0103   11.92   0.30  0.0295         -0.339        -5.89       -0.83
+
+the paper's three uncounted conjunction offsets and its two Gaia-epoch cases:
+review_id sol     P_ecl  z_period     e conj  offset_gaia_epoch_d  sig_full_d  z_full  z_ind   phase  offset_tess_d  z_tess_full  z_tess_ind
+      A87 SB1  2.236673     -1.20 0.050    A              -0.0504      0.0105   -4.80  -0.26 -0.0225         -0.012        -0.39       -0.06
+      A89 SB2 17.638544     -1.76 0.208    A               0.2474      0.0392    6.32   2.21  0.0140          0.516         3.42        2.73
+     A104 SB2 14.350949      2.55 0.475    A               0.2580      0.0315    8.20   6.60  0.0180          0.020         0.21        0.20
+     A147 SB2 14.804287     -4.30 0.330    B               0.0465      0.0183    2.55   0.99  0.0031          0.539         4.90        4.33
+     A167 SB2  4.173152      7.96 0.035    A               0.1230      0.0103   11.92   0.30  0.0295         -0.339        -5.89       -0.83
+     A202 SB1  2.553938      3.40 0.054    A               0.0547      0.0138    3.97   0.43  0.0214         -0.076        -2.12       -0.57
+     A203 SB1  5.492124      0.36 0.041    A               0.0335      0.0388    0.86   0.06  0.0061         -0.030        -0.21       -0.05
+
+at the eclipse epoch (Gaia ephemeris carried forward), same-period systems:
+  robust sd of z: full 1.26, independent 0.57
+  full covariance: eclipse outside +-3 sigma: 14 of 184
+  full covariance: eclipse outside +-4.5 sigma: 7 of 184
+  full covariance: eclipse outside +-6 sigma: 0 of 184
+  independent    : eclipse outside +-3 sigma: 3 of 184
+  independent    : eclipse outside +-4.5 sigma: 1 of 184
+  independent    : eclipse outside +-6 sigma: 0 of 184
+  methods of the tested systems: {'App': 80, 'Batch': 66, 'Fold': 37, 'MD': 1}
+
+13b: found eclipses outside the window min(max(k sigma, 0.25 d), 7 d) at the eclipse epoch:
+  independent (the search)  k=3: median half-width 1.76 d; outside: 2 ['A12', 'A147']
+      App     : 0 of 80 outside []
+      not App : 2 of 104 outside ['A12', 'A147']
+  independent (the search)  k=4.5: median half-width 2.64 d; outside: 1 ['A12']
+      App     : 0 of 80 outside []
+      not App : 1 of 104 outside ['A12']
+  full covariance           k=3: median half-width 0.64 d; outside: 11 ['A12', 'A28', 'A33', 'A43', 'A52', 'A86', 'A89', 'A110', 'A117', 'A147', 'A167']
+      App     : 6 of 80 outside ['A28', 'A33', 'A43', 'A52', 'A110', 'A117']
+      not App : 5 of 104 outside ['A12', 'A86', 'A89', 'A147', 'A167']
+  full covariance           k=4.5: median half-width 0.97 d; outside: 5 ['A12', 'A28', 'A110', 'A147', 'A167']
+      App     : 2 of 80 outside ['A28', 'A110']
+      not App : 3 of 104 outside ['A12', 'A147', 'A167']
+
+robust width of z (eclipse epoch | Gaia epoch), full covariance / independent:
+  App           n= 80: eclipse epoch 1.36 / 0.90;  Gaia epoch 1.76 / 0.71
+  not App       n=104: eclipse epoch 1.16 / 0.30;  Gaia epoch 1.48 / 0.12
+  not App, SB1  n= 86: eclipse epoch 1.10 / 0.30;  Gaia epoch 1.31 / 0.12

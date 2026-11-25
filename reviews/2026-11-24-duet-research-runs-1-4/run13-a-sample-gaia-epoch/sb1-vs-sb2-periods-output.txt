@@ -1,0 +1,10 @@
+period pull z = (P_Gaia - P_eclipse) / sqrt(sigma_Gaia^2 + sigma_eclipse^2), 184 same-period A systems
+  SB1: n 155, robust sd 1.11, |z|>=2 14, |z|>=3 5 (3.2%): A102, A109, A117, A159, A202
+  SB2: n 29, robust sd 2.31, |z|>=2 12, |z|>=3 8 (27.6%): A12, A28, A29, A52, A86, A110, A147, A167
+  SB2 more often >=3 sigma than SB1: one-sided Fisher p = 1.1e-04
+  SB1: error inflation needed so that no more than 0.8% exceed 3 sigma: x1.45
+  SB2: error inflation needed so that no more than 0.8% exceed 3 sigma: x2.70
+
+Gaia goodness_of_fit (F2) and the period failures:
+  SB1: median F2 0.60 (period ok) vs 2.32 (>=3 sigma); F2 > 2: 3/26 fail, F2 <= 2: 2/129; one-sided Fisher p = 0.034
+  SB2: median F2 7.00 (period ok) vs 11.64 (>=3 sigma); F2 > 10: 5/11 fail, F2 <= 10: 3/18; one-sided Fisher p = 0.106

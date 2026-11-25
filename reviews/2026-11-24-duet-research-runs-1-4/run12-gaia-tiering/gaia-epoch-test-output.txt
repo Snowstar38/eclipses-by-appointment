@@ -1,0 +1,36 @@
+systems tested: 167 of 199 (Gaia corr_vec and an eclipse ephemeris matching run 11e)
+all              n=167  |z| at Gaia epoch: median 0.86, <2: 144, >=3: 5;  |phase| median 0.0073;  |z| at TESS median 0.68
+confirmed        n=129  |z| at Gaia epoch: median 0.83, <2: 117, >=3: 1;  |phase| median 0.0069;  |z| at TESS median 0.59
+probable         n= 38  |z| at Gaia epoch: median 1.06, <2: 27, >=3: 4;  |phase| median 0.0103;  |z| at TESS median 1.03
+|z_period| < 3   n=160  |z| at Gaia epoch: median 0.86, <2: 142, >=3: 3;  |phase| median 0.0074;  |z| at TESS median 0.65
+|z_period| >= 3  n=  7  |z| at Gaia epoch: median 2.51, <2: 2, >=3: 2;  |phase| median 0.0051;  |z| at TESS median 3.54
+
+systems with |z_period| >= 2.5 or named Gaia tension:
+review_id      tier sol     P_ecl  z_period     e  kind  offset_gaia_epoch_d  sigma_gaia_epoch_d  z_gaia_epoch  phase_gaia_epoch  offset_tess_d  z_tess
+     R789  probable SB1 34.873690     -4.51 0.529     0               -0.206               0.082         -2.51           -0.0059          0.829    3.88
+     R810  probable SB1 26.073508     -3.72 0.145     1               -2.333               0.647         -3.61           -0.0898          9.582    3.54
+     R787  probable SB1 23.402180     -3.46 0.202     0                0.080               0.263          0.30            0.0034          1.813    3.08
+     R814  probable SB1 31.546880     -3.44 0.194     0               -0.045               0.176         -0.26           -0.0014          1.449    3.33
+     R816  probable SB1 37.216480     -2.89 0.458     0                0.253               0.121          2.08            0.0068          1.354    3.17
+     R356 confirmed SB1  4.513969     -2.69 0.019     0                0.068               0.029          2.35            0.0151          0.307    3.03
+     R815 confirmed SB1 35.641090      0.90 0.349     0                0.052               0.306          0.17            0.0015         -0.846   -0.87
+     R451 confirmed SB1  5.167131      1.24 0.019     0                0.021               0.052          0.40            0.0041         -0.097   -1.38
+     R755  probable SB1 24.655220      1.76 0.130     0                0.666               0.344          1.94            0.0270         -2.630   -1.38
+     R723  probable SB1 22.021170      2.07 0.396     1                0.021               0.126          0.17            0.0010         -0.608   -1.99
+     R833  probable SB1 40.754890      2.57 0.104     1                2.787               0.782          3.56            0.0682          0.931    1.20
+     R740  probable SB1 24.620830      2.68 0.275     0               -0.437               0.158         -2.77           -0.0177         -2.336   -3.15
+     R818 confirmed SB1 29.843860      2.71 0.270     0                0.134               0.086          1.56            0.0045         -1.132   -2.63
+     R190 confirmed SB1  5.512857      2.89 0.241     0                0.052               0.030          1.75            0.0094         -0.072   -1.38
+     R771  probable SB1 23.208170      3.27 0.157     0                0.911               0.358          2.55            0.0392         -2.263   -3.09
+     R716  probable SB1 20.299600      5.33 0.363     0               -0.104               0.051         -2.04           -0.0051         -1.009   -5.06
+     R752  probable SB2 43.141260      8.73 0.288     0                0.119               0.027          4.38            0.0028         -1.673   -8.70
+
+|z_period| >= 3: chance each lands this close if unrelated (4|offset|/P): {'R789': 0.024, 'R810': 0.359, 'R787': 0.014, 'R814': 0.006, 'R771': 0.157, 'R716': 0.02, 'R752': 0.011}
+  joint chance all of them do: 2.4e-11
+
+Gaia conjunction-time errors at Gaia epoch, all tested systems (does the covariance describe them?):
+  all       n=167 robust width 1.29 (independent errors 0.22); |z|>=3: 5 (3.0%)
+  SB1       n=165 robust width 1.25 (independent errors 0.21); |z|>=3: 4 (2.4%)
+  e < 0.1   n= 69 robust width 1.04 (independent errors 0.06); |z|>=3: 1 (1.4%)
+  e >= 0.1  n= 98 robust width 1.43 (independent errors 0.47); |z|>=3: 4 (4.1%)
+the 5 |z|>=3 at Gaia epoch: [{'review_id': 'R810', 'tier': 'probable', 'z_period': -3.72, 'z_gaia_epoch': -3.61, 'phase_gaia_epoch': -0.0898}, {'review_id': 'P025', 'tier': 'confirmed', 'z_period': 0.29, 'z_gaia_epoch': -4.47, 'phase_gaia_epoch': -0.0209}, {'review_id': 'R720', 'tier': 'probable', 'z_period': 0.72, 'z_gaia_epoch': 3.57, 'phase_gaia_epoch': 0.0193}, {'review_id': 'R833', 'tier': 'probable', 'z_period': 2.57, 'z_gaia_epoch': 3.56, 'phase_gaia_epoch': 0.0682}, {'review_id': 'R752', 'tier': 'probable', 'z_period': 8.73, 'z_gaia_epoch': 4.38, 'phase_gaia_epoch': 0.0028}]

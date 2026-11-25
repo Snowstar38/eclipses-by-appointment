@@ -1,0 +1,45 @@
+Gaia NSS rows with period errors in the repository: 1321 distinct sources from 59 files
+accepted systems joined (Gaia period within 3% of eclipse period): 199
+median z +0.02; robust width (1.4826 MAD) 1.06; std of |z|<10: 1.42
+|z| >= 2: 26 (13.1%); expected if calibrated 9.1; expected with errors x1.06: 11.9
+|z| >= 3: 8 (4.0%); expected if calibrated 0.5; expected with errors x1.06: 0.9
+|z| >= 5: 3 (1.5%); expected if calibrated 0.0; expected with errors x1.06: 0.0
+
+robust width by Gaia period:
+  (0, 3]       n=  10 width 0.91  |z|>=3: 0
+  (3, 6]       n=  43 width 0.96  |z|>=3: 0
+  (6, 10]      n=  29 width 0.88  |z|>=3: 0
+  (10, 20]     n=  18 width 0.95  |z|>=3: 0
+  (20, 60]     n=  99 width 1.17  |z|>=3: 8
+
+by solution type:
+  AstroSpectroSB1        n=   1 width 0.00  |z|>=3: 0
+  SB1                    n= 194 width 1.05  |z|>=3: 6
+  SB2                    n=   4 width 6.55  |z|>=3: 2
+
+by tier:
+  confirmed  n= 150 width 0.99  |z|>=3: 0
+  probable   n=  49 width 1.54  |z|>=3: 8
+  Fisher exact (probable vs confirmed, |z|>=3): SignificanceResult(statistic=inf, pvalue=np.float64(8.525905213209268e-06))
+
+systems at |z| >= 3:
+review_id     tier nss_solution_type  eclipse_period_days   period  period_error        z
+     R729 probable               SB2             35.23900 35.37474       0.00410 33.08279
+     R716 probable               SB1             20.29960 20.31970       0.00377  5.33369
+     R752 probable               SB2             43.14126 43.17216       0.00354  8.72973
+     R771 probable               SB1             23.20817 23.24641       0.01169  3.27210
+     R787 probable               SB1             23.40218 23.37122       0.00895 -3.45701
+     R789 probable               SB1             34.87369 34.84324       0.00675 -4.51340
+     R810 probable               SB1             26.07351 25.98186       0.02467 -3.71519
+     R814 probable               SB1             31.54688 31.50160       0.01316 -3.44043
+
+tier within 20-60 d only (removes the period confound):
+  confirmed  n=  63 width 0.98  |z|>=3: 0
+  probable   n=  36 width 1.74  |z|>=3: 8
+  Fisher exact: SignificanceResult(statistic=inf, pvalue=np.float64(0.00017675343168759516))
+  where the period came from (probable, 20-60 d):
+0
+2026-11-05-catalogue-recovery    16
+2026-11-05-final-night           16
+2026-11-05-claim-adjudication     2
+2026-11-05-faint-band             2

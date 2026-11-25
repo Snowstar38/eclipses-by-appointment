@@ -130,7 +130,9 @@ plus R1684 and R1692 (see below). All 25 are listed with the note's wording in
   0.544 P and the depths swap.
 - **R1684** (P = 6.2496 d, probable): its first-read note says "a shallower secondary is visible
   in the 2P fold". Unequal alternate dips in the 2P fold mean the orbit is 2P = 12.499 d, the
-  R995 pattern, so this row joins run 5's list of likely period errors. **R1692** ("shallower
+  R995 pattern, so this row joins run 5's list of likely period errors. *(Withdrawn in run 11a:
+  Earthshine's fit finds a real 1.7-ppt secondary at phase 0.520 and equal alternate primaries, so
+  P = 6.2496 d is the orbit and the note's "shallower secondary" is that eclipse.)* **R1692** ("shallower
   intervening minima") could go either way and needs the fold.
 
 ### How the search missed them

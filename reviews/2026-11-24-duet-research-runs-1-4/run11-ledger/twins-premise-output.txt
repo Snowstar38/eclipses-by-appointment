@@ -1,0 +1,23 @@
+run 10a rows with P excluded (default): 68; strict: 48
+Earthshine search locked on the primary: 33 (27 strict)
+  -> for these "no secondary" rests on the review text alone
+searched rows with an eclipse-shaped secondary reaching half the minimum prediction: 0
+visual note reports a secondary-like feature: 7 (6 strict)
+
+           strict  excl_ratio  sec_pred_ppt  search_locked  sec_phase  sec_depth_ppt            parity
+review_id                                                                                             
+R1253        True     222.196        66.659           True      1.000          216.3                2P
+R1120       False      23.268        88.209           True      0.000          176.6                2P
+R1488        True      22.361        14.353           True      0.000           95.6  sectors disagree
+R1697        True      21.595        44.053          False      0.394            0.7               NaN
+R1405        True       6.643        14.628          False      0.060           21.5         not shown
+R1352        True       5.275         6.468           True      0.000           62.5         not shown
+R1042        True       3.387         9.659           True      0.604           13.4               NaN
+
+R1253 | Narrow repeating primary dips; a shallow secondary is also visible. | 
+R1120 | Deep recurring dips are clear, with a shallower alternating dip in the two-cycle fold. | 
+R1488 | Consistent deep primaries and a shallower secondary feature. | pdouble: odd/even mid-times differ by 9.5 min (49.2 sigma): eccentric orbit at 2P -> not adopted (per-sector offsets disagree in sign)
+R1697 | Narrow repeating primary dips; the secondary is shallower. | 
+R1405 | Repeated deep dips with consistent U-shaped profiles and a smaller secondary feature. | pdouble: phase-0.5 events median 26.6 ppt (20/21 >3sig) but the stacked box gives 11.5 ppt and the checker's free secondary search found a comparable 24 ppt feature at phase 0.377 carried by 1 event: out-of-eclipse structure, not a clean secondary; P vs 2P open
+R1352 | Clear recurring dips; a shallower secondary appears between primaries. | 
+R1042 | A clear recurring primary and weaker secondary appear over slow raw-flux variation; one event is edge affected. | 

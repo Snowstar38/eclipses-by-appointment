@@ -1,0 +1,42 @@
+proposals: 300 rows touched: 192
+source
+errata+Fable (run9d)        1
+run1                      116
+run10a SB2 text            57
+run10a default             20
+run10a strict              48
+run10a+Earthshine           1
+run5+Earthshine parity      4
+run6a                      27
+run6b                      26
+
+period proposals: 112 distinct rows: 89 applied: 0
+rows no longer in accepted-systems: ['R1117']
+
+CONFLICTS (run 6b says a secondary was seen at P; another run says 2P): ['R1040', 'R1042', 'R1253', 'R1352', 'R1405', 'R1488', 'R1684', 'R1697']
+  R1040 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1040 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: weaker feature at the secondary phase
+  R1040 run10a SB2 text adopted_period_days 3.6538 | row text prefers 2P (SB2 twin)
+  R1042 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1042 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: weaker secondary
+  R1042 run10a strict adopted_period_days 28.1676 | excl_ratio 3.4
+  R1042 run10a SB2 text adopted_period_days 28.1676 | row text prefers 2P (SB2 twin)
+  R1253 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: shallow secondary
+  R1253 run10a strict adopted_period_days 4.7092 | excl_ratio 222.2
+  R1352 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: shallower secondary between primaries
+  R1352 run10a strict adopted_period_days 3.6658 | excl_ratio 5.3
+  R1405 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1405 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: smaller secondary feature
+  R1405 run10a strict adopted_period_days 4.6942 | excl_ratio 6.6
+  R1405 run10a SB2 text adopted_period_days 4.6942 | row text prefers 2P (SB2 twin)
+  R1488 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1488 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: shallower secondary feature
+  R1488 run10a strict adopted_period_days 9.0078 | excl_ratio 22.4
+  R1488 run10a SB2 text adopted_period_days 9.0078 | row text prefers 2P (SB2 twin)
+  R1684 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1684 run6b adopted_period_days x2 | "shallower secondary visible in the 2P fold"
+  R1684 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: shallower secondary in the 2P fold (favours 2P)
+  R1697 run1 text prefers 2P, table adopts P reword (P adopted, 2P if twins) or adopt 2P; check for a secondary first (see R1758) | text prefers 2P, table adopts P
+  R1697 run6b period_resolution P: secondary seen in the visual review; drop 2P alternative | visual note: first read: the secondary is shallower
+  R1697 run10a strict adopted_period_days 18.4618 | excl_ratio 21.6
+  R1697 run10a SB2 text adopted_period_days 18.4618 | row text prefers 2P (SB2 twin)
