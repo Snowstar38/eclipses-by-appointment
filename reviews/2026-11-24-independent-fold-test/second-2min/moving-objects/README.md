@@ -1,0 +1,16 @@
+# Phocaea and Brixia in two TESS background apertures
+
+The two moving signals that produced apparent stellar eclipses are recoveries of known main-belt asteroids. In each case the spacecraft-view orbit predicts both the sky position and the direction of motion across two hours. [Measured and predicted coordinates](matches.csv) · [Original background pixels](../background-sequence.png)
+
+| Star aperture | Date (UTC) | Asteroid | Separation from JPL prediction in three full frames |
+|---|---|---|---|
+| TIC 113655666 | 2021-10-03 | (25) Phocaea | 2.65″, 2.19″, 2.33″ |
+| TIC 356752132 | 2021-08-28 | (521) Brixia | 0.97″, 1.17″, 0.97″ |
+
+The catalog search used the image times and sky coordinates. SkyBoT returned Brixia from the TESS observing location. Its TESS database reported missing coverage for the October epoch, so we widened the geocentric search to half a degree. This returned Phocaea, predicted at magnitude 10.5 and moving southwest. From Earth's center its predicted position missed the measured peak by 5.6 arcminutes. We used JPL Horizons at **TESS** for both final comparisons. [TESS search for the August pointing](356752132-skybot.txt) · [October service response](113655666-skybot.txt) · [Geocentric candidate list](113655666-geo.txt) · [Phocaea ephemeris](horizons-25.txt) · [Brixia ephemeris](horizons-521.txt)
+
+For the original 11-by-11-pixel cutouts we recorded the brightest pixel in five short difference images, without fitting an orbit. A source at the edge can partly leave the image. Wider, 35-by-35-pixel MAST cutouts let us measure the full source at three epochs. We subtracted a median stationary image from each calibrated full frame and fitted a circular Gaussian plus a constant in a seven-pixel-wide square. The local search window was centered using the original pixel track. Catalogue coordinates were compared after measurement. The red crosses show the fitted centers and the white crosses show the positions inferred from the smaller stamps. Both sets of images use TESS exposures. The separations above include any centroid and image-coordinate calibration errors. [Phocaea frames](113655666-ffi.png) · [Brixia frames](356752132-ffi.png) · [Full-frame measurements](positions.csv)
+
+To reproduce the comparison, run `measure.py`, `full_frame.py`, then `predict.py` from this folder with NumPy, Astropy, SciPy and Requests installed. Subtracting the mission's barycentric time correction and converting TDB to UTC gives the observing times for the Horizons comparisons. The six wider-frame positions are matched to their actual exposure midpoints. [Horizons documentation](https://ssd.jpl.nasa.gov/horizons/manual.html) · [SkyBoT cone-search documentation](https://ssp.imcce.fr/webservices/skybot/api/conesearch/)
+
+These two cases suggest a targeted search in stellar light curves that failed eclipse vetting. A coincident sky spike can nominate an interval. Coherent motion outside the stellar aperture provides the image test, and the wider frames can follow the track beyond the aperture. A blind trial on a fresh set of false dips, with known asteroid crossings as controls, would measure the yield of this selection. Previous trajectory-based searches have already recovered large numbers of asteroids directly from TESS full-frame images. [Powell et al., 2026](https://doi.org/10.3847/1538-3881/ae6cfc)
