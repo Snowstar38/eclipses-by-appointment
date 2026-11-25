@@ -1,0 +1,35 @@
+# Batch 2 multi-sector repeat review
+
+TIC 405590521 is the strongest candidate of the ten. Five independently fitted SAP minima give a provisional linear photometric ephemeris of **25.90711544 d**, epoch **1774.8605875 BTJD**, and median Gaussian FWHM **1.03 d**. Peak depths are 11.0–11.7 ppt. The local Gaussian fits describe the minima and supply timing estimates. The physical source and mechanism require pixel-level or independent photometric validation.
+
+### TIC 405590521
+
+- Fitted sectors S17, S56, S76, S83 and S84 span 70 cycles. Timing residuals are within 0.011 d. S17, S83 and S84 have both wings and continuous event cores under the coverage criteria. S56 has a well-sampled core but a partially missing wing. S76 has an internal 0.315 d gap, with the minimum sampled before the gap and recovery visible after it.
+- Five windows withheld from the fit show the same raw-flux dip, ingress or egress at the predicted time. These are S16 at 1748.9535, S24 at 1956.2104 and 1982.1175, S57 at 2862.9594, and S77 at 3407.0089 BTJD. Each has a core or wing affected by a gap or sector edge. Another 62 cycle centers are between available sectors. There is no well-covered primary miss.
+- The photometric period exceeds Gaia's 25.89871266 d by 0.00840279 d. The phase difference accumulates to 0.59 d after 70 cycles. The Gaia-period grid anchored at the first observed minimum misses the late pair, and shifting the Gaia epoch to match that pair displaces S17.
+- Six well-covered intervening opportunities at half the fitted period have absolute SAP depths below 0.50 ppt. Consecutive observed cycles at S83/S84 also disfavor double the fitted period for identical primary minima.
+- For the five fitted minima the median-core SAP losses are 7.45–8.77 ppt when evaluated on the fitted ephemeris with a common width. The corresponding corrected losses range from −0.08 to +0.11 ppt. The same raw pattern recurs on multiple cameras. The eclipse-like morphology and repeat timing establish a photometric signal. Tidal variation and a blended source remain possible.
+
+### Other targets
+
+| TIC | Evidence |
+| --- | --- |
+| 63637170 | Fifteen SAP minima have depths 1.8–6.8 ppt. S77's deepest minimum loses almost all depth after correction. S83 is flat or bright at the Gaia prediction while the strongest S83 minimum is over four days earlier. Most corrected sector periodograms peak at or near 0.397 d and the sector folds show a smooth modulation. |
+| 365950480 | S22 BTJD 1905.0788 is a 1.8 ppt broad SAP trough with an internal gap and a flat corrected trace. S49 BTJD 2658.1340 is a 5.3 ppt narrow drop and subsequent ramp in both products. Their separation differs from 14 Gaia cycles by +24.17 d and from 15 cycles by −27.89 d. The 50.204 d paired hypothesis aligns a broad event with a narrow discontinuity. |
+| 175252465 | Robust 0.383–0.385 d corrected peaks and smooth phase curves appear in all five sectors. The strongest local minima span 3–35 ppt and evolve strongly in S35. The well-covered S7 Gaia window at 1498.666 BTJD shows only a 2.3 ppt decrement versus approximately 13 ppt at the anchor. |
+| 190877575 | S15/S16 minima at 1712.4880, 1731.4890 and 1759.7641 BTJD have 1.0–1.1 ppt losses in both products. The first two have about 0.2 ppt wing scatter, the third about 0.6 ppt. Gaia windows in S16 and S83 are nearly flat. A 19.001 d alias matches the S15 pair but the covered S83 repeat is <0.25 ppt. A 9.455 d alias joins the first and third centers but misses the second by 0.091 d and has covered S16 and S83 misses. Retain the events as unphased. |
+| 451227585 | The S63 SAP minimum has a 30.4 ppt median core loss and only 0.07 ppt in corrected flux. S90's wider apparent loss is 12.4 ppt with roughly half the core missing and incomplete egress. A 31.046 d pair alias has near-flat covered controls in S10 and S64. The Gaia orbit puts the main S63 dip 8.5 d out of phase. |
+| 144522712 | S4 and S31 raw minima have 1.5–2.5 ppt losses while corrected depths are <0.08 ppt in magnitude. Separate periodograms and folds show smooth SAP modulation near 2.27 d. A 24.948 d two-window alias gives a gappy 1.18 ppt raw dip at the predicted S31 time, in the middle of changing broad variability. The nominal Gaia window in S31 is flat. |
+| 234497227 | S1 and S95 SAP minima lie on long trends. S96 BTJD 3921.67 is recovery immediately after a gap that hides half the core. S2's localized 2.6 ppt SAP dip has ~1 ppt corrected depth, while the covered Gaia returns in S28 and S69 are <0.75 ppt SAP and flat in corrected flux. The 33.753 d late-pair alias misses several good opportunities. |
+| 368198987 | SAP sector periodograms give 1.468, 1.495 and 1.504 d with normalized powers 0.40–0.51. The ~1.5 d sector phase curves are smooth. Deep 7–37 ppt minima vary with the underlying broad modulation and corrected losses are below 1 ppt. |
+| 274610990 | Ten 0.5–1 d SAP minima of 1.0–1.5 ppt show variable local structure and are <0.1 ppt after correction. Gaia phases are distributed across the orbit. The closest near-Gaia pair uses S55 and S83 with a 1.09 d timing discrepancy at the Gaia period. Its 59.273 d alias fits the pair by construction, including a gappy S55 event, while most other recorded minima are unaligned. |
+
+### Reproduction
+
+From the workspace root run `python -B sky/mixed-repeats-2026-11-24/batch2/review.py` in Python with NumPy, Astropy, SciPy and Matplotlib. For another checkout, set `--root` to its workspace root. The script reads the local QLP FITS, archived scan-window JSONs and the camera-specific QLP exposure control table. It compares SAP and the available corrected column, KSPSAP_FLUX or DET_FLUX. It uses finite paired fluxes with QUALITY = 0 and excludes listed sector/camera/cadence matches. No flagged exposure enters a selected dip core.
+
+- `event-evidence.csv` gives every flagged dip window and its metrics.
+- `predicted-windows.csv` gives epoch-plus-period predictions including between-sector and partially sampled windows. A covered window needs at least 65% of nominal cadence coverage in the core and each wing, and core spacing no greater than the larger of 0.025 d and 15% of the width.
+- Depths are the median core deficits relative to a line between the median fluxes in the two wings. The wing MAD is robust point scatter in ppt. An unavailable baseline yields `nan`. Event figures show raw and corrected traces separately as blue and orange points, over their own baselines. When one wing is unavailable, the reference is the sector flux median.
+- `pair-spacings.csv` lists cross-sector events, their separations and the alias obtained by rounding the separation to a whole number of Gaia cycles. `hypotheses.csv` lists selected alternate windows explicitly tested against coverage. Periodograms from 0.125–14.3 d and sector-relative folds illustrate short-timescale variations without assuming phase coherence across years.
+- `405590521-centers.csv` stores the five raw-fit centers, depths, FWHMs and timing residuals. `outcomes.csv` contains the ten assessments. Eclipse ephemeris fields are supplied for the strong repeat candidate.

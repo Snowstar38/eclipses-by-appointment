@@ -1,0 +1,138 @@
+{
+ "tic": "387410061",
+ "gaia_dr3": "2271465953537916800",
+ "complete": true,
+ "ads": {
+  "url": "https://api.adsabs.harvard.edu/v1/search/query",
+  "results": [
+   {
+    "query": "full:\"2MASS J20425153+7023043\" OR full:\"APASS 60108672\" OR full:\"AllWISE J204251.55+702304.2\" OR full:\"GSC 04451-01212\" OR full:\"Gaia DR1 2271465953537916800\" OR full:\"Gaia DR2 2271465953537916800\" OR full:\"Gaia DR3 2271465953537916800\" OR full:\"TIC 387410061\" OR full:\"TYC 4451-01212-1\" OR full:\"TYC 4451-1212-1\" OR full:\"UCAC4 802-029236\"",
+    "numFound": 0,
+    "docs": []
+   },
+   {
+    "query": "full:\"Kepler-16\"",
+    "numFound": 465,
+    "docs": [
+     {
+      "bibcode": "2012ApJ...751L..31B",
+      "title": [
+       "The SDSS-HET Survey of Kepler Eclipsing Binaries: Spectroscopic Dynamical Masses of the Kepler-16 Circumbinary Planet Hosts"
+      ],
+      "publisher": "IOP"
+     }
+    ]
+   }
+  ],
+  "complete": true,
+  "aliases": [
+   "2MASS J20425153+7023043",
+   "APASS 60108672",
+   "AllWISE J204251.55+702304.2",
+   "GSC 04451-01212",
+   "Gaia DR1 2271465953537916800",
+   "Gaia DR2 2271465953537916800",
+   "Gaia DR3 2271465953537916800",
+   "TIC 387410061",
+   "TYC 4451-01212-1",
+   "TYC 4451-1212-1",
+   "UCAC4 802-029236"
+  ]
+ },
+ "simbad": {
+  "complete": true,
+  "tic": "387410061",
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+  "aliases": [
+   "2MASS J20425153+7023043",
+   "APASS 60108672",
+   "AllWISE J204251.55+702304.2",
+   "Gaia DR2 2271465953537916800",
+   "TYC 4451-01212-1",
+   "TYC 4451-1212-1",
+   "UCAC4 802-029236",
+   "TIC 387410061",
+   "Gaia DR3 2271465953537916800"
+  ],
+  "objects": {
+   "TYC 4451-1212-1": {
+    "object_type": "SB*",
+    "matched_aliases": [
+     "2MASS J20425153+7023043",
+     "Gaia DR2 2271465953537916800",
+     "Gaia DR3 2271465953537916800",
+     "TIC 387410061",
+     "TYC 4451-1212-1"
+    ],
+    "simbad_ids": "TIC 387410061|Gaia DR3 2271465953537916800|GSC 04451-01212|TYC 4451-1212-1|2MASS J20425153+7023043|Gaia DR1 2271465953537916800|Gaia DR2 2271465953537916800",
+    "references": {
+     "2023A&A...674A..34G": "{\\em Gaia} Data Release 3 Stellar multiplicity, a teaser for the hidden treasure."
+    }
+   }
+  }
+ },
+ "villanova": {
+  "tic": "387410061",
+  "complete": true,
+  "exact": false,
+  "listed": "",
+  "sha256": "b94b3eaa511f63c3e3965f0371eb07200701cf60e96f4ed16e9171dd96e44fb4"
+ },
+ "exofop": {
+  "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=387410061&json=",
+  "basic_info": {
+   "tic_id": "387410061",
+   "star_names": "TIC 387410061, 2MASS J20425153+7023043, APASS 60108672, Gaia DR2 2271465953537916800, Gaia DR3 2271465953537916800, TYC 4451-01212-1, UCAC4 802-029236, WISE J204251.55+702304.2",
+   "confirmed_planets": "",
+   "k2_campaign": "",
+   "tic_contamination_ratio": "0.006025"
+  },
+  "tois": [],
+  "ctois": [],
+  "planet_parameters": [],
+  "stellar_companions": [],
+  "time_series": [],
+  "files": [],
+  "notes": null
+ },
+ "source_tables": {
+  "adopted_gaia": "2271465953537916800",
+  "sources_12as": [
+   {
+    "distance_arcsec": 0.0,
+    "source_id": "2271465953537916800",
+    "ra": "310.7149073485575",
+    "dec": "70.3845288893109",
+    "pmra": "9.265956857993185",
+    "pmdec": "6.269638758470862",
+    "ref_epoch": "2016.0",
+    "phot_g_mean_mag": "11.278813"
+   }
+  ],
+  "query_receipt": "f42e57aba1f657dc1cdcf0231b5be05dd07aeba211a74283adc9f3bc4ed88132",
+  "tic": "387410061",
+  "ra_deg": "310.7149073485575",
+  "dec_deg": "70.3845288893109",
+  "gaia_tables": {
+   "nss_two_body_orbit": [
+    {
+     "source_id": "2271465953537916800",
+     "nss_solution_type": "SB1",
+     "period": "38.11913987869101",
+     "period_error": "0.06629674",
+     "eccentricity": "0.4188583325103168",
+     "eccentricity_error": "0.09442394",
+     "semi_amplitude_primary": "16.816991756256918"
+    }
+   ]
+  },
+  "superwasp": [],
+  "théo_exact": [],
+  "théo_nearest_arcsec": 77363.6,
+  "kounkel": [],
+  "tang_exact_tic": false,
+  "spectroscopic_eb": [],
+  "current_ledger": [],
+  "prior_position_period_flags": []
+ }
+}
