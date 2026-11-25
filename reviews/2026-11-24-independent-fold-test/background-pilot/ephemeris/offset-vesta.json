@@ -1,0 +1,382 @@
+{
+  "tic": 630314437,
+  "sector": 108,
+  "input_fits": {
+    "path": "C:\\Home\\tmp\\astra-background-pilot\\630314437-s108.fits",
+    "sha256": "0249054a4e3874e35e07f0b74e271e4a4dbbea679e0bbf5a70de2da762bb60e8"
+  },
+  "center_btjd": 4311.17265243838,
+  "half_hours": 1.08333333333,
+  "interval_jd_utc": [
+    2461311.121382144,
+    2461311.1665195692,
+    2461311.2116569974
+  ],
+  "interval_utc": [
+    "2026-09-27T14:54:47.417",
+    "2026-09-27T15:59:47.291",
+    "2026-09-27T17:04:47.165"
+  ],
+  "quality0_midpoints": 46,
+  "total_finite_midpoints": 65,
+  "max_quality0_gap_min": 11.999993920326233,
+  "stamp_shape_yx": [
+    11,
+    11
+  ],
+  "stamp_corners_deg": [
+    [
+      25.829548578390387,
+      -1.7921913812212389
+    ],
+    [
+      25.805111183191734,
+      -1.846278759049824
+    ],
+    [
+      25.861775626445777,
+      -1.8677076670313288
+    ],
+    [
+      25.886211604647254,
+      -1.8136195135046194
+    ]
+  ],
+  "footprint_radius_deg": 0.04369553111080162,
+  "midpoint_speed_allowance_arcsec_hour": 120,
+  "margin_pixels": 2,
+  "margin_padded_stamp_radius_deg": 0.0595848056515008,
+  "coverage": "partial",
+  "geo_padding_deg": 0.3,
+  "propagation_magnitude_limit": 19,
+  "propagation_object_limit": 8,
+  "maximum_track_step_minutes": 5,
+  "measured_positions_input": null,
+  "search_mode": "TESS",
+  "searches": [
+    {
+      "observer": "@tess",
+      "epoch_jd_utc": 2461311.1665195692,
+      "center_deg": [
+        25.845661762358286,
+        -1.829949594589211
+      ],
+      "radius_deg": 0.0956959167625008,
+      "query_parameters": {
+        "TIME": "2461311.16651957",
+        "RA": "25.84566176",
+        "DEC": "-1.82994959",
+        "SR": "0.09569592",
+        "-observer": "@tess",
+        "-loc": "@tess",
+        "-objFilter": "100",
+        "-filter": "0",
+        "-mime": "text",
+        "-output": "basic"
+      },
+      "receipt": {
+        "url": "https://ssp.imcce.fr/webservices/skybot/api/conesearch.php?TIME=2461311.16651957&RA=25.84566176&DEC=-1.82994959&SR=0.09569592&-observer=%40tess&-loc=%40tess&-objFilter=100&-filter=0&-mime=text&-output=basic",
+        "retrieved_utc": "2026-11-25T02:28:45.521050+00:00",
+        "http_status": 200,
+        "sha256": "c5bc24a4c65f07744cda45ce03c957efc6ea568c373dad75da2eb3e3c2f6771c",
+        "bytes": 294
+      },
+      "status": "ok",
+      "candidates": [
+        {
+          "id": "2019 GJ46",
+          "name": "2019 GJ46",
+          "mv": 20.5,
+          "skybot": {
+            "Num": "-",
+            "Name": "2019 GJ46",
+            "RA(h)": "01 43 39.9327",
+            "DE(deg)": "-01 51 4.290",
+            "Class": "MB>Outer",
+            "Mv": "20.5",
+            "Err(arcsec)": "0.000",
+            "d(arcsec)": "265.718",
+            "dRA(arcsec/h)": "-37.0046",
+            "dDEC(arcsec/h)": "7.350",
+            "Dg(ua)": "1.74967984128",
+            "Dh(ua)": "2.70271369777"
+          }
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "4",
+      "name": "4",
+      "mv": null,
+      "candidate_source": "supplied ID",
+      "status": "verified",
+      "horizons_target": "4 Vesta (A807 FA)               {source: JPL#36}",
+      "receipts": [
+        {
+          "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%274%3B%27&CENTER=%27500%40-95%27&EPHEM_TYPE=OBSERVER&QUANTITIES=%271%2C9%27&CSV_FORMAT=YES&ANG_FORMAT=DEG&EXTRA_PREC=YES&CAL_FORMAT=BOTH&TIME_TYPE=UT&TLIST=%272461311.12138214%2C2461311.12485425%2C2461311.12832636%2C2461311.13179847%2C2461311.13527058%2C2461311.13874269%2C2461311.14221480%2C2461311.14568691%2C2461311.14915902%2C2461311.15263113%2C2461311.15610324%2C2461311.15957535%2C2461311.16304746%2C2461311.16651957%2C2461311.16999168%2C2461311.17346379%2C2461311.17693590%2C2461311.18040801%2C2461311.18388012%2C2461311.18735223%2C2461311.19082434%2C2461311.19429645%2C2461311.19776856%2C2461311.20124067%2C2461311.20471278%2C2461311.20818489%2C2461311.21165700%27",
+          "retrieved_utc": "2026-11-25T02:27:37.883512+00:00",
+          "http_status": 200,
+          "sha256": "0721b9b9f7450cf8afa80b6ad6e920829400df33565b05f6b6dffb6506796ac5",
+          "bytes": 11284
+        }
+      ],
+      "masks": {
+        "background": {
+          "n_mask_pixels": 24,
+          "hit_pixels_xy": [],
+          "closest_approach": {
+            "distance_pixels": 32.98129813552927,
+            "mask_pixel_xy": [
+              2,
+              9
+            ],
+            "bracket_jd_utc": [
+              2461311.20818489,
+              2461311.211657
+            ]
+          },
+          "proximity": "distant",
+          "crossing_brackets_jd_utc": [],
+          "n_quality0_midpoints_in_mask": 0
+        },
+        "stellar": {
+          "n_mask_pixels": 4,
+          "hit_pixels_xy": [],
+          "closest_approach": {
+            "distance_pixels": 37.21244068719171,
+            "mask_pixel_xy": [
+              5,
+              6
+            ],
+            "bracket_jd_utc": [
+              2461311.20818489,
+              2461311.211657
+            ]
+          },
+          "proximity": "distant",
+          "crossing_brackets_jd_utc": [],
+          "n_quality0_midpoints_in_mask": 0
+        },
+        "collected": {
+          "n_mask_pixels": 121,
+          "hit_pixels_xy": [],
+          "closest_approach": {
+            "distance_pixels": 30.93398179775774,
+            "mask_pixel_xy": [
+              0,
+              10
+            ],
+            "bracket_jd_utc": [
+              2461311.20818489,
+              2461311.211657
+            ]
+          },
+          "proximity": "distant",
+          "crossing_brackets_jd_utc": [],
+          "n_quality0_midpoints_in_mask": 0
+        }
+      },
+      "track_residuals": [],
+      "path": [
+        {
+          "jd_utc": 2461311.12138214,
+          "ra_deg": 26.070668331,
+          "dec_deg": -1.756233948,
+          "x": -22.582381396038333,
+          "y": 36.78689122228704
+        },
+        {
+          "jd_utc": 2461311.12485425,
+          "ra_deg": 26.070004037,
+          "dec_deg": -1.75656957,
+          "x": -22.480458041529133,
+          "y": 36.70187323785149
+        },
+        {
+          "jd_utc": 2461311.12832636,
+          "ra_deg": 26.069339612,
+          "dec_deg": -1.756905291,
+          "x": -22.37850887283544,
+          "y": 36.61684101134553
+        },
+        {
+          "jd_utc": 2461311.13179847,
+          "ra_deg": 26.068675128,
+          "dec_deg": -1.757241011,
+          "x": -22.276555988705162,
+          "y": 36.53179899289729
+        },
+        {
+          "jd_utc": 2461311.13527058,
+          "ra_deg": 26.068010515,
+          "dec_deg": -1.757576829,
+          "x": -22.174577595347472,
+          "y": 36.446742989161535
+        },
+        {
+          "jd_utc": 2461311.13874269,
+          "ra_deg": 26.067345842,
+          "dec_deg": -1.757912647,
+          "x": -22.072595247084315,
+          "y": 36.36167710256153
+        },
+        {
+          "jd_utc": 2461311.1422148,
+          "ra_deg": 26.066681039,
+          "dec_deg": -1.758248562,
+          "x": -21.97058749754206,
+          "y": 36.27659699000225
+        },
+        {
+          "jd_utc": 2461311.14568691,
+          "ra_deg": 26.066016176,
+          "dec_deg": -1.758584478,
+          "x": -21.868575619296607,
+          "y": 36.19150706947818
+        },
+        {
+          "jd_utc": 2461311.14915902,
+          "ra_deg": 26.065351184,
+          "dec_deg": -1.758920491,
+          "x": -21.7665384053507,
+          "y": 36.106403088843564
+        },
+        {
+          "jd_utc": 2461311.15263113,
+          "ra_deg": 26.064686133,
+          "dec_deg": -1.759256505,
+          "x": -21.664497128278057,
+          "y": 36.02128946607005
+        },
+        {
+          "jd_utc": 2461311.15610324,
+          "ra_deg": 26.064020951,
+          "dec_deg": -1.759592616,
+          "x": -21.562430384071778,
+          "y": 35.93616145157948
+        },
+        {
+          "jd_utc": 2461311.15957535,
+          "ra_deg": 26.063355711,
+          "dec_deg": -1.759928727,
+          "x": -21.46035981603182,
+          "y": 35.851023885900446
+        },
+        {
+          "jd_utc": 2461311.16304746,
+          "ra_deg": 26.06269034,
+          "dec_deg": -1.760264936,
+          "x": -21.358263607058767,
+          "y": 35.76587200342135
+        },
+        {
+          "jd_utc": 2461311.16651957,
+          "ra_deg": 26.06202491,
+          "dec_deg": -1.760601145,
+          "x": -21.256163508485095,
+          "y": 35.68071040394099
+        },
+        {
+          "jd_utc": 2461311.16999168,
+          "ra_deg": 26.06135935,
+          "dec_deg": -1.760937452,
+          "x": -21.15403783456074,
+          "y": 35.595534653513155
+        },
+        {
+          "jd_utc": 2461311.17346379,
+          "ra_deg": 26.060693731,
+          "dec_deg": -1.761273758,
+          "x": -21.051908444650483,
+          "y": 35.51034911120772
+        },
+        {
+          "jd_utc": 2461311.1769359,
+          "ra_deg": 26.060027982,
+          "dec_deg": -1.761610163,
+          "x": -20.949753305591877,
+          "y": 35.42514949287405
+        },
+        {
+          "jd_utc": 2461311.18040801,
+          "ra_deg": 26.059362174,
+          "dec_deg": -1.761946568,
+          "x": -20.847594276750065,
+          "y": 35.339940157561514
+        },
+        {
+          "jd_utc": 2461311.18388012,
+          "ra_deg": 26.058696235,
+          "dec_deg": -1.762283071,
+          "x": -20.745409606703895,
+          "y": 35.25471650554707
+        },
+        {
+          "jd_utc": 2461311.18735223,
+          "ra_deg": 26.058030238,
+          "dec_deg": -1.762619573,
+          "x": -20.643221286157925,
+          "y": 35.16948322749282
+        },
+        {
+          "jd_utc": 2461311.19082434,
+          "ra_deg": 26.05736411,
+          "dec_deg": -1.762956174,
+          "x": -20.541007150611662,
+          "y": 35.08423570765783
+        },
+        {
+          "jd_utc": 2461311.19429645,
+          "ra_deg": 26.056697923,
+          "dec_deg": -1.763292774,
+          "x": -20.438789298801836,
+          "y": 34.99897839597511
+        },
+        {
+          "jd_utc": 2461311.19776856,
+          "ra_deg": 26.056031607,
+          "dec_deg": -1.763629473,
+          "x": -20.336545763239652,
+          "y": 34.91370717417558
+        },
+        {
+          "jd_utc": 2461311.20124067,
+          "ra_deg": 26.055365231,
+          "dec_deg": -1.763966171,
+          "x": -20.23429844565286,
+          "y": 34.82842599472389
+        },
+        {
+          "jd_utc": 2461311.20471278,
+          "ra_deg": 26.054698725,
+          "dec_deg": -1.764302968,
+          "x": -20.13202537855232,
+          "y": 34.74313073937116
+        },
+        {
+          "jd_utc": 2461311.20818489,
+          "ra_deg": 26.05403216,
+          "dec_deg": -1.764639765,
+          "x": -20.02974842129892,
+          "y": 34.657825767081206
+        },
+        {
+          "jd_utc": 2461311.211657,
+          "ra_deg": 26.053365465,
+          "dec_deg": -1.76497666,
+          "x": -19.92744588814732,
+          "y": 34.572506644035116
+        }
+      ]
+    },
+    {
+      "id": "2019 GJ46",
+      "name": "2019 GJ46",
+      "mv": 20.5,
+      "status": "outside propagation budget or magnitude limit"
+    }
+  ],
+  "interpretation": "Nominal astrometric center against fixed pixel squares. The advisory margin expands both the cone footprint and mask proximity checks. The extent of measurable wings depends on source brightness and local PSF. No pointing jitter, saturation, PSF or orbit-error convolution. Window geometry includes gaps; quality-zero cadence counts are separate. A coincidence alone does not identify the cause of a dip. Midpoint search is bounded by assumed speed; geocentric padding cannot guarantee spacecraft completeness. Unknown asteroids and incomplete catalogs, excluded or unpropagated bodies remain unresolved."
+}

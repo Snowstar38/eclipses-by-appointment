@@ -1,0 +1,90 @@
+{
+  "config": {
+    "tic": 630314437,
+    "sector": 108,
+    "tpf": "C:\\Home\\tmp\\astra-background-pilot\\630314437-s108.fits",
+    "center_btjd": 4312.17265243838,
+    "baseline_offsets_d": [
+      0.05416666666666667,
+      0.09166666666666667
+    ]
+  },
+  "sha256": "0249054a4e3874e35e07f0b74e271e4a4dbbea679e0bbf5a70de2da762bb60e8",
+  "camera": 1,
+  "ccd": 3,
+  "baseline_n": 53,
+  "aperture_pixels": 4,
+  "frames": [
+    {
+      "offset_h": -1,
+      "n": 5,
+      "utc": "2026-09-28T15:00:04.811",
+      "ra_deg": 25.86697520603274,
+      "dec_deg": -1.8495238454997651,
+      "peak_x": 7,
+      "peak_y": 10,
+      "peak_excess": 7362.97021484375,
+      "loss_x": 10,
+      "loss_y": 8,
+      "ap_flux_delta": -79.06819152832031,
+      "ap_bkg_delta": 98.5487060546875
+    },
+    {
+      "offset_h": -0.5,
+      "n": 5,
+      "utc": "2026-09-28T15:30:04.810",
+      "ra_deg": 25.864753716828627,
+      "dec_deg": -1.8544409406623064,
+      "peak_x": 8,
+      "peak_y": 10,
+      "peak_excess": 55245.0859375,
+      "loss_x": 10,
+      "loss_y": 8,
+      "ap_flux_delta": -116.36190795898438,
+      "ap_bkg_delta": 142.84527587890625
+    },
+    {
+      "offset_h": 0,
+      "n": 5,
+      "utc": "2026-09-28T16:00:04.810",
+      "ra_deg": 25.862532215372973,
+      "dec_deg": -1.8593580328314314,
+      "peak_x": 9,
+      "peak_y": 10,
+      "peak_excess": 73941.40625,
+      "loss_x": 10,
+      "loss_y": 8,
+      "ap_flux_delta": -174.40447998046875,
+      "ap_bkg_delta": 175.2908935546875
+    },
+    {
+      "offset_h": 0.5,
+      "n": 5,
+      "utc": "2026-09-28T16:30:04.809",
+      "ra_deg": 25.862532215372973,
+      "dec_deg": -1.8593580328314314,
+      "peak_x": 9,
+      "peak_y": 10,
+      "peak_excess": 74160.3203125,
+      "loss_x": 10,
+      "loss_y": 8,
+      "ap_flux_delta": -222.24783325195312,
+      "ap_bkg_delta": 223.447998046875
+    },
+    {
+      "offset_h": 1,
+      "n": 5,
+      "utc": "2026-09-28T17:00:04.808",
+      "ra_deg": 25.86031070167234,
+      "dec_deg": -1.8642751219125262,
+      "peak_x": 10,
+      "peak_y": 10,
+      "peak_excess": 81065.6953125,
+      "loss_x": 10,
+      "loss_y": 7,
+      "ap_flux_delta": -30.896343231201172,
+      "ap_bkg_delta": 43.2119140625
+    }
+  ],
+  "limitations": "Peak sky positions are integer pixel coordinates in TPF WCS (~21 arcsec per pixel), spacecraft UTC, no centroid error/observer parallax. Raw FLUX+BKG restores estimated background, not independent calibrated FFI; quality mask and time-window medians apply."
+}

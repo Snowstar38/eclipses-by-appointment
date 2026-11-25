@@ -1,0 +1,408 @@
+{
+  "tic": 630314437,
+  "sector": 108,
+  "input_fits": {
+    "path": "C:\\Home\\tmp\\astra-background-pilot\\630314437-s108.fits",
+    "sha256": "0249054a4e3874e35e07f0b74e271e4a4dbbea679e0bbf5a70de2da762bb60e8"
+  },
+  "center_btjd": 4312.17265243838,
+  "half_hours": 0.75,
+  "interval_jd_utc": [
+    2461312.135238763,
+    2461312.1664877892,
+    2461312.1977368165
+  ],
+  "interval_utc": [
+    "2026-09-28T15:14:44.629",
+    "2026-09-28T15:59:44.545",
+    "2026-09-28T16:44:44.461"
+  ],
+  "quality0_midpoints": 43,
+  "total_finite_midpoints": 45,
+  "max_quality0_gap_min": 3.9999984204769135,
+  "stamp_shape_yx": [
+    11,
+    11
+  ],
+  "stamp_corners_deg": [
+    [
+      25.829548578390387,
+      -1.7921913812212389
+    ],
+    [
+      25.805111183191734,
+      -1.846278759049824
+    ],
+    [
+      25.861775626445777,
+      -1.8677076670313288
+    ],
+    [
+      25.886211604647254,
+      -1.8136195135046194
+    ]
+  ],
+  "footprint_radius_deg": 0.04369553111080162,
+  "midpoint_speed_allowance_arcsec_hour": 120,
+  "margin_pixels": 2,
+  "margin_padded_stamp_radius_deg": 0.0595848056515008,
+  "coverage": "bounded TESS search",
+  "geo_padding_deg": 0.3,
+  "propagation_magnitude_limit": 19,
+  "propagation_object_limit": 8,
+  "maximum_track_step_minutes": 5,
+  "measured_positions_input": "630314437-stamp-peaks.csv",
+  "search_mode": "TESS",
+  "searches": [
+    {
+      "observer": "@tess",
+      "epoch_jd_utc": 2461312.1664877892,
+      "center_deg": [
+        25.845661762358286,
+        -1.829949594589211
+      ],
+      "radius_deg": 0.08458480565150081,
+      "query_parameters": {
+        "TIME": "2461312.16648779",
+        "RA": "25.84566176",
+        "DEC": "-1.82994959",
+        "SR": "0.08458481",
+        "-observer": "@tess",
+        "-loc": "@tess",
+        "-objFilter": "100",
+        "-filter": "0",
+        "-mime": "text",
+        "-output": "basic"
+      },
+      "receipt": {
+        "url": "https://ssp.imcce.fr/webservices/skybot/api/conesearch.php?TIME=2461312.16648779&RA=25.84566176&DEC=-1.82994959&SR=0.08458481&-observer=%40tess&-loc=%40tess&-objFilter=100&-filter=0&-mime=text&-output=basic",
+        "retrieved_utc": "2026-11-25T02:28:47.910671+00:00",
+        "http_status": 200,
+        "sha256": "ffd2ae090849dccdc20b4910c39a27fb01da178bf2a81af490c731baa073c59b",
+        "bytes": 292
+      },
+      "status": "ok",
+      "candidates": [
+        {
+          "id": "4",
+          "name": "Vesta",
+          "mv": 6.5,
+          "skybot": {
+            "Num": "4",
+            "Name": "Vesta",
+            "RA(h)": "01 43 27.9403",
+            "DE(deg)": "-01 51 34.305",
+            "Class": "MB>Inner",
+            "Mv": "6.5",
+            "Err(arcsec)": "0.189",
+            "d(arcsec)": "130.066",
+            "dRA(arcsec/h)": "-29.9106",
+            "dDEC(arcsec/h)": "-15.151",
+            "Dg(ua)": "1.49585659280",
+            "Dh(ua)": "2.45527552948"
+          }
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "4",
+      "name": "Vesta",
+      "mv": 6.5,
+      "candidate_source": "SkyBoT",
+      "status": "verified",
+      "horizons_target": "4 Vesta (A807 FA)               {source: JPL#36}",
+      "receipts": [
+        {
+          "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%274%3B%27&CENTER=%27500%40-95%27&EPHEM_TYPE=OBSERVER&QUANTITIES=%271%2C9%27&CSV_FORMAT=YES&ANG_FORMAT=DEG&EXTRA_PREC=YES&CAL_FORMAT=BOTH&TIME_TYPE=UT&TLIST=%272461312.13523876%2C2461312.13871088%2C2461312.14218299%2C2461312.14565511%2C2461312.14588900%2C2461312.14912722%2C2461312.15259933%2C2461312.15607145%2C2461312.15954356%2C2461312.16301568%2C2461312.16648779%2C2461312.16672234%2C2461312.16995990%2C2461312.17343202%2C2461312.17690413%2C2461312.18037625%2C2461312.18384836%2C2461312.18732047%2C2461312.18755566%2C2461312.19079259%2C2461312.19426470%2C2461312.19773682%27",
+          "retrieved_utc": "2026-11-25T02:26:08.312687+00:00",
+          "sha256": "c7a800ca84015207503a9ea916a67d53668880aab5a7b8d20babe5fed65594bb",
+          "bytes": 10789
+        }
+      ],
+      "masks": {
+        "background": {
+          "n_mask_pixels": 24,
+          "hit_pixels_xy": [],
+          "closest_approach": {
+            "distance_pixels": 0.4284102290485194,
+            "mask_pixel_xy": [
+              9,
+              9
+            ],
+            "bracket_jd_utc": [
+              2461312.1942647,
+              2461312.19773682
+            ]
+          },
+          "proximity": "nearby",
+          "crossing_brackets_jd_utc": [],
+          "n_quality0_midpoints_in_mask": 0
+        },
+        "stellar": {
+          "n_mask_pixels": 4,
+          "hit_pixels_xy": [],
+          "closest_approach": {
+            "distance_pixels": 4.649705601953956,
+            "mask_pixel_xy": [
+              6,
+              6
+            ],
+            "bracket_jd_utc": [
+              2461312.18755566,
+              2461312.19079259
+            ]
+          },
+          "proximity": "distant",
+          "crossing_brackets_jd_utc": [],
+          "n_quality0_midpoints_in_mask": 0
+        },
+        "collected": {
+          "n_mask_pixels": 121,
+          "hit_pixels_xy": [
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          "closest_approach": {
+            "distance_pixels": 0.0,
+            "mask_pixel_xy": [
+              9,
+              10
+            ],
+            "bracket_jd_utc": [
+              2461312.1699599,
+              2461312.17343202
+            ]
+          },
+          "proximity": "center_hit",
+          "crossing_brackets_jd_utc": [
+            [
+              2461312.1699599,
+              2461312.17343202
+            ],
+            [
+              2461312.17343202,
+              2461312.17690413
+            ],
+            [
+              2461312.17690413,
+              2461312.18037625
+            ],
+            [
+              2461312.18037625,
+              2461312.18384836
+            ],
+            [
+              2461312.18384836,
+              2461312.18732047
+            ],
+            [
+              2461312.18732047,
+              2461312.18755566
+            ],
+            [
+              2461312.18755566,
+              2461312.19079259
+            ],
+            [
+              2461312.19079259,
+              2461312.1942647
+            ],
+            [
+              2461312.1942647,
+              2461312.19773682
+            ]
+          ],
+          "n_quality0_midpoints_in_mask": 17
+        }
+      },
+      "track_residuals": [
+        {
+          "utc": "2026-09-28T15:30:04.810",
+          "jd_utc": 2461312.1458890047,
+          "ra_deg": 25.864753716828627,
+          "dec_deg": -1.8544409406623064,
+          "residual_arcsec": 23.473
+        },
+        {
+          "utc": "2026-09-28T16:00:04.810",
+          "jd_utc": 2461312.166722338,
+          "ra_deg": 25.862532215372973,
+          "dec_deg": -1.8593580328314314,
+          "residual_arcsec": 13.913
+        },
+        {
+          "utc": "2026-09-28T16:30:04.809",
+          "jd_utc": 2461312.1875556596,
+          "ra_deg": 25.862532215372973,
+          "dec_deg": -1.8593580328314314,
+          "residual_arcsec": 8.296
+        }
+      ],
+      "path": [
+        {
+          "jd_utc": 2461312.13523876,
+          "ra_deg": 25.872672201,
+          "dec_deg": -1.856358898,
+          "x": 7.8130299960612355,
+          "y": 11.456538085130418
+        },
+        {
+          "jd_utc": 2461312.13871088,
+          "ra_deg": 25.871980304,
+          "dec_deg": -1.856709222,
+          "x": 7.919326178167388,
+          "y": 11.36806377458474
+        },
+        {
+          "jd_utc": 2461312.14218299,
+          "ra_deg": 25.871288278,
+          "dec_deg": -1.85705965,
+          "x": 8.02564892636591,
+          "y": 11.27957593239301
+        },
+        {
+          "jd_utc": 2461312.14565511,
+          "ra_deg": 25.870596191,
+          "dec_deg": -1.857410079,
+          "x": 8.131975883454894,
+          "y": 11.191078117582414
+        },
+        {
+          "jd_utc": 2461312.145889,
+          "ra_deg": 25.870549567,
+          "dec_deg": -1.857433687,
+          "x": 8.139138936925438,
+          "y": 11.185116307300788
+        },
+        {
+          "jd_utc": 2461312.14912722,
+          "ra_deg": 25.869903975,
+          "dec_deg": -1.857760611,
+          "x": 8.23832923305157,
+          "y": 11.102566696246429
+        },
+        {
+          "jd_utc": 2461312.15259933,
+          "ra_deg": 25.869211702,
+          "dec_deg": -1.858111142,
+          "x": 8.344686181522988,
+          "y": 11.014045815681422
+        },
+        {
+          "jd_utc": 2461312.15607145,
+          "ra_deg": 25.868519295,
+          "dec_deg": -1.85846178,
+          "x": 8.451070545817446,
+          "y": 10.925510799244417
+        },
+        {
+          "jd_utc": 2461312.15954356,
+          "ra_deg": 25.867826832,
+          "dec_deg": -1.858812416,
+          "x": 8.557458269719506,
+          "y": 10.836966414480589
+        },
+        {
+          "jd_utc": 2461312.16301568,
+          "ra_deg": 25.867134236,
+          "dec_deg": -1.859163158,
+          "x": 8.663873170176682,
+          "y": 10.748407984764299
+        },
+        {
+          "jd_utc": 2461312.16648779,
+          "ra_deg": 25.866441585,
+          "dec_deg": -1.859513899,
+          "x": 8.770291538365518,
+          "y": 10.659840427428914
+        },
+        {
+          "jd_utc": 2461312.16672234,
+          "ra_deg": 25.86639479,
+          "dec_deg": -1.859537595,
+          "x": 8.777481120651581,
+          "y": 10.653856884152955
+        },
+        {
+          "jd_utc": 2461312.1699599,
+          "ra_deg": 25.865748802,
+          "dec_deg": -1.859864744,
+          "x": 8.876736670144648,
+          "y": 10.571258841152783
+        },
+        {
+          "jd_utc": 2461312.17343202,
+          "ra_deg": 25.865055959,
+          "dec_deg": -1.86021559,
+          "x": 8.983185945575602,
+          "y": 10.482667448081182
+        },
+        {
+          "jd_utc": 2461312.17690413,
+          "ra_deg": 25.864362987,
+          "dec_deg": -1.86056654,
+          "x": 9.089661787663308,
+          "y": 10.394062523495597
+        },
+        {
+          "jd_utc": 2461312.18037625,
+          "ra_deg": 25.863669955,
+          "dec_deg": -1.86091749,
+          "x": 9.19614159981679,
+          "y": 10.305447717212095
+        },
+        {
+          "jd_utc": 2461312.18384836,
+          "ra_deg": 25.862976793,
+          "dec_deg": -1.861268545,
+          "x": 9.302648218117458,
+          "y": 10.216819288546052
+        },
+        {
+          "jd_utc": 2461312.18732047,
+          "ra_deg": 25.862283574,
+          "dec_deg": -1.861619599,
+          "x": 9.409158435849704,
+          "y": 10.12818140067608
+        },
+        {
+          "jd_utc": 2461312.18755566,
+          "ra_deg": 25.862236614,
+          "dec_deg": -1.861643381,
+          "x": 9.4163738056644,
+          "y": 10.1221769695598
+        },
+        {
+          "jd_utc": 2461312.19079259,
+          "ra_deg": 25.861590222,
+          "dec_deg": -1.861970759,
+          "x": 9.515695830594144,
+          "y": 10.039529467967242
+        },
+        {
+          "jd_utc": 2461312.1942647,
+          "ra_deg": 25.860896813,
+          "dec_deg": -1.862321918,
+          "x": 9.62223682487652,
+          "y": 9.950868076054304
+        },
+        {
+          "jd_utc": 2461312.19773682,
+          "ra_deg": 25.860203272,
+          "dec_deg": -1.862673183,
+          "x": 9.728804930601779,
+          "y": 9.862192805126938
+        }
+      ]
+    }
+  ],
+  "interpretation": "Nominal astrometric center against fixed pixel squares. The advisory margin expands both the cone footprint and mask proximity checks. The extent of measurable wings depends on source brightness and local PSF. No pointing jitter, saturation, PSF or orbit-error convolution. Window geometry includes gaps; quality-zero cadence counts are separate. A coincidence alone does not identify the cause of a dip. Midpoint search is bounded by assumed speed; geocentric padding cannot guarantee spacecraft completeness. Unknown asteroids and incomplete catalogs, excluded or unpropagated bodies remain unresolved."
+}

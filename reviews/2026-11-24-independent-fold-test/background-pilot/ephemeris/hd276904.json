@@ -1,0 +1,323 @@
+{
+  "tic": 187261476,
+  "sector": 59,
+  "input_fits": {
+    "path": "C:\\Home\\sky\\fold-test-2026-11-24\\second-2min\\pixels\\tp.fits",
+    "sha256": "99e4d604de841eac340a4b44b29443469ad9b98fb2321669b2fbc847f7a79bfd"
+  },
+  "center_btjd": 2917.75,
+  "half_hours": 1.5,
+  "interval_jd_utc": [
+    2459917.681309046,
+    2459917.743808596,
+    2459917.806308154
+  ],
+  "interval_utc": [
+    "2022-12-04T04:21:05.102",
+    "2022-12-04T05:51:05.063",
+    "2022-12-04T07:21:05.025"
+  ],
+  "quality0_midpoints": 87,
+  "total_finite_midpoints": 88,
+  "max_quality0_gap_min": 7.999996170401573,
+  "stamp_shape_yx": [
+    11,
+    11
+  ],
+  "stamp_corners_deg": [
+    [
+      72.6240722667564,
+      40.81575409647443
+    ],
+    [
+      72.70864020926501,
+      40.82528165903461
+    ],
+    [
+      72.69599968610046,
+      40.889262424982
+    ],
+    [
+      72.61135186295148,
+      40.87972559208504
+    ]
+  ],
+  "footprint_radius_deg": 0.045769556957150744,
+  "midpoint_speed_allowance_arcsec_hour": 120,
+  "margin_pixels": 2,
+  "margin_padded_stamp_radius_deg": 0.06241302103453981,
+  "coverage": "partial",
+  "geo_padding_deg": 0.3,
+  "propagation_magnitude_limit": 19,
+  "propagation_object_limit": 8,
+  "maximum_track_step_minutes": 5,
+  "measured_positions_input": null,
+  "search_mode": "geocentric fallback",
+  "searches": [
+    {
+      "observer": "@tess",
+      "epoch_jd_utc": 2459917.743808596,
+      "center_deg": [
+        72.66001602288796,
+        40.852513842007085
+      ],
+      "radius_deg": 0.11241302103453982,
+      "query_parameters": {
+        "TIME": "2459917.74380860",
+        "RA": "72.66001602",
+        "DEC": "40.85251384",
+        "SR": "0.11241302",
+        "-observer": "@tess",
+        "-loc": "@tess",
+        "-objFilter": "100",
+        "-filter": "0",
+        "-mime": "text",
+        "-output": "basic"
+      },
+      "receipt": {
+        "url": "https://ssp.imcce.fr/webservices/skybot/api/conesearch.php?TIME=2459917.74380860&RA=72.66001602&DEC=40.85251384&SR=0.11241302&-observer=%40tess&-loc=%40tess&-objFilter=100&-filter=0&-mime=text&-output=basic",
+        "retrieved_utc": "2026-11-25T02:29:02.281489+00:00",
+        "http_status": 204,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "status": "unavailable",
+      "error": "empty HTTP response; no catalogue verdict",
+      "candidates": []
+    },
+    {
+      "observer": "500",
+      "epoch_jd_utc": 2459917.743808596,
+      "center_deg": [
+        72.66001602288796,
+        40.852513842007085
+      ],
+      "radius_deg": 0.4124130210345398,
+      "query_parameters": {
+        "TIME": "2459917.74380860",
+        "RA": "72.66001602",
+        "DEC": "40.85251384",
+        "SR": "0.41241302",
+        "-observer": "500",
+        "-loc": "500",
+        "-objFilter": "100",
+        "-filter": "0",
+        "-mime": "text",
+        "-output": "basic"
+      },
+      "receipt": {
+        "url": "https://ssp.imcce.fr/webservices/skybot/api/conesearch.php?TIME=2459917.74380860&RA=72.66001602&DEC=40.85251384&SR=0.41241302&-observer=500&-loc=500&-objFilter=100&-filter=0&-mime=text&-output=basic",
+        "retrieved_utc": "2026-11-25T02:29:04.795243+00:00",
+        "http_status": 200,
+        "sha256": "2052beea2f84b52e9e0bc2cee070afaea4f1c1da4aa54d96d4e09f87ccd46fd5",
+        "bytes": 1285
+      },
+      "status": "ok",
+      "candidates": [
+        {
+          "id": "366851",
+          "name": "2005 RG2",
+          "mv": 19.9,
+          "skybot": {
+            "Num": "366851",
+            "Name": "2005 RG2",
+            "RA(h)": "04 49 35.6307",
+            "DE(deg)": "+40 44 46.998",
+            "Class": "MB>Middle",
+            "Mv": "19.9",
+            "Err(arcsec)": "0.154",
+            "d(arcsec)": "808.727",
+            "dRA(arcsec/h)": "-36.6398",
+            "dDEC(arcsec/h)": "-16.927",
+            "Dg(ua)": "1.34420758863",
+            "Dh(ua)": "2.29983108017"
+          }
+        },
+        {
+          "id": "829747",
+          "name": "2007 DZ130",
+          "mv": 22.3,
+          "skybot": {
+            "Num": "829747",
+            "Name": "2007 DZ130",
+            "RA(h)": "04 51 23.7201",
+            "DE(deg)": "+40 39 17.147",
+            "Class": "MB>Middle",
+            "Mv": "22.3",
+            "Err(arcsec)": "0.389",
+            "d(arcsec)": "878.612",
+            "dRA(arcsec/h)": "-34.6227",
+            "dDEC(arcsec/h)": "-1.297",
+            "Dg(ua)": "2.02471433976",
+            "Dh(ua)": "2.97556394459"
+          }
+        },
+        {
+          "id": "2021 PV50",
+          "name": "2021 PV50",
+          "mv": 22.7,
+          "skybot": {
+            "Num": "-",
+            "Name": "2021 PV50",
+            "RA(h)": "04 51 29.7706",
+            "DE(deg)": "+40 39 37.054",
+            "Class": "MB>Outer",
+            "Mv": "22.7",
+            "Err(arcsec)": "14262.500",
+            "d(arcsec)": "905.270",
+            "dRA(arcsec/h)": "-30.2930",
+            "dDEC(arcsec/h)": "-3.611",
+            "Dg(ua)": "2.27651917690",
+            "Dh(ua)": "3.22603814325"
+          }
+        },
+        {
+          "id": "591141",
+          "name": "2013 CP211",
+          "mv": 21.0,
+          "skybot": {
+            "Num": "591141",
+            "Name": "2013 CP211",
+            "RA(h)": "04 52 10.7977",
+            "DE(deg)": "+40 46 23.972",
+            "Class": "Trojan",
+            "Mv": "21.0",
+            "Err(arcsec)": "0.040",
+            "d(arcsec)": "1086.979",
+            "dRA(arcsec/h)": "-19.9938",
+            "dDEC(arcsec/h)": "-4.118",
+            "Dg(ua)": "4.20185850681",
+            "Dh(ua)": "5.14504714205"
+          }
+        },
+        {
+          "id": "2015 HY370",
+          "name": "2015 HY370",
+          "mv": 22.5,
+          "skybot": {
+            "Num": "-",
+            "Name": "2015 HY370",
+            "RA(h)": "04 48 57.8848",
+            "DE(deg)": "+40 48 20.072",
+            "Class": "MB>Middle",
+            "Mv": "22.5",
+            "Err(arcsec)": "1.488",
+            "d(arcsec)": "1153.343",
+            "dRA(arcsec/h)": "-33.3771",
+            "dDEC(arcsec/h)": "-1.186",
+            "Dg(ua)": "2.00261427727",
+            "Dh(ua)": "2.95323230314"
+          }
+        },
+        {
+          "id": "481735",
+          "name": "2008 GP21",
+          "mv": 20.8,
+          "skybot": {
+            "Num": "481735",
+            "Name": "2008 GP21",
+            "RA(h)": "04 49 13.3599",
+            "DE(deg)": "+41 03 23.337",
+            "Class": "MB>Outer",
+            "Mv": "20.8",
+            "Err(arcsec)": "0.062",
+            "d(arcsec)": "1211.354",
+            "dRA(arcsec/h)": "-36.3380",
+            "dDEC(arcsec/h)": "11.331",
+            "Dg(ua)": "2.45968192848",
+            "Dh(ua)": "3.40700807852"
+          }
+        },
+        {
+          "id": "782575",
+          "name": "2014 EN253",
+          "mv": 22.2,
+          "skybot": {
+            "Num": "782575",
+            "Name": "2014 EN253",
+            "RA(h)": "04 49 55.7023",
+            "DE(deg)": "+41 10 4.984",
+            "Class": "MB>Outer",
+            "Mv": "22.2",
+            "Err(arcsec)": "0.944",
+            "d(arcsec)": "1234.500",
+            "dRA(arcsec/h)": "-29.9480",
+            "dDEC(arcsec/h)": "-1.831",
+            "Dg(ua)": "2.75526180191",
+            "Dh(ua)": "3.70086229295"
+          }
+        },
+        {
+          "id": "2014 JW1",
+          "name": "2014 JW1",
+          "mv": 22.8,
+          "skybot": {
+            "Num": "-",
+            "Name": "2014 JW1",
+            "RA(h)": "04 48 42.3907",
+            "DE(deg)": "+41 01 54.673",
+            "Class": "MB>Outer",
+            "Mv": "22.8",
+            "Err(arcsec)": "32.606",
+            "d(arcsec)": "1464.509",
+            "dRA(arcsec/h)": "-32.0323",
+            "dDEC(arcsec/h)": "6.486",
+            "Dg(ua)": "2.83010617951",
+            "Dh(ua)": "3.77609814089"
+          }
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "366851",
+      "name": "2005 RG2",
+      "mv": 19.9,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "481735",
+      "name": "2008 GP21",
+      "mv": 20.8,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "591141",
+      "name": "2013 CP211",
+      "mv": 21.0,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "782575",
+      "name": "2014 EN253",
+      "mv": 22.2,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "829747",
+      "name": "2007 DZ130",
+      "mv": 22.3,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "2015 HY370",
+      "name": "2015 HY370",
+      "mv": 22.5,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "2021 PV50",
+      "name": "2021 PV50",
+      "mv": 22.7,
+      "status": "outside propagation budget or magnitude limit"
+    },
+    {
+      "id": "2014 JW1",
+      "name": "2014 JW1",
+      "mv": 22.8,
+      "status": "outside propagation budget or magnitude limit"
+    }
+  ],
+  "interpretation": "Nominal astrometric center against fixed pixel squares. The advisory margin expands both the cone footprint and mask proximity checks. The extent of measurable wings depends on source brightness and local PSF. No pointing jitter, saturation, PSF or orbit-error convolution. Window geometry includes gaps; quality-zero cadence counts are separate. A coincidence alone does not identify the cause of a dip. Midpoint search is bounded by assumed speed; geocentric padding cannot guarantee spacecraft completeness. Unknown asteroids and incomplete catalogs, excluded or unpropagated bodies remain unresolved."
+}
