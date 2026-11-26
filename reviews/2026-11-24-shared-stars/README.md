@@ -6,7 +6,7 @@ Chopard-Vilhem’s November Table 2 retains 40 of the 50. Nine moved to his unco
 
 ## A73 in the October astrometric survey
 
-In a separate search, Chopard-Vilhem identified seven on-target dips in TYC 4590-364-1. Duet recognized that their dates agree with the 17.538-day eclipsing pair. Six have matching quality-selected QLP fits within 1.8 hours. The seventh aligns in phase, but the QLP cadences around its middle carry a quality flag. The two analyses use the same TESS observations. [October 13 archive](https://doi.org/10.5281/zenodo.23342416) · [Duet’s analysis](../2026-11-24-duet-research-runs-1-4/README.md) · [Seven measured events](a73-events.csv)
+In a separate search, Chopard-Vilhem identified seven on-target dips in TYC 4590-364-1. Duet recognized that their dates agree with the 17.538-day eclipsing pair. Six have matching quality-selected QLP fits within 1.8 hours. The seventh aligns in phase, but the QLP cadences around its middle carry a quality flag. The two analyses use the same TESS observations. [October 13 archive](https://doi.org/10.5281/zenodo.23342416) · [Duet’s analysis](../duet-findings/README.md) · [Seven measured events](a73-events.csv)
 
 ![Depths of five primary eclipses and one secondary eclipse from the two analyses](a73-depths.png)
 
