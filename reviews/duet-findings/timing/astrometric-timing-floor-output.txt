@@ -1,0 +1,22 @@
+Light-travel floor for a coplanar, dark tertiary implied by Gaia DR3 RUWE (sigma_AL 0.06 / 0.10 / 0.20 mas per CCD)
+R113: RUWE 2.65, parallax 4.21 mas, G 10.66; residual 0.25 mas; floor 0.6 / 1.1 / 2.1 min at P3 ~ 218 d (P3 1000 d: 1.3, 3000 d: 6.3, 8000 d: 49.4 min at 0.10)
+R114: RUWE 3.71, parallax 3.39 mas, G 11.44; residual 0.36 mas; floor 1.1 / 1.9 / 3.7 min at P3 ~ 218 d (P3 1000 d: 2.3, 3000 d: 12.9, 8000 d: 85.3 min at 0.10)
+R173: RUWE 4.33, parallax 5.70 mas, G 11.48; residual 0.42 mas; floor 0.8 / 1.3 / 2.7 min at P3 ~ 170 d (P3 1000 d: 1.6, 3000 d: 8.3, 8000 d: 57.8 min at 0.10)
+R225: RUWE 1.79, parallax 1.52 mas, G 11.96; residual 0.15 mas; floor 1.1 / 1.8 / 3.5 min at P3 ~ 218 d (P3 1000 d: 2.1, 3000 d: 11.7, 8000 d: 82.7 min at 0.10); timed in 2 sectors (65, 101): sector-mean O-C rms 0.61 min, range 1.23 min
+R238: RUWE 1.85, parallax 2.57 mas, G 11.82; residual 0.16 mas; floor 0.7 / 1.1 / 2.2 min at P3 ~ 150 d (P3 1000 d: 1.3, 3000 d: 7.1, 8000 d: 49.2 min at 0.10); timed in 2 sectors (84, 85): sector-mean O-C rms 0.33 min, range 0.66 min
+R393: RUWE 2.94, parallax 2.59 mas, G 11.92; residual 0.28 mas; floor 1.1 / 1.9 / 3.8 min at P3 ~ 218 d (P3 1000 d: 2.3, 3000 d: 12.7, 8000 d: 85.3 min at 0.10); timed in 2 sectors (54, 81): sector-mean O-C rms 0.02 min, range 0.05 min
+R423: RUWE 1.70, parallax 5.05 mas, G 12.02; residual 0.14 mas; floor 0.3 / 0.5 / 1.0 min at P3 ~ 170 d (P3 1000 d: 0.6, 3000 d: 3.0, 8000 d: 21.9 min at 0.10); timed in 4 sectors (35, 61, 62, 99): sector-mean O-C rms 2.69 min, range 6.64 min
+R623: RUWE 3.00, parallax 7.82 mas, G 12.57; residual 0.28 mas; floor 0.4 / 0.6 / 1.3 min at P3 ~ 281 d (P3 1000 d: 0.8, 3000 d: 4.2, 8000 d: 33.7 min at 0.10); timed in 3 sectors (15, 49, 78): sector-mean O-C rms 5.61 min, range 12.94 min
+R625: RUWE 3.21, parallax 1.11 mas, G 12.57; residual 0.31 mas; floor 3.0 / 4.9 / 9.8 min at P3 ~ 193 d (P3 1000 d: 5.9, 3000 d: 32.3, 8000 d: 236.8 min at 0.10); timed in 3 sectors (16, 76, 85): sector-mean O-C rms 0.57 min, range 1.38 min
+R630: RUWE 3.69, parallax 2.63 mas, G 12.57; residual 0.35 mas; floor 1.4 / 2.4 / 4.8 min at P3 ~ 193 d (P3 1000 d: 2.9, 3000 d: 17.2, 8000 d: 104.6 min at 0.10); timed in 3 sectors (15, 48, 76): sector-mean O-C rms 6.04 min, range 13.30 min
+
+How often a RUWE-matching tertiary leaves the timing this flat (isotropic orientation):
+   R225: observed linear-fit rms 2.63 min over 2 sectors; flat in 100% of draws, median i of those 58 deg
+   R238: observed linear-fit rms 1.03 min over 2 sectors; flat in 100% of draws, median i of those 60 deg
+   R393: observed linear-fit rms 0.12 min over 2 sectors; flat in 72% of draws, median i of those 56 deg
+   R423: observed linear-fit rms 2.33 min over 4 sectors; flat in 94% of draws, median i of those 58 deg
+   R623: observed linear-fit rms 3.62 min over 3 sectors; flat in 96% of draws, median i of those 61 deg
+   R625: observed linear-fit rms 0.74 min over 3 sectors; flat in 20% of draws, median i of those 38 deg
+   R630: observed linear-fit rms 6.33 min over 3 sectors; flat in 82% of draws, median i of those 60 deg
+
+residual fraction r(P3) for R625's scans, edge-on circular: 150:0.47 281:0.45 525:0.44 981:0.39 1835:0.18 3431:0.06 6417:0.02 12000:0.00
