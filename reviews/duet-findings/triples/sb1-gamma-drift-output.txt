@@ -1,0 +1,89 @@
+SB1 rows: 571, F2 median 0.80, max 2.99; 42 in 2.5-3, 0 at 3 or above
+SB2 rows: 12, F2 max 29.0 (7 at 3 or above): the cut is on SB1 only
+all NSS exports and gaia.json files, SB1: 1312 rows, F2 max 3.00, 0 at 3 or above
+all NSS exports and gaia.json files, SB2: 87 rows, F2 max 41.95, 77 at 3 or above
+all NSS exports and gaia.json files, AstroSpectroSB1: 10 rows, F2 max 4.82, 5 at 3 or above
+all NSS exports and gaia.json files, Orbital: 11 rows, F2 max 11.17, 11 at 3 or above
+F2 from obj_func with nu = N - 6 reproduces the published value to 4.0e-07 (all 571 SB1 rows)
+
+R630: Gaia SB1 P 9.1995 d, K1 39.5 km/s, N_RV 19, per-epoch error 5.3 km/s (x1.05 to match the sample); published F2 0.64
+   no tertiary: median F2 0.85, published (F2 < 3) 98%, F2 >= published 58%
+   circular P3  1440 d (dchi2 3.6): DR3-span drift rms  4.9 km/s -> median F2  2.33, published  71%, F2 <= 0.64 in   8%
+   circular P3  1504 d (dchi2 1.5): DR3-span drift rms  3.9 km/s -> median F2  1.81, published  85%, F2 <= 0.64 in  14%
+   circular P3  1572 d (dchi2 0.5): DR3-span drift rms  3.0 km/s -> median F2  1.41, published  93%, F2 <= 0.64 in  24%
+   circular P3  1642 d (dchi2 0.0): DR3-span drift rms  2.6 km/s -> median F2  1.24, published  95%, F2 <= 0.64 in  28%
+   circular P3  1678 d (dchi2 0.0): DR3-span drift rms  2.7 km/s -> median F2  1.23, published  95%, F2 <= 0.64 in  30%
+   circular P3  1715 d (dchi2 0.0): DR3-span drift rms  2.9 km/s -> median F2  1.30, published  94%, F2 <= 0.64 in  28%
+   circular P3  1792 d (dchi2 0.3): DR3-span drift rms  3.3 km/s -> median F2  1.49, published  91%, F2 <= 0.64 in  22%
+   circular P3  1872 d (dchi2 0.6): DR3-span drift rms  3.7 km/s -> median F2  1.60, published  89%, F2 <= 0.64 in  18%
+   circular P3  1955 d (dchi2 1.1): DR3-span drift rms  3.8 km/s -> median F2  1.73, published  87%, F2 <= 0.64 in  17%
+   circular P3  2042 d (dchi2 1.5): DR3-span drift rms  3.6 km/s -> median F2  1.66, published  88%, F2 <= 0.64 in  17%
+   circular P3  2134 d (dchi2 2.0): DR3-span drift rms  3.2 km/s -> median F2  1.53, published  93%, F2 <= 0.64 in  21%
+   circular P3  2229 d (dchi2 2.5): DR3-span drift rms  2.7 km/s -> median F2  1.33, published  94%, F2 <= 0.64 in  26%
+   circular P3  2328 d (dchi2 2.9): DR3-span drift rms  2.1 km/s -> median F2  1.09, published  96%, F2 <= 0.64 in  33%
+   circular P3  2432 d (dchi2 3.4): DR3-span drift rms  1.5 km/s -> median F2  0.94, published  98%, F2 <= 0.64 in  38%
+   circular P3  2541 d (dchi2 3.8): DR3-span drift rms  1.2 km/s -> median F2  0.91, published  98%, F2 <= 0.64 in  39%
+   circular P3  2597 d (dchi2 4.0): DR3-span drift rms  1.1 km/s -> median F2  0.89, published  98%, F2 <= 0.64 in  40%
+
+R423: Gaia SB1 P 6.3083 d, K1 49.7 km/s, N_RV 40, per-epoch error 2.1 km/s (x1.05 to match the sample); published F2 1.48
+   no tertiary: median F2 0.81, published (F2 < 3) 98%, F2 >= published 25%
+   circular P3  1440 d (dchi2 3.7): DR3-span drift rms  2.2 km/s -> median F2  3.95, published  22%, F2 <= 1.48 in   2%
+   circular P3  1642 d (dchi2 0.1): DR3-span drift rms  1.4 km/s -> median F2  2.13, published  78%, F2 <= 1.48 in  29%
+   circular P3  1740 d (dchi2 0.0): DR3-span drift rms  1.6 km/s -> median F2  2.57, published  65%, F2 <= 1.48 in  18%
+   circular P3  1872 d (dchi2 0.1): DR3-span drift rms  1.2 km/s -> median F2  1.79, published  86%, F2 <= 1.48 in  39%
+   circular P3  2134 d (dchi2 0.3): DR3-span drift rms  1.0 km/s -> median F2  1.52, published  92%, F2 <= 1.48 in  49%
+   circular P3  2432 d (dchi2 0.5): DR3-span drift rms  1.7 km/s -> median F2  2.69, published  61%, F2 <= 1.48 in  15%
+   circular P3  2773 d (dchi2 0.7): DR3-span drift rms  1.0 km/s -> median F2  1.49, published  92%, F2 <= 1.48 in  50%
+   circular P3  3161 d (dchi2 0.8): DR3-span drift rms  0.9 km/s -> median F2  1.41, published  93%, F2 <= 1.48 in  52%
+   circular P3  3603 d (dchi2 0.9): DR3-span drift rms  2.0 km/s -> median F2  3.42, published  36%, F2 <= 1.48 in   6%
+   circular P3  4108 d (dchi2 0.9): DR3-span drift rms  2.5 km/s -> median F2  4.42, published  13%, F2 <= 1.48 in   1%
+   circular P3  4683 d (dchi2 1.0): DR3-span drift rms  2.1 km/s -> median F2  3.62, published  31%, F2 <= 1.48 in   5%
+   circular P3  5338 d (dchi2 1.0): DR3-span drift rms  1.2 km/s -> median F2  1.81, published  85%, F2 <= 1.48 in  39%
+   circular P3  6086 d (dchi2 1.0): DR3-span drift rms  0.6 km/s -> median F2  1.06, published  97%, F2 <= 1.48 in  65%
+   circular P3  6937 d (dchi2 1.1): DR3-span drift rms  1.9 km/s -> median F2  3.12, published  46%, F2 <= 1.48 in   9%
+   circular P3  7300 d (dchi2 1.1): DR3-span drift rms  2.4 km/s -> median F2  4.37, published  14%, F2 <= 1.48 in   1%
+
+R371: Gaia SB1 P 4.7669 d, K1 53.4 km/s, N_RV 21, per-epoch error 4.1 km/s (x1.05 to match the sample); published F2 1.95
+   no tertiary: median F2 0.81, published (F2 < 3) 99%, F2 >= published 13%
+   circular P3   547 d (dchi2 3.8): DR3-span drift rms 10.8 km/s -> median F2  8.47, published   1%, F2 <= 1.95 in   0%
+   circular P3   584 d (dchi2 3.9): DR3-span drift rms 11.4 km/s -> median F2  9.02, published   1%, F2 <= 1.95 in   0%
+   circular P3  1913 d (dchi2 3.9): DR3-span drift rms  2.7 km/s -> median F2  1.61, published  88%, F2 <= 1.95 in  62%
+   circular P3  1998 d (dchi2 3.1): DR3-span drift rms  2.9 km/s -> median F2  1.71, published  87%, F2 <= 1.95 in  58%
+   circular P3  2245 d (dchi2 1.7): DR3-span drift rms  2.4 km/s -> median F2  1.45, published  93%, F2 <= 1.95 in  68%
+   circular P3  2522 d (dchi2 1.1): DR3-span drift rms  1.1 km/s -> median F2  0.97, published  98%, F2 <= 1.95 in  84%
+   circular P3  2834 d (dchi2 0.7): DR3-span drift rms  0.9 km/s -> median F2  0.82, published  98%, F2 <= 1.95 in  85%
+   circular P3  3184 d (dchi2 0.5): DR3-span drift rms  1.6 km/s -> median F2  1.16, published  96%, F2 <= 1.95 in  78%
+   circular P3  3577 d (dchi2 0.3): DR3-span drift rms  1.9 km/s -> median F2  1.23, published  95%, F2 <= 1.95 in  76%
+   circular P3  4019 d (dchi2 0.2): DR3-span drift rms  1.8 km/s -> median F2  1.18, published  97%, F2 <= 1.95 in  78%
+   circular P3  4515 d (dchi2 0.1): DR3-span drift rms  1.3 km/s -> median F2  0.98, published  97%, F2 <= 1.95 in  82%
+   circular P3  5073 d (dchi2 0.1): DR3-span drift rms  0.6 km/s -> median F2  0.88, published  99%, F2 <= 1.95 in  86%
+   circular P3  5700 d (dchi2 0.1): DR3-span drift rms  0.5 km/s -> median F2  0.82, published  98%, F2 <= 1.95 in  86%
+   circular P3  6404 d (dchi2 0.0): DR3-span drift rms  1.1 km/s -> median F2  0.93, published  98%, F2 <= 1.95 in  83%
+   circular P3  7195 d (dchi2 0.0): DR3-span drift rms  1.9 km/s -> median F2  1.25, published  95%, F2 <= 1.95 in  75%
+   circular P3  7300 d (dchi2 0.0): DR3-span drift rms  1.9 km/s -> median F2  1.29, published  95%, F2 <= 1.95 in  73%
+
+R623: Gaia SB1 P 2.4102 d, K1 62.7 km/s, N_RV 35, per-epoch error 3.3 km/s (x1.06 to match the sample); published F2 2.40
+   no tertiary: median F2 0.82, published (F2 < 3) 98%, F2 >= published 6%
+   e 0.70 P3  1800 d (chi2 174.0): DR3-span drift rms  2.4 km/s -> median F2  2.39, published  70%, F2 <= 2.40 in  50%
+   e 0.59 P3  2000 d (chi2 164.9): DR3-span drift rms  1.9 km/s -> median F2  1.86, published  84%, F2 <= 2.40 in  68%
+   e 0.55 P3  2200 d (chi2 165.1): DR3-span drift rms  1.4 km/s -> median F2  1.47, published  92%, F2 <= 2.40 in  81%
+   e 0.52 P3  2500 d (chi2 165.9): DR3-span drift rms  1.0 km/s -> median F2  1.11, published  96%, F2 <= 2.40 in  89%
+   e 0.49 P3  3000 d (chi2 166.9): DR3-span drift rms  0.4 km/s -> median F2  0.90, published  98%, F2 <= 2.40 in  92%
+   e 0.49 P3  3500 d (chi2 167.4): DR3-span drift rms  0.3 km/s -> median F2  0.90, published  98%, F2 <= 2.40 in  93%
+   e 0.53 P3  4000 d (chi2 167.4): DR3-span drift rms  0.2 km/s -> median F2  0.94, published  98%, F2 <= 2.40 in  93%
+   e 0.51 P3  5000 d (chi2 167.9): DR3-span drift rms  1.6 km/s -> median F2  1.53, published  91%, F2 <= 2.40 in  79%
+   e 0.58 P3  6500 d (chi2 167.7): DR3-span drift rms  1.2 km/s -> median F2  1.32, published  95%, F2 <= 2.40 in  85%
+   e 0.62 P3  8000 d (chi2 167.7): DR3-span drift rms  1.2 km/s -> median F2  1.25, published  95%, F2 <= 2.40 in  86%
+   e 0.68 P3 12000 d (chi2 167.8): DR3-span drift rms  1.6 km/s -> median F2  1.50, published  92%, F2 <= 2.40 in  80%
+
+Drift (rms over DR3, linear ramp) at which an SB1 has a 50% chance of falling over the cut,
+for the sample's median noise factor; in units of the per-epoch error:
+   N_RV 14: 1.35 sigma
+   N_RV 20: 1.20 sigma
+   N_RV 26: 1.05 sigma
+   N_RV 34: 0.95 sigma
+   N_RV 42: 0.85 sigma
+
+SB1 sample: per-epoch error median 3.7 km/s (16-84%: 2.3-6.0), N_RV median 22
+   A95 as an SB1 with N_RV 22 and 3.7 km/s per epoch: DR3 drift rms 6.1 km/s, median F2 5.1, published 9%
+   A119 as an SB1 with N_RV 22 and 3.7 km/s per epoch: DR3 drift rms 6.1 km/s, median F2 5.1, published 14%

@@ -1,0 +1,59 @@
+period (Gaia vs eclipse), R and A: n 189, robust width 1.06; Spearman(|z|, F2) +0.07 (one-sided p 0.184)
+   by F2 tercile: F2 -2.8 to +0.2: width 0.96, |z|>=3 0; F2 +0.2 to +1.3: width 1.01, |z|>=3 3; F2 +1.3 to +3.0: width 1.08, |z|>=3 3
+   divided by each solution's sqrt(chi2/nu) (median 1.09): width 0.94, |z|>=3 5 (was 6)
+conjunction at Gaia epoch, R: n 165, robust width 1.25; Spearman(|z|, F2) +0.19 (one-sided p 0.007)
+   by F2 tercile: F2 -2.8 to +0.2: width 1.22, |z|>=3 0; F2 +0.2 to +1.4: width 0.93, |z|>=3 1; F2 +1.4 to +3.0: width 1.76, |z|>=3 3
+   divided by each solution's sqrt(chi2/nu) (median 1.10): width 1.10, |z|>=3 1 (was 4)
+conjunction at Gaia epoch, A: n 155, robust width 1.54; Spearman(|z|, F2) +0.25 (one-sided p 0.001)
+   by F2 tercile: F2 -2.8 to +0.2: width 1.05, |z|>=3 3; F2 +0.2 to +1.1: width 1.30, |z|>=3 0; F2 +1.1 to +3.0: width 2.22, |z|>=3 7
+   divided by each solution's sqrt(chi2/nu) (median 1.09): width 1.39, |z|>=3 5 (was 10)
+
+conjunctions (R and A, n 320): errors scale as 1.24 exp(0.18 F2), i.e. x1.04 at F2 = -1, x1.24 at 0, x1.48 at 1, x1.78 at 2, x2.13 at 3
+   slope b: 68% bootstrap 0.10-0.22; b = 0 in 0% of resamples
+   conjunction at Gaia epoch, R: |z|>=3 4 as published -> 1 with the F2 scale (-> 1 with a flat 1.4); width 1.25 -> 0.85
+      P025  z  -4.47  F2 +0.63  scaled  -3.22
+      R810  z  -3.61  F2 +2.87  scaled  -1.74
+      R720  z  +3.57  F2 +2.70  scaled  +1.77
+      R833  z  +3.56  F2 +2.20  scaled  +1.93
+   conjunction at Gaia epoch, A: |z|>=3 10 as published -> 3 with the F2 scale (-> 2 with a flat 1.4); width 1.54 -> 1.06
+      A102  z  +4.82  F2 +2.32  scaled  +2.56
+      A87   z  -4.80  F2 +2.65  scaled  -2.40
+      A63   z  -4.15  F2 +2.84  scaled  -2.01
+      A202  z  +3.97  F2 +2.73  scaled  +1.96
+      A41   z  -3.63  F2 -0.81  scaled  -3.39
+      A65   z  +3.52  F2 -0.53  scaled  +3.12
+      A109  z  +3.25  F2 +1.84  scaled  +1.88
+      A145  z  +3.24  F2 -1.27  scaled  +3.29
+      A48   z  +3.11  F2 +2.36  scaled  +1.64
+      A42   z  +3.03  F2 +2.00  scaled  +1.70
+   confirmed systems only (n 273): Spearman(|z|, F2) +0.23 (p 0.0001); widths by F2 tercile 1.05, 1.23, 1.88
+
+same mean scale (1.44): robust width by F2 quartile, F2 scale | flat:
+   F2 -2.8 to -0.2: 1.07 | 0.76
+   F2 -0.2 to +0.7: 0.92 | 0.82
+   F2 +0.7 to +1.7: 0.86 | 0.91
+   F2 +1.7 to +3.0: 1.09 | 1.47
+   windows at +-3 sigma: misses 4 with the F2 scale, 3 flat (of 320)
+   windows at +-4 sigma: misses 0 with the F2 scale, 0 flat (of 320)
+   windows at +-5 sigma: misses 0 with the F2 scale, 0 flat (of 320)
+
+eccentricity on circular SB1s below 3 d (n 30): Rayleigh scale 1.39; F2 below median 0.93 (n 15), above 1.73 (n 15); with the conjunction F2 scale 0.95 (low 0.81, high 1.07)
+
+Table 4 e cos w failures under the F2 scale (quoted sigma -> scaled; flat 1.37 in brackets):
+   A21   F2 +1.81: 3.7 -> 2.15 [2.70]
+   A28: no SB1 row
+   A30: no SB1 row
+   A63   F2 +2.84: 3.8 -> 1.84 [2.77]
+   A65   F2 -0.53: 4.0 -> 3.55 [2.92]
+   A145  F2 -1.27: 4.5 -> 4.56 [3.28]
+   A159  F2 +2.64: 3.3 -> 1.65 [2.41]
+   A202  F2 +2.73: 3.5 -> 1.73 [2.55]
+
+SB2 and SB2C solutions of the A sample (a-epoch-test.csv), pulls divided by each solution's sqrt(chi2/nu):
+   n 29; F2 median 7.5 (max 28.8); sqrt(chi2/nu) median 2.10 (0.91-5.30)
+   period: width 2.31, |z|>=3 8; Spearman(|z|, F2) +0.20 (p 0.150); scaled: width 1.12, |z|>=3 0
+   conjunction at Gaia epoch: width 2.95, |z|>=3 10; Spearman(|z|, F2) +0.48 (p 0.005); scaled: width 1.26, |z|>=3 3; A29 -32.4 -> -6.2; A89 +6.3 -> +3.5; A167 +11.9 -> +4.3
+
+conjunction kind (clean timing, SB1, n 471): kind-1 fraction by F2 <0 / 0-1 / 1-2 / 2-3: 0.12 / 0.10 / 0.08 / 0.14; median F2 probable 0.78, confirmed 0.88
+
+Spearman with F2, accepted R systems' SB1s: teff -0.21 (p 9e-06, n 452); bp_rp +0.13 (p 0.002, n 546); K1 +0.15 (p 0.0006, n 546); G +0.06 (p 0.2, n 546); ruwe +0.07 (p 0.1, n 546); P -0.08 (p 0.06, n 546); e -0.08 (p 0.08, n 546)
