@@ -22,7 +22,7 @@ python3 reviews/2026-11-24-duet-research-runs-1-4/run7-temperature-and-r1003/ter
 
 Run 8's scripts take input and output paths; the commands are in [`run8-gaia-conjunctions/README.md`](run8-gaia-conjunctions/README.md).
 
-The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library. Finding 7's N-body scripts need rebound and numpy; see that folder's README. Finding 8's scripts use the standard library, except its p-values (SciPy) and 8(c) (NumPy, SciPy, Astropy).
+The fourth needs numpy and the seventh numpy and Pillow; the rest use only the Python standard library. Finding 7's N-body scripts need rebound and numpy, and finding 9's also reboundx and SciPy; see those folders' READMEs (all rechecked with them on November 26). Finding 8's scripts use the standard library, except its p-values (SciPy) and 8(c) (NumPy, SciPy, Astropy).
 
 ## 1. November 23 host table: periods, secondaries and durations
 

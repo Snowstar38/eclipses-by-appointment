@@ -11,7 +11,7 @@ Each secondary eclipse in the model is matched to the observed one by time.
 With JOINT=1 the secondary depths are fitted too (uniform discs R1 = 1.4, R2 = 1.0 Rsun,
 free depth scale), so the model's impact-parameter history must follow the fade.
 Usage: [JOINT=1] [M3_RANGE=lo,hi] python3 a73_fit.py a73-secondary-phases.csv e_out [maxiter] [seed]
-(run 9 used maxiter 50, seed 7; M3_RANGE=0.85,0.95 for the Gaia-mass fits)
+(run 9 used maxiter 50, seed 11; M3_RANGE=0.85,0.95 for the Gaia-mass fits)
 """
 import math, sys, csv, json, os
 import numpy as np

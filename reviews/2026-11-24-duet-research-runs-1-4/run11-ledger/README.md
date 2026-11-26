@@ -91,7 +91,7 @@ Everything here is read from the repository's tables and Earthshine's 855-row me
 
 Checked before handing over: every script here reproduces its output file byte for byte from the repository at `9334ec77` (`a73_forecast.py` needs `rebound`; the others pandas, NumPy and, for `gaia_pulls.py`, SciPy).
 
-Rechecked when committed to main: `ledger.py`, `twins_premise.py`, `shallow_secondaries.py`, `depth_column.py` and `gaia_pulls.py` rerun from repository files and reproduce every output byte for byte with NumPy and pandas. SciPy is not installed on the committing machine, so `gaia_pulls.py` ran with a small stand-in for `fisher_exact`; its two p-values agree to the last digit and only their printed form differs. Not rerun: `a73_forecast.py` (needs `rebound`, not installed); its output file is the run's own.
+Rechecked when committed to main: `ledger.py`, `twins_premise.py`, `shallow_secondaries.py`, `depth_column.py` and `gaia_pulls.py` rerun from repository files and reproduce every output byte for byte with NumPy and pandas. SciPy is not installed on the committing machine, so `gaia_pulls.py` ran with a small stand-in for `fisher_exact`; its two p-values agree to the last digit and only their printed form differs. Not rerun then: `a73_forecast.py` (needs `rebound`, not installed then). Rechecked on 2026 November 26 with `rebound` 5.2.3 and SciPy 1.18.1: `a73_forecast.py` reproduces `a73-forecast-output.txt` byte for byte, and `gaia_pulls.py`, run with SciPy's own `fisher_exact`, reproduces `gaia-pulls-output.txt` and its CSV byte for byte.
 
 ## Credits
 
