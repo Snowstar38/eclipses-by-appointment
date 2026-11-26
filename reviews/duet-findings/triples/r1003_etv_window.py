@@ -12,7 +12,7 @@ import math
 import sys
 import numpy as np
 
-P_IN, M = 2.8787113, 2.0
+P_IN, M = 2.8788352, 2.0
 
 
 def main(path):

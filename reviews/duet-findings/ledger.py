@@ -130,8 +130,8 @@ put('R1505', 'period', 'limitation', 'eccentric (e sin w >~ 0.3) or a smaller ho
 put('R1117', 'period', 'adopted_period_days', 2.636664, 'proposed', 'alternate eclipses differ: B 2.4% shallower in 25 of 27 sectors against local flanks',
     'reviews/duet-findings/triples/r1117-depths-output.txt')
 put('R1003', 'period', 'adopted_period_days, adopted_epoch_btjd, depth_ppt, secondary_depth_ppt',
-    '2026 ephemeris: P 2.878814 d (s101 times barycentred), T0 in s100, depths 144.4 / 76.5 ppt; note eclipses absent before 2026', 'proposed',
-    'tabled epoch sits in an eclipse-free sector; tabled P is 18 sigma (scaled) off the 2026 one', 'reviews/duet-findings/timing/qlp-barycentre-output.txt')
+    '2026 ephemeris: P 2.878835 d (s101 offset removed), T0 in s100, depths 144.4 / 76.5 ppt; note eclipses absent before 2026', 'proposed',
+    'tabled epoch sits in an eclipse-free sector; tabled P is 17 sigma (scaled) off the 2026 one', 'reviews/duet-findings/timing/qlp-barycentre-output.txt')
 
 # 7. Paper, accepted-systems and methods text
 PAPER = [
@@ -172,12 +172,22 @@ PAPER = [
   'print the G 11-11.5 sentence once and match Table 1: 45 of 50 reviewed, 42 confirmed, 1.6 per hundred, 5 unreviewed',
   'proposed', 'the sentence ("first twenty of fifty ... 0.8 per hundred ... thirty outstanding") is stale and appears three times in paper.html, twice in paper.pdf',
   'reviews/duet-findings/paper-text/paper-counts-output.txt'),
- ('s101-barycentre', 'review evidence, host tables', 'sector 101+ eclipse times',
-  'apply the barycentric correction to s101+ light-curve times, then refit the 82 ephemerides that use them (23 move > 3 sigma)', 'proposed',
-  'timing residuals track the Roemer delay with slope 0.98 +- 0.02, 30 of 30 signs', 'reviews/duet-findings/timing/qlp-barycentre-periods.csv'),
+ ('s101-barycentre', 'review evidence, host tables', 'sector 101-104 eclipse times',
+  'correct s102-104 times to the barycentre and s101 times by +3.47 min, then refit the 82 ephemerides that use them (24 move > 3 sigma)', 'proposed',
+  's102-104 residuals track the Roemer delay (k = 1.02-1.09); s101 is barycentric but 3.5 min early (chi2 2.6/6 against 219/6)', 'reviews/duet-findings/timing/qlp-barycentre-periods.csv'),
+ ('s14-15-clock', 'review evidence', 'sector 14 and 15 eclipse times',
+  'find how the s14-15 TIME column was built; the times carry about 1.5 times the Roemer delay', 'open',
+  'k = 1.52 +- 0.06 over 8 targets in s14, median 1.49 over 8 in s15; other 30-min sectors show none', 'reviews/duet-findings/timing/qlp-barycentre-output.txt'),
+ ('published-ephemerides', 'review tables (period_days, period_error_days, primary_epoch_btjd)', '82 ephemerides using s101+ events',
+  'refit with corrected times before publishing predictions: 2028 primaries move a median 6.4 min, > 10 min in 29, beyond 2 sigma in 33', 'proposed',
+  'same periods as their measurements.json; corrected periods move > 1 published sigma in 50', 'reviews/duet-findings/timing/published-ephemeris-shifts.csv'),
  ('methods-timing', 'methods.md', 'timing section',
-  'state that all times are BJD_TDB and that s101+ products were corrected', 'proposed',
-  'the s101+ light curves lack the correction', 'reviews/duet-findings/timing/qlp-barycentre-output.txt'),
+  'state that all times are BJD_TDB and that the s14-15 and s101-104 products were corrected', 'proposed',
+  'those sectors time as if their clocks differ (see s101-barycentre, s14-15-clock)', 'reviews/duet-findings/timing/qlp-barycentre-output.txt'),
+ ('A204-etv', 'paper.html', 'A204 note', "replace the open 'third body or a pipeline systematic' with: the s99-s102 swing is the sector 101-102 clock fault in the house's QLP times (5.0 min predicted, about 6 seen)", 'proposed',
+  'clock model leaves 0.6 min rms of 1.9', 'reviews/duet-findings/timing/a-system-etvs-output.txt'),
+ ('A167-etv', 'paper.html', 'A167 note', 'drop the s100-s101 swing as evidence of a short outer period (it is the s101 offset); keep the slower +-2 min variation as the third-body hint', 'proposed',
+  's101 offset predicts -3.5 min, seen -2.6 / -2.9', 'reviews/duet-findings/timing/a-system-etvs-output.txt'),
  ('sb2-masses', 'paper.html', 'Section 3.4 or a new table',
   'give dynamical masses for the 35 eclipsing Gaia SB2s whose orbits hold at the eclipse period (median 1.10 Msun per star, 3% errors)', 'for decision',
   "eclipses fix sin i; masses reproduce the paper's A179 and A204 values and agree with TIC masses (median 0.98)",
