@@ -1,0 +1,108 @@
+2420 science targets with data; 66 accepted, 5 of them reviewed at a period other than Gaia's (left out of "found": 1269035, 150606032, 65684549, 71295367, 95324628)
+
+[default: 2 ppt floor, window coverage, giants 1.4 Msun] targets 2392, expected 155.4, found 61 (ratio 0.39)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1040     54.59     40            0.73
+long (>30 h)           206     35.29      4            0.11
+shallow (<60 ppt)     1146     65.52     17            0.26
+share of finds in the deep group 40/61 against 0.35 expected: p = 1.3e-06
+
+by predicted depth (ppt) and duration (h):
+                      expected  found  found/expected
+depth_bin  dur_bin                                   
+(0, 20]    (0, 15]       13.17      1            0.08
+           (15, 30]      18.47      4            0.22
+           (30, 300]     33.92      4            0.12
+(20, 60]   (0, 15]       26.74      5            0.19
+           (15, 30]       7.14      7            0.98
+           (30, 300]      1.36      0            0.00
+(60, 1001] (0, 15]       51.59     39            0.76
+           (15, 30]       3.00      1            0.33
+
+by predicted depth (ppt), all durations:
+            expected  found  found/expected
+depth_band                                 
+<20            65.56      9            0.14
+20-60          35.25     12            0.34
+>=60           54.59     40            0.73
+
+deep (>=60 ppt) by Gaia orbit significance:
+                 targets  expected  found  found/expected
+sig_band                                                 
+(0.0, 15.0]          244     13.44      6            0.45
+(15.0, 30.0]         470     22.87     16            0.70
+(30.0, 60.0]         293     15.97     15            0.94
+(60.0, 10000.0]       33      2.30      3            1.30
+
+shallow (<60 ppt) by Gaia orbit significance:
+                 targets  expected  found  found/expected
+sig_band                                                 
+(0.0, 15.0]          564     28.55      2            0.07
+(15.0, 30.0]         363     19.36      7            0.36
+(30.0, 60.0]         185     14.48      4            0.28
+(60.0, 10000.0]       34      3.12      4            1.28
+
+joint Poisson fit, found = expected x exp(b0 + b1 shallow + b2 long + b3 log10(sig/30)), 2173 targets with a significance:
+  b0 (deep, sig 30)  -0.19 +- 0.16   factor 0.83
+  b1 shallow         -0.92 +- 0.28   factor 0.40
+  b2 long            -2.41 +- 0.54   factor 0.09
+  b3 log10 sig       +1.83 +- 0.48   factor 6.20
+  so the found rate goes as significance^0.79 +- 0.21
+
+orbits with significance >= 30: 716 targets, expected 65.8, found 30; deep 18.3 expected, 18 found
+re-search list, long (>30 h): 30 not-found orbits (significance >= 20) with the highest chance sum to 8.0 expected (median depth 3 ppt, duration 50 h)
+re-search list, shallow (<60 ppt): 30 not-found orbits (significance >= 20) with the highest chance sum to 5.0 expected (median depth 9 ppt, duration 21 h)
+
+dwarfs and subgiants only (shallow = True):
+       expected  found
+sh                    
+False     51.67     38
+True      35.99      7
+
+[1 ppt floor] targets 2392, expected 169.3, found 61 (ratio 0.36)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1040     54.59     40            0.73
+long (>30 h)           266     47.07      4            0.08
+shallow (<60 ppt)     1086     67.67     17            0.25
+share of finds in the deep group 40/61 against 0.32 expected: p = 9.8e-08
+
+[5 ppt floor] targets 2392, expected 128.4, found 61 (ratio 0.48)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1040     54.59     40            0.73
+long (>30 h)           105     16.03      3            0.19
+shallow (<60 ppt)     1247     57.78     18            0.31
+share of finds in the deep group 40/61 against 0.43 expected: p = 2.4e-04
+
+[giants 2.0 Msun] targets 2392, expected 155.7, found 61 (ratio 0.39)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1065     56.66     46            0.81
+long (>30 h)           218     35.00      4            0.11
+shallow (<60 ppt)     1109     64.08     11            0.17
+share of finds in the deep group 46/61 against 0.36 expected: p = 6.1e-10
+
+[companion radii x1.2] targets 2392, expected 167.9, found 61 (ratio 0.36)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1250     70.44     48            0.68
+long (>30 h)           241     42.27      4            0.09
+shallow (<60 ppt)      901     55.21      9            0.16
+share of finds in the deep group 48/61 against 0.42 expected: p = 5.3e-09
+
+[no window coverage] targets 2392, expected 165.9, found 61 (ratio 0.37)
+                   targets  expected  found  found/expected
+group                                                      
+deep (>=60 ppt)       1040     58.68     40            0.68
+long (>30 h)           206     37.22      4            0.11
+shallow (<60 ppt)     1146     70.05     17            0.24
+share of finds in the deep group 40/61 against 0.35 expected: p = 1.5e-06
+
+eclipsing systems, |Gaia pull| against orbit significance (Spearman):
+  conjunction at Gaia epoch, A: n = 155, rho = +0.06, p = 0.47, 3-sigma misses 10, of them at significance < 20: 2
+  conjunction at Gaia epoch, R: n = 165, rho = +0.08, p = 0.29, 3-sigma misses 4, of them at significance < 20: 1
+  period (Gaia vs eclipse), R and A: n = 189, rho = +0.04, p = 0.58, 3-sigma misses 6, of them at significance < 20: 0
+
+G 11.5-12 finds with clean repeated eclipses (32): offset from Gaia conjunction / quoted sigma, robust width 1.11; 0.89 at F2 <= 1.5 (27), 1.63 above (5); Spearman |z| vs F2 rho = +0.24, p = 0.20

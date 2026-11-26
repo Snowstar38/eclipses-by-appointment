@@ -245,6 +245,14 @@ PAPER = [
   "add that Gaia DR3's SB1 errors grow with the solution's goodness of fit (about 1.0x at F2 = -1, 1.5x at 1, 2.1x at 3 on conjunctions and eccentricities), so appointment windows built from Gaia's errors are tight for poorly fitted orbits and generous for well-fitted ones; a window scaled by F2 calibrates every F2 quartile",
   'for decision', 'conjunction pulls at Gaia epoch widen with F2 (Spearman p = 0.001 for 155 A systems, 0.007 for 165 R systems); period pulls do not',
   'reviews/duet-findings/gaia-errors/fit-quality-scaling-output.txt'),
+  ('yield-depth', 'paper.html', 'Discussion (why the appointments method works, and its yield)',
+  "add that the yield is set by eclipse depth and Gaia orbit quality: in the G 11.5-12 cohorts deep eclipses (60 ppt or more) on orbits of significance 30 or more are found at the geometric rate (18 against 18.3 expected), shallow ones at about 0.4 of it and the day-long eclipses of giants at about 0.1, and weak orbits (significance below 15) yield about a fifth; per-hundred yields across magnitude bands mix these with each band's share of giants and weak orbits",
+  'for decision', '155 eclipsing systems expected from the Gaia rows against 61 found; deep share of finds 40/61 against 35% expected (p = 1e-6); robust to depth floor, masses, companion radii and coverage',
+  'reviews/duet-findings/yield/fresh-band-yield-output.txt'),
+  ('faint-band-channel', 'paper.html', 'Methods (faint-band conjunction and raw-event search)',
+  "say that the review leads came from visual sheets of the period-free raw-event harvest alone, so all 66 accepted claims carry a raw-event dip flag and none rests on the conjunction windows; the 485 conjunction-only passes were not reviewed (and show no excess of repeated dips at a fixed conjunction offset)",
+  'proposed', 'triage_fresh*.py plots only bulk_events.py dip windows; 61 of 61 Gaia-period finds are dip-flagged, 49 also pass the appointment test',
+  'reviews/duet-findings/yield/fresh-band-channels-output.txt'),
 ]
 for pid, target, col, prop, st, basis, ev in PAPER:
     put(pid, 'paper', col, prop, st, basis, ev, target=target)

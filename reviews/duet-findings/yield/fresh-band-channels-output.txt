@@ -1,0 +1,17 @@
+2392 science targets; appointment test passed by 731 (31%), period-free dip flag on 594 (25%)
+
+finds at Gaia's period by channel (rows: appointment pass; columns: dip flag):
+dip    True
+app        
+False    12
+True     49
+
+finds failing the appointment test: 12; reasons {'null_exceedance': 4, 'halves': 2, 'maximum_box_shape': 6, 'snr<8': 1, 'far_ratio': 4}
+pass rate by predicted group: deep (>=60 ppt) 0.85, long (>30 h) 0.50, shallow (<60 ppt) 0.76
+
+repeated same-offset dip pairs (SNR >= 10) at zero lag and at control lags 0.75-5 d:
+  finds                           61 targets: zero lag  39, control lags 3-25 (mean 8.8)
+  appointment only, not found    485 targets: zero lag  16, control lags 14-21 (mean 18.0)
+  dip only, not found            336 targets: zero lag  38, control lags 33-58 (mean 48.0)
+  both, not found                197 targets: zero lag  27, control lags 17-41 (mean 26.3)
+  neither                       1313 targets: zero lag  32, control lags 35-56 (mean 42.8)
