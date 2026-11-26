@@ -1,12 +1,12 @@
 590 published rows; 82 use sector 101+ events through their measurements.json (period identical)
    epoch itself inside s101+: 1
-   period shift > 1 published sigma: 50, > 3: 17
-   predicted primary at BTJD 5000: median |shift| 6.4 min, > 10 min in 29, > 30 min in 4
+   period shift > 1 published sigma: 51, > 3: 17
+   predicted primary at BTJD 5000: median |shift| 6.5 min, > 10 min in 29, > 30 min in 4
    shift beyond the fit's own 1-sigma prediction error in 59, beyond 2 sigma in 33
 590 published rows; 40 use sectors 14-15 (and no s101+) events through their measurements.json (period identical)
    epoch itself inside s101+: 0
-   period shift > 1 published sigma: 0, > 3: 0
-   predicted primary at BTJD 5000: median |shift| 2.0 min, > 10 min in 2, > 30 min in 1
+   period shift > 1 published sigma: 2, > 3: 1
+   predicted primary at BTJD 5000: median |shift| 2.1 min, > 10 min in 4, > 30 min in 2
    shift beyond the fit's own 1-sigma prediction error in 0, beyond 2 sigma in 0
 review_id       tic  n_events  n_s101plus  n_s14_15  dT0_min  dP_over_eP  shift_2028_min  fit_sigma_2028_min  shift_over_sigma
      R277 336856559        13           8         0    -0.06        7.10            12.1                 1.2              9.99
@@ -18,7 +18,7 @@ review_id       tic  n_events  n_s101plus  n_s14_15  dT0_min  dP_over_eP  shift_
      R646 256464205         9           3         0    -7.52        4.41            10.0                 1.8              5.46
      R289 201598744        14           6         0    -0.20        4.81            19.8                 3.6              5.46
      R521  61462126         6           2         0    -8.15        3.75            10.8                 2.2              4.92
-     R297 379550793        19           8         0    -0.04        3.82             6.4                 1.3              4.90
+     R297 379550793        19           8         0    -0.04        3.69             6.2                 1.3              4.73
      R239 369118947         9           4         0   -27.42        3.58            16.8                 3.6              4.63
      R614 157367278        16           6         0    -4.37        3.56             6.1                 1.3              4.62
 
@@ -26,4 +26,4 @@ CHECKCARD.csv: 190 rows; epochs at BTJD >= 4100: 2; TICs among the s101+ ephemer
 
 Calibration of the quoted errors: last sector predicted from the others (measurements.json, >= 3 sectors)
    as given : 295 ephemerides; robust sigma of the miss in quoted errors 0.48, beyond 3 in 13; last sector s101+: 1.29 over 56 (beyond 3 in 10); earlier: 0.37 over 239
-   corrected: 295 ephemerides; robust sigma of the miss in quoted errors 0.33, beyond 3 in 4; last sector s101+: 0.49 over 56 (beyond 3 in 1); earlier: 0.30 over 239
+   corrected: 295 ephemerides; robust sigma of the miss in quoted errors 0.32, beyond 3 in 4; last sector s101+: 0.45 over 56 (beyond 3 in 1); earlier: 0.29 over 239

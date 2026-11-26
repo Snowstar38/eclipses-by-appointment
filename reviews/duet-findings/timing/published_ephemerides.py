@@ -5,16 +5,17 @@ For every row of the release's review tables (period_days, period_error_days,
 primary_epoch_btjd) and of CHECKCARD.csv, find the target's measurements.json. Where its
 timed events include sector 101+ or sectors 14-15, check that the published period is the measurements.json
 one, then refit the linear ephemeris with the s101+ events corrected by time_offsets.correction_min
-(s101: 3.5 min offset; s102+: Roemer delay). Report the shift of the epoch and of the predicted primary at
+(the time_offsets clock model). Report the shift of the epoch and of the predicted primary at
 BTJD 5000 (2028 Aug 25, TESS's next pass for much of the sky), in minutes and in units of
 the published prediction error (epoch and period errors combined).
-Writes timing/published-ephemeris-shifts.csv.
+Writes timing/published-ephemeris-shifts.csv, with the corrected period and epoch (at the published
+epoch's cycle) for each row.
 usage (from the repo root): python3 reviews/duet-findings/timing/published_ephemerides.py
 """
 import json, os, subprocess, sys
 import numpy as np, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from time_offsets import correction_min, positions  # noqa: E402
+from time_offsets import correction_min, extra_err_min, positions  # noqa: E402
 
 pos, _ = positions()
 
@@ -60,8 +61,9 @@ for r in pub.itertuples():
             continue
         tt = np.array([x['mid_btjd'] for x in e]); er = np.array([x.get('timing_error_days') or 0.005 for x in e])
         E = np.round((tt - r.T0) / r.P)
-        corr = correction_min([x['sector'] for x in e], tt, *pos[r.tic]) / 1440
-        c0, C0 = fit(tt, er, E); c1, C1 = fit(tt - corr, er, E)
+        corr = correction_min([x['sector'] for x in e], tt, *pos[r.tic], tic=r.tic) / 1440
+        er1 = np.hypot(er, extra_err_min([x['sector'] for x in e], tic=r.tic) / 1440)
+        c0, C0 = fit(tt, er, E); c1, C1 = fit(tt - corr, er1, E)
         n = np.round((TREF - r.T0) / r.P)
         sig_pub = np.hypot(0.0, n * (r.eP if np.isfinite(r.eP) else np.sqrt(C0[1, 1])))
         sig_fit = np.sqrt(C0[0, 0] + 2 * n * C0[0, 1] + n * n * C0[1, 1])
@@ -70,7 +72,9 @@ for r in pub.itertuples():
                         epoch_in_s101plus=bool(r.T0 >= 4100.0), dT0_min=round((c1[0] - c0[0]) * 1440, 2),
                         dP_s=round((c1[1] - c0[1]) * 86400, 3), dP_over_eP=round((c1[1] - c0[1]) / r.eP, 2) if r.eP > 0 else np.nan,
                         shift_2028_min=round(d_ref, 1), pub_sigma_2028_min=round(sig_pub * 1440, 1),
-                        fit_sigma_2028_min=round(sig_fit * 1440, 1), shift_over_sigma=round(d_ref / (sig_fit * 1440), 2), file=f))
+                        fit_sigma_2028_min=round(sig_fit * 1440, 1), shift_over_sigma=round(d_ref / (sig_fit * 1440), 2),
+                        P_corrected_d=round(c1[1], 8), P_corrected_err_d=float(f'{np.sqrt(C1[1, 1]):.2g}'),
+                        T0_corrected_btjd=round(c1[0], 6), T0_corrected_err_d=float(f'{np.sqrt(C1[0, 0]):.2g}'), file=f))
         break
 o = pd.DataFrame(out).drop_duplicates('tic')
 o = o.reindex(o.shift_over_sigma.abs().sort_values(ascending=False).index)
@@ -103,8 +107,9 @@ for t, lst in meas.items():
         continue
     tt = np.array([x['mid_btjd'] for x in e]); er = np.array([x['timing_error_days'] for x in e]); E = np.round((tt - T0) / P)
     for cc in (False, True):
-        tc = tt - (correction_min(s, tt, *pos[t]) / 1440 if cc else 0)
-        m = s == s.max(); c, C = fit(tc[~m], er[~m], E[~m])
+        tc = tt - (correction_min(s, tt, *pos[t], tic=t) / 1440 if cc else 0)
+        ec = np.hypot(er, extra_err_min(s, tic=t) / 1440) if cc else er
+        m = s == s.max(); c, C = fit(tc[~m], ec[~m], E[~m])
         Am = np.vstack([np.ones(m.sum()), E[m]]).T; pe = np.sqrt(np.einsum('ij,jk,ik->i', Am, C, Am)).mean()
         ww = 1 / er[m] ** 2
         cal.append(dict(tic=t, corrected=cc, last=s.max(), z=np.average(tc[m] - Am @ c, weights=ww) / np.hypot(pe, ww.sum() ** -0.5)))

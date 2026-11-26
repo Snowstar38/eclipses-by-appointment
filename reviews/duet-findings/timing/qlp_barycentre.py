@@ -1,18 +1,21 @@
-"""Are the house's sector 101+ eclipse times barycentric?
+"""Are the house's eclipse times barycentric? Tests of the clock model in time_offsets.py.
 
 1. Per-sector test. For each target in timing/etv-events.csv, fit a linear ephemeris to
-   sectors <= 100 only, then average its residuals per sector. Across targets, regress each
+   sectors <= 99 only, then average its residuals per sector. Across targets, regress each
    sector's mean residual on the Roemer delay (Sun-geocentre vector dotted with the star's
    direction, in minutes) a time that skipped the barycentric correction would carry. A
    corrected sector gives k ~ 0, an uncorrected one k ~ 1.
 1b. Leave-one-sector-out. For each sector, fit every target's ephemeris to its other sectors
    (corrected with time_offsets.correction_min), then fit that sector's mean residuals as
-   a + k * Roemer delay. Sector 101 comes out barycentric but 3.5 min early; 102-104 not
-   barycentric; 14 and 15 carry about 1.5 times the delay.
-2. Jump test. For targets seen in both s90-100 and s102+, the step in mean residual against
-   the Roemer delay of the s102+ events (s90-100 being corrected); and for s101.
+   a + k * Roemer delay. 102-104 come out not barycentric and 14-15 near 1.5 times the
+   delay on average. For s100 and s101, compare residual = 0, residual = a fitted constant
+   and the frozen correction (residual = roemer(t) - roemer(4069.5), no free parameter).
+1c. After the correction: the median corrected residual per sector.
+2. Jump test. For targets seen in both s90-99 and s102+, the step in mean residual against
+   the Roemer delay of the s102+ events.
 3. Ephemeris bias. For every measurements.json with sector 101+ events, refit the period
-   after correcting those events with time_offsets.correction_min; write timing/qlp-barycentre-periods.csv.
+   after correcting the events with time_offsets.correction_min; write timing/qlp-barycentre-periods.csv.
+4-6. The 30-min era offset, the sign of timing curvature, and R1003's 2026 ephemeris.
 usage (from the repo root): python3 reviews/duet-findings/timing/qlp_barycentre.py
 """
 import json
@@ -26,14 +29,14 @@ import pandas as pd
 D = 'reviews/duet-findings/timing/'
 
 
-from time_offsets import roemer_min, correction_min, positions
+from time_offsets import roemer_min, correction_min, extra_err_min, positions, FROZEN_BTJD
 
 pos, rid = positions()
 ev = pd.read_csv(D + 'etv-events.csv'); ev['tic'] = ev.tic.astype(str)
 ev = ev[ev.tic.isin(pos)]
 rows = []
 for tic, g in ev.groupby('tic'):
-    ref = g[g.sector <= 100]
+    ref = g[g.sector <= 99]
     if len(ref) < 4 or ref.sector.nunique() < 2:
         continue
     w = 1 / ref.err_d ** 2
@@ -46,7 +49,7 @@ for tic, g in ev.groupby('tic'):
         rows.append(dict(tic=tic, sector=s, res=np.average(gg.res, weights=ww), err=ww.sum() ** -0.5, rm=gg.rm.mean()))
 ps = pd.DataFrame(rows)
 
-print('1. Per-sector slope k of mean residual on the Roemer delay (residuals from a <= s100 ephemeris)')
+print('1. Per-sector slope k of mean residual on the Roemer delay (residuals from a <= s99 ephemeris)')
 print('   sector  targets   k      +-')
 for s in sorted(ps.sector.unique()):
     q = ps[(ps.sector == s)]
@@ -71,15 +74,18 @@ for S in range(1, 105):
         ref = ~m
         if not m.any() or ref.sum() < 3 or g[ref].sector.nunique() < 2:
             continue
-        t = g.t_mid.values - correction_min(g.sector.values, g.t_mid.values, *pos[tic]) / 1440
-        w = 1 / g.err_d.values[ref] ** 2
+        cor = correction_min(g.sector.values, g.t_mid.values, *pos[tic], tic=tic)
+        t = g.t_mid.values - cor / 1440
+        ee = np.hypot(g.err_d.values, extra_err_min(g.sector.values, tic=tic) / 1440)
+        w = 1 / ee[ref] ** 2
         A = np.vstack([np.ones(ref.sum()), g.cycle.values[ref]]).T
         C = np.linalg.inv(A.T @ (A * w[:, None])); c = C @ (A.T @ (w * t[ref]))
         r = t[ref] - A @ c; C = C * max(np.sum(w * r * r) / max(ref.sum() - 2, 1), 1)
         Am = np.vstack([np.ones(m.sum()), g.cycle.values[m]]).T
         pe = np.sqrt(np.einsum('ij,jk,ik->i', Am, C, Am)) * 1440
         res = (g.t_mid.values[m] - Am @ c) * 1440; ww = 1 / np.hypot(g.err_d.values[m] * 1440, pe) ** 2
-        rows.append(dict(tic=tic, res=np.average(res, weights=ww), err=ww.sum() ** -0.5, rm=np.average(g.rm.values[m], weights=ww)))
+        rows.append(dict(tic=tic, res=np.average(res, weights=ww), err=ww.sum() ** -0.5, rm=np.average(g.rm.values[m], weights=ww),
+                         cor=np.average(cor[m], weights=ww), rm0=roemer_min(FROZEN_BTJD, *pos[tic])))
     o = pd.DataFrame(rows)
     if len(o) == 0:
         continue
@@ -94,25 +100,30 @@ for S in (14, 15):
     o = loso[S]
     print(f'   s{S}: res/rm per target ' + ' '.join(f'{x:+.2f}' for x in sorted(o.res / o.rm)))
 o = loso[101]; w = 1 / (o.err ** 2 + 0.5 ** 2)
+for S in (100, 101):
+    o = loso[S]; w = 1 / (o.err ** 2 + 0.5 ** 2)
+    for name, pred, nfree in (('barycentric (residual = 0)', 0 * o.rm, 0), ('barycentric plus one fitted constant', 0 * o.rm, 1),
+                              ('frozen at 4069.5 (residual = rm - rm(4069.5))', o.rm - o.rm0, 0)):
+        d = o.res - pred; cst = np.average(d, weights=w) if nfree else 0.0
+        print(f'   s{S} as {name}: mean left {np.average(d - cst, weights=w):+.2f} min, chi2 {np.sum(w * (d - cst) ** 2):.1f} for {len(o) - nfree} dof')
+o = loso[101]; w = 1 / (o.err ** 2 + 0.5 ** 2)
 for name, pred in (('uncorrected (residual = Roemer delay)', o.rm), ('barycentric (residual = 0)', 0 * o.rm)):
     d = o.res - pred; cst = np.average(d, weights=w)
     print(f'   s101 as {name}: best constant {cst:+.2f} +- {w.sum() ** -0.5:.2f} min, chi2 {np.sum(w * (d - cst) ** 2):.1f} for {len(o) - 1} dof')
 
 print('\n1c. After the correction: median corrected residual per sector (targets with errors < 1 min, sectors with >= 6)')
-from time_offsets import ROEMER_FACTOR, S101_OFFSET_MIN
 meds = []
 for S, o in loso.items():
-    k = ROEMER_FACTOR.get(S, 1.0 if S >= 102 else 0.0)
     q = o[o.err < 1.0]
     if len(q) >= 6:
-        meds.append((S, len(q), np.median(q.res - k * q.rm - (S101_OFFSET_MIN if S == 101 else 0))))
+        meds.append((S, len(q), np.median(q.res - q.cor)))
 print('   ' + '  '.join(f's{S}:{m:+.2f}({n})' for S, n, m in meds))
 print(f'   {len(meds)} sectors; largest |median| {max(abs(m) for _, _, m in meds):.2f} min')
 
-print('\n2. Jump from s90-100 to s102+ in the same targets, against the s102+ Roemer delay')
+print('\n2. Jump from s90-99 to s102+ in the same targets, against the s102+ Roemer delay')
 jr = []
 for tic, q in ps.groupby('tic'):
-    a, b = q[(q.sector >= 90) & (q.sector <= 100)], q[q.sector >= 102]
+    a, b = q[(q.sector >= 90) & (q.sector <= 99)], q[q.sector >= 102]
     if len(a) and len(b):
         wa, wb = 1 / a.err ** 2, 1 / b.err ** 2
         J = np.average(b.res, weights=wb) - np.average(a.res, weights=wa)
@@ -145,7 +156,7 @@ for f in fs:
         skipped += 1; continue
     tt = np.array([x['mid_btjd'] for x in e]); er = np.array([x.get('timing_error_days') or 0.005 for x in e])
     E = np.round((tt - T0) / P)
-    corr = correction_min([x['sector'] for x in e], [x['mid_btjd'] for x in e], *pos[t]) / 1440
+    corr = correction_min([x['sector'] for x in e], [x['mid_btjd'] for x in e], *pos[t], tic=t) / 1440
     A = np.vstack([np.ones_like(E), E]).T; W = 1 / er ** 2
     C = np.linalg.inv(A.T @ (A * W[:, None]))
     c0 = C @ (A.T @ (W * tt)); c1 = C @ (A.T @ (W * (tt - corr)))
@@ -185,7 +196,7 @@ for corr in (False, True):
             continue
         t = g.t_mid.values.copy()
         if corr:
-            t -= correction_min(g.sector.values, t, *pos[tic]) / 1440
+            t -= correction_min(g.sector.values, t, *pos[tic], tic=tic) / 1440
         x = g.cycle.values.astype(float); x = (x - x.mean()) / (np.ptp(x) or 1)
         A = np.vstack([np.ones_like(x), x, x ** 2]).T; w = 1 / g.err_d.values ** 2
         C = np.linalg.inv(A.T @ (A * w[:, None])); c = C @ (A.T @ (w * t))
@@ -194,14 +205,14 @@ for corr in (False, True):
         neg += z < -3; pos_ += z > 3
     print(f'   {"after " if corr else "before"}: {neg} negative, {pos_} positive')
 
-print("\n6. R1003's 2026 ephemeris (Fable 5's deep events, s99-101) with the s101 offset removed")
+print("\n6. R1003's 2026 ephemeris (Fable 5's deep events, s99-101) with the clock corrected (s101 QLP; s100 is SPOC)")
 r3 = pd.read_csv('reviews/duet-findings/triples/fable-r1003/r1003_events.csv')
 r3 = r3[r3.depth_ppt > 50]
 P_tab = 2.878458
 for corr in (False, True):
     t = r3.t_btjd.values.copy()
     if corr:
-        t -= correction_min(r3.sector.values, t, 193.786609, -65.53488) / 1440
+        t -= correction_min(r3.sector.values, t, 193.786609, -65.53488, spoc=r3.sector.values == 100) / 1440
     E = r3.epoch.values.astype(float); w = 1 / r3.sigma_d.values ** 2
     A = np.vstack([np.ones_like(E), E]).T; C = np.linalg.inv(A.T @ (A * w[:, None])); c = C @ (A.T @ (w * t))
     r = t - A @ c; chi = np.sum(w * r ** 2); dof = len(t) - 2; sp = np.sqrt(C[1, 1])
