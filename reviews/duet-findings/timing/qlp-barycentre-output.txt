@@ -1,0 +1,41 @@
+1. Per-sector slope k of mean residual on the Roemer delay (residuals from a <= s100 ephemeris)
+   sector  targets   k      +-
+      85      28   -0.02   0.05
+      86      23    0.01   0.04
+      87      15    0.02   0.13
+      88      19    0.01   0.06
+      89      11   -0.20   0.12
+      90      16   -0.09   0.07
+      93       9   -0.00   0.12
+      94       9   -0.00   0.07
+      95       9   -0.01   0.07
+      96       9   -0.01   0.04
+      97      10    0.00   0.06
+      98      27    0.00   0.03
+      99      26    0.01   0.02
+     100      13    0.05   0.03
+     102      12    0.99   0.08
+     103      16    1.56   0.07
+     104      11    1.02   0.04
+
+2. Jump from s90-100 to s101+ in the same targets, against the s101+ Roemer delay
+   30 targets; slope of jump on predicted step 0.98 +- 0.02
+   jump has the predicted sign in 30 of 30
+   median |predicted step| 4.8 min; median residual after removing it -0.08 min
+
+3. Ephemeris bias in measurements.json files with sector 101+ events
+   82 targets (14 skipped: no position, period or < 3 events)
+   period shift > 3 sigma in 23, > 1 sigma in 56; median |shift| 1.62 sigma
+   largest: R441 +10.6, R277 +7.1, R614 +6.8, R230 +6.5, R289 +6.1, R255 +6.1, R339 +5.5, R314 +5.4, R469 +5.1, R312 +4.7
+
+4. 30-min era (s1-26) against an ephemeris from s27-100
+   119 targets; median offset -0.03 min; negative in 61
+   weighted mean -0.52 +- 0.05 min (formal); sign test p = 0.783
+
+5. Sign of ETV curvature (quadratic term, > 3 sigma) before and after removing the s101+ delay
+   before: 36 negative, 14 positive
+   after : 12 negative, 19 positive
+
+6. R1003's 2026 ephemeris (Fable 5's deep events, s99-101) with the s101 delay removed
+   as given : P = 2.8787113 +- 0.0000066 d, chi2 465.4/17; tabled P off by 39 sigma (7 with errors scaled); sector mean O-C (s) {99: -99, 100: 67, 101: -62}
+   corrected: P = 2.8788140 +- 0.0000066 d, chi2 151.9/17; tabled P off by 54 sigma (18 with errors scaled); sector mean O-C (s) {99: -49, 100: 28, 101: -20}

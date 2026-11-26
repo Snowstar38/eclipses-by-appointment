@@ -127,11 +127,11 @@ put('R1034', 'epoch', 'adopted_epoch_btjd, depth_ppt, secondary_phase',
     'proposed', 'tabled 296.75 ppt matches neither eclipse; Earthshine fit', D + 'earthshine-duration-results.csv')
 put('R1505', 'period', 'limitation', 'eccentric (e sin w >~ 0.3) or a smaller host; an RV orbit decides', 'open',
     'T14 2.56 h against a 4.71 h circular minimum, no secondary', D + 'earthshine-duration-results.csv')
-put('R1117', 'period', 'adopted_period_days', 2.636664, 'proposed', 'eclipse B shallower in 27 of 27 sectors',
-    'reviews/duet-findings/triples/r1117-geometry-output.txt')
+put('R1117', 'period', 'adopted_period_days', 2.636664, 'proposed', 'alternate eclipses differ: B 2.4% shallower in 25 of 27 sectors against local flanks',
+    'reviews/duet-findings/triples/r1117-depths-output.txt')
 put('R1003', 'period', 'adopted_period_days, adopted_epoch_btjd, depth_ppt, secondary_depth_ppt',
-    '2026 ephemeris: P 2.8787113 d, T0 in s100, depths 144.4 / 76.5 ppt; note eclipses absent before 2026', 'proposed',
-    'tabled epoch sits in an eclipse-free sector; tabled P is 39 sigma off the 2026 one', 'reviews/duet-findings/triples/fable-r1003/')
+    '2026 ephemeris: P 2.878814 d (s101 times barycentred), T0 in s100, depths 144.4 / 76.5 ppt; note eclipses absent before 2026', 'proposed',
+    'tabled epoch sits in an eclipse-free sector; tabled P is 18 sigma (scaled) off the 2026 one', 'reviews/duet-findings/timing/qlp-barycentre-output.txt')
 
 # 7. Paper, accepted-systems and methods text
 PAPER = [
@@ -171,7 +171,13 @@ PAPER = [
  ('yield-g11', 'paper.html, paper.pdf', 'Discussion, appointments yield',
   'print the G 11-11.5 sentence once and match Table 1: 45 of 50 reviewed, 42 confirmed, 1.6 per hundred, 5 unreviewed',
   'proposed', 'the sentence ("first twenty of fifty ... 0.8 per hundred ... thirty outstanding") is stale and appears three times in paper.html, twice in paper.pdf',
-  'paper.html'),
+  'reviews/duet-findings/paper-text/paper-counts-output.txt'),
+ ('s101-barycentre', 'review evidence, host tables', 'sector 101+ eclipse times',
+  'apply the barycentric correction to s101+ light-curve times, then refit the 82 ephemerides that use them (23 move > 3 sigma)', 'proposed',
+  'timing residuals track the Roemer delay with slope 0.98 +- 0.02, 30 of 30 signs', 'reviews/duet-findings/timing/qlp-barycentre-periods.csv'),
+ ('methods-timing', 'methods.md', 'timing section',
+  'state that all times are BJD_TDB and that s101+ products were corrected', 'proposed',
+  'the s101+ light curves lack the correction', 'reviews/duet-findings/timing/qlp-barycentre-output.txt'),
  ('sb2-masses', 'paper.html', 'Section 3.4 or a new table',
   'give dynamical masses for the 35 eclipsing Gaia SB2s whose orbits hold at the eclipse period (median 1.10 Msun per star, 3% errors)', 'for decision',
   "eclipses fix sin i; masses reproduce the paper's A179 and A204 values and agree with TIC masses (median 0.98)",
@@ -193,6 +199,18 @@ PAPER = [
  ('A119', 'paper.html', 'A119 note', "note that Gaia also fits a 601-d astrometric orbit, so A119 is a triple; predicted light-travel semi-amplitude >= 3.4 min", 'favoured',
   "same calculation gives 3.25 min for A95 against the measured 3.4 +- 0.3",
   'reviews/duet-findings/triples/ltte-from-astrometry-output.txt'),
+ ('abstract-methods', 'paper.html', 'Abstract, method totals',
+  'Gaia-orbit period folds contribute 803 (not 804) and the mixed-method period-free follow-up 45 (not 46)', 'proposed',
+  "current-accounting.json gives 803 and 45, summing with the other methods to 2,039; the Abstract's own mixed-method sentence says 45",
+  'reviews/duet-findings/paper-text/paper-counts-output.txt'),
+ ('tableA1-status', 'paper.html', 'A-labelled table, status column',
+  'A74 confirmed; A30, A103, A125 and A157 marked as prior-known recoveries, not counted', 'proposed',
+  'the release has A74 confirmed and excludes the other four; the column still says probable and confirmed (a note elsewhere explains)',
+  'reviews/duet-findings/paper-text/paper-counts-output.txt'),
+ ('table4-ecosw', 'paper.html', 'Table 4 and its rule',
+  "count an e cos w failure only beyond 3 sigma of Gaia's error scaled by 1.37 (A28 and A30 stand; A145 marginal); list A21, A63, A65, A159 and A202 as tensions",
+  'for decision', "Gaia's eccentricity errors are 1.37 +- 0.12 times too small on circular P < 3 d binaries; 5.2 chance 3-sigma failures expected among 184, 8 in Table 4",
+  'reviews/duet-findings/gaia-errors/table4-scaled-output.txt'),
 ]
 for pid, target, col, prop, st, basis, ev in PAPER:
     put(pid, 'paper', col, prop, st, basis, ev, target=target)

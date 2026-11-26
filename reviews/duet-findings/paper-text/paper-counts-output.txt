@@ -1,0 +1,13 @@
+1. Abstract method totals
+  "Gaia-orbit period folds contribute (\d+)": abstract 804, accounting Gaia_period_fold = 803   <-- differs
+  "period-free follow-up contributes (\d+)": abstract 46, accounting period_free_dip_screening = 45   <-- differs
+  "faint-band conjunction and raw-event search c": abstract 66, accounting faint_band_conjunction_and_raw_event = 66 
+  "and (\d+) are accepted claims \(": abstract 45, accounting period_free_dip_screening = 45 
+2. Accounting method totals sum to 2039; accepted-systems.csv has 2039 (1494 confirmed, 545 probable)
+3. A-labelled table
+  204 table rows; 195 counted A claims; all counted rows present: True
+  methods among counted A claims: {'MD': 4, 'Fold': 41, 'App': 82, 'Ast': 4, 'Batch': 64}
+  status differs from the release: [('A74', 'probable', 'confirmed')]
+  uncounted rows not marked "not counted": ['A30', 'A103', 'A125', 'A157']
+4. Stale yield sentence
+  occurrences in paper.html text: 3
