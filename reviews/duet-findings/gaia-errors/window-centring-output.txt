@@ -1,0 +1,26 @@
+1. appoint.py windows in the fresh-band cohorts: 2406 targets with omega, 23413 windows
+   omega error | targets windows | median |centre - nominal| | median |phase from T_p| | median sig/P | nominal outside window | A and B centres within 0.05 P
+     0-30  deg |  1900  18266 |   0.02 d | 0.160 | 0.076 | 0.000 | 0.00
+    30-60  deg |   348   3577 |   0.10 d | 0.220 | 0.190 | 0.005 | 0.00
+    60-90  deg |    93    971 |   1.09 d | 0.305 | 0.284 | 0.145 | 0.08
+    90-120 deg |    31    277 |   4.60 d | 0.427 | 0.296 | 0.401 | 0.19
+   120-180 deg |    23    187 |  10.41 d | 0.485 | 0.300 | 0.626 | 0.74
+   180-400 deg |    11    135 |   7.12 d | 0.485 | 0.302 | 0.585 | 1.00
+   uniform over one period: |phase| 0.5 for the centre, sig/P = 1/sqrt(12) = 0.289
+
+2. Main search, R763 (TIC 325817130): P 56.823 d, e 0.0022 +- 0.0063, omega error 230 deg, T_p error 36.2 d
+   window centre - nominal A:   16.88 d
+   window centre - nominal B:  -11.61 d
+   window centre - T_p: -0.494 P  (T_p + P/2 would be 0.500)
+
+3. Main-search targets (Gaia rows) by omega error, with the conjunction error at BTJD 2500 (Fable 5.1, correlated and independent)
+    60-90  deg: 184 targets; sigma_T median 2.13 d correlated (90th percentile 6.59), 10.0 d independent; correlated half-width median 6.40 d
+    90-400 deg: 159 targets; sigma_T median 2.29 d correlated (90th percentile 7.73), 11.3 d independent; correlated half-width median 6.88 d
+
+   In the yield model (6,295 targets) by omega error ( expected detections; found = search finds at Gaia period)
+   omega error | targets | expected | found | period-free finds | catalogued | fresh-band share of windows missing the conjunction
+     0-60  deg |  5851 | 395.55 | 100 |  43 |  79 | 0.001
+    60-90  deg |   181 |  10.79 |   1 |   0 |   1 | 0.145
+    90-400 deg |   156 |   8.77 |   0 |   1 |   1 | 0.513
+   found per expected below 60 deg: 0.253; at 90 deg and above that rate predicts 2.2 finds, Poisson chance of none 0.11
+   expected detections whose conjunction the window misses (omega error >= 60 deg, fresh-band shares): 6.0 geometric, 1.5 at the search's found rate

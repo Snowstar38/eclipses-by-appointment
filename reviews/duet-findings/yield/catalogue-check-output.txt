@@ -1,0 +1,66 @@
+the 81 catalogued main-search targets: errata's verdicts, Gaia solution type and the search's window statistic z
+               n  SB2  z_defined  z_ge_8  z_ge_20  z_median
+verdict
+no-period     14    3         13      12       11     105.7
+other-signal  19   13         18       7        7       2.7
+same-orbit    20    2         20      19       16      68.8
+unresolvable  28    1         16      11        6      12.0
+targets with no known eclipser: z >= 8 for 41%, z >= 20 for 19% (4177 with z)
+Gaia eclipsing-binary controls: 40, z defined for 30, z >= 8 for 21, z >= 20 for 19
+other-signal targets with a catalogue period under 1 d: z >= 20 for 1 of 5
+same-orbit targets matched by phase alone (no 1:1 period entry): 6, window z 173203234 39.4, 188625601 666.6, 214517366 254.4, 402946477 17.4, 41840228 154.6, 99763308 512.9
+
+conjunction-phase error with all Gaia elements varied (median per target) against the period-only drift:
+              sig_full   drift
+verdict
+no-period          NaN     NaN
+other-signal    0.0169  0.0090
+same-orbit      0.0247  0.0205
+unresolvable    0.0610  0.0391
+other-signal targets still more than 3 sigma from both conjunctions with the full error: 13 of 19; within 3 sigma: 66199130, 121945407, 148624083, 184914347, 236865152, 279645119
+
+with Gaia's errors scaled by fit quality (SB2 nu = 40): of the 19 other-signal targets, 6 have catalogue periods under 1 d and 3 more stay beyond 3 sigma (90238281, 236647148, 289044378); the other 10 become undecided (median F2 of the 13 SB2 22.6); same-orbit targets within 3 sigma: 19 of 20
+  with nu = 20: robust other-signal 9
+  with nu = 80: robust other-signal 11
+
+the 9 robust other-signal targets in the pixels and archives: same-orbit 90238281, 121945407, 236647148, 289044378; other-on-target 279645119; not-target 148624083, 168656470, 266769521, 379806358; not localized: none
+catalogued eclipsers on the target: 77 of 81; at Gaia's period (same orbit): 24; another signal on the target: 1; not robustly contradicted: 76
+no-period: z >= 20 for 11 of 13 with z; chance at the no-eclipser rate 2.5, at the short-period other-signal rate 2.6
+unresolvable: z >= 20 for 6 of 16 with z; chance at the no-eclipser rate 3.1, at the short-period other-signal rate 3.2
+other-signal: z >= 20 for 4 of 10 with z; chance at the no-eclipser rate 1.9, at the short-period other-signal rate 2.0
+
+band fit (count = p_det x exp(groups + log significance [+ bands])), numerator = new finds + catalogued by definition:
+  definition                         total   G<10  G10-11 G11-11.5  2 dlogL       p
+  new finds only                       101   0.16    0.29     0.24     13.2   0.001
+  + same-orbit (errata)                125   0.26    0.34     0.28      6.9   0.032
+  + same-orbit or z >= 20              146   0.35    0.40     0.31      3.4   0.179
+  + all not robustly contradicted      177   0.44    0.47     0.38      2.2   0.334
+  + all 81 flagged                     182   0.46    0.49     0.38      2.6   0.270
+  + all on the target                  178   0.44    0.48     0.38      2.4   0.297
+  new + period-free at Gaia P          131   0.21    0.32     0.36     17.0   0.000
+  ... + same-orbit or z >= 20          176   0.41    0.43     0.43      4.9   0.088
+
+catalogued eclipsers against Gaia significance (expected = p_ecl; groups, bands, giant), powers / ln 10:
+  all 81 flagged             n = 81  significance alone -0.10 +- 0.15;  with depth: depth +0.58 +- 0.17, significance -0.24 +- 0.15
+  all on the target          n = 77  significance alone -0.16 +- 0.15;  with depth: depth +0.62 +- 0.17, significance -0.31 +- 0.15
+  same-orbit                 n = 24  significance alone +0.18 +- 0.28;  with depth: depth +0.69 +- 0.30, significance +0.03 +- 0.28
+  same-orbit or z >= 20      n = 45  significance alone -0.03 +- 0.20;  with depth: depth +0.58 +- 0.22, significance -0.16 +- 0.20
+  not contradicted           n = 76  significance alone -0.16 +- 0.15;  with depth: depth +0.61 +- 0.17, significance -0.29 +- 0.16
+  other-signal               n = 19  significance alone +0.81 +- 0.33;  with depth: depth +1.18 +- 0.32, significance +0.60 +- 0.34
+  robust by phase            n =  9  significance alone +1.17 +- 0.50;  with depth: depth +0.27 +- 0.50, significance +1.11 +- 0.51
+  other signal on target     n =  1  significance alone -0.91 +- 1.67;  with depth: depth +2.42 +- 2.84, significance -1.20 +- 1.52
+
+window statistic z >= 20 by Gaia significance, for catalogued eclipsers by definition (z defined):
+  same-orbit     significance < 30: 4 of 6;  >= 30: 15 of 18
+  not on target  significance < 30: 0 of 0;  >= 30: 0 of 4
+  no-period      significance < 30: 5 of 6;  >= 30: 6 of 7
+  other-signal   significance < 30: 0 of 1;  >= 30: 7 of 17
+
+Gaia solution type of the catalogued targets against all main-search targets:
+solution      SB1  SB2
+verdict
+no-period      11    3
+other-signal    6   13
+same-orbit     18    2
+unresolvable   27    1
+all targets: SB2 8.2%

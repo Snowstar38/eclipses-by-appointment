@@ -1,0 +1,40 @@
+1. Fresh-band targets flagged circular_assumed_omega0: windows against omega = 0 conjunctions
+   TIC   70461340 AstroSpectroSB1: P  37.61 d, e 0.638, 5 windows
+   TIC  277879535 AstroSpectroSB1: P  43.25 d, e 0.148, 1 windows
+   TIC   63068064 AstroSpectroSB1: P  41.61 d, e 0.219, 16 windows
+   TIC  199687591 AstroSpectroSB1: P  41.02 d, e 0.457, 15 windows
+   TIC  128922538 AstroSpectroSB1: P  26.47 d, e 0.204, 2 windows
+   TIC  387758786 AstroSpectroSB1: P  46.36 d, e 0.329, 14 windows
+   TIC  144470417 AstroSpectroSB1: P  52.44 d, e 0.440, 2 windows
+   TIC  152372168 AstroSpectroSB1: P  57.31 d, e 0.095, 6 windows
+   TIC  299096355 AstroSpectroSB1: P  41.10 d, e 0.227, 11 windows
+   TIC  465303488 AstroSpectroSB1: P  40.07 d, e 0.203, 13 windows
+   TIC  354487992 AstroSpectroSB1: P  43.66 d, e 0.196, 6 windows
+   TIC  271763138 AstroSpectroSB1: P  44.78 d, e 0.566, 10 windows
+   TIC  170674625 AstroSpectroSB1: P  44.68 d, e 0.698, 9 windows
+   TIC  146840707 AstroSpectroSB1: P  49.12 d, e 0.134, 12 windows
+   TIC  261233598 AstroSpectroSB1: P  40.18 d, e 0.594, 13 windows
+   TIC  355936721 AstroSpectroSB1: P  55.05 d, e 0.429, 10 windows
+   145 windows: |centre - omega=0 conjunction| median 0.011 d, max 0.151 d; window sigma / Monte Carlo sigma median 1.00 (0.98-1.01)
+
+Main search: 93 AstroSpectroSB1 targets (G10-11 31, G11-11.5 13, G<10 49); eccentricity median 0.31, quartiles 0.23-0.44; Thiele-Innes rows in this repository for 8
+
+2. R756 (TIC 200743349): P 26.5369 d, e 0.479, omega from C, H 39.6 deg
+   main-search window centre - omega=0 conjunction A: -0.00 d; half-width on the omega = 0 model 1.42 d
+   fitted eclipses: sector, BTJD, depth; offset from the omega=0 conjunctions; offset from the C, H conjunctions (d)
+   s3     1392.728  134.3 ppt | A  -1.59 B   3.91 | A  -0.09 B   6.80
+   s30    2135.654  134.5 ppt | A  -1.69 B   3.81 | A  -0.20 B   6.69
+   s31    2162.187  132.6 ppt | A  -1.70 B   3.80 | A  -0.20 B   6.69
+   s97    3939.892  114.0 ppt | A  -1.96 B   3.54 | A  -0.47 B   6.42
+   s97    3966.425  114.4 ppt | A  -1.97 B   3.53 | A  -0.47 B   6.42
+
+3. Other main-search AstroSpectroSB1 targets with Thiele-Innes rows here: omega = 0 windows against the true conjunctions (BTJD 2500)
+   TIC  117157551: P  46.16, e 0.26, omega 323.0 deg; window to nearest true conjunction: A  5.09 d (hw 1.44), B  3.69 d (hw 1.44); both miss
+   TIC  219345200: P  59.92, e 0.26, omega 335.1 deg; window to nearest true conjunction: A  4.19 d (hw 1.30), B  3.35 d (hw 1.31); both miss
+   TIC  154809818: P  59.10, e 0.39, omega 143.6 deg; window to nearest true conjunction: A  6.14 d (hw 3.49), B  3.79 d (hw 3.50); both miss
+   TIC   87869692: P  32.81, e 0.08, omega  53.9 deg; window to nearest true conjunction: A  4.57 d (hw 0.72), B  5.21 d (hw 0.71); both miss
+   TIC  234302665: P  28.21, e 0.39, omega 258.2 deg; window to nearest true conjunction: A  3.24 d (hw 2.61), B  3.97 d (hw 2.61); both miss
+   TIC  398402989: P  58.73, e 0.55, omega  31.7 deg; window to nearest true conjunction: A  2.30 d (hw 0.92), B  4.25 d (hw 0.92); both miss
+   TIC  318649725: P  49.06, e 0.27, omega   8.0 deg; window to nearest true conjunction: A  0.94 d (hw 3.01), B  1.01 d (hw 3.01)
+   both windows miss both true conjunctions for 6 of 7
+   all 93 main-search AstroSpectroSB1 targets, omega uniform: both windows miss both conjunctions for 0.61 of orientations (median target 0.67)

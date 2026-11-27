@@ -1,0 +1,43 @@
+5507 SB1/SB2 targets with a significance, a detection chance and a goodness of fit
+
+by solution type and F2 tercile (within type): found / expected
+SB1:
+                               targets  median_significance  median_depth    p_det  appointment    p_ecl  window_free  appointment/p_det  window_free/p_ecl
+F2 tercile
+(-4.1450000000000005, -0.247]     1668               23.312        48.420  111.914           29  118.002           36              0.259              0.305
+(-0.247, 0.917]                   1667               33.099        46.888  116.068           34  123.421           23              0.293              0.186
+(0.917, 2.998]                    1667               41.076        41.635  141.161           28  149.974           26              0.198              0.173
+SB2:
+                  targets  median_significance  median_depth   p_det  appointment   p_ecl  window_free  appointment/p_det  window_free/p_ecl
+F2 tercile
+(-2.702, 8.484]       169               66.020       309.277  14.263            6  15.508            6              0.421              0.387
+(8.484, 19.414]       168               64.349       258.490  15.513            2  17.582            7              0.129              0.398
+(19.414, 49.889]      168               82.518       239.061  16.202            2  18.097            8              0.123              0.442
+
+Poisson fits with an F2 term (groups, bands, giant, log significance held), coefficient per unit and 2 dlogL:
+  SB1  F2 (per unit)                                  appointment finds / p_det      n =  91  coef -0.06 +- 0.09  2 dlogL   0.5  p = 0.474
+  SB1  F2 (per unit)                                  window-free eclipsers / p_ecl  n =  85  coef -0.19 +- 0.09  2 dlogL   4.8  p = 0.028
+  SB1  log of the SB1 error scale 1.24 exp(0.18 F2)   appointment finds / p_det      n =  91  coef -0.34 +- 0.48  2 dlogL   0.5  p = 0.474
+  SB1  log of the SB1 error scale 1.24 exp(0.18 F2)   window-free eclipsers / p_ecl  n =  85  coef -1.07 +- 0.49  2 dlogL   4.8  p = 0.028
+  SB2  log10 F2 (F2 >= 1)                             appointment finds / p_det      n =  10  coef -0.76 +- 0.68  2 dlogL   1.2  p = 0.277
+  SB2  log10 F2 (F2 >= 1)                             window-free eclipsers / p_ecl  n =  21  coef -0.02 +- 0.52  2 dlogL   0.0  p = 0.967
+  both SB2 with F2 above the SB2 median               appointment finds / p_det      n = 101  coef -1.01 +- 0.69  2 dlogL   2.3  p = 0.125
+  both SB2 with F2 above the SB2 median               window-free eclipsers / p_ecl  n = 106  coef -0.05 +- 0.44  2 dlogL   0.0  p = 0.916
+SB2 by F2 tercile, all catalogued SB2: 6/15.5 = 0.39, 5/17.6 = 0.28, 8/18.1 = 0.44
+SB2 by F2 tercile, period-free at Gaia P, same-orbit or no-period: 4/15.5 = 0.26, 4/17.6 = 0.23, 1/18.1 = 0.06
+
+SB2 windows against the scaled errors (nu = 40): median scale, p_det-weighted share of eclipses inside the window, predicted and found
+  ind errors:
+                      k  inside   p_det  found  predicted
+t
+(-2.702, 8.484]   1.495   0.916  14.263    6.0      6.000
+(8.484, 19.414]   2.711   0.707  15.513    2.0      5.037
+(19.414, 49.889]  5.198   0.433  16.202    2.0      3.219
+  upper two terciles: predicted 8.3 from the lowest tercile rate, found 4, P(<= found) 0.086
+  corr errors:
+                      k  inside   p_det  found  predicted
+t
+(-2.702, 8.484]   1.495   0.962  14.263    6.0      6.000
+(8.484, 19.414]   2.711   0.786  15.513    2.0      5.332
+(19.414, 49.889]  5.198   0.534  16.202    2.0      3.781
+  upper two terciles: predicted 9.1 from the lowest tercile rate, found 4, P(<= found) 0.051

@@ -1,0 +1,54 @@
+the 31 period-free finds at Gaia period: offset from the predicted conjunction against the null class
+review_id  P_gaia_d  off_d  sig_d   hw  null_exceed           class  centre_exceed  overlap_n  overlap_exceed
+     R741     48.62  -6.55   4.68 7.00         21.0 eclipse-outside           21.0        0.0             0.0
+     R756     26.54  -0.37   0.46 1.39          3.0 eclipse-outside            3.0       40.0             2.0
+     R763     56.82  -0.20    NaN  NaN         30.0 eclipse-outside           30.0       40.0            31.0
+     R750     30.09   0.14   0.36 1.08          3.0 eclipse-outside            3.0       40.0             1.0
+     R729     35.37   0.36   0.40 1.19         18.0 eclipse-outside           18.0       40.0            15.0
+     R752     43.17   0.76   0.26 0.79          8.0 eclipse-outside            8.0       40.0             7.0
+     R749     47.35  -5.82   1.94 5.82          0.0 not null-vetoed            NaN        NaN             NaN
+     R766     22.42  -4.07   1.56 4.69          0.0 not null-vetoed            NaN        NaN             NaN
+     R755     24.68  -2.52   3.15 7.00          NaN not null-vetoed            NaN        NaN             NaN
+     R767     23.42  -2.18   1.81 5.44          0.0 not null-vetoed            NaN        NaN             NaN
+     R734     58.95  -1.24  12.44 7.00          0.0 not null-vetoed            NaN        NaN             NaN
+     R759     28.79  -0.85   2.13 6.39          NaN not null-vetoed            NaN        NaN             NaN
+     R748     58.17  -0.80   2.68 7.00          0.0 not null-vetoed            NaN        NaN             NaN
+     R743     28.03  -0.31   3.05 7.00          0.0 not null-vetoed            NaN        NaN             NaN
+     R765     42.54  -0.19   0.27 0.82          0.0 not null-vetoed            NaN        NaN             NaN
+     R738     28.25   0.04    NaN  NaN          NaN not null-vetoed            NaN        NaN             NaN
+     R758     34.78   0.51   0.43 1.29          0.0 not null-vetoed            NaN        NaN             NaN
+     R737     41.96   2.81   2.55 7.00          0.0 not null-vetoed            NaN        NaN             NaN
+     R736     45.00  -6.20   2.58 7.00         11.0            self           11.0        0.0             0.0
+     R735     49.78  -5.33   2.42 7.00          6.0            self            6.0       40.0             0.0
+     R740     24.67  -2.33   1.11 3.33          5.0            self            5.0       40.0             0.0
+     R744     43.09  -1.48   3.69 7.00          2.0            self            2.0        0.0             0.0
+     R746     46.88  -1.32   4.39 7.00          2.0            self            2.0        0.0             0.0
+     R726     39.44   1.32   6.61 7.00          1.0            self            1.0        0.0             0.0
+     R745     42.56   1.37   1.37 4.10          2.0            self            2.0       40.0             0.0
+     R733     59.00   1.69   3.39 7.00          1.0            self            1.0       21.0             0.0
+     R742     38.09   2.01   5.04 7.00          4.0            self            4.0        0.0             0.0
+     R768     27.25  -1.81   0.60 1.81          1.0      single-box            1.0       40.0             1.0
+     R775     48.59  -0.20    NaN  NaN          8.0      single-box            8.0        0.0             0.0
+     R747     49.33   0.32   1.07 3.21          1.0      single-box            1.0       40.0             0.0
+     R770     21.03   0.36   1.82 5.46          8.0      single-box            8.0        9.0             2.0
+
+ reach            |t - tc| <= 1 d  |t - tc| > 1 d
+class                                           
+eclipse-outside                5               1
+not null-vetoed                6               6
+self                           0               9
+single-box                     3               1
+
+self-matched: 9, offsets 1.32-6.20 d; in overlap mode all go to 0 exceedances, 4 with a null placed, 5 with none
+finds more than 1 d out with a null: 16, self-vetoed 9; finds within 1 d with a null: 12, self-vetoed 0
+
+the paper's A systems: events more than 1 d from the conjunction, observed and expected from each sigma (inside the window)
+  sig_tess_ind  App   n  80  observed  16  expected  21.9  P(<= observed) 0.119
+  sig_tess_ind  Fold  n  37  observed   0  expected   4.0  P(<= observed) 0.019
+  sig_tess_full App   n  80  observed  16  expected  11.4  P(<= observed) 0.928
+  sig_tess_full Fold  n  37  observed   0  expected   0.5  P(<= observed) 0.636
+  App pulls with the independent errors: standard deviation 1.09
+
+the 7-d cap: 45% of the 12760 main-search conjunction windows (mid-mission) sit at it
+  eclipses outside their window with sigma_T_independent_d: 9.0% (capped conjunctions 19.8%; SB1 9.8%, SB2 1.0%)
+  eclipses outside their window with sigma_T_corr_vec_d: 3.0% (capped conjunctions 6.6%; SB1 3.3%, SB2 0.2%)

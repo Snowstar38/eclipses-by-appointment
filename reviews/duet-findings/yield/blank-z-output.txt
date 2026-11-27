@@ -1,0 +1,68 @@
+G 11.5-12 appointment results: 2420 science stars with windows; null placed for 833, all 40 null windows for 610; z defined for 399
+
+by room outside the windows (window widths per orbit):
+               stars  null_placed  all_40  mad_0  z_defined
+rb
+(-0.01, 0.5]     634         0.01    0.01   0.01       0.00
+(0.5, 1.0]       391         0.10    0.06   0.07       0.03
+(1.0, 1.5]       435         0.27    0.14   0.20       0.08
+(1.5, 2.0]       373         0.50    0.33   0.33       0.18
+(2.0, 3.0]       356         0.75    0.53   0.44       0.31
+(3.0, 5.0]       166         0.89    0.84   0.22       0.67
+(5.0, 1000.0]     65         1.00    1.00   0.03       0.97
+
+stars with a null: MAD = 0 by null windows placed
+          size  mean
+n
+(0, 10]     60  0.98
+(10, 20]    72  0.90
+(20, 30]    42  0.90
+(30, 39]    49  0.80
+(39, 40]   610  0.38
+
+stars with all 40 null windows: MAD = 0 by room
+               size  mean
+room
+(0.0, 1.5]       92  0.53
+(1.5, 2.0]      123  0.52
+(2.0, 3.0]      190  0.46
+(3.0, 5.0]      140  0.22
+(5.0, 1000.0]    65  0.03
+
+main search, G < 11 science rows: 3709; z blank for 991 (the paper counts 165 with no null and 591 with MAD = 0, 756); window half-widths for 3629
+
+by room outside the windows:
+               stars  z_blank  blank_n
+room
+(-0.01, 0.5]     690     0.77      532
+(0.5, 1.0]       380     0.41      157
+(1.0, 1.5]       360     0.29      104
+(1.5, 2.0]       380     0.26       99
+(2.0, 3.0]       389     0.15       57
+(3.0, 5.0]       412     0.05       22
+(5.0, 1000.0]   1018     0.02       18
+room under 1.5 window widths: 1430 rows, 793 blank (80% of the blank rows with half-widths)
+
+z defined by room, main search (centre placement) against the G 11.5-12 rate (overlap placement):
+               stars  z_defined_centre  z_defined_overlap
+room
+(-0.01, 0.5]     690              0.23               0.00
+(0.5, 1.0]       380              0.59               0.03
+(1.0, 1.5]       360              0.71               0.08
+(1.5, 2.0]       380              0.74               0.18
+(2.0, 3.0]       389              0.85               0.31
+(3.0, 5.0]       412              0.95               0.67
+(5.0, 1000.0]   1018              0.98               0.97
+if the G < 11 rows' nulls were placed as in the G 11.5-12 search: z defined for 1493 of 3629 (41%) against 2640 (73%) as run
+
+by Gaia solution type:
+                   rows  z_blank  room_median
+nss_solution_type
+AstroSpectroSB1      80     0.02          NaN
+SB1                3126     0.31         1.73
+SB2                 492     0.05         9.44
+SB2C                 11     0.18         5.70
+
+reported A systems among these rows: 62; z blank for ['A27', 'A37', 'A40', 'A42', 'A51', 'A54', 'A64']; same as the paper's seven: True
+their room: A40 0.00, A42 0.00, A37 0.00, A51 0.43, A64 0.73, A27 0.95, A54 1.40
+reported A systems per 1,000 rows: z blank 7.1, z defined 20.2

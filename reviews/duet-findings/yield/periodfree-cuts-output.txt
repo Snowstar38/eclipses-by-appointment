@@ -1,0 +1,13 @@
+31 period-free finds at Gaia's period on main-search targets; pass every automated cut: R755
+failing each cut (a find can fail several): null 19, maxbox 17, far 9, lowz 7, faint 1
+failing only one cut: null 8, maxbox 3, far 1, lowz 1, faint 0
+failing one of the paper's own cuts (null window, far ratio, z, SNR): 27; only the triage script's maximum box: R765, R758, R743
+null-window vetoes: 19; with z >= 8 12, z < 8 4, z blank 3; null windows reaching the event: median 4 of 40 (2 where z >= 8, 20 where z < 8)
+null vetoes with z >= 8: R750 (z 470, 3 of 40), R744 (z 325, 2 of 40), R747 (z 61, 1 of 40), R726 (z 30, 1 of 40), R733 (z 26, 1 of 40), R756 (z 24, 3 of 40), R768 (z 22, 1 of 40), R746 (z 20, 2 of 40), R745 (z 19, 2 of 40), R752 (z 18, 8 of 40), R770 (z 16, 8 of 40), R735 (z 12, 6 of 40)
+
+by band:
+          null  maxbox  far  lowz  faint  finds
+band                                           
+G10-11       4       3    1     2      1      6
+G11-11.5    11      11    7     4      0     20
+G<10         4       3    1     1      0      5

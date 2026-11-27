@@ -1,0 +1,44 @@
+G 11.5-12 appointment results: 2479 stars (10 controls); 802 science stars without an accepted eclipse that have a null (73% with all 40 null windows; MAD = 0 for 53%)
+median over stars of (median of the per-window best SNRs - null median): -0.17; of (best over all windows - null median): +10.71
+so the null holds the single-window statistic and the tested event is the best of N windows.
+
+stars without an accepted eclipse and a null with MAD > 0 (380), by windows with an event:
+          stars  z_median  z_ge_8  best_above_every_null  same_shape_expectation
+nwin
+(0, 3]       32      1.85    0.22                   0.31                    0.05
+(3, 6]       85      4.60    0.38                   0.49                    0.11
+(6, 10]     155      8.90    0.53                   0.57                    0.18
+(10, 20]    108     11.10    0.56                   0.64                    0.27
+
+single windows of those stars (6186): share whose own best event beats every null window
+  by half-width (d): (0.0, 2.0] 0.03 (355), (2.0, 4.0] 0.17 (1590), (4.0, 7.01] 0.29 (4241)
+  by covered fraction: (0.0, 0.5] 0.15 (3015), (0.5, 0.95] 0.36 (2912), (0.95, 1.01] 0.14 (259)
+  by best box (h): 1 0.05 (904), 1.5 0.07 (305), 2 0.10 (403), 3 0.14 (546), 4 0.16 (286), 6 0.22 (331), 8 0.20 (332), 11 0.22 (418), 14 0.40 (2661)
+  the 14-h maximum box is the best event in 43% of windows
+
+main search, no known eclipser (4177 with z), by covered windows:
+            stars  z_median  z_ge_8
+nw
+(0, 3]        325      1.20    0.18
+(3, 6]        832      3.45    0.32
+(6, 10]      1194      5.30    0.40
+(10, 20]     1276      6.70    0.45
+(20, 1000]    550     11.85    0.62
+
+main search, catalogued (67 with z), by covered windows:
+            stars  z_median  z_ge_8
+nw
+(0, 3]          5      -0.1    0.40
+(3, 6]         12     134.1    0.83
+(6, 10]        14      11.3    0.64
+(10, 20]       29      28.4    0.72
+(20, 1000]      7      90.2    1.00
+
+main search, appointment finds (87 with z), by covered windows:
+            stars  z_median  z_ge_8
+nw
+(0, 3]          3    406.10    1.00
+(3, 6]         15    151.10    1.00
+(6, 10]        33    168.40    1.00
+(10, 20]       28     51.45    0.89
+(20, 1000]      8    291.25    1.00

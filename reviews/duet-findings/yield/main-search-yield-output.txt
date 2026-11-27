@@ -1,0 +1,114 @@
+6357 main-search rows; 40 are Gaia eclipsing binaries (controls, left out)
+window coverage calibrated on 2430 fresh-band targets: 1:0.28, 2:0.46, 4:0.70, 6:0.85, 9:0.95, 12:0.98, 15:0.99, 20:1.00
+6295 targets modelled (parallax > 0.2 mas, finite photometry); appointment finds 104, 101 at Gaia's period; period-free finds on the same targets 45 (31 at Gaia's period)
+appointment finds not at Gaia's period: A54 (3.02348 vs 38.96 d), A113 (23.6371 vs 37.66 d), A45 (31.1528 vs 21.68 d)
+
+by band:
+          targets  giants  expected  found  periodfree  found/expected  per_100_found  per_100_expected
+band
+G10-11       2318    0.28    153.93     45          10            0.29           1.94              6.64
+G11-11.5     2595    0.27    172.36     42          24            0.24           1.62              6.64
+G<10         1382    0.25     88.82     14          11            0.16           1.01              6.43
+
+by band and group:
+                            targets  giants  expected  found  periodfree  found/expected  per_100_found  per_100_expected
+band     group
+G10-11   deep (>=60 ppt)        947    0.03     55.80     25           6            0.45           2.64              5.89
+         long (>30 h)           198    0.99     34.37      7           3            0.20           3.54             17.36
+         shallow (<60 ppt)     1173    0.36     63.76     13           1            0.20           1.11              5.44
+G11-11.5 deep (>=60 ppt)       1106    0.02     62.76     28          10            0.45           2.53              5.67
+         long (>30 h)           202    1.00     35.93      2           7            0.06           0.99             17.79
+         shallow (<60 ppt)     1287    0.37     73.67     12           7            0.16           0.93              5.72
+G<10     deep (>=60 ppt)        613    0.02     39.01      6           5            0.15           0.98              6.36
+         long (>30 h)            92    0.93     15.31      2           4            0.13           2.17             16.64
+         shallow (<60 ppt)      677    0.36     34.51      6           2            0.17           0.89              5.10
+
+deep (>=60 ppt) by band and Gaia significance:
+                          targets  giants  expected  found  periodfree  found/expected  per_100_found  per_100_expected
+band     sig_band
+G10-11   (0.0, 15.0]          106    0.02      6.74      4           0            0.59           3.77              6.36
+         (15.0, 30.0]         190    0.02     10.90      2           3            0.18           1.05              5.73
+         (30.0, 60.0]         368    0.02     20.73      7           1            0.34           1.90              5.63
+         (60.0, 10000.0]      283    0.04     17.43     12           2            0.69           4.24              6.16
+G11-11.5 (0.0, 15.0]          180    0.01     10.83      4           1            0.37           2.22              6.02
+         (15.0, 30.0]         349    0.01     19.61      5           1            0.25           1.43              5.62
+         (30.0, 60.0]         448    0.02     24.89     12           7            0.48           2.68              5.55
+         (60.0, 10000.0]      129    0.06      7.44      7           1            0.94           5.43              5.76
+G<10     (0.0, 15.0]           28    0.00      2.07      0           0            0.00           0.00              7.40
+         (15.0, 30.0]          45    0.00      3.30      1           0            0.30           2.22              7.33
+         (30.0, 60.0]         144    0.01      8.95      1           1            0.11           0.69              6.21
+         (60.0, 10000.0]      396    0.03     24.69      4           4            0.16           1.01              6.23
+
+shallow (<60 ppt) by band and Gaia significance:
+                          targets  giants  expected  found  periodfree  found/expected  per_100_found  per_100_expected
+band     sig_band
+G10-11   (0.0, 15.0]          380    0.21     18.91      6           0            0.32           1.58              4.98
+         (15.0, 30.0]         323    0.27     16.43      3           1            0.18           0.93              5.09
+         (30.0, 60.0]         290    0.42     16.03      1           0            0.06           0.34              5.53
+         (60.0, 10000.0]      180    0.78     12.39      3           0            0.24           1.67              6.88
+G11-11.5 (0.0, 15.0]          503    0.21     26.55      1           0            0.04           0.20              5.28
+         (15.0, 30.0]         426    0.32     21.77      2           3            0.09           0.47              5.11
+         (30.0, 60.0]         260    0.54     16.91      3           2            0.18           1.15              6.51
+         (60.0, 10000.0]       98    0.91      8.44      6           2            0.71           6.12              8.62
+G<10     (0.0, 15.0]          174    0.39      5.68      0           0            0.00           0.00              3.27
+         (15.0, 30.0]         109    0.18      5.89      0           0            0.00           0.00              5.41
+         (30.0, 60.0]         168    0.24      8.78      1           0            0.11           0.60              5.23
+         (60.0, 10000.0]      226    0.52     14.15      5           2            0.35           2.21              6.26
+
+joint Poisson fit, found = expected x exp(X b), 5507 targets with a significance:
+  b0 (deep, sig 30, G<10)  -2.02 +- 0.30   factor 0.13
+  b1 shallow               -0.59 +- 0.20   factor 0.55
+  b2 long                  -1.51 +- 0.34   factor 0.22
+  b3 log10 sig             +1.23 +- 0.31   factor 3.44
+  b4 G10-11                +1.05 +- 0.30   factor 2.85
+  b5 G11-11.5              +1.02 +- 0.32   factor 2.79
+  found rate goes as significance^0.54 +- 0.13
+  band terms improve the fit by 2 dlogL = 13.2 for 2 parameters (p = 0.0014)
+  without band terms: deep factor 0.33, shallow x0.55 +- 0.11, long x0.27, significance^0.33
+
+per band, found against the band-free fit (depth, duration and significance only):
+          targets  found  predicted  geometric  found_per_100  predicted_per_100  geometric_per_100  p_poisson
+band
+G10-11       2018     45     36.284    153.934          2.230              1.798              7.628      0.090
+G11-11.5     2347     42     37.018    172.363          1.790              1.577              7.344      0.227
+G<10         1142     14     27.698     88.824          1.226              2.425              7.778      0.003
+
+period-free finds on main-search targets (45): by band {'G11-11.5': 24, 'G<10': 11, 'G10-11': 10}; by group {'deep (>=60 ppt)': 21, 'long (>30 h)': 14, 'shallow (<60 ppt)': 10}; at Gaia's period 31; median predicted depth 30 ppt, duration 13 h
+
+G<10 found/expected over G10-11 found/expected, per group:
+  deep (>=60 ppt)    0.15 / 0.45 = 0.34
+  shallow (<60 ppt)  0.17 / 0.20 = 0.85
+  long (>30 h)       0.13 / 0.20 = 0.64
+  extra term for deep eclipses at G<10: factor 0.33 (+0.58 in log), 2 dlogL = 3.6 (p = 0.058)
+
+robustness, found/expected per band:
+  default                G10-11: 45.0/153.9 = 0.29, G11-11.5: 42.0/172.4 = 0.24, G<10: 14.0/88.8 = 0.16
+  1 ppt floor            G10-11: 45.0/170.9 = 0.26, G11-11.5: 42.0/186.2 = 0.23, G<10: 14.0/97.5 = 0.14
+  5 ppt floor            G10-11: 45.0/130.5 = 0.34, G11-11.5: 42.0/148.5 = 0.28, G<10: 14.0/75.6 = 0.19
+  giants 2.0 Msun        G10-11: 45.0/157.6 = 0.29, G11-11.5: 42.0/173.1 = 0.24, G<10: 14.0/90.0 = 0.16
+  companion radii x1.2   G10-11: 45.0/169.1 = 0.27, G11-11.5: 42.0/185.5 = 0.23, G<10: 14.0/96.2 = 0.15
+  no window coverage     G10-11: 45.0/164.6 = 0.27, G11-11.5: 42.0/182.0 = 0.23, G<10: 14.0/96.4 = 0.15
+
+catalogued eclipsing binaries (Prsa 2022 or IJspeert 2024) among the modelled targets, none of them accepted: 81
+          expected  found  catalogued  catalogued_share  (found+catalogued)/expected
+band
+G10-11      153.93     45          31              0.41                         0.49
+G11-11.5    172.36     42          23              0.35                         0.38
+G<10         88.82     14          27              0.66                         0.46
+                            expected  found  catalogued  (found+catalogued)/expected
+band     group
+G10-11   deep (>=60 ppt)       55.80     25          24                         0.88
+         long (>30 h)          34.37      7           0                         0.20
+         shallow (<60 ppt)     63.76     13           7                         0.31
+G11-11.5 deep (>=60 ppt)       62.76     28          18                         0.73
+         long (>30 h)          35.93      2           0                         0.06
+         shallow (<60 ppt)     73.67     12           5                         0.23
+G<10     deep (>=60 ppt)       39.01      6          17                         0.59
+         long (>30 h)          15.31      2           1                         0.20
+         shallow (<60 ppt)     34.51      6           9                         0.43
+  found or catalogued, joint fit: band factors G10-11 1.31 +- 0.28, G11-11.5 1.05 +- 0.24 (relative to G<10); band terms 2 dlogL = 2.6 (p = 0.27)
+          found_or_catalogued  predicted  p_poisson
+band
+G10-11                   76.0     65.509      0.110
+G11-11.5                 65.0     70.567      0.277
+G<10                     41.0     45.925      0.261
